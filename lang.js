@@ -7,7 +7,7 @@ const content = {
     "hero.subtitle":
       "ValueApp supports public and private clients in modelling workloads and fees for architects, civil engineers and building services engineers – traceable, transparent and legally robust.",
     "hero.meta":
-      "Project by Professur für Architektur und Bauprozess, ETH Zurich. Developed further and applied in practice by a r c experts. Public Procurement Conference 2025.",
+      "Developed at the Chair of Architecture and Construction Process at ETH Zurich and applied in practice by a r c experts.",
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Method",
@@ -81,10 +81,7 @@ const content = {
       "The Value Method is implemented digitally in the ValueApp.",
     "sidebar.digitalText2":
       "National versions are currently available for Luxembourg (in partnership with OAI) and Switzerland (in collaboration with SIA).",
-
-    "sidebar.conferenceTitle": "Public Procurement Conference 2025",
-    "sidebar.conferenceText":
-      "This presentation is part of the contribution to the Public Procurement Conference 2025 and shows how transparency, fairness and efficiency can be translated into planning practice.",
+    "sidebar.partnersLabel": "In collaboration with",
 
     "sidebar.tag1": "Transparency",
     "sidebar.tag2": "Fair procurement",
@@ -97,10 +94,12 @@ const content = {
       "At a r c experts AG for questions on application in practice:",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Professur für Architektur und Bauprozess · in collaboration with a r c experts AG.",
-    "footer.arcSite": "a r c experts website",
+      "© 2025 ETH Zürich, Chair of Architecture and Construction Process · in collaboration with a r c experts AG.",
     "footer.cookies":
-      "This site uses only functional cookies to improve the user experience."
+      "This site uses only functional cookies to improve the user experience.",
+
+    "aiNotice":
+      "Note: All language versions on this page have been translated and refined with the help of AI."
   },
 
   de: {
@@ -111,7 +110,7 @@ const content = {
     "hero.subtitle":
       "Die ValueApp unterstützt öffentliche und private Auftraggeber:innen bei der Modellierung von Arbeitsaufwand und Honoraren für Architekt:innen, Bauingenieur:innen und Gebäudetechniker:innen – nachvollziehbar, transparent und rechtssicher.",
     "hero.meta":
-      "Projekt der Professur für Architektur und Bauprozess, ETH Zürich. Weiterentwicklung und Anwendung in der Praxis durch a r c experts. Konferenz öffentliche Beschaffung 2025.",
+      "Entwickelt an der Professur für Architektur und Bauprozess der ETH Zürich und in der Praxis angewendet durch a r c experts.",
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Methode",
@@ -185,10 +184,7 @@ const content = {
       "Die Value Method ist in der ValueApp digital umgesetzt.",
     "sidebar.digitalText2":
       "Nationale Versionen stehen aktuell für Luxemburg (in Zusammenarbeit mit dem OAI) und die Schweiz (in Kooperation mit der SIA) zur Verfügung.",
-
-    "sidebar.conferenceTitle": "Konferenz öffentliche Beschaffung 2025",
-    "sidebar.conferenceText":
-      "Dieser Beitrag ist Teil der Konferenz öffentliche Beschaffung 2025 und zeigt, wie Transparenz, Fairness und Effizienz in die Planungspraxis übersetzt werden können.",
+    "sidebar.partnersLabel": "In Zusammenarbeit mit",
 
     "sidebar.tag1": "Transparenz",
     "sidebar.tag2": "Faire Beschaffung",
@@ -202,9 +198,11 @@ const content = {
 
     "footer.copyright":
       "© 2025 ETH Zürich, Professur für Architektur und Bauprozess · in Zusammenarbeit mit a r c experts AG.",
-    "footer.arcSite": "Website a r c experts",
     "footer.cookies":
-      "Diese Seite verwendet nur funktionale Cookies, um das Nutzererlebnis zu verbessern."
+      "Diese Seite verwendet nur funktionale Cookies, um das Nutzererlebnis zu verbessern.",
+
+    "aiNotice":
+      "Hinweis: Alle Sprachversionen auf dieser Seite wurden mit Hilfe von KI übersetzt und sprachlich überarbeitet."
   },
 
   fr: {
@@ -215,7 +213,7 @@ const content = {
     "hero.subtitle":
       "ValueApp aide les maîtres d’ouvrage publics et privés à modéliser charges de travail et honoraires des architectes, ingénieur·e·s civils et spécialistes techniques – de manière traçable, transparente et conforme au droit.",
     "hero.meta":
-      "Projet de la Chaire d’architecture et processus de construction, ETH Zurich. Développement et application dans la pratique par a r c experts. Conférence sur les marchés publics 2025.",
+      "Développée à la Chaire d’architecture et processus de construction de l’ETH Zurich et mise en œuvre dans la pratique par a r c experts.",
 
     "nav.valueDelivery": "Création de valeur",
     "nav.method": "Méthode",
@@ -272,7 +270,7 @@ const content = {
 
     "leadership.domainsTitle": "Les cinq domaines",
     "leadership.clear":
-      "Claire: relation cause-effet simple ; les décisions s’appuient sur des bonnes pratiques établies.",
+      "Claire : relation cause-effet simple ; les décisions s’appuient sur des bonnes pratiques établies.",
     "leadership.complicated":
       "Compliquée : les relations sont analysables mais nécessitent une expertise ; les décisions suivent des good practices et l’avis d’expert.",
     "leadership.complex":
@@ -289,10 +287,7 @@ const content = {
       "La Value Method est implémentée numériquement dans la ValueApp.",
     "sidebar.digitalText2":
       "Des versions nationales existent actuellement pour le Luxembourg (en partenariat avec l’OAI) et pour la Suisse (en collaboration avec la SIA).",
-
-    "sidebar.conferenceTitle": "Conférence sur les marchés publics 2025",
-    "sidebar.conferenceText":
-      "Cette présentation fait partie de la contribution à la Conférence sur les marchés publics 2025 et montre comment transparence, équité et efficience peuvent être intégrées dans la pratique de la planification.",
+    "sidebar.partnersLabel": "En collaboration avec",
 
     "sidebar.tag1": "Transparence",
     "sidebar.tag2": "Marchés publics équitables",
@@ -306,9 +301,11 @@ const content = {
 
     "footer.copyright":
       "© 2025 ETH Zürich, Chaire d’architecture et processus de construction · en collaboration avec a r c experts AG.",
-    "footer.arcSite": "Site a r c experts",
     "footer.cookies":
-      "Ce site utilise uniquement des cookies fonctionnels afin d’améliorer l’expérience utilisateur."
+      "Ce site utilise uniquement des cookies fonctionnels afin d’améliorer l’expérience utilisateur.",
+
+    "aiNotice":
+      "Remarque : Toutes les versions linguistiques de cette page ont été traduites et affinées à l’aide de l’IA."
   },
 
   it: {
@@ -319,7 +316,7 @@ const content = {
     "hero.subtitle":
       "ValueApp supporta committenti pubblici e privati nella modellazione dei carichi di lavoro e degli onorari per architetti, ingegneri civili e specialisti degli impianti – in modo tracciabile, trasparente e conforme al diritto.",
     "hero.meta":
-      "Progetto della Cattedra di architettura e processo edilizio, ETH Zurigo. Sviluppo e applicazione nella pratica a cura di a r c experts. Conferenza sugli appalti pubblici 2025.",
+      "Sviluppata presso la Cattedra di architettura e processo edilizio dell’ETH Zurigo e applicata nella pratica da a r c experts.",
 
     "nav.valueDelivery": "Creazione di valore",
     "nav.method": "Metodo",
@@ -393,10 +390,7 @@ const content = {
       "La Value Method è implementata digitalmente nella ValueApp.",
     "sidebar.digitalText2":
       "Sono attualmente disponibili versioni nazionali per il Lussemburgo (in collaborazione con OAI) e per la Svizzera (in collaborazione con SIA).",
-
-    "sidebar.conferenceTitle": "Conferenza sugli appalti pubblici 2025",
-    "sidebar.conferenceText":
-      "Questa presentazione fa parte del contributo alla Conferenza sugli appalti pubblici 2025 e mostra come trasparenza, equità ed efficienza possano essere trasferite nella pratica di progettazione.",
+    "sidebar.partnersLabel": "In collaborazione con",
 
     "sidebar.tag1": "Trasparenza",
     "sidebar.tag2": "Appalti equi",
@@ -410,9 +404,11 @@ const content = {
 
     "footer.copyright":
       "© 2025 ETH Zürich, Cattedra di architettura e processo edilizio · in collaborazione con a r c experts AG.",
-    "footer.arcSite": "Sito a r c experts",
     "footer.cookies":
-      "Questo sito utilizza esclusivamente cookie funzionali per migliorare l’esperienza utente."
+      "Questo sito utilizza esclusivamente cookie funzionali per migliorare l’esperienza utente.",
+
+    "aiNotice":
+      "Nota: Tutte le versioni linguistiche di questa pagina sono state tradotte e rifinite con l’aiuto dell’IA."
   },
 
   es: {
@@ -423,7 +419,7 @@ const content = {
     "hero.subtitle":
       "ValueApp apoya a entidades públicas y privadas en la modelización de cargas de trabajo y honorarios para arquitectos, ingenieros civiles y de instalaciones – de forma trazable, transparente y jurídicamente sólida.",
     "hero.meta":
-      "Proyecto de la Cátedra de Arquitectura y Proceso de Construcción de la ETH Zúrich. Desarrollado y aplicado en la práctica por a r c experts. Conferencia de Contratación Pública 2025.",
+      "Desarrollada en la Cátedra de Arquitectura y Proceso de Construcción de la ETH Zúrich y aplicada en la práctica por a r c experts.",
 
     "nav.valueDelivery": "Creación de valor",
     "nav.method": "Método",
@@ -451,7 +447,7 @@ const content = {
     "timeEffort.p1":
       "La Value Method utiliza modelos base con intervalos de predicción que cubren alrededor del 80% de los casos comparables. Estos intervalos se estructuran en deciles y reflejan la variación típica entre proyectos.",
     "timeEffort.p2":
-      "El objetivo no es una pseudo-precisión numérica, sino un rango plausible y transparente del esfuerzo de planificación. Los casos en los deciles extremos – especialmente el 1.º y el 10.º – indican requisitos especiales y exigen una reflexión cualitativa.",
+      "El objetivo no es una pseudo-precisión numérica, sino un rango plausible y transparente del esfuerzo de planificación. Los casos en los deciles extremos – especialmente el 1º y el 10º – indican requisitos especiales y exigen una reflexión cualitativa.",
 
     "baseModels.title": "Modelos base de la Value Method",
     "baseModels.intro":
@@ -497,10 +493,7 @@ const content = {
       "La Value Method se implementa digitalmente en la ValueApp.",
     "sidebar.digitalText2":
       "Actualmente existen versiones nacionales para Luxemburgo (en colaboración con la OAI) y para Suiza (en colaboración con la SIA).",
-
-    "sidebar.conferenceTitle": "Conferencia de Contratación Pública 2025",
-    "sidebar.conferenceText":
-      "Esta presentación forma parte de la contribución a la Conferencia de Contratación Pública 2025 y muestra cómo la transparencia, la equidad y la eficiencia pueden trasladarse a la práctica de la planificación.",
+    "sidebar.partnersLabel": "En colaboración con",
 
     "sidebar.tag1": "Transparencia",
     "sidebar.tag2": "Contratación justa",
@@ -514,9 +507,11 @@ const content = {
 
     "footer.copyright":
       "© 2025 ETH Zürich, Cátedra de Arquitectura y Proceso de Construcción · en colaboración con a r c experts AG.",
-    "footer.arcSite": "Sitio web de a r c experts",
     "footer.cookies":
-      "Este sitio utiliza únicamente cookies funcionales para mejorar la experiencia del usuario."
+      "Este sitio utiliza únicamente cookies funcionales para mejorar la experiencia del usuario.",
+
+    "aiNotice":
+      "Aviso: Todas las versiones lingüísticas de esta página han sido traducidas y refinadas con la ayuda de IA."
   },
 
   pt: {
@@ -527,7 +522,7 @@ const content = {
     "hero.subtitle":
       "A ValueApp apoia entidades públicas e privadas na modelação da carga de trabalho e dos honorários de arquitetos, engenheiros civis e especialistas de sistemas técnicos – de forma rastreável, transparente e juridicamente robusta.",
     "hero.meta":
-      "Projeto da Cátedra de Arquitetura e Processo de Construção da ETH Zurique. Desenvolvido e aplicado na prática pela a r c experts. Conferência de Contratação Pública 2025.",
+      "Desenvolvida na Cátedra de Arquitetura e Processo de Construção da ETH Zurique e aplicada na prática pela a r c experts.",
 
     "nav.valueDelivery": "Criação de valor",
     "nav.method": "Método",
@@ -584,11 +579,11 @@ const content = {
 
     "leadership.domainsTitle": "Os cinco domínios",
     "leadership.clear":
-      "Claro: a relação causa-efeito é simples; as decisões seguem best practices estabelecidas.",
+      "Claro: a relação causa–efeito é simples; as decisões seguem best practices estabelecidas.",
     "leadership.complicated":
       "Complicado: as relações podem ser analisadas, mas exigem especialização; as decisões baseiam-se em good practices e na avaliação de peritos.",
     "leadership.complex":
-      "Complexo: a relação causa-efeito só é reconhecível a posteriori; as soluções emergem por experimentação e reconhecimento de padrões.",
+      "Complexo: a relação causa–efeito só é reconhecível a posteriori; as soluções emergem por experimentação e reconhecimento de padrões.",
     "leadership.chaotic":
       "Caótico: não há ordem visível; é necessária ação imediata de estabilização antes de qualquer análise.",
     "leadership.disorder":
@@ -601,10 +596,7 @@ const content = {
       "A Value Method é implementada digitalmente na ValueApp.",
     "sidebar.digitalText2":
       "Existem atualmente versões nacionais para o Luxemburgo (em cooperação com a OAI) e para a Suíça (em cooperação com a SIA).",
-
-    "sidebar.conferenceTitle": "Conferência de Contratação Pública 2025",
-    "sidebar.conferenceText":
-      "Esta apresentação faz parte da contribuição para a Conferência de Contratação Pública 2025 e mostra como transparência, equidade e eficiência podem ser traduzidas na prática de projeto.",
+    "sidebar.partnersLabel": "Em colaboração com",
 
     "sidebar.tag1": "Transparência",
     "sidebar.tag2": "Contratação justa",
@@ -618,9 +610,11 @@ const content = {
 
     "footer.copyright":
       "© 2025 ETH Zürich, Cátedra de Arquitetura e Processo de Construção · em colaboração com a r c experts AG.",
-    "footer.arcSite": "Website da a r c experts",
     "footer.cookies":
-      "Este site utiliza apenas cookies funcionais para melhorar a experiência do utilizador."
+      "Este site utiliza apenas cookies funcionais para melhorar a experiência do utilizador.",
+
+    "aiNotice":
+      "Nota: Todas as versões linguísticas desta página foram traduzidas e aperfeiçoadas com a ajuda de IA."
   }
 };
 
@@ -648,10 +642,7 @@ function setLanguage(lang) {
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("langToggle");
   const menu = document.getElementById("langMenu");
-  const navToggle = document.getElementById("navToggle");
-  const mainNav = document.querySelector(".main-nav");
 
-  /* Language dropdown */
   if (toggle && menu) {
     toggle.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -675,32 +666,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("click", () => {
       menu.classList.remove("open");
       toggle.setAttribute("aria-expanded", "false");
-    });
-  }
-
-  /* Mobile nav dropdown */
-  if (navToggle && mainNav) {
-    navToggle.addEventListener("click", (e) => {
-      e.stopPropagation();
-      const isOpen = mainNav.classList.contains("open");
-      mainNav.classList.toggle("open", !isOpen);
-      navToggle.setAttribute("aria-expanded", String(!isOpen));
-    });
-
-    // Close nav when a section link is clicked (on mobile)
-    mainNav.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        mainNav.classList.remove("open");
-        navToggle.setAttribute("aria-expanded", "false");
-      });
-    });
-
-    // Optional: close when clicking outside
-    document.addEventListener("click", (e) => {
-      if (!mainNav.contains(e.target) && e.target !== navToggle) {
-        mainNav.classList.remove("open");
-        navToggle.setAttribute("aria-expanded", "false");
-      }
     });
   }
 

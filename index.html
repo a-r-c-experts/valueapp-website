@@ -4,18 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ValueApp – ETH Value Method by a r c experts</title>
+
+  <!-- Favicon: place favicon.png in the project root -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
   <header>
     <div class="top-bar">
+      <!-- Brand text -->
       <div class="brand-text-only">
         <span class="brand-line-main">ValueApp</span>
         <span class="brand-line-sub">ETH Value Method · a r c experts</span>
       </div>
 
-      <nav class="main-nav">
+      <!-- Desktop navigation -->
+      <nav class="main-nav desktop-nav">
         <a href="#value-delivery" data-i18n="nav.valueDelivery"></a>
         <a href="#method" data-i18n="nav.method"></a>
         <a href="#time-effort" data-i18n="nav.timeEffort"></a>
@@ -23,12 +29,28 @@
         <a href="#leadership" data-i18n="nav.leadership"></a>
       </nav>
 
+      <!-- Mobile dropdown navigation -->
+      <div class="mobile-nav-wrapper">
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-expanded="false">
+          ☰
+        </button>
+        <div class="mobile-nav-menu" id="mobileNavMenu">
+          <a href="#value-delivery" data-i18n="nav.valueDelivery"></a>
+          <a href="#method" data-i18n="nav.method"></a>
+          <a href="#time-effort" data-i18n="nav.timeEffort"></a>
+          <a href="#base-models" data-i18n="nav.baseModels"></a>
+          <a href="#leadership" data-i18n="nav.leadership"></a>
+        </div>
+      </div>
+
+      <!-- Language dropdown -->
       <div class="lang-switcher">
         <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
           <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
           <span class="lang-current" id="currentLangLabel">EN</span>
           <span class="lang-chevron">▾</span>
         </button>
+
         <div class="lang-menu" id="langMenu" aria-label="Select language">
           <button class="lang-option" data-lang="en">EN</button>
           <button class="lang-option" data-lang="de">DE</button>
@@ -42,24 +64,22 @@
   </header>
 
   <main id="top">
+    <!-- HERO -->
     <section class="hero">
       <div class="hero-logo-wrapper">
-        <img src="Logo_01_300.png" alt="ValueApp Logo" class="hero-logo" />
+        <!-- New animated logo -->
+        <img src="logos/logo_ValueApp.gif" alt="ValueApp Logo" class="hero-logo" />
       </div>
       <div class="hero-text">
         <div class="hero-kicker" data-i18n="hero.kicker"></div>
         <h1 class="hero-title" data-i18n="hero.title"></h1>
         <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
-
-        <!-- NEW: embedded video directly under the subtitle -->
-        <div class="hero-video">
-          <video controls preload="metadata">
-            <source src="Value Method english.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-
         <div class="hero-meta" data-i18n="hero.meta"></div>
+
+        <video class="hero-video" controls preload="metadata">
+          <source src="Value Method english.mp4" type="video/mp4" />
+          Your browser does not support embedded video.
+        </video>
       </div>
     </section>
 
@@ -122,26 +142,29 @@
           <h3 data-i18n="sidebar.digitalTitle"></h3>
           <p data-i18n="sidebar.digitalText1"></p>
           <p data-i18n="sidebar.digitalText2"></p>
+
+          <!-- Partner logos: ETH, OAI, SIA -->
+          <div class="partner-strip">
+            <div class="partner-label" data-i18n="sidebar.partnersLabel"></div>
+            <div class="partner-logos">
+              <img src="logos/logo_ETH.png" alt="ETH Zürich" />
+              <img src="logos/logo_OAI.jpg" alt="OAI" />
+              <img src="logos/logo_SIA.png" alt="SIA" />
+            </div>
+          </div>
         </div>
 
         <div class="sidebar-card contact-block">
           <h3 data-i18n="contact.title"></h3>
           <p><strong>Axel Paulus</strong></p>
           <p>
-            <span data-i18n="contact.ethLabel"></span>
-            <br />
+            <span data-i18n="contact.ethLabel"></span><br />
             <a href="mailto:paulus@arch.ethz.ch">paulus@arch.ethz.ch</a>
           </p>
           <p>
-            <span data-i18n="contact.arcLabel"></span>
-            <br />
+            <span data-i18n="contact.arcLabel"></span><br />
             <a href="mailto:apaulus@arcexperts.ch">apaulus@arcexperts.ch</a>
           </p>
-        </div>
-
-        <div class="sidebar-card">
-          <h3 data-i18n="sidebar.conferenceTitle"></h3>
-          <p data-i18n="sidebar.conferenceText"></p>
         </div>
 
         <div class="sidebar-card">
@@ -153,23 +176,46 @@
     </div>
   </main>
 
+  <!-- AI translation notice -->
+  <div class="ai-notice">
+    <span data-i18n="aiNotice"></span>
+  </div>
+
   <footer>
     <div class="footer-inner">
-      <div>
+      <div class="footer-left">
         <span data-i18n="footer.copyright"></span>
-      </div>
-      <div class="footer-links">
-        <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer"
-          data-i18n="footer.arcSite"></a>
-        <span>|</span>
-        <span data-i18n="footer.cookies"></span>
+        <span class="footer-cookies" data-i18n="footer.cookies"></span>
       </div>
       <div class="footer-logos">
-        <!-- Optional partner logos -->
+        <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer">
+          <img src="logos/logo_arc.png" alt="a r c experts" />
+        </a>
       </div>
     </div>
   </footer>
 
   <script src="lang.js"></script>
+
+  <script>
+    // Mobile nav toggle
+    const mobileToggle = document.getElementById("mobileNavToggle");
+    const mobileMenu = document.getElementById("mobileNavMenu");
+
+    if (mobileToggle && mobileMenu) {
+      mobileToggle.addEventListener("click", () => {
+        const isOpen = mobileMenu.classList.toggle("open");
+        mobileToggle.setAttribute("aria-expanded", String(isOpen));
+      });
+
+      // Close menu when clicking a link (mobile)
+      mobileMenu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("open");
+          mobileToggle.setAttribute("aria-expanded", "false");
+        });
+      });
+    }
+  </script>
 </body>
 </html>
