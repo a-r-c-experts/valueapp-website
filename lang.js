@@ -5,7 +5,7 @@ const content = {
     "hero.title":
       "Transparent time-effort and fee calculation for planning teams.",
     "hero.subtitle":
-      "ValueApp supports public and private clients in modelling workloads and fees for architects, civil engineers and building services engineers – traceable, transparent and legally robust.",
+      "ValueApp is the digital implementation of the Value Method and supports public and private clients in modelling workloads and fees for architects, civil engineers and building services engineers – traceable, transparent and legally robust.",
     "hero.meta":
       "Developed at the Chair of Architecture and Construction Process at ETH Zurich and applied in practice by <span class=\"nowrap\">a r c experts</span>.",
 
@@ -83,7 +83,7 @@ const content = {
     "sidebar.digitalText1":
       "The Value Method is implemented digitally in the ValueApp.",
     "sidebar.digitalText2":
-      "National versions are currently available for Luxembourg (in partnership with OAI) and Switzerland (in collaboration with SIA).",
+      "National versions are currently available for Switzerland (in collaboration with SIA) and Luxembourg (in partnership with OAI).",
 
     "sidebar.conferenceTitle": "Public procurement in practice",
     "sidebar.conferenceText":
@@ -114,7 +114,7 @@ const content = {
     "hero.title":
       "Transparente Aufwands- und Honorarkalkulation für Planungsteams.",
     "hero.subtitle":
-      "Die ValueApp unterstützt öffentliche und private Auftraggeber:innen bei der Modellierung von Arbeitsaufwand und Honoraren für Architekt:innen, Bauingenieur:innen und Gebäudetechniker:innen – nachvollziehbar, transparent und rechtssicher.",
+      "Die ValueApp ist die digitale Umsetzung der Value Method und unterstützt öffentliche und private Auftraggeber:innen bei der Modellierung von Arbeitsaufwand und Honoraren für Architekt:innen, Bauingenieur:innen und Gebäudetechniker:innen – nachvollziehbar, transparent und rechtssicher.",
     "hero.meta":
       "Entwickelt an der Professur für Architektur und Bauprozess der ETH Zürich und in der Praxis angewendet durch <span class=\"nowrap\">a r c experts</span>.",
 
@@ -192,7 +192,7 @@ const content = {
     "sidebar.digitalText1":
       "Die Value Method ist in der ValueApp digital umgesetzt.",
     "sidebar.digitalText2":
-      "Nationale Versionen stehen aktuell für Luxemburg (in Zusammenarbeit mit dem OAI) und die Schweiz (in Kooperation mit der SIA) zur Verfügung.",
+      "Nationale Versionen stehen aktuell für die Schweiz (in Kooperation mit der SIA) und Luxemburg (in Zusammenarbeit mit dem OAI) zur Verfügung.",
 
     "sidebar.conferenceTitle": "Öffentliche Beschaffung in der Praxis",
     "sidebar.conferenceText":
@@ -223,7 +223,7 @@ const content = {
     "hero.title":
       "Calcul transparent du temps d’étude et des honoraires pour les équipes de projet.",
     "hero.subtitle":
-      "ValueApp aide les maîtres d’ouvrage publics et privés à modéliser charges de travail et honoraires des architectes, ingénieur·e·s civils et spécialistes techniques – de manière traçable, transparente et conforme au droit.",
+      "La ValueApp est la mise en œuvre numérique de la Value Method et aide les maîtres d’ouvrage publics et privés à modéliser charges de travail et honoraires des architectes, ingénieur·e·s civils et spécialistes techniques – de manière traçable, transparente et conforme au droit.",
     "hero.meta":
       "Développée à la Chaire d’architecture et processus de construction de l’ETH Zurich et appliquée dans la pratique par <span class=\"nowrap\">a r c experts</span>.",
 
@@ -301,7 +301,7 @@ const content = {
     "sidebar.digitalText1":
       "La Value Method est implémentée numériquement dans la ValueApp.",
     "sidebar.digitalText2":
-      "Des versions nationales existent actuellement pour le Luxembourg (en partenariat avec l’OAI) et pour la Suisse (en collaboration avec la SIA).",
+      "Des versions nationales existent actuellement pour la Suisse (en collaboration avec la SIA) et pour le Luxembourg (en partenariat avec l’OAI).",
 
     "sidebar.conferenceTitle": "Marchés publics et pratique",
     "sidebar.conferenceText":
@@ -316,7 +316,6 @@ const content = {
       "À l’ETH Zurich pour les questions sur la Value Method :",
     "contact.arcLabel":
       "Chez <span class=\"nowrap\">a r c experts AG</span> pour les questions d’application pratique :",
-
 
     "aiNote.text":
       "Remarque : Les versions non anglophones de cette page ont d’abord été traduites avec une IA, puis relues.",
@@ -333,7 +332,7 @@ const content = {
     "hero.title":
       "Calcolo trasparente di tempi e onorari per i team di progettazione.",
     "hero.subtitle":
-      "ValueApp supporta committenti pubblici e privati nella modellazione dei carichi di lavoro e degli onorari per architetti, ingegneri civili e specialisti degli impianti – in modo tracciabile, trasparente e conforme al diritto.",
+      "La ValueApp è l’implementazione digitale della Value Method e supporta committenti pubblici e privati nella modellazione dei carichi di lavoro e degli onorari per architetti, ingegneri civili e specialisti degli impianti – in modo tracciabile, trasparente e conforme al diritto.",
     "hero.meta":
       "Sviluppata presso la Cattedra di architettura e processo edilizio dell’ETH Zurigo e applicata nella pratica da <span class=\"nowrap\">a r c experts</span>.",
 
@@ -411,7 +410,7 @@ const content = {
     "sidebar.digitalText1":
       "La Value Method è implementata digitalmente nella ValueApp.",
     "sidebar.digitalText2":
-      "Sono attualmente disponibili versioni nazionali per il Lussemburgo (in collaborazione con OAI) e per la Svizzera (in collaborazione con SIA).",
+      "Sono attualmente disponibili versioni nazionali per la Svizzera (in collaborazione con la SIA) e per il Lussemburgo (in collaborazione con l’OAI).",
 
     "sidebar.conferenceTitle": "Appalti pubblici e pratica",
     "sidebar.conferenceText":
@@ -442,12 +441,12 @@ const content = {
     "hero.title":
       "Cálculo transparente del esfuerzo y de los honorarios para equipos de planificación.",
     "hero.subtitle":
-      "ValueApp apoya a entidades públicas y privadas en la modelización de cargas de trabajo y honorarios para arquitectos, ingenieros civiles y de instalaciones – de forma trazable, transparente y jurídicamente sólida.",
+      "ValueApp es la implementación digital de la Value Method y apoya a entidades públicas y privadas en la modelización de cargas de trabajo y honorarios para arquitectos, ingenieros civiles y de instalaciones – de forma trazable, transparente y jurídicamente sólida.",
     "hero.meta":
       "Desarrollada en la Cátedra de Arquitectura y Proceso de Construcción de la ETH Zúrich y aplicada en la práctica por <span class=\"nowrap\">a r c experts</span>.",
 
     "partners.label":
-      "Desarrollada con socios institucionales",
+      "Desarrollada với socios institucionales",
 
     "nav.valueDelivery": "Creación de valor",
     "nav.method": "Método",
@@ -520,7 +519,7 @@ const content = {
     "sidebar.digitalText1":
       "La Value Method se implementa digitalmente en la ValueApp.",
     "sidebar.digitalText2":
-      "Actualmente existen versiones nacionales para Luxemburgo (en colaboración con la OAI) y para Suiza (en colaboración con la SIA).",
+      "Actualmente existen versiones nacionales para Suiza (en colaboración con la SIA) y para Luxemburgo (en colaboración con la OAI).",
 
     "sidebar.conferenceTitle": "Contratación pública y práctica",
     "sidebar.conferenceText":
@@ -551,7 +550,7 @@ const content = {
     "hero.title":
       "Cálculo transparente de esforço e honorários para equipas de projeto.",
     "hero.subtitle":
-      "A ValueApp apoia entidades públicas e privadas na modelação da carga de trabalho e dos honorários de arquitetos, engenheiros civis e especialistas de sistemas técnicos – de forma rastreável, transparente e juridicamente robusta.",
+      "A ValueApp é a implementação digital da Value Method e apoia entidades públicas e privadas na modelação da carga de trabalho e dos honorários de arquitetos, engenheiros civis e especialistas de sistemas técnicos – de forma rastreável, transparente e juridicamente robusta.",
     "hero.meta":
       "Desenvolvida na Cátedra de Arquitetura e Processo de Construção da ETH Zurique e aplicada na prática por <span class=\"nowrap\">a r c experts</span>.",
 
@@ -629,7 +628,7 @@ const content = {
     "sidebar.digitalText1":
       "A Value Method é implementada digitalmente na ValueApp.",
     "sidebar.digitalText2":
-      "Existem atualmente versões nacionais para o Luxemburgo (em cooperação com a OAI) e para a Suíça (em cooperação com a SIA).",
+      "Existem atualmente versões nacionais para a Suíça (em cooperação com a SIA) e para o Luxemburgo (em cooperação com a OAI).",
 
     "sidebar.conferenceTitle": "Contratação pública e prática",
     "sidebar.conferenceText":
