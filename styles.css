@@ -177,11 +177,6 @@ section[id] {
   background: var(--chip-bg);
 }
 
-.lang-option.active {
-  background: var(--accent);
-  color: #ffffff;
-}
-
 /* MAIN LAYOUT */
 
 main {
@@ -218,9 +213,10 @@ main {
   margin-bottom: 18px;
 }
 
+/* Bigger logo: desktop slightly, mobile ~2x */
 .hero-logo {
-  max-width: 480px;
-  width: 40vw;
+  max-width: 560px;
+  width: 45vw;
   height: auto;
 }
 
@@ -251,6 +247,22 @@ main {
 .hero-subtitle {
   font-size: 1.05rem;
   color: var(--muted);
+}
+
+/* NEW: video in hero */
+
+.hero-video {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-video video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
 }
 
 .hero-meta {
@@ -427,11 +439,12 @@ footer .footer-inner {
     margin-top: 24px;
   }
 
+  /* Mobile logo ~2x previous */
   .hero-logo {
-    max-width: 280px;
+    max-width: 420px;
   }
 
   .main-nav {
-    gap: 20px;
+    gap: 14px;
   }
 }

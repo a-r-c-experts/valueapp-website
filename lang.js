@@ -648,7 +648,10 @@ function setLanguage(lang) {
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("langToggle");
   const menu = document.getElementById("langMenu");
+  const navToggle = document.getElementById("navToggle");
+  const mainNav = document.querySelector(".main-nav");
 
+  /* Language dropdown */
   if (toggle && menu) {
     toggle.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -672,6 +675,32 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("click", () => {
       menu.classList.remove("open");
       toggle.setAttribute("aria-expanded", "false");
+    });
+  }
+
+  /* Mobile nav dropdown */
+  if (navToggle && mainNav) {
+    navToggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = mainNav.classList.contains("open");
+      mainNav.classList.toggle("open", !isOpen);
+      navToggle.setAttribute("aria-expanded", String(!isOpen));
+    });
+
+    // Close nav when a section link is clicked (on mobile)
+    mainNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        mainNav.classList.remove("open");
+        navToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // Optional: close when clicking outside
+    document.addEventListener("click", (e) => {
+      if (!mainNav.contains(e.target) && e.target !== navToggle) {
+        mainNav.classList.remove("open");
+        navToggle.setAttribute("aria-expanded", "false");
+      }
     });
   }
 
