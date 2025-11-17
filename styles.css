@@ -515,5 +515,6 @@ footer .footer-inner {
 
   .hero-logo {
     max-width: 360px; /* ~2x former mobile size */
+    width: 75vw;
   }
 }
