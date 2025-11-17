@@ -7,7 +7,10 @@ const content = {
     "hero.subtitle":
       "ValueApp supports public and private clients in modelling workloads and fees for architects, civil engineers and building services engineers – traceable, transparent and legally robust.",
     "hero.meta":
-      "Developed at the Chair of Architecture and Construction Process at ETH Zurich and applied in practice by a r c experts.",
+      "Developed at the Chair of Architecture and Construction Process at ETH Zurich and applied in practice by <span class=\"nowrap\">a r c experts</span>.",
+
+    "partners.label":
+      "Developed with institutional partners",
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Method",
@@ -81,7 +84,10 @@ const content = {
       "The Value Method is implemented digitally in the ValueApp.",
     "sidebar.digitalText2":
       "National versions are currently available for Luxembourg (in partnership with OAI) and Switzerland (in collaboration with SIA).",
-    "sidebar.partnersLabel": "In collaboration with",
+
+    "sidebar.conferenceTitle": "Public procurement in practice",
+    "sidebar.conferenceText":
+      "The Value Method shows how transparency, fairness and efficiency can be translated into planning practice for public and private clients.",
 
     "sidebar.tag1": "Transparency",
     "sidebar.tag2": "Fair procurement",
@@ -91,15 +97,15 @@ const content = {
     "contact.ethLabel":
       "At ETH Zurich for questions on the Value Method:",
     "contact.arcLabel":
-      "At a r c experts AG for questions on application in practice:",
+      "At <span class=\"nowrap\">a r c experts AG</span> for questions on application in practice:",
+
+    "aiNote.text":
+      "Note: The non-English language versions of this page were initially translated with AI and then reviewed.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Chair of Architecture and Construction Process · in collaboration with a r c experts AG.",
+      "© 2025 ETH Zürich, Chair of Architecture and Construction Process · in collaboration with <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "This site uses only functional cookies to improve the user experience.",
-
-    "aiNotice":
-      "Note: All language versions on this page have been translated and refined with the help of AI."
+      "This site uses only functional cookies to improve the user experience."
   },
 
   de: {
@@ -110,7 +116,10 @@ const content = {
     "hero.subtitle":
       "Die ValueApp unterstützt öffentliche und private Auftraggeber:innen bei der Modellierung von Arbeitsaufwand und Honoraren für Architekt:innen, Bauingenieur:innen und Gebäudetechniker:innen – nachvollziehbar, transparent und rechtssicher.",
     "hero.meta":
-      "Entwickelt an der Professur für Architektur und Bauprozess der ETH Zürich und in der Praxis angewendet durch a r c experts.",
+      "Entwickelt an der Professur für Architektur und Bauprozess der ETH Zürich und in der Praxis angewendet durch <span class=\"nowrap\">a r c experts</span>.",
+
+    "partners.label":
+      "Entwickelt mit institutionellen Partnern",
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Methode",
@@ -184,7 +193,10 @@ const content = {
       "Die Value Method ist in der ValueApp digital umgesetzt.",
     "sidebar.digitalText2":
       "Nationale Versionen stehen aktuell für Luxemburg (in Zusammenarbeit mit dem OAI) und die Schweiz (in Kooperation mit der SIA) zur Verfügung.",
-    "sidebar.partnersLabel": "In Zusammenarbeit mit",
+
+    "sidebar.conferenceTitle": "Öffentliche Beschaffung in der Praxis",
+    "sidebar.conferenceText":
+      "Die Value Method zeigt, wie Transparenz, Fairness und Effizienz in die Planungspraxis für öffentliche und private Auftraggeber:innen übersetzt werden können.",
 
     "sidebar.tag1": "Transparenz",
     "sidebar.tag2": "Faire Beschaffung",
@@ -194,15 +206,15 @@ const content = {
     "contact.ethLabel":
       "An der ETH Zürich für Fragen zur Value Method:",
     "contact.arcLabel":
-      "Bei a r c experts AG für Fragen zur Anwendung in der Praxis:",
+      "Bei <span class=\"nowrap\">a r c experts AG</span> für Fragen zur Anwendung in der Praxis:",
+
+    "aiNote.text":
+      "Hinweis: Die nicht englischen Sprachversionen dieser Seite wurden zunächst mit KI übersetzt und anschliessend überprüft.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Professur für Architektur und Bauprozess · in Zusammenarbeit mit a r c experts AG.",
+      "© 2025 ETH Zürich, Professur für Architektur und Bauprozess · in Zusammenarbeit mit <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "Diese Seite verwendet nur funktionale Cookies, um das Nutzererlebnis zu verbessern.",
-
-    "aiNotice":
-      "Hinweis: Alle Sprachversionen auf dieser Seite wurden mit Hilfe von KI übersetzt und sprachlich überarbeitet."
+      "Diese Seite verwendet nur funktionale Cookies, um das Nutzererlebnis zu verbessern."
   },
 
   fr: {
@@ -213,7 +225,10 @@ const content = {
     "hero.subtitle":
       "ValueApp aide les maîtres d’ouvrage publics et privés à modéliser charges de travail et honoraires des architectes, ingénieur·e·s civils et spécialistes techniques – de manière traçable, transparente et conforme au droit.",
     "hero.meta":
-      "Développée à la Chaire d’architecture et processus de construction de l’ETH Zurich et mise en œuvre dans la pratique par a r c experts.",
+      "Développée à la Chaire d’architecture et processus de construction de l’ETH Zurich et appliquée dans la pratique par <span class=\"nowrap\">a r c experts</span>.",
+
+    "partners.label":
+      "Développée avec des partenaires institutionnels",
 
     "nav.valueDelivery": "Création de valeur",
     "nav.method": "Méthode",
@@ -287,7 +302,10 @@ const content = {
       "La Value Method est implémentée numériquement dans la ValueApp.",
     "sidebar.digitalText2":
       "Des versions nationales existent actuellement pour le Luxembourg (en partenariat avec l’OAI) et pour la Suisse (en collaboration avec la SIA).",
-    "sidebar.partnersLabel": "En collaboration avec",
+
+    "sidebar.conferenceTitle": "Marchés publics et pratique",
+    "sidebar.conferenceText":
+      "La Value Method illustre comment transparence, équité et efficience peuvent être intégrées dans la pratique de la planification pour des maîtres d’ouvrage publics et privés.",
 
     "sidebar.tag1": "Transparence",
     "sidebar.tag2": "Marchés publics équitables",
@@ -297,15 +315,16 @@ const content = {
     "contact.ethLabel":
       "À l’ETH Zurich pour les questions sur la Value Method :",
     "contact.arcLabel":
-      "Chez a r c experts AG pour les questions d’application pratique :",
+      "Chez <span class=\"nowrap\">a r c experts AG</span> pour les questions d’application pratique :",
+
+
+    "aiNote.text":
+      "Remarque : Les versions non anglophones de cette page ont d’abord été traduites avec une IA, puis relues.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Chaire d’architecture et processus de construction · en collaboration avec a r c experts AG.",
+      "© 2025 ETH Zürich, Chaire d’architecture et processus de construction · en collaboration avec <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "Ce site utilise uniquement des cookies fonctionnels afin d’améliorer l’expérience utilisateur.",
-
-    "aiNotice":
-      "Remarque : Toutes les versions linguistiques de cette page ont été traduites et affinées à l’aide de l’IA."
+      "Ce site utilise uniquement des cookies fonctionnels afin d’améliorer l’expérience utilisateur."
   },
 
   it: {
@@ -316,7 +335,10 @@ const content = {
     "hero.subtitle":
       "ValueApp supporta committenti pubblici e privati nella modellazione dei carichi di lavoro e degli onorari per architetti, ingegneri civili e specialisti degli impianti – in modo tracciabile, trasparente e conforme al diritto.",
     "hero.meta":
-      "Sviluppata presso la Cattedra di architettura e processo edilizio dell’ETH Zurigo e applicata nella pratica da a r c experts.",
+      "Sviluppata presso la Cattedra di architettura e processo edilizio dell’ETH Zurigo e applicata nella pratica da <span class=\"nowrap\">a r c experts</span>.",
+
+    "partners.label":
+      "Sviluppata con partner istituzionali",
 
     "nav.valueDelivery": "Creazione di valore",
     "nav.method": "Metodo",
@@ -390,7 +412,10 @@ const content = {
       "La Value Method è implementata digitalmente nella ValueApp.",
     "sidebar.digitalText2":
       "Sono attualmente disponibili versioni nazionali per il Lussemburgo (in collaborazione con OAI) e per la Svizzera (in collaborazione con SIA).",
-    "sidebar.partnersLabel": "In collaborazione con",
+
+    "sidebar.conferenceTitle": "Appalti pubblici e pratica",
+    "sidebar.conferenceText":
+      "La Value Method mostra come trasparenza, equità ed efficienza possano essere trasferite nella pratica di progettazione per committenti pubblici e privati.",
 
     "sidebar.tag1": "Trasparenza",
     "sidebar.tag2": "Appalti equi",
@@ -400,15 +425,15 @@ const content = {
     "contact.ethLabel":
       "All’ETH Zurigo per domande sul metodo Value:",
     "contact.arcLabel":
-      "Presso a r c experts AG per domande sull’applicazione pratica:",
+      "Presso <span class=\"nowrap\">a r c experts AG</span> per domande sull’applicazione pratica:",
+
+    "aiNote.text":
+      "Nota: Le versioni non inglesi di questa pagina sono state inizialmente tradotte con l’AI e poi revisionate.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Cattedra di architettura e processo edilizio · in collaborazione con a r c experts AG.",
+      "© 2025 ETH Zürich, Cattedra di architettura e processo edilizio · in collaborazione con <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "Questo sito utilizza esclusivamente cookie funzionali per migliorare l’esperienza utente.",
-
-    "aiNotice":
-      "Nota: Tutte le versioni linguistiche di questa pagina sono state tradotte e rifinite con l’aiuto dell’IA."
+      "Questo sito utilizza esclusivamente cookie funzionali per migliorare l’esperienza utente."
   },
 
   es: {
@@ -419,13 +444,16 @@ const content = {
     "hero.subtitle":
       "ValueApp apoya a entidades públicas y privadas en la modelización de cargas de trabajo y honorarios para arquitectos, ingenieros civiles y de instalaciones – de forma trazable, transparente y jurídicamente sólida.",
     "hero.meta":
-      "Desarrollada en la Cátedra de Arquitectura y Proceso de Construcción de la ETH Zúrich y aplicada en la práctica por a r c experts.",
+      "Desarrollada en la Cátedra de Arquitectura y Proceso de Construcción de la ETH Zúrich y aplicada en la práctica por <span class=\"nowrap\">a r c experts</span>.",
+
+    "partners.label":
+      "Desarrollada con socios institucionales",
 
     "nav.valueDelivery": "Creación de valor",
     "nav.method": "Método",
     "nav.timeEffort": "Esfuerzo / Ajustes",
     "nav.baseModels": "Modelos base",
-    "nav.leadership": "Marco de liderazgo",
+    "nav.leadership": "Leadership Framework",
 
     "valueDelivery.title": "Creación de valor",
     "valueDelivery.p1":
@@ -493,7 +521,10 @@ const content = {
       "La Value Method se implementa digitalmente en la ValueApp.",
     "sidebar.digitalText2":
       "Actualmente existen versiones nacionales para Luxemburgo (en colaboración con la OAI) y para Suiza (en colaboración con la SIA).",
-    "sidebar.partnersLabel": "En colaboración con",
+
+    "sidebar.conferenceTitle": "Contratación pública y práctica",
+    "sidebar.conferenceText":
+      "La Value Method muestra cómo la transparencia, la equidad y la eficiencia pueden trasladarse a la práctica de la planificación para clientes públicos y privados.",
 
     "sidebar.tag1": "Transparencia",
     "sidebar.tag2": "Contratación justa",
@@ -503,15 +534,15 @@ const content = {
     "contact.ethLabel":
       "En la ETH Zúrich para preguntas sobre la Value Method:",
     "contact.arcLabel":
-      "En a r c experts AG para preguntas sobre la aplicación en la práctica:",
+      "En <span class=\"nowrap\">a r c experts AG</span> para preguntas sobre la aplicación en la práctica:",
+
+    "aiNote.text":
+      "Nota: Las versiones no inglesas de esta página se tradujeron inicialmente con IA y posteriormente se revisaron.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Cátedra de Arquitectura y Proceso de Construcción · en colaboración con a r c experts AG.",
+      "© 2025 ETH Zürich, Cátedra de Arquitectura y Proceso de Construcción · en colaboración con <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "Este sitio utiliza únicamente cookies funcionales para mejorar la experiencia del usuario.",
-
-    "aiNotice":
-      "Aviso: Todas las versiones lingüísticas de esta página han sido traducidas y refinadas con la ayuda de IA."
+      "Este sitio utiliza únicamente cookies funcionales para mejorar la experiencia del usuario."
   },
 
   pt: {
@@ -522,7 +553,10 @@ const content = {
     "hero.subtitle":
       "A ValueApp apoia entidades públicas e privadas na modelação da carga de trabalho e dos honorários de arquitetos, engenheiros civis e especialistas de sistemas técnicos – de forma rastreável, transparente e juridicamente robusta.",
     "hero.meta":
-      "Desenvolvida na Cátedra de Arquitetura e Processo de Construção da ETH Zurique e aplicada na prática pela a r c experts.",
+      "Desenvolvida na Cátedra de Arquitetura e Processo de Construção da ETH Zurique e aplicada na prática por <span class=\"nowrap\">a r c experts</span>.",
+
+    "partners.label":
+      "Desenvolvida com parceiros institucionais",
 
     "nav.valueDelivery": "Criação de valor",
     "nav.method": "Método",
@@ -579,11 +613,11 @@ const content = {
 
     "leadership.domainsTitle": "Os cinco domínios",
     "leadership.clear":
-      "Claro: a relação causa–efeito é simples; as decisões seguem best practices estabelecidas.",
+      "Claro: a relação causa-efeito é simples; as decisões seguem best practices estabelecidas.",
     "leadership.complicated":
       "Complicado: as relações podem ser analisadas, mas exigem especialização; as decisões baseiam-se em good practices e na avaliação de peritos.",
     "leadership.complex":
-      "Complexo: a relação causa–efeito só é reconhecível a posteriori; as soluções emergem por experimentação e reconhecimento de padrões.",
+      "Complexo: a relação causa-efeito só é reconhecível a posteriori; as soluções emergem por experimentação e reconhecimento de padrões.",
     "leadership.chaotic":
       "Caótico: não há ordem visível; é necessária ação imediata de estabilização antes de qualquer análise.",
     "leadership.disorder":
@@ -596,7 +630,10 @@ const content = {
       "A Value Method é implementada digitalmente na ValueApp.",
     "sidebar.digitalText2":
       "Existem atualmente versões nacionais para o Luxemburgo (em cooperação com a OAI) e para a Suíça (em cooperação com a SIA).",
-    "sidebar.partnersLabel": "Em colaboração com",
+
+    "sidebar.conferenceTitle": "Contratação pública e prática",
+    "sidebar.conferenceText":
+      "A Value Method mostra como transparência, equidade e eficiência podem ser traduzidas na prática de projeto para clientes públicos e privados.",
 
     "sidebar.tag1": "Transparência",
     "sidebar.tag2": "Contratação justa",
@@ -606,15 +643,15 @@ const content = {
     "contact.ethLabel":
       "Na ETH Zurique para questões sobre a Value Method:",
     "contact.arcLabel":
-      "Na a r c experts AG para questões sobre a aplicação prática:",
+      "Na <span class=\"nowrap\">a r c experts AG</span> para questões sobre a aplicação prática:",
+
+    "aiNote.text":
+      "Nota: As versões não inglesas desta página foram inicialmente traduzidas com IA e posteriormente revistas.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Cátedra de Arquitetura e Processo de Construção · em colaboração com a r c experts AG.",
+      "© 2025 ETH Zürich, Cátedra de Arquitetura e Processo de Construção · em colaboração com <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "Este site utiliza apenas cookies funcionais para melhorar a experiência do utilizador.",
-
-    "aiNotice":
-      "Nota: Todas as versões linguísticas desta página foram traduzidas e aperfeiçoadas com a ajuda de IA."
+      "Este site utiliza apenas cookies funcionais para melhorar a experiência do utilizador."
   }
 };
 
@@ -625,7 +662,7 @@ function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (dict[key]) {
-      el.textContent = dict[key];
+      el.innerHTML = dict[key];
     }
   });
 
@@ -642,7 +679,10 @@ function setLanguage(lang) {
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("langToggle");
   const menu = document.getElementById("langMenu");
+  const mobileToggle = document.getElementById("mobileNavToggle");
+  const mainNav = document.querySelector(".main-nav");
 
+  // Language dropdown
   if (toggle && menu) {
     toggle.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -666,7 +706,18 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("click", () => {
       menu.classList.remove("open");
       toggle.setAttribute("aria-expanded", "false");
+      if (mainNav) mainNav.classList.remove("open");
     });
+  }
+
+  // Mobile nav toggle
+  if (mobileToggle && mainNav) {
+    mobileToggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      mainNav.classList.toggle("open");
+    });
+
+    mainNav.addEventListener("click", (e) => e.stopPropagation());
   }
 
   setLanguage("en");
