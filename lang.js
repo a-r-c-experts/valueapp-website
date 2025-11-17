@@ -111,7 +111,7 @@ const content = {
     "hero.subtitle":
       "Die ValueApp unterstützt öffentliche und private Auftraggeber:innen bei der Modellierung von Arbeitsaufwand und Honoraren für Architekt:innen, Bauingenieur:innen und Gebäudetechniker:innen – nachvollziehbar, transparent und rechtssicher.",
     "hero.meta":
-      "Projekt der Professur für Architektur und Bauprozess, ETH Zürich. Weiterentwicklung und Anwendung in der Praxis durch a r c experts. Öffentliche Beschaffungskonferenz 2025.",
+      "Projekt der Professur für Architektur und Bauprozess, ETH Zürich. Weiterentwicklung und Anwendung in der Praxis durch a r c experts. Konferenz öffentliche Beschaffung 2025.",
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Methode",
@@ -451,7 +451,7 @@ const content = {
     "timeEffort.p1":
       "La Value Method utiliza modelos base con intervalos de predicción que cubren alrededor del 80% de los casos comparables. Estos intervalos se estructuran en deciles y reflejan la variación típica entre proyectos.",
     "timeEffort.p2":
-      "El objetivo no es una pseudo-precisión numérica, sino un rango plausible y transparente del esfuerzo de planificación. Los casos en los deciles extremos – especialmente el 1º y el 10º – indican requisitos especiales y exigen una reflexión cualitativa.",
+      "El objetivo no es una pseudo-precisión numérica, sino un rango plausible y transparente del esfuerzo de planificación. Los casos en los deciles extremos – especialmente el 1.º y el 10.º – indican requisitos especiales y exigen una reflexión cualitativa.",
 
     "baseModels.title": "Modelos base de la Value Method",
     "baseModels.intro":
