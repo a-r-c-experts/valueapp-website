@@ -56,7 +56,7 @@ const content = {
     "baseModels.healing":
       "Healing / Care – for example hospitals, nursing homes.",
     "baseModels.validation":
-      "The models are regularly validated using realised project data; the most recent validation took place in February 2024.",
+      "The models are regularly validated using realised project data.",
 
     "leadership.title":
       "Recognising Decision Contexts – The Leadership Framework",
@@ -165,7 +165,7 @@ const content = {
     "baseModels.healing":
       "Heilen / Pflege – z. B. Spitäler, Pflegeheime.",
     "baseModels.validation":
-      "Die Modelle werden regelmässig mit realisierten Projektdaten validiert; die letzte Validierung erfolgte im Februar 2024.",
+      "Die Modelle werden regelmässig mit realisierten Projektdaten validiert.",
 
     "leadership.title":
       "Entscheidungskontexte erkennen – das Leadership Framework",
@@ -274,7 +274,7 @@ const content = {
     "baseModels.healing":
       "Soigner / Prendre soin – p. ex. hôpitaux, établissements médico-sociaux.",
     "baseModels.validation":
-      "Les modèles sont régulièrement validés sur la base de projets réalisés ; la dernière validation date de février 2024.",
+      "Les modèles sont régulièrement validés sur la base de projets réalisés.",
 
     "leadership.title":
       "Reconnaître les contextes décisionnels – le Leadership Framework",
@@ -384,7 +384,7 @@ const content = {
     "baseModels.healing":
       "Cura / Assistenza – ad es. ospedali, case di cura.",
     "baseModels.validation":
-      "I modelli vengono regolarmente validati con dati di progetti realizzati; l’ultima validazione risale a febbraio 2024.",
+      "I modelli vengono regolarmente validati con dati di progetti realizzati.",
 
     "leadership.title":
       "Riconoscere i contesti decisionali – il Leadership Framework",
@@ -493,7 +493,7 @@ const content = {
     "baseModels.healing":
       "Sanidad / Cuidados – por ejemplo hospitales, residencias.",
     "baseModels.validation":
-      "Los modelos se validan periódicamente con datos de proyectos realizados; la validación más reciente tuvo lugar en febrero de 2024.",
+      "Los modelos se validan periódicamente con datos de proyectos realizados.",
 
     "leadership.title":
       "Reconocer contextos de decisión – el Leadership Framework",
@@ -602,7 +602,7 @@ const content = {
     "baseModels.healing":
       "Saúde / Cuidados – por exemplo hospitais, lares.",
     "baseModels.validation":
-      "Os modelos são regularmente validados com dados de projetos realizados; a validação mais recente ocorreu em fevereiro de 2024.",
+      "Os modelos são regularmente validados com dados de projetos realizados.",
 
     "leadership.title":
       "Reconhecer contextos de decisão – o Leadership Framework",
