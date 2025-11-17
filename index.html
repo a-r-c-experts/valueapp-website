@@ -11,13 +11,21 @@
   <header>
     <div class="top-bar">
       <div class="brand">
-        <!-- ValueApp logo in the repo root -->
-        <img src="Logo_01_300.png" alt="ValueApp Logo" />
+        <a href="#top" class="brand-link">
+          <img src="Logo_01_300.png" alt="ValueApp Logo" />
+        </a>
         <div class="brand-text">
-          <div class="app-name">ValueApp</div>
           <div class="org-name">ETH Value Method · a r c experts</div>
         </div>
       </div>
+
+      <nav class="main-nav">
+        <a href="#value-delivery" data-i18n="nav.valueDelivery"></a>
+        <a href="#method" data-i18n="nav.method"></a>
+        <a href="#time-effort" data-i18n="nav.timeEffort"></a>
+        <a href="#base-models" data-i18n="nav.baseModels"></a>
+        <a href="#leadership" data-i18n="nav.leadership"></a>
+      </nav>
 
       <div class="lang-switcher">
         <span data-i18n="ui.languageLabel">Language</span>
@@ -25,41 +33,50 @@
         <button class="lang-button" data-lang="de">DE</button>
         <button class="lang-button" data-lang="fr">FR</button>
         <button class="lang-button" data-lang="it">IT</button>
+        <button class="lang-button" data-lang="es">ES</button>
+        <button class="lang-button" data-lang="pt">PT</button>
       </div>
     </div>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
-      <div class="hero-kicker" data-i18n="hero.kicker"></div>
-      <h1 class="hero-title" data-i18n="hero.title"></h1>
-      <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
-      <div class="hero-meta" data-i18n="hero.meta"></div>
+      <div class="hero-left">
+        <div class="hero-kicker" data-i18n="hero.kicker"></div>
+        <h1 class="hero-title" data-i18n="hero.title"></h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
+        <div class="hero-meta" data-i18n="hero.meta"></div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-logo-card">
+          <img src="Logo_01_300.png" alt="ValueApp Logo" class="hero-logo" />
+        </div>
+      </div>
     </section>
 
     <div class="grid">
       <div>
-        <section>
+        <section id="value-delivery">
           <h2 data-i18n="valueDelivery.title"></h2>
           <p data-i18n="valueDelivery.p1"></p>
           <p data-i18n="valueDelivery.p2"></p>
           <p data-i18n="valueDelivery.p3"></p>
         </section>
 
-        <section>
+        <section id="method">
           <h2 data-i18n="method.title"></h2>
           <p data-i18n="method.p1"></p>
           <p data-i18n="method.p2"></p>
           <p data-i18n="method.p3"></p>
         </section>
 
-        <section>
+        <section id="time-effort">
           <h2 data-i18n="timeEffort.title"></h2>
           <p data-i18n="timeEffort.p1"></p>
           <p data-i18n="timeEffort.p2"></p>
         </section>
 
-        <section>
+        <section id="base-models">
           <h2 data-i18n="baseModels.title"></h2>
           <p data-i18n="baseModels.intro"></p>
           <ul>
@@ -73,7 +90,7 @@
           <p data-i18n="baseModels.validation"></p>
         </section>
 
-        <section>
+        <section id="leadership">
           <h2 data-i18n="leadership.title"></h2>
           <p data-i18n="leadership.p1"></p>
           <p data-i18n="leadership.p2"></p>
@@ -139,10 +156,7 @@
         <span data-i18n="footer.cookies"></span>
       </div>
       <div class="footer-logos">
-        <!-- Optional: add ETH / partner logos here if you have the files
-        <img src="eth_logo_white.svg" alt="ETH Zürich" />
-        <img src="logoDARCH-weiss.svg" alt="D-ARCH" />
-        -->
+        <!-- Optional partner logos -->
       </div>
     </div>
   </footer>

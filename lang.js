@@ -9,6 +9,12 @@ const content = {
     "hero.meta":
       "Project by Professur für Architektur und Bauprozess, ETH Zurich. Developed further and applied in practice by a r c experts. Public Procurement Conference 2025.",
 
+    "nav.valueDelivery": "Value Delivery",
+    "nav.method": "Method",
+    "nav.timeEffort": "Time-Effort",
+    "nav.baseModels": "Base Models",
+    "nav.leadership": "Leadership Framework",
+
     "valueDelivery.title": "Value Delivery",
     "valueDelivery.p1":
       "As transparency and fairness become central to public procurement, the Value Method provides a clear and verifiable approach to calculating planning effort and professional fees.",
@@ -106,6 +112,12 @@ const content = {
       "Die ValueApp unterstützt öffentliche und private Auftraggeber:innen bei der Modellierung von Arbeitsaufwand und Honoraren für Architekt:innen, Bauingenieur:innen und Gebäudetechniker:innen – nachvollziehbar, transparent und rechtssicher.",
     "hero.meta":
       "Projekt der Professur für Architektur und Bauprozess, ETH Zürich. Weiterentwicklung und Anwendung in der Praxis durch a r c experts. Öffentliche Beschaffungskonferenz 2025.",
+
+    "nav.valueDelivery": "Value Delivery",
+    "nav.method": "Methode",
+    "nav.timeEffort": "Aufwand",
+    "nav.baseModels": "Basismodelle",
+    "nav.leadership": "Leadership Framework",
 
     "valueDelivery.title": "Value Delivery",
     "valueDelivery.p1":
@@ -205,6 +217,12 @@ const content = {
     "hero.meta":
       "Projet de la Chaire d’architecture et processus de construction, ETH Zurich. Développement et application dans la pratique par a r c experts. Conférence sur les marchés publics 2025.",
 
+    "nav.valueDelivery": "Création de valeur",
+    "nav.method": "Méthode",
+    "nav.timeEffort": "Charges",
+    "nav.baseModels": "Modèles de base",
+    "nav.leadership": "Leadership Framework",
+
     "valueDelivery.title": "Création de valeur",
     "valueDelivery.p1":
       "Alors que la transparence et l’équité deviennent centrales dans les marchés publics, la Value Method propose une approche claire et vérifiable pour calculer les charges de planification et les honoraires.",
@@ -303,6 +321,12 @@ const content = {
     "hero.meta":
       "Progetto della Cattedra di architettura e processo edilizio, ETH Zurigo. Sviluppo e applicazione nella pratica a cura di a r c experts. Conferenza sugli appalti pubblici 2025.",
 
+    "nav.valueDelivery": "Creazione di valore",
+    "nav.method": "Metodo",
+    "nav.timeEffort": "Tempi / Fattori",
+    "nav.baseModels": "Modelli base",
+    "nav.leadership": "Leadership Framework",
+
     "valueDelivery.title": "Creazione di valore",
     "valueDelivery.p1":
       "Con il ruolo sempre più centrale di trasparenza ed equità negli appalti pubblici, la Value Method offre un approccio chiaro e verificabile al calcolo dei tempi di progettazione e degli onorari professionali.",
@@ -389,6 +413,214 @@ const content = {
     "footer.arcSite": "Sito a r c experts",
     "footer.cookies":
       "Questo sito utilizza esclusivamente cookie funzionali per migliorare l’esperienza utente."
+  },
+
+  es: {
+    "ui.languageLabel": "Idioma",
+    "hero.kicker": "App / Herramienta · ETH Value Method",
+    "hero.title":
+      "Cálculo transparente del esfuerzo y de los honorarios para equipos de planificación.",
+    "hero.subtitle":
+      "ValueApp apoya a entidades públicas y privadas en la modelización de cargas de trabajo y honorarios para arquitectos, ingenieros civiles y de instalaciones – de forma trazable, transparente y jurídicamente sólida.",
+    "hero.meta":
+      "Proyecto de la Cátedra de Arquitectura y Proceso de Construcción de la ETH Zúrich. Desarrollado y aplicado en la práctica por a r c experts. Conferencia de Contratación Pública 2025.",
+
+    "nav.valueDelivery": "Creación de valor",
+    "nav.method": "Método",
+    "nav.timeEffort": "Esfuerzo / Ajustes",
+    "nav.baseModels": "Modelos base",
+    "nav.leadership": "Marco de liderazgo",
+
+    "valueDelivery.title": "Creación de valor",
+    "valueDelivery.p1":
+      "A medida que la transparencia y la equidad se vuelven centrales en la contratación pública, la Value Method ofrece un enfoque claro y verificable para calcular el esfuerzo de planificación y los honorarios profesionales.",
+    "valueDelivery.p2":
+      "En lugar de basarse en los costes de construcción, el método utiliza valores medibles y documentados – determinantes transparentes como metros cuadrados, metros cúbicos o número de unidades. Estos se vinculan a un esfuerzo de trabajo mediante modelos base estandarizados.",
+    "valueDelivery.p3":
+      "La complejidad y el contexto específicos de cada proyecto se integran mediante un factor de ajuste derivado del Leadership Framework for Decision Making. De este modo, el método sigue siendo a la vez basado en datos y sensible al contexto.",
+
+    "method.title": "Introducción a la Value Method",
+    "method.p1":
+      "La Value Method se basa en dos principios clave: transparencia jurídica (igualdad de trato y no discriminación) y trazabilidad metodológica (transparencia de la información y de los cálculos).",
+    "method.p2":
+      "Al separar los determinantes objetivos de la valoración cualitativa, el método hace que la modelización de honorarios sea comprensible para todas las partes implicadas: clientes, equipos de planificación y autoridades.",
+    "method.p3":
+      "El enfoque se ha desarrollado en la ETH Zúrich y se ha validado con datos de proyectos reales. Se perfecciona continuamente junto con socios de la práctica y asociaciones profesionales.",
+
+    "timeEffort.title": "Esfuerzo temporal y factores de ajuste",
+    "timeEffort.p1":
+      "La Value Method utiliza modelos base con intervalos de predicción que cubren alrededor del 80% de los casos comparables. Estos intervalos se estructuran en deciles y reflejan la variación típica entre proyectos.",
+    "timeEffort.p2":
+      "El objetivo no es una pseudo-precisión numérica, sino un rango plausible y transparente del esfuerzo de planificación. Los casos en los deciles extremos – especialmente el 1º y el 10º – indican requisitos especiales y exigen una reflexión cualitativa.",
+
+    "baseModels.title": "Modelos base de la Value Method",
+    "baseModels.intro":
+      "Seis modelos arquitectónicos basados en el uso constituyen el punto de partida para un cálculo transparente del esfuerzo. Cada modelo tiene su propio intervalo de predicción validado y supone un 100% de prestaciones básicas.",
+    "baseModels.housing":
+      "Vivienda – por ejemplo edificios de viviendas plurifamiliares, vivienda asistida.",
+    "baseModels.working":
+      "Trabajo / Servicios – por ejemplo edificios de oficinas, administración.",
+    "baseModels.industry":
+      "Industria – por ejemplo naves de producción, fábricas.",
+    "baseModels.storage":
+      "Almacenaje – por ejemplo almacenes, edificios logísticos.",
+    "baseModels.learning":
+      "Aprendizaje / Investigación – por ejemplo escuelas, universidades, laboratorios.",
+    "baseModels.healing":
+      "Sanidad / Cuidados – por ejemplo hospitales, residencias.",
+    "baseModels.validation":
+      "Los modelos se validan periódicamente con datos de proyectos realizados; la validación más reciente tuvo lugar en febrero de 2024.",
+
+    "leadership.title":
+      "Reconocer contextos de decisión – el Leadership Framework",
+    "leadership.p1":
+      "El Leadership Framework for Decision Making (Dave Snowden, 2007) ayuda a clasificar situaciones en función de la relación entre causa y efecto. Permite elegir respuestas adecuadas según el grado de complejidad e incertidumbre.",
+    "leadership.p2":
+      "En la Value Method, los retos específicos del proyecto – técnicos, organizativos, espaciales o de diseño – se sitúan dentro de este marco para derivar un factor de ajuste coherente.",
+
+    "leadership.domainsTitle": "Los cinco dominios",
+    "leadership.clear":
+      "Claro: la relación causa–efecto es simple; las decisiones siguen buenas prácticas establecidas.",
+    "leadership.complicated":
+      "Complicado: las relaciones pueden analizarse pero requieren pericia; las decisiones se basan en buenas prácticas y juicio experto.",
+    "leadership.complex":
+      "Complejo: la relación causa–efecto sólo es reconocible a posteriori; las soluciones emergen mediante experimentación y reconocimiento de patrones.",
+    "leadership.chaotic":
+      "Caótico: no hay orden visible; se requiere una acción inmediata de estabilización antes de poder analizar.",
+    "leadership.disorder":
+      "Desorden: no está claro qué dominio se aplica; es necesaria una clarificación más profunda.",
+    "leadership.application":
+      "Al cartografiar los retos dentro de este marco, el método deriva un factor de ajuste que refleja la complejidad y el esfuerzo de coordinación. Los proyectos de referencia en el dominio «complicado» suelen utilizar un factor cercano a 1; contextos más complejos o caóticos pueden justificar un esfuerzo mayor.",
+
+    "sidebar.digitalTitle": "Implementación digital",
+    "sidebar.digitalText1":
+      "La Value Method se implementa digitalmente en la ValueApp.",
+    "sidebar.digitalText2":
+      "Actualmente existen versiones nacionales para Luxemburgo (en colaboración con la OAI) y para Suiza (en colaboración con la SIA).",
+
+    "sidebar.conferenceTitle": "Conferencia de Contratación Pública 2025",
+    "sidebar.conferenceText":
+      "Esta presentación forma parte de la contribución a la Conferencia de Contratación Pública 2025 y muestra cómo la transparencia, la equidad y la eficiencia pueden trasladarse a la práctica de la planificación.",
+
+    "sidebar.tag1": "Transparencia",
+    "sidebar.tag2": "Contratación justa",
+    "sidebar.tag3": "Planificación basada en datos",
+
+    "contact.title": "Contacto",
+    "contact.ethLabel":
+      "En la ETH Zúrich para preguntas sobre la Value Method:",
+    "contact.arcLabel":
+      "En a r c experts AG para preguntas sobre la aplicación en la práctica:",
+
+    "footer.copyright":
+      "© 2025 ETH Zürich, Cátedra de Arquitectura y Proceso de Construcción · en colaboración con a r c experts AG.",
+    "footer.arcSite": "Sitio web de a r c experts",
+    "footer.cookies":
+      "Este sitio utiliza únicamente cookies funcionales para mejorar la experiencia del usuario."
+  },
+
+  pt: {
+    "ui.languageLabel": "Idioma",
+    "hero.kicker": "App / Ferramenta · ETH Value Method",
+    "hero.title":
+      "Cálculo transparente de esforço e honorários para equipas de projeto.",
+    "hero.subtitle":
+      "A ValueApp apoia entidades públicas e privadas na modelação da carga de trabalho e dos honorários de arquitetos, engenheiros civis e especialistas de sistemas técnicos – de forma rastreável, transparente e juridicamente robusta.",
+    "hero.meta":
+      "Projeto da Cátedra de Arquitetura e Processo de Construção da ETH Zurique. Desenvolvido e aplicado na prática pela a r c experts. Conferência de Contratação Pública 2025.",
+
+    "nav.valueDelivery": "Criação de valor",
+    "nav.method": "Método",
+    "nav.timeEffort": "Esforço / Ajustes",
+    "nav.baseModels": "Modelos base",
+    "nav.leadership": "Leadership Framework",
+
+    "valueDelivery.title": "Criação de valor",
+    "valueDelivery.p1":
+      "Com o papel cada vez mais central da transparência e da equidade na contratação pública, a Value Method oferece uma abordagem clara e verificável para o cálculo do esforço de projeto e dos honorários profissionais.",
+    "valueDelivery.p2":
+      "Em vez de se basear nos custos de construção, o método utiliza valores mensuráveis e documentados – determinantes transparentes como metros quadrados, metros cúbicos ou número de unidades. Estes são ligados ao esforço de trabalho através de modelos base padronizados.",
+    "valueDelivery.p3":
+      "A complexidade e o contexto específicos de cada projeto são integrados por meio de um fator de ajuste, derivado a partir do Leadership Framework for Decision Making. Assim, o método permanece simultaneamente baseado em dados e sensível ao contexto.",
+
+    "method.title": "Introdução à Value Method",
+    "method.p1":
+      "A Value Method assenta em dois princípios fundamentais: transparência jurídica (igualdade de tratamento e não discriminação) e rastreabilidade metodológica (transparência da informação e dos cálculos).",
+    "method.p2":
+      "Ao separar os determinantes objetivos da avaliação qualitativa, o método torna a modelação de honorários compreensível para todas as partes envolvidas – clientes, equipas de projeto e autoridades.",
+    "method.p3":
+      "A abordagem foi desenvolvida na ETH Zurique e validada com dados de projetos reais. É continuamente aperfeiçoada em colaboração com parceiros da prática e associações profissionais.",
+
+    "timeEffort.title": "Esforço temporal e fatores de ajuste",
+    "timeEffort.p1":
+      "A Value Method utiliza modelos base com intervalos de previsão que cobrem cerca de 80% dos casos comparáveis. Estes intervalos são estruturados em decis e refletem a variação típica entre projetos.",
+    "timeEffort.p2":
+      "O objetivo não é uma pseudo-precisão numérica, mas sim uma faixa plausível e transparente de esforço de projeto. Casos nos decis extremos – especialmente o 1.º e o 10.º – indicam requisitos especiais e exigem reflexão qualitativa.",
+
+    "baseModels.title": "Modelos base na Value Method",
+    "baseModels.intro":
+      "Seis modelos arquitetónicos baseados na utilização constituem o ponto de partida para um cálculo transparente do esforço. Cada modelo possui o seu próprio intervalo de previsão validado e pressupõe 100% de serviços básicos.",
+    "baseModels.housing":
+      "Habitação – por exemplo edifícios multifamiliares, habitação assistida.",
+    "baseModels.working":
+      "Trabalho / Serviços – por exemplo edifícios de escritórios, administração.",
+    "baseModels.industry":
+      "Indústria – por exemplo naves de produção, fábricas.",
+    "baseModels.storage":
+      "Armazenamento – por exemplo armazéns, edifícios logísticos.",
+    "baseModels.learning":
+      "Aprendizagem / Investigação – por exemplo escolas, universidades, laboratórios.",
+    "baseModels.healing":
+      "Saúde / Cuidados – por exemplo hospitais, lares.",
+    "baseModels.validation":
+      "Os modelos são regularmente validados com dados de projetos realizados; a validação mais recente ocorreu em fevereiro de 2024.",
+
+    "leadership.title":
+      "Reconhecer contextos de decisão – o Leadership Framework",
+    "leadership.p1":
+      "O Leadership Framework for Decision Making (Dave Snowden, 2007) ajuda a classificar situações com base na relação entre causa e efeito, apoiando respostas adequadas em diferentes graus de complexidade e incerteza.",
+    "leadership.p2":
+      "Na Value Method, os desafios específicos do projeto – técnicos, organizacionais, espaciais ou de conceção – são posicionados neste quadro, a partir do qual se deriva um fator de ajuste coerente.",
+
+    "leadership.domainsTitle": "Os cinco domínios",
+    "leadership.clear":
+      "Claro: a relação causa-efeito é simples; as decisões seguem best practices estabelecidas.",
+    "leadership.complicated":
+      "Complicado: as relações podem ser analisadas, mas exigem especialização; as decisões baseiam-se em good practices e na avaliação de peritos.",
+    "leadership.complex":
+      "Complexo: a relação causa-efeito só é reconhecível a posteriori; as soluções emergem por experimentação e reconhecimento de padrões.",
+    "leadership.chaotic":
+      "Caótico: não há ordem visível; é necessária ação imediata de estabilização antes de qualquer análise.",
+    "leadership.disorder":
+      "Desordem: não é claro qual o domínio que se aplica; é necessária uma clarificação mais profunda.",
+    "leadership.application":
+      "Ao mapear os desafios neste quadro, o método deriva um fator de ajuste que reflete a complexidade e o esforço de coordenação. Projetos de referência no domínio «complicado» utilizam normalmente um fator próximo de 1; contextos mais complexos ou caóticos podem justificar um esforço superior.",
+
+    "sidebar.digitalTitle": "Implementação digital",
+    "sidebar.digitalText1":
+      "A Value Method é implementada digitalmente na ValueApp.",
+    "sidebar.digitalText2":
+      "Existem atualmente versões nacionais para o Luxemburgo (em cooperação com a OAI) e para a Suíça (em cooperação com a SIA).",
+
+    "sidebar.conferenceTitle": "Conferência de Contratação Pública 2025",
+    "sidebar.conferenceText":
+      "Esta apresentação faz parte da contribuição para a Conferência de Contratação Pública 2025 e mostra como transparência, equidade e eficiência podem ser traduzidas na prática de projeto.",
+
+    "sidebar.tag1": "Transparência",
+    "sidebar.tag2": "Contratação justa",
+    "sidebar.tag3": "Planeamento baseado em dados",
+
+    "contact.title": "Contacto",
+    "contact.ethLabel":
+      "Na ETH Zurique para questões sobre a Value Method:",
+    "contact.arcLabel":
+      "Na a r c experts AG para questões sobre a aplicação prática:",
+
+    "footer.copyright":
+      "© 2025 ETH Zürich, Cátedra de Arquitetura e Processo de Construção · em colaboração com a r c experts AG.",
+    "footer.arcSite": "Website da a r c experts",
+    "footer.cookies":
+      "Este site utiliza apenas cookies funcionais para melhorar a experiência do utilizador."
   }
 };
 
