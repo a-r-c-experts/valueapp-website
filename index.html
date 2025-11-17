@@ -10,13 +10,9 @@
 <body>
   <header>
     <div class="top-bar">
-      <div class="brand">
-        <a href="#top" class="brand-link">
-          <img src="Logo_01_300.png" alt="ValueApp Logo" />
-        </a>
-        <div class="brand-text">
-          <div class="org-name">ETH Value Method · a r c experts</div>
-        </div>
+      <div class="brand-text-only">
+        <span class="brand-line-main">ValueApp</span>
+        <span class="brand-line-sub">ETH Value Method · a r c experts</span>
       </div>
 
       <nav class="main-nav">
@@ -28,29 +24,33 @@
       </nav>
 
       <div class="lang-switcher">
-        <span data-i18n="ui.languageLabel">Language</span>
-        <button class="lang-button active" data-lang="en">EN</button>
-        <button class="lang-button" data-lang="de">DE</button>
-        <button class="lang-button" data-lang="fr">FR</button>
-        <button class="lang-button" data-lang="it">IT</button>
-        <button class="lang-button" data-lang="es">ES</button>
-        <button class="lang-button" data-lang="pt">PT</button>
+        <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+          <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+          <span class="lang-current" id="currentLangLabel">EN</span>
+          <span class="lang-chevron">▾</span>
+        </button>
+        <div class="lang-menu" id="langMenu" aria-label="Select language">
+          <button class="lang-option" data-lang="en">EN</button>
+          <button class="lang-option" data-lang="de">DE</button>
+          <button class="lang-option" data-lang="fr">FR</button>
+          <button class="lang-option" data-lang="it">IT</button>
+          <button class="lang-option" data-lang="es">ES</button>
+          <button class="lang-option" data-lang="pt">PT</button>
+        </div>
       </div>
     </div>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-left">
+      <div class="hero-logo-wrapper">
+        <img src="Logo_01_300.png" alt="ValueApp Logo" class="hero-logo" />
+      </div>
+      <div class="hero-text">
         <div class="hero-kicker" data-i18n="hero.kicker"></div>
         <h1 class="hero-title" data-i18n="hero.title"></h1>
         <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
         <div class="hero-meta" data-i18n="hero.meta"></div>
-      </div>
-      <div class="hero-right">
-        <div class="hero-logo-card">
-          <img src="Logo_01_300.png" alt="ValueApp Logo" class="hero-logo" />
-        </div>
       </div>
     </section>
 

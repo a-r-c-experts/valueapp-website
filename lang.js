@@ -635,20 +635,45 @@ function setLanguage(lang) {
     }
   });
 
+  const current = document.getElementById("currentLangLabel");
+  if (current) current.textContent = (lang || "en").toUpperCase();
+
   document
-    .querySelectorAll(".lang-button")
+    .querySelectorAll(".lang-option")
     .forEach((btn) =>
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang)
     );
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  document
-    .querySelectorAll(".lang-button")
-    .forEach((btn) =>
-      btn.addEventListener("click", () =>
-        setLanguage(btn.getAttribute("data-lang"))
-      )
-    );
+  const toggle = document.getElementById("langToggle");
+  const menu = document.getElementById("langMenu");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = menu.classList.contains("open");
+      menu.classList.toggle("open", !isOpen);
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+    });
+
+    document
+      .querySelectorAll(".lang-option")
+      .forEach((btn) =>
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const lang = btn.getAttribute("data-lang");
+          setLanguage(lang);
+          menu.classList.remove("open");
+          toggle.setAttribute("aria-expanded", "false");
+        })
+      );
+
+    document.addEventListener("click", () => {
+      menu.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
+  }
+
   setLanguage("en");
 });
