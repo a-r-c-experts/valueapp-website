@@ -296,8 +296,16 @@ main {
   background: #fafafa;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
+}
+
+.partner-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; /* distribute logos more evenly */
+  gap: 16px;
+  flex: 1;                       /* use the remaining width */
+  flex-wrap: wrap;
 }
 
 .partner-strip-secondary {
@@ -687,10 +695,15 @@ footer .footer-inner {
 }
 
 .logo-track img {
-  height: 52px;
+  max-height: 46px;    /* smaller, more controlled */
   width: auto;
   opacity: 0.9;
   transition: opacity 0.2s ease;
+}
+
+/* Slightly smaller for the Architectes.org logo */
+.logo-track img[alt="Architectes.org"] {
+  max-height: 40px;
 }
 
 .logo-track img:hover {
