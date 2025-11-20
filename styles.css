@@ -690,7 +690,7 @@ footer .footer-inner {
 .logo-track {
   display: flex;
   gap: 32px;
-  width: calc(200%); /* double sequence */
+  width: max-content;   
   animation: scrollLogos 40s linear infinite;
 }
 
