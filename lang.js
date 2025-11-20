@@ -16,10 +16,9 @@ const content = {
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Method",
-    "nav.timeEffort": "Time-Effort",
-    "nav.baseModels": "Base Models",
-    "nav.leadership": "Leadership Framework",
     "nav.team": "Team",
+    "nav.demo": "Demo",
+    "nav.integration": "IT integration",
 
     "valueDelivery.title": "Value Delivery",
     "valueDelivery.p1":
@@ -74,7 +73,7 @@ const content = {
     "sidebar.digitalText1":
       "The Value Method is implemented digitally in the ValueApp.",
     "sidebar.digitalText2":
-      "National versions are currently available for Switzerland (in collaboration with SIA) and Luxembourg (in partnership with OAI).",
+      "National versions are currently available for Switzerland (in collaboration with SIA) and Luxembourg (in collaboration with OAI).",
 
     "sidebar.conferenceTitle": "Public procurement in practice",
     "sidebar.conferenceText":
@@ -112,11 +111,9 @@ const content = {
       "Developers find documentation and example integrations in the public GitHub repository:",
     "integration.button": "View GitHub repository",
 
-    "contact.title": "Contact",
-    "contact.ethLabel":
-      "At ETH Zurich for questions on the Value Method:",
-    "contact.arcLabel":
-      "At <span class=\"nowrap\">a r c experts AG</span> for questions on application in practice:",
+    "contact.simpleTitle": "Contact",
+    "contact.simpleText":
+      "For questions about the ValueApp or the Value Method, you can reach the team at the following address:",
 
     "aiNote.text":
       "Note: The non-English language versions of this page were initially translated with AI and then reviewed.",
@@ -144,10 +141,9 @@ const content = {
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Methode",
-    "nav.timeEffort": "Aufwand",
-    "nav.baseModels": "Basismodelle",
-    "nav.leadership": "Leadership Framework",
     "nav.team": "Team",
+    "nav.demo": "Demo",
+    "nav.integration": "IT-Integration",
 
     "valueDelivery.title": "Value Delivery",
     "valueDelivery.p1":
@@ -202,7 +198,7 @@ const content = {
     "sidebar.digitalText1":
       "Die Value Method ist in der ValueApp digital umgesetzt.",
     "sidebar.digitalText2":
-      "Nationale Versionen stehen aktuell für die Schweiz (in Kooperation mit der SIA) und Luxemburg (in Zusammenarbeit mit dem OAI) zur Verfügung.",
+      "Nationale Versionen stehen aktuell für die Schweiz (in Zusammenarbeit mit der SIA) und Luxemburg (in Zusammenarbeit mit dem OAI) zur Verfügung.",
 
     "sidebar.conferenceTitle": "Öffentliche Beschaffung in der Praxis",
     "sidebar.conferenceText":
@@ -240,11 +236,9 @@ const content = {
       "Entwickler:innen finden Dokumentation und Beispiel-Integrationen im öffentlichen GitHub-Repository:",
     "integration.button": "GitHub-Repository öffnen",
 
-    "contact.title": "Kontakt",
-    "contact.ethLabel":
-      "An der ETH Zürich für Fragen zur Value Method:",
-    "contact.arcLabel":
-      "Bei <span class=\"nowrap\">a r c experts AG</span> für Fragen zur Anwendung in der Praxis:",
+    "contact.simpleTitle": "Kontakt",
+    "contact.simpleText":
+      "Für Fragen zur ValueApp oder zur Value Method erreichen Sie das Team unter folgender Adresse:",
 
     "aiNote.text":
       "Hinweis: Die nicht englischen Sprachversionen dieser Seite wurden zunächst mit KI übersetzt und anschliessend überprüft.",
@@ -272,10 +266,9 @@ const content = {
 
     "nav.valueDelivery": "Création de valeur",
     "nav.method": "Méthode",
-    "nav.timeEffort": "Charges",
-    "nav.baseModels": "Modèles de base",
-    "nav.leadership": "Leadership Framework",
     "nav.team": "Équipe",
+    "nav.demo": "Démo",
+    "nav.integration": "Intégration IT",
 
     "valueDelivery.title": "Création de valeur",
     "valueDelivery.p1":
@@ -330,7 +323,7 @@ const content = {
     "sidebar.digitalText1":
       "La Value Method est implémentée numériquement dans la ValueApp.",
     "sidebar.digitalText2":
-      "Des versions nationales existent actuellement pour la Suisse (en collaboration avec la SIA) et pour le Luxembourg (en partenariat avec l’OAI).",
+      "Des versions nationales existent actuellement pour la Suisse (en collaboration avec la SIA) et pour le Luxembourg (en collaboration avec l’OAI).",
 
     "sidebar.conferenceTitle": "Marchés publics et pratique",
     "sidebar.conferenceText":
@@ -368,11 +361,10 @@ const content = {
       "Les développeurs trouvent la documentation et des exemples d’intégration dans le dépôt GitHub public :",
     "integration.button": "Ouvrir le dépôt GitHub",
 
-    "contact.title": "Contact",
-    "contact.ethLabel":
-      "À l’ETH Zurich pour les questions sur la Value Method :",
-    "contact.arcLabel":
-      "Chez <span class=\"nowrap\">a r c experts AG</span> pour les questions d’application pratique :",
+    "contact.simpleTitle": "Contact",
+    "contact.simpleText":
+      "Pour toute question sur la ValueApp ou la Value Method, vous pouvez contacter l’équipe à l’adresse suivante :",
+
 
     "aiNote.text":
       "Remarque : Les versions non anglophones de cette page ont d’abord été traduites avec une IA, puis relues.",
@@ -400,10 +392,9 @@ const content = {
 
     "nav.valueDelivery": "Creazione di valore",
     "nav.method": "Metodo",
-    "nav.timeEffort": "Tempi / Fattori",
-    "nav.baseModels": "Modelli base",
-    "nav.leadership": "Leadership Framework",
     "nav.team": "Team",
+    "nav.demo": "Demo",
+    "nav.integration": "Integrazione IT",
 
     "valueDelivery.title": "Creazione di valore",
     "valueDelivery.p1":
@@ -496,11 +487,9 @@ const content = {
       "Sviluppatori e sviluppatrici trovano documentazione ed esempi di integrazione nel repository pubblico GitHub:",
     "integration.button": "Apri il repository GitHub",
 
-    "contact.title": "Contatto",
-    "contact.ethLabel":
-      "All’ETH Zurigo per domande sul metodo Value:",
-    "contact.arcLabel":
-      "Presso <span class=\"nowrap\">a r c experts AG</span> per domande sull’applicazione pratica:",
+    "contact.simpleTitle": "Contatto",
+    "contact.simpleText":
+      "Per domande sulla ValueApp o sulla Value Method, è possibile contattare il team al seguente indirizzo:",
 
     "aiNote.text":
       "Nota: Le versioni non inglesi di questa pagina sono state inizialmente tradotte con l’AI e poi revisionate.",
@@ -525,13 +514,12 @@ const content = {
       "Socios institucionales fundadores",
     "partners.inProgress":
       "Socios y partes interesadas en desarrollo",
-
+    
     "nav.valueDelivery": "Creación de valor",
     "nav.method": "Método",
-    "nav.timeEffort": "Esfuerzo / Ajustes",
-    "nav.baseModels": "Modelos base",
-    "nav.leadership": "Leadership Framework",
     "nav.team": "Equipo",
+    "nav.demo": "Demo",
+    "nav.integration": "Integración IT",
 
     "valueDelivery.title": "Creación de valor",
     "valueDelivery.p1":
@@ -624,11 +612,9 @@ const content = {
       "Las personas desarrolladoras encuentran documentación y ejemplos de integración en el repositorio público de GitHub:",
     "integration.button": "Abrir repositorio GitHub",
 
-    "contact.title": "Contacto",
-    "contact.ethLabel":
-      "En la ETH Zúrich para preguntas sobre la Value Method:",
-    "contact.arcLabel":
-      "En <span class=\"nowrap\">a r c experts AG</span> para preguntas sobre la aplicación en la práctica:",
+    "contact.simpleTitle": "Contacto",
+    "contact.simpleText":
+      "Para preguntas sobre la ValueApp o la Value Method, puede ponerse en contacto con el equipo en la siguiente dirección:",
 
     "aiNote.text":
       "Nota: Las versiones no inglesas de esta página se tradujeron inicialmente con IA y posteriormente se revisaron.",
@@ -656,10 +642,9 @@ const content = {
 
     "nav.valueDelivery": "Criação de valor",
     "nav.method": "Método",
-    "nav.timeEffort": "Esforço / Ajustes",
-    "nav.baseModels": "Modelos base",
-    "nav.leadership": "Leadership Framework",
     "nav.team": "Equipa",
+    "nav.demo": "Demo",
+    "nav.integration": "Integração IT",
 
     "valueDelivery.title": "Criação de valor",
     "valueDelivery.p1":
@@ -714,7 +699,7 @@ const content = {
     "sidebar.digitalText1":
       "A Value Method é implementada digitalmente na ValueApp.",
     "sidebar.digitalText2":
-      "Existem atualmente versões nacionais para a Suíça (em cooperação com a SIA) e para o Luxemburgo (em cooperação com a OAI).",
+      "Existem atualmente versões nacionais para a Suíça (em colaboração com a SIA) e para o Luxemburgo (em colaboração com a OAI).",
 
     "sidebar.conferenceTitle": "Contratação pública e prática",
     "sidebar.conferenceText":
@@ -752,21 +737,21 @@ const content = {
       "As pessoas desenvolvedoras encontram documentação e exemplos de integração no repositório público GitHub:",
     "integration.button": "Abrir repositório GitHub",
 
-    "contact.title": "Contacto",
-    "contact.ethLabel":
-      "Na ETH Zurique para questões sobre a Value Method:",
-    "contact.arcLabel":
-      "Na <span class=\"nowrap\">a r c experts AG</span> para questões sobre a aplicação prática:",
+    "contact.simpleTitle": "Contacto",
+    "contact.simpleText":
+      "Para questões sobre a ValueApp ou a Value Method, pode contactar a equipa através do seguinte endereço:",
 
     "aiNote.text":
       "Nota: As versões não inglesas desta página foram inicialmente traduzidas com IA e posteriormente revistas.",
 
-    "footer.copyright":
-      "© 2025 ETH Zürich, Cátedra de Arquitetura e Processo de Construção · em colaboração com <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "Este site utiliza apenas cookies funcionais para melhorar a experiência do utilizador."
+      "Este site utiliza apenas cookies funcionais para melhorar a experiência do utilizador.",
+    "footer.copyright":
+      "© 2025 ETH Zürich, Cátedra de Arquitetura e Processo de Construção · em colaboração com <span class=\"nowrap\">a r c experts AG</span>."
   }
 };
+
+/* LANGUAGE SWITCHING + NAV + MOBILE MENU HANDLING */
 
 function setLanguage(lang) {
   const dict = content[lang] || content.en;
@@ -774,13 +759,11 @@ function setLanguage(lang) {
 
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
-    if (dict[key]) {
-      el.innerHTML = dict[key];
-    }
+    if (dict[key]) el.innerHTML = dict[key];
   });
 
   const current = document.getElementById("currentLangLabel");
-  if (current) current.textContent = (lang || "en").toUpperCase();
+  if (current) current.textContent = lang.toUpperCase();
 
   document
     .querySelectorAll(".lang-option")
@@ -795,41 +778,31 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileToggle = document.getElementById("mobileNavToggle");
   const mainNav = document.querySelector(".main-nav");
 
-  // Language dropdown
   if (toggle && menu) {
     toggle.addEventListener("click", (e) => {
       e.stopPropagation();
-      const isOpen = menu.classList.contains("open");
-      menu.classList.toggle("open", !isOpen);
-      toggle.setAttribute("aria-expanded", String(!isOpen));
+      menu.classList.toggle("open");
     });
 
-    document
-      .querySelectorAll(".lang-option")
-      .forEach((btn) =>
-        btn.addEventListener("click", (e) => {
-          e.stopPropagation();
-          const lang = btn.getAttribute("data-lang");
-          setLanguage(lang);
-          menu.classList.remove("open");
-          toggle.setAttribute("aria-expanded", "false");
-        })
-      );
+    document.querySelectorAll(".lang-option").forEach((btn) =>
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        setLanguage(btn.getAttribute("data-lang"));
+        menu.classList.remove("open");
+      })
+    );
 
     document.addEventListener("click", () => {
       menu.classList.remove("open");
-      toggle.setAttribute("aria-expanded", "false");
       if (mainNav) mainNav.classList.remove("open");
     });
   }
 
-  // Mobile nav toggle
   if (mobileToggle && mainNav) {
     mobileToggle.addEventListener("click", (e) => {
       e.stopPropagation();
       mainNav.classList.toggle("open");
     });
-
     mainNav.addEventListener("click", (e) => e.stopPropagation());
   }
 

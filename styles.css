@@ -452,6 +452,16 @@ li {
   font-size: 1rem;
 }
 
+.team-card h3 a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.team-card h3 a:hover {
+  border-bottom-color: rgba(0, 0, 0, 0.3);
+}
+
 .team-role {
   font-weight: 500;
   margin-bottom: 6px;
@@ -516,6 +526,31 @@ li {
 .cta-button:hover {
   background: #111111;
   color: #ffffff;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+  margin-top: 32px;
+  padding: 24px 24px 26px;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  background: #ffffff;
+}
+
+.contact-section p {
+  font-size: 0.95rem;
+}
+
+.contact-email {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--accent);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.contact-email:hover {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
 }
 
 /* AI NOTE */
