@@ -19,6 +19,7 @@ const content = {
     "nav.team": "Team",
     "nav.demo": "Demo",
     "nav.integration": "IT integration",
+    "nav.contact": "Contact",
 
     "valueDelivery.title": "Value Delivery",
     "valueDelivery.p1":
@@ -144,6 +145,7 @@ const content = {
     "nav.team": "Team",
     "nav.demo": "Demo",
     "nav.integration": "IT-Integration",
+    "nav.contact": "Kontakt",
 
     "valueDelivery.title": "Value Delivery",
     "valueDelivery.p1":
@@ -269,6 +271,7 @@ const content = {
     "nav.team": "Équipe",
     "nav.demo": "Démo",
     "nav.integration": "Intégration IT",
+    "nav.contact": "Contact",
 
     "valueDelivery.title": "Création de valeur",
     "valueDelivery.p1":
@@ -395,6 +398,7 @@ const content = {
     "nav.team": "Team",
     "nav.demo": "Demo",
     "nav.integration": "Integrazione IT",
+    "nav.contact": "Contatto",
 
     "valueDelivery.title": "Creazione di valore",
     "valueDelivery.p1":
@@ -520,6 +524,7 @@ const content = {
     "nav.team": "Equipo",
     "nav.demo": "Demo",
     "nav.integration": "Integración IT",
+    "nav.contact": "Contacto",
 
     "valueDelivery.title": "Creación de valor",
     "valueDelivery.p1":
@@ -645,6 +650,7 @@ const content = {
     "nav.team": "Equipa",
     "nav.demo": "Demo",
     "nav.integration": "Integração IT",
+    "nav.contact": "Contacto",
 
     "valueDelivery.title": "Criação de valor",
     "valueDelivery.p1":

@@ -662,3 +662,48 @@ footer .footer-inner {
     width: 75vw;
   }
 }
+
+/* Infinite scrolling partner logos */
+.in-progress-partners {
+  margin-top: 22px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background: #fafafa;
+  overflow: hidden;
+}
+
+.logo-scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-track {
+  display: flex;
+  gap: 32px;
+  width: calc(200%); /* double sequence */
+  animation: scrollLogos 40s linear infinite;
+}
+
+.logo-track img {
+  height: 52px;
+  width: auto;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.logo-track img:hover {
+  opacity: 1;
+}
+
+@keyframes scrollLogos {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 800px) {
+  .logo-track img {
+    height: 42px;
+  }
+}

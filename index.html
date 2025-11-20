@@ -68,6 +68,7 @@
         <a href="#team" data-i18n="nav.team"></a>
         <a href="#tutorial" data-i18n="nav.demo"></a>
         <a href="#integration" data-i18n="nav.integration"></a>
+        <a href="#contact" data-i18n="nav.contact"></a>
       </nav>
 
       <div class="lang-switcher">
@@ -127,24 +128,44 @@
     </section>
 
     <!-- In-progress partners / stakeholders (placeholder logos duplicated for now) -->
-    <section class="partner-strip partner-strip-secondary" aria-label="Partners in development">
+    <section class="partner-strip in-progress-partners" aria-label="Partners in development">
       <div class="partner-label" data-i18n="partners.inProgress"></div>
-      <div class="partner-logos">
-        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
-          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
-        </a>
-        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
-          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
-        </a>
-        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
-          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
-        </a>
-        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
-          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
-        </a>
-        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
-          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
-        </a>
+
+      <div class="logo-scroll-container">
+        <div class="logo-track">
+          <a href="https://g30.be/" target="_blank">
+            <img src="logos/logo_G30.png" alt="G30" />
+          </a>
+          <a href="https://www.architectes.org/" target="_blank">
+            <img src="logos/logo_architects.png" alt="Architectes.org" />
+          </a>
+          <a href="https://raic.org/" target="_blank">
+            <img src="logos/logo_RAIC.png" alt="RAIC" />
+          </a>
+          <a href="https://sia.org.sg/" target="_blank">
+            <img src="logos/logo_SIAS.png" alt="SIAS" />
+          </a>
+          <a href="https://www.hoai.de/" target="_blank">
+            <img src="logos/logo_HOAI.png" alt="HOAI" />
+          </a>
+
+          <!-- Duplicate sequence once for seamless infinite looping -->
+          <a href="https://g30.be/" target="_blank">
+            <img src="logos/logo_G30.png" alt="G30" />
+          </a>
+          <a href="https://www.architectes.org/" target="_blank">
+            <img src="logos/logo_architects.png" alt="Architectes.org" />
+          </a>
+          <a href="https://raic.org/" target="_blank">
+            <img src="logos/logo_RAIC.png" alt="RAIC" />
+          </a>
+          <a href="https://sia.org.sg/" target="_blank">
+            <img src="logos/logo_SIAS.png" alt="SIAS" />
+          </a>
+          <a href="https://www.hoai.de/" target="_blank">
+            <img src="logos/logo_HOAI.png" alt="HOAI" />
+          </a>
+        </div>
       </div>
     </section>
 
@@ -292,7 +313,7 @@
     </section>
 
     <!-- Simple contact section with info@core-value.ch -->
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
       <h2 data-i18n="contact.simpleTitle"></h2>
       <p data-i18n="contact.simpleText"></p>
       <p>
