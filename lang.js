@@ -9,14 +9,17 @@ const content = {
     "hero.meta":
       "Developed at the Chair of Architecture and Construction Process at ETH Zurich and applied in practice by <span class=\"nowrap\">a r c experts</span>.",
 
-    "partners.label":
-      "Developed with institutional partners",
+    "partners.founding":
+      "Founding institutional partners",
+    "partners.inProgress":
+      "Partners and stakeholders in development",
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Method",
     "nav.timeEffort": "Time-Effort",
     "nav.baseModels": "Base Models",
     "nav.leadership": "Leadership Framework",
+    "nav.team": "Team",
 
     "valueDelivery.title": "Value Delivery",
     "valueDelivery.p1":
@@ -64,18 +67,6 @@ const content = {
       "The Leadership Framework for Decision Making (Dave Snowden, 2007) helps classify situations based on the relationship between cause and effect. It supports appropriate responses across different degrees of complexity and uncertainty.",
     "leadership.p2":
       "In the Value Method, the framework is used to position project-specific challenges – technical, organisational, spatial or design-related – and to derive a consistent adjustment factor.",
-
-    "leadership.domainsTitle": "The five domains",
-    "leadership.clear":
-      "Clear: Cause and effect are straightforward; decisions follow established best practices.",
-    "leadership.complicated":
-      "Complicated: Relationships can be analysed but require expertise; decisions are guided by good practices and expert assessment.",
-    "leadership.complex":
-      "Complex: Cause and effect can only be recognised in retrospect; effective solutions emerge through experimentation and pattern recognition.",
-    "leadership.chaotic":
-      "Chaotic: No visible order; immediate stabilising action is required before analysis becomes possible.",
-    "leadership.disorder":
-      "Disorder: It is unclear which domain applies; further clarification is needed.",
     "leadership.application":
       "By mapping challenges onto this framework, the method derives an adjustment factor that reflects complexity and coordination effort. Typical reference projects in the complicated domain use a factor around 1; more complex or chaotic contexts may justifiably require higher effort.",
 
@@ -92,6 +83,34 @@ const content = {
     "sidebar.tag1": "Transparency",
     "sidebar.tag2": "Fair procurement",
     "sidebar.tag3": "Data-informed planning",
+
+    "team.title": "Team",
+    "team.subtitle":
+      "The Value Method and the ValueApp are developed at ETH Zurich and implemented in practice together with a r c experts.",
+    "team.axelRole": "Concept lead, method research",
+    "team.axelBio":
+      "Leads the conceptual development of the Value Method and its integration into planning practice.",
+    "team.darioRole": "Method research, communication",
+    "team.darioBio":
+      "Works on empirical validation of the method and communicates results to professional audiences.",
+    "team.mikelRole": "Model developer, IT coordination",
+    "team.mikelBio":
+      "Develops the digital models behind the ValueApp and coordinates technical implementation and integrations.",
+
+    "tutorial.title": "How the ValueApp works in practice",
+    "tutorial.p1":
+      "The ValueApp guides users step by step from project definition to transparent effort and fee ranges.",
+    "tutorial.p2":
+      "After entering the key determinants (such as use, area or volume) and project-specific complexity, the app calculates plausible effort intervals based on validated base models.",
+    "tutorial.p3":
+      "The results can be exported, documented and used in procurement processes or internal planning discussions.",
+
+    "integration.title": "Technical integration and widget",
+    "integration.p1":
+      "The core of the ValueApp can be integrated as a widget into external platforms, client portals or internal tools.",
+    "integration.p2":
+      "Developers find documentation and example integrations in the public GitHub repository:",
+    "integration.button": "View GitHub repository",
 
     "contact.title": "Contact",
     "contact.ethLabel":
@@ -118,14 +137,17 @@ const content = {
     "hero.meta":
       "Entwickelt an der Professur für Architektur und Bauprozess der ETH Zürich und in der Praxis angewendet durch <span class=\"nowrap\">a r c experts</span>.",
 
-    "partners.label":
-      "Entwickelt mit institutionellen Partnern",
+    "partners.founding":
+      "Institutionelle Partner der ersten Stunde",
+    "partners.inProgress":
+      "Weitere Partner und Stakeholder im Aufbau",
 
     "nav.valueDelivery": "Value Delivery",
     "nav.method": "Methode",
     "nav.timeEffort": "Aufwand",
     "nav.baseModels": "Basismodelle",
     "nav.leadership": "Leadership Framework",
+    "nav.team": "Team",
 
     "valueDelivery.title": "Value Delivery",
     "valueDelivery.p1":
@@ -173,18 +195,6 @@ const content = {
       "Das Leadership Framework for Decision Making (Dave Snowden, 2007) hilft, Situationen anhand der Beziehung von Ursache und Wirkung einzuordnen. Es unterstützt angemessene Reaktionen bei unterschiedlicher Komplexität und Unsicherheit.",
     "leadership.p2":
       "In der Value Method werden projektspezifische Herausforderungen – technisch, organisatorisch, räumlich oder gestalterisch – im Framework positioniert und daraus ein konsistenter Anpassungsfaktor abgeleitet.",
-
-    "leadership.domainsTitle": "Die fünf Domänen",
-    "leadership.clear":
-      "Klar: Ursache und Wirkung sind eindeutig; Entscheidungen folgen Best Practices.",
-    "leadership.complicated":
-      "Kompliziert: Zusammenhänge sind analysierbar, erfordern aber Expertise; Entscheidungen stützen sich auf Good Practices und Fachurteil.",
-    "leadership.complex":
-      "Komplex: Ursache und Wirkung sind erst im Nachhinein erkennbar; Lösungen entstehen durch Experimentieren und Mustererkennung.",
-    "leadership.chaotic":
-      "Chaotisch: Keine erkennbare Ordnung; es braucht sofortige Stabilisierung, bevor Analyse möglich wird.",
-    "leadership.disorder":
-      "Ungeordnet: Unklar, welche Domäne vorliegt; es ist vertiefte Klärung nötig.",
     "leadership.application":
       "Durch die Abbildung der Herausforderungen im Framework ergibt sich ein Anpassungsfaktor, der Komplexität und Koordinationsaufwand widerspiegelt. Typische Referenzprojekte im komplizierten Bereich liegen bei einem Faktor um 1; komplexere oder chaotische Kontexte können begründet höhere Aufwände erfordern.",
 
@@ -201,6 +211,34 @@ const content = {
     "sidebar.tag1": "Transparenz",
     "sidebar.tag2": "Faire Beschaffung",
     "sidebar.tag3": "Datenbasierte Planung",
+
+    "team.title": "Team",
+    "team.subtitle":
+      "Die Value Method und die ValueApp werden an der ETH Zürich entwickelt und gemeinsam mit a r c experts in die Praxis getragen.",
+    "team.axelRole": "Ideenleitung, Methodenforschung",
+    "team.axelBio":
+      "Verantwortet die konzeptionelle Weiterentwicklung der Value Method und ihre Verankerung in der Planungspraxis.",
+    "team.darioRole": "Methodenforschung, Kommunikation",
+    "team.darioBio":
+      "Arbeitet an der empirischen Validierung der Methode und bereitet die Ergebnisse für Fachöffentlichkeit und Verbände auf.",
+    "team.mikelRole": "Modellentwicklung, IT-Koordination",
+    "team.mikelBio":
+      "Entwickelt die digitalen Modelle hinter der ValueApp und koordiniert technische Umsetzung und Integrationen.",
+
+    "tutorial.title": "Wie die ValueApp in der Praxis funktioniert",
+    "tutorial.p1":
+      "Die ValueApp führt Nutzer:innen Schritt für Schritt von der Projektdefinition zu transparenten Aufwands- und Honorarkorridoren.",
+    "tutorial.p2":
+      "Nach Eingabe der zentralen Determinanten (z. B. Nutzung, Fläche oder Volumen) und der projektspezifischen Komplexität berechnet die Anwendung plausible Aufwandsintervalle auf Basis validierter Basismodelle.",
+    "tutorial.p3":
+      "Die Ergebnisse können exportiert, dokumentiert und in Vergabeverfahren oder internen Planungsdiskussionen verwendet werden.",
+
+    "integration.title": "Technische Integration und Widget",
+    "integration.p1":
+      "Der Kern der ValueApp kann als Widget in externe Plattformen, Auftraggeberportale oder interne Tools integriert werden.",
+    "integration.p2":
+      "Entwickler:innen finden Dokumentation und Beispiel-Integrationen im öffentlichen GitHub-Repository:",
+    "integration.button": "GitHub-Repository öffnen",
 
     "contact.title": "Kontakt",
     "contact.ethLabel":
@@ -227,14 +265,17 @@ const content = {
     "hero.meta":
       "Développée à la Chaire d’architecture et processus de construction de l’ETH Zurich et appliquée dans la pratique par <span class=\"nowrap\">a r c experts</span>.",
 
-    "partners.label":
-      "Développée avec des partenaires institutionnels",
+    "partners.founding":
+      "Partenaires institutionnels fondateurs",
+    "partners.inProgress":
+      "Partenaires et parties prenantes en développement",
 
     "nav.valueDelivery": "Création de valeur",
     "nav.method": "Méthode",
     "nav.timeEffort": "Charges",
     "nav.baseModels": "Modèles de base",
     "nav.leadership": "Leadership Framework",
+    "nav.team": "Équipe",
 
     "valueDelivery.title": "Création de valeur",
     "valueDelivery.p1":
@@ -282,18 +323,6 @@ const content = {
       "Le Leadership Framework for Decision Making (Dave Snowden, 2007) permet de classer les situations en fonction de la relation entre cause et effet. Il aide à choisir une réponse adaptée selon le degré de complexité et d’incertitude.",
     "leadership.p2":
       "Dans la Value Method, les défis spécifiques du projet – techniques, organisationnels, spatiaux ou liés à la conception – sont positionnés dans ce cadre afin de déterminer un facteur d’ajustement cohérent.",
-
-    "leadership.domainsTitle": "Les cinq domaines",
-    "leadership.clear":
-      "Claire : relation cause-effet simple ; les décisions s’appuient sur des bonnes pratiques établies.",
-    "leadership.complicated":
-      "Compliquée : les relations sont analysables mais nécessitent une expertise ; les décisions suivent des good practices et l’avis d’expert.",
-    "leadership.complex":
-      "Complexe : la relation cause-effet n’est visible qu’a posteriori ; les solutions émergent par expérimentation et reconnaissance de motifs.",
-    "leadership.chaotic":
-      "Chaotique : aucune structure apparente ; une action immédiate de stabilisation est nécessaire avant toute analyse.",
-    "leadership.disorder":
-      "Désordre : il n’est pas clair quel domaine s’applique ; une clarification approfondie est requise.",
     "leadership.application":
       "En cartographiant les défis dans ce cadre, la méthode déduit un facteur d’ajustement qui reflète complexité et effort de coordination. Les projets de référence situés dans le domaine « compliqué » se situent généralement autour d’un facteur 1 ; des contextes plus complexes ou chaotiques peuvent justifier un effort plus élevé.",
 
@@ -310,6 +339,34 @@ const content = {
     "sidebar.tag1": "Transparence",
     "sidebar.tag2": "Marchés publics équitables",
     "sidebar.tag3": "Planification fondée sur les données",
+
+    "team.title": "Équipe",
+    "team.subtitle":
+      "La Value Method et la ValueApp sont développées à l’ETH Zurich et mises en pratique en collaboration avec a r c experts.",
+    "team.axelRole": "Direction conceptuelle, recherche méthodologique",
+    "team.axelBio":
+      "Dirige le développement conceptuel de la Value Method et son intégration dans la pratique de la planification.",
+    "team.darioRole": "Recherche méthodologique, communication",
+    "team.darioBio":
+      "Travaille sur la validation empirique de la méthode et sur la communication des résultats aux milieux professionnels.",
+    "team.mikelRole": "Développement des modèles, coordination IT",
+    "team.mikelBio":
+      "Développe les modèles numériques au cœur de la ValueApp et coordonne la mise en œuvre technique et les intégrations.",
+
+    "tutorial.title": "Comment la ValueApp fonctionne en pratique",
+    "tutorial.p1":
+      "La ValueApp guide les utilisateurs pas à pas, de la définition du projet jusqu’à des plages transparentes d’effort et d’honoraires.",
+    "tutorial.p2":
+      "Après la saisie des déterminants clés (tels que l’usage, la surface ou le volume) et de la complexité spécifique du projet, l’application calcule des intervalles d’effort plausibles sur la base de modèles de référence validés.",
+    "tutorial.p3":
+      "Les résultats peuvent être exportés, documentés et utilisés dans les procédures de marché public ou dans les discussions de planification internes.",
+
+    "integration.title": "Intégration technique et widget",
+    "integration.p1":
+      "Le cœur de la ValueApp peut être intégré comme widget dans des plateformes externes, des portails de maîtres d’ouvrage ou des outils internes.",
+    "integration.p2":
+      "Les développeurs trouvent la documentation et des exemples d’intégration dans le dépôt GitHub public :",
+    "integration.button": "Ouvrir le dépôt GitHub",
 
     "contact.title": "Contact",
     "contact.ethLabel":
@@ -336,14 +393,17 @@ const content = {
     "hero.meta":
       "Sviluppata presso la Cattedra di architettura e processo edilizio dell’ETH Zurigo e applicata nella pratica da <span class=\"nowrap\">a r c experts</span>.",
 
-    "partners.label":
-      "Sviluppata con partner istituzionali",
+    "partners.founding":
+      "Partner istituzionali fondatori",
+    "partners.inProgress":
+      "Partner e stakeholder in via di sviluppo",
 
     "nav.valueDelivery": "Creazione di valore",
     "nav.method": "Metodo",
     "nav.timeEffort": "Tempi / Fattori",
     "nav.baseModels": "Modelli base",
     "nav.leadership": "Leadership Framework",
+    "nav.team": "Team",
 
     "valueDelivery.title": "Creazione di valore",
     "valueDelivery.p1":
@@ -391,18 +451,6 @@ const content = {
       "Il Leadership Framework for Decision Making (Dave Snowden, 2007) aiuta a classificare le situazioni in base alla relazione causa-effetto, supportando risposte adeguate a diversi gradi di complessità e incertezza.",
     "leadership.p2":
       "Nella Value Method, le sfide specifiche del progetto – tecniche, organizzative, spaziali o di design – vengono posizionate all’interno del framework, da cui si ricava un fattore di adeguamento coerente.",
-
-    "leadership.domainsTitle": "I cinque domini",
-    "leadership.clear":
-      "Chiaro: relazione causa-effetto semplice; le decisioni seguono best practice consolidate.",
-    "leadership.complicated":
-      "Complicato: le relazioni sono analizzabili ma richiedono competenza; le decisioni si basano su good practice e valutazione esperta.",
-    "leadership.complex":
-      "Complesso: la relazione causa-effetto è riconoscibile solo a posteriori; le soluzioni emergono tramite sperimentazione e riconoscimento di pattern.",
-    "leadership.chaotic":
-      "Caotico: nessun ordine evidente; è necessario stabilizzare immediatamente prima di poter analizzare.",
-    "leadership.disorder":
-      "Disordine: non è chiaro quale dominio si applichi; è richiesta un’ulteriore chiarificazione.",
     "leadership.application":
       "Mappando le sfide in questo framework, il metodo determina un fattore di adeguamento che riflette complessità e sforzo di coordinamento. Progetti di riferimento nel dominio «complicato» utilizzano in genere un fattore intorno a 1; contesti più complessi o caotici possono giustificare un impegno maggiore.",
 
@@ -419,6 +467,34 @@ const content = {
     "sidebar.tag1": "Trasparenza",
     "sidebar.tag2": "Appalti equi",
     "sidebar.tag3": "Pianificazione basata sui dati",
+
+    "team.title": "Team",
+    "team.subtitle":
+      "La Value Method e la ValueApp vengono sviluppate presso l’ETH Zurigo e applicate nella pratica insieme a a r c experts.",
+    "team.axelRole": "Direzione concettuale, ricerca sul metodo",
+    "team.axelBio":
+      "Guida lo sviluppo concettuale della Value Method e la sua integrazione nella pratica di progettazione.",
+    "team.darioRole": "Ricerca sul metodo, comunicazione",
+    "team.darioBio":
+      "Lavora sulla validazione empirica del metodo e sulla comunicazione dei risultati ai diversi pubblici professionali.",
+    "team.mikelRole": "Sviluppo dei modelli, coordinamento IT",
+    "team.mikelBio":
+      "Sviluppa i modelli digitali alla base della ValueApp e coordina l’implementazione tecnica e le integrazioni.",
+
+    "tutorial.title": "Come funziona la ValueApp nella pratica",
+    "tutorial.p1":
+      "La ValueApp guida passo dopo passo dalla definizione del progetto a intervalli trasparenti di impegno e onorari.",
+    "tutorial.p2":
+      "Dopo l’inserimento dei determinanti principali (ad es. uso, superficie o volume) e della complessità specifica del progetto, l’applicazione calcola intervalli di impegno plausibili basati su modelli di riferimento validati.",
+    "tutorial.p3":
+      "I risultati possono essere esportati, documentati e utilizzati nelle procedure di gara o nelle discussioni di pianificazione interne.",
+
+    "integration.title": "Integrazione tecnica e widget",
+    "integration.p1":
+      "Il nucleo della ValueApp può essere integrato come widget in piattaforme esterne, portali dei committenti o strumenti interni.",
+    "integration.p2":
+      "Sviluppatori e sviluppatrici trovano documentazione ed esempi di integrazione nel repository pubblico GitHub:",
+    "integration.button": "Apri il repository GitHub",
 
     "contact.title": "Contatto",
     "contact.ethLabel":
@@ -445,14 +521,17 @@ const content = {
     "hero.meta":
       "Desarrollada en la Cátedra de Arquitectura y Proceso de Construcción de la ETH Zúrich y aplicada en la práctica por <span class=\"nowrap\">a r c experts</span>.",
 
-    "partners.label":
-      "Desarrollada với socios institucionales",
+    "partners.founding":
+      "Socios institucionales fundadores",
+    "partners.inProgress":
+      "Socios y partes interesadas en desarrollo",
 
     "nav.valueDelivery": "Creación de valor",
     "nav.method": "Método",
     "nav.timeEffort": "Esfuerzo / Ajustes",
     "nav.baseModels": "Modelos base",
     "nav.leadership": "Leadership Framework",
+    "nav.team": "Equipo",
 
     "valueDelivery.title": "Creación de valor",
     "valueDelivery.p1":
@@ -500,18 +579,6 @@ const content = {
       "El Leadership Framework for Decision Making (Dave Snowden, 2007) ayuda a clasificar situaciones en función de la relación entre causa y efecto. Permite elegir respuestas adecuadas según el grado de complejidad e incertidumbre.",
     "leadership.p2":
       "En la Value Method, los retos específicos del proyecto – técnicos, organizativos, espaciales o de diseño – se sitúan dentro de este marco para derivar un factor de ajuste coherente.",
-
-    "leadership.domainsTitle": "Los cinco dominios",
-    "leadership.clear":
-      "Claro: la relación causa–efecto es simple; las decisiones siguen buenas prácticas establecidas.",
-    "leadership.complicated":
-      "Complicado: las relaciones pueden analizarse pero requieren pericia; las decisiones se basan en buenas prácticas y juicio experto.",
-    "leadership.complex":
-      "Complejo: la relación causa–efecto sólo es reconocible a posteriori; las soluciones emergen mediante experimentación y reconocimiento de patrones.",
-    "leadership.chaotic":
-      "Caótico: no hay orden visible; se requiere una acción inmediata de estabilización antes de poder analizar.",
-    "leadership.disorder":
-      "Desorden: no está claro qué dominio se aplica; es necesaria una clarificación más profunda.",
     "leadership.application":
       "Al cartografiar los retos dentro de este marco, el método deriva un factor de ajuste que refleja la complejidad y el esfuerzo de coordinación. Los proyectos de referencia en el dominio «complicado» suelen utilizar un factor cercano a 1; contextos más complejos o caóticos pueden justificar un esfuerzo mayor.",
 
@@ -528,6 +595,34 @@ const content = {
     "sidebar.tag1": "Transparencia",
     "sidebar.tag2": "Contratación justa",
     "sidebar.tag3": "Planificación basada en datos",
+
+    "team.title": "Equipo",
+    "team.subtitle":
+      "La Value Method y la ValueApp se desarrollan en la ETH Zúrich y se llevan a la práctica en colaboración con a r c experts.",
+    "team.axelRole": "Dirección conceptual, investigación del método",
+    "team.axelBio":
+      "Lidera el desarrollo conceptual de la Value Method y su integración en la práctica de la planificación.",
+    "team.darioRole": "Investigación del método, comunicación",
+    "team.darioBio":
+      "Trabaja en la validación empírica del método y en la comunicación de los resultados a los distintos públicos profesionales.",
+    "team.mikelRole": "Desarrollo de modelos, coordinación IT",
+    "team.mikelBio":
+      "Desarrolla los modelos digitales que sustentan la ValueApp y coordina la implementación técnica y las integraciones.",
+
+    "tutorial.title": "Cómo funciona la ValueApp en la práctica",
+    "tutorial.p1":
+      "La ValueApp guía paso a paso desde la definición del proyecto hasta rangos transparentes de esfuerzo y honorarios.",
+    "tutorial.p2":
+      "Tras introducir los determinantes clave (como uso, superficie o volumen) y la complejidad específica del proyecto, la aplicación calcula intervalos de esfuerzo plausibles basados en modelos de referencia validados.",
+    "tutorial.p3":
+      "Los resultados pueden exportarse, documentarse y utilizarse en procesos de contratación o en discusiones internas de planificación.",
+
+    "integration.title": "Integración técnica y widget",
+    "integration.p1":
+      "El núcleo de la ValueApp puede integrarse como widget en plataformas externas, portales de clientes o herramientas internas.",
+    "integration.p2":
+      "Las personas desarrolladoras encuentran documentación y ejemplos de integración en el repositorio público de GitHub:",
+    "integration.button": "Abrir repositorio GitHub",
 
     "contact.title": "Contacto",
     "contact.ethLabel":
@@ -554,14 +649,17 @@ const content = {
     "hero.meta":
       "Desenvolvida na Cátedra de Arquitetura e Processo de Construção da ETH Zurique e aplicada na prática por <span class=\"nowrap\">a r c experts</span>.",
 
-    "partners.label":
-      "Desenvolvida com parceiros institucionais",
+    "partners.founding":
+      "Parceiros institucionais fundadores",
+    "partners.inProgress":
+      "Parceiros e stakeholders em desenvolvimento",
 
     "nav.valueDelivery": "Criação de valor",
     "nav.method": "Método",
     "nav.timeEffort": "Esforço / Ajustes",
     "nav.baseModels": "Modelos base",
     "nav.leadership": "Leadership Framework",
+    "nav.team": "Equipa",
 
     "valueDelivery.title": "Criação de valor",
     "valueDelivery.p1":
@@ -609,18 +707,6 @@ const content = {
       "O Leadership Framework for Decision Making (Dave Snowden, 2007) ajuda a classificar situações com base na relação entre causa e efeito, apoiando respostas adequadas em diferentes graus de complexidade e incerteza.",
     "leadership.p2":
       "Na Value Method, os desafios específicos do projeto – técnicos, organizacionais, espaciais ou de conceção – são posicionados neste quadro, a partir do qual se deriva um fator de ajuste coerente.",
-
-    "leadership.domainsTitle": "Os cinco domínios",
-    "leadership.clear":
-      "Claro: a relação causa-efeito é simples; as decisões seguem best practices estabelecidas.",
-    "leadership.complicated":
-      "Complicado: as relações podem ser analisadas, mas exigem especialização; as decisões baseiam-se em good practices e na avaliação de peritos.",
-    "leadership.complex":
-      "Complexo: a relação causa-efeito só é reconhecível a posteriori; as soluções emergem por experimentação e reconhecimento de padrões.",
-    "leadership.chaotic":
-      "Caótico: não há ordem visível; é necessária ação imediata de estabilização antes de qualquer análise.",
-    "leadership.disorder":
-      "Desordem: não é claro qual o domínio que se aplica; é necessária uma clarificação mais profunda.",
     "leadership.application":
       "Ao mapear os desafios neste quadro, o método deriva um fator de ajuste que reflete a complexidade e o esforço de coordenação. Projetos de referência no domínio «complicado» utilizam normalmente um fator próximo de 1; contextos mais complexos ou caóticos podem justificar um esforço superior.",
 
@@ -637,6 +723,34 @@ const content = {
     "sidebar.tag1": "Transparência",
     "sidebar.tag2": "Contratação justa",
     "sidebar.tag3": "Planeamento baseado em dados",
+
+    "team.title": "Equipa",
+    "team.subtitle":
+      "A Value Method e a ValueApp são desenvolvidas na ETH Zurique e aplicadas na prática em conjunto com a r c experts.",
+    "team.axelRole": "Liderança conceptual, investigação do método",
+    "team.axelBio":
+      "Conduz o desenvolvimento conceptual da Value Method e a sua integração na prática de projeto.",
+    "team.darioRole": "Investigação do método, comunicação",
+    "team.darioBio":
+      "Trabalha na validação empírica do método e na comunicação dos resultados aos diferentes públicos profissionais.",
+    "team.mikelRole": "Desenvolvimento de modelos, coordenação de TI",
+    "team.mikelBio":
+      "Desenvolve os modelos digitais subjacentes à ValueApp e coordena a implementação técnica e as integrações.",
+
+    "tutorial.title": "Como a ValueApp funciona na prática",
+    "tutorial.p1":
+      "A ValueApp conduz passo a passo desde a definição do projeto até faixas transparentes de esforço e honorários.",
+    "tutorial.p2":
+      "Após introduzir os principais determinantes (como uso, área ou volume) e a complexidade específica do projeto, a aplicação calcula intervalos de esforço plausíveis com base em modelos de referência validados.",
+    "tutorial.p3":
+      "Os resultados podem ser exportados, documentados e utilizados em processos de contratação ou em discussões internas de planeamento.",
+
+    "integration.title": "Integração técnica e widget",
+    "integration.p1":
+      "O núcleo da ValueApp pode ser integrado como widget em plataformas externas, portais de clientes ou ferramentas internas.",
+    "integration.p2":
+      "As pessoas desenvolvedoras encontram documentação e exemplos de integração no repositório público GitHub:",
+    "integration.button": "Abrir repositório GitHub",
 
     "contact.title": "Contacto",
     "contact.ethLabel":

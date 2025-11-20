@@ -68,6 +68,7 @@
         <a href="#time-effort" data-i18n="nav.timeEffort"></a>
         <a href="#base-models" data-i18n="nav.baseModels"></a>
         <a href="#leadership" data-i18n="nav.leadership"></a>
+        <a href="#team" data-i18n="nav.team"></a>
       </nav>
 
       <div class="lang-switcher">
@@ -110,9 +111,9 @@
       </div>
     </section>
 
-    <!-- Partner strip with ETH / SIA / OAI logos -->
-    <section class="partner-strip" aria-label="Institutional partners">
-      <div class="partner-label" data-i18n="partners.label"></div>
+    <!-- Founding partner strip with ETH / SIA / OAI logos -->
+    <section class="partner-strip" aria-label="Founding partners">
+      <div class="partner-label" data-i18n="partners.founding"></div>
       <div class="partner-logos">
         <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
           <img src="logos/logo_ETH.png" alt="ETH Zürich" />
@@ -122,6 +123,28 @@
         </a>
         <a href="https://www.oai.lu" target="_blank" rel="noopener noreferrer">
           <img src="logos/logo_OAI.jpg" alt="Ordre des Architectes et des Ingénieurs-Conseils (OAI)" />
+        </a>
+      </div>
+    </section>
+
+    <!-- In-progress partners / stakeholders (placeholder logos duplicated for now) -->
+    <section class="partner-strip partner-strip-secondary" aria-label="Partners in development">
+      <div class="partner-label" data-i18n="partners.inProgress"></div>
+      <div class="partner-logos">
+        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
+          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
+        </a>
+        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
+          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
+        </a>
+        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
+          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
+        </a>
+        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
+          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
+        </a>
+        <a href="https://ethz.ch" target="_blank" rel="noopener noreferrer">
+          <img src="logos/logo_ETH.png" alt="ETH Zürich (placeholder stakeholder)" />
         </a>
       </div>
     </section>
@@ -180,20 +203,7 @@
           <p data-i18n="sidebar.digitalText2"></p>
         </div>
 
-        <div class="sidebar-card contact-block">
-          <h3 data-i18n="contact.title"></h3>
-          <p><strong>Axel Paulus</strong></p>
-          <p>
-            <span data-i18n="contact.ethLabel"></span>
-            <br />
-            <a href="mailto:paulus@arch.ethz.ch">paulus@arch.ethz.ch</a>
-          </p>
-          <p>
-            <span data-i18n="contact.arcLabel"></span>
-            <br />
-            <a href="mailto:apaulus@arcexperts.ch">apaulus@arcexperts.ch</a>
-          </p>
-        </div>
+        <!-- former contact block replaced by conference + tags only -->
 
         <div class="sidebar-card">
           <h3 data-i18n="sidebar.conferenceTitle"></h3>
@@ -207,6 +217,67 @@
         </div>
       </aside>
     </div>
+
+    <!-- Team section -->
+    <section id="team" class="team-section">
+      <div class="team-header">
+        <h2 data-i18n="team.title"></h2>
+        <p class="team-intro" data-i18n="team.subtitle"></p>
+      </div>
+      <div class="team-grid">
+        <article class="team-card">
+          <h3>Axel Paulus</h3>
+          <p class="team-role" data-i18n="team.axelRole"></p>
+          <p class="team-bio" data-i18n="team.axelBio"></p>
+        </article>
+        <article class="team-card">
+          <h3>Dario Toppan</h3>
+          <p class="team-role" data-i18n="team.darioRole"></p>
+          <p class="team-bio" data-i18n="team.darioBio"></p>
+        </article>
+        <article class="team-card">
+          <h3>Mikel Martinez</h3>
+          <p class="team-role" data-i18n="team.mikelRole"></p>
+          <p class="team-bio" data-i18n="team.mikelBio"></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Tutorial / How it works section with duplicated video as placeholder -->
+    <section id="tutorial" class="tutorial-section">
+      <div class="tutorial-inner">
+        <div class="tutorial-text">
+          <h2 data-i18n="tutorial.title"></h2>
+          <p data-i18n="tutorial.p1"></p>
+          <p data-i18n="tutorial.p2"></p>
+          <p data-i18n="tutorial.p3"></p>
+        </div>
+        <div class="tutorial-video-wrapper">
+          <video class="hero-video" controls preload="metadata">
+            <source src="Value Method english.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Developer / integration section with GitHub link -->
+    <section id="integration" class="integration-section">
+      <div class="integration-inner">
+        <h2 data-i18n="integration.title"></h2>
+        <p data-i18n="integration.p1"></p>
+        <p data-i18n="integration.p2"></p>
+        <p>
+          <a
+            class="cta-button"
+            href="https://github.com/a-r-c-experts/core-value-integration"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="integration.button"
+          ></a>
+        </p>
+      </div>
+    </section>
 
     <!-- AI translation note -->
     <section class="ai-note">
