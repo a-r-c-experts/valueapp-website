@@ -90,6 +90,9 @@ const content = {
     "team.axelRole": "Concept lead, method research",
     "team.axelBio":
       "Leads the conceptual development of the Value Method and its integration into planning practice.",
+    "team.sachaRole": "Concept lead, method research",
+    "team.sachaBio":
+      "Leads the conceptual development of the Value Method and its integration into planning practice.",
     "team.darioRole": "Method research, communication",
     "team.darioBio":
       "Works on empirical validation of the method and communicates results to professional audiences.",
@@ -213,7 +216,10 @@ const content = {
     "team.title": "Team",
     "team.subtitle":
       "Die Value Method und die ValueApp werden an der ETH Zürich entwickelt und gemeinsam mit a r c experts in die Praxis getragen.",
-    "team.axelRole": "Ideenleitung, Methodenforschung",
+    "team.sachaRole": "Ideenleitung, Methodenforschung",
+    "team.sachaBio":
+      "Verantwortet die konzeptionelle Weiterentwicklung der Value Method und ihre Verankerung in der Planungspraxis.",
+      "team.axelRole": "Ideenleitung, Methodenforschung",
     "team.axelBio":
       "Verantwortet die konzeptionelle Weiterentwicklung der Value Method und ihre Verankerung in der Planungspraxis.",
     "team.darioRole": "Methodenforschung, Kommunikation",
@@ -339,7 +345,10 @@ const content = {
     "team.title": "Équipe",
     "team.subtitle":
       "La Value Method et la ValueApp sont développées à l’ETH Zurich et mises en pratique en collaboration avec a r c experts.",
-    "team.axelRole": "Direction conceptuelle, recherche méthodologique",
+    "team.sachaRole": "Direction conceptuelle, recherche méthodologique",
+    "team.sachaBio":
+      "Dirige le développement conceptuel de la Value Method et son intégration dans la pratique de la planification.",
+      "team.axelRole": "Direction conceptuelle, recherche méthodologique",
     "team.axelBio":
       "Dirige le développement conceptuel de la Value Method et son intégration dans la pratique de la planification.",
     "team.darioRole": "Recherche méthodologique, communication",
@@ -469,6 +478,9 @@ const content = {
     "team.axelRole": "Direzione concettuale, ricerca sul metodo",
     "team.axelBio":
       "Guida lo sviluppo concettuale della Value Method e la sua integrazione nella pratica di progettazione.",
+    "team.sachaRole": "Direzione concettuale, ricerca sul metodo",
+    "team.sachaBio":
+      "Guida lo sviluppo concettuale della Value Method e la sua integrazione nella pratica di progettazione.",
     "team.darioRole": "Ricerca sul metodo, comunicazione",
     "team.darioBio":
       "Lavora sulla validazione empirica del metodo e sulla comunicazione dei risultati ai diversi pubblici professionali.",
@@ -595,6 +607,9 @@ const content = {
     "team.axelRole": "Dirección conceptual, investigación del método",
     "team.axelBio":
       "Lidera el desarrollo conceptual de la Value Method y su integración en la práctica de la planificación.",
+      "team.sachaRole": "Dirección conceptual, investigación del método",
+    "team.sachaBio":
+      "Lidera el desarrollo conceptual de la Value Method y su integración en la práctica de la planificación.",
     "team.darioRole": "Investigación del método, comunicación",
     "team.darioBio":
       "Trabaja en la validación empírica del método y en la comunicación de los resultados a los distintos públicos profesionales.",
@@ -718,7 +733,10 @@ const content = {
     "team.title": "Equipa",
     "team.subtitle":
       "A Value Method e a ValueApp são desenvolvidas na ETH Zurique e aplicadas na prática em conjunto com a r c experts.",
-    "team.axelRole": "Liderança conceptual, investigação do método",
+    "team.sachaRole": "Liderança conceptual, investigação do método",
+    "team.sachaBio":
+      "Conduz o desenvolvimento conceptual da Value Method e a sua integração na prática de projeto.",
+      "team.axelRole": "Liderança conceptual, investigação do método",
     "team.axelBio":
       "Conduz o desenvolvimento conceptual da Value Method e a sua integração na prática de projeto.",
     "team.darioRole": "Investigação do método, comunicação",
