@@ -7,7 +7,7 @@ const content = {
     "hero.subtitle":
       "ValueApp is the digital implementation of the Value Method and supports public and private clients in modelling workloads and fees for architects, civil engineers and building services engineers – traceable, transparent and legally robust.",
     "hero.meta":
-      "Developed at the Chair of Architecture and Construction Process at ETH Zurich and applied in practice by <span class=\"nowrap\">a r c experts</span>.",
+      "Developed at the Chair of Architecture and Building Process at ETH Zurich and applied in practice by <span class=\"nowrap\">a r c experts</span>.",
 
     "partners.founding":
       "Founding institutional partners",
@@ -123,7 +123,7 @@ const content = {
       "Note: The non-English language versions of this page were initially translated with AI and then reviewed.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Chair of Architecture and Construction Process · in collaboration with <span class=\"nowrap\">a r c experts AG</span>.",
+      "© 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
       "This site uses only functional cookies to improve the user experience."
   },
