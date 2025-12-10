@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ValueApp Documentation – ETH Value Method by a r c experts</title>
-  <meta name="description" content="Documentation hub for ValueApp, implementing the ETH Value Method for transparent, data-informed planning effort and fee calculation." />
-  <meta name="robots" content="index,follow" />
-
+  <title data-i18n="wiki.home.metaTitle">ValueApp Documentation – ETH Value Method</title>
+  <meta name="description" content="User documentation for ValueApp: overview of resources, examples and tutorials for applying the ETH Value Method in planning practice." />
   <link rel="icon" type="image/png" href="../favicon.png" />
   <link rel="stylesheet" href="../styles.css" />
 </head>
@@ -15,6 +13,7 @@
   <header>
     <div class="top-bar">
       <div class="brand-text-only">
+        <!-- Only link back to main website here -->
         <a href="../index.html" style="text-decoration:none; color:inherit;">
           <span class="brand-line-main">ValueApp</span>
           <span class="brand-line-sub">
@@ -28,14 +27,25 @@
       </button>
 
       <nav class="main-nav">
-        <!-- Links back to key sections on the main page -->
-        <a href="../index.html#value-delivery">Value delivery</a>
-        <a href="../index.html#method">Method</a>
-        <a href="../index.html#team">Team</a>
-        <a href="../index.html#tutorial">Demo</a>
-        <a href="../index.html#integration">Integration</a>
-        <a href="../index.html#contact">Contact</a>
+        <a href="index.html" data-i18n="wiki.nav.home"></a>
+        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted"></a>
+        <a href="definitions.html" data-i18n="wiki.nav.definitions"></a>
+        <a href="examples.html" data-i18n="wiki.nav.examples"></a>
+        <a href="tutorial.html" data-i18n="wiki.nav.tutorial"></a>
+        <a href="faq.html" data-i18n="wiki.nav.faq"></a>
       </nav>
+
+      <div class="lang-switcher">
+        <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+          <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+          <span class="lang-current" id="currentLangLabel">EN</span>
+          <span class="lang-chevron">▾</span>
+        </button>
+        <div class="lang-menu" id="langMenu" aria-label="Select language">
+          <button class="lang-option" data-lang="en">EN</button>
+          <button class="lang-option" data-lang="de">DE</button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -45,101 +55,59 @@
         <img src="../logos/logo_ValueApp.gif" alt="ValueApp Logo" class="hero-logo" />
       </div>
       <div class="hero-text">
-        <div class="hero-kicker">PRODUCT WIKI</div>
-        <h1 class="hero-title">ValueApp Documentation</h1>
-        <p class="hero-subtitle">
-          This wiki explains how ValueApp implements the ETH Value Method for transparent,
-          data-informed calculation of planning effort and fees.
-        </p>
-        <div class="hero-meta">
-          Use the pages in this section to understand concepts, get started, and integrate
-          ValueApp into your planning workflows.
-        </div>
+        <div class="hero-kicker" data-i18n="wiki.home.kicker"></div>
+        <h1 class="hero-title" data-i18n="wiki.home.title"></h1>
+        <p class="hero-subtitle" data-i18n="wiki.home.subtitle"></p>
+        <div class="hero-meta" data-i18n="wiki.home.meta"></div>
       </div>
     </section>
 
-    <section class="partner-strip" aria-label="Documentation navigation">
-      <div class="partner-label">Start here</div>
+    <section class="partner-strip" aria-label="Wiki navigation">
+      <div class="partner-label" data-i18n="wiki.home.quickNavTitle"></div>
       <div class="partner-logos" style="justify-content:flex-start; gap:24px;">
-        <a href="getting-started.html">Getting started</a>
-        <a href="faq.html">FAQ</a>
+        <a href="getting-started.html" data-i18n="wiki.home.linkGettingStarted"></a>
+        <a href="definitions.html" data-i18n="wiki.home.linkDefinitions"></a>
+        <a href="examples.html" data-i18n="wiki.home.linkExamples"></a>
+        <a href="tutorial.html" data-i18n="wiki.home.linkTutorial"></a>
+        <a href="faq.html" data-i18n="wiki.home.linkFaq"></a>
       </div>
     </section>
 
     <div class="grid" style="margin-top:32px;">
       <div>
         <section>
-          <h2>What this documentation covers</h2>
-          <p>
-            This wiki complements the main ValueApp website by focusing on practical usage:
-            how to work with projects, define services, interpret results, and connect the
-            ETH Value Method to real planning processes.
-          </p>
-          <p>
-            The content is intended for architecture, engineering and construction professionals,
-            as well as organisations evaluating a structured, transparent approach to time-effort
-            and fee calculation.
-          </p>
+          <h2 data-i18n="wiki.home.section1.title"></h2>
+          <p data-i18n="wiki.home.section1.p1"></p>
+          <p data-i18n="wiki.home.section1.p2"></p>
         </section>
 
         <section>
-          <h2>Suggested reading order</h2>
-          <ol>
-            <li>
-              <strong><a href="getting-started.html">Getting started</a></strong>  
-              – basic access, first project setup, and core workflow.
-            </li>
-            <li>
-              <strong>Method overview (main site)</strong>  
-              – review the <a href="../index.html#method">method section</a> on the main page for
-              conceptual background.
-            </li>
-            <li>
-              <strong><a href="faq.html">FAQ</a></strong>  
-              – common questions on interpretation, national variants and collaboration.
-            </li>
-          </ol>
-        </section>
-
-        <section>
-          <h2>Who is ValueApp for?</h2>
-          <p>
-            ValueApp is designed for planning teams and organisations that need a transparent,
-            reproducible way to assess planning effort and discuss fees:
-          </p>
+          <h2 data-i18n="wiki.home.section2.title"></h2>
+          <p data-i18n="wiki.home.section2.p1"></p>
           <ul>
-            <li>Architects</li>
-            <li>Civil engineers</li>
-            <li>Building services engineers</li>
-            <li>Public and private clients</li>
-            <li>Professional associations and working groups</li>
+            <li data-i18n="wiki.home.section2.li1"></li>
+            <li data-i18n="wiki.home.section2.li2"></li>
+            <li data-i18n="wiki.home.section2.li3"></li>
           </ul>
-          <p>
-            In practice, many teams use ValueApp as a shared basis for negotiation, comparison
-            of project variants and benchmarking across portfolios.
-          </p>
+        </section>
+
+        <section>
+          <h2 data-i18n="wiki.home.section3.title"></h2>
+          <p data-i18n="wiki.home.section3.p1"></p>
         </section>
       </div>
 
       <aside>
         <div class="sidebar-card">
-          <h3>Where to find the main information</h3>
-          <p>
-            Conceptual description of the ETH Value Method and partnerships – on the
-            <a href="../index.html">main ValueApp website</a>.
-          </p>
-          <p>
-            Screenshots, step-by-step examples and concrete workflows – in this wiki.
-          </p>
+          <h3 data-i18n="wiki.home.sidebar1.title"></h3>
+          <p data-i18n="wiki.home.sidebar1.p1"></p>
+          <p data-i18n="wiki.home.sidebar1.p2"></p>
         </div>
 
         <div class="sidebar-card">
-          <h3>Useful links</h3>
-          <p>
-            <a href="../index.html#integration">Integration &amp; APIs</a><br />
-            <a href="getting-started.html">First project walkthrough</a><br />
-            <a href="faq.html">Frequently asked questions</a>
-          </p>
+          <h3 data-i18n="wiki.home.sidebar2.title"></h3>
+          <p data-i18n="wiki.home.sidebar2.p1"></p>
+          <p data-i18n="wiki.home.sidebar2.p2"></p>
         </div>
       </aside>
     </div>
@@ -148,10 +116,10 @@
   <footer>
     <div class="footer-inner">
       <div>
-        <span>© a r c experts AG · ETH Value Method · ValueApp</span>
+        <span data-i18n="wiki.footer.simpleCopyright"></span>
       </div>
       <div class="footer-links">
-        <span>Documentation preview – internal / pilot use</span>
+        <span data-i18n="wiki.footer.note"></span>
       </div>
       <div class="footer-logos">
         <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
@@ -161,15 +129,6 @@
     </div>
   </footer>
 
-  <script>
-    // Minimal mobile nav toggle, reusing existing classes.
-    const toggle = document.getElementById('mobileNavToggle');
-    const nav = document.querySelector('.main-nav');
-    if (toggle && nav) {
-      toggle.addEventListener('click', () => {
-        nav.classList.toggle('open');
-      });
-    }
-  </script>
+  <script src="../lang.js"></script>
 </body>
 </html>

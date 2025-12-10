@@ -125,9 +125,211 @@ const content = {
     "footer.copyright":
       "© 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "This site uses only functional cookies to improve the user experience."
-  },
+      "This site uses only functional cookies to improve the user experience.",
+    // wiki
+    "wiki.nav.home": "Startseite",
+    "wiki.nav.gettingStarted": "Einstieg",
+    "wiki.nav.definitions": "Definitionen",
+    "wiki.nav.examples": "Beispiele",
+    "wiki.nav.tutorial": "Tutorial",
+    "wiki.nav.faq": "FAQ",
 
+    "wiki.home.metaTitle": "ValueApp Dokumentation – ETH Value Method",
+    "wiki.home.kicker": "Nutzerdokumentation",
+    "wiki.home.title": "ValueApp Dokumentation",
+    "wiki.home.subtitle": "Überblick über zentrale Hilfsmittel zur Nutzung der ValueApp und der Value Method in der Planungspraxis.",
+    "wiki.home.meta": "Dieses Wiki ergänzt die Hauptseite der ValueApp um praktische Beispiele, Definitionen und geführte Anleitungen für den Alltag.",
+
+    "wiki.home.quickNavTitle": "Wichtige Seiten im Wiki",
+    "wiki.home.linkGettingStarted": "Einstieg",
+    "wiki.home.linkDefinitions": "Definitionen",
+    "wiki.home.linkExamples": "Beispiele",
+    "wiki.home.linkTutorial": "Tutorial",
+    "wiki.home.linkFaq": "FAQ",
+
+    "wiki.home.section1.title": "Was dieses Wiki bietet",
+    "wiki.home.section1.p1": "Die Dokumentation konzentriert sich darauf, wie die ValueApp in realen Planungssituationen eingesetzt wird: Projektanlage, Interpretation von Aufwandskorridoren und Erläuterung der Ergebnisse gegenüber internen und externen Beteiligten.",
+    "wiki.home.section1.p2": "Sie ersetzt weder gesetzliche Grundlagen noch nationale Honorarordnungen. Sie zeigt, wie die Value Method und die ValueApp als gemeinsame, transparente Diskussionsbasis genutzt werden können.",
+
+    "wiki.home.section2.p1": "Je nach Rolle sind unterschiedliche Seiten besonders relevant:",
+    "wiki.home.section2.title": "Empfohlene Einstiege",
+    "wiki.home.section2.li1": "Projektleitende: mit „Einstieg“ beginnen und anschliessend die „Beispiele“ ansehen.",
+    "wiki.home.section2.li2": "Büroleitung / Controlling: Fokus auf „Definitionen“ und „Beispiele“. ",
+    "wiki.home.section2.li3": "Neue Nutzer:innen: mit „Einstieg“ und dem Video im „Tutorial“ starten.",
+
+    "wiki.home.section3.title": "Bezug zur ValueApp-Hauptseite",
+    "wiki.home.section3.p1": "Die Hauptseite beschreibt Methode, institutionelle Partner und nationalen Kontext. Dieses Wiki ist strikt nutzungsorientiert und erklärt die Arbeit mit der ValueApp Schritt für Schritt.",
+
+    "wiki.home.sidebar1.title": "Zielgruppe",
+    "wiki.home.sidebar1.p1": "Das Wiki richtet sich an Planungsteams, Organisationen und Auftraggeber:innen, die mit Ergebnissen der ValueApp arbeiten.",
+    "wiki.home.sidebar1.p2": "Es setzt Grundkenntnisse der Planung voraus, nicht jedoch Vorkenntnisse zur Value Method.",
+
+    "wiki.home.sidebar2.title": "Gut zu wissen",
+    "wiki.home.sidebar2.p1": "Die Inhalte entwickeln sich zusammen mit Pilotprojekten und nationalen Anpassungen weiter.",
+    "wiki.home.sidebar2.p2": "Details können je nach Konfiguration leicht abweichen; nutzen Sie wo vorhanden die nationale Dokumentation.",
+
+    "wiki.getting.metaTitle": "Einstieg in die ValueApp",
+    "wiki.getting.kicker": "Onboarding",
+    "wiki.getting.title": "Einstieg in die ValueApp",
+    "wiki.getting.subtitle": "Vom ersten Login bis zur Auswertung der ersten Aufwandswerte.",
+
+    "wiki.getting.section1.title": "1. Zugang und Login",
+    "wiki.getting.section1.p1": "Die ValueApp wird in der Regel gemeinsam mit Büros, Verbänden oder Institutionen bereitgestellt, die den Zugang koordinieren.",
+    "wiki.getting.section1.p2": "Wenn Sie noch keine Zugangsdaten haben, wenden Sie sich an die interne zuständige Stelle oder verwenden Sie die Kontaktadresse auf der Hauptseite.",
+
+    "wiki.getting.section2.title": "2. Erstes Projekt anlegen",
+    "wiki.getting.section2.p1": "Sobald Sie Zugang haben, beginnen Sie mit einem konkreten Projekt oder einem realistischen Testfall.",
+    "wiki.getting.section2.li1": "Öffnen Sie die Projektübersicht in der ValueApp.",
+    "wiki.getting.section2.li2": "Wählen Sie „Neues Projekt“ und vergeben Sie einen klaren Projektnamen.",
+    "wiki.getting.section2.li3": "Wählen Sie die Hauptnutzung und allfällige Pflichtklassifikationen.",
+    "wiki.getting.section2.li4": "Erfassen Sie die wichtigsten Grössen (z. B. Fläche, Volumen oder Stückzahlen).",
+    "wiki.getting.section2.li5": "Speichern Sie und öffnen Sie das Projekt zur weiteren Bearbeitung.",
+    "wiki.getting.section2.p2": "In dieser Phase sind die Werte noch vorläufig. Mit verfeinerter Leistungsabgrenzung werden sie aussagekräftiger.",
+
+    "wiki.getting.section3.title": "3. Leistungsumfang definieren",
+    "wiki.getting.section3.p1": "Die ValueApp trennt Projektmerkmale von den Leistungen der Planungsteams.",
+    "wiki.getting.section3.li1": "Definieren Sie, welche Phasen im Leistungsumfang enthalten sind.",
+    "wiki.getting.section3.li2": "Geben Sie an, welche Disziplinen beteiligt sind.",
+    "wiki.getting.section3.li3": "Passen Sie typische Leistungsbilder bei Bedarf an.",
+    "wiki.getting.section3.li4": "Dokumentieren Sie Ausschlüsse und besondere Leistungen ausserhalb des Standards.",
+    "wiki.getting.section3.p2": "Je präziser der Umfang beschrieben ist, desto hilfreicher wird die Aufwandsverteilung für Verhandlungen und interne Planung.",
+
+    "wiki.getting.section4.title": "4. Erste Ergebnisse lesen",
+    "wiki.getting.section4.p1": "Nach dem Speichern der wichtigsten Eingaben berechnet die ValueApp indikative Aufwandswerte.",
+    "wiki.getting.section4.li1": "Gesamtaufwand über alle Disziplinen und Phasen.",
+    "wiki.getting.section4.li2": "Aufwandsverteilung nach Disziplin und/oder Phase.",
+    "wiki.getting.section4.li3": "Je nach Konfiguration: indikative Honorare auf Basis definierter Parameter.",
+    "wiki.getting.section4.p2": "Behandeln Sie diese Werte als strukturierte Diskussionsgrundlage, nicht als fixe Zahl.",
+
+    "wiki.getting.sidebar1.title": "Vorbereitung",
+    "wiki.getting.sidebar1.p1": "Arbeiten Sie nach Möglichkeit mit einem realen oder typischen Projekt. Konkrete Daten erleichtern das Verständnis der Methode.",
+
+    "wiki.getting.sidebar2.title": "Nächster Schritt",
+    "wiki.getting.sidebar2.p1": "Wenn Sie den Grundablauf kennen, sehen Sie sich die Beispiele für einfache und komplexe Projekte an.",
+    "wiki.getting.sidebar2.link": "Zu den Praxisbeispielen",
+
+    "wiki.defs.metaTitle": "Definitionen – ValueApp & Value Method",
+    "wiki.defs.kicker": "Begriffe",
+    "wiki.defs.title": "In der ValueApp verwendete Definitionen",
+    "wiki.defs.subtitle": "Zentrale Begriffe, die in der Anwendung und in der ETH Value Method vorkommen.",
+
+    "wiki.defs.section1.title": "Kernbegriffe der Methode",
+    "wiki.defs.term.valueMethod.title": "Value Method",
+    "wiki.defs.term.valueMethod.p1": "Eine an der ETH Zürich entwickelte Methode, um aus dokumentierten Projektgrössen und validierten Basismodellen transparente, reproduzierbare Aufwands- und Honorarkorridore abzuleiten.",
+    "wiki.defs.term.valueApp.title": "ValueApp",
+    "wiki.defs.term.valueApp.p1": "Die digitale Umsetzung der Value Method zur Erfassung von Projektdaten, Berechnung von Aufwandskorridoren und Weitergabe der Ergebnisse.",
+    "wiki.defs.term.determinants.title": "Determinanten",
+    "wiki.defs.term.determinants.p1": "Gemessene und dokumentierte Projektgrössen – etwa Bruttogeschossfläche, Volumen oder Stückzahlen –, die die quantitative Basis der Methode bilden.",
+    "wiki.defs.term.baseModels.title": "Basismodelle",
+    "wiki.defs.term.baseModels.p1": "Nutzungsbasierte Referenzmodelle, die den typischen Planungsaufwand für verschiedene Gebäudetypen und -grössen mit Prognoseintervallen beschreiben.",
+    "wiki.defs.term.adjustmentFactor.title": "Anpassungsfaktor",
+    "wiki.defs.term.adjustmentFactor.p1": "Ein aus projektspezifischer Komplexität und Kontext abgeleiteter Faktor, mit dem die Ergebnisse relativ zum typischen Referenzfall angepasst werden.",
+
+    "wiki.defs.section2.title": "Projekt- und Ergebnisbegriffe",
+    "wiki.defs.term.projectScope.title": "Projektumfang",
+    "wiki.defs.term.projectScope.p1": "Kombination der Phasen, Disziplinen und Aufgaben, die für einen Auftrag in- oder ausgeschlossen sind.",
+    "wiki.defs.term.servicesProfile.title": "Leistungsprofil",
+    "wiki.defs.term.servicesProfile.p1": "Verteilung der Leistungen innerhalb einer Phase oder Disziplin; zeigt, welche Standardaufgaben enthalten oder ausgeschlossen sind.",
+    "wiki.defs.term.effortRange.title": "Aufwandskorridor",
+    "wiki.defs.term.effortRange.p1": "Ein erwarteter Aufwandsbereich, der typische Streuung zwischen vergleichbaren Projekten abbildet, statt nur eine Punktzahl.",
+    "wiki.defs.term.nationalSetup.title": "Nationale Ausprägung",
+    "wiki.defs.term.nationalSetup.p1": "Eine Konfiguration von Methode und Anwendung, die landesspezifische Praxis, Terminologie und rechtlichen Kontext berücksichtigt.",
+
+    "wiki.defs.sidebar1.title": "Warum diese Begriffe wichtig sind",
+    "wiki.defs.sidebar1.p1": "Präzise Terminologie reduziert Missverständnisse in Diskussionen über Aufwand und Honorare zwischen Planungsteams und Auftraggeber:innen.",
+
+    "wiki.defs.sidebar2.title": "Mehr zur Methode",
+    "wiki.defs.sidebar2.p1": "Eine narrative Einführung in die Value Method finden Sie im Methodenabschnitt der Hauptseite.",
+    "wiki.defs.sidebar2.link": "Zur Methodenübersicht",
+
+    "wiki.examples.metaTitle": "Beispiele – ValueApp in der Anwendung",
+    "wiki.examples.kicker": "Beispiele",
+    "wiki.examples.title": "Beispiele: einfaches und komplexes Projekt",
+    "wiki.examples.subtitle": "Zwei Szenarien zeigen das Verhalten der ValueApp für eine Machbarkeitsstudie / einen Wettbewerb und ein komplexes Realisierungsprojekt.",
+
+    "wiki.examples.simple.title": "Beispiel 1: Machbarkeitsstudie / Wettbewerb",
+    "wiki.examples.simple.p1": "Bei Machbarkeitsstudien oder Wettbewerben ist der Leistungsumfang oft begrenzt, während die Entscheide weitreichend sind. Die ValueApp kann trotzdem eine strukturierte Sicht auf den Planungsaufwand liefern.",
+    "wiki.examples.simple.li1": "Legen Sie ein Projekt mit der vorgesehenen Nutzung und einer groben Grössenordnung an.",
+    "wiki.examples.simple.li2": "Begrenzen Sie den Umfang auf frühe Phasen und die tatsächlich beteiligten Disziplinen.",
+    "wiki.examples.simple.li3": "Dokumentieren Sie, welche Elemente rein konzeptionell und welche vertieft zu bearbeiten sind.",
+    "wiki.examples.simple.li4": "Verstehen Sie den resultierenden Aufwand als Korridor, nicht als exakte Prognose.",
+    "wiki.examples.simple.p2": "So lassen sich interne Ressourcen besser planen und Wettbewerbsetats transparenter darstellen.",
+
+    "wiki.examples.complex.title": "Beispiel 2: Komplexes Realisierungsprojekt",
+    "wiki.examples.complex.p1": "Für komplexe, mehrphasige Projekte mit mehreren Disziplinen hilft die ValueApp, den Aufwand über den gesamten Planungsprozess zu strukturieren.",
+    "wiki.examples.complex.li1": "Erfassen Sie Projektgrösse und Nutzungsmix wie realisiert oder geplant.",
+    "wiki.examples.complex.li2": "Repräsentieren Sie alle relevanten Phasen und Disziplinen, einschliesslich späterer Leistungsphasen.",
+    "wiki.examples.complex.li3": "Nutzen Sie den Anpassungsfaktor, um besondere Herausforderungen abzubilden (z. B. Etappierung, Stakeholder-Komplexität, Bauen im Bestand).",
+    "wiki.examples.complex.li4": "Vergleichen Sie Aufwandsverteilungen mit internen Erfahrungen und Benchmarks.",
+    "wiki.examples.complex.li5": "Nutzen Sie die Ergebnisse, um zu erläutern, wo Koordinationsaufwand entsteht und warum bestimmte Phasen besonders anspruchsvoll sind.",
+    "wiki.examples.complex.p2": "Solche Analysen sind sowohl in Verhandlungen als auch in rückblickenden Portfolioauswertungen hilfreich.",
+
+    "wiki.examples.sidebar1.title": "Umgang mit den Beispielen",
+    "wiki.examples.sidebar1.p1": "Verstehen Sie die Beispiele als Muster. Passen Sie sie an Ihre eigenen Projekte an, statt Zahlen direkt zu übernehmen.",
+
+    "wiki.examples.sidebar2.title": "Nächste Vertiefung",
+    "wiki.examples.sidebar2.p1": "Für detaillierte Schritt-für-Schritt-Anleitungen mit Screenshots und optionalem Video verwenden Sie die Tutorial-Seite.",
+    "wiki.examples.sidebar2.linkTutorial": "Zum Tutorial",
+
+    "wiki.tutorial.metaTitle": "Tutorial – Geführte Abläufe",
+    "wiki.tutorial.kicker": "Tutorial",
+    "wiki.tutorial.title": "Geführte Abläufe in der ValueApp",
+    "wiki.tutorial.subtitle": "Kombination aus Schritt-für-Schritt-Texten, Screenshots sowie optionalem Video oder interaktiven Guides.",
+
+    "wiki.tutorial.section1.title": "1. Kernablauf als linearer Leitfaden",
+    "wiki.tutorial.section1.p1": "Der Kernablauf lässt sich als einfacher, linearer Leitfaden dokumentieren, den Nutzer:innen von oben nach unten durchscrollen.",
+    "wiki.tutorial.section1.li1": "Start in der Projektübersicht und Anlegen eines neuen Projekts.",
+    "wiki.tutorial.section1.li2": "Eingabe der Determinanten und Kontrolle von Nutzung, Grösse und Kontext.",
+    "wiki.tutorial.section1.li3": "Definition von Umfang und Leistungen, anschliessend Auswertung der Aufwandsverteilung.",
+    "wiki.tutorial.section1.li4": "Export oder Dokumentation der Ergebnisse in der Form, die Ihre Organisation verwendet.",
+    "wiki.tutorial.section1.p2": "Solche Leitfäden können mit Screenshots oder automatisch erzeugten Schrittlisten aus Tools wie Scribe oder Tango kombiniert werden.",
+
+    "wiki.tutorial.video.note": "Dieses Video kann durch ein spezifisches ValueApp-Tutorial ersetzt werden, sobald verfügbar.",
+
+    "wiki.tutorial.section2.title": "2. Screenshot-basierte Anleitungen",
+    "wiki.tutorial.section2.p1": "Anleitungen mit Screenshots sind leicht lesbar und können als PDF verwendet werden. Sie eignen sich gut für Schulungen und als Alternative, wenn kein Video eingesetzt werden soll.",
+    "wiki.tutorial.section2.p2": "Um sie wartbar zu halten, verwenden Sie eine begrenzte Anzahl Screenshots und konzentrieren Sie sich auf Entscheidungspunkte statt auf jeden einzelnen Klick.",
+    "wiki.tutorial.section2.p3": "Tools wie Scribe oder Tango können helfen, aus aufgezeichneten Interaktionen strukturierte Schrittlisten zu generieren.",
+
+    "wiki.tutorial.section3.title": "3. Technische Integration (für Systemanbieter)",
+    "wiki.tutorial.section3.p1": "Wenn die ValueApp oder das zugrunde liegende core-value-Widget in andere Systeme eingebettet werden soll, wird zusätzliche technische Dokumentation benötigt.",
+    "wiki.tutorial.section3.p2": "Dies betrifft in der Regel Softwareanbieter, Auftraggeberportale oder interne IT-Teams, nicht den Alltag von Nutzer:innen.",
+    "wiki.tutorial.section3.p3": "Technische Informationen werden getrennt von diesem nutzerorientierten Wiki gepflegt:",
+    "wiki.tutorial.section3.link": "Integrations-Repository (technisch) ansehen",
+
+    "wiki.faq.metaTitle": "ValueApp FAQ",
+    "wiki.faq.kicker": "Fragen",
+    "wiki.faq.title": "Häufig gestellte Fragen",
+    "wiki.faq.subtitle": "Wiederkehrende Fragen von Planungsteams, Auftraggeber:innen und Partnern.",
+
+    "wiki.faq.section1.title": "Allgemeines",
+    "wiki.faq.q1.title": "Ist die ValueApp eine Honorarordnung?",
+    "wiki.faq.q1.p1": "Nein. Die ValueApp und die Value Method ersetzen keine gesetzlichen oder vertraglichen Regelungen. Sie bieten einen transparenten, methodenbasierten Ansatz zur Diskussion von Aufwand und Honoraren.",
+    "wiki.faq.q2.title": "Liefert die ValueApp das „richtige“ Honorar?",
+    "wiki.faq.q2.p1": "Die Methode liefert plausible Aufwandskorridore, keine absoluten Wahrheiten. Sie ist für Vergleich, Verhandlung und Reflexion ausgelegt, nicht für eine einzige Zahl.",
+    "wiki.faq.q3.title": "Wer nutzt die ValueApp typischerweise?",
+    "wiki.faq.q3.p1": "Typische Nutzer:innen sind Partner:innen, Projektleitende sowie Verantwortliche für Honorarangebote, Ressourcenplanung oder Controlling.",
+
+    "wiki.faq.section2.title": "Interpretation und Zusammenarbeit",
+    "wiki.faq.q4.title": "Was tun, wenn ein Ergebnis überraschend wirkt?",
+    "wiki.faq.q4.p1": "Prüfen Sie zuerst die Annahmen: Determinanten, Umfang, Disziplinen und Komplexität. Unerwartete Ergebnisse weisen oft auf unterschiedliche Erwartungen oder unvollständige Eingaben hin.",
+    "wiki.faq.q5.title": "Können Auftraggeber:innen in die Nutzung einbezogen werden?",
+    "wiki.faq.q5.p1": "Ja. Viele Teams nutzen die Ergebnisse zur Erläuterung von Planungsaufwand. Direkter Zugang zur Anwendung hängt von Vereinbarungen und organisatorischem Rahmen ab.",
+
+    "wiki.faq.section3.title": "Weitere Fragen?",
+    "wiki.faq.section3.p1": "Für nicht abgedeckte Fragen nutzen Sie die Kontaktadresse auf der Hauptseite und beschreiben Sie wenn möglich Projekt und nationalen Kontext kurz.",
+
+    "wiki.faq.sidebar1.title": "Nutzung der FAQ",
+    "wiki.faq.sidebar1.p1": "Verwenden Sie diese Seite als erste Filterstufe. Wenn die Antwort Konfiguration oder nationale Ausprägungen betrifft, können lokale Partner zusätzliche Details liefern.",
+
+    "wiki.faq.sidebar2.title": "Kontakt für Einzelfälle",
+    "wiki.faq.sidebar2.p1": "Bei konkreten Projekten ist oft ein Beispielgespräch hilfreicher als Theorie.",
+    "wiki.faq.sidebar2.link": "Zum Kontakt auf der Hauptseite",
+
+    "wiki.footer.simpleCopyright": "© a r c experts AG · ValueApp Nutzerdokumentation",
+    "wiki.footer.note": "Vorlaufdokumentation – in Weiterentwicklung.",
+    "wiki.footer.backHome": "Zur Wiki-Startseite"
+  },
   de: {
     "ui.languageLabel": "Sprache",
     "hero.kicker": "App / Tool · ETH Value Method",
@@ -384,7 +586,210 @@ const content = {
     "footer.copyright":
       "© 2025 ETH Zürich, Chaire d’architecture et processus de construction · en collaboration avec <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
-      "Ce site utilise uniquement des cookies fonctionnels afin d’améliorer l’expérience utilisateur."
+      "Ce site utilise uniquement des cookies fonctionnels afin d’améliorer l’expérience utilisateur.",
+  // wiki
+    "wiki.nav.home": "Startseite",
+    "wiki.nav.gettingStarted": "Einstieg",
+    "wiki.nav.definitions": "Definitionen",
+    "wiki.nav.examples": "Beispiele",
+    "wiki.nav.tutorial": "Tutorial",
+    "wiki.nav.faq": "FAQ",
+
+    "wiki.home.metaTitle": "ValueApp Dokumentation – ETH Value Method",
+    "wiki.home.kicker": "Nutzerdokumentation",
+    "wiki.home.title": "ValueApp Dokumentation",
+    "wiki.home.subtitle": "Überblick über zentrale Hilfsmittel zur Nutzung der ValueApp und der Value Method in der Planungspraxis.",
+    "wiki.home.meta": "Dieses Wiki ergänzt die Hauptseite der ValueApp um praktische Beispiele, Definitionen und geführte Anleitungen für den Alltag.",
+
+    "wiki.home.quickNavTitle": "Wichtige Seiten im Wiki",
+    "wiki.home.linkGettingStarted": "Einstieg",
+    "wiki.home.linkDefinitions": "Definitionen",
+    "wiki.home.linkExamples": "Beispiele",
+    "wiki.home.linkTutorial": "Tutorial",
+    "wiki.home.linkFaq": "FAQ",
+
+    "wiki.home.section1.title": "Was dieses Wiki bietet",
+    "wiki.home.section1.p1": "Die Dokumentation konzentriert sich darauf, wie die ValueApp in realen Planungssituationen eingesetzt wird: Projektanlage, Interpretation von Aufwandskorridoren und Erläuterung der Ergebnisse gegenüber internen und externen Beteiligten.",
+    "wiki.home.section1.p2": "Sie ersetzt weder gesetzliche Grundlagen noch nationale Honorarordnungen. Sie zeigt, wie die Value Method und die ValueApp als gemeinsame, transparente Diskussionsbasis genutzt werden können.",
+
+    "wiki.home.section2.p1": "Je nach Rolle sind unterschiedliche Seiten besonders relevant:",
+    "wiki.home.section2.title": "Empfohlene Einstiege",
+    "wiki.home.section2.li1": "Projektleitende: mit „Einstieg“ beginnen und anschliessend die „Beispiele“ ansehen.",
+    "wiki.home.section2.li2": "Büroleitung / Controlling: Fokus auf „Definitionen“ und „Beispiele“. ",
+    "wiki.home.section2.li3": "Neue Nutzer:innen: mit „Einstieg“ und dem Video im „Tutorial“ starten.",
+
+    "wiki.home.section3.title": "Bezug zur ValueApp-Hauptseite",
+    "wiki.home.section3.p1": "Die Hauptseite beschreibt Methode, institutionelle Partner und nationalen Kontext. Dieses Wiki ist strikt nutzungsorientiert und erklärt die Arbeit mit der ValueApp Schritt für Schritt.",
+
+    "wiki.home.sidebar1.title": "Zielgruppe",
+    "wiki.home.sidebar1.p1": "Das Wiki richtet sich an Planungsteams, Organisationen und Auftraggeber:innen, die mit Ergebnissen der ValueApp arbeiten.",
+    "wiki.home.sidebar1.p2": "Es setzt Grundkenntnisse der Planung voraus, nicht jedoch Vorkenntnisse zur Value Method.",
+
+    "wiki.home.sidebar2.title": "Gut zu wissen",
+    "wiki.home.sidebar2.p1": "Die Inhalte entwickeln sich zusammen mit Pilotprojekten und nationalen Anpassungen weiter.",
+    "wiki.home.sidebar2.p2": "Details können je nach Konfiguration leicht abweichen; nutzen Sie wo vorhanden die nationale Dokumentation.",
+
+    "wiki.getting.metaTitle": "Einstieg in die ValueApp",
+    "wiki.getting.kicker": "Onboarding",
+    "wiki.getting.title": "Einstieg in die ValueApp",
+    "wiki.getting.subtitle": "Vom ersten Login bis zur Auswertung der ersten Aufwandswerte.",
+
+    "wiki.getting.section1.title": "1. Zugang und Login",
+    "wiki.getting.section1.p1": "Die ValueApp wird in der Regel gemeinsam mit Büros, Verbänden oder Institutionen bereitgestellt, die den Zugang koordinieren.",
+    "wiki.getting.section1.p2": "Wenn Sie noch keine Zugangsdaten haben, wenden Sie sich an die interne zuständige Stelle oder verwenden Sie die Kontaktadresse auf der Hauptseite.",
+
+    "wiki.getting.section2.title": "2. Erstes Projekt anlegen",
+    "wiki.getting.section2.p1": "Sobald Sie Zugang haben, beginnen Sie mit einem konkreten Projekt oder einem realistischen Testfall.",
+    "wiki.getting.section2.li1": "Öffnen Sie die Projektübersicht in der ValueApp.",
+    "wiki.getting.section2.li2": "Wählen Sie „Neues Projekt“ und vergeben Sie einen klaren Projektnamen.",
+    "wiki.getting.section2.li3": "Wählen Sie die Hauptnutzung und allfällige Pflichtklassifikationen.",
+    "wiki.getting.section2.li4": "Erfassen Sie die wichtigsten Grössen (z. B. Fläche, Volumen oder Stückzahlen).",
+    "wiki.getting.section2.li5": "Speichern Sie und öffnen Sie das Projekt zur weiteren Bearbeitung.",
+    "wiki.getting.section2.p2": "In dieser Phase sind die Werte noch vorläufig. Mit verfeinerter Leistungsabgrenzung werden sie aussagekräftiger.",
+
+    "wiki.getting.section3.title": "3. Leistungsumfang definieren",
+    "wiki.getting.section3.p1": "Die ValueApp trennt Projektmerkmale von den Leistungen der Planungsteams.",
+    "wiki.getting.section3.li1": "Definieren Sie, welche Phasen im Leistungsumfang enthalten sind.",
+    "wiki.getting.section3.li2": "Geben Sie an, welche Disziplinen beteiligt sind.",
+    "wiki.getting.section3.li3": "Passen Sie typische Leistungsbilder bei Bedarf an.",
+    "wiki.getting.section3.li4": "Dokumentieren Sie Ausschlüsse und besondere Leistungen ausserhalb des Standards.",
+    "wiki.getting.section3.p2": "Je präziser der Umfang beschrieben ist, desto hilfreicher wird die Aufwandsverteilung für Verhandlungen und interne Planung.",
+
+    "wiki.getting.section4.title": "4. Erste Ergebnisse lesen",
+    "wiki.getting.section4.p1": "Nach dem Speichern der wichtigsten Eingaben berechnet die ValueApp indikative Aufwandswerte.",
+    "wiki.getting.section4.li1": "Gesamtaufwand über alle Disziplinen und Phasen.",
+    "wiki.getting.section4.li2": "Aufwandsverteilung nach Disziplin und/oder Phase.",
+    "wiki.getting.section4.li3": "Je nach Konfiguration: indikative Honorare auf Basis definierter Parameter.",
+    "wiki.getting.section4.p2": "Behandeln Sie diese Werte als strukturierte Diskussionsgrundlage, nicht als fixe Zahl.",
+
+    "wiki.getting.sidebar1.title": "Vorbereitung",
+    "wiki.getting.sidebar1.p1": "Arbeiten Sie nach Möglichkeit mit einem realen oder typischen Projekt. Konkrete Daten erleichtern das Verständnis der Methode.",
+
+    "wiki.getting.sidebar2.title": "Nächster Schritt",
+    "wiki.getting.sidebar2.p1": "Wenn Sie den Grundablauf kennen, sehen Sie sich die Beispiele für einfache und komplexe Projekte an.",
+    "wiki.getting.sidebar2.link": "Zu den Praxisbeispielen",
+
+    "wiki.defs.metaTitle": "Definitionen – ValueApp & Value Method",
+    "wiki.defs.kicker": "Begriffe",
+    "wiki.defs.title": "In der ValueApp verwendete Definitionen",
+    "wiki.defs.subtitle": "Zentrale Begriffe, die in der Anwendung und in der ETH Value Method vorkommen.",
+
+    "wiki.defs.section1.title": "Kernbegriffe der Methode",
+    "wiki.defs.term.valueMethod.title": "Value Method",
+    "wiki.defs.term.valueMethod.p1": "Eine an der ETH Zürich entwickelte Methode, um aus dokumentierten Projektgrössen und validierten Basismodellen transparente, reproduzierbare Aufwands- und Honorarkorridore abzuleiten.",
+    "wiki.defs.term.valueApp.title": "ValueApp",
+    "wiki.defs.term.valueApp.p1": "Die digitale Umsetzung der Value Method zur Erfassung von Projektdaten, Berechnung von Aufwandskorridoren und Weitergabe der Ergebnisse.",
+    "wiki.defs.term.determinants.title": "Determinanten",
+    "wiki.defs.term.determinants.p1": "Gemessene und dokumentierte Projektgrössen – etwa Bruttogeschossfläche, Volumen oder Stückzahlen –, die die quantitative Basis der Methode bilden.",
+    "wiki.defs.term.baseModels.title": "Basismodelle",
+    "wiki.defs.term.baseModels.p1": "Nutzungsbasierte Referenzmodelle, die den typischen Planungsaufwand für verschiedene Gebäudetypen und -grössen mit Prognoseintervallen beschreiben.",
+    "wiki.defs.term.adjustmentFactor.title": "Anpassungsfaktor",
+    "wiki.defs.term.adjustmentFactor.p1": "Ein aus projektspezifischer Komplexität und Kontext abgeleiteter Faktor, mit dem die Ergebnisse relativ zum typischen Referenzfall angepasst werden.",
+
+    "wiki.defs.section2.title": "Projekt- und Ergebnisbegriffe",
+    "wiki.defs.term.projectScope.title": "Projektumfang",
+    "wiki.defs.term.projectScope.p1": "Kombination der Phasen, Disziplinen und Aufgaben, die für einen Auftrag in- oder ausgeschlossen sind.",
+    "wiki.defs.term.servicesProfile.title": "Leistungsprofil",
+    "wiki.defs.term.servicesProfile.p1": "Verteilung der Leistungen innerhalb einer Phase oder Disziplin; zeigt, welche Standardaufgaben enthalten oder ausgeschlossen sind.",
+    "wiki.defs.term.effortRange.title": "Aufwandskorridor",
+    "wiki.defs.term.effortRange.p1": "Ein erwarteter Aufwandsbereich, der typische Streuung zwischen vergleichbaren Projekten abbildet, statt nur eine Punktzahl.",
+    "wiki.defs.term.nationalSetup.title": "Nationale Ausprägung",
+    "wiki.defs.term.nationalSetup.p1": "Eine Konfiguration von Methode und Anwendung, die landesspezifische Praxis, Terminologie und rechtlichen Kontext berücksichtigt.",
+
+    "wiki.defs.sidebar1.title": "Warum diese Begriffe wichtig sind",
+    "wiki.defs.sidebar1.p1": "Präzise Terminologie reduziert Missverständnisse in Diskussionen über Aufwand und Honorare zwischen Planungsteams und Auftraggeber:innen.",
+
+    "wiki.defs.sidebar2.title": "Mehr zur Methode",
+    "wiki.defs.sidebar2.p1": "Eine narrative Einführung in die Value Method finden Sie im Methodenabschnitt der Hauptseite.",
+    "wiki.defs.sidebar2.link": "Zur Methodenübersicht",
+
+    "wiki.examples.metaTitle": "Beispiele – ValueApp in der Anwendung",
+    "wiki.examples.kicker": "Beispiele",
+    "wiki.examples.title": "Beispiele: einfaches und komplexes Projekt",
+    "wiki.examples.subtitle": "Zwei Szenarien zeigen das Verhalten der ValueApp für eine Machbarkeitsstudie / einen Wettbewerb und ein komplexes Realisierungsprojekt.",
+
+    "wiki.examples.simple.title": "Beispiel 1: Machbarkeitsstudie / Wettbewerb",
+    "wiki.examples.simple.p1": "Bei Machbarkeitsstudien oder Wettbewerben ist der Leistungsumfang oft begrenzt, während die Entscheide weitreichend sind. Die ValueApp kann trotzdem eine strukturierte Sicht auf den Planungsaufwand liefern.",
+    "wiki.examples.simple.li1": "Legen Sie ein Projekt mit der vorgesehenen Nutzung und einer groben Grössenordnung an.",
+    "wiki.examples.simple.li2": "Begrenzen Sie den Umfang auf frühe Phasen und die tatsächlich beteiligten Disziplinen.",
+    "wiki.examples.simple.li3": "Dokumentieren Sie, welche Elemente rein konzeptionell und welche vertieft zu bearbeiten sind.",
+    "wiki.examples.simple.li4": "Verstehen Sie den resultierenden Aufwand als Korridor, nicht als exakte Prognose.",
+    "wiki.examples.simple.p2": "So lassen sich interne Ressourcen besser planen und Wettbewerbsetats transparenter darstellen.",
+
+    "wiki.examples.complex.title": "Beispiel 2: Komplexes Realisierungsprojekt",
+    "wiki.examples.complex.p1": "Für komplexe, mehrphasige Projekte mit mehreren Disziplinen hilft die ValueApp, den Aufwand über den gesamten Planungsprozess zu strukturieren.",
+    "wiki.examples.complex.li1": "Erfassen Sie Projektgrösse und Nutzungsmix wie realisiert oder geplant.",
+    "wiki.examples.complex.li2": "Repräsentieren Sie alle relevanten Phasen und Disziplinen, einschliesslich späterer Leistungsphasen.",
+    "wiki.examples.complex.li3": "Nutzen Sie den Anpassungsfaktor, um besondere Herausforderungen abzubilden (z. B. Etappierung, Stakeholder-Komplexität, Bauen im Bestand).",
+    "wiki.examples.complex.li4": "Vergleichen Sie Aufwandsverteilungen mit internen Erfahrungen und Benchmarks.",
+    "wiki.examples.complex.li5": "Nutzen Sie die Ergebnisse, um zu erläutern, wo Koordinationsaufwand entsteht und warum bestimmte Phasen besonders anspruchsvoll sind.",
+    "wiki.examples.complex.p2": "Solche Analysen sind sowohl in Verhandlungen als auch in rückblickenden Portfolioauswertungen hilfreich.",
+
+    "wiki.examples.sidebar1.title": "Umgang mit den Beispielen",
+    "wiki.examples.sidebar1.p1": "Verstehen Sie die Beispiele als Muster. Passen Sie sie an Ihre eigenen Projekte an, statt Zahlen direkt zu übernehmen.",
+
+    "wiki.examples.sidebar2.title": "Nächste Vertiefung",
+    "wiki.examples.sidebar2.p1": "Für detaillierte Schritt-für-Schritt-Anleitungen mit Screenshots und optionalem Video verwenden Sie die Tutorial-Seite.",
+    "wiki.examples.sidebar2.linkTutorial": "Zum Tutorial",
+
+    "wiki.tutorial.metaTitle": "Tutorial – Geführte Abläufe",
+    "wiki.tutorial.kicker": "Tutorial",
+    "wiki.tutorial.title": "Geführte Abläufe in der ValueApp",
+    "wiki.tutorial.subtitle": "Kombination aus Schritt-für-Schritt-Texten, Screenshots sowie optionalem Video oder interaktiven Guides.",
+
+    "wiki.tutorial.section1.title": "1. Kernablauf als linearer Leitfaden",
+    "wiki.tutorial.section1.p1": "Der Kernablauf lässt sich als einfacher, linearer Leitfaden dokumentieren, den Nutzer:innen von oben nach unten durchscrollen.",
+    "wiki.tutorial.section1.li1": "Start in der Projektübersicht und Anlegen eines neuen Projekts.",
+    "wiki.tutorial.section1.li2": "Eingabe der Determinanten und Kontrolle von Nutzung, Grösse und Kontext.",
+    "wiki.tutorial.section1.li3": "Definition von Umfang und Leistungen, anschliessend Auswertung der Aufwandsverteilung.",
+    "wiki.tutorial.section1.li4": "Export oder Dokumentation der Ergebnisse in der Form, die Ihre Organisation verwendet.",
+    "wiki.tutorial.section1.p2": "Solche Leitfäden können mit Screenshots oder automatisch erzeugten Schrittlisten aus Tools wie Scribe oder Tango kombiniert werden.",
+
+    "wiki.tutorial.video.note": "Dieses Video kann durch ein spezifisches ValueApp-Tutorial ersetzt werden, sobald verfügbar.",
+
+    "wiki.tutorial.section2.title": "2. Screenshot-basierte Anleitungen",
+    "wiki.tutorial.section2.p1": "Anleitungen mit Screenshots sind leicht lesbar und können als PDF verwendet werden. Sie eignen sich gut für Schulungen und als Alternative, wenn kein Video eingesetzt werden soll.",
+    "wiki.tutorial.section2.p2": "Um sie wartbar zu halten, verwenden Sie eine begrenzte Anzahl Screenshots und konzentrieren Sie sich auf Entscheidungspunkte statt auf jeden einzelnen Klick.",
+    "wiki.tutorial.section2.p3": "Tools wie Scribe oder Tango können helfen, aus aufgezeichneten Interaktionen strukturierte Schrittlisten zu generieren.",
+
+    "wiki.tutorial.section3.title": "3. Technische Integration (für Systemanbieter)",
+    "wiki.tutorial.section3.p1": "Wenn die ValueApp oder das zugrunde liegende core-value-Widget in andere Systeme eingebettet werden soll, wird zusätzliche technische Dokumentation benötigt.",
+    "wiki.tutorial.section3.p2": "Dies betrifft in der Regel Softwareanbieter, Auftraggeberportale oder interne IT-Teams, nicht den Alltag von Nutzer:innen.",
+    "wiki.tutorial.section3.p3": "Technische Informationen werden getrennt von diesem nutzerorientierten Wiki gepflegt:",
+    "wiki.tutorial.section3.link": "Integrations-Repository (technisch) ansehen",
+
+    "wiki.faq.metaTitle": "ValueApp FAQ",
+    "wiki.faq.kicker": "Fragen",
+    "wiki.faq.title": "Häufig gestellte Fragen",
+    "wiki.faq.subtitle": "Wiederkehrende Fragen von Planungsteams, Auftraggeber:innen und Partnern.",
+
+    "wiki.faq.section1.title": "Allgemeines",
+    "wiki.faq.q1.title": "Ist die ValueApp eine Honorarordnung?",
+    "wiki.faq.q1.p1": "Nein. Die ValueApp und die Value Method ersetzen keine gesetzlichen oder vertraglichen Regelungen. Sie bieten einen transparenten, methodenbasierten Ansatz zur Diskussion von Aufwand und Honoraren.",
+    "wiki.faq.q2.title": "Liefert die ValueApp das „richtige“ Honorar?",
+    "wiki.faq.q2.p1": "Die Methode liefert plausible Aufwandskorridore, keine absoluten Wahrheiten. Sie ist für Vergleich, Verhandlung und Reflexion ausgelegt, nicht für eine einzige Zahl.",
+    "wiki.faq.q3.title": "Wer nutzt die ValueApp typischerweise?",
+    "wiki.faq.q3.p1": "Typische Nutzer:innen sind Partner:innen, Projektleitende sowie Verantwortliche für Honorarangebote, Ressourcenplanung oder Controlling.",
+
+    "wiki.faq.section2.title": "Interpretation und Zusammenarbeit",
+    "wiki.faq.q4.title": "Was tun, wenn ein Ergebnis überraschend wirkt?",
+    "wiki.faq.q4.p1": "Prüfen Sie zuerst die Annahmen: Determinanten, Umfang, Disziplinen und Komplexität. Unerwartete Ergebnisse weisen oft auf unterschiedliche Erwartungen oder unvollständige Eingaben hin.",
+    "wiki.faq.q5.title": "Können Auftraggeber:innen in die Nutzung einbezogen werden?",
+    "wiki.faq.q5.p1": "Ja. Viele Teams nutzen die Ergebnisse zur Erläuterung von Planungsaufwand. Direkter Zugang zur Anwendung hängt von Vereinbarungen und organisatorischem Rahmen ab.",
+
+    "wiki.faq.section3.title": "Weitere Fragen?",
+    "wiki.faq.section3.p1": "Für nicht abgedeckte Fragen nutzen Sie die Kontaktadresse auf der Hauptseite und beschreiben Sie wenn möglich Projekt und nationalen Kontext kurz.",
+
+    "wiki.faq.sidebar1.title": "Nutzung der FAQ",
+    "wiki.faq.sidebar1.p1": "Verwenden Sie diese Seite als erste Filterstufe. Wenn die Antwort Konfiguration oder nationale Ausprägungen betrifft, können lokale Partner zusätzliche Details liefern.",
+
+    "wiki.faq.sidebar2.title": "Kontakt für Einzelfälle",
+    "wiki.faq.sidebar2.p1": "Bei konkreten Projekten ist oft ein Beispielgespräch hilfreicher als Theorie.",
+    "wiki.faq.sidebar2.link": "Zum Kontakt auf der Hauptseite",
+
+    "wiki.footer.simpleCopyright": "© a r c experts AG · ValueApp Nutzerdokumentation",
+    "wiki.footer.note": "Vorlaufdokumentation – in Weiterentwicklung.",
+    "wiki.footer.backHome": "Zur Wiki-Startseite"
   },
 
   it: {
