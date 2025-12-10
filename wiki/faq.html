@@ -2,23 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>ValueApp Wiki – FAQ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-i18n="wiki.faq.metaTitle">ValueApp FAQ</title>
-  <meta name="description" content="Frequently asked questions about ValueApp, the ETH Value Method and practical use in planning projects." />
+  <meta
+    name="description"
+    content="Frequently asked questions about the ValueApp and the ETH Value Method."
+  />
   <link rel="icon" type="image/png" href="../favicon.png" />
   <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .wiki-page-header {
+      margin-bottom: 24px;
+    }
+    .wiki-page-header h1 {
+      margin-bottom: 6px;
+    }
+    .wiki-faq-section {
+      border-radius: 18px;
+      border: 1px solid rgba(0,0,0,0.03);
+      background: #ffffff;
+      padding: 22px 22px 24px;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+    .wiki-faq-section h2 {
+      margin-top: 0;
+    }
+    .wiki-faq-section h2::after {
+      display: none;
+    }
+    .wiki-faq-item {
+      margin-bottom: 16px;
+    }
+    .wiki-faq-question {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+  </style>
 </head>
-
 <body>
   <header>
     <div class="top-bar">
+      <a href="../index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+        <img src="../Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+      </a>
       <div class="brand-text-only">
-        <a href="../index.html" style="text-decoration:none; color:inherit;">
-          <span class="brand-line-main">ValueApp</span>
-          <span class="brand-line-sub">
-            ETH Value Method · <span class="nowrap">a r c experts</span>
-          </span>
-        </a>
+        <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+        <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+          Documentation for planners and clients
+        </span>
       </div>
 
       <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
@@ -26,12 +58,12 @@
       </button>
 
       <nav class="main-nav">
-        <a href="index.html" data-i18n="wiki.nav.home"></a>
-        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted"></a>
-        <a href="definitions.html" data-i18n="wiki.nav.definitions"></a>
-        <a href="examples.html" data-i18n="wiki.nav.examples"></a>
-        <a href="tutorial.html" data-i18n="wiki.nav.tutorial"></a>
-        <a href="faq.html" data-i18n="wiki.nav.faq"></a>
+        <a href="index.html" data-i18n="wiki.nav.home">Home</a>
+        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+        <a href="definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+        <a href="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+        <a href="tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+        <a href="faq.html" data-i18n="wiki.nav.faq">FAQ</a>
       </nav>
 
       <div class="lang-switcher">
@@ -49,69 +81,127 @@
   </header>
 
   <main>
-    <section class="hero" style="margin-bottom:32px;">
-      <div class="hero-text" style="max-width:720px; margin:0 auto; text-align:left;">
-        <div class="hero-kicker" data-i18n="wiki.faq.kicker"></div>
-        <h1 class="hero-title" data-i18n="wiki.faq.title"></h1>
-        <p class="hero-subtitle" data-i18n="wiki.faq.subtitle"></p>
+    <section class="wiki-page-header">
+      <h1 data-i18n="wiki.faq.title">Frequently asked questions</h1>
+      <p data-i18n="wiki.faq.subtitle">
+        A selection of recurring questions from practice. For step-by-step instructions, see the Tutorial page.
+      </p>
+    </section>
+
+    <section class="wiki-faq-section">
+      <h2 data-i18n="wiki.faq.section.general.title">General</h2>
+
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q1.question">
+          Does the ValueApp replace fee regulations such as SIA LHO?
+        </div>
+        <div data-i18n="wiki.faq.q1.answer">
+          No. The ValueApp implements the ETH Value Method and provides transparent, traceable effort ranges based on determinants and complexity. It can be used together with fee regulations such as SIA LHO to derive honourable, non-discriminatory fee offers.
+        </div>
+      </div>
+
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q2.question">
+          Why does the app not use construction costs as input?
+        </div>
+        <div data-i18n="wiki.faq.q2.answer">
+          Construction costs depend on market conditions, timing and procurement strategies and can introduce distortions. The Value Method uses determinants such as gross floor area that are easier to document and compare across projects.
+        </div>
+      </div>
+
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q3.question">
+          Is the output a fixed number of hours or a range?
+        </div>
+        <div data-i18n="wiki.faq.q3.answer">
+          The base models provide prediction intervals, not a single pseudo-precise value. The adjustment factors and your inputs lead to a plausible range which can then be translated into planning assumptions and fee models.
+        </div>
       </div>
     </section>
 
-    <div class="grid">
-      <div>
-        <section>
-          <h2 data-i18n="wiki.faq.section1.title"></h2>
+    <section class="wiki-faq-section">
+      <h2 data-i18n="wiki.faq.section.usage.title">Using the app</h2>
 
-          <h3 data-i18n="wiki.faq.q1.title"></h3>
-          <p data-i18n="wiki.faq.q1.p1"></p>
-
-          <h3 data-i18n="wiki.faq.q2.title"></h3>
-          <p data-i18n="wiki.faq.q2.p1"></p>
-
-          <h3 data-i18n="wiki.faq.q3.title"></h3>
-          <p data-i18n="wiki.faq.q3.p1"></p>
-        </section>
-
-        <section>
-          <h2 data-i18n="wiki.faq.section2.title"></h2>
-
-          <h3 data-i18n="wiki.faq.q4.title"></h3>
-          <p data-i18n="wiki.faq.q4.p1"></p>
-
-          <h3 data-i18n="wiki.faq.q5.title"></h3>
-          <p data-i18n="wiki.faq.q5.p1"></p>
-        </section>
-
-        <section>
-          <h2 data-i18n="wiki.faq.section3.title"></h2>
-          <p data-i18n="wiki.faq.section3.p1"></p>
-        </section>
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q4.question">
+          How detailed should the project description be?
+        </div>
+        <div data-i18n="wiki.faq.q4.answer">
+          Aim for one short paragraph covering starting situation, task and key constraints. The description should be detailed enough that someone else can understand the project and interpret the hours a year later.
+        </div>
       </div>
 
-      <aside>
-        <div class="sidebar-card">
-          <h3 data-i18n="wiki.faq.sidebar1.title"></h3>
-          <p data-i18n="wiki.faq.sidebar1.p1"></p>
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q5.question">
+          How do I deal with mixed uses (e.g. housing and retail)?
         </div>
+        <div data-i18n="wiki.faq.q5.answer">
+          Enter the total gross floor area and assign percentages to the relevant uses. The app combines the corresponding base models according to the mix. If one use is very minor, you can decide whether it is worth modelling separately.
+        </div>
+      </div>
 
-        <div class="sidebar-card">
-          <h3 data-i18n="wiki.faq.sidebar2.title"></h3>
-          <p data-i18n="wiki.faq.sidebar2.p1"></p>
-          <p>
-            <a href="../index.html#contact" data-i18n="wiki.faq.sidebar2.link"></a>
-          </p>
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q6.question">
+          What if I am unsure about the complexity assessment?
         </div>
-      </aside>
-    </div>
+        <div data-i18n="wiki.faq.q6.answer">
+          Start with your best estimate and document the reasoning briefly in the challenges. If you discuss the project internally, you can adjust the position in the leadership framework and see how it affects the effort. The transparency is more important than hitting a “perfect” value.
+        </div>
+      </div>
+
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q7.question">
+          Can I override the hours per phase?
+        </div>
+        <div data-i18n="wiki.faq.q7.answer">
+          Yes. The suggested distribution is based on typical patterns. If your project has an unusually heavy execution phase or a reduced design phase, you can adjust the percentages. It is good practice to document why.
+        </div>
+      </div>
+    </section>
+
+    <section class="wiki-faq-section">
+      <h2 data-i18n="wiki.faq.section.technical.title">Technical and data</h2>
+
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q8.question">
+          How often are the base models updated?
+        </div>
+        <div data-i18n="wiki.faq.q8.answer">
+          Base models are updated periodically with new realised projects and refined as more data become available. This ensures that effort ranges remain aligned with contemporary practice.
+        </div>
+      </div>
+
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q9.question">
+          Can the ValueApp be integrated into our own IT systems?
+        </div>
+        <div data-i18n="wiki.faq.q9.answer">
+          Yes. The core logic can be embedded as a widget into external platforms and client portals. Technical documentation and examples are available in the separate integration repository.
+        </div>
+      </div>
+
+      <div class="wiki-faq-item">
+        <div class="wiki-faq-question" data-i18n="wiki.faq.q10.question">
+          Where can I report bugs or suggest improvements?
+        </div>
+        <div data-i18n="wiki.faq.q10.answer">
+          Use the “Feedback” button in the app to open a short form. You can describe the issue, attach context and, if relevant, reference a specific project or screenshot.
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
     <div class="footer-inner">
       <div>
-        <span data-i18n="wiki.footer.simpleCopyright"></span>
+        <span data-i18n="footer.copyright">
+          © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with <span class="nowrap">a r c experts AG</span>.
+        </span>
       </div>
       <div class="footer-links">
-        <a href="index.html" data-i18n="wiki.footer.backHome"></a>
+        <span data-i18n="footer.cookies">
+          This site uses only functional cookies to improve the user experience.
+        </span>
       </div>
       <div class="footer-logos">
         <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">

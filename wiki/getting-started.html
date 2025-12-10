@@ -2,23 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>ValueApp Wiki – Getting started</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-i18n="wiki.getting.metaTitle">Getting started with ValueApp</title>
-  <meta name="description" content="First steps with ValueApp: access, creating a project, defining scope and reading results." />
+  <meta
+    name="description"
+    content="Quick introduction to the four main steps in the ValueApp: description, project definition, services and summary."
+  />
   <link rel="icon" type="image/png" href="../favicon.png" />
   <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .wiki-page-header {
+      margin-bottom: 24px;
+    }
+    .wiki-page-header h1 {
+      margin-bottom: 6px;
+    }
+    .wiki-section {
+      border-radius: 18px;
+      border: 1px solid rgba(0,0,0,0.03);
+      background: #ffffff;
+      padding: 22px 22px 24px;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+    .wiki-section h2 {
+      margin-top: 0;
+    }
+    .wiki-section h2::after {
+      display: none;
+    }
+    .wiki-step-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      counter-reset: step;
+    }
+    .wiki-step-list li {
+      counter-increment: step;
+      margin-bottom: 16px;
+    }
+    .wiki-step-list li::before {
+      content: counter(step);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      margin-right: 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      font-size: 0.8rem;
+    }
+    .wiki-inline-link {
+      text-decoration: none;
+      color: var(--accent);
+    }
+    .wiki-inline-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
   <header>
     <div class="top-bar">
+      <a href="../index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+        <img src="../Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+      </a>
       <div class="brand-text-only">
-        <a href="../index.html" style="text-decoration:none; color:inherit;">
-          <span class="brand-line-main">ValueApp</span>
-          <span class="brand-line-sub">
-            ETH Value Method · <span class="nowrap">a r c experts</span>
-          </span>
-        </a>
+        <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+        <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+          Documentation for planners and clients
+        </span>
       </div>
 
       <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
@@ -26,12 +80,12 @@
       </button>
 
       <nav class="main-nav">
-        <a href="index.html" data-i18n="wiki.nav.home"></a>
-        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted"></a>
-        <a href="definitions.html" data-i18n="wiki.nav.definitions"></a>
-        <a href="examples.html" data-i18n="wiki.nav.examples"></a>
-        <a href="tutorial.html" data-i18n="wiki.nav.tutorial"></a>
-        <a href="faq.html" data-i18n="wiki.nav.faq"></a>
+        <a href="index.html" data-i18n="wiki.nav.home">Home</a>
+        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+        <a href="definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+        <a href="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+        <a href="tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+        <a href="faq.html" data-i18n="wiki.nav.faq">FAQ</a>
       </nav>
 
       <div class="lang-switcher">
@@ -49,83 +103,75 @@
   </header>
 
   <main>
-    <section class="hero" style="margin-bottom:32px;">
-      <div class="hero-text" style="max-width:720px; margin:0 auto; text-align:left;">
-        <div class="hero-kicker" data-i18n="wiki.getting.kicker"></div>
-        <h1 class="hero-title" data-i18n="wiki.getting.title"></h1>
-        <p class="hero-subtitle" data-i18n="wiki.getting.subtitle"></p>
-      </div>
+    <section class="wiki-page-header">
+      <h1 data-i18n="wiki.gettingStarted.title">Getting started with the ValueApp</h1>
+      <p data-i18n="wiki.gettingStarted.subtitle">
+        The ValueApp guides you through four steps: project description, project definition, services and summary. This page gives you a quick overview before you dive into the full tutorial.
+      </p>
     </section>
 
-    <div class="grid">
-      <div>
-        <section id="access">
-          <h2 data-i18n="wiki.getting.section1.title"></h2>
-          <p data-i18n="wiki.getting.section1.p1"></p>
-          <p data-i18n="wiki.getting.section1.p2"></p>
-        </section>
+    <section class="wiki-section">
+      <h2 data-i18n="wiki.gettingStarted.section.steps.title">The four main steps</h2>
+      <ul class="wiki-step-list">
+        <li>
+          <strong data-i18n="wiki.gettingStarted.step1.title">1. Describe the project (Beschrieb)</strong><br />
+          <span data-i18n="wiki.gettingStarted.step1.text">
+            Enter name, address, status and a short project description. Define the organisational setup on the planning and contractor side (e.g. individual planners, general planner, general contractor).
+          </span>
+        </li>
+        <li>
+          <strong data-i18n="wiki.gettingStarted.step2.title">2. Define quantity, uses and complexity (Projekt)</strong><br />
+          <span data-i18n="wiki.gettingStarted.step2.text">
+            Enter the determinating quantity (usually gross floor area in m²), define the mix of uses and assess complexity in four dimensions: design, technical, spatial and organisational. The app maps this to the Leadership Framework to derive an adjustment factor.
+          </span>
+        </li>
+        <li>
+          <strong data-i18n="wiki.gettingStarted.step3.title">3. Define your role and services (Leistung)</strong><br />
+          <span data-i18n="wiki.gettingStarted.step3.text">
+            Select your role (e.g. architect, architect & general planner), highlight focus topics and review the calculated hours for 100&nbsp;% basic services, including their distribution over SIA phases 1–6.
+          </span>
+        </li>
+        <li>
+          <strong data-i18n="wiki.gettingStarted.step4.title">4. Review and export the summary (Zusammenfassung)</strong><br />
+          <span data-i18n="wiki.gettingStarted.step4.text">
+            Check the generated one-pager with key project data, organisational setup, use mix, effort per m² and hours by phase. You can export or print this as documentation for fee offers or procurement.
+          </span>
+        </li>
+      </ul>
+    </section>
 
-        <section id="first-project">
-          <h2 data-i18n="wiki.getting.section2.title"></h2>
-          <p data-i18n="wiki.getting.section2.p1"></p>
-          <ol>
-            <li data-i18n="wiki.getting.section2.li1"></li>
-            <li data-i18n="wiki.getting.section2.li2"></li>
-            <li data-i18n="wiki.getting.section2.li3"></li>
-            <li data-i18n="wiki.getting.section2.li4"></li>
-            <li data-i18n="wiki.getting.section2.li5"></li>
-          </ol>
-          <p data-i18n="wiki.getting.section2.p2"></p>
-        </section>
-
-        <section id="scope">
-          <h2 data-i18n="wiki.getting.section3.title"></h2>
-          <p data-i18n="wiki.getting.section3.p1"></p>
-          <ul>
-            <li data-i18n="wiki.getting.section3.li1"></li>
-            <li data-i18n="wiki.getting.section3.li2"></li>
-            <li data-i18n="wiki.getting.section3.li3"></li>
-            <li data-i18n="wiki.getting.section3.li4"></li>
-          </ul>
-          <p data-i18n="wiki.getting.section3.p2"></p>
-        </section>
-
-        <section id="results">
-          <h2 data-i18n="wiki.getting.section4.title"></h2>
-          <p data-i18n="wiki.getting.section4.p1"></p>
-          <ul>
-            <li data-i18n="wiki.getting.section4.li1"></li>
-            <li data-i18n="wiki.getting.section4.li2"></li>
-            <li data-i18n="wiki.getting.section4.li3"></li>
-          </ul>
-          <p data-i18n="wiki.getting.section4.p2"></p>
-        </section>
-      </div>
-
-      <aside>
-        <div class="sidebar-card">
-          <h3 data-i18n="wiki.getting.sidebar1.title"></h3>
-          <p data-i18n="wiki.getting.sidebar1.p1"></p>
-        </div>
-
-        <div class="sidebar-card">
-          <h3 data-i18n="wiki.getting.sidebar2.title"></h3>
-          <p data-i18n="wiki.getting.sidebar2.p1"></p>
-          <p>
-            <a href="examples.html" data-i18n="wiki.getting.sidebar2.link"></a>
-          </p>
-        </div>
-      </aside>
-    </div>
+    <section class="wiki-section">
+      <h2 data-i18n="wiki.gettingStarted.section.next.title">Where to go next</h2>
+      <p data-i18n="wiki.gettingStarted.section.next.text1">
+        If you want a more detailed explanation of all concepts and fields, continue with the Definitions page. If you prefer to learn by example, start with the simple and complex project examples.
+      </p>
+      <p>
+        <a href="definitions.html" class="wiki-inline-link" data-i18n="wiki.gettingStarted.link.definitions">
+          → Definitions – core concepts and field explanations
+        </a>
+        <br />
+        <a href="examples.html" class="wiki-inline-link" data-i18n="wiki.gettingStarted.link.examples">
+          → Examples – simple and complex projects
+        </a>
+        <br />
+        <a href="tutorial.html" class="wiki-inline-link" data-i18n="wiki.gettingStarted.link.tutorial">
+          → Tutorial – detailed walkthrough with screenshots
+        </a>
+      </p>
+    </section>
   </main>
 
   <footer>
     <div class="footer-inner">
       <div>
-        <span data-i18n="wiki.footer.simpleCopyright"></span>
+        <span data-i18n="footer.copyright">
+          © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with <span class="nowrap">a r c experts AG</span>.
+        </span>
       </div>
       <div class="footer-links">
-        <a href="index.html" data-i18n="wiki.footer.backHome"></a>
+        <span data-i18n="footer.cookies">
+          This site uses only functional cookies to improve the user experience.
+        </span>
       </div>
       <div class="footer-logos">
         <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">

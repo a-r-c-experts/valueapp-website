@@ -2,23 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>ValueApp Wiki – Tutorial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-i18n="wiki.tutorial.metaTitle">Tutorial – Guided walkthroughs</title>
-  <meta name="description" content="Tutorial page for ValueApp with step-by-step walkthroughs, optional video and links to interactive guides." />
+  <meta
+    name="description"
+    content="Step-by-step tutorial for the ValueApp with screenshots: from project description to summary."
+  />
   <link rel="icon" type="image/png" href="../favicon.png" />
   <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .wiki-page-header {
+      margin-bottom: 24px;
+    }
+    .wiki-page-header h1 {
+      margin-bottom: 6px;
+    }
+    .wiki-section {
+      border-radius: 18px;
+      border: 1px solid rgba(0,0,0,0.03);
+      background: #ffffff;
+      padding: 22px 22px 24px;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+    .wiki-section h2 {
+      margin-top: 0;
+    }
+    .wiki-section h2::after {
+      display: none;
+    }
+    .wiki-img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 1px solid rgba(0,0,0,0.06);
+      margin: 10px 0;
+    }
+    .wiki-img-caption {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+    .wiki-step-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .wiki-note-box {
+      border-radius: 12px;
+      border: 1px dashed var(--border);
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
-
 <body>
   <header>
     <div class="top-bar">
+      <a href="../index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+        <img src="../Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+      </a>
       <div class="brand-text-only">
-        <a href="../index.html" style="text-decoration:none; color:inherit;">
-          <span class="brand-line-main">ValueApp</span>
-          <span class="brand-line-sub">
-            ETH Value Method · <span class="nowrap">a r c experts</span>
-          </span>
-        </a>
+        <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+        <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+          Documentation for planners and clients
+        </span>
       </div>
 
       <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
@@ -26,12 +77,12 @@
       </button>
 
       <nav class="main-nav">
-        <a href="index.html" data-i18n="wiki.nav.home"></a>
-        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted"></a>
-        <a href="definitions.html" data-i18n="wiki.nav.definitions"></a>
-        <a href="examples.html" data-i18n="wiki.nav.examples"></a>
-        <a href="tutorial.html" data-i18n="wiki.nav.tutorial"></a>
-        <a href="faq.html" data-i18n="wiki.nav.faq"></a>
+        <a href="index.html" data-i18n="wiki.nav.home">Home</a>
+        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+        <a href="definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+        <a href="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+        <a href="tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+        <a href="faq.html" data-i18n="wiki.nav.faq">FAQ</a>
       </nav>
 
       <div class="lang-switcher">
@@ -49,71 +100,173 @@
   </header>
 
   <main>
-    <section class="hero" style="margin-bottom:32px;">
-      <div class="hero-text" style="max-width:720px; margin:0 auto; text-align:left;">
-        <div class="hero-kicker" data-i18n="wiki.tutorial.kicker"></div>
-        <h1 class="hero-title" data-i18n="wiki.tutorial.title"></h1>
-        <p class="hero-subtitle" data-i18n="wiki.tutorial.subtitle"></p>
+    <section class="wiki-page-header">
+      <h1 data-i18n="wiki.tutorial.title">Tutorial – step-by-step through the ValueApp</h1>
+      <p data-i18n="wiki.tutorial.subtitle">
+        This tutorial walks you through the ValueApp using an example project. The focus is on what to enter in each tab and how to read the results.
+      </p>
+    </section>
+
+    <section class="wiki-section">
+      <div class="wiki-step-label" data-i18n="wiki.tutorial.overview.stepLabel">Overview</div>
+      <h2 data-i18n="wiki.tutorial.overview.title">Four tabs, one method</h2>
+      <p data-i18n="wiki.tutorial.overview.text1">
+        The ValueApp is structured into four tabs: Beschrieb, Projekt, Leistung and Zusammenfassung. They follow the logic of the ETH Value Method from project context to effort and service distribution.
+      </p>
+      <img
+        src="../wiki-assests/valueapp-architecture-overview.jpg"
+        alt="Overview diagram of the ValueApp structure"
+        class="wiki-img"
+      />
+      <div class="wiki-img-caption" data-i18n="wiki.tutorial.overview.caption1">
+        The app connects project description, determinants, adjustment factors and services into one coherent flow.
       </div>
     </section>
 
-    <section class="tutorial-section">
-      <div class="tutorial-inner">
-        <div class="tutorial-text">
-          <h2 data-i18n="wiki.tutorial.section1.title"></h2>
-          <p data-i18n="wiki.tutorial.section1.p1"></p>
-          <ol>
-            <li data-i18n="wiki.tutorial.section1.li1"></li>
-            <li data-i18n="wiki.tutorial.section1.li2"></li>
-            <li data-i18n="wiki.tutorial.section1.li3"></li>
-            <li data-i18n="wiki.tutorial.section1.li4"></li>
-          </ol>
-          <p data-i18n="wiki.tutorial.section1.p2"></p>
-        </div>
-        <div class="tutorial-video-wrapper">
-          <!-- Placeholder: you can replace src with a dedicated tutorial video -->
-          <video class="hero-video" controls preload="metadata">
-            <source src="../Value Method english.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <p style="font-size:0.85rem; color:#6b6b6b; margin-top:6px;" data-i18n="wiki.tutorial.video.note"></p>
-        </div>
+    <section class="wiki-section">
+      <div class="wiki-step-label" data-i18n="wiki.tutorial.step1.label">Step 1</div>
+      <h2 data-i18n="wiki.tutorial.step1.title">Beschrieb – describe the project</h2>
+      <p data-i18n="wiki.tutorial.step1.text1">
+        Start with a clear project description. This information appears in reports and provides context when you compare projects later.
+      </p>
+      <ul>
+        <li data-i18n="wiki.tutorial.step1.li1">
+          Enter the project title and address.
+        </li>
+        <li data-i18n="wiki.tutorial.step1.li2">
+          Set the status (e.g. “In Planung” or “Ausführung”).
+        </li>
+        <li data-i18n="wiki.tutorial.step1.li3">
+          Describe the starting situation, task and key constraints in 5–10 lines.
+        </li>
+        <li data-i18n="wiki.tutorial.step1.li4">
+          Define the organisational setup on the planning and contractor side.
+        </li>
+      </ul>
+      <img
+        src="../wiki-assests/app-beschrieb-kindergarten.jpg"
+        alt="ValueApp Beschrieb tab screenshot"
+        class="wiki-img"
+      />
+      <div class="wiki-img-caption" data-i18n="wiki.tutorial.step1.caption1">
+        Example of the Beschrieb tab filled for an educational building.
       </div>
-    </section>
-
-    <section class="integration-section">
-      <div class="integration-inner">
-        <h2 data-i18n="wiki.tutorial.section2.title"></h2>
-        <p data-i18n="wiki.tutorial.section2.p1"></p>
-        <p data-i18n="wiki.tutorial.section2.p2"></p>
-        <p data-i18n="wiki.tutorial.section2.p3"></p>
-      </div>
-    </section>
-
-    <section class="integration-section">
-      <div class="integration-inner">
-        <h2 data-i18n="wiki.tutorial.section3.title"></h2>
-        <p data-i18n="wiki.tutorial.section3.p1"></p>
-        <p data-i18n="wiki.tutorial.section3.p2"></p>
-        <p>
-          <a
-            href="https://github.com/a-r-c-experts/core-value-integration"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-i18n="wiki.tutorial.section3.link"
-          ></a>
+      <div class="wiki-note-box">
+        <strong data-i18n="wiki.tutorial.step1.note.title">Saving and feedback</strong>
+        <p data-i18n="wiki.tutorial.step1.note.text">
+          Use the “Speichern” button in the app to store your progress. The “Feedback” button opens a short form where you can report issues or suggest improvements.
         </p>
       </div>
+    </section>
+
+    <section class="wiki-section">
+      <div class="wiki-step-label" data-i18n="wiki.tutorial.step2.label">Step 2</div>
+      <h2 data-i18n="wiki.tutorial.step2.title">Projekt – quantity, uses and complexity</h2>
+      <p data-i18n="wiki.tutorial.step2.text1">
+        In the Projekt tab you translate the brief into numbers and a complexity assessment.
+      </p>
+      <h3 data-i18n="wiki.tutorial.step2.quant.title">2.1 Determinant and use mix</h3>
+      <p data-i18n="wiki.tutorial.step2.quant.text1">
+        Enter the determinating quantity, usually the gross floor area GF. Then assign percentages of this area to the relevant uses such as Wohnen, Arbeiten or Ausbilden und forschen.
+      </p>
+      <img
+        src="../wiki-assests/app-project-uses-empty.jpg"
+        alt="ValueApp project tab with empty use list"
+        class="wiki-img"
+      />
+      <div class="wiki-img-caption" data-i18n="wiki.tutorial.step2.quant.caption1">
+        Project tab before assigning uses.
+      </div>
+      <img
+        src="../wiki-assests/app-project-uses-education-100.jpg"
+        alt="ValueApp project tab with education use assigned"
+        class="wiki-img"
+      />
+      <div class="wiki-img-caption" data-i18n="wiki.tutorial.step2.quant.caption2">
+        All gross floor area assigned to “Ausbilden und forschen” for an educational building.
+      </div>
+
+      <h3 data-i18n="wiki.tutorial.step2.complexity.title">2.2 Complexity and challenges</h3>
+      <p data-i18n="wiki.tutorial.step2.complexity.text1">
+        Next, assess complexity. You describe challenges in four dimensions (design, technical, spatial, organisational) and position them in the leadership framework.
+      </p>
+      <img
+        src="../wiki-assests/app-complexity-challenges-popup.jpg"
+        alt="ValueApp complexity popup with leadership framework"
+        class="wiki-img"
+      />
+      <div class="wiki-img-caption" data-i18n="wiki.tutorial.step2.complexity.caption1">
+        Description of project-specific challenges and their position in the leadership framework.
+      </div>
+      <p data-i18n="wiki.tutorial.step2.complexity.text2">
+        The app calculates an adjustment factor based on the centre of gravity of your entries. This factor shifts the expected effort within the prediction interval of the base model.
+      </p>
+
+      <h3 data-i18n="wiki.tutorial.step2.risk.title">2.3 Risk level</h3>
+      <p data-i18n="wiki.tutorial.step2.risk.text1">
+        Finally, set the risk level: no special, increased or high requirements. This reflects project-specific uncertainty and can influence the upper part of the effort range.
+      </p>
+    </section>
+
+    <section class="wiki-section">
+      <div class="wiki-step-label" data-i18n="wiki.tutorial.step3.label">Step 3</div>
+      <h2 data-i18n="wiki.tutorial.step3.title">Leistung – role and hours by phase</h2>
+      <p data-i18n="wiki.tutorial.step3.text1">
+        In the Leistung tab you define your responsibility and see how the calculated hours distribute across phases.
+      </p>
+      <ul>
+        <li data-i18n="wiki.tutorial.step3.li1">
+          Choose your role (e.g. architect, architect &amp; general planner, general planner).
+        </li>
+        <li data-i18n="wiki.tutorial.step3.li2">
+          Highlight focus topics such as design, construction management or cost planning.
+        </li>
+        <li data-i18n="wiki.tutorial.step3.li3">
+          Review the total hours for 100&nbsp;% basic services.
+        </li>
+        <li data-i18n="wiki.tutorial.step3.li4">
+          Check the distribution across SIA phases 1–6 and adjust where justified.
+        </li>
+      </ul>
+      <img
+        src="../wiki-assests/app-roles-hours.jpg"
+        alt="ValueApp roles and hours by phase"
+        class="wiki-img"
+      />
+      <div class="wiki-img-caption" data-i18n="wiki.tutorial.step3.caption1">
+        Example of roles, focus topics and hours per phase.
+      </div>
+      <div class="wiki-note-box">
+        <strong data-i18n="wiki.tutorial.step3.note.title">Multiple disciplines</strong>
+        <p data-i18n="wiki.tutorial.step3.note.text">
+          For multi-discipline projects (architecture, structural engineering, electrical, heating/ventilation, sanitary), repeat the steps in the Projekt and Leistung tabs for each discipline. The summary shows them side by side.
+        </p>
+      </div>
+    </section>
+
+    <section class="wiki-section">
+      <div class="wiki-step-label" data-i18n="wiki.tutorial.step4.label">Step 4</div>
+      <h2 data-i18n="wiki.tutorial.step4.title">Zusammenfassung – reading the one-pager</h2>
+      <p data-i18n="wiki.tutorial.step4.text1">
+        The Zusammenfassung tab is read-only. It compiles all relevant information into a structured overview: project description, organisational setup, use mix, effort per m², risk level, hours by phase and, where applicable, additional services.
+      </p>
+      <p data-i18n="wiki.tutorial.step4.text2">
+        You can export or print this page and attach it to fee offers, internal planning documents or procurement procedures. It documents why a certain effort level is plausible given the project’s determinants and complexity.
+      </p>
     </section>
   </main>
 
   <footer>
     <div class="footer-inner">
       <div>
-        <span data-i18n="wiki.footer.simpleCopyright"></span>
+        <span data-i18n="footer.copyright">
+          © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with <span class="nowrap">a r c experts AG</span>.
+        </span>
       </div>
       <div class="footer-links">
-        <a href="index.html" data-i18n="wiki.footer.backHome"></a>
+        <span data-i18n="footer.cookies">
+          This site uses only functional cookies to improve the user experience.
+        </span>
       </div>
       <div class="footer-logos">
         <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">

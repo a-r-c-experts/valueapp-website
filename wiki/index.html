@@ -2,24 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>ValueApp Wiki – Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-i18n="wiki.home.metaTitle">ValueApp Documentation – ETH Value Method</title>
-  <meta name="description" content="User documentation for ValueApp: overview of resources, examples and tutorials for applying the ETH Value Method in planning practice." />
+  <meta
+    name="description"
+    content="User-oriented documentation for the ValueApp: getting started, definitions, examples, tutorials and FAQ."
+  />
   <link rel="icon" type="image/png" href="../favicon.png" />
   <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .wiki-hero {
+      margin-bottom: 32px;
+      text-align: left;
+    }
+    .wiki-hero-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 800px;
+    }
+    .wiki-hero-logo-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .wiki-hero-logo {
+      height: 56px;
+      width: auto;
+    }
+    .wiki-tagline {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    .wiki-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
+      gap: 32px;
+      align-items: flex-start;
+    }
+    @media (max-width: 800px) {
+      .wiki-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .wiki-card {
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      padding: 20px 22px;
+      margin-bottom: 18px;
+      font-size: 0.95rem;
+    }
+    .wiki-card h2, .wiki-card h3 {
+      margin-top: 0;
+    }
+    .wiki-card h2::after,
+    .wiki-card h3::after {
+      display: none;
+    }
+    .wiki-nav-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .wiki-nav-list li {
+      margin-bottom: 6px;
+    }
+    .wiki-nav-list a {
+      text-decoration: none;
+      color: var(--accent);
+    }
+    .wiki-nav-list a:hover {
+      text-decoration: underline;
+    }
+    .wiki-pill-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      font-size: 0.85rem;
+      text-decoration: none;
+      color: var(--accent);
+    }
+    .wiki-pill-link:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+    .hero-small-note {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
 </head>
-
 <body>
   <header>
     <div class="top-bar">
+      <a href="../index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+        <img src="../Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+      </a>
       <div class="brand-text-only">
-        <!-- Only link back to main website here -->
-        <a href="../index.html" style="text-decoration:none; color:inherit;">
-          <span class="brand-line-main">ValueApp</span>
-          <span class="brand-line-sub">
-            ETH Value Method · <span class="nowrap">a r c experts</span>
-          </span>
-        </a>
+        <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+        <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+          Documentation for planners and clients
+        </span>
       </div>
 
       <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
@@ -27,12 +113,12 @@
       </button>
 
       <nav class="main-nav">
-        <a href="index.html" data-i18n="wiki.nav.home"></a>
-        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted"></a>
-        <a href="definitions.html" data-i18n="wiki.nav.definitions"></a>
-        <a href="examples.html" data-i18n="wiki.nav.examples"></a>
-        <a href="tutorial.html" data-i18n="wiki.nav.tutorial"></a>
-        <a href="faq.html" data-i18n="wiki.nav.faq"></a>
+        <a href="index.html" data-i18n="wiki.nav.home">Home</a>
+        <a href="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+        <a href="definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+        <a href="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+        <a href="tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+        <a href="faq.html" data-i18n="wiki.nav.faq">FAQ</a>
       </nav>
 
       <div class="lang-switcher">
@@ -50,76 +136,111 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-logo-wrapper">
-        <img src="../logos/logo_ValueApp.gif" alt="ValueApp Logo" class="hero-logo" />
-      </div>
-      <div class="hero-text">
-        <div class="hero-kicker" data-i18n="wiki.home.kicker"></div>
-        <h1 class="hero-title" data-i18n="wiki.home.title"></h1>
-        <p class="hero-subtitle" data-i18n="wiki.home.subtitle"></p>
-        <div class="hero-meta" data-i18n="wiki.home.meta"></div>
-      </div>
-    </section>
-
-    <section class="partner-strip" aria-label="Wiki navigation">
-      <div class="partner-label" data-i18n="wiki.home.quickNavTitle"></div>
-      <div class="partner-logos" style="justify-content:flex-start; gap:24px;">
-        <a href="getting-started.html" data-i18n="wiki.home.linkGettingStarted"></a>
-        <a href="definitions.html" data-i18n="wiki.home.linkDefinitions"></a>
-        <a href="examples.html" data-i18n="wiki.home.linkExamples"></a>
-        <a href="tutorial.html" data-i18n="wiki.home.linkTutorial"></a>
-        <a href="faq.html" data-i18n="wiki.home.linkFaq"></a>
+    <section class="hero wiki-hero">
+      <div class="wiki-hero-inner">
+        <div class="wiki-hero-logo-row">
+          <div>
+            <h1 data-i18n="wiki.home.title">ValueApp – User Wiki</h1>
+            <p class="wiki-tagline" data-i18n="wiki.home.subtitle">
+              Explanations, examples and tutorials for using the ValueApp and the ETH Value Method in everyday planning practice.
+            </p>
+          </div>
+        </div>
+        <p class="hero-small-note" data-i18n="wiki.home.note">
+          This wiki focuses on users (planners and clients). Technical details on embedding the widget live in a separate integration repository.
+        </p>
       </div>
     </section>
 
-    <div class="grid" style="margin-top:32px;">
+    <section class="wiki-grid">
       <div>
-        <section>
-          <h2 data-i18n="wiki.home.section1.title"></h2>
-          <p data-i18n="wiki.home.section1.p1"></p>
-          <p data-i18n="wiki.home.section1.p2"></p>
-        </section>
-
-        <section>
-          <h2 data-i18n="wiki.home.section2.title"></h2>
-          <p data-i18n="wiki.home.section2.p1"></p>
-          <ul>
-            <li data-i18n="wiki.home.section2.li1"></li>
-            <li data-i18n="wiki.home.section2.li2"></li>
-            <li data-i18n="wiki.home.section2.li3"></li>
+        <article class="wiki-card">
+          <h2 data-i18n="wiki.home.section.quickstart.title">Where to begin</h2>
+          <p data-i18n="wiki.home.section.quickstart.text">
+            New to the ValueApp? Start with a short overview of the four steps in the application and how they relate to the ETH Value Method.
+          </p>
+          <ul class="wiki-nav-list">
+            <li>
+              <a href="getting-started.html" data-i18n="wiki.home.link.gettingStarted">
+                Getting started – four steps from project description to summary
+              </a>
+            </li>
+            <li>
+              <a href="tutorial.html" data-i18n="wiki.home.link.tutorial">
+                Tutorial – step-by-step walkthrough with screenshots
+              </a>
+            </li>
           </ul>
-        </section>
+          <a href="getting-started.html" class="wiki-pill-link" data-i18n="wiki.home.cta.gettingStarted">
+            Go to Getting started
+          </a>
+        </article>
 
-        <section>
-          <h2 data-i18n="wiki.home.section3.title"></h2>
-          <p data-i18n="wiki.home.section3.p1"></p>
-        </section>
+        <article class="wiki-card">
+          <h2 data-i18n="wiki.home.section.reference.title">Reference and background</h2>
+          <p data-i18n="wiki.home.section.reference.text">
+            For users who want to understand what the app does under the hood and how input fields, base models and adjustment factors relate to the method.
+          </p>
+          <ul class="wiki-nav-list">
+            <li>
+              <a href="definitions.html" data-i18n="wiki.home.link.definitions">
+                Definitions – core concepts and field explanations
+              </a>
+            </li>
+            <li>
+              <a href="examples.html" data-i18n="wiki.home.link.examples">
+                Examples – one simple and one complex project
+              </a>
+            </li>
+            <li>
+              <a href="faq.html" data-i18n="wiki.home.link.faq">
+                FAQ – frequently asked questions from practice
+              </a>
+            </li>
+          </ul>
+        </article>
       </div>
 
       <aside>
-        <div class="sidebar-card">
-          <h3 data-i18n="wiki.home.sidebar1.title"></h3>
-          <p data-i18n="wiki.home.sidebar1.p1"></p>
-          <p data-i18n="wiki.home.sidebar1.p2"></p>
-        </div>
+        <article class="wiki-card">
+          <h3 data-i18n="wiki.home.sidebar.integration.title">Technical integration</h3>
+          <p data-i18n="wiki.home.sidebar.integration.text">
+            If you want to embed the ValueApp core as a widget into your own client portal or IT system, you will find technical documentation and examples in the public integration repository.
+          </p>
+          <p>
+            <a
+              href="https://github.com/a-r-c-experts/core-value-integration"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="wiki-pill-link"
+              data-i18n="wiki.home.sidebar.integration.link"
+            >
+              Open integration repository
+            </a>
+          </p>
+        </article>
 
-        <div class="sidebar-card">
-          <h3 data-i18n="wiki.home.sidebar2.title"></h3>
-          <p data-i18n="wiki.home.sidebar2.p1"></p>
-          <p data-i18n="wiki.home.sidebar2.p2"></p>
-        </div>
+        <article class="wiki-card">
+          <h3 data-i18n="wiki.home.sidebar.feedback.title">Feedback on the app</h3>
+          <p data-i18n="wiki.home.sidebar.feedback.text">
+            In the ValueApp itself you can use the “Feedback” button to send issues or suggestions via a short form. This wiki will be updated step by step based on recurring questions.
+          </p>
+        </article>
       </aside>
-    </div>
+    </section>
   </main>
 
   <footer>
     <div class="footer-inner">
       <div>
-        <span data-i18n="wiki.footer.simpleCopyright"></span>
+        <span data-i18n="footer.copyright">
+          © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with <span class="nowrap">a r c experts AG</span>.
+        </span>
       </div>
       <div class="footer-links">
-        <span data-i18n="wiki.footer.note"></span>
+        <span data-i18n="footer.cookies">
+          This site uses only functional cookies to improve the user experience.
+        </span>
       </div>
       <div class="footer-logos">
         <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
