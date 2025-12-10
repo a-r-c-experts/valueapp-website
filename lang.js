@@ -2037,18 +2037,36 @@ const content = {
 
 /* LANGUAGE SWITCHING + NAV + MOBILE MENU HANDLING */
 
+const LANG_STORAGE_KEY = "valueapp-wiki-lang";
+const DEFAULT_LANG = "en";
+
+function getStoredLanguage() {
+  const stored = localStorage.getItem(LANG_STORAGE_KEY);
+  if (stored === "en" || stored === "de") return stored;
+  return DEFAULT_LANG;
+}
+
 function setLanguage(lang) {
+  // persistence
+  localStorage.setItem(LANG_STORAGE_KEY, lang);
+
+  // translation dict
   const dict = content[lang] || content.en;
+
+  // update <html lang="...">
   document.documentElement.lang = lang;
 
+  // update all translatable elements
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (dict[key]) el.innerHTML = dict[key];
   });
 
+  // update label in top bar
   const current = document.getElementById("currentLangLabel");
   if (current) current.textContent = lang.toUpperCase();
 
+  // update active state in menu
   document
     .querySelectorAll(".lang-option")
     .forEach((btn) =>
@@ -2062,6 +2080,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileToggle = document.getElementById("mobileNavToggle");
   const mainNav = document.querySelector(".main-nav");
 
+  /* LANGUAGE DROPDOWN */
   if (toggle && menu) {
     toggle.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -2071,7 +2090,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".lang-option").forEach((btn) =>
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
-        setLanguage(btn.getAttribute("data-lang"));
+        const lang = btn.getAttribute("data-lang");
+        setLanguage(lang);
         menu.classList.remove("open");
       })
     );
@@ -2082,6 +2102,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  /* MOBILE NAVIGATION */
   if (mobileToggle && mainNav) {
     mobileToggle.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -2090,5 +2111,7 @@ document.addEventListener("DOMContentLoaded", () => {
     mainNav.addEventListener("click", (e) => e.stopPropagation());
   }
 
-  setLanguage("en");
+  /* INITIAL LANGUAGE (persistent!) */
+  const initialLang = getStoredLanguage();
+  setLanguage(initialLang);
 });
