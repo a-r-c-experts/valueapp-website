@@ -720,3 +720,11 @@ footer .footer-inner {
     height: 42px;
   }
 }
+
+.brand-logo-link img,
+.wiki-hero-logo {
+  height: 56px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
