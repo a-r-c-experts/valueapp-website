@@ -728,3 +728,15 @@ footer .footer-inner {
   max-width: 100%;
   display: block;
 }
+
+.wiki-search {
+  margin-left: 16px;
+}
+
+.wiki-search input[type="search"] {
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  min-width: 140px;
+}

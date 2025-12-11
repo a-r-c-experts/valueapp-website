@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Search the ValueApp User Wiki pages."
+  />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .wiki-page-header { margin-bottom: 24px; }
+    .wiki-page-header h1 { margin-bottom: 6px; }
+    .wiki-search-results { font-size: 0.95rem; }
+    .wiki-search-result-item {
+      border-radius: 14px;
+      border: 1px solid rgba(0,0,0,0.05);
+      background: #ffffff;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+    }
+    .wiki-search-result-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .wiki-search-result-snippet {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .wiki-search-no-results {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div data-include="/wiki/partials/header.html"></div>
+
+  <main>
+    <section class="wiki-page-header">
+      <h1>Search</h1>
+      <p id="wikiSearchQueryLabel"></p>
+    </section>
+
+    <section class="wiki-search-results" id="wikiSearchResults">
+      <!-- Results injected by search.js -->
+    </section>
+  </main>
+
+  <div data-include="/wiki/partials/footer.html"></div>
+
+  <script src="/include-partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

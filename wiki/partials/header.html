@@ -1,0 +1,52 @@
+<header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
