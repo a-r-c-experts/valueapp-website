@@ -12,33 +12,66 @@ function getCurrentPath() {
   return window.location.pathname.replace(/\/+$/, "");
 }
 
-function setupWikiSearchForm() {
-  const form = document.getElementById("wikiSearchForm");
-  const input = document.getElementById("wikiSearchInput");
+// Try to read the current language from lang.js; fallback to "en"
+function getCurrentLangSafe() {
+  try {
+    if (typeof getStoredLanguage === "function") {
+      return getStoredLanguage();
+    }
+  } catch (e) {
+    console.warn("getStoredLanguage not available:", e);
+  }
+  return "en";
+}
 
-  if (!form || !input) return;
+// Build a "virtual" text for a page from its i18n keys
+function extractI18nText(html, lang) {
+  // If we don't have the content dict, fall back to raw text
+  if (typeof content === "undefined") {
+    return extractVisibleText(html);
+  }
 
-  // Avoid binding twice
-  if (form.dataset.wikiSearchBound === "1") return;
-  form.dataset.wikiSearchBound = "1";
+  const dictLang = content[lang] || content.en || {};
+  const dictEn   = content.en || {};
 
-  form.addEventListener("submit", (ev) => {
-    ev.preventDefault();
-    const q = input.value.trim();
-    if (!q) return;
-    window.location.href = `/wiki/search.html?q=${encodeURIComponent(q)}`;
-  });
+  const keys = [];
+  const regex = /data-i18n\s*=\s*"([^"]+)"/g;
+  let m;
+  while ((m = regex.exec(html)) !== null) {
+    keys.push(m[1]);
+  }
+
+  if (!keys.length) {
+    // No i18n keys? Just use raw text.
+    return extractVisibleText(html);
+  }
+
+  const pieces = [];
+  for (const k of keys) {
+    const t = dictLang[k] || dictEn[k];
+    if (t) pieces.push(t);
+  }
+
+  if (!pieces.length) {
+    return extractVisibleText(html);
+  }
+
+  return pieces.join(" ");
 }
 
 // Wire up the search box in the header
 document.addEventListener("DOMContentLoaded", () => {
-  // Try once immediately
-  setupWikiSearchForm();
+  const form = document.getElementById("wikiSearchForm");
+  const input = document.getElementById("wikiSearchInput");
 
-  // Try again after partials (header/footer) have been loaded
-  document.addEventListener("partials:loaded", () => {
-    setupWikiSearchForm();
-  });
+  if (form && input) {
+    form.addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const q = input.value.trim();
+      if (!q) return;
+      window.location.href = `/wiki/search.html?q=${encodeURIComponent(q)}`;
+    });
+  }
 
   // If we are on the search page, run the search
   if (getCurrentPath().endsWith("/wiki/search.html")) {
@@ -57,19 +90,23 @@ async function runWikiSearch() {
   if (!query) {
     if (labelNode) {
       labelNode.textContent = "Enter a search term in the header search field.";
+      // If you want, you can make this label also i18n-controlled.
     }
     resultsNode.innerHTML = "";
     return;
   }
 
+  const currentLang = getCurrentLangSafe();
+
   if (labelNode) {
+    // Could also be routed through i18n if you feel fancy
     labelNode.textContent = `Results for “${query}”`;
   }
 
   const lcQuery = query.toLowerCase();
   const results = [];
 
-  // Fetch each page and search its plain text
+  // Fetch each page and search its text
   for (const page of WIKI_PAGES) {
     // Avoid recursive misery
     if (page.url.endsWith("/wiki/search.html")) continue;
@@ -79,7 +116,14 @@ async function runWikiSearch() {
       if (!resp.ok) continue;
 
       const html = await resp.text();
-      const text = extractVisibleText(html);
+
+      // For English or no i18n: use raw visible text
+      // For other languages: synthesize text from i18n dictionary
+      const text =
+        currentLang === "en"
+          ? extractVisibleText(html)
+          : extractI18nText(html, currentLang);
+
       const lcText = text.toLowerCase();
       const idx = lcText.indexOf(lcQuery);
 
@@ -99,6 +143,7 @@ async function runWikiSearch() {
         No results found. Try a different term or a simpler phrase.
       </div>
     `;
+    // Again, you can i18n that block if you like.
     return;
   }
 
