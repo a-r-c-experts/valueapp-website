@@ -877,3 +877,99 @@ nav.main-nav a.active {
   border: 1px solid rgba(0,0,0,0.06);
   margin: 10px 0;
 }
+
+/* WIKI LAYOUT */
+
+.wiki-main {
+  max-width: 1100px;
+  margin: 32px auto 80px;
+  padding: 0 24px;
+}
+
+.wiki-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 2.5fr);
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.wiki-toc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  position: sticky;
+  top: 90px;
+}
+
+.wiki-toc-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.wiki-toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wiki-toc-item {
+  margin-bottom: 4px;
+}
+
+.wiki-toc-item a {
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.wiki-toc-item a:hover {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+/* indent levels from #, ##, ### */
+.toc-level-1 {
+  margin-left: 0;
+  font-weight: 600;
+}
+
+.toc-level-2 {
+  margin-left: 8px;
+}
+
+.toc-level-3 {
+  margin-left: 16px;
+}
+
+/* Markdown content styling inside wiki pages */
+.wiki-content h1 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.wiki-content h2 {
+  margin-top: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.wiki-content h3 {
+  margin-top: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.wiki-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.06);
+  margin: 10px 0;
+}
+
+/* On small screens, stack TOC above content */
+@media (max-width: 900px) {
+  .wiki-layout {
+    grid-template-columns: 1fr;
+  }
+  .wiki-toc {
+    position: static;
+    margin-bottom: 16px;
+  }
+}

@@ -62,8 +62,10 @@
   </div>
 </header>
 
-  <main>
-    <section class="wiki-section wiki-content">
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
 <h1>Examples</h1>
 <h2>This page shows two worked examples: a simple feasibility or competition project and a more complex educational building. Both follow the same four steps in the ValueApp.</h2>
 <hr>
@@ -162,7 +164,8 @@
     Example of a project entry in the underlying reference database (illustrative).
   </div>
 </div>
-    </section>
+      </section>
+    </div>
   </main>
 
   <footer>
@@ -195,6 +198,7 @@
   <script src="/wiki/wiki-page-config.js"></script>
   <script src="/wiki/wiki-last-updated.js"></script>
   <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
 
   <link rel="stylesheet" href="/styles.css" />
   <script type="module" src="/i18n/lang-loader.js"></script>

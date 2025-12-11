@@ -62,8 +62,10 @@
   </div>
 </header>
 
-  <main>
-    <section class="wiki-section wiki-content">
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
 <h1>Tutorial – Schritt für Schritt durch die ValueApp</h1>
 <h2>Dieses Tutorial führt Sie anhand eines Beispielprojekts durch die ValueApp. Der Fokus liegt darauf, was in jedem Tab einzugeben ist und wie die Ergebnisse zu lesen sind.</h2>
 <hr>
@@ -149,7 +151,8 @@
 </ul>
 <p>Diese Seite kann exportiert oder gedruckt werden und eignet sich für Honorarangebote oder interne Planungsunterlagen.<br>Sie dokumentiert, weshalb ein bestimmter Aufwand plausibel ist, basierend auf den Projektparametern und der Komplexität.</p>
 
-    </section>
+      </section>
+    </div>
   </main>
 
   <footer>
@@ -182,6 +185,7 @@
   <script src="/wiki/wiki-page-config.js"></script>
   <script src="/wiki/wiki-last-updated.js"></script>
   <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
 
   <link rel="stylesheet" href="/styles.css" />
   <script type="module" src="/i18n/lang-loader.js"></script>

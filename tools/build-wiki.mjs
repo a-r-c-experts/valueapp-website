@@ -82,10 +82,13 @@ function renderHtml({ lang, slug, bodyHtml }) {
 <body>
   ${headerHtml}
 
-  <main>
-    <section class="wiki-section wiki-content">
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
 ${bodyHtml}
-    </section>
+      </section>
+    </div>
   </main>
 
   ${footerHtml}
@@ -97,6 +100,7 @@ ${bodyHtml}
   <script src="/wiki/wiki-page-config.js"></script>
   <script src="/wiki/wiki-last-updated.js"></script>
   <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
 
   <link rel="stylesheet" href="/styles.css" />
   <script type="module" src="/i18n/lang-loader.js"></script>
