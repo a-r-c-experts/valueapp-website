@@ -14,6 +14,34 @@ const OUT_DIR = path.join(ROOT, "wiki");
 const HEADER_PARTIAL = path.join(OUT_DIR, "partials", "header.html");
 const FOOTER_PARTIAL = path.join(OUT_DIR, "partials", "footer.html");
 
+function parseFrontMatter(raw) {
+  const lines = raw.split(/\r?\n/);
+  if (lines[0].trim() !== '---') {
+    // no front matter
+    return { meta: {}, body: raw };
+  }
+
+  let i = 1;
+  const meta = {};
+
+  for (; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (line === '---') {
+      i++; // skip closing ---
+      break;
+    }
+    if (!line) continue;
+    const idx = line.indexOf(':');
+    if (idx === -1) continue;
+    const key = line.slice(0, idx).trim();
+    const value = line.slice(idx + 1).trim();
+    meta[key] = value;
+  }
+
+  const body = lines.slice(i).join('\n');
+  return { meta, body };
+}
+
 function ensureDir(p) {
   fs.mkdirSync(p, { recursive: true });
 }
@@ -55,7 +83,9 @@ function renderHtml({ lang, slug, bodyHtml }) {
   ${headerHtml}
 
   <main>
+    <section class="wiki-section wiki-content">
 ${bodyHtml}
+    </section>
   </main>
 
   ${footerHtml}
@@ -108,9 +138,16 @@ function buildAllWikiPages() {
       const srcPath = path.join(langSrcDir, filename);
       const outPath = path.join(langOutDir, `${slug}.html`);
 
-      const md = fs.readFileSync(srcPath, "utf8");
-      const bodyHtml = marked.parse(md);
+      const raw = fs.readFileSync(srcPath, "utf8");
 
+      // extract frontmatter and markdown body
+      const { meta, body } = parseFrontMatter(raw);
+
+      // render Markdown content (body only!)
+      const bodyHtml = marked.parse(body);
+
+      // If you ever want the i18n title/subtitle,
+      // meta.i18nTitle and meta.i18nSubtitle are now available.
       const fullHtml = renderHtml({ lang, slug, bodyHtml });
       fs.writeFileSync(outPath, fullHtml, "utf8");
 

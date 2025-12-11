@@ -843,3 +843,37 @@ nav.main-nav a.active {
   font-size: 0.8rem;
   color: var(--muted);
 }
+
+/* Generic styling for images/videos inside wiki Markdown content */
+.wiki-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin: 10px 0;
+}
+
+.wiki-content video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin: 10px 0;
+}
+
+.wiki-content h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.wiki-content h2 {
+  margin-top: 1.5rem;
+}
+
+.wiki-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.06);
+  margin: 10px 0;
+}
