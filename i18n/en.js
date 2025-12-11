@@ -1,4 +1,7 @@
-export const contentEn = {
+// /i18n/en.js
+window.content = window.content || {};
+
+window.content.en = {
     "ui.languageLabel": "Language",
     "hero.kicker": "App / Tool · ETH Value Method",
     "hero.title":

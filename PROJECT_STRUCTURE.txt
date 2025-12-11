@@ -1,14 +1,17 @@
 .
 ├── CNAME
-├── Logo_01_300.png
-├── PROJECT_STRUCTURE.txt
-├── README.md
-├── Value Method english.mp4
 ├── favicon.png
+├── i18n
+│   ├── de.js
+│   ├── en.js
+│   └── lang-loader.js
 ├── index.html
 ├── lang.js
+├── Logo_01_300.png
 ├── logos
 │   ├── logo_AHO.jpg
+│   ├── logo_arc.png
+│   ├── logo_architectes.png
 │   ├── logo_ETH.png
 │   ├── logo_G30.png
 │   ├── logo_HOAI.png
@@ -16,23 +19,30 @@
 │   ├── logo_RAIC.png
 │   ├── logo_SIA.png
 │   ├── logo_SIAS.png
-│   ├── logo_ValueApp.gif
-│   ├── logo_arc.png
-│   └── logo_architectes.png
+│   └── logo_ValueApp.gif
+├── package.json
 ├── partials.js
+├── PROJECT_STRUCTURE.txt
+├── README.md
 ├── styles.css
+├── tools
+│   └── check-i18n.mjs
+├── Value Method english.mp4
 ├── wiki
 │   ├── definitions.html
 │   ├── examples.html
 │   ├── faq.html
 │   ├── getting-started.html
 │   ├── index.html
+│   ├── nav.js
 │   ├── partials
 │   │   ├── footer.html
 │   │   └── header.html
 │   ├── search.html
 │   ├── search.js
 │   ├── tutorial.html
+│   ├── wiki-last-updated.js
+│   ├── wiki-page-config.js
 │   └── wiki-version.js
 └── wiki-assets
     ├── app-beschrieb-kindergarten.jpeg
@@ -57,4 +67,4 @@
     ├── werk-material-kindergarten.mov
     └── werk-material-kindergarten.mp4
 
-5 directories, 53 files
+7 directories, 61 files
