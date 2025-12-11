@@ -60,12 +60,15 @@ ${bodyHtml}
 
   ${footerHtml}
 
+  <div data-include="/wiki/partials/footer.html"></div>
+  <!-- Shared footer -->
   <script src="/partials.js"></script>
   <script src="/wiki/wiki-version.js"></script>
   <script src="/wiki/wiki-page-config.js"></script>
   <script src="/wiki/wiki-last-updated.js"></script>
   <script src="/wiki/search.js"></script>
 
+  <link rel="stylesheet" href="/styles.css" />
   <script type="module" src="/i18n/lang-loader.js"></script>
   <script src="/lang.js"></script>
 </body>

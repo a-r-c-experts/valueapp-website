@@ -93,7 +93,7 @@
 
     if (!btn || !nav) return;
 
-    // avoid binding twice (important on wiki when partials reload)
+    // avoid binding twice (important on wiki when header appears later)
     if (btn.dataset.navBound === "1") return;
     btn.dataset.navBound = "1";
 
@@ -112,7 +112,7 @@
 
     if (!toggle || !menu) return;
 
-    // avoid binding twice when partials load
+    // avoid binding twice when header appears later
     if (menu.dataset.bound === "1") return;
     menu.dataset.bound = "1";
 
@@ -166,17 +166,38 @@
   }
 
   // -----------------------------
-  // Init for main + wiki
+  // Init (main + wiki, with async header)
   // -----------------------------
-  function initI18nAndNav() {
+  function initOncePossible(observer) {
     bindLanguageMenu();
     setupMobileNav();
     window.applyTranslations();
+
+    // Stop observing once both things are bound
+    const toggle = document.getElementById("langToggle");
+    const menu = document.getElementById("langMenu");
+    const btn = document.getElementById("mobileNavToggle");
+
+    const langBound = menu && menu.dataset.bound === "1";
+    const navBound = btn && btn.dataset.navBound === "1";
+
+    if (observer && langBound && navBound) {
+      observer.disconnect();
+    }
   }
 
-  // main page: header already in DOM
-  document.addEventListener("DOMContentLoaded", initI18nAndNav);
+  document.addEventListener("DOMContentLoaded", () => {
+    // Try once immediately (main page header is already there)
+    initOncePossible(null);
 
-  // wiki pages: header injected via partials.js
-  document.addEventListener("partials:loaded", initI18nAndNav);
+    // For wiki: header is injected later, so watch the DOM
+    const observer = new MutationObserver(() => {
+      initOncePossible(observer);
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+  });
 })();

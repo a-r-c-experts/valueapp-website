@@ -3,120 +3,121 @@ i18nTitle: wiki.tutorial.title
 i18nSubtitle: wiki.tutorial.subtitle
 ---
 
-# Tutorial – step-by-step through the ValueApp
-## This tutorial walks you through the ValueApp using an example project. The focus is on what to enter in each tab and how to read the results.
+# Tutorial – Schritt für Schritt durch die ValueApp
+## Dieses Tutorial führt Sie anhand eines Beispielprojekts durch die ValueApp. Der Fokus liegt darauf, was in jedem Tab einzugeben ist und wie die Ergebnisse zu lesen sind.
 
 ---
 
-## Overview — Four tabs, one method
+## Überblick — Vier Tabs, eine Methode
 
-The ValueApp is structured into four tabs: **Beschrieb**, **Projekt**, **Leistung** and **Zusammenfassung**.  
-They follow the logic of the ETH Value Method from project context to effort and service distribution.
+Die ValueApp ist in vier Tabs strukturiert: **Beschrieb**, **Projekt**, **Leistung** und **Zusammenfassung**.  
+Sie folgen der Logik der ETH Value Method vom Projektkontext bis hin zu Aufwand und Leistungsumfang.
 
-![Overview diagram of the ValueApp structure](/wiki-assets/valueapp-architecture-overview.jpeg)
+![Übersichtsdiagramm der ValueApp-Struktur](/wiki-assets/valueapp-architecture-overview.jpeg)
 
-*The app connects project description, determinants, adjustment factors and services into one coherent flow.*
+*Die App verbindet Projektbeschreibung, Determinanten, Anpassungsfaktoren und Leistungen zu einem kohärenten Ablauf.*
 
-## Step 1 — Beschrieb (describe the project)
+## Schritt 1 — Beschrieb
 
-Start with a clear project description. This information appears in reports and provides context when you compare projects later.
+Beginnen Sie mit einer klaren Projektbeschreibung. Diese erscheint in Berichten und bietet Kontext, wenn Sie Projekte später vergleichen.
 
-- Enter the project title and address.  
-- Set the status (e.g. “In Planung” or “Ausführung”).  
-- Describe the starting situation, task and key constraints in 5–10 lines.  
-- Define the organisational setup on the planning and contractor side.
+- Projekttitel und Adresse eintragen  
+- Status festlegen (z. B. „In Planung“ oder „Ausführung“)  
+- Ausgangslage, Aufgabe und zentrale Rahmenbedingungen in 5–10 Zeilen beschreiben  
+- Die organisatorische Struktur auf Planer- und Unternehmerseite definieren  
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Example of the Beschrieb tab filled for an educational building.*
+*Beispiel eines ausgefüllten Beschrieb-Tabs für ein Bildungsgebäude.*
 
 <div class="wiki-note-box">
-  <strong>Saving and feedback</strong>
+  <strong>Speichern und Feedback</strong>
   <p>
-    Use the “Speichern” button in the app to store your progress.
-    The “Feedback” button opens a short form where you can report issues or suggest improvements.
+    Nutzen Sie den Button „Speichern“, um Ihren Fortschritt zu sichern.  
+    Über „Feedback“ können Sie Rückmeldungen geben oder Probleme melden.
   </p>
 </div>
 
-## Step 2 — Projekt (quantity, uses and complexity)
+## Schritt 2 — Projekt (Mengen, Nutzungen und Komplexität)
 
-In the **Projekt** tab you translate the brief into numbers and a complexity assessment.
+Im Tab **Projekt** übersetzen Sie die Aufgabenstellung in Zahlen und eine Komplexitätsbeurteilung.
 
-### 2.1 Determinant and use mix
+### 2.1 Determinante und Nutzungsmix
 
-Enter the determinating quantity, usually the gross floor area (GF).  
-Then assign percentages of this area to the relevant uses.
+Tragen Sie die bestimmende Menge ein, meist die Bruttogeschossfläche (GF).  
+Ordnen Sie dann prozentuale Anteile dieser Fläche den relevanten Nutzungen zu.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-project-uses-empty.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Project tab before assigning uses.*
+*Projekt-Tab vor der Zuweisung der Nutzungen.*
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*All GF assigned to “Ausbilden und forschen”.*
+*Gesamte GF der Nutzung „Ausbilden und forschen“ zugewiesen.*
 
-### 2.2 Complexity and challenges
+### 2.2 Komplexität und Herausforderungen
 
-Describe project challenges in four dimensions (design, technical, spatial, organisational)  
-and position them in the leadership framework.
+Beschreiben Sie projektspezifische Herausforderungen in vier Dimensionen  
+(**gestalterisch**, **technisch**, **räumlich**, **organisatorisch**)  
+und positionieren Sie diese im Leadership Framework.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Description of project-specific challenges and their position in the framework.*
+*Beschreibung projektspezifischer Herausforderungen und deren Einordnung im Framework.*
 
-The app calculates an adjustment factor based on the centre of gravity of your entries.
-This factor shifts the expected effort within the prediction interval of the base model.
+Die App berechnet einen Anpassungsfaktor anhand des Schwerpunkts Ihrer Einträge.  
+Dieser Faktor verschiebt den erwarteten Aufwand innerhalb des Prognoseintervalls des Basismodells.
 
-### 2.3 Risk level
+### 2.3 Risikoniveau
 
-Set the risk level: **none**, **increased**, or **high** requirements.  
-This reflects uncertainty and can influence the upper part of the effort range.
+Legen Sie das Risikoniveau fest: **keine**, **erhöhte** oder **hohe Anforderungen**.  
+Dies spiegelt projektspezifische Unsicherheiten wider und kann den oberen Bereich des Aufwandsspektrums beeinflussen.
 
-## Step 3 — Leistung (role and hours by phase)
+## Schritt 3 — Leistung (Rollen und Stunden pro Phase)
 
-In the **Leistung** tab you define your responsibility and see how the calculated hours distribute across phases.
+Im Tab **Leistung** definieren Sie Ihre Zuständigkeit und sehen, wie sich die berechneten Stunden auf die Phasen verteilen.
 
-- Choose your role (Architect / Architect & General planner / General planner)  
-- Highlight focus topics (design, construction management, cost planning)  
-- Review the total hours for 100% basic services  
-- Adjust SIA phase distribution where justified  
+- Rolle wählen (Architekt / Architekt & Generalplaner / Generalplaner)  
+- Fokusthemen markieren (Entwurf, Bauleitung, Kostenplanung usw.)  
+- Gesamtstunden für 100 % Grundleistungen prüfen  
+- Phasenverteilung gemäss SIA 1–6 bei Bedarf anpassen  
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Example of roles, focus topics and hours per phase.*
+*Beispiel für Rollen, Fokusthemen und Stunden pro Phase.*
 
-### Multiple disciplines
+### Mehrere Disziplinen
 
-For multi-discipline projects (architecture, structural, electrical, HVAC, sanitary):  
-repeat the steps in **Projekt** & **Leistung** for each discipline.  
-The summary will show them side-by-side.
+Bei Projekten mit mehreren Disziplinen (Architektur, Statik, Elektro, HLKS, Sanitär):  
+Wiederholen Sie die Schritte in **Projekt** und **Leistung** für jede Disziplin.  
+Die Zusammenfassung zeigt die Ergebnisse nebeneinander.
 
-## Step 4 — Zusammenfassung (reading the one-pager)
+## Schritt 4 — Zusammenfassung (der One-Pager)
 
-The **Zusammenfassung** tab compiles all relevant information into a structured overview:
+Der Tab **Zusammenfassung** fasst alle relevanten Informationen strukturiert zusammen:
 
-- project description  
-- organisational setup  
-- use mix  
-- effort per m²  
-- risk level  
-- hours by SIA phase  
-- additional services when relevant  
+- Projektbeschreibung  
+- organisatorische Struktur  
+- Nutzungsmix  
+- Aufwand pro m²  
+- Risikoniveau  
+- Stunden nach SIA-Phasen  
+- zusätzliche Leistungen, falls vorhanden  
 
-You can export or print this page and attach it to fee offers or internal planning documents.
-It documents why a certain effort level is plausible given the project’s determinants and complexity.
+Diese Seite kann exportiert oder gedruckt werden und eignet sich für Honorarangebote oder interne Planungsunterlagen.  
+Sie dokumentiert, weshalb ein bestimmter Aufwand plausibel ist, basierend auf den Projektparametern und der Komplexität.
