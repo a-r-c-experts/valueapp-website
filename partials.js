@@ -1,28 +1,29 @@
-// Poor man's templating: load HTML fragments into placeholders.
-async function loadPartials() {
-  const includeNodes = document.querySelectorAll("[data-include]");
-  await Promise.all(
-    Array.from(includeNodes).map(async (node) => {
-      const url = node.getAttribute("data-include");
-      try {
-        const resp = await fetch(url);
-        if (!resp.ok) return;
-        const html = await resp.text();
-        node.outerHTML = html;
-      } catch (e) {
-        // Fail silently. Life is pain anyway.
-        console.error("Failed to load partial:", url, e);
-      }
-    })
-  );
-}
-
-// Expose a hook for other scripts (like lang.js) if needed
-window.__wikiPartialsLoaded = loadPartials();
-
+// include-partials.js
 document.addEventListener("DOMContentLoaded", () => {
-  // If loadPartials hasn't run yet, ensure it runs
-  if (!window.__wikiPartialsLoaded) {
-    window.__wikiPartialsLoaded = loadPartials();
+  const includeNodes = document.querySelectorAll("[data-include]");
+  if (!includeNodes.length) {
+    return;
   }
+
+  const promises = Array.from(includeNodes).map(async (node) => {
+    const url = node.getAttribute("data-include");
+    if (!url) return;
+
+    try {
+      const resp = await fetch(url);
+      if (!resp.ok) {
+        console.error("Include failed for", url, resp.status);
+        return;
+      }
+      const html = await resp.text();
+      node.innerHTML = html;
+    } catch (err) {
+      console.error("Include error for", url, err);
+    }
+  });
+
+  Promise.all(promises).then(() => {
+    // Signal to other scripts (like search.js) that header/footer exist now
+    document.dispatchEvent(new Event("partials:loaded"));
+  });
 });

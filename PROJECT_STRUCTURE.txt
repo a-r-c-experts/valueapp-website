@@ -1,0 +1,60 @@
+.
+├── CNAME
+├── Logo_01_300.png
+├── PROJECT_STRUCTURE.txt
+├── README.md
+├── Value Method english.mp4
+├── favicon.png
+├── index.html
+├── lang.js
+├── logos
+│   ├── logo_AHO.jpg
+│   ├── logo_ETH.png
+│   ├── logo_G30.png
+│   ├── logo_HOAI.png
+│   ├── logo_OAI.jpg
+│   ├── logo_RAIC.png
+│   ├── logo_SIA.png
+│   ├── logo_SIAS.png
+│   ├── logo_ValueApp.gif
+│   ├── logo_arc.png
+│   └── logo_architectes.png
+├── partials.js
+├── styles.css
+├── wiki
+│   ├── definitions.html
+│   ├── examples.html
+│   ├── faq.html
+│   ├── getting-started.html
+│   ├── index.html
+│   ├── partials
+│   │   ├── footer.html
+│   │   └── header.html
+│   ├── search.html
+│   ├── search.js
+│   ├── tutorial.html
+│   └── wiki-version.js
+└── wiki-assets
+    ├── app-beschrieb-kindergarten.jpeg
+    ├── app-beschrieb-kindergarten.mp4
+    ├── app-complexity-challenges-popup.jpeg
+    ├── app-complexity-challenges-popup.mp4
+    ├── app-project-uses-education-100.jpeg
+    ├── app-project-uses-education-100.mp4
+    ├── app-project-uses-empty.jpeg
+    ├── app-project-uses-empty.mp4
+    ├── app-roles-hours.jpeg
+    ├── app-roles-hours.mp4
+    ├── base-model-housing-reference-cloud.jpeg
+    ├── base-model-mfh-example.jpeg
+    ├── education-model-chart.jpeg
+    ├── leadership-framework-centre-of-gravity.jpeg
+    ├── leadership-framework-overview.jpeg
+    ├── media1.mp4-0.0000-27.4075.mp4
+    ├── value-method-title-slide.jpeg
+    ├── valueapp-architecture-overview.jpeg
+    ├── werk-material-kindergarten.jpeg
+    ├── werk-material-kindergarten.mov
+    └── werk-material-kindergarten.mp4
+
+5 directories, 53 files

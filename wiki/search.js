@@ -12,19 +12,33 @@ function getCurrentPath() {
   return window.location.pathname.replace(/\/+$/, "");
 }
 
-// Wire up the search box in the header
-document.addEventListener("DOMContentLoaded", () => {
+function setupWikiSearchForm() {
   const form = document.getElementById("wikiSearchForm");
   const input = document.getElementById("wikiSearchInput");
 
-  if (form && input) {
-    form.addEventListener("submit", (ev) => {
-      ev.preventDefault();
-      const q = input.value.trim();
-      if (!q) return;
-      window.location.href = `/wiki/search.html?q=${encodeURIComponent(q)}`;
-    });
-  }
+  if (!form || !input) return;
+
+  // Avoid binding twice
+  if (form.dataset.wikiSearchBound === "1") return;
+  form.dataset.wikiSearchBound = "1";
+
+  form.addEventListener("submit", (ev) => {
+    ev.preventDefault();
+    const q = input.value.trim();
+    if (!q) return;
+    window.location.href = `/wiki/search.html?q=${encodeURIComponent(q)}`;
+  });
+}
+
+// Wire up the search box in the header
+document.addEventListener("DOMContentLoaded", () => {
+  // Try once immediately
+  setupWikiSearchForm();
+
+  // Try again after partials (header/footer) have been loaded
+  document.addEventListener("partials:loaded", () => {
+    setupWikiSearchForm();
+  });
 
   // If we are on the search page, run the search
   if (getCurrentPath().endsWith("/wiki/search.html")) {
