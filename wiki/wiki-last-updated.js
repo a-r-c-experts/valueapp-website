@@ -28,14 +28,12 @@ function formatLastUpdated(isoString) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const target = document.querySelector("[data-last-updated-target]");
-  if (!target) return;
+  const el = document.querySelector("[data-last-updated-target]");
+  if (!el || !Array.isArray(window.WIKI_PAGES)) return;
 
-  const pageCfg = findCurrentPageConfig();
-  if (!pageCfg || !pageCfg.lastUpdated) return;
+  const path = window.location.pathname.replace(/\/+$/, "");
+  const page = window.WIKI_PAGES.find(p => p.url === path);
+  if (!page || !page.lastUpdated) return;
 
-  const formatted = formatLastUpdated(pageCfg.lastUpdated);
-  if (!formatted) return;
-
-  target.textContent = `Last updated: ${formatted}`;
+  el.textContent = `Last updated: ${page.lastUpdated}`;
 });
