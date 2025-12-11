@@ -1,7 +1,4 @@
-// /i18n/pt.js
-window.content = window.content || {};
-
-window.content.pt = {
+export const contentPt = {
     "ui.languageLabel": "Idioma",
     "hero.kicker": "App / Ferramenta · ETH Value Method",
     "hero.title":
