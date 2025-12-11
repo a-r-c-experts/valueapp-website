@@ -1,7 +1,7 @@
 {
-  "name": "valueapp-wiki-tools",
+  "name": "valueapp-website",
   "type": "module",
   "scripts": {
-    "check:i18n": "node tools/check-i18n.mjs"
+    "check-i18n": "node tools/check-i18n.mjs"
   }
 }
