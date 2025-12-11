@@ -101,7 +101,7 @@
         <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
 
         <div class="hero-video-wrapper">
-          <video class="hero-video" controls preload="metadata">
+          <video class="hero-video" controls preload="metadata" loading="lazy">
             <source src="Value Method english.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -296,7 +296,7 @@
           <p data-i18n="tutorial.p3"></p>
         </div>
         <div class="tutorial-video-wrapper">
-          <video class="hero-video" controls preload="metadata">
+          <video class="hero-video" controls preload="metadata" loading="lazy">
             <source src="Value Method english.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -353,7 +353,24 @@
     </div>
   </footer>
 
-  <script type="module" src="/i18n/lang-loader.js"></script>
-  <script src="/lang.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="i18n/lang-loader.js"></script>
+  <script src="lang.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("mobileNavToggle");
+    const nav = document.querySelector(".main-nav");
+
+    if (!btn || !nav) return;
+
+    btn.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("open");
+      btn.setAttribute("aria-expanded", String(isOpen));
+    });
+  });
+</script>
+</body>
+</html>
 </body>
 </html>
