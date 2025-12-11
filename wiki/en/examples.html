@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – examples</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main>
+<hr>
+<h2>i18nTitle: wiki.examples.title
+i18nSubtitle: wiki.examples.subtitle</h2>
+<h1>Examples</h1>
+<h2>This page shows two worked examples: a simple feasibility or competition project and a more complex educational building. Both follow the same four steps in the ValueApp.</h2>
+<hr>
+<h2>Example 1 – Simple feasibility / competition project</h2>
+<p><em>Small residential project, clear task, few stakeholders, low-to-medium complexity.</em></p>
+<h3>Step 1 – Beschrieb</h3>
+<p>The project is a small residential building with approximately 100 m² GF.<br>The task is to examine feasibility and prepare a concept for a possible building permit or competition entry.<br>The client is a private owner with a standard schedule and no unusual contractual constraints.</p>
+<p>In the <strong>Beschrieb</strong> tab you:</p>
+<ul>
+<li>Use a clear project title and enter the address.  </li>
+<li>Set the status to “In Planung”.  </li>
+<li>Describe the task in a short paragraph (existing situation, goal of the study, important constraints).  </li>
+<li>Choose an organisational setup with individual planners and no general contractor.</li>
+</ul>
+<h3>Step 2 – Projekt</h3>
+<p>In the <strong>Projekt</strong> tab you enter a gross floor area of <strong>100 m²</strong>.<br>The main use is “Wohnen”, for example:</p>
+<ul>
+<li>Wohnen – 95% of GF  </li>
+<li>Wohnen 2 – 5% of GF (e.g. ancillary residential space)</li>
+</ul>
+<p>Complexity is mostly in the simple to complicated range: standard residential typology, known regulations, no special technical systems.<br>You position most challenges in the <em>einfach/kompliziert</em> area of the leadership framework and set the risk level to <strong>Keine spez. Anforderungen</strong>.</p>
+<h3>Step 3 – Leistung</h3>
+<p>As an architect you select the role <strong>“Architekt/in”</strong> and focus topics such as design and early cost planning.<br>The app calculates a total of roughly <strong>300 hours</strong> for 100% basic services,<br>with a stronger emphasis on phases 2 and 3 (pre-design and design) and fewer hours in execution.</p>
+<h3>Step 4 – Zusammenfassung</h3>
+<p>The summary provides a compact overview: project description, organisational setup, use mix, effort per m² and hours by phase.<br>For a feasibility or competition, this page can be attached to internal planning documents or used as a reference for fee discussions.</p>
+<div class="wiki-highlight-box">
+  <strong>What this example shows</strong>
+  <p>
+    For small, relatively simple projects, the ValueApp still uses the same base models and complexity logic.
+    The resulting hours are modest, but fully traceable and can be compared with larger projects.
+  </p>
+</div>
+
+<hr>
+<h2>Example 2 – Educational building (Kindergarten)</h2>
+<p><em>Educational building with clear function but higher design, organisational and spatial complexity.</em></p>
+<h3>Context and data basis</h3>
+<p>This example is based on a realised kindergarten project.<br>The building belongs to the usage group <strong>“Lernen / Forschen”</strong> and is part of the data basis for the corresponding base model.</p>
+<p><img src="/wiki-assets/education-model-chart.jpeg" alt="Base model chart for educational buildings"></p>
+<p><em>Educational and research buildings with prediction intervals for planning effort.</em></p>
+<h3>Step 1 – Beschrieb</h3>
+<p>The <strong>Beschrieb</strong> tab contains a structured project description: location, client, context<br>(e.g. existing neighbourhood, outdoor spaces), pedagogical concept and special requirements such as inclusion,<br>flexibility of spaces or specific safety constraints.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Project description in the ValueApp for the kindergarten example.</em></p>
+<h3>Step 2 – Projekt</h3>
+<p>The determinating quantity is the gross floor area of the kindergarten.<br>The entire GF is assigned to the use <strong>“Ausbilden und forschen”</strong>.<br>This links the project directly to the educational base model.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Project tab with 100% of the gross floor area assigned to “Ausbilden und forschen”.</em></p>
+<p>Complexity is assessed as higher than in the residential example: demanding spatial organisation,<br>pedagogical concept, integration into an existing context and coordination of several stakeholders.<br>The challenges are positioned partly in the <em>complex</em> domain of the leadership framework.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Challenges described and positioned in the leadership framework; the centre of gravity leads to an adjustment factor.</em></p>
+<h3>Step 3 – Leistung</h3>
+<p>The architectural office takes the role of <strong>“Architekt/in”</strong> or <strong>“Architekt/in &amp; Generalplaner/in”</strong>,<br>depending on the setup. Focus topics include design, coordination with specialists, construction management and cost planning.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Calculated hours for 100% basic services and their distribution across SIA phases.</em></p>
+<p>The total hours are higher than in the simple example, both because of the larger GF and due to the higher adjustment factor.<br>Phases 3–5 (projecting, tendering and execution) account for the majority of effort.</p>
+<h3>Step 4 – Zusammenfassung</h3>
+<p>The summary shows the kindergarten as a reference project: clearly documented determinants,<br>complexity assessment and resulting hours. Such summaries can be used as internal benchmarks,<br>for transparent fee discussions or in public procurement procedures.</p>
+<div class="wiki-highlight-box">
+  <strong>What this example shows</strong>
+  <p>
+    Complexity and context matter. Even with the same determinating quantity,
+    the adjustment factor derived from the leadership framework can significantly
+    shift the expected effort. The kindergarten example illustrates how this is
+    transparently documented in the ValueApp.
+  </p>
+</div>
+
+<div class="wiki-highlight-box">
+  <strong>Data provenance</strong>
+  <p>
+    Realised projects are documented in a separate data and reference system.
+    These data sets feed the statistical base models behind the ValueApp.
+  </p>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/werk-material-kindergarten.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="wiki-img-caption">
+    Example of a project entry in the underlying reference database (illustrative).
+  </div>
+</div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <div data-include="/wiki/partials/footer.html"></div>
+  <!-- Shared footer -->
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

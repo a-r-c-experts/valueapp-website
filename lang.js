@@ -3,9 +3,10 @@
 // provided by /i18n/lang-loader.js
 
 (function () {
-  // -----------------------------
-  // Language helpers
-  // -----------------------------
+  /* ---------------------------
+   * Helpers: language + wiki URL
+   * --------------------------- */
+
   function getCurrentLang() {
     if (typeof window.getStoredLanguage === "function") {
       return window.getStoredLanguage();
@@ -14,41 +15,44 @@
     return htmlLang || "en";
   }
 
-  // Detect if current page is inside /wiki/… (supports GH Pages base path)
   function isWikiPage() {
-    return window.location.pathname.split("/").includes("wiki");
+    return window.location.pathname.startsWith("/wiki");
   }
 
-  function getWikiSlugFromPath() {
+  function isLocalizedWikiPage() {
     const parts = window.location.pathname.split("/").filter(Boolean);
-    const wikiIndex = parts.indexOf("wiki");
-
-    // expect pattern: ... / wiki / <lang> / <slug>
-    if (wikiIndex !== -1 && parts.length >= wikiIndex + 3) {
-      return parts[wikiIndex + 2]; // e.g. "tutorial.html"
-    }
-
-    // fallback: index
-    return "index.html";
+    // /wiki/en/tutorial.html → ["wiki","en","tutorial.html"]
+    return (
+      parts.length >= 3 &&
+      parts[0] === "wiki" &&
+      (parts[1] === "en" || parts[1] === "de")
+    );
   }
 
   function buildWikiUrlForLang(lang) {
-    const parts = window.location.pathname.split("/").filter(Boolean);
-    const wikiIndex = parts.indexOf("wiki");
-    const slug = getWikiSlugFromPath(); // e.g. "tutorial.html"
+    const pathname = window.location.pathname;
+    const parts = pathname.split("/").filter(Boolean);
 
-    // Base path before "wiki" ("" locally, "/valueapp-website" on GH Pages, etc.)
-    let base = "";
-    if (wikiIndex > 0) {
-      base = "/" + parts.slice(0, wikiIndex).join("/");
+    // Only rewrite URLs if we're on /wiki/en/... or /wiki/de/...
+    if (
+      parts.length >= 3 &&
+      parts[0] === "wiki" &&
+      (parts[1] === "en" || parts[1] === "de")
+    ) {
+      // Replace the language segment (en/de)
+      parts[1] = lang;
+      return "/" + parts.join("/");
     }
 
-    return `${base}/wiki/${lang}/${slug}`;
+    // For root wiki pages (/wiki/index.html, /wiki/getting-started.html, /wiki/faq.html, …)
+    // we stay on the same URL; i18n just swaps the text in place.
+    return null;
   }
 
-  // -----------------------------
-  // i18n dictionary + rendering
-  // -----------------------------
+  /* ---------------------------
+   * i18n dictionary handling
+   * --------------------------- */
+
   function getDict(lang) {
     const all = window.content || {};
     return all[lang] || all.en || {};
@@ -71,11 +75,14 @@
       el.innerHTML = value;
     });
 
-    // label in header
+    // header language label
     const labelEl = document.getElementById("currentLangLabel");
     if (labelEl) {
       labelEl.textContent = lang.toUpperCase();
     }
+
+    // adjust wiki nav hrefs for this language
+    updateWikiNavLinksForLang(lang);
   }
 
   // Expose this so other code can force a refresh
@@ -84,35 +91,59 @@
     applyTranslationsForLang(lang);
   };
 
-  // -----------------------------
-  // Mobile nav
-  // -----------------------------
-  function setupMobileNav() {
-    const btn = document.getElementById("mobileNavToggle");
-    const nav = document.querySelector("header .main-nav");
+  /* ---------------------------
+   * Wiki nav links: per-language URLs
+   * --------------------------- */
 
-    if (!btn || !nav) return;
+  function updateWikiNavLinksForLang(lang) {
+    if (!isWikiPage()) return;
 
-    // avoid binding twice (important on wiki when header appears later)
-    if (btn.dataset.navBound === "1") return;
-    btn.dataset.navBound = "1";
+    const nav = document.querySelector("nav.main-nav");
+    if (!nav) return;
 
-    btn.addEventListener("click", () => {
-      const isOpen = nav.classList.toggle("open");
-      btn.setAttribute("aria-expanded", String(isOpen));
+    const links = nav.querySelectorAll("a[data-i18n]");
+    const localizedBase = "/wiki/" + lang; // /wiki/en or /wiki/de
+
+    links.forEach((a) => {
+      const key = a.getAttribute("data-i18n");
+
+      switch (key) {
+        case "wiki.nav.home":
+          a.href = "/wiki/index.html";
+          break;
+        case "wiki.nav.gettingStarted":
+          a.href = "/wiki/getting-started.html";
+          break;
+        case "wiki.nav.faq":
+          a.href = "/wiki/faq.html";
+          break;
+        case "wiki.nav.definitions":
+          a.href = localizedBase + "/definitions.html";
+          break;
+        case "wiki.nav.examples":
+          a.href = localizedBase + "/examples.html";
+          break;
+        case "wiki.nav.tutorial":
+          a.href = localizedBase + "/tutorial.html";
+          break;
+        default:
+          // nav items on the main site use other keys; ignore
+          break;
+      }
     });
   }
 
-  // -----------------------------
-  // Language menu wiring
-  // -----------------------------
+  /* ---------------------------
+   * Language menu (header)
+   * --------------------------- */
+
   function bindLanguageMenu() {
     const toggle = document.getElementById("langToggle");
     const menu = document.getElementById("langMenu");
 
     if (!toggle || !menu) return;
 
-    // avoid binding twice when header appears later
+    // avoid binding twice when partials load
     if (menu.dataset.bound === "1") return;
     menu.dataset.bound = "1";
 
@@ -147,16 +178,17 @@
           document.documentElement.lang = lang;
         }
 
-        // If we are on a wiki HTML page, also switch the page URL
+        // If we are on a localized wiki HTML page (/wiki/en/... or /wiki/de/...)
+        // redirect to the same slug in the other language
         if (isWikiPage()) {
           const targetUrl = buildWikiUrlForLang(lang);
           if (targetUrl && targetUrl !== window.location.pathname) {
             window.location.href = targetUrl;
-            return; // page will reload, no need to applyTranslations
+            return; // page will reload, no need to applyTranslations here
           }
         }
 
-        // Non-wiki pages: just re-translate UI in place
+        // Non-localized pages: just re-translate UI in place
         window.applyTranslations();
 
         menu.classList.remove("open");
@@ -165,39 +197,39 @@
     });
   }
 
-  // -----------------------------
-  // Init (main + wiki, with async header)
-  // -----------------------------
-  function initOncePossible(observer) {
+  /* ---------------------------
+   * Mobile nav (main + wiki)
+   * --------------------------- */
+
+  function setupMobileNav() {
+    const btn = document.getElementById("mobileNavToggle");
+    const nav = document.querySelector(".main-nav");
+
+    if (!btn || !nav) return;
+
+    // avoid double binding
+    if (btn.dataset.bound === "1") return;
+    btn.dataset.bound = "1";
+
+    btn.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("open");
+      btn.setAttribute("aria-expanded", String(isOpen));
+    });
+  }
+
+  /* ---------------------------
+   * Init on main & wiki
+   * --------------------------- */
+
+  function initI18nAndNav() {
     bindLanguageMenu();
     setupMobileNav();
     window.applyTranslations();
-
-    // Stop observing once both things are bound
-    const toggle = document.getElementById("langToggle");
-    const menu = document.getElementById("langMenu");
-    const btn = document.getElementById("mobileNavToggle");
-
-    const langBound = menu && menu.dataset.bound === "1";
-    const navBound = btn && btn.dataset.navBound === "1";
-
-    if (observer && langBound && navBound) {
-      observer.disconnect();
-    }
   }
 
-  document.addEventListener("DOMContentLoaded", () => {
-    // Try once immediately (main page header is already there)
-    initOncePossible(null);
+  // main page: header already in DOM
+  document.addEventListener("DOMContentLoaded", initI18nAndNav);
 
-    // For wiki: header is injected later, so watch the DOM
-    const observer = new MutationObserver(() => {
-      initOncePossible(observer);
-    });
-
-    observer.observe(document.body, {
-      childList: true,
-      subtree: true,
-    });
-  });
+  // wiki pages: header injected via partials.js
+  document.addEventListener("partials:loaded", initI18nAndNav);
 })();

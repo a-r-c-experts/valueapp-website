@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – definitions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main>
+<hr>
+<h2>i18nTitle: wiki.definitions.title
+i18nSubtitle: wiki.definitions.subtitle</h2>
+<h1>Begriffe und Konzepte</h1>
+<h2>Diese Seite erklärt die wichtigsten Konzepte hinter der ValueApp und der ETH Value Method: Grundmodelle, Determinanten, das Führungsrahmenwerk und den Aufbau der App.</h2>
+<hr>
+<h2>Was die ValueApp macht</h2>
+<p>Die ValueApp schätzt den Planungsaufwand (Stunden) für verschiedene Disziplinen auf Basis transparenter, dokumentierter Determinanten.<br>Anstelle von Baukosten werden messbare Grössen wie die Bruttogeschossfläche verwendet, die mit statistischen Grundmodellen verknüpft werden.</p>
+<p>Projektspezifische Komplexität und Kontext fliessen über Anpassungsfaktoren ein, die aus dem <strong>Leadership Framework for Decision Making</strong> abgeleitet werden.<br>Das Resultat ist ein plausibler, transparenter Aufwandbereich, der dokumentiert und kommuniziert werden kann.</p>
+<hr>
+<h2>Kernformel</h2>
+<p>In vereinfachter Form kann die Methode wie folgt geschrieben werden:</p>
+<p><strong>Aufwand (h) = LI (h) × Determinante × AF<sub>Qualität</sub> × AF<sub>Projekt/Prozess</sub></strong></p>
+<p>wobei:</p>
+<ul>
+<li><strong>LI</strong> der Basisaufwand pro Einheit ist (z. B. Minuten pro m² Bruttogeschossfläche) aus dem statistischen Grundmodell.  </li>
+<li>Die <strong>Determinante</strong> eine transparente, messbare Grösse ist, z. B. die Bruttogeschossfläche BG.  </li>
+<li><strong>AF<sub>Qualität</sub></strong> ein Anpassungsfaktor ist, der aus dem Führungsrahmenwerk abgeleitet wird und die gestalterischen, technischen, räumlichen und organisatorischen Herausforderungen abbildet.  </li>
+<li><strong>AF<sub>Projekt/Prozess</sub></strong> weitere projekt- und prozessspezifische Anpassungen umfasst, wo dies sinnvoll ist.</li>
+</ul>
+<hr>
+<h2>Grundmodelle und Determinanten</h2>
+<p>Die Grundmodelle basieren auf realisierten Projekten. Für jede Nutzungsart verknüpfen sie die determinierende Grösse (typischerweise m² BG) mit Aufwandintervallen.<br>Diese Intervalle decken rund 80 % vergleichbarer Fälle ab und sind in Dezile strukturiert.</p>
+<p><img src="/wiki-assets/base-model-housing-reference-cloud.jpeg" alt="Referenzwolke für das Wohn-Grundmodell"></p>
+<p><em>Referenzprojekte und Prognoseintervalle für Wohn- und verwandte Gebäude.</em></p>
+<p><img src="/wiki-assets/base-model-mfh-example.jpeg" alt="Beispiel eines Mehrfamilienhauses im Prognoseintervall"></p>
+<p><em>Beispiel: Mehrfamilienhaus mit gegebener Bruttogeschossfläche innerhalb des 80 %-Prognoseintervalls.</em></p>
+<p>Die ValueApp verwendet derzeit nutzungsbasierte Modelle wie: <strong>Wohnen</strong>, <strong>Arbeiten/Dienstleistungen</strong>, <strong>Industrie</strong>, <strong>Lager</strong>, <strong>Lernen/Forschen</strong> und <strong>Heilen/Pflegen</strong>.<br>Jedes Modell geht von 100 % Grundleistungen für die jeweilige Disziplin aus.</p>
+<hr>
+<h2>Führungsrahmenwerk und Komplexität</h2>
+<p>Das <strong>Leadership Framework for Decision Making</strong> klassifiziert Situationen nach der Klarheit von Ursache und Wirkung.<br>Es unterscheidet einfache, komplizierte, komplexe und chaotische Domänen und schlägt für jede unterschiedliche Handlungsansätze vor.</p>
+<p><img src="/wiki-assets/leadership-framework-overview.jpeg" alt="Überblick über das Führungsrahmenwerk"></p>
+<p><em>Führungsrahmenwerk: von einfachen über komplizierte und komplexe bis zu chaotischen Entscheidungskontexten.</em></p>
+<p>In der ValueApp beschreiben Sie Herausforderungen in vier Dimensionen: <strong>Gestaltung</strong>, <strong>Technik</strong>, <strong>Raum</strong> und <strong>Organisation</strong>.<br>Diese Herausforderungen werden im Rahmenwerk positioniert; ihr „Schwerpunkt“ führt zu einem Anpassungsfaktor für Qualität und Komplexität.</p>
+<p><img src="/wiki-assets/leadership-framework-centre-of-gravity.jpeg" alt="Führungsrahmenwerk mit Schwerpunkt"></p>
+<p><em>Projektspezifische Herausforderungen im Rahmenwerk; der Schwerpunkt ergibt den Anpassungsfaktor.</em></p>
+<hr>
+<h2>Aufbau der ValueApp</h2>
+<p>Die App ist in vier Hauptregister gegliedert, die die Logik der Methode widerspiegeln:</p>
+<ul>
+<li><strong>Beschrieb</strong> – Projektkontext, Adresse, organisatorische Struktur und Status.  </li>
+<li><strong>Projekt</strong> – determinierende Grösse, Nutzungsmix, Komplexität und Risiko.  </li>
+<li><strong>Leistung</strong> – eigene Rolle, Schwerpunkte und Stunden pro Phase.  </li>
+<li><strong>Zusammenfassung</strong> – konsolidierte Übersicht für Kommunikation und Dokumentation.</li>
+</ul>
+<p><img src="/wiki-assets/valueapp-architecture-overview.jpeg" alt="Diagramm zur Architektur und den Datenflüssen der ValueApp"></p>
+<p><em>Die ValueApp verbindet Projektbeschrieb, Determinanten, Anpassungsfaktoren und Leistungen zu einem konsistenten Modell.</em></p>
+<hr>
+<h2>Felder in der App: empfohlene Nutzung</h2>
+<h3>Beschrieb</h3>
+<p>Nutzen Sie Projekttitel und Adresse, um das Projekt in Berichten und internen Systemen eindeutig zu identifizieren.<br>Die Projektbeschreibung sollte kurz Ausgangslage, Aufgabe, zentrale Randbedingungen und Themen skizzieren, die die Komplexität voraussichtlich beeinflussen.</p>
+<h3>Projekt</h3>
+<p>Erfassen Sie die determinierende Grösse (typischerweise m² Bruttogeschossfläche) und verteilen Sie diese auf die relevanten Nutzungen.<br>Beurteilen Sie anschliessend die Komplexität in den vier Dimensionen und legen Sie das Risiko fest (<strong>keine speziellen</strong>, <strong>erhöhte</strong>, <strong>hohe Anforderungen</strong>).</p>
+<h3>Leistung</h3>
+<p>Wählen Sie Ihre vertragliche Rolle und markieren Sie Schwerpunktthemen.<br>Prüfen Sie die berechneten Stunden für 100 % Grundleistungen und deren Verteilung über die Phasen.<br>Passen Sie Phasenanteile in begründeten Fällen an.</p>
+<h3>Zusammenfassung</h3>
+<p>Die Zusammenfassung führt alle Eingaben und berechneten Resultate zu einer nachvollziehbaren Übersicht zusammen.<br>Sie ist dafür gedacht, Angeboten, internen Controlling-Unterlagen oder Ausschreibungen beigelegt zu werden.</p>
+<hr>
+<h2>Glossar</h2>
+<p><strong>Determinante (determinierende Grösse).</strong><br>Messbare Grösse, die das Grundmodell steuert, in der Regel die für den Projektumfang relevante Bruttogeschossfläche BG.</p>
+<p><strong>Grundmodell.</strong><br>Statistisches Modell für eine Nutzungsart, das Determinanten mit Aufwandbereichen für 100 % Grundleistungen verknüpft.</p>
+<p><strong>Prognoseintervall.</strong><br>Bereich, der den Grossteil vergleichbarer Projekte (rund 80 %) abdeckt. Er ist in Dezile gegliedert und bildet typische Streuung ab.</p>
+<p><strong>AF Qualität.</strong><br>Anpassungsfaktor, der aus dem Führungsrahmenwerk abgeleitet wird und gestalterische, technische, räumliche und organisatorische Herausforderungen berücksichtigt.</p>
+<p><strong>Grundleistungen.</strong><br>Leistungsspektrum gemäss berufsständischen Regelwerken (z. B. SIA), das in den Grundmodellen mit 100 % angenommen wird.</p>
+<p><strong>Zusätzliche Leistungen.</strong><br>Projektspezifische Leistungen, die über Grundleistungen hinausgehen und separat dokumentiert werden können.</p>
+<hr>
+<div class="wiki-aside-card">
+  <h3>Methodische Grundlagen</h3>
+  <p>
+    Die Value Method und die ValueApp basieren auf Forschung an der ETH Zürich
+    und wurden gemeinsam mit Praxispartnern und Berufsverbänden entwickelt.
+    Die Referenzmodelle werden laufend mit realisierten Projektdaten aktualisiert.
+  </p>
+</div>
+
+<div class="wiki-aside-card">
+  <h3>Hinweis für Anwender/innen</h3>
+  <p>
+    Im Alltag müssen Sie nicht jedes statistische Detail kennen.
+    Entscheidend sind eine klare Projektbeschreibung, realistische Mengen,
+    eine ehrliche Komplexitätsbeurteilung und eine transparente Verteilung der Leistungen
+    über die Phasen.
+  </p>
+</div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <div data-include="/wiki/partials/footer.html"></div>
+  <!-- Shared footer -->
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

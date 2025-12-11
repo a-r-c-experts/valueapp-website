@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – definitions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main>
+<hr>
+<h2>i18nTitle: wiki.definitions.title
+i18nSubtitle: wiki.definitions.subtitle</h2>
+<h1>Definitions and concepts</h1>
+<h2>This page explains the main concepts behind the ValueApp and the ETH Value Method: base models, determinants, the leadership framework and the structure of the app.</h2>
+<hr>
+<h2>What the ValueApp does</h2>
+<p>The ValueApp estimates planning effort (hours) for different disciplines based on transparent, documented determinants.<br>Instead of construction costs, it uses measurable quantities such as gross floor area and links them to statistical base models.</p>
+<p>Project-specific complexity and context are incorporated through adjustment factors derived from the Leadership Framework for Decision Making.<br>The result is a plausible, transparent range for planning effort that can be documented and communicated.</p>
+<hr>
+<h2>Core formula</h2>
+<p>In simplified form, the method can be written as:</p>
+<p><strong>Aufwand (h) = LI (h) × Determinant × AF<sub>Qualität</sub> × AF<sub>Projekt/Prozess</sub></strong></p>
+<p>where:</p>
+<ul>
+<li><strong>LI</strong> is the base workload per unit (e.g. minutes per m² gross floor area) from the statistical base model.  </li>
+<li>The <strong>determinant</strong> is a transparent, measurable quantity such as gross floor area GF.  </li>
+<li><strong>AF<sub>Qualität</sub></strong> is an adjustment factor derived from the leadership framework, based on design, technical, spatial and organisational challenges.  </li>
+<li><strong>AF<sub>Projekt/Prozess</sub></strong> covers further project- and process-specific adjustments where applicable.</li>
+</ul>
+<hr>
+<h2>Base models and determinants</h2>
+<p>The base models are built from realised projects. For each usage type, they link the determinating quantity (typically m² GF) to intervals of planning effort.<br>These intervals cover around 80% of comparable cases and are structured in deciles.</p>
+<p><img src="/wiki-assets/base-model-housing-reference-cloud.jpeg" alt="Reference cloud for residential base model"></p>
+<p><em>Reference projects and prediction intervals for residential and related buildings.</em></p>
+<p><img src="/wiki-assets/base-model-mfh-example.jpeg" alt="Example of a multi-family house in the prediction interval"></p>
+<p><em>Example: multi-family house at a given gross floor area within the 80% prediction interval.</em></p>
+<p>The ValueApp currently uses usage-based models such as: <strong>Housing</strong>, <strong>Working/Services</strong>, <strong>Industry</strong>, <strong>Storage</strong>, <strong>Learning/Research</strong> and <strong>Healing/Care</strong>.<br>Each model assumes 100% basic services for the corresponding discipline.</p>
+<hr>
+<h2>Leadership framework and complexity</h2>
+<p>The Leadership Framework for Decision Making classifies situations based on the clarity of cause and effect.<br>It distinguishes simple, complicated, complex and chaotic domains and suggests different approaches for each.</p>
+<p><img src="/wiki-assets/leadership-framework-overview.jpeg" alt="Leadership framework overview"></p>
+<p><em>Leadership framework: from simple via complicated and complex to chaotic decision contexts.</em></p>
+<p>In the ValueApp, you describe challenges in four dimensions: <strong>design</strong>, <strong>technical</strong>, <strong>spatial</strong> and <strong>organisational</strong>.<br>These challenges are positioned within the framework, and their “centre of gravity” leads to an adjustment factor for quality and complexity.</p>
+<p><img src="/wiki-assets/leadership-framework-centre-of-gravity.jpeg" alt="Leadership framework with centre of gravity"></p>
+<p><em>Project-specific challenges positioned in the framework; the centre of gravity gives the adjustment factor.</em></p>
+<hr>
+<h2>Structure of the ValueApp</h2>
+<p>The app is organised into four main tabs that mirror the logic of the method:</p>
+<ul>
+<li><strong>Beschrieb</strong> – project context, address, organisational setup and status.  </li>
+<li><strong>Projekt</strong> – determinating quantity, use mix, complexity and risk.  </li>
+<li><strong>Leistung</strong> – your role, focus topics and hours per phase.  </li>
+<li><strong>Zusammenfassung</strong> – consolidated one-pager for communication and documentation.</li>
+</ul>
+<p><img src="/wiki-assets/valueapp-architecture-overview.jpeg" alt="Diagram of the ValueApp architecture and data flows"></p>
+<p><em>The ValueApp connects project description, determinants, adjustment factors and services into one consistent model.</em></p>
+<hr>
+<h2>Fields in the app: recommended usage</h2>
+<h3>Beschrieb</h3>
+<p>Use the project title and address to identify the project clearly in reports and internal systems.<br>The project description should briefly cover starting situation, task, key constraints and central themes that are likely to influence complexity.</p>
+<h3>Projekt</h3>
+<p>Enter the determinating quantity (typically m² gross floor area) and assign percentages of the total to the relevant uses.<br>Then assess complexity across the four dimensions and set the risk level (<strong>no special</strong>, <strong>increased</strong>, <strong>high</strong>).</p>
+<h3>Leistung</h3>
+<p>Choose your contractual role and highlight focus topics.<br>Review the calculated hours for 100% basic services and their distribution over phases.<br>Adjust phase percentages in justified cases.</p>
+<h3>Zusammenfassung</h3>
+<p>The summary compiles all inputs and calculated results into a traceable overview.<br>It is designed to be attached to fee offers, internal controlling documents or procurement procedures.</p>
+<hr>
+<h2>Glossary</h2>
+<p><strong>Determinant (determinierende Grösse).</strong><br>Measurable quantity that drives the base model, usually the gross floor area GF relevant for the project scope.</p>
+<p><strong>Base model (Grundmodell).</strong><br>Statistical model for a usage type that links determinants to effort ranges for 100% basic services.</p>
+<p><strong>Prediction interval (Prognoseintervall).</strong><br>Range that covers most comparable projects (around 80%). It is structured in deciles and reflects typical variation.</p>
+<p><strong>AF Qualität.</strong><br>Adjustment factor derived from the leadership framework based on design, technical, spatial and organisational challenges.</p>
+<p><strong>Basic services (Grundleistungen).</strong><br>Scope of standard services defined in professional regulations (e.g. SIA), assumed at 100% in the base models.</p>
+<p><strong>Additional services (Zusätzliche Leistungen).</strong><br>Project-specific services beyond basic services that can be documented separately.</p>
+<hr>
+<div class="wiki-aside-card">
+  <h3>Method sources</h3>
+  <p>
+    The Value Method and the ValueApp are based on research at ETH Zürich and developed
+    together with practice partners and professional associations.
+    Reference models are continuously updated with realised project data.
+  </p>
+</div>
+
+<div class="wiki-aside-card">
+  <h3>Tip for users</h3>
+  <p>
+    In everyday work, you do not need to know every statistical detail.
+    Focus on providing a clear project description, realistic quantities,
+    an honest complexity assessment and a transparent distribution of services across phases.
+  </p>
+</div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <div data-include="/wiki/partials/footer.html"></div>
+  <!-- Shared footer -->
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>
