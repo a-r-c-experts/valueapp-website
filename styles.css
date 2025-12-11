@@ -743,7 +743,7 @@ footer .footer-inner {
 
 .top-bar .wiki-hero-logo {
   height: auto;
-  max-height: 48px;  /* adjust to taste */
+  max-height: 100px;  /* adjust to taste */
   width: auto;
   object-fit: contain;
   display: block;

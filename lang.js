@@ -753,6 +753,11 @@ const content = {
       "Where can I report bugs or suggest improvements?",
     "wiki.faq.q10.answer":
       "Use the “Feedback” button in the app to open a short form. You can describe the issue, attach context and, if relevant, reference a specific project or screenshot.",
+    // inside content.en = { ... }
+    "wiki.search.title": "Search",
+    "wiki.search.label.enterTerm": "Enter a search term in the header search field.",
+    "wiki.search.label.resultsFor": "Results for “{q}”",
+    "wiki.search.noResults": "No results found. Try a different term or a simpler phrase.",
   },
   de: {
     "ui.languageLabel": "Sprache",
@@ -1644,6 +1649,11 @@ const content = {
       "© 2025 ETH Zürich, Chaire d’architecture et processus de construction · en collaboration avec <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
       "Ce site utilise uniquement des cookies fonctionnels afin d’améliorer l’expérience utilisateur.",
+    // inside content.de = { ... }
+    "wiki.search.title": "Suche",
+    "wiki.search.label.enterTerm": "Geben Sie oben einen Suchbegriff in das Suchfeld ein.",
+    "wiki.search.label.resultsFor": "Resultate für „{q}“",
+    "wiki.search.noResults": "Keine Treffer. Versuchen Sie einen anderen Begriff oder eine einfachere Formulierung.",
   
   },
 

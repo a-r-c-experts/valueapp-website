@@ -1,11 +1,11 @@
 // Central definition of which pages belong to the wiki search
 const WIKI_PAGES = [
-  { url: "/wiki/index.html",           id: "home" },
-  { url: "/wiki/getting-started.html", id: "getting-started" },
-  { url: "/wiki/definitions.html",     id: "definitions" },
-  { url: "/wiki/examples.html",        id: "examples" },
-  { url: "/wiki/tutorial.html",        id: "tutorial" },
-  { url: "/wiki/faq.html",             id: "faq" }
+  { url: "/wiki/index.html",           id: "home",           titleKey: "wiki.home.title" },
+  { url: "/wiki/getting-started.html", id: "getting-started", titleKey: "wiki.gettingStarted.title" },
+  { url: "/wiki/definitions.html",     id: "definitions",     titleKey: "wiki.definitions.title" },
+  { url: "/wiki/examples.html",        id: "examples",        titleKey: "wiki.examples.title" },
+  { url: "/wiki/tutorial.html",        id: "tutorial",        titleKey: "wiki.tutorial.title" },
+  { url: "/wiki/faq.html",             id: "faq",             titleKey: "wiki.faq.title" }
 ];
 
 function getCurrentPath() {
@@ -22,6 +22,43 @@ function getCurrentLangSafe() {
     console.warn("getStoredLanguage not available:", e);
   }
   return "en";
+}
+
+function tSearch(key, lang, params = {}) {
+  if (typeof content === "undefined") {
+    // brutal fallback
+    if (key === "enterTerm")  return "Enter a search term in the header search field.";
+    if (key === "resultsFor") return `Results for “${params.q || ""}”`;
+    if (key === "noResults")  return "No results found. Try a different term or a simpler phrase.";
+    return "";
+  }
+
+  const dict = content[lang] || content.en || {};
+  let raw = "";
+
+  if (key === "enterTerm") {
+    raw = dict["wiki.search.label.enterTerm"] || "";
+  } else if (key === "resultsFor") {
+    raw = dict["wiki.search.label.resultsFor"] || "";
+  } else if (key === "noResults") {
+    raw = dict["wiki.search.noResults"] || "";
+  }
+
+  if (params.q) {
+    raw = raw.replace("{q}", params.q);
+  }
+  return raw || "";
+}
+
+function getLocalizedTitle(page, html, lang) {
+  if (typeof content !== "undefined" && page.titleKey) {
+    const dictLang = content[lang] || content.en || {};
+    const dictEn   = content.en || {};
+    const t = dictLang[page.titleKey] || dictEn[page.titleKey];
+    if (t) return t;
+  }
+  // fallback to the raw <title> or URL
+  return extractTitle(html) || page.url;
 }
 
 // Build a "virtual" text for a page from its i18n keys
@@ -87,28 +124,24 @@ async function runWikiSearch() {
 
   if (!resultsNode) return;
 
+  const currentLang = getCurrentLangSafe();
+
   if (!query) {
     if (labelNode) {
-      labelNode.textContent = "Enter a search term in the header search field.";
-      // If you want, you can make this label also i18n-controlled.
+      labelNode.textContent = tSearch("enterTerm", currentLang);
     }
     resultsNode.innerHTML = "";
     return;
   }
 
-  const currentLang = getCurrentLangSafe();
-
   if (labelNode) {
-    // Could also be routed through i18n if you feel fancy
-    labelNode.textContent = `Results for “${query}”`;
+    labelNode.textContent = tSearch("resultsFor", currentLang, { q: query });
   }
 
   const lcQuery = query.toLowerCase();
   const results = [];
 
-  // Fetch each page and search its text
   for (const page of WIKI_PAGES) {
-    // Avoid recursive misery
     if (page.url.endsWith("/wiki/search.html")) continue;
 
     try {
@@ -117,8 +150,6 @@ async function runWikiSearch() {
 
       const html = await resp.text();
 
-      // For English or no i18n: use raw visible text
-      // For other languages: synthesize text from i18n dictionary
       const text =
         currentLang === "en"
           ? extractVisibleText(html)
@@ -128,7 +159,7 @@ async function runWikiSearch() {
       const idx = lcText.indexOf(lcQuery);
 
       if (idx !== -1) {
-        const title = extractTitle(html) || page.url;
+        const title = getLocalizedTitle(page, html, currentLang);
         const snippet = buildSnippet(text, idx, query.length);
         results.push({ url: page.url, title, snippet });
       }
@@ -140,10 +171,9 @@ async function runWikiSearch() {
   if (results.length === 0) {
     resultsNode.innerHTML = `
       <div class="wiki-search-no-results">
-        No results found. Try a different term or a simpler phrase.
+        ${escapeHtml(tSearch("noResults", currentLang))}
       </div>
     `;
-    // Again, you can i18n that block if you like.
     return;
   }
 
