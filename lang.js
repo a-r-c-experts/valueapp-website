@@ -2074,44 +2074,69 @@ function setLanguage(lang) {
     );
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+function initLangAndNav() {
   const toggle = document.getElementById("langToggle");
   const menu = document.getElementById("langMenu");
   const mobileToggle = document.getElementById("mobileNavToggle");
   const mainNav = document.querySelector(".main-nav");
 
   /* LANGUAGE DROPDOWN */
-  if (toggle && menu) {
+  if (toggle && menu && !toggle.dataset.bound) {
+    toggle.dataset.bound = "1";
+
     toggle.addEventListener("click", (e) => {
       e.stopPropagation();
       menu.classList.toggle("open");
     });
 
-    document.querySelectorAll(".lang-option").forEach((btn) =>
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const lang = btn.getAttribute("data-lang");
-        setLanguage(lang);
-        menu.classList.remove("open");
-      })
-    );
-
-    document.addEventListener("click", () => {
-      menu.classList.remove("open");
-      if (mainNav) mainNav.classList.remove("open");
+    document.querySelectorAll(".lang-option").forEach((btn) => {
+      if (!btn.dataset.bound) {
+        btn.dataset.bound = "1";
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const lang = btn.getAttribute("data-lang") || "en";
+          setLanguage(lang);
+          menu.classList.remove("open");
+        });
+      }
     });
   }
 
   /* MOBILE NAVIGATION */
-  if (mobileToggle && mainNav) {
+  if (mobileToggle && mainNav && !mobileToggle.dataset.bound) {
+    mobileToggle.dataset.bound = "1";
+
     mobileToggle.addEventListener("click", (e) => {
       e.stopPropagation();
       mainNav.classList.toggle("open");
     });
+
     mainNav.addEventListener("click", (e) => e.stopPropagation());
   }
 
-  /* INITIAL LANGUAGE (persistent!) */
+  /* GLOBAL CLICK HANDLER (only once) */
+  if (!document.body.dataset.langNavGlobalBound) {
+    document.body.dataset.langNavGlobalBound = "1";
+
+    document.addEventListener("click", () => {
+      const m = document.getElementById("langMenu");
+      const nav = document.querySelector(".main-nav");
+      if (m) m.classList.remove("open");
+      if (nav) nav.classList.remove("open");
+    });
+  }
+}
+
+/* INITIAL LANGUAGE + FIRST INIT */
+document.addEventListener("DOMContentLoaded", () => {
   const initialLang = getStoredLanguage();
   setLanguage(initialLang);
+  initLangAndNav();
+});
+
+/* RE-RUN AFTER PARTIALS (HEADER/FOOTER) ARE LOADED */
+document.addEventListener("partials:loaded", () => {
+  initLangAndNav();
+  // re-apply current language so new wiki elements get translated too
+  setLanguage(getStoredLanguage());
 });
