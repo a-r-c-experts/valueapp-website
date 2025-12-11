@@ -1,26 +1,35 @@
 // wiki/toc.js
 (function () {
   function buildToc() {
-    // If we already built a TOC on this page, don't do it again
+    // Avoid duplicates if partials fire multiple times
     if (document.querySelector(".wiki-toc")) return;
 
     const main = document.querySelector("main");
     if (!main) return;
 
-    // Collect headings in main
     const allHeadings = Array.from(main.querySelectorAll("h1, h2, h3"));
-    if (allHeadings.length === 0) return;
+    if (!allHeadings.length) return;
 
-    // Skip first H1 + first H2 (page title + subtitle from Markdown)
-    const trimmed = allHeadings.slice(2);
+    // Clone list so we can mutate safely
+    const tocSource = allHeadings.slice();
+
+    // 1) Skip page title (H1), if present
+    if (tocSource.length && tocSource[0].tagName === "H1") {
+      tocSource.shift();
+    }
+
+    // 2) Skip subtitle (first H2 after H1), if present
+    if (tocSource.length && tocSource[0].tagName === "H2") {
+      tocSource.shift();
+    }
 
     // Only H2/H3 go into the TOC
-    const headings = trimmed.filter(
+    const headings = tocSource.filter(
       (h) => h.tagName === "H2" || h.tagName === "H3"
     );
     if (!headings.length) return;
 
-    // Ensure IDs on headings so we can link to them
+    // Ensure IDs so we can link to headings
     headings.forEach((h, idx) => {
       if (!h.id) {
         const base = (h.textContent || "section")
@@ -37,14 +46,14 @@
     toc.className = "wiki-toc";
     toc.setAttribute("aria-label", "Table of contents");
 
-    // Header row (title + mobile toggle)
+    // Header row: title + mobile toggle
     const header = document.createElement("div");
     header.className = "wiki-toc-header";
 
     const titleEl = document.createElement("div");
     titleEl.className = "wiki-toc-title";
     titleEl.setAttribute("data-i18n", "wiki.toc.title");
-    titleEl.textContent = "Contents"; // fallback text
+    titleEl.textContent = "Contents"; // fallback
 
     const toggleBtn = document.createElement("button");
     toggleBtn.type = "button";
@@ -57,7 +66,7 @@
     header.appendChild(toggleBtn);
     toc.appendChild(header);
 
-    // List of links
+    // List content
     const list = document.createElement("ul");
     list.className = "wiki-toc-list";
 
@@ -78,33 +87,41 @@
 
     toc.appendChild(list);
 
-    // Place TOC near the top: right before the first content H2
-    const firstContentHeading = headings[0];
-    if (firstContentHeading && firstContentHeading.parentElement === main) {
-      main.insertBefore(toc, firstContentHeading);
+    // Insert TOC right after the title / subtitle block
+    // Anchor: H1, or H2 if we have a "subtitle" H2
+    let anchor = allHeadings[0];
+    if (
+      allHeadings.length > 1 &&
+      allHeadings[0].tagName === "H1" &&
+      allHeadings[1].tagName === "H2"
+    ) {
+      anchor = allHeadings[1];
+    }
+
+    if (anchor && anchor.parentNode) {
+      anchor.parentNode.insertBefore(toc, anchor.nextSibling);
     } else {
-      // fallback: after first element in <main>
-      const firstChild = main.firstElementChild;
-      if (firstChild) {
-        main.insertBefore(toc, firstChild.nextSibling);
+      // Fallback: after first element in <main>
+      const firstEl = main.firstElementChild;
+      if (firstEl) {
+        main.insertBefore(toc, firstEl.nextSibling);
       } else {
         main.appendChild(toc);
       }
     }
 
-    // Mobile toggle behaviour (matches CSS "is-open" class)
+    // Mobile toggle: matches CSS (.wiki-toc.is-open)
     toggleBtn.addEventListener("click", () => {
       const isOpen = toc.classList.toggle("is-open");
       toggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
 
-    // Re-run translations so "wiki.toc.*" gets localised
+    // Re-run translations so wiki.toc.* gets localised
     if (typeof window.applyTranslations === "function") {
       window.applyTranslations();
     }
   }
 
   document.addEventListener("DOMContentLoaded", buildToc);
-  // Still listen to partials:loaded, but buildToc guards against duplicates
   document.addEventListener("partials:loaded", buildToc);
 })();
