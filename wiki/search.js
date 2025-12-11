@@ -1,17 +1,14 @@
-// Central definition of which pages belong to the wiki search
-const WIKI_PAGES = [
-  { url: "/wiki/index.html",           id: "home",           titleKey: "wiki.home.title" },
-  { url: "/wiki/getting-started.html", id: "getting-started", titleKey: "wiki.gettingStarted.title" },
-  { url: "/wiki/definitions.html",     id: "definitions",     titleKey: "wiki.definitions.title" },
-  { url: "/wiki/examples.html",        id: "examples",        titleKey: "wiki.examples.title" },
-  { url: "/wiki/tutorial.html",        id: "tutorial",        titleKey: "wiki.tutorial.title" },
-  { url: "/wiki/faq.html",             id: "faq",             titleKey: "wiki.faq.title" }
-];
+if (typeof WIKI_PAGES === "undefined") {
+  console.warn("WIKI_PAGES not found, using minimal fallback config.");
+  var WIKI_PAGES = [
+    { url: "/wiki/index.html", id: "home", titleKey: "wiki.home.title" }
+  ];
+}
+
 
 function getCurrentPath() {
   return window.location.pathname.replace(/\/+$/, "");
 }
-
 
 
 function getCurrentLangSafe() {

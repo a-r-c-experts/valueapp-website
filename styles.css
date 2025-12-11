@@ -748,3 +748,15 @@ footer .footer-inner {
   object-fit: contain;
   display: block;
 }
+
+nav.main-nav a.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.wiki-last-updated {
+  margin-top: 24px;
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-align: right;
+}
