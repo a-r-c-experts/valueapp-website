@@ -93,8 +93,6 @@ ${bodyHtml}
 
   ${footerHtml}
 
-  <div data-include="/wiki/partials/footer.html"></div>
-  <!-- Shared footer -->
   <script src="/partials.js"></script>
   <script src="/wiki/wiki-version.js"></script>
   <script src="/wiki/wiki-page-config.js"></script>

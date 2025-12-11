@@ -1,97 +1,116 @@
 // wiki/toc.js
 (function () {
-  function buildToc() {
+  function initWikiToc() {
     const main = document.querySelector("main");
     if (!main) return;
 
-    const allHeadings = Array.from(
-      main.querySelectorAll("h1, h2, h3")
-    );
-    if (allHeadings.length === 0) return;
+    // Prevent duplicates
+    if (main.dataset.tocBound === "1") return;
+    main.dataset.tocBound = "1";
 
-    // Skip first H1 and H2 (page title + subtitle)
-    const trimmed = allHeadings.slice(2);
+    // Collect headings
+    const rawHeadings = Array.from(main.querySelectorAll("h1, h2, h3"));
+    if (rawHeadings.length === 0) return;
 
-    // Only H2/H3 go into the TOC
-    const headings = trimmed.filter(
-      (h) => h.tagName === "H2" || h.tagName === "H3"
-    );
+    // Skip H1 and first H2 (title + subtitle)
+    let skippedH1 = false;
+    let skippedH2 = false;
+    const headings = [];
+
+    for (const h of rawHeadings) {
+      const level = parseInt(h.tagName.substring(1), 10);
+
+      if (level === 1 && !skippedH1) {
+        skippedH1 = true;
+        continue;
+      }
+      if (level === 2 && !skippedH2) {
+        skippedH2 = true;
+        continue;
+      }
+
+      if (level === 2 || level === 3) {
+        headings.push(h);
+      }
+    }
+
     if (!headings.length) return;
 
-    // Ensure IDs
-    headings.forEach((h, idx) => {
+    // Assign IDs
+    headings.forEach((h, i) => {
       if (!h.id) {
-        const base = (h.textContent || "section")
-          .trim()
-          .toLowerCase()
-          .replace(/\s+/g, "-")
-          .replace(/[^a-z0-9\-]/g, "");
-        h.id = base || `section-${idx}`;
+        h.id =
+          (h.textContent || "section")
+            .trim()
+            .toLowerCase()
+            .replace(/\s+/g, "-")
+            .replace(/[^a-z0-9\-]/g, "") || `sec-${i}`;
       }
     });
 
+    // Wrapper (toggle + toc together)
+    const wrapper = document.createElement("div");
+    wrapper.className = "wiki-toc-wrapper";
+
+    // Mobile toggle button
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "wiki-toc-toggle";
+    toggle.setAttribute("data-i18n", "wiki.toc.toggle");
+    toggle.textContent = "Contents";
+
+    // The actual TOC box
     const toc = document.createElement("nav");
     toc.className = "wiki-toc";
     toc.setAttribute("aria-label", "Table of contents");
 
-    // Header wrapper (title + toggle button)
-    const header = document.createElement("div");
-    header.className = "wiki-toc-header";
+    const title = document.createElement("div");
+    title.className = "wiki-toc-title";
+    title.setAttribute("data-i18n", "wiki.toc.title");
+    title.textContent = "Contents";
 
-    const titleEl = document.createElement("div");
-    titleEl.className = "wiki-toc-title";
-    titleEl.setAttribute("data-i18n", "wiki.toc.title");
-    titleEl.textContent = "Contents"; // fallback
-
-    const toggleBtn = document.createElement("button");
-    toggleBtn.type = "button";
-    toggleBtn.className = "wiki-toc-toggle";
-    toggleBtn.setAttribute("aria-expanded", "false");
-    toggleBtn.setAttribute("data-i18n", "wiki.toc.toggle");
-    toggleBtn.textContent = "Contents"; // mobile label (fallback)
-
-    header.appendChild(titleEl);
-    header.appendChild(toggleBtn);
-    toc.appendChild(header);
-
-    const list = document.createElement("ul");
-    list.className = "wiki-toc-list";
+    const ul = document.createElement("ul");
+    ul.className = "wiki-toc-list";
 
     headings.forEach((h) => {
       const li = document.createElement("li");
       li.className =
-        h.tagName === "H2" ? "wiki-toc-item level-2" : "wiki-toc-item level-3";
+        h.tagName === "H2"
+          ? "wiki-toc-item level-h2"
+          : "wiki-toc-item level-h3";
 
       const a = document.createElement("a");
       a.href = "#" + h.id;
       a.textContent = h.textContent.trim();
 
       li.appendChild(a);
-      list.appendChild(li);
+      ul.appendChild(li);
     });
 
-    toc.appendChild(list);
+    toc.appendChild(title);
+    toc.appendChild(ul);
 
-    // Insert TOC near the top
-    const firstSection = main.firstElementChild;
-    if (firstSection) {
-      main.insertBefore(toc, firstSection.nextSibling);
+    wrapper.appendChild(toggle);
+    wrapper.appendChild(toc);
+
+    // Insert after first block of content
+    const firstChild = main.firstElementChild;
+    if (firstChild) {
+      main.insertBefore(wrapper, firstChild.nextElementSibling);
     } else {
-      main.insertBefore(toc, main.firstChild);
+      main.appendChild(wrapper);
     }
 
-    // Toggle for mobile
-    toggleBtn.addEventListener("click", () => {
-      const isOpen = toc.classList.toggle("open");
-      toggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    // Mobile toggle
+    toggle.addEventListener("click", () => {
+      toc.classList.toggle("is-open");
     });
 
-    // Re-run translations so wiki.toc.* gets localised
+    // Re-apply translations
     if (typeof window.applyTranslations === "function") {
       window.applyTranslations();
     }
   }
 
-  document.addEventListener("DOMContentLoaded", buildToc);
-  document.addEventListener("partials:loaded", buildToc);
+  document.addEventListener("DOMContentLoaded", initWikiToc);
 })();
