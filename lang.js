@@ -3,6 +3,9 @@
 // provided by /i18n/lang-loader.js
 
 (function () {
+  // -----------------------------
+  // Language helpers
+  // -----------------------------
   function getCurrentLang() {
     if (typeof window.getStoredLanguage === "function") {
       return window.getStoredLanguage();
@@ -11,6 +14,41 @@
     return htmlLang || "en";
   }
 
+  // Detect if current page is inside /wiki/… (supports GH Pages base path)
+  function isWikiPage() {
+    return window.location.pathname.split("/").includes("wiki");
+  }
+
+  function getWikiSlugFromPath() {
+    const parts = window.location.pathname.split("/").filter(Boolean);
+    const wikiIndex = parts.indexOf("wiki");
+
+    // expect pattern: ... / wiki / <lang> / <slug>
+    if (wikiIndex !== -1 && parts.length >= wikiIndex + 3) {
+      return parts[wikiIndex + 2]; // e.g. "tutorial.html"
+    }
+
+    // fallback: index
+    return "index.html";
+  }
+
+  function buildWikiUrlForLang(lang) {
+    const parts = window.location.pathname.split("/").filter(Boolean);
+    const wikiIndex = parts.indexOf("wiki");
+    const slug = getWikiSlugFromPath(); // e.g. "tutorial.html"
+
+    // Base path before "wiki" ("" locally, "/valueapp-website" on GH Pages, etc.)
+    let base = "";
+    if (wikiIndex > 0) {
+      base = "/" + parts.slice(0, wikiIndex).join("/");
+    }
+
+    return `${base}/wiki/${lang}/${slug}`;
+  }
+
+  // -----------------------------
+  // i18n dictionary + rendering
+  // -----------------------------
   function getDict(lang) {
     const all = window.content || {};
     return all[lang] || all.en || {};
@@ -46,6 +84,28 @@
     applyTranslationsForLang(lang);
   };
 
+  // -----------------------------
+  // Mobile nav
+  // -----------------------------
+  function setupMobileNav() {
+    const btn = document.getElementById("mobileNavToggle");
+    const nav = document.querySelector("header .main-nav");
+
+    if (!btn || !nav) return;
+
+    // avoid binding twice (important on wiki when partials reload)
+    if (btn.dataset.navBound === "1") return;
+    btn.dataset.navBound = "1";
+
+    btn.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("open");
+      btn.setAttribute("aria-expanded", String(isOpen));
+    });
+  }
+
+  // -----------------------------
+  // Language menu wiring
+  // -----------------------------
   function bindLanguageMenu() {
     const toggle = document.getElementById("langToggle");
     const menu = document.getElementById("langMenu");
@@ -87,6 +147,16 @@
           document.documentElement.lang = lang;
         }
 
+        // If we are on a wiki HTML page, also switch the page URL
+        if (isWikiPage()) {
+          const targetUrl = buildWikiUrlForLang(lang);
+          if (targetUrl && targetUrl !== window.location.pathname) {
+            window.location.href = targetUrl;
+            return; // page will reload, no need to applyTranslations
+          }
+        }
+
+        // Non-wiki pages: just re-translate UI in place
         window.applyTranslations();
 
         menu.classList.remove("open");
@@ -95,14 +165,18 @@
     });
   }
 
-  function initI18n() {
+  // -----------------------------
+  // Init for main + wiki
+  // -----------------------------
+  function initI18nAndNav() {
     bindLanguageMenu();
+    setupMobileNav();
     window.applyTranslations();
   }
 
   // main page: header already in DOM
-  document.addEventListener("DOMContentLoaded", initI18n);
+  document.addEventListener("DOMContentLoaded", initI18nAndNav);
 
   // wiki pages: header injected via partials.js
-  document.addEventListener("partials:loaded", initI18n);
+  document.addEventListener("partials:loaded", initI18nAndNav);
 })();

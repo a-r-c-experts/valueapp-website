@@ -1,129 +1,121 @@
 // tools/build-wiki.mjs
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 import { marked } from "marked";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// repo root = one level up from /tools
-const ROOT = path.join(__dirname, "..");
-
-// source MD
-const WIKI_SRC_EN = path.join(ROOT, "wiki-src", "en");
-
-// output HTML
+const ROOT = path.resolve(__dirname, "..");
+const SRC_DIR = path.join(ROOT, "wiki-src");
 const OUT_DIR = path.join(ROOT, "wiki");
 
-// ---------- helpers ----------
+const HEADER_PARTIAL = path.join(OUT_DIR, "partials", "header.html");
+const FOOTER_PARTIAL = path.join(OUT_DIR, "partials", "footer.html");
 
-function ensureDir(dir) {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
+function ensureDir(p) {
+  fs.mkdirSync(p, { recursive: true });
+}
+
+function loadPartial(p, fallback = "") {
+  try {
+    return fs.readFileSync(p, "utf8");
+  } catch {
+    return fallback;
   }
 }
 
-function parseFrontMatter(text) {
-  if (!text.startsWith("---")) {
-    return { meta: {}, body: text };
-  }
+const headerHtml = loadPartial(
+  HEADER_PARTIAL,
+  "<header><div class='top-bar'>Missing header.html</div></header>"
+);
+const footerHtml = loadPartial(
+  FOOTER_PARTIAL,
+  "<footer><div class='footer-inner'>Missing footer.html</div></footer>"
+);
 
-  const end = text.indexOf("\n---", 3);
-  if (end === -1) {
-    return { meta: {}, body: text };
-  }
+// Super simple HTML shell for all wiki pages
+function renderHtml({ lang, slug, bodyHtml }) {
+  const pageTitle = `ValueApp Wiki – ${slug}`;
+  const description =
+    "ValueApp user documentation for planners and clients (wiki page).";
 
-  const rawFm = text.slice(3, end).trim();
-  const body = text.slice(end + 4); // skip "\n---"
-
-  const meta = {};
-  for (const line of rawFm.split("\n")) {
-    const m = line.match(/^(\w+):\s*(.*)$/);
-    if (m) {
-      meta[m[1]] = m[2];
-    }
-  }
-
-  return { meta, body };
-}
-
-function applyTemplate({ titleText, subtitleText, i18nTitle, i18nSubtitle, contentHtml }) {
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="${lang}">
 <head>
   <meta charset="UTF-8" />
-  <title>${titleText}</title>
+  <title>${pageTitle}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Step-by-step tutorial for the ValueApp with screenshots: from project description to summary."
-  />
+  <meta name="description" content="${description}" />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
-<body class="wiki-page">
-  <div data-include="/wiki/partials/header.html"></div>
+<body>
+  ${headerHtml}
 
-  <main class="wiki-main">
-    <section class="wiki-page-header">
-      <h1 data-i18n="${i18nTitle || ""}">${titleText}</h1>
-      ${
-        subtitleText
-          ? `<p data-i18n="${i18nSubtitle || ""}">${subtitleText}</p>`
-          : ""
-      }
-      <p class="wiki-last-updated" data-last-updated-target></p>
-    </section>
-
-    ${contentHtml}
+  <main>
+${bodyHtml}
   </main>
 
-  <div data-include="/wiki/partials/footer.html"></div>
+  ${footerHtml}
+
   <script src="/partials.js"></script>
   <script src="/wiki/wiki-version.js"></script>
   <script src="/wiki/wiki-page-config.js"></script>
   <script src="/wiki/wiki-last-updated.js"></script>
   <script src="/wiki/search.js"></script>
+
   <script type="module" src="/i18n/lang-loader.js"></script>
   <script src="/lang.js"></script>
 </body>
-</html>`;
+</html>
+`;
 }
 
-function buildTutorial() {
-  const srcPath = path.join(WIKI_SRC_EN, "tutorial.md");
-  console.log("Reading:", srcPath);
-  const raw = fs.readFileSync(srcPath, "utf8");
+function buildAllWikiPages() {
+  console.log("Building wiki from:", SRC_DIR);
 
-  const { meta, body } = parseFrontMatter(raw);
-  const htmlBody = marked.parse(body);
+  const langs = fs.readdirSync(SRC_DIR, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name);
 
-  // Take first H1 and first H2 as title & subtitle
-  const h1Match = htmlBody.match(/<h1[^>]*>([\s\S]*?)<\/h1>/);
-  const h2Match = htmlBody.match(/<h2[^>]*>([\s\S]*?)<\/h2>/);
+  if (langs.length === 0) {
+    console.warn("No language folders found in wiki-src/");
+    return;
+  }
 
-  const titleText = h1Match ? h1Match[1].trim() : "Tutorial";
-  const subtitleText = h2Match ? h2Match[1].trim() : "";
+  for (const lang of langs) {
+    const langSrcDir = path.join(SRC_DIR, lang);
+    const langOutDir = path.join(OUT_DIR, lang);
+    ensureDir(langOutDir);
 
-  let contentHtml = htmlBody;
-  if (h1Match) contentHtml = contentHtml.replace(h1Match[0], "");
-  if (h2Match) contentHtml = contentHtml.replace(h2Match[0], "");
+    const files = fs.readdirSync(langSrcDir)
+      .filter((f) => f.endsWith(".md"));
 
-  const finalHtml = applyTemplate({
-    titleText,
-    subtitleText,
-    i18nTitle: meta.i18nTitle,
-    i18nSubtitle: meta.i18nSubtitle,
-    contentHtml,
-  });
+    if (files.length === 0) {
+      console.warn(`No .md files found in wiki-src/${lang}`);
+      continue;
+    }
 
-  ensureDir(OUT_DIR);
-  const outPath = path.join(OUT_DIR, "tutorial.html");
-  fs.writeFileSync(outPath, finalHtml, "utf8");
-  console.log("Built:", outPath);
+    console.log(`\n=== ${lang} ===`);
+
+    for (const filename of files) {
+      const slug = filename.replace(/\.md$/, "");   // tutorial.md → tutorial
+      const srcPath = path.join(langSrcDir, filename);
+      const outPath = path.join(langOutDir, `${slug}.html`);
+
+      const md = fs.readFileSync(srcPath, "utf8");
+      const bodyHtml = marked.parse(md);
+
+      const fullHtml = renderHtml({ lang, slug, bodyHtml });
+      fs.writeFileSync(outPath, fullHtml, "utf8");
+
+      console.log(`  ✓ ${lang}/${slug}.html`);
+    }
+  }
+
+  console.log("\nDone.");
 }
 
-// ---------- run ----------
-
-buildTutorial();
+buildAllWikiPages();

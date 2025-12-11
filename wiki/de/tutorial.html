@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – tutorial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main>
+<hr>
+<h2>i18nTitle: wiki.tutorial.title
+i18nSubtitle: wiki.tutorial.subtitle</h2>
+<h1>Tutorial – step-by-step through the ValueApp</h1>
+<h2>This tutorial walks you through the ValueApp using an example project. The focus is on what to enter in each tab and how to read the results.</h2>
+<hr>
+<h2>Overview — Four tabs, one method</h2>
+<p>The ValueApp is structured into four tabs: <strong>Beschrieb</strong>, <strong>Projekt</strong>, <strong>Leistung</strong> and <strong>Zusammenfassung</strong>.<br>They follow the logic of the ETH Value Method from project context to effort and service distribution.</p>
+<p><img src="/wiki-assets/valueapp-architecture-overview.jpeg" alt="Overview diagram of the ValueApp structure"></p>
+<p><em>The app connects project description, determinants, adjustment factors and services into one coherent flow.</em></p>
+<h2>Step 1 — Beschrieb (describe the project)</h2>
+<p>Start with a clear project description. This information appears in reports and provides context when you compare projects later.</p>
+<ul>
+<li>Enter the project title and address.  </li>
+<li>Set the status (e.g. “In Planung” or “Ausführung”).  </li>
+<li>Describe the starting situation, task and key constraints in 5–10 lines.  </li>
+<li>Define the organisational setup on the planning and contractor side.</li>
+</ul>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Example of the Beschrieb tab filled for an educational building.</em></p>
+<div class="wiki-note-box">
+  <strong>Saving and feedback</strong>
+  <p>
+    Use the “Speichern” button in the app to store your progress.
+    The “Feedback” button opens a short form where you can report issues or suggest improvements.
+  </p>
+</div>
+
+<h2>Step 2 — Projekt (quantity, uses and complexity)</h2>
+<p>In the <strong>Projekt</strong> tab you translate the brief into numbers and a complexity assessment.</p>
+<h3>2.1 Determinant and use mix</h3>
+<p>Enter the determinating quantity, usually the gross floor area (GF).<br>Then assign percentages of this area to the relevant uses.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-project-uses-empty.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Project tab before assigning uses.</em></p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>All GF assigned to “Ausbilden und forschen”.</em></p>
+<h3>2.2 Complexity and challenges</h3>
+<p>Describe project challenges in four dimensions (design, technical, spatial, organisational)<br>and position them in the leadership framework.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Description of project-specific challenges and their position in the framework.</em></p>
+<p>The app calculates an adjustment factor based on the centre of gravity of your entries.
+This factor shifts the expected effort within the prediction interval of the base model.</p>
+<h3>2.3 Risk level</h3>
+<p>Set the risk level: <strong>none</strong>, <strong>increased</strong>, or <strong>high</strong> requirements.<br>This reflects uncertainty and can influence the upper part of the effort range.</p>
+<h2>Step 3 — Leistung (role and hours by phase)</h2>
+<p>In the <strong>Leistung</strong> tab you define your responsibility and see how the calculated hours distribute across phases.</p>
+<ul>
+<li>Choose your role (Architect / Architect &amp; General planner / General planner)  </li>
+<li>Highlight focus topics (design, construction management, cost planning)  </li>
+<li>Review the total hours for 100% basic services  </li>
+<li>Adjust SIA phase distribution where justified</li>
+</ul>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Example of roles, focus topics and hours per phase.</em></p>
+<h3>Multiple disciplines</h3>
+<p>For multi-discipline projects (architecture, structural, electrical, HVAC, sanitary):<br>repeat the steps in <strong>Projekt</strong> &amp; <strong>Leistung</strong> for each discipline.<br>The summary will show them side-by-side.</p>
+<h2>Step 4 — Zusammenfassung (reading the one-pager)</h2>
+<p>The <strong>Zusammenfassung</strong> tab compiles all relevant information into a structured overview:</p>
+<ul>
+<li>project description  </li>
+<li>organisational setup  </li>
+<li>use mix  </li>
+<li>effort per m²  </li>
+<li>risk level  </li>
+<li>hours by SIA phase  </li>
+<li>additional services when relevant</li>
+</ul>
+<p>You can export or print this page and attach it to fee offers or internal planning documents.
+It documents why a certain effort level is plausible given the project’s determinants and complexity.</p>
+
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>
