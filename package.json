@@ -2,6 +2,10 @@
   "name": "valueapp-website",
   "type": "module",
   "scripts": {
-    "check-i18n": "node tools/check-i18n.mjs"
+    "check-i18n": "node tools/check-i18n.mjs",
+    "build:wiki": "node tools/build-wiki.mjs"
+  },
+  "devDependencies": {
+    "marked": "^17.0.1"
   }
 }
