@@ -762,4 +762,6 @@ export const contentDe = {
     "wiki.search.label.enterTerm": "Geben Sie im Suchfeld einen Begriff ein.",
     "wiki.search.label.resultsFor": "Resultate für „{q}“",
     "wiki.search.noResults": "Keine Treffer. Versuchen Sie einen anderen oder allgemeineren Begriff.",
+    "wiki.toc.title": "Inhalt",
+    "wiki.toc.toggle": "Inhalt",
       };

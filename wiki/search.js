@@ -1,20 +1,6 @@
-// /wiki/search.js
+// wiki/search.js
 (function () {
-  const form = document.getElementById("wikiSearchForm");
-  const input = document.getElementById("wikiSearchInput");
-  if (!form || !input) return;
-
-  // Where we render results
-  let resultsBox = document.getElementById("wikiSearchResults");
-  if (!resultsBox) {
-    resultsBox = document.createElement("div");
-    resultsBox.id = "wikiSearchResults";
-    resultsBox.className = "wiki-search-results";
-    form.insertAdjacentElement("afterend", resultsBox);
-  }
-
-  const parser = new DOMParser();
-  const pageCache = new Map();
+  // --- helpers -----------------------------------------------------
 
   function getCurrentLang() {
     if (typeof window.getStoredLanguage === "function") {
@@ -25,136 +11,173 @@
     return htmlLang || "en";
   }
 
-  function getPagesForCurrentLang() {
-    const lang = getCurrentLang();
-    const pages = (window.WIKI_PAGES || []);
-    const urlForLang =
-      typeof window.getWikiPageUrlForLang === "function"
-        ? window.getWikiPageUrlForLang
-        : (p, l) => (p.urlByLang && p.urlByLang[l]) || p.url || null;
-
-    return pages
-      .filter((p) => p.searchable !== false)
-      .map((p) => {
-        const url = urlForLang(p, lang);
-        if (!url) return null;
-        return { ...p, url };
-      })
-      .filter(Boolean);
+  function getPageUrl(page, lang) {
+    if (typeof window.getWikiPageUrlForLang === "function") {
+      const url = window.getWikiPageUrlForLang(page, lang);
+      if (url) return url;
+    }
+    return page.url || null;
   }
 
-  async function fetchPageData(page) {
-    if (pageCache.has(page.url)) {
-      return pageCache.get(page.url);
-    }
+  function getQueryParam(name) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(name) || "";
+  }
 
+  async function fetchPageText(url) {
     try {
-      const res = await fetch(page.url);
-      if (!res.ok) return null;
-      const html = await res.text();
+      const resp = await fetch(url);
+      if (!resp.ok) return "";
+      const html = await resp.text();
+
+      const parser = new DOMParser();
       const doc = parser.parseFromString(html, "text/html");
+      const main = doc.querySelector("main") || doc.body;
 
-      const content =
-        doc.querySelector(".wiki-content") ||
-        doc.querySelector("main") ||
-        doc.body;
-
-      const heading =
-        content.querySelector("h1") ||
-        content.querySelector("h2") ||
-        doc.querySelector("h1");
-
-      const titleText = heading
-        ? heading.textContent.trim()
-        : page.id || page.url;
-
-      const text = (content.textContent || "")
-        .replace(/\s+/g, " ")
-        .trim();
-
-      const data = { title: titleText, text };
-      pageCache.set(page.url, data);
-      return data;
+      // Collapse whitespace so snippets don’t look insane
+      return (main.textContent || "").replace(/\s+/g, " ").trim();
     } catch (err) {
-      console.error("Wiki search fetch failed for", page.url, err);
-      return null;
+      console.warn("wiki search: failed to fetch", url, err);
+      return "";
     }
   }
 
-  function escapeHtml(str) {
-    return str
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;");
+  function localiseTitle(page, lang) {
+    const dictAll = window.content || {};
+    const dict = dictAll[lang] || dictAll.en || {};
+    if (page.titleKey && dict[page.titleKey]) {
+      // Strip any inline HTML from title
+      const tmp = document.createElement("div");
+      tmp.innerHTML = dict[page.titleKey];
+      return tmp.textContent || tmp.innerText || dict[page.titleKey];
+    }
+    return page.id || "Page";
   }
 
-  async function performSearch(queryRaw) {
-    const query = queryRaw.trim().toLowerCase();
+  function renderResults(query, results, lang) {
+    const container = document.getElementById("wikiSearchResults");
+    if (!container) return;
+
+    container.innerHTML = "";
+
     if (!query) {
-      resultsBox.innerHTML = "";
+      container.innerHTML = "<p>Enter a search term above.</p>";
       return;
-    }
-
-    const pages = getPagesForCurrentLang();
-    const results = [];
-
-    for (const page of pages) {
-      const data = await fetchPageData(page);
-      if (!data) continue;
-
-      const idx = data.text.toLowerCase().indexOf(query);
-      if (idx === -1) continue;
-
-      const snippetStart = Math.max(0, idx - 80);
-      const snippetEnd = Math.min(
-        data.text.length,
-        idx + query.length + 80
-      );
-      let snippet = data.text.slice(snippetStart, snippetEnd);
-      if (snippetStart > 0) snippet = "…" + snippet;
-      if (snippetEnd < data.text.length) snippet += "…";
-
-      results.push({
-        page,
-        title: data.title,
-        snippet,
-      });
     }
 
     if (!results.length) {
-      resultsBox.innerHTML =
-        '<div class="wiki-search-empty">Keine Treffer.</div>';
+      container.innerHTML = "<p>No results found.</p>";
       return;
     }
 
-    resultsBox.innerHTML = `
-      <div class="wiki-search-results-inner">
-        ${results
-          .map(
-            (r) => `
-          <article class="wiki-search-result">
-            <h3><a href="${r.page.url}">${escapeHtml(r.title)}</a></h3>
-            <p>${escapeHtml(r.snippet)}</p>
-          </article>
-        `
-          )
-          .join("")}
-      </div>
-    `;
+    const list = document.createElement("div");
+    list.className = "wiki-search-results-list";
+
+    results.forEach((res) => {
+      const item = document.createElement("article");
+      item.className = "wiki-search-result";
+
+      const h2 = document.createElement("h2");
+      h2.className = "wiki-search-result-title";
+
+      const a = document.createElement("a");
+      a.href = res.url;
+      a.textContent = res.title;
+      h2.appendChild(a);
+
+      const p = document.createElement("p");
+      p.className = "wiki-search-snippet";
+      p.textContent = res.snippet;
+
+      item.appendChild(h2);
+      item.appendChild(p);
+      list.appendChild(item);
+    });
+
+    container.appendChild(list);
   }
 
-  form.addEventListener("submit", function (ev) {
-    ev.preventDefault();
-    performSearch(input.value);
-  });
+  // --- search form wiring ------------------------------------------
 
-  // Optional: live search on typing
-  input.addEventListener("input", function () {
-    // very low-effort throttle
-    if (input.value.length === 0) {
-      resultsBox.innerHTML = "";
+  function setupSearchForm() {
+    const form = document.getElementById("wikiSearchForm");
+    const input = document.getElementById("wikiSearchInput");
+    if (!form || !input) return;
+
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      const q = input.value.trim();
+      const lang = getCurrentLang();
+      const base = "/wiki/search.html";
+      const url = q
+        ? `${base}?q=${encodeURIComponent(q)}&lang=${encodeURIComponent(lang)}`
+        : base;
+      window.location.href = url;
+    });
+  }
+
+  // --- main search logic (only on /wiki/search.html) ---------------
+
+  async function runSearchIfNeeded() {
+    if (!/\/wiki\/search\.html$/.test(window.location.pathname)) {
+      return; // we’re not on the search page
+    }
+
+    const q = getQueryParam("q").trim();
+    const langParam = getQueryParam("lang");
+    const lang = (langParam || getCurrentLang()).toLowerCase();
+
+    const input = document.getElementById("wikiSearchInput");
+    if (input) input.value = q;
+
+    if (!q) {
+      renderResults("", [], lang);
       return;
     }
-    performSearch(input.value);
+
+    const qLower = q.toLowerCase();
+
+    const pages = (window.WIKI_PAGES || []).filter(
+      (p) => p.searchable !== false && p.id !== "search"
+    );
+
+    const results = [];
+
+    for (const page of pages) {
+      const url = getPageUrl(page, lang);
+      if (!url) continue;
+
+      const text = await fetchPageText(url);
+      if (!text) continue;
+
+      const idx = text.toLowerCase().indexOf(qLower);
+      if (idx === -1) continue;
+
+      const start = Math.max(0, idx - 80);
+      const end = Math.min(text.length, idx + q.length + 80);
+      let snippet = text.slice(start, end).trim();
+      if (start > 0) snippet = "… " + snippet;
+      if (end < text.length) snippet = snippet + " …";
+
+      results.push({
+        url,
+        title: localiseTitle(page, lang),
+        snippet
+      });
+    }
+
+    renderResults(q, results, lang);
+  }
+
+  // --- init --------------------------------------------------------
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setupSearchForm();
+    runSearchIfNeeded();
+  });
+
+  // header is injected via partials → rebind search form
+  document.addEventListener("partials:loaded", () => {
+    setupSearchForm();
   });
 })();

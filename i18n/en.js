@@ -757,4 +757,6 @@ export const contentEn = {
     "wiki.search.label.enterTerm": "Enter a search term in the header search field.",
     "wiki.search.label.resultsFor": "Results for “{q}”",
     "wiki.search.noResults": "No results found. Try a different term or a simpler phrase.",
+    "wiki.toc.title": "Contents",
+    "wiki.toc.toggle": "Contents",
   };

@@ -973,3 +973,81 @@ nav.main-nav a.active {
     margin-bottom: 16px;
   }
 }
+
+/* Wiki TOC */
+
+.wiki-toc {
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: #fafafa;
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  margin: 0 0 20px;
+}
+
+.wiki-toc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.wiki-toc-title {
+  font-weight: 600;
+}
+
+/* Toggle button: desktop = hidden, mobile = visible */
+.wiki-toc-toggle {
+  display: none;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+/* tiny arrow */
+.wiki-toc-toggle::after {
+  content: "▾";
+  display: inline-block;
+  margin-left: 4px;
+  transition: transform 0.15s ease-out;
+}
+
+.wiki-toc.open .wiki-toc-toggle::after {
+  transform: rotate(180deg);
+}
+
+.wiki-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wiki-toc-item {
+  margin-bottom: 4px;
+}
+
+.wiki-toc-item.level-3 {
+  margin-left: 12px;
+}
+
+/* Mobile behaviour: show toggle, collapse list by default */
+@media (max-width: 900px) {
+  .wiki-toc-toggle {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .wiki-toc-list {
+    display: none;
+    margin-top: 6px;
+  }
+
+  .wiki-toc.open .wiki-toc-list {
+    display: block;
+  }
+}
