@@ -12,8 +12,14 @@ function getCurrentPath() {
   return window.location.pathname.replace(/\/+$/, "");
 }
 
-// Try to read the current language from lang.js; fallback to "en"
+
+
 function getCurrentLangSafe() {
+  const docLang = (document.documentElement.lang || "").toLowerCase();
+  if (docLang === "en" || docLang === "de") {
+    return docLang;
+  }
+
   try {
     if (typeof getStoredLanguage === "function") {
       return getStoredLanguage();
@@ -96,26 +102,41 @@ function extractI18nText(html, lang) {
   return pieces.join(" ");
 }
 
-// Wire up the search box in the header
-document.addEventListener("DOMContentLoaded", () => {
+
+function bindWikiSearchForm() {
   const form = document.getElementById("wikiSearchForm");
   const input = document.getElementById("wikiSearchInput");
 
-  if (form && input) {
-    form.addEventListener("submit", (ev) => {
-      ev.preventDefault();
-      const q = input.value.trim();
-      if (!q) return;
-      window.location.href = `/wiki/search.html?q=${encodeURIComponent(q)}`;
-    });
-  }
+  if (!form || !input) return;
+  if (form.dataset.bound === "1") return;  // avoid double-binding
 
-  // If we are on the search page, run the search
+  form.dataset.bound = "1";
+
+  form.addEventListener("submit", (ev) => {
+    ev.preventDefault();
+    const q = input.value.trim();
+    if (!q) return;
+    window.location.href = `/wiki/search.html?q=${encodeURIComponent(q)}`;
+  });
+}
+
+// Wire up the search box in the header
+document.addEventListener("DOMContentLoaded", () => {
+  bindWikiSearchForm();
+
   if (getCurrentPath().endsWith("/wiki/search.html")) {
     runWikiSearch();
   }
 });
 
+// After header/footer partials have been injected
+document.addEventListener("partials:loaded", () => {
+  bindWikiSearchForm();
+
+  if (getCurrentPath().endsWith("/wiki/search.html")) {
+    runWikiSearch();
+  }
+});
 async function runWikiSearch() {
   const params = new URLSearchParams(window.location.search);
   const query = (params.get("q") || "").trim();
