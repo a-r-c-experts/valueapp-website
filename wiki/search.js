@@ -1,3 +1,11 @@
+function getWikiPagesSafe() {
+  const pages = window.WIKI_PAGES;
+  if (Array.isArray(pages)) return pages;
+  console.warn("WIKI_PAGES is missing or not an array, using empty list.");
+  return [];
+}
+
+
 if (typeof WIKI_PAGES === "undefined") {
   console.warn("WIKI_PAGES not found, using minimal fallback config.");
   var WIKI_PAGES = [
@@ -159,7 +167,7 @@ async function runWikiSearch() {
   const lcQuery = query.toLowerCase();
   const results = [];
 
-  for (const page of WIKI_PAGES) {
+  for (const page of getWikiPagesSafe()) {
     if (page.url.endsWith("/wiki/search.html")) continue;
 
     try {

@@ -760,3 +760,9 @@ nav.main-nav a.active {
   color: var(--muted);
   text-align: right;
 }
+
+.wiki-last-updated {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+}

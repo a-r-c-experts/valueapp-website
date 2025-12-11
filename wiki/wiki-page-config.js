@@ -1,46 +1,53 @@
 // wiki-page-config.js
 
-const WIKI_PAGES = [
+window.WIKI_PAGES = [
   {
     id: "home",
     url: "/wiki/index.html",
     titleKey: "wiki.home.title",
-    navKey: "wiki.nav.home"
+    navKey: "wiki.nav.home",
+    lastUpdated: "2025-12-01"
   },
   {
     id: "getting-started",
     url: "/wiki/getting-started.html",
     titleKey: "wiki.gettingStarted.title",
-    navKey: "wiki.nav.gettingStarted"
+    navKey: "wiki.nav.gettingStarted",
+    lastUpdated: "2025-12-01"
   },
   {
     id: "definitions",
     url: "/wiki/definitions.html",
     titleKey: "wiki.definitions.title",
-    navKey: "wiki.nav.definitions"
+    navKey: "wiki.nav.definitions",
+    lastUpdated: "2025-12-02"
   },
   {
     id: "examples",
     url: "/wiki/examples.html",
     titleKey: "wiki.examples.title",
-    navKey: "wiki.nav.examples"
+    navKey: "wiki.nav.examples",
+    lastUpdated: "2025-12-03"
   },
   {
     id: "tutorial",
     url: "/wiki/tutorial.html",
     titleKey: "wiki.tutorial.title",
-    navKey: "wiki.nav.tutorial"
+    navKey: "wiki.nav.tutorial",
+    lastUpdated: "2025-12-04"
   },
   {
     id: "faq",
     url: "/wiki/faq.html",
     titleKey: "wiki.faq.title",
-    navKey: "wiki.nav.faq"
+    navKey: "wiki.nav.faq",
+    lastUpdated: "2025-12-05"
   },
   {
     id: "search",
     url: "/wiki/search.html",
     titleKey: "wiki.search.title",
-    navKey: null // not shown in nav
+    navKey: null,
+    lastUpdated: "2025-12-05"
   }
 ];
