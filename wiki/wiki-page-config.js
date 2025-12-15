@@ -84,4 +84,18 @@
     }
     return null;
   };
+    // Merge auto-generated wiki pages (from markdown build)
+  if (Array.isArray(window.WIKI_GENERATED_PAGES)) {
+    const existingIds = new Set(window.WIKI_PAGES.map((p) => p.id));
+    window.WIKI_GENERATED_PAGES.forEach((p) => {
+      if (!existingIds.has(p.id)) window.WIKI_PAGES.push(p);
+    });
+  }
+
+  // Helper for language-aware URL resolution
+  window.getWikiPageUrlForLang = function getWikiPageUrlForLang(page, lang) {
+    if (page.urlByLang && page.urlByLang[lang]) return page.urlByLang[lang];
+    if (page.url) return page.url;
+    return null;
+  };
 })();

@@ -1,6 +1,7 @@
 ---
 i18nTitle: wiki.definitions.title
 i18nSubtitle: wiki.definitions.subtitle
+navKey: wiki.nav.definitions
 ---
 
 # Begriffe und Konzepte

@@ -1,6 +1,7 @@
 ---
 i18nTitle: wiki.projectSection.title
 i18nSubtitle: wiki.projectSection.subtitle
+navKey: wiki.nav.projectSection
 ---
 
 # Allgemeine Informationen – Bereich «Projekt»

@@ -1,6 +1,7 @@
 ---
 i18nTitle: wiki.examples.title
 i18nSubtitle: wiki.examples.subtitle
+navKey: wiki.nav.examples
 ---
 
 # Beispiele

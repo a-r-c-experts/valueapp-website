@@ -1,6 +1,7 @@
 ---
 i18nTitle: wiki.tutorial.title
 i18nSubtitle: wiki.tutorial.subtitle
+navKey: wiki.nav.tutorial
 ---
 
 # Tutorial – Schritt für Schritt durch die ValueApp
