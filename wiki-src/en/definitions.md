@@ -96,6 +96,9 @@ The project description should briefly cover starting situation, task, key const
 Enter the determinating quantity (typically m² gross floor area) and assign percentages of the total to the relevant uses.  
 Then assess complexity across the four dimensions and set the risk level (**no special**, **increased**, **high**).
 
+> **Further reading:** Detailed guidance for the **Project** tab (quantities, use mix, complexity) is available here:  
+> [General information – “Project” section](/wiki/en/project-section.html)
+
 ### Leistung
 
 Choose your contractual role and highlight focus topics.  
@@ -113,6 +116,8 @@ It is designed to be attached to fee offers, internal controlling documents or p
 
 **Determinant (determinierende Grösse).**  
 Measurable quantity that drives the base model, usually the gross floor area GF relevant for the project scope.
+
+> **See also:** [General information – “Project” section](/wiki/en/project-section.html)
 
 **Base model (Grundmodell).**  
 Statistical model for a usage type that links determinants to effort ranges for 100% basic services.

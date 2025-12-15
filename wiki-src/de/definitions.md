@@ -96,6 +96,9 @@ Die Projektbeschreibung sollte kurz Ausgangslage, Aufgabe, zentrale Randbedingun
 Erfassen Sie die determinierende Grösse (typischerweise m² Bruttogeschossfläche) und verteilen Sie diese auf die relevanten Nutzungen.  
 Beurteilen Sie anschliessend die Komplexität in den vier Dimensionen und legen Sie das Risiko fest (**keine speziellen**, **erhöhte**, **hohe Anforderungen**).
 
+> **Weiterführend:** Detaillierte Hinweise zum Tab **Projekt** (Mengen, Nutzungsmix, Komplexität) finden Sie hier:  
+> [Allgemeine Informationen – Bereich «Projekt»](/wiki/de/project-section.html)
+
 ### Leistung
 
 Wählen Sie Ihre vertragliche Rolle und markieren Sie Schwerpunktthemen.  
@@ -113,6 +116,8 @@ Sie ist dafür gedacht, Angeboten, internen Controlling-Unterlagen oder Ausschre
 
 **Determinante (determinierende Grösse).**  
 Messbare Grösse, die das Grundmodell steuert, in der Regel die für den Projektumfang relevante Bruttogeschossfläche BG.
+
+> **Siehe auch:** [Allgemeine Informationen – Bereich «Projekt»](/wiki/de/project-section.html)
 
 **Grundmodell.**  
 Statistisches Modell für eine Nutzungsart, das Determinanten mit Aufwandbereichen für 100 % Grundleistungen verknüpft.

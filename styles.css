@@ -1018,12 +1018,7 @@ nav.main-nav a.active {
   font-size: 0.88em;
 }
 
-/* The toggle button – desktop: hidden */
-.wiki-toc-toggle {
-  display: none;
-  border: none;
-  background: none;
-}
+
 
 /* ---------- MOBILE BEHAVIOUR ---------- */
 @media (max-width: 900px) {
@@ -1035,16 +1030,18 @@ nav.main-nav a.active {
   }
 
   .wiki-toc-toggle {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    padding: 6px 12px;
-    font-size: 0.85rem;
-    background: #ffffff;
-    cursor: pointer;
-  }
+  font-size: 1rem;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.wiki-toc-toggle:hover {
+  background: var(--chip-bg);
+}
 
   /* hide list by default */
   .wiki-toc-list {

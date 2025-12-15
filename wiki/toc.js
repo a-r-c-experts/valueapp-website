@@ -73,7 +73,13 @@
     toggleBtn.className = "wiki-toc-toggle";
     toggleBtn.setAttribute("aria-expanded", "false");
     toggleBtn.setAttribute("data-i18n", "wiki.toc.toggle");
-    toggleBtn.textContent = "Contents"; // mobile label fallback
+    toggleBtn.innerHTML = "▾";
+    toggleBtn.setAttribute("aria-label", "Toggle table of contents");
+    toggleBtn.addEventListener("click", () => {
+      const isOpen = toc.classList.toggle("is-open");
+      toggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      toggleBtn.innerHTML = isOpen ? "▴" : "▾";
+    });
 
     header.appendChild(titleEl);
     header.appendChild(toggleBtn);
