@@ -63,18 +63,20 @@
     const header = document.createElement("div");
     header.className = "wiki-toc-header";
 
+    // title + toggle
     const titleEl = document.createElement("div");
     titleEl.className = "wiki-toc-title";
     titleEl.setAttribute("data-i18n", "wiki.toc.title");
-    titleEl.textContent = "Contents"; // fallback text
+    titleEl.textContent = "Contents";
 
     const toggleBtn = document.createElement("button");
     toggleBtn.type = "button";
     toggleBtn.className = "wiki-toc-toggle";
     toggleBtn.setAttribute("aria-expanded", "false");
-    toggleBtn.setAttribute("data-i18n", "wiki.toc.toggle");
-    toggleBtn.innerHTML = "▾";
+    // IMPORTANT: do NOT set data-i18n on the button, or i18n will overwrite the arrow
     toggleBtn.setAttribute("aria-label", "Toggle table of contents");
+    toggleBtn.innerHTML = "▾";
+
     toggleBtn.addEventListener("click", () => {
       const isOpen = toc.classList.toggle("is-open");
       toggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
@@ -106,14 +108,16 @@
 
     toc.appendChild(list);
 
+    const isMobile = window.matchMedia("(max-width: 900px)").matches;
+    if (isMobile) {
+      toc.classList.remove("is-open"); // default closed
+      toggleBtn.setAttribute("aria-expanded", "false");
+      toggleBtn.innerHTML = "▾";
+    }
+
     // Mark as built so we don't rebuild on "partials:loaded"
     toc.dataset.tocBuilt = "true";
 
-    // Mobile toggle behaviour (CSS uses .wiki-toc.is-open)
-    toggleBtn.addEventListener("click", () => {
-      const isOpen = toc.classList.toggle("is-open");
-      toggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
-    });
 
     // Re-run translations so wiki.toc.* gets localised
     if (typeof window.applyTranslations === "function") {

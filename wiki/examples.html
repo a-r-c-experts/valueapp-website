@@ -44,10 +44,19 @@
       align-items: flex-start;
     }
     @media (max-width: 900px) {
-      .wiki-example-grid {
-        grid-template-columns: 1fr;
-      }
+    .wiki-toc-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      line-height: 1;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      cursor: pointer;
     }
+  }
     .wiki-img {
       max-width: 100%;
       height: auto;

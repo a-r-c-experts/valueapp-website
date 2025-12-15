@@ -1037,6 +1037,9 @@ nav.main-nav a.active {
   border: 1px solid var(--border);
   background: #ffffff;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wiki-toc-toggle:hover {
@@ -1092,4 +1095,9 @@ nav.main-nav a.active {
     width: 100%;
     min-width: 0;
   }
+}
+
+/* TOC toggle: hidden on desktop */
+.wiki-toc-toggle {
+  display: none;
 }
