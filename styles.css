@@ -1026,9 +1026,14 @@ nav.main-nav a.active {
 }
 
 /* ---------- MOBILE BEHAVIOUR ---------- */
-
 @media (max-width: 900px) {
-  /* show toggle, hide ToC by default */
+  /* the TOC container stays visible so the button is visible */
+  .wiki-toc {
+    display: block;
+    margin-bottom: 14px;
+    position: static;
+  }
+
   .wiki-toc-toggle {
     display: inline-flex;
     align-items: center;
@@ -1039,15 +1044,55 @@ nav.main-nav a.active {
     font-size: 0.85rem;
     background: #ffffff;
     cursor: pointer;
-    margin-top: 0;
   }
 
-  .wiki-toc {
+  /* hide list by default */
+  .wiki-toc-list {
     display: none;
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
-  .wiki-toc.is-open {
+  /* show list when open */
+  .wiki-toc.is-open .wiki-toc-list {
     display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-bar {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* keep logo + brand on first row, let the burger stay right */
+  .brand-logo-link {
+    order: 1;
+  }
+  .brand-text-only {
+    order: 2;
+    flex: 1 1 auto;
+    min-width: 160px;
+  }
+  #mobileNavToggle {
+    order: 3;
+    margin-left: auto;
+  }
+
+  /* second row: language switcher full width */
+  .lang-switcher {
+    order: 4;
+    width: 100%;
+  }
+
+  /* third row: search full width */
+  .wiki-search {
+    order: 5;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .wiki-search input[type="search"] {
+    width: 100%;
+    min-width: 0;
   }
 }
