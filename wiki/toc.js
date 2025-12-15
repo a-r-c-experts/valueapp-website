@@ -1,16 +1,31 @@
 // wiki/toc.js
 (function () {
   function buildToc() {
-    // Avoid duplicates if partials fire multiple times
-    if (document.querySelector(".wiki-toc")) return;
-
     const main = document.querySelector("main");
     if (!main) return;
 
-    const allHeadings = Array.from(main.querySelectorAll("h1, h2, h3"));
+    const content = main.querySelector(".wiki-content") || main;
+
+    // Use the pre-rendered container if present
+    let toc = document.getElementById("wikiToc") || document.querySelector(".wiki-toc");
+
+    // If we somehow have a container that is already built, don't do it twice
+    if (toc && toc.dataset.tocBuilt === "true") return;
+
+    // If no container exists (future-proof), create one
+    if (!toc) {
+      toc = document.createElement("aside");
+      toc.className = "wiki-toc";
+      toc.id = "wikiToc";
+      // Put it before the content section
+      main.insertBefore(toc, content);
+    }
+
+    // Collect headings **only inside the content**, not in header/footer
+    const allHeadings = Array.from(content.querySelectorAll("h1, h2, h3"));
     if (!allHeadings.length) return;
 
-    // Clone list so we can mutate safely
+    // Clone so we can mutate safely
     const tocSource = allHeadings.slice();
 
     // 1) Skip page title (H1), if present
@@ -18,7 +33,7 @@
       tocSource.shift();
     }
 
-    // 2) Skip subtitle (first H2 after H1), if present
+    // 2) Skip subtitle (first H2 right after H1), if present
     if (tocSource.length && tocSource[0].tagName === "H2") {
       tocSource.shift();
     }
@@ -41,10 +56,8 @@
       }
     });
 
-    // Create TOC container
-    const toc = document.createElement("nav");
-    toc.className = "wiki-toc";
-    toc.setAttribute("aria-label", "Table of contents");
+    // Clear any previous content in the aside
+    toc.innerHTML = "";
 
     // Header row: title + mobile toggle
     const header = document.createElement("div");
@@ -53,7 +66,7 @@
     const titleEl = document.createElement("div");
     titleEl.className = "wiki-toc-title";
     titleEl.setAttribute("data-i18n", "wiki.toc.title");
-    titleEl.textContent = "Contents"; // fallback
+    titleEl.textContent = "Contents"; // fallback text
 
     const toggleBtn = document.createElement("button");
     toggleBtn.type = "button";
@@ -87,30 +100,10 @@
 
     toc.appendChild(list);
 
-    // Insert TOC right after the title / subtitle block
-    // Anchor: H1, or H2 if we have a "subtitle" H2
-    let anchor = allHeadings[0];
-    if (
-      allHeadings.length > 1 &&
-      allHeadings[0].tagName === "H1" &&
-      allHeadings[1].tagName === "H2"
-    ) {
-      anchor = allHeadings[1];
-    }
+    // Mark as built so we don't rebuild on "partials:loaded"
+    toc.dataset.tocBuilt = "true";
 
-    if (anchor && anchor.parentNode) {
-      anchor.parentNode.insertBefore(toc, anchor.nextSibling);
-    } else {
-      // Fallback: after first element in <main>
-      const firstEl = main.firstElementChild;
-      if (firstEl) {
-        main.insertBefore(toc, firstEl.nextSibling);
-      } else {
-        main.appendChild(toc);
-      }
-    }
-
-    // Mobile toggle: matches CSS (.wiki-toc.is-open)
+    // Mobile toggle behaviour (CSS uses .wiki-toc.is-open)
     toggleBtn.addEventListener("click", () => {
       const isOpen = toc.classList.toggle("is-open");
       toggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
