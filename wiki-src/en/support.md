@@ -28,6 +28,6 @@ Structured question-and-answer pages improve semantic search and embeddings, for
 
 ## See also
 
-- [Introduction](einfuehrung.html)
+- [Introduction](introduction.html)
 - [Workflows](workflows.html)
-- [Reference](referenz.html)
+- [Reference](reference.html)

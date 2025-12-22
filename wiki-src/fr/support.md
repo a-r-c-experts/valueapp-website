@@ -29,6 +29,6 @@ Des pages structurées de questions-réponses améliorent considérablement la r
 
 ## Voir aussi
 
-- [Introduction](einfuehrung.html)
+- [Introduction](introduction.html)
 - [Workflows](workflows.html)
-- [Référence](referenz.html)
+- [Référence](reference.html)

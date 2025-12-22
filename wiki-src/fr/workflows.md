@@ -25,10 +25,10 @@ Ces pages seront ajoutées au fur et à mesure de l’évolution du wiki :
 ## Où aller ensuite
 
 - Besoin de définitions et de bases conceptuelles ?  
-  → [Base de connaissances](wissensbasis.html)
+  → [Base de connaissances](knowledge-base.html)
 
 - Besoin d’explications champ par champ et d’interprétation des résultats ?  
-  → [Référence](referenz.html)
+  → [Référence](reference.html)
 
 - Préférez apprendre à partir d’exemples concrets ?  
   → [Exemples](beispiele.html)

@@ -25,10 +25,10 @@ Diese Seiten werden mit dem Ausbau des Wikis ergänzt:
 ## Wohin als Nächstes?
 
 - Benötigen Sie Definitionen und konzeptionellen Hintergrund?  
-  → [Wissensbasis](wissensbasis.html)
+  → [Wissensbasis](knowledge-base.html)
 
 - Benötigen Sie feldweise Erklärungen und Ergebnisinterpretation?  
-  → [Referenz](referenz.html)
+  → [Referenz](reference.html)
 
 - Lernen Sie lieber anhand von Beispielen?  
   → [Beispiele](beispiele.html)

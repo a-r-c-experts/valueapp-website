@@ -28,5 +28,5 @@ Dieses Kapitel ist die **Nachschlageebene**: präzise, strukturierte Referenzsei
 ## Siehe auch
 
 - [Workflows](workflows.html)
-- [Wissensbasis](wissensbasis.html)
+- [Wissensbasis](knowledge-base.html)
 - [Support](support.html)

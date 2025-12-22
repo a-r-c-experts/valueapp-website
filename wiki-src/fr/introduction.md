@@ -31,7 +31,7 @@ Si vous souhaitez comprendre *ce qui se passe entre vos saisies et le résultat 
 ## Où aller ensuite ?
 
 - Vous souhaitez approfondir les concepts et la terminologie ?  
-  → [Base de connaissances](wissensbasis.html)
+  → [Base de connaissances](knowledge-base.html)
 
 - Vous cherchez des instructions pratiques étape par étape ?  
   → [Workflows](workflows.html)

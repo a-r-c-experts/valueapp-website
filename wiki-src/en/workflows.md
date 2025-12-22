@@ -25,10 +25,10 @@ These pages will be added as the wiki grows:
 ## Where to go next
 
 - Need definitions and conceptual grounding?  
-  → [Knowledge base](wissensbasis.html)
+  → [Knowledge base](knowledge-base.html)
 
 - Need field-by-field explanations and result interpretation?  
-  → [Reference](referenz.html)
+  → [Reference](reference.html)
 
 - Prefer learning through examples?  
   → [Examples](beispiele.html)

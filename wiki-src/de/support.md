@@ -29,6 +29,6 @@ Strukturierte Frage-Antwort-Seiten verbessern semantische Suche und Embeddings d
 
 ## Siehe auch
 
-- [Einführung](einfuehrung.html)
+- [Einführung](introduction.html)
 - [Workflows](workflows.html)
-- [Referenz](referenz.html)
+- [Referenz](reference.html)

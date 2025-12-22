@@ -26,7 +26,7 @@ Dieses Kapitel zeigt **realistische Anwendungsszenarien**, damit Sie Ihr Projekt
   → [Workflows](workflows.html)
 
 - Möchten Sie die konzeptionellen Hintergründe zu Eingaben und Faktoren verstehen?  
-  → [Wissensbasis](wissensbasis.html)
+  → [Wissensbasis](knowledge-base.html)
 
 - Möchten Sie eine Feld-für-Feld-Referenz und Ergebnisinterpretation?  
-  → [Referenz](referenz.html)
+  → [Referenz](reference.html)

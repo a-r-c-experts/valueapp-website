@@ -36,6 +36,6 @@ Der zentrale konzeptionelle Einstiegspunkt ist die Dokumentation des Projekt-Ber
 
 ## Siehe auch
 
-- [Einführung](einfuehrung.html)
+- [Einführung](introduction.html)
 - [Workflows](workflows.html)
-- [Referenz](referenz.html)
+- [Referenz](reference.html)

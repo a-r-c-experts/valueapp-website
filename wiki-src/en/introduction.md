@@ -31,7 +31,7 @@ If you want to understand *what happens between your inputs and the final result
 ## Where to go next
 
 - Want to understand concepts and terminology in depth?  
-  → [Knowledge base](wissensbasis.html)
+  → [Knowledge base](knowledge-base.html)
 
 - Want practical step-by-step instructions?  
   → [Workflows](workflows.html)

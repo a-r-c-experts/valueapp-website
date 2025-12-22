@@ -28,5 +28,5 @@ This chapter is the **lookup layer**: precise, structured reference pages that a
 ## See also
 
 - [Workflows](workflows.html)
-- [Knowledge base](wissensbasis.html)
+- [Knowledge base](knowledge-base.html)
 - [Support](support.html)

@@ -26,7 +26,7 @@ Ce chapitre présente des **scénarios d’utilisation réalistes** afin de vous
   → [Workflows](workflows.html)
 
 - Vous souhaitez comprendre les concepts derrière les saisies et les facteurs ?  
-  → [Base de connaissances](wissensbasis.html)
+  → [Base de connaissances](knowledge-base.html)
 
 - Vous cherchez une référence détaillée champ par champ et l’interprétation des résultats ?  
-  → [Référence](referenz.html)
+  → [Référence](reference.html)

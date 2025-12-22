@@ -36,6 +36,6 @@ Le point d’entrée conceptuel central est la documentation de la section Proje
 
 ## Voir aussi
 
-- [Introduction](einfuehrung.html)
+- [Introduction](introduction.html)
 - [Workflows](workflows.html)
-- [Référence](referenz.html)
+- [Référence](reference.html)

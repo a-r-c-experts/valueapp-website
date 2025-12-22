@@ -28,5 +28,5 @@ Ce chapitre constitue la **couche de référence** : des pages de référence pr
 ## Voir aussi
 
 - [Workflows](workflows.html)
-- [Base de connaissances](wissensbasis.html)
+- [Base de connaissances](knowledge-base.html)
 - [Support](support.html)

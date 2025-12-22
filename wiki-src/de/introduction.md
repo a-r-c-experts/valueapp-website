@@ -31,7 +31,7 @@ Wenn Sie verstehen möchten, *was zwischen Ihren Eingaben und dem Endergebnis pa
 ## Wie geht es weiter?
 
 - Möchten Sie Begriffe und Konzepte vertieft verstehen?  
-  → [Wissensbasis](wissensbasis.html)
+  → [Wissensbasis](knowledge-base.html)
 
 - Möchten Sie praktische Schritt-für-Schritt-Anleitungen?  
   → [Workflows](workflows.html)

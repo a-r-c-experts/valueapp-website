@@ -36,6 +36,6 @@ The central conceptual entry point is the Project section documentation:
 
 ## See also
 
-- [Introduction](einfuehrung.html)
+- [Introduction](introduction.html)
 - [Workflows](workflows.html)
-- [Reference](referenz.html)
+- [Reference](reference.html)

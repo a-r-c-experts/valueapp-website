@@ -26,7 +26,7 @@ This chapter shows **realistic usage scenarios** so you can compare your project
   → [Workflows](workflows.html)
 
 - Want conceptual explanations behind inputs and factors?  
-  → [Knowledge base](wissensbasis.html)
+  → [Knowledge base](knowledge-base.html)
 
 - Want field-by-field reference and result interpretation?  
-  → [Reference](referenz.html)
+  → [Reference](reference.html)
