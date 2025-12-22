@@ -47,6 +47,7 @@
       <div class="lang-menu" id="langMenu" aria-label="Select language">
         <button class="lang-option" data-lang="en">EN</button>
         <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
       </div>
     </div>
 
@@ -66,92 +67,44 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Tutorial – step-by-step through the ValueApp</h1>
-<h2>This tutorial walks you through the ValueApp using an example project. The focus is on what to enter in each tab and how to read the results.</h2>
-<hr>
-<h2>Overview — Four tabs, one method</h2>
-<p>The ValueApp is structured into four tabs: <strong>Beschrieb</strong>, <strong>Projekt</strong>, <strong>Leistung</strong> and <strong>Zusammenfassung</strong>.<br>They follow the logic of the ETH Value Method from project context to effort and service distribution.</p>
-<p><img src="/wiki-assets/valueapp-architecture-overview.jpeg" alt="Overview diagram of the ValueApp structure"></p>
-<p><em>The app connects project description, determinants, adjustment factors and services into one coherent flow.</em></p>
-<h2>Step 1 — Beschrieb (describe the project)</h2>
-<p>Start with a clear project description. This information appears in reports and provides context when you compare projects later.</p>
+<h1>Tutorial</h1>
+<p>This tutorial walks through the ValueApp workflow from project description to summary. For background and terminology, keep <a href="definitions.html">Definitions</a> open in another tab, like a normal person reading documentation.</p>
+<h2>Step 1: Description (Beschrieb)</h2>
+<p>Capture:</p>
 <ul>
-<li>Enter the project title and address.  </li>
-<li>Set the status (e.g. “In Planung” or “Ausführung”).  </li>
-<li>Describe the starting situation, task and key constraints in 5–10 lines.  </li>
-<li>Define the organisational setup on the planning and contractor side.</li>
+<li>project title and address,</li>
+<li>status,</li>
+<li>organisational setup (planning side and contractor side),</li>
+<li>short text on scope and constraints.</li>
 </ul>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>Example of the Beschrieb tab filled for an educational building.</em></p>
-<div class="wiki-note-box">
-  <strong>Saving and feedback</strong>
-  <p>
-    Use the “Speichern” button in the app to store your progress.
-    The “Feedback” button opens a short form where you can report issues or suggest improvements.
-  </p>
-</div>
-
-<h2>Step 2 — Projekt (quantity, uses and complexity)</h2>
-<p>In the <strong>Projekt</strong> tab you translate the brief into numbers and a complexity assessment.</p>
-<h3>2.1 Determinant and use mix</h3>
-<p>Enter the determinating quantity, usually the gross floor area (GF).<br>Then assign percentages of this area to the relevant uses.</p>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-empty.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>Project tab before assigning uses.</em></p>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>All GF assigned to “Ausbilden und forschen”.</em></p>
-<h3>2.2 Complexity and challenges</h3>
-<p>Describe project challenges in four dimensions (design, technical, spatial, organisational)<br>and position them in the leadership framework.</p>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>Description of project-specific challenges and their position in the framework.</em></p>
-<p>The app calculates an adjustment factor based on the centre of gravity of your entries.
-This factor shifts the expected effort within the prediction interval of the base model.</p>
-<h3>2.3 Risk level</h3>
-<p>Set the risk level: <strong>none</strong>, <strong>increased</strong>, or <strong>high</strong> requirements.<br>This reflects uncertainty and can influence the upper part of the effort range.</p>
-<h2>Step 3 — Leistung (role and hours by phase)</h2>
-<p>In the <strong>Leistung</strong> tab you define your responsibility and see how the calculated hours distribute across phases.</p>
+<p>Good descriptions make later complexity ratings defensible.</p>
+<h2>Step 2: Project (Projekt)</h2>
+<p>Enter:</p>
 <ul>
-<li>Choose your role (Architect / Architect &amp; General planner / General planner)  </li>
-<li>Highlight focus topics (design, construction management, cost planning)  </li>
-<li>Review the total hours for 100% basic services  </li>
-<li>Adjust SIA phase distribution where justified</li>
+<li>the determinant (typically m² gross floor area),</li>
+<li>the use mix,</li>
+<li>complexity across design / technical / spatial / organisational.</li>
 </ul>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>Example of roles, focus topics and hours per phase.</em></p>
-<h3>Multiple disciplines</h3>
-<p>For multi-discipline projects (architecture, structural, electrical, HVAC, sanitary):<br>repeat the steps in <strong>Projekt</strong> &amp; <strong>Leistung</strong> for each discipline.<br>The summary will show them side-by-side.</p>
-<h2>Step 4 — Zusammenfassung (reading the one-pager)</h2>
-<p>The <strong>Zusammenfassung</strong> tab compiles all relevant information into a structured overview:</p>
+<p>This produces the adjustment factor used by the method. See <a href="project-section.html">Project section</a> for field explanations.</p>
+<h2>Step 3: Services (Leistung)</h2>
+<p>Select your role, mark focus topics and review:</p>
 <ul>
-<li>project description  </li>
-<li>organisational setup  </li>
-<li>use mix  </li>
-<li>effort per m²  </li>
-<li>risk level  </li>
-<li>hours by SIA phase  </li>
-<li>additional services when relevant</li>
+<li>hours for 100% basic services,</li>
+<li>distribution across phases,</li>
+<li>any role‑dependent assumptions.</li>
 </ul>
-<p>You can export or print this page and attach it to fee offers or internal planning documents.
-It documents why a certain effort level is plausible given the project’s determinants and complexity.</p>
+<h2>Step 4: Summary (Zusammenfassung)</h2>
+<p>Validate plausibility and export the one‑pager for communication and documentation.</p>
+<p>For the conceptual “why does this number change when I change that field” view, read <a href="how-it-works.html">How the app works</a> and <a href="why-valueapp.html">Why ValueApp exists</a>.</p>
+<h2>See also</h2>
+<ul>
+<li><a href="getting-started.html">Getting started</a></li>
+<li><a href="definitions.html">Definitions and core concepts</a></li>
+<li><a href="project-section.html">Project section</a></li>
+<li><a href="how-it-works.html">How the app works</a></li>
+<li><a href="why-valueapp.html">Why ValueApp exists</a></li>
+<li><a href="examples.html">Examples</a></li>
+</ul>
 
       </section>
     </div>
