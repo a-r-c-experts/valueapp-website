@@ -90,7 +90,7 @@ Dies spiegelt projektspezifische Unsicherheiten wider und kann den oberen Bereic
 
 Im Tab **Leistung** definieren Sie Ihre Zuständigkeit und sehen, wie sich die berechneten Stunden auf die Phasen verteilen.
 
-- Rolle wählen (Architekt / Architekt & Generalplaner / Generalplaner)  
+- Rolle wählen (Architekt/in / Architekt/in & Generalplaner/in / Generalplaner/in)  
 - Fokusthemen markieren (Entwurf, Bauleitung, Kostenplanung usw.)  
 - Gesamtstunden für 100 % Grundleistungen prüfen  
 - Phasenverteilung gemäss SIA 1–6 bei Bedarf anpassen  
@@ -104,7 +104,7 @@ Im Tab **Leistung** definieren Sie Ihre Zuständigkeit und sehen, wie sich die b
 
 ### Mehrere Disziplinen
 
-Bei Projekten mit mehreren Disziplinen (Architektur, Statik, Elektro, HLKS, Sanitär):  
+Bei Projekten mit mehreren Disziplinen (Architektur, Tragwerk, Elektro, HLKS, Sanitär):  
 Wiederholen Sie die Schritte in **Projekt** und **Leistung** für jede Disziplin.  
 Die Zusammenfassung zeigt die Ergebnisse nebeneinander.
 

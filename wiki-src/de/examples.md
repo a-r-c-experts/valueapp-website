@@ -5,56 +5,87 @@ navKey: wiki.nav.examples
 ---
 
 # Beispiele
-## Diese Seite zeigt zwei durchgerechnete Beispiele: ein einfaches Machbarkeits- bzw. Wettbewerbsprojekt und ein komplexeres Bildungsgebäude. Beide folgen den gleichen vier Schritten in der ValueApp.
+
+Beispiele helfen, Erwartungen zu kalibrieren und zeigen, wie Eingaben in der ValueApp die Ergebnisse beeinflussen.  
+Sie demonstrieren, wie **Determinanten**, **Nutzungmix** und **Komplexität** in Aufwandskorridore übersetzt werden.
+
+Wenn Sie neu sind, starten Sie mit [Einstieg](getting-started.html) und kommen Sie anschliessend hierher zurück, sobald Sie den Grundablauf verstanden haben.
 
 ---
 
-## Beispiel 1 – Einfaches Machbarkeits- / Wettbewerbsprojekt
+## Wofür diese Beispiele gedacht sind
 
-*Kleines Wohnprojekt, klare Aufgabe, wenige Anspruchsgruppen, niedrige bis mittlere Komplexität.*
+Diese Beispiele sollen:
+
+- zeigen, wie ein reales Projekt in Determinanten, Nutzungsmix und Komplexität übersetzt wird,
+- demonstrieren, wie Anpassungsfaktoren die Resultate verschieben,
+- Referenzpunkte für Diskussionen mit Auftraggeber:innen und Teams liefern,
+- veranschaulichen, was „plausibel“ in der Praxis bedeutet.
+
+Sie sind keine Vorlagen zum 1:1-Kopieren, sondern **Muster, die auf eigene Projekte angepasst** werden.
+
+---
+
+## Empfohlene Lesereihenfolge
+
+1. Lesen Sie [Definitionen und zentrale Konzepte](definitions.html), falls Begriffe wie LI, Determinante oder AF<sub>Qualität</sub> neu sind.
+2. Sehen Sie [Wie die App funktioniert](how-it-works.html) durch, um die konzeptionelle Logik zu verstehen.
+3. Vergleichen Sie Ihr Projekt mit den Beispielen unten.
+4. Nutzen Sie das [Tutorial](tutorial.html), um die Schritte in der Anwendung umzusetzen.
+
+---
+
+## Beispiel 1 – Einfache Machbarkeitsstudie / Wettbewerb
+
+*Kleines Wohnprojekt, klare Aufgabe, wenige Stakeholder, tiefe bis mittlere Komplexität.*
 
 ### Schritt 1 – Beschrieb
 
-Das Projekt ist ein kleines Wohngebäude mit rund 100 m² BG.  
-Die Aufgabe besteht darin, die Machbarkeit zu prüfen und ein Konzept für eine mögliche Baueingabe oder einen Wettbewerbsbeitrag zu erarbeiten.  
-Die Auftraggeberin ist eine private Bauherrschaft mit üblichen Terminen und ohne besondere vertragliche Zwänge.
+Das Projekt ist ein kleines Wohngebäude mit ca. **100 m² Bruttogeschossfläche (GF)**.  
+Die Aufgabe besteht darin, die Machbarkeit zu prüfen und ein Konzept für eine mögliche Baueingabe oder einen Wettbewerbsbeitrag zu erarbeiten.
 
-Im Register **Beschrieb**:
+Die Bauherrschaft ist eine private Auftraggeber:in mit Standardterminprogramm und ohne besondere vertragliche Einschränkungen.
 
-- verwenden Sie einen klaren Projekttitel und erfassen die Adresse.  
-- setzen Sie den Status auf „In Planung“.  
-- beschreiben Sie die Aufgabe in einem kurzen Absatz (Ausgangssituation, Ziel der Studie, wichtige Randbedingungen).  
-- wählen Sie eine organisatorische Struktur mit Einzelplanern und ohne Generalunternehmer.  
+Im Tab **Beschrieb**:
+
+- verwenden Sie einen klaren Projekttitel und erfassen die Adresse,
+- setzen Sie den Status auf *In Planung*,
+- beschreiben Sie die Aufgabe in einem kurzen Absatz (Ausgangslage, Ziel der Studie, zentrale Rahmenbedingungen),
+- wählen Sie ein Organisationsmodell mit Einzelplaner:innen und ohne Generalunternehmer.
 
 ### Schritt 2 – Projekt
 
-Im Register **Projekt** erfassen Sie eine Bruttogeschossfläche von **100 m²**.  
-Die Hauptnutzung ist „Wohnen“, zum Beispiel:
+Im Tab **Projekt** erfassen Sie eine Bruttogeschossfläche von **100 m²**.  
+Die Hauptnutzung ist *Wohnen*, zum Beispiel:
 
-- Wohnen – 95 % der BG  
-- Wohnen 2 – 5 % der BG (z. B. Nebenräume)  
+- Wohnen – 95 % der GF  
+- Wohnen 2 – 5 % der GF (z. B. Nebenräume zum Wohnen)
 
-Die Komplexität liegt überwiegend im Bereich „einfach/kompliziert“: klassische Wohnbautypologie, bekannte Vorschriften, keine speziellen technischen Anlagen.  
-Sie positionieren die meisten Herausforderungen im einfachen bzw. komplizierten Bereich des Führungsrahmens und setzen das Risiko auf **„Keine spez. Anforderungen“**.
+Die Komplexität liegt überwiegend im Bereich **einfach bis kompliziert**: typische Wohnnutzung, bekannte Rahmenbedingungen, keine speziellen technischen Systeme.
+
+Die meisten Herausforderungen werden im Leadership Framework im Bereich *einfach / kompliziert* positioniert,  
+und der Risikograd wird auf **Keine spez. Anforderungen** gesetzt.
 
 ### Schritt 3 – Leistung
 
-Als Architekt/in wählen Sie die Rolle **„Architekt/in“** und legen Schwerpunkte etwa bei Entwurf und früher Kostenplanung.  
-Die App berechnet in diesem Beispiel insgesamt etwa **300 Stunden** für 100 % Grundleistungen,  
-mit einem Schwerpunkt in den Phasen 2 und 3 (Vorstudien und Projektierung) und weniger Stunden in der Ausführung.
+Als Architekt:in wählen Sie die Rolle **Architekt/in** und Schwerpunkte wie Entwurf und frühe Kostenplanung.
+
+Die Anwendung berechnet insgesamt rund **300 Stunden** für 100 % Grundleistungen,  
+mit Schwerpunkt in den Phasen 2 und 3 (Vorstudie und Projektierung) und weniger Stunden in der Ausführung.
 
 ### Schritt 4 – Zusammenfassung
 
-Die Zusammenfassung bietet eine kompakte Übersicht: Projektbeschrieb, organisatorische Struktur, Nutzungsmix, Aufwand pro m² und Stunden nach Phase.  
-Für eine Machbarkeitsstudie oder einen Wettbewerb kann diese Seite internen Unterlagen beigelegt oder als Referenz für Honorar­diskussionen genutzt werden.
+Die Zusammenfassung bietet einen kompakten Überblick: Projektbeschrieb, organisatorisches Setup, Nutzungsmix, Aufwand pro m² und Stunden pro Phase.
+
+Für Machbarkeitsstudien oder Wettbewerbe kann diese Seite internen Planungsunterlagen beigefügt  
+oder als Grundlage für Honorarbesprechungen genutzt werden.
 
 <div class="wiki-highlight-box">
   <strong>Was dieses Beispiel zeigt</strong>
   <p>
-    Auch bei kleinen, relativ einfachen Projekten verwendet die ValueApp dieselben
-    Grundmodelle und dieselbe Komplexitätslogik. Der resultierende Aufwand ist
-    vergleichsweise gering, aber vollständig nachvollziehbar und mit grösseren
-    Projekten vergleichbar.
+    Auch bei kleinen, relativ einfachen Projekten nutzt die ValueApp die gleichen Basismodelle
+    und die gleiche Komplexitätslogik. Der resultierende Aufwand ist überschaubar,
+    aber vollständig nachvollziehbar und mit grösseren Projekten vergleichbar.
   </p>
 </div>
 
@@ -64,56 +95,65 @@ Für eine Machbarkeitsstudie oder einen Wettbewerb kann diese Seite internen Unt
 
 *Bildungsbau mit klarer Funktion, aber höherer gestalterischer, organisatorischer und räumlicher Komplexität.*
 
-### Kontext und Datenbasis
+### Kontext und Datengrundlage
 
 Dieses Beispiel basiert auf einem realisierten Kindergartenprojekt.  
-Das Gebäude gehört zur Nutzungsgruppe **„Lernen / Forschen“** und ist Teil der Datenbasis des entsprechenden Grundmodells.
+Das Gebäude gehört zur Nutzungsgruppe **Lernen / Forschen** und ist Teil der Datengrundlage  
+für das entsprechende Basismodell.
 
-![Grundmodell-Diagramm für Bildungsbauten](/wiki-assets/education-model-chart.jpeg)
+![Basismodell-Diagramm für Bildungsbauten](/wiki-assets/education-model-chart.jpeg)
 
-*Bildungs- und Forschungsgebäude mit Prognoseintervallen für den Planungsaufwand.*
+*Bildungs- und Forschungsbauten mit Prognoseintervallen für den Planungsaufwand.*
 
 ### Schritt 1 – Beschrieb
 
-Im Register **Beschrieb** findet sich eine strukturierte Projektbeschreibung: Lage, Auftraggeber/in, Kontext  
-(z. B. bestehende Nachbarschaft, Aussenräume), pädagogisches Konzept sowie besondere Anforderungen wie Inklusion,  
-Flexibilität der Räume oder spezifische Sicherheitsvorgaben.
+Der Tab **Beschrieb** enthält eine strukturierte Projektbeschreibung:
+
+- Lage und Auftraggeber:in,
+- Kontext (z. B. Quartier, Aussenräume),
+- pädagogisches Konzept,
+- besondere Anforderungen wie Inklusion, flexible Räume oder spezifische Sicherheitsvorgaben.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Projektbeschrieb in der ValueApp für das Kindergartenbeispiel.*
+*Projektbeschrieb in der ValueApp für das Kindergarten-Beispiel.*
 
 ### Schritt 2 – Projekt
 
-Die determinierende Grösse ist die Bruttogeschossfläche des Kindergartens.  
-Die gesamte BG wird der Nutzung **„Ausbilden und forschen“** zugeordnet.  
-Damit ist das Projekt direkt mit dem Bildungs-Grundmodell verknüpft.
+Die determinierende Grösse ist die **Bruttogeschossfläche** des Kindergartens.  
+Die gesamte GF wird der Nutzung **Lernen / Forschen** zugeordnet, wodurch das Projekt direkt mit dem Bildungs-Basismodell verknüpft wird.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Register „Projekt“ mit 100 % der Bruttogeschossfläche in „Ausbilden und forschen“.*
+*Projekt-Tab mit 100 % der Bruttogeschossfläche in Lernen / Forschen.*
 
-Die Komplexität wird höher eingeschätzt als im Wohnbeispiel: anspruchsvolle räumliche Organisation,  
-pädagogisches Konzept, Einbindung in einen bestehenden Kontext und Koordination mehrerer Anspruchsgruppen.  
-Die Herausforderungen liegen teilweise im **komplexen** Bereich des Führungsrahmens.
+Die Komplexität wird höher eingeschätzt als im Wohnbeispiel:
+
+- anspruchsvolle räumliche Organisation,
+- pädagogisches Konzept,
+- Einbettung in einen bestehenden Kontext,
+- Koordination mehrerer Stakeholder.
+
+Mehrere Herausforderungen werden im Leadership Framework im Bereich **komplex** positioniert.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Herausforderungen beschrieben und im Führungsrahmen positioniert; der Schwerpunkt führt zum Anpassungsfaktor.*
+*Herausforderungen im Leadership Framework; der Schwerpunkt ergibt den Anpassungsfaktor.*
 
 ### Schritt 3 – Leistung
 
-Das Architekturbüro übernimmt die Rolle **„Architekt/in“** oder **„Architekt/in &amp; Generalplaner/in“**,  
-je nach Projektorganisation. Schwerpunkte sind u. a. Entwurf, Koordination mit Fachplanern, Bauleitung und Kostenplanung.
+Das Büro übernimmt je nach Setup die Rolle **Architekt/in** oder **Architekt/in &amp; Generalplaner/in**.
+
+Schwerpunkte sind Entwurf, Koordination mit Fachplanenden, Bauleitung und Kostenplanung.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
@@ -122,22 +162,28 @@ je nach Projektorganisation. Schwerpunkte sind u. a. Entwurf, Koordination mit F
 
 *Berechnete Stunden für 100 % Grundleistungen und deren Verteilung über die SIA-Phasen.*
 
-Der Gesamtaufwand ist höher als im einfachen Beispiel – sowohl aufgrund der grösseren BG als auch wegen des höheren Anpassungsfaktors.  
-Die Phasen 3–5 (Projektierung, Ausschreibung und Ausführung) machen den grössten Teil der Stunden aus.
+Der Gesamtaufwand ist deutlich höher als im einfachen Beispiel,  
+sowohl aufgrund der grösseren GF als auch wegen des höheren Anpassungsfaktors.
+
+Die Phasen **3–5** (Projektierung, Ausschreibung und Ausführung) tragen den Hauptanteil am Aufwand.
 
 ### Schritt 4 – Zusammenfassung
 
-Die Zusammenfassung zeigt den Kindergarten als Referenzprojekt: klar dokumentierte Determinanten,  
-Komplexitätsbeurteilung und resultierende Stunden. Solche Übersichten können als interne Benchmarks,  
-für transparente Honorar­diskussionen oder in öffentlichen Vergabeverfahren eingesetzt werden.
+Die Zusammenfassung zeigt den Kindergarten als Referenzprojekt mit:
+
+- klar dokumentierten Determinanten,
+- expliziter Komplexitätsbeurteilung,
+- resultierender Aufwandsverteilung.
+
+Solche Übersichten eignen sich als interne Benchmarks,  
+für transparente Honorarbesprechungen oder in öffentlichen Vergabeverfahren.
 
 <div class="wiki-highlight-box">
   <strong>Was dieses Beispiel zeigt</strong>
   <p>
     Komplexität und Kontext sind entscheidend. Selbst bei gleicher determinierender Grösse
-    kann der aus dem Führungsrahmen abgeleitete Anpassungsfaktor den erwarteten Aufwand
-    deutlich verschieben. Das Kindergartenbeispiel zeigt, wie dies in der ValueApp
-    transparent dokumentiert wird.
+    kann der aus dem Leadership Framework abgeleitete Anpassungsfaktor den erwarteten Aufwand
+    deutlich verschieben. Dieses Beispiel zeigt, wie diese Verschiebung transparent dokumentiert wird.
   </p>
 </div>
 
@@ -145,7 +191,7 @@ für transparente Honorar­diskussionen oder in öffentlichen Vergabeverfahren e
   <strong>Datenherkunft</strong>
   <p>
     Realisierte Projekte werden in einem separaten Daten- und Referenzsystem dokumentiert.
-    Diese Datensätze speisen die statistischen Grundmodelle hinter der ValueApp.
+    Diese Datensätze speisen die statistischen Basismodelle hinter der ValueApp.
   </p>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/werk-material-kindergarten.mp4" type="video/mp4" />
@@ -156,9 +202,22 @@ für transparente Honorar­diskussionen oder in öffentlichen Vergabeverfahren e
   </div>
 </div>
 
-## Weiterführend
-- [Begriffe und Konzepte](definitions.html)
-- [Bereich «Projekt»](project-section.html)
-- [Tutorial](tutorial.html)
-- [Wie die App funktioniert](how-it-works.html)
+---
+
+## Welche weiteren Beispiele später ergänzt werden können
+
+Um das Wiki (und zukünftige Chatbot-Retrieval) weiter zu stärken, können Sie ergänzen:
+
+- ein komplexes **Mischnutzungsprojekt** (mehrere Basismodelle),
+- ein **prozesslastiges** Projekt (ungewöhnliche Vergabe oder Kollaboration),
+- einen Grenzfall mit ungewöhnlichen, aber realistischen Eingaben.
+
+---
+
+## Siehe auch
+
+- [Definitionen und zentrale Konzepte](definitions.html)  
+- [Projekt-Bereich](project-section.html)  
+- [Wie die App funktioniert](how-it-works.html)  
+- [Tutorial](tutorial.html)  
 - [Warum es die ValueApp gibt](why-valueapp.html)

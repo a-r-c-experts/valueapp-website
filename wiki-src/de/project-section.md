@@ -4,98 +4,151 @@ i18nSubtitle: wiki.projectSection.subtitle
 navKey: wiki.nav.projectSection
 ---
 
-# Allgemeine Informationen – Bereich «Projekt»
-## Wie die ValueApp anhand von Geschossfläche, Nutzungsmix und Komplexität eine erste Aufwandsprognose (min/m² GF) erstellt.
+# Projekt-Bereich
+
+Im Tab **Projekt (Projekt)** macht die ValueApp aus „Was ist es?“ die Frage „Welcher Aufwandskorridor ist plausibel?“.  
+Dazu kombiniert sie:
+
+- eine messbare **Determinante / Menge** (typischerweise m² Bruttogeschossfläche),
+- einen **Nutzungsmix** (damit die passenden Basismodelle kombiniert werden können),
+- eine strukturierte **Komplexitätsbeurteilung** (Abbildung im Leadership Framework),
+- und je nach Konfiguration Eingaben zu **Risiko / Anforderungen**.
+
+Diese Seite erklärt die Felder konzeptionell. Wenn Sie eine Schritt-für-Schritt-Klickanleitung möchten, nutzen Sie das [Tutorial](tutorial.html).
 
 ---
 
-## Was im Bereich «Projekt» passiert
+## Was im Projekt-Bereich passiert
 
-Im Bereich **«Projekt»** generiert die ValueApp auf der Grundlage von:
+Im **Projekt**-Bereich erzeugt die ValueApp eine erste Prognose des erwarteten Zeitaufwands (oft dargestellt als **min/m²** bezogen auf die gewählte Menge) basierend auf:
 
-- sechs **Aufwandmodellen** (pro Nutzungskategorie)
-- der **Anpassung über den Komplexitätsgrad**
+- **Basismodellen** (nutzungsbasierte Modelle aus Referenzprojekten),
+- und einem **Anpassungsfaktor**, der aus Ihrer Komplexitätsbeurteilung abgeleitet wird (oft als *Komplexitätsgrad* oder **AF_quality** bezeichnet).
 
-eine erste Prognose des zu erwartenden Zeitaufwands (**min/m² GF**).
+Sie können die erzeugten Prognosen jederzeit individuell anpassen. Die besten Resultate entstehen jedoch, wenn Annahmen explizit und konsistent dokumentiert werden.
 
-Die generierten Prognosen können jederzeit individuell angepasst werden.
-
-Die grösste Wirkung für die Prognose liegt in den sechs Aufwandmodellen.  
-Der Komplexitätsgrad passt Projekte nach Ermessen an und ist in jedem Fall projektspezifisch.
+Für die „unter der Haube“-Sicht siehe [Wie die App funktioniert](how-it-works.html).  
+Wenn Begriffe wie Determinante, Basismodell oder AF_quality unklar sind, beginnen Sie mit [Definitionen](definitions.html).
 
 ---
 
-## A. Nutzung
+## Was Sie hier definieren
 
-### Geschossfläche (GF)
+1. **Determinante / Menge** (typischerweise m² Bruttogeschossfläche)
+2. **Nutzungsmix** (Wohnen, Arbeiten, Lernen usw.)
+3. **Komplexität** in vier Dimensionen (Gestaltung, Technik, Raum, Organisation)
+4. **Risiko / Anforderungen** (falls Ihre Version dieses Konzept enthält)
+5. Optionale Kontextfelder wie **erwartete Kosten** (falls in Ihrem Setup vorhanden)
 
-Im Feld Projektdefinition geben Sie zunächst die approximative **Geschossfläche (GF)** über alle Nutzungen in **m²** ein.
-
-Wenn Sie bereits ein Raumprogramm zur Verfügung haben, können Sie dieses im Beschrieb aufführen. Von Vorteil ist es, wenn Sie die Berechnung der m² GF für andere Projektbeteiligte, insbesondere für die Auftraggebenden, transparent darstellen.
-
-Hinweis: Die Angabe der GF hat direkten Einfluss auf den berechneten Aufwand.
-
-### Erwartete Kosten (fakultativ)
-
-Angaben zu den erwarteten Kosten sind fakultativ und haben **keinen Einfluss** auf den Aufwand.  
-Die zu erwartenden Kosten sind als **Budget der Auftraggebenden** zu verstehen.
-
-In der Testphase dient die ValueApp ausschliesslich als Prüfgrösse und zur Plausibilisierung von Entscheidungen bezüglich:
-
-- Aufgabe  
-- determinierende Grössen  
-- Nutzung  
-- Komplexität  
+Diese Eingaben steuern die Auswahl der Basismodelle und die Anpassungsfaktoren, welche die Resultate innerhalb des Prognosebandes verschieben.
 
 ---
 
-## Nutzungsmix festlegen
+## Determinante und Menge
 
-Geben Sie die Nutzung des künftigen Projekts an. Sie können mehrere Nutzungen, auch gleiche, via Drag-and-drop auswählen und deren Anteil festlegen.
+### Fläche (FA / Bruttogeschossfläche)
 
-Im Hintergrund greift die ValueApp auf ein definiertes Aufwandmodell für die jeweiligen sechs Nutzungen zurück und generiert eine erste Prognose des zu erwartenden Zeitaufwands (**min/m² GF**).
+Im Feld zur Projektspezifikation erfassen Sie die ungefähre **Fläche** über alle Nutzungen in **m²**.
 
-Die generierten Prognosen können jederzeit individuell angepasst werden.
+Wenn Sie bereits ein Flächenprogramm oder eine Flächenberechnung haben, referenzieren Sie es im Beschrieb. Es wird empfohlen, die Flächenberechnung transparent zu dokumentieren, insbesondere für andere Projektbeteiligte und die Auftraggeberschaft.
+
+**Wichtig:** Die eingegebene Fläche beeinflusst den berechneten Aufwand direkt.  
+Schon kleine Flächenänderungen können die Resultate merklich verschieben.
 
 ---
 
-## B. Beispiele pro Nutzungskategorie
+## Erwartete Kosten (optional)
 
-### 1 Wohnen
-*(Aufenthalt, Sport und Freizeit)*
+Erwartete Kosten sind optional und beeinflussen die Zeitaufwandsprognose in der Regel **nicht**.  
+Sie werden meist als Budget der Auftraggeberschaft verstanden.
 
-- Behelfswohnungen  
+In vielen Setups wird die ValueApp als Plausibilitätsprüfung für Entscheidungen verwendet zu:
+
+- Aufgabe und Umfang,
+- Determinanten,
+- Nutzungsmix,
+- Komplexität.
+
+---
+
+## Nutzungsmix
+
+Sie müssen die **Nutzung(en)** des Projekts festlegen.
+
+Sie können mehrere Nutzungen (auch wiederholte Nutzungen) auswählen und relative Anteile vergeben.  
+Im Hintergrund kombiniert die ValueApp die entsprechenden Basismodelle dieser Nutzungen und berechnet eine erste Prognose.
+
+**Kernidee:** Der Nutzungsmix sagt der App, „in welcher Referenzwelt“ Ihr Projekt liegt.  
+Ein Mischnutzungsprojekt ist nicht „ein Modell mit einem komischen Label“, sondern eine **gewichtete Kombination** von Modellen.
+
+Zur Kalibrierung vergleichen Sie Ihr Projekt mit den [Beispielen](examples.html).
+
+---
+
+## Komplexitätsbeurteilung
+
+Komplexität ist nicht „gross vs. klein“. Sie beschreibt, wie gut die Arbeit planbar ist und wie klar Ursache-Wirkung-Beziehungen sind.
+
+Die ValueApp nutzt das **Leadership Framework**, um Ihre Einschätzung in ein **AF_quality** (oder einen ähnlichen Anpassungsfaktor) zu übersetzen. Dazu beschreiben Sie Herausforderungen in vier Dimensionen:
+
+- **Gestaltung**
+- **Technik**
+- **Raum**
+- **Organisation**
+
+Das Ziel ist nicht, das eine „richtige“ Label zu finden. Das Ziel ist, Annahmen **explizit und diskutierbar** zu machen.
+
+Wenn Sie AF_quality vertieft verstehen möchten, beginnen Sie mit [Definitionen](definitions.html) und [Wie die App funktioniert](how-it-works.html).
+
+---
+
+## Praktische Tipps
+
+- **Seien Sie explizit:** notieren Sie die wichtigsten Treiber im Projektbeschrieb (Rahmenbedingungen, Stakeholder, besondere Anforderungen).
+- **Kalibrieren Sie mit Referenzen:** vergleichen Sie Ihr Projekt mit den [Beispielen](examples.html).
+- **Nutzen Sie das Tool zur Strukturierung von Diskussionen, nicht zu deren Vermeidung:** der Wert liegt in Transparenz, nicht darin, Unsicherheit zu übertünchen.
+
+---
+
+## Bauprogramme nach Nutzungskategorie
+
+Die folgenden Listen geben Beispiele, was typischerweise unter die jeweilige Nutzungskategorie fällt.  
+Sie sind keine perfekte Taxonomie, sondern eine praktische Hilfe, um reale Projekte auf die Modellstruktur abzubilden.
+
+### 1 Wohnen *(Wohnen, Sport und Freizeit)*
+
+- Temporäres Wohnen  
 - Mehrfamilienhäuser  
-- Terrassenhäuser  
+- Reihenhäuser  
 - Wochenendhäuser  
 - Eigentumswohnungen  
 - Einfamilienhäuser  
 - Ferienhäuser  
-- Alterswohnungen  
-- Alterssiedlungen  
-- Studentenwohnheime  
-- Lehrlingswohnheime  
-- Berghäuser  
-- Campinganlagen  
-- Klubhütten  
+- Seniorenwohnen  
+- Alterswohnanlagen  
+- Studierendenwohnheime  
+- Lernendenwohnheime  
+- Berghütten  
+- Campingplätze  
+- Clubhütten  
 - Turnhallen  
 - Sporthallen  
 - Mehrzweckhallen  
 - Stadionanlagen  
 - Sportplätze  
 - Tribünenbauten  
-- Garderobengebäude  
-- Kegel- und Bowlinganlagen  
-- Offene Kunsteisbahnen  
+- Garderobenbauten  
+- Bowlinganlagen  
+- Freiluft-Eisbahnen  
 - Freibäder  
-- Kunsteishallen  
+- Kunsteisbahnen  
 - Hallenbäder  
 - Reithallen  
 - Bootshäuser  
 - Schiessanlagen  
-- Freizeitzentren  
-- Jugendhäuser  
-- Pärke  
+- Freizeitanlagen  
+- Jugendzentren  
+- Parks  
 - Spielplätze  
 - Zoologische Gärten  
 - Botanische Gärten  
@@ -104,140 +157,138 @@ Die generierten Prognosen können jederzeit individuell angepasst werden.
 
 ---
 
-### 2 Arbeiten
-*(Dienstleistungen und öffentliche Aufgaben)*
+### 2 Arbeiten *(Dienstleistungen und öffentliche Funktionen)*
 
-- Altersheime  
-- Heimstätten  
-- Kinder- und Jugendheime  
-- Zentralwäschereien  
+- Pflegeheime  
+- Betreuungsheime  
+- Kinderheime  
+- Jugendheime  
+- Zentrallöschereien  
 - Tierheime  
 - Veterinärstationen  
-- Tierspitäler  
-- Ladenbauten ohne Grundausstattung  
-- Ladenbauten mit Grundausstattung  
+- Tierkliniken  
+- Detailhandelsbauten ohne Grundausbau  
+- Detailhandelsbauten mit Grundausbau  
 - Warenhäuser  
 - Einkaufszentren  
 - Markthallen  
-- Einfache Bürobauten  
-- Bürobauten mit erhöhten Anforderungen  
+- Einfache Bürogebäude  
+- Bürogebäude mit erhöhten Anforderungen  
 - Verwaltungsgebäude  
 - Banken  
-- Gemeindehäuser  
+- Gemeindebauten  
 - Rathäuser  
 - Gerichtsgebäude  
-- Polizeieinsatzgebäude  
-- Untersuchungsgefängnisse  
+- Polizei-Betriebsgebäude  
+- Haftanstalten  
 - Strafvollzugsanstalten  
-- Tagesheime  
+- Kindertagesstätten  
 - Geschützte Werkstätten  
 - Kirchen  
 - Kapellen  
 - Abdankungshallen  
-- Kirchgemeindehäuser  
-- Friedhofanlagen  
+- Pfarreizentren  
+- Friedhofsanlagen  
 - Krematorien  
 - Klöster  
-- Wohlfahrtshäuser  
-- Klubhäuser  
+- Sozialbauten  
+- Clubhäuser  
 - Kulturzentren  
 - Festhallen  
-- Restaurationsbetriebe  
-- Hotelbauten  
-- Motelbauten  
-- Hotels garnis  
-- Motels garnis  
+- Restaurants  
+- Hotels  
+- Motels  
+- Hotels (Limited Service)  
+- Motels (Limited Service)  
 - Kantinen  
-- Selbständige Grossküchen  
-- Herbergen  
+- Grossküchen (selbständig)  
+- Gasthöfe  
 - Jugendherbergen  
 - Raststätten  
 - Cafeterias  
-- Tearooms  
-- Autobahnzollanlagen  
+- Teestuben  
+- Autobahnzollstationen  
 - Tankstellen  
 - Wartehallen mit Diensträumen  
-- Zollposten  
-- Busbahnhöfe  
+- Zollstellen  
+- Bus-Terminals  
 - Bahnhöfe  
-- Bahnbetriebsbauten  
+- Bahn-Betriebsgebäude  
 - Seilbahnstationen  
 - Flughäfen  
 - Hafenanlagen  
 - Postgebäude  
-- Telefongebäude  
+- Telefonzentralen  
 - Postbetriebsgebäude  
-- Fernmeldegebäude  
+- Telekommunikationsgebäude  
 - Rechenzentren  
 - Kasernen  
-- Zeughäuser  
-- Öffentliche Zivilschutzanlagen  
+- Zeug-/Arsenalbauten  
+- Zivilschutzanlagen (öffentlich)  
 - Kommandoposten  
 - Bereitstellungsanlagen  
 - Sanitätsposten  
-- Sanitätshilfsstellen  
-- Geschützte Operationsstellen  
+- Sanitätszentren  
+- Geschützte Operationsräume  
 - Notspitäler  
 - Zivilschutz-Ausbildungszentren  
 - Feuerwehrgebäude  
 
 ---
 
-### 3 Produzieren
+### 3 Produktion
 
 - Industriehallen  
-- Produktionsbauten für die Rohstoffindustrie  
-- Produktionsbauten für die Schwerindustrie  
-- Produktionsbauten für die mechanische Industrie  
-- Produktionsbauten für die feinmechanische Industrie  
-- Produktionsbauten für die verarbeitende Industrie  
-- Produktionsbauten für die Lebensmittelindustrie  
+- Produktionsbauten der Rohstoffindustrie  
+- Produktionsbauten der Schwerindustrie  
+- Produktionsbauten der Maschinenindustrie  
+- Produktionsbauten der Feinmechanik  
+- Produktionsbauten der Verarbeitungsindustrie  
+- Produktionsbauten der Lebensmittelindustrie  
 - Betriebsgebäude  
 - Gewerbebauten  
 - Werkstätten  
-- Stallungen  
+- Ställe  
 - Landwirtschaftliche Produktionsanlagen  
 - Schlachthöfe  
-- Heizzentralen  
+- Heizwerke  
 - Fernwärmeanlagen  
-- Kraftwerkbauten  
+- Kraftwerksgebäude  
 - Wasseraufbereitungsanlagen  
-- Kläranlagen  
+- Abwasserreinigungsanlagen  
 - Kehrichtverbrennungsanlagen  
-- Tankanlagen  
+- Treibstofflageranlagen  
 
 ---
 
-### 4 Lagern
-*(Lagern und verteilen, parken)*
+### 4 Lagern *(Lager und Distribution, Parkieren)*
 
 - Lagerhallen  
-- Mehrstöckige Lagerbauten  
+- Mehrgeschossige Lagergebäude  
 - Mechanisierte Lager  
-- Kühllager  
+- Kühlhäuser  
 - Silobauten  
-- Verteilzentralen (Food-Bereich)  
-- Verteilzentralen (Nonfood-Bereich)  
+- Verteilzentren (Food)  
+- Verteilzentren (Non-Food)  
 - Schuppen  
 - Hütten  
-- Futterlagerräume  
-- Treibhäuser  
-- Eingeschossige Einstellgaragen  
-- Tiefgaragen  
-- Oberirdische Parkhäuser  
-- Strassenverkehrsgebäude  
+- Futtermagazine  
+- Gewächshäuser  
+- Einstöckige Garagen  
+- Einstellhallen (unterirdisch)  
+- Parkhäuser (oberirdisch)  
+- Strassenverkehrsbauten  
 - Werkhöfe  
-- Eisenbahndepots  
-- Strassenbahndepots  
+- Bahndepots  
+- Tramdepots  
 - Fussgängerzonen  
 - Wohnstrassen  
 
 ---
 
-### 5 Ausbilden und forschen
-*(Bildung, Unterricht und Kultur, Forschen)*
+### 5 Ausbilden und Forschen *(Bildung, Lehre, Kultur, Forschung)*
 
-- Kinderhorte  
+- Kindertagesstätten  
 - Kindergärten  
 - Primarschulen  
 - Sekundarschulen  
@@ -246,49 +297,56 @@ Die generierten Prognosen können jederzeit individuell angepasst werden.
 - Mittelschulen  
 - Gymnasien  
 - Gesamtschulen  
-- Heilpädagogische Schulen  
 - Sonderschulen  
-- Hochschulen  
+- Förder-/Heilpädagogische Schulen  
 - Universitäten  
+- Hochschulen  
 - Bibliotheken  
 - Staatsarchive  
-- Forschungsinstitute ohne Laboratorien  
-- Forschungsinstitute mit Laboratorien  
+- Forschungsinstitute ohne Labore  
+- Forschungsinstitute mit Labors  
 - Laborgebäude für Industrie  
 - Laborgebäude für Gewerbe  
-- Provisorische Ausstellungshallen  
+- Temporäre Ausstellungshallen  
 - Ausstellungsbauten  
 - Pavillons  
-- Ortsmuseen  
+- Lokalmuseen  
 - Kunstgalerien  
 - Museen  
-- Kleintheater  
-- Konzertbauten  
+- Kleine Theater  
+- Konzerthallen  
 - Theaterbauten  
 - Musikpavillons  
-- Kinotheater  
+- Kinos  
 - Diskotheken  
-- Saalbauten  
-- Kongresshäuser  
-- Radio-, Fernseh- oder Filmstudios  
+- Versammlungssäle  
+- Kongresszentren  
+- Radiostudios  
+- Fernsehstudios  
+- Filmstudios  
 
 ---
 
-### 6 Heilen und pflegen
+### 6 Heilen und Pflegen
 
 - Arztpraxen  
-- Ärztehäuser  
-- Krankenhäuser (inkl. Bettenhäuser und Behandlungstrakte)  
+- Medizinische Zentren  
+- Spitäler  
+- Bettenhäuser  
+- Behandlungstrakte  
 - Universitätskliniken  
 - Pflegeheime  
 - Rehabilitationszentren  
 - Sanatorien  
-- Heilbäder  
-- Spezialinstitute
+- Bäder  
+- Spezialinstitute  
 
-## Weiterführend
-- [Begriffe und Konzepte](definitions.html)
-- [Beispiele](examples.html)
-- [Tutorial](tutorial.html)
-- [Wie die App funktioniert](how-it-works.html)
+---
+
+## Siehe auch
+
+- [Definitionen und zentrale Konzepte](definitions.html)  
+- [Wie die App funktioniert](how-it-works.html)  
+- [Beispiele](examples.html)  
+- [Tutorial](tutorial.html)  
 - [Warum es die ValueApp gibt](why-valueapp.html)
