@@ -37,7 +37,7 @@ Si vous souhaitez comprendre *ce qui se passe entre vos saisies et le résultat 
   → [Workflows](workflows.html)
 
 - Vous souhaitez consulter des exemples comparables ?  
-  → [Exemples](beispiele.html)
+  → [Exemples](examples.html)
 
 - Vous avez besoin d’aide rapide ou de réponses directes ?  
   → [Support](support.html)

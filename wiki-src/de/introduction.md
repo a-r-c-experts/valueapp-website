@@ -37,7 +37,7 @@ Wenn Sie verstehen möchten, *was zwischen Ihren Eingaben und dem Endergebnis pa
   → [Workflows](workflows.html)
 
 - Möchten Sie vergleichbare Anwendungsbeispiele sehen?  
-  → [Beispiele](beispiele.html)
+  → [Beispiele](examples.html)
 
 - Benötigen Sie schnelle Hilfe oder Antworten?  
   → [Support](support.html)

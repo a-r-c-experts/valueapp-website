@@ -31,4 +31,4 @@ Ces pages seront ajoutées au fur et à mesure de l’évolution du wiki :
   → [Référence](reference.html)
 
 - Préférez apprendre à partir d’exemples concrets ?  
-  → [Exemples](beispiele.html)
+  → [Exemples](examples.html)

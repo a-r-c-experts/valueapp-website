@@ -37,7 +37,7 @@ If you want to understand *what happens between your inputs and the final result
   → [Workflows](workflows.html)
 
 - Want examples you can compare against?  
-  → [Examples](beispiele.html)
+  → [Examples](examples.html)
 
 - Need quick answers or help?  
   → [Support](support.html)

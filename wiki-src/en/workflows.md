@@ -31,4 +31,4 @@ These pages will be added as the wiki grows:
   → [Reference](reference.html)
 
 - Prefer learning through examples?  
-  → [Examples](beispiele.html)
+  → [Examples](examples.html)
