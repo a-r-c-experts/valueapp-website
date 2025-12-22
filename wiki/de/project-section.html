@@ -53,46 +53,6 @@
   </div>
 </header>
 
-<script>
-  (function () {
-    function detectLang() {
-      // 1) URL: /wiki/{lang}/...
-      const m = window.location.pathname.match(/^\/wiki\/(en|de|fr)(\/|$)/);
-      if (m) return m[1];
-
-      // 2) localStorage fallbacks (be tolerant)
-      const ls =
-        localStorage.getItem("lang") ||
-        localStorage.getItem("valueapp_lang") ||
-        localStorage.getItem("valueappLang");
-      if (ls && /^(en|de|fr)$/.test(ls)) return ls;
-
-      // 3) html lang attribute
-      const htmlLang = (document.documentElement.getAttribute("lang") || "").slice(0, 2);
-      if (/^(en|de|fr)$/.test(htmlLang)) return htmlLang;
-
-      return "en";
-    }
-
-    function wireWikiLinks() {
-      const lang = detectLang();
-      const base = "/wiki/" + lang + "/";
-
-      document.querySelectorAll("[data-wiki-link]").forEach((a) => {
-        const file = a.getAttribute("data-wiki-link");
-        a.setAttribute("href", base + file);
-      });
-
-      // keep label in sync if present
-      const label = document.getElementById("currentLangLabel");
-      if (label) label.textContent = lang.toUpperCase();
-    }
-
-    wireWikiLinks();
-    document.addEventListener("languageChanged", wireWikiLinks);
-  })();
-</script>
-
   <main class="wiki-main">
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
