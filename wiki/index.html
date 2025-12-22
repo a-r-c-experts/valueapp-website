@@ -11,42 +11,20 @@
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="stylesheet" href="/styles.css" />
   <style>
-    .wiki-hero {
-      margin-bottom: 32px;
-      text-align: left;
-    }
-    .wiki-hero-inner {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      max-width: 800px;
-    }
-    .wiki-hero-logo-row {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-    .wiki-hero-logo {
-      height: 80px;
-      width: auto;
-      max-width: 100%;
-      display: block;
-    }
-    .wiki-tagline {
-      font-size: 0.95rem;
-      color: var(--muted);
-    }
+    .wiki-hero { margin-bottom: 32px; text-align: left; }
+    .wiki-hero-inner { display: flex; flex-direction: column; gap: 16px; max-width: 800px; }
+    .wiki-hero-logo-row { display: flex; align-items: center; gap: 16px; }
+    .wiki-hero-logo { height: 80px; width: auto; max-width: 100%; display: block; }
+    .wiki-tagline { font-size: 0.95rem; color: var(--muted); }
+
     .wiki-grid {
       display: grid;
       grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
       gap: 32px;
       align-items: flex-start;
     }
-    @media (max-width: 800px) {
-      .wiki-grid {
-        grid-template-columns: 1fr;
-      }
-    }
+    @media (max-width: 800px) { .wiki-grid { grid-template-columns: 1fr; } }
+
     .wiki-card {
       border-radius: 16px;
       border: 1px solid var(--border);
@@ -55,28 +33,14 @@
       margin-bottom: 18px;
       font-size: 0.95rem;
     }
-    .wiki-card h2, .wiki-card h3 {
-      margin-top: 0;
-    }
-    .wiki-card h2::after,
-    .wiki-card h3::after {
-      display: none;
-    }
-    .wiki-nav-list {
-      list-style: none;
-      padding-left: 0;
-      margin: 0;
-    }
-    .wiki-nav-list li {
-      margin-bottom: 6px;
-    }
-    .wiki-nav-list a {
-      text-decoration: none;
-      color: var(--accent);
-    }
-    .wiki-nav-list a:hover {
-      text-decoration: underline;
-    }
+    .wiki-card h2, .wiki-card h3 { margin-top: 0; }
+    .wiki-card h2::after, .wiki-card h3::after { display: none; }
+
+    .wiki-nav-list { list-style: none; padding-left: 0; margin: 0; }
+    .wiki-nav-list li { margin-bottom: 6px; }
+    .wiki-nav-list a { text-decoration: none; color: var(--accent); }
+    .wiki-nav-list a:hover { text-decoration: underline; }
+
     .wiki-pill-link {
       display: inline-block;
       margin-top: 10px;
@@ -87,14 +51,9 @@
       text-decoration: none;
       color: var(--accent);
     }
-    .wiki-pill-link:hover {
-      background: var(--accent);
-      color: #fff;
-    }
-    .hero-small-note {
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
+    .wiki-pill-link:hover { background: var(--accent); color: #fff; }
+
+    .hero-small-note { font-size: 0.85rem; color: var(--muted); }
   </style>
 </head>
 <body>
