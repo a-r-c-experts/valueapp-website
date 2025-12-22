@@ -1101,13 +1101,7 @@ nav.main-nav a.active {
 }
 
 /* Make anchor jumps account for sticky header */
-:root {
-  --header-offset: 96px; /* adjust if your header height changes */
-}
 
-html {
-  scroll-padding-top: var(--header-offset);
-}
 
 :root { --header-offset: 96px; }
 
