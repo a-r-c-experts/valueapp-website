@@ -52,7 +52,7 @@ header {
 }
 
 .top-bar{
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto 1fr auto auto auto;
@@ -223,7 +223,7 @@ header {
 /* MAIN LAYOUT */
 
 main {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 32px auto 80px;
   padding: 0 24px;
 }
@@ -608,7 +608,7 @@ footer {
 }
 
 footer .footer-inner {
-  max-width: 1150px;
+  max-width: 1200px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -749,7 +749,7 @@ footer .footer-inner {
 
 /* Logo sizing: use the real class and win specificity wars */
 .brand-logo-link .wiki-hero-logo {
-  height: 160px;      /* desktop bigger */
+  height: 100px;      /* desktop bigger */
   width: auto;
   display: block;
   object-fit: contain;
@@ -843,7 +843,7 @@ nav.main-nav a.active {
 
 /* Generic wiki container */
 .wiki-main {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 auto 40px;
   padding: 0 16px 40px;
 }
@@ -906,7 +906,7 @@ nav.main-nav a.active {
 /* WIKI LAYOUT */
 
 .wiki-main {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 32px auto 80px;
   padding: 0 24px;
 }
@@ -1095,7 +1095,7 @@ nav.main-nav a.active {
   }
 
   .brand-logo-link .wiki-hero-logo {
-    height: 88px;             /* phone size */
+    height: 50px;             /* phone size */
   }
 
 
