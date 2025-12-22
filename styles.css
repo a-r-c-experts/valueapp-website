@@ -5,8 +5,20 @@
   --accent: #111111;
   --border: #e4e4e4;
   --chip-bg: #f5f5f5;
+
+  --header-offset: 96px;   /* JS overwrites */
+  --anchor-buffer: 10px;   /* desktop */
 }
 
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3 {
+  scroll-margin-top: calc(var(--header-offset) + var(--anchor-buffer));
+}
+
+@media (max-width: 900px) {
+  :root { --anchor-buffer: 40px; }
+}
 * {
   box-sizing: border-box;
 }
@@ -1041,7 +1053,7 @@ nav.main-nav a.active {
 @media (max-width: 900px) {
   .wiki-toc {
     position: sticky;
-    top: calc(var(--header-offset, 90px) + 28px);
+    top: calc(var(--header-offset, 90px) + 4px);
     z-index: 10;
     margin-bottom: 14px;
     background: #fff;
@@ -1049,7 +1061,6 @@ nav.main-nav a.active {
     box-shadow: 0 10px 24px rgba(0,0,0,0.06);
   }
 
-  /* list hidden unless open (you already do this, keep it) */
   .wiki-toc-list {
     display: none;
     margin-top: 10px;
@@ -1071,13 +1082,7 @@ nav.main-nav a.active {
 /* Make anchor jumps account for sticky header */
 
 
-:root { --header-offset: 96px; }
 
-.wiki-content h1,
-.wiki-content h2,
-.wiki-content h3 {
-  scroll-margin-top: var(--header-offset);
-}
 
 
 
