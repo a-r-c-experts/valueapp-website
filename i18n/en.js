@@ -759,4 +759,13 @@ export const contentEn = {
     "wiki.search.noResults": "No results found. Try a different term or a simpler phrase.",
     "wiki.toc.title": "Contents",
     "wiki.toc.toggle": "Contents",
+
+    "wiki.nav.home": "Home",
+    "wiki.nav.introduction": "Introduction",
+    "wiki.nav.knowledgeBase": "Knowledge base",
+    "wiki.nav.workflows": "Workflows",
+    "wiki.nav.reference": "Reference",
+    "wiki.nav.examples": "Examples",
+    "wiki.nav.support": "Support"
+
   };

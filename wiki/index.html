@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="User-oriented documentation for the ValueApp: getting started, definitions, examples, tutorials and FAQ."
+    content="User-oriented documentation for the ValueApp: introduction, knowledge base, workflows, reference, examples and support."
   />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="stylesheet" href="/styles.css" />
@@ -27,7 +27,7 @@
       gap: 16px;
     }
     .wiki-hero-logo {
-      height: 80px;      /* wiki page banner logo */
+      height: 80px;
       width: auto;
       max-width: 100%;
       display: block;
@@ -108,11 +108,12 @@
           <div>
             <h1 data-i18n="wiki.home.title">ValueApp – User Wiki</h1>
             <p class="wiki-tagline" data-i18n="wiki.home.subtitle">
-              Explanations, examples and tutorials for using the ValueApp and the ETH Value Method in everyday planning practice.
+              Explanations, examples and practical guidance for using the ValueApp and the ETH Value Method in everyday planning practice.
             </p>
             <p class="wiki-last-updated" data-last-updated-target></p>
           </div>
         </div>
+
         <p class="hero-small-note" data-i18n="wiki.home.note">
           This wiki focuses on users (planners and clients). Technical details on embedding the widget live in a separate integration repository.
         </p>
@@ -122,46 +123,59 @@
     <section class="wiki-grid">
       <div>
         <article class="wiki-card">
-          <h2 data-i18n="wiki.home.section.quickstart.title">Where to begin</h2>
-          <p data-i18n="wiki.home.section.quickstart.text">
-            New to the ValueApp? Start with a short overview of the four steps in the application and how they relate to the ETH Value Method.
+          <h2 data-i18n="wiki.home.section.start.title">Start here</h2>
+          <p data-i18n="wiki.home.section.start.text">
+            New to the ValueApp? Begin with the introduction and the quick start, then follow the path that matches your goal.
           </p>
+
           <ul class="wiki-nav-list">
+            <li>
+              <a href="einfuehrung.html" data-i18n="wiki.home.link.introduction">
+                Introduction – what the ValueApp is and where to begin
+              </a>
+            </li>
             <li>
               <a href="getting-started.html" data-i18n="wiki.home.link.gettingStarted">
                 Getting started – four steps from project description to summary
               </a>
             </li>
             <li>
-              <a href="tutorial.html" data-i18n="wiki.home.link.tutorial">
-                Tutorial – step-by-step walkthrough with screenshots
+              <a href="workflows.html" data-i18n="wiki.home.link.workflows">
+                Workflows – practical step-by-step usage
               </a>
             </li>
           </ul>
-          <a href="getting-started.html" class="wiki-pill-link" data-i18n="wiki.home.cta.gettingStarted">
-            Go to Getting started
+
+          <a href="einfuehrung.html" class="wiki-pill-link" data-i18n="wiki.home.cta.introduction">
+            Go to Introduction
           </a>
         </article>
 
         <article class="wiki-card">
-          <h2 data-i18n="wiki.home.section.reference.title">Reference and background</h2>
-          <p data-i18n="wiki.home.section.reference.text">
-            For users who want to understand what the app does under the hood and how input fields, base models and adjustment factors relate to the method.
+          <h2 data-i18n="wiki.home.section.learn.title">Learn and look things up</h2>
+          <p data-i18n="wiki.home.section.learn.text">
+            If you want conceptual grounding, field explanations, or example projects, these chapters are the most useful.
           </p>
+
           <ul class="wiki-nav-list">
             <li>
-              <a href="definitions.html" data-i18n="wiki.home.link.definitions">
-                Definitions – core concepts and field explanations
+              <a href="wissensbasis.html" data-i18n="wiki.home.link.knowledgeBase">
+                Knowledge base – concepts, terminology, and why the app behaves the way it does
               </a>
             </li>
             <li>
-              <a href="examples.html" data-i18n="wiki.home.link.examples">
-                Examples – one simple and one complex project
+              <a href="referenz.html" data-i18n="wiki.home.link.reference">
+                Reference – inputs, parameters, result interpretation, integration notes, versions
               </a>
             </li>
             <li>
-              <a href="faq.html" data-i18n="wiki.home.link.faq">
-                FAQ – frequently asked questions from practice
+              <a href="beispiele.html" data-i18n="wiki.home.link.examples">
+                Examples – realistic scenarios and case pages
+              </a>
+            </li>
+            <li>
+              <a href="support.html" data-i18n="wiki.home.link.support">
+                Support – FAQ, glossary, help, best practices
               </a>
             </li>
           </ul>
@@ -196,7 +210,9 @@
       </aside>
     </section>
   </main>
+
   <div data-include="/wiki/partials/footer.html"></div>
+
   <!-- Shared footer -->
   <script src="/partials.js"></script>
   <script src="/wiki/wiki-version.js"></script>
@@ -204,7 +220,6 @@
   <script src="/wiki/wiki-last-updated.js"></script>
   <script src="/wiki/search.js"></script>
 
-  <link rel="stylesheet" href="../styles.css" />
   <script type="module" src="../i18n/lang-loader.js"></script>
   <script src="../lang.js"></script>
 </body>

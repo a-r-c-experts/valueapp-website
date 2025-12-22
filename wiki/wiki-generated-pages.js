@@ -21,7 +21,31 @@
       "fr": "/wiki/fr/examples.html"
     },
     "titleKey": "wiki.examples.title",
-    "navKey": "wiki.nav.examples",
+    "navKey": "examples",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "faq",
+    "urlByLang": {
+      "de": "/wiki/de/faq.html",
+      "en": "/wiki/en/faq.html",
+      "fr": "/wiki/fr/faq.html"
+    },
+    "titleKey": "wiki.faq.title",
+    "navKey": "faq",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "getting-started",
+    "urlByLang": {
+      "de": "/wiki/de/getting-started.html",
+      "en": "/wiki/en/getting-started.html",
+      "fr": "/wiki/fr/getting-started.html"
+    },
+    "titleKey": "wiki.gettingStarted.title",
+    "navKey": "getting-started",
     "lastUpdated": "2025-12-22",
     "searchable": true
   },
@@ -38,6 +62,30 @@
     "searchable": true
   },
   {
+    "id": "introduction",
+    "urlByLang": {
+      "de": "/wiki/de/introduction.html",
+      "en": "/wiki/en/introduction.html",
+      "fr": "/wiki/fr/introduction.html"
+    },
+    "titleKey": "wiki.introduction.title",
+    "navKey": "introduction",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "knowledge-base",
+    "urlByLang": {
+      "de": "/wiki/de/knowledge-base.html",
+      "en": "/wiki/en/knowledge-base.html",
+      "fr": "/wiki/fr/knowledge-base.html"
+    },
+    "titleKey": "wiki.knowledgeBase.title",
+    "navKey": "knowledge-base",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
     "id": "project-section",
     "urlByLang": {
       "de": "/wiki/de/project-section.html",
@@ -46,6 +94,30 @@
     },
     "titleKey": "wiki.projectSection.title",
     "navKey": "wiki.nav.projectSection",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "reference",
+    "urlByLang": {
+      "de": "/wiki/de/reference.html",
+      "en": "/wiki/en/reference.html",
+      "fr": "/wiki/fr/reference.html"
+    },
+    "titleKey": "wiki.reference.title",
+    "navKey": "reference",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "support",
+    "urlByLang": {
+      "de": "/wiki/de/support.html",
+      "en": "/wiki/en/support.html",
+      "fr": "/wiki/fr/support.html"
+    },
+    "titleKey": "wiki.support.title",
+    "navKey": "support",
     "lastUpdated": "2025-12-22",
     "searchable": true
   },
@@ -70,6 +142,18 @@
     },
     "titleKey": "wiki.whyValueApp.title",
     "navKey": "wiki.nav.whyValueApp",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "workflows",
+    "urlByLang": {
+      "de": "/wiki/de/workflows.html",
+      "en": "/wiki/en/workflows.html",
+      "fr": "/wiki/fr/workflows.html"
+    },
+    "titleKey": "wiki.workflows.title",
+    "navKey": "workflows",
     "lastUpdated": "2025-12-22",
     "searchable": true
   }

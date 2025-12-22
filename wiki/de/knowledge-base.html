@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – knowledge-base</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button
+      class="mobile-nav-toggle"
+      id="mobileNavToggle"
+      aria-label="Toggle navigation"
+    >
+      ☰
+    </button>
+
+    <!-- Main wiki navigation: chapter landing pages -->
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+
+      <a href="/wiki/einfuehrung.html" data-i18n="wiki.nav.introduction">
+        Introduction
+      </a>
+
+      <a href="/wiki/wissensbasis.html" data-i18n="wiki.nav.knowledgeBase">
+        Knowledge base
+      </a>
+
+      <a href="/wiki/workflows.html" data-i18n="wiki.nav.workflows">
+        Workflows
+      </a>
+
+      <a href="/wiki/referenz.html" data-i18n="wiki.nav.reference">
+        Reference
+      </a>
+
+      <a href="/wiki/beispiele.html" data-i18n="wiki.nav.examples">
+        Examples
+      </a>
+
+      <a href="/wiki/support.html" data-i18n="wiki.nav.support">
+        Support
+      </a>
+    </nav>
+
+    <!-- Language switcher -->
+    <div class="lang-switcher">
+      <button
+        class="lang-toggle"
+        id="langToggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Wissensbasis</h1>
+<p>Dieses Kapitel erklärt, <strong>warum sich die App so verhält, wie sie sich verhält</strong>. Wenn Sie nach Schritt-für-Schritt-Anleitungen suchen, wechseln Sie zu den <a href="workflows.html">Workflows</a>.</p>
+<h2>Zentrale Konzepte (bestehend)</h2>
+<p>Der zentrale konzeptionelle Einstiegspunkt ist die Dokumentation des Projekt-Bereichs:</p>
+<ul>
+<li><strong>Projektbereich</strong>: zentrale Begriffe, Eingaben und die dahinterliegende Logik.<br>→ <a href="project-section.html">Projektbereich öffnen</a></li>
+</ul>
+<h2>Inhalte in Vorbereitung</h2>
+<ul>
+<li><p><strong>Glossar der Begriffe und Abkürzungen</strong><br>Zum Beispiel BG, AF, LI und weitere feldbezogene Terminologie.</p>
+</li>
+<li><p><strong>Methodische Grundlagen</strong><br>Leadership Framework, Komplexitätsbewertung sowie Prognose- und Unsicherheitsintervalle.</p>
+</li>
+<li><p><strong>Benutzerrollen und Berechtigungen</strong><br>Planer/in, Auftraggebende, Administrator/in.</p>
+</li>
+<li><p><strong>Projektlebenszyklus</strong><br>Was in der App als „Projekt“ gilt, inklusive Phasen, Vorlagen und Status.</p>
+</li>
+<li><p><strong>Vertiefung Anpassungsfaktoren</strong><br>Qualitätsfaktoren sowie Projekt- und Prozessfaktoren, inklusive Interpretation in der Praxis.</p>
+</li>
+<li><p><strong>Typische Anwendungsfälle und Interpretationsmuster</strong><br>Wie Ergebnisse je nach Projektkontext und Zielsetzung zu lesen sind.</p>
+</li>
+</ul>
+<h2>Siehe auch</h2>
+<ul>
+<li><a href="einfuehrung.html">Einführung</a></li>
+<li><a href="workflows.html">Workflows</a></li>
+<li><a href="referenz.html">Referenz</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

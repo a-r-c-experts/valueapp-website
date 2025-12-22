@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – workflows</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button
+      class="mobile-nav-toggle"
+      id="mobileNavToggle"
+      aria-label="Toggle navigation"
+    >
+      ☰
+    </button>
+
+    <!-- Main wiki navigation: chapter landing pages -->
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+
+      <a href="/wiki/einfuehrung.html" data-i18n="wiki.nav.introduction">
+        Introduction
+      </a>
+
+      <a href="/wiki/wissensbasis.html" data-i18n="wiki.nav.knowledgeBase">
+        Knowledge base
+      </a>
+
+      <a href="/wiki/workflows.html" data-i18n="wiki.nav.workflows">
+        Workflows
+      </a>
+
+      <a href="/wiki/referenz.html" data-i18n="wiki.nav.reference">
+        Reference
+      </a>
+
+      <a href="/wiki/beispiele.html" data-i18n="wiki.nav.examples">
+        Examples
+      </a>
+
+      <a href="/wiki/support.html" data-i18n="wiki.nav.support">
+        Support
+      </a>
+    </nav>
+
+    <!-- Language switcher -->
+    <div class="lang-switcher">
+      <button
+        class="lang-toggle"
+        id="langToggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Workflows</h1>
+<p>Ce chapitre est dédié à l’usage concret : <strong>comment effectuer des actions dans l’application</strong>, étape par étape, sans détours théoriques.</p>
+<h2>Tutoriels (existant)</h2>
+<ul>
+<li><strong>Tutoriel</strong> : parcours guidé avec captures d’écran et indications pratiques.<br>→ <a href="tutorial.html">Ouvrir le tutoriel</a></li>
+</ul>
+<h2>Guides de workflow prévus</h2>
+<p>Ces pages seront ajoutées au fur et à mesure de l’évolution du wiki :</p>
+<ul>
+<li><strong>Créer un nouveau projet</strong></li>
+<li><strong>Partager ou communiquer les résultats</strong></li>
+<li><strong>Exporter les résultats</strong></li>
+<li><strong>Dépannage et problèmes fréquents</strong><br>Aide courte pour les blocages courants.</li>
+</ul>
+<h2>Où aller ensuite</h2>
+<ul>
+<li><p>Besoin de définitions et de bases conceptuelles ?<br>→ <a href="wissensbasis.html">Base de connaissances</a></p>
+</li>
+<li><p>Besoin d’explications champ par champ et d’interprétation des résultats ?<br>→ <a href="referenz.html">Référence</a></p>
+</li>
+<li><p>Préférez apprendre à partir d’exemples concrets ?<br>→ <a href="beispiele.html">Exemples</a></p>
+</li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

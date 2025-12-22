@@ -25,25 +25,56 @@
       </span>
     </div>
 
-    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+    <button
+      class="mobile-nav-toggle"
+      id="mobileNavToggle"
+      aria-label="Toggle navigation"
+    >
       ☰
     </button>
 
+    <!-- Main wiki navigation: chapter landing pages -->
     <nav class="main-nav">
       <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
-      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
-      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
-      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
-      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
-      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+
+      <a href="/wiki/einfuehrung.html" data-i18n="wiki.nav.introduction">
+        Introduction
+      </a>
+
+      <a href="/wiki/wissensbasis.html" data-i18n="wiki.nav.knowledgeBase">
+        Knowledge base
+      </a>
+
+      <a href="/wiki/workflows.html" data-i18n="wiki.nav.workflows">
+        Workflows
+      </a>
+
+      <a href="/wiki/referenz.html" data-i18n="wiki.nav.reference">
+        Reference
+      </a>
+
+      <a href="/wiki/beispiele.html" data-i18n="wiki.nav.examples">
+        Examples
+      </a>
+
+      <a href="/wiki/support.html" data-i18n="wiki.nav.support">
+        Support
+      </a>
     </nav>
 
+    <!-- Language switcher -->
     <div class="lang-switcher">
-      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+      <button
+        class="lang-toggle"
+        id="langToggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
         <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
         <span class="lang-current" id="currentLangLabel">EN</span>
         <span class="lang-chevron">▾</span>
       </button>
+
       <div class="lang-menu" id="langMenu" aria-label="Select language">
         <button class="lang-option" data-lang="en">EN</button>
         <button class="lang-option" data-lang="de">DE</button>
@@ -51,7 +82,7 @@
       </div>
     </div>
 
-    <!-- Simple search box -->
+    <!-- Search -->
     <form class="wiki-search" id="wikiSearchForm" role="search">
       <input
         type="search"
@@ -68,164 +99,29 @@
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
 <h1>Beispiele</h1>
-<p>Beispiele helfen, Erwartungen zu kalibrieren und zeigen, wie Eingaben in der ValueApp die Ergebnisse beeinflussen.<br>Sie demonstrieren, wie <strong>Determinanten</strong>, <strong>Nutzungmix</strong> und <strong>Komplexität</strong> in Aufwandskorridore übersetzt werden.</p>
-<p>Wenn Sie neu sind, starten Sie mit <a href="getting-started.html">Einstieg</a> und kommen Sie anschliessend hierher zurück, sobald Sie den Grundablauf verstanden haben.</p>
-<hr>
-<h2>Wofür diese Beispiele gedacht sind</h2>
-<p>Diese Beispiele sollen:</p>
+<p>Dieses Kapitel zeigt <strong>realistische Anwendungsszenarien</strong>, damit Sie Ihr Projekt mit konkreten Referenzen vergleichen können.</p>
+<h2>Beispiele (bestehend)</h2>
 <ul>
-<li>zeigen, wie ein reales Projekt in Determinanten, Nutzungsmix und Komplexität übersetzt wird,</li>
-<li>demonstrieren, wie Anpassungsfaktoren die Resultate verschieben,</li>
-<li>Referenzpunkte für Diskussionen mit Auftraggeber:innen und Teams liefern,</li>
-<li>veranschaulichen, was „plausibel“ in der Praxis bedeutet.</li>
+<li><strong>Beispiele</strong>: ein einfaches und ein komplexes Projekt.<br>→ <a href="examples.html">Beispiele öffnen</a></li>
 </ul>
-<p>Sie sind keine Vorlagen zum 1:1-Kopieren, sondern <strong>Muster, die auf eigene Projekte angepasst</strong> werden.</p>
-<hr>
-<h2>Empfohlene Lesereihenfolge</h2>
-<ol>
-<li>Lesen Sie <a href="definitions.html">Definitionen und zentrale Konzepte</a>, falls Begriffe wie LI, Determinante oder AF<sub>Qualität</sub> neu sind.</li>
-<li>Sehen Sie <a href="how-it-works.html">Wie die App funktioniert</a> durch, um die konzeptionelle Logik zu verstehen.</li>
-<li>Vergleichen Sie Ihr Projekt mit den Beispielen unten.</li>
-<li>Nutzen Sie das <a href="tutorial.html">Tutorial</a>, um die Schritte in der Anwendung umzusetzen.</li>
-</ol>
-<hr>
-<h2>Beispiel 1 – Einfache Machbarkeitsstudie / Wettbewerb</h2>
-<p><em>Kleines Wohnprojekt, klare Aufgabe, wenige Stakeholder, tiefe bis mittlere Komplexität.</em></p>
-<h3>Schritt 1 – Beschrieb</h3>
-<p>Das Projekt ist ein kleines Wohngebäude mit ca. <strong>100 m² Bruttogeschossfläche (GF)</strong>.<br>Die Aufgabe besteht darin, die Machbarkeit zu prüfen und ein Konzept für eine mögliche Baueingabe oder einen Wettbewerbsbeitrag zu erarbeiten.</p>
-<p>Die Bauherrschaft ist eine private Auftraggeber:in mit Standardterminprogramm und ohne besondere vertragliche Einschränkungen.</p>
-<p>Im Tab <strong>Beschrieb</strong>:</p>
+<h2>Geplante Fallstudien</h2>
 <ul>
-<li>verwenden Sie einen klaren Projekttitel und erfassen die Adresse,</li>
-<li>setzen Sie den Status auf <em>In Planung</em>,</li>
-<li>beschreiben Sie die Aufgabe in einem kurzen Absatz (Ausgangslage, Ziel der Studie, zentrale Rahmenbedingungen),</li>
-<li>wählen Sie ein Organisationsmodell mit Einzelplaner:innen und ohne Generalunternehmer.</li>
+<li><strong>Einfaches Projekt</strong></li>
+<li><strong>Komplexes Projekt</strong></li>
+<li><strong>Sonder- und Grenzfälle</strong><ul>
+<li>Ungewöhnliche Eingaben</li>
+<li>Projekte mit mehreren Disziplinen</li>
 </ul>
-<h3>Schritt 2 – Projekt</h3>
-<p>Im Tab <strong>Projekt</strong> erfassen Sie eine Bruttogeschossfläche von <strong>100 m²</strong>.<br>Die Hauptnutzung ist <em>Wohnen</em>, zum Beispiel:</p>
-<ul>
-<li>Wohnen – 95 % der GF  </li>
-<li>Wohnen 2 – 5 % der GF (z. B. Nebenräume zum Wohnen)</li>
+</li>
 </ul>
-<p>Die Komplexität liegt überwiegend im Bereich <strong>einfach bis kompliziert</strong>: typische Wohnnutzung, bekannte Rahmenbedingungen, keine speziellen technischen Systeme.</p>
-<p>Die meisten Herausforderungen werden im Leadership Framework im Bereich <em>einfach / kompliziert</em> positioniert,<br>und der Risikograd wird auf <strong>Keine spez. Anforderungen</strong> gesetzt.</p>
-<h3>Schritt 3 – Leistung</h3>
-<p>Als Architekt:in wählen Sie die Rolle <strong>Architekt/in</strong> und Schwerpunkte wie Entwurf und frühe Kostenplanung.</p>
-<p>Die Anwendung berechnet insgesamt rund <strong>300 Stunden</strong> für 100 % Grundleistungen,<br>mit Schwerpunkt in den Phasen 2 und 3 (Vorstudie und Projektierung) und weniger Stunden in der Ausführung.</p>
-<h3>Schritt 4 – Zusammenfassung</h3>
-<p>Die Zusammenfassung bietet einen kompakten Überblick: Projektbeschrieb, organisatorisches Setup, Nutzungsmix, Aufwand pro m² und Stunden pro Phase.</p>
-<p>Für Machbarkeitsstudien oder Wettbewerbe kann diese Seite internen Planungsunterlagen beigefügt<br>oder als Grundlage für Honorarbesprechungen genutzt werden.</p>
-<div class="wiki-highlight-box">
-  <strong>Was dieses Beispiel zeigt</strong>
-  <p>
-    Auch bei kleinen, relativ einfachen Projekten nutzt die ValueApp die gleichen Basismodelle
-    und die gleiche Komplexitätslogik. Der resultierende Aufwand ist überschaubar,
-    aber vollständig nachvollziehbar und mit grösseren Projekten vergleichbar.
-  </p>
-</div>
-
-<hr>
-<h2>Beispiel 2 – Bildungsbau (Kindergarten)</h2>
-<p><em>Bildungsbau mit klarer Funktion, aber höherer gestalterischer, organisatorischer und räumlicher Komplexität.</em></p>
-<h3>Kontext und Datengrundlage</h3>
-<p>Dieses Beispiel basiert auf einem realisierten Kindergartenprojekt.<br>Das Gebäude gehört zur Nutzungsgruppe <strong>Lernen / Forschen</strong> und ist Teil der Datengrundlage<br>für das entsprechende Basismodell.</p>
-<p><img src="/wiki-assets/education-model-chart.jpeg" alt="Basismodell-Diagramm für Bildungsbauten"></p>
-<p><em>Bildungs- und Forschungsbauten mit Prognoseintervallen für den Planungsaufwand.</em></p>
-<h3>Schritt 1 – Beschrieb</h3>
-<p>Der Tab <strong>Beschrieb</strong> enthält eine strukturierte Projektbeschreibung:</p>
+<h2>Wohin als Nächstes?</h2>
 <ul>
-<li>Lage und Auftraggeber:in,</li>
-<li>Kontext (z. B. Quartier, Aussenräume),</li>
-<li>pädagogisches Konzept,</li>
-<li>besondere Anforderungen wie Inklusion, flexible Räume oder spezifische Sicherheitsvorgaben.</li>
-</ul>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>Projektbeschrieb in der ValueApp für das Kindergarten-Beispiel.</em></p>
-<h3>Schritt 2 – Projekt</h3>
-<p>Die determinierende Grösse ist die <strong>Bruttogeschossfläche</strong> des Kindergartens.<br>Die gesamte GF wird der Nutzung <strong>Lernen / Forschen</strong> zugeordnet, wodurch das Projekt direkt mit dem Bildungs-Basismodell verknüpft wird.</p>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>Projekt-Tab mit 100 % der Bruttogeschossfläche in Lernen / Forschen.</em></p>
-<p>Die Komplexität wird höher eingeschätzt als im Wohnbeispiel:</p>
-<ul>
-<li>anspruchsvolle räumliche Organisation,</li>
-<li>pädagogisches Konzept,</li>
-<li>Einbettung in einen bestehenden Kontext,</li>
-<li>Koordination mehrerer Stakeholder.</li>
-</ul>
-<p>Mehrere Herausforderungen werden im Leadership Framework im Bereich <strong>komplex</strong> positioniert.</p>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>Herausforderungen im Leadership Framework; der Schwerpunkt ergibt den Anpassungsfaktor.</em></p>
-<h3>Schritt 3 – Leistung</h3>
-<p>Das Büro übernimmt je nach Setup die Rolle <strong>Architekt/in</strong> oder <strong>Architekt/in &amp; Generalplaner/in</strong>.</p>
-<p>Schwerpunkte sind Entwurf, Koordination mit Fachplanenden, Bauleitung und Kostenplanung.</p>
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p><em>Berechnete Stunden für 100 % Grundleistungen und deren Verteilung über die SIA-Phasen.</em></p>
-<p>Der Gesamtaufwand ist deutlich höher als im einfachen Beispiel,<br>sowohl aufgrund der grösseren GF als auch wegen des höheren Anpassungsfaktors.</p>
-<p>Die Phasen <strong>3–5</strong> (Projektierung, Ausschreibung und Ausführung) tragen den Hauptanteil am Aufwand.</p>
-<h3>Schritt 4 – Zusammenfassung</h3>
-<p>Die Zusammenfassung zeigt den Kindergarten als Referenzprojekt mit:</p>
-<ul>
-<li>klar dokumentierten Determinanten,</li>
-<li>expliziter Komplexitätsbeurteilung,</li>
-<li>resultierender Aufwandsverteilung.</li>
-</ul>
-<p>Solche Übersichten eignen sich als interne Benchmarks,<br>für transparente Honorarbesprechungen oder in öffentlichen Vergabeverfahren.</p>
-<div class="wiki-highlight-box">
-  <strong>Was dieses Beispiel zeigt</strong>
-  <p>
-    Komplexität und Kontext sind entscheidend. Selbst bei gleicher determinierender Grösse
-    kann der aus dem Leadership Framework abgeleitete Anpassungsfaktor den erwarteten Aufwand
-    deutlich verschieben. Dieses Beispiel zeigt, wie diese Verschiebung transparent dokumentiert wird.
-  </p>
-</div>
-
-<div class="wiki-highlight-box">
-  <strong>Datenherkunft</strong>
-  <p>
-    Realisierte Projekte werden in einem separaten Daten- und Referenzsystem dokumentiert.
-    Diese Datensätze speisen die statistischen Basismodelle hinter der ValueApp.
-  </p>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/werk-material-kindergarten.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-  <div class="wiki-img-caption">
-    Beispiel eines Projekteintrags in der zugrunde liegenden Referenzdatenbank (illustrativ).
-  </div>
-</div>
-
-<hr>
-<h2>Welche weiteren Beispiele später ergänzt werden können</h2>
-<p>Um das Wiki (und zukünftige Chatbot-Retrieval) weiter zu stärken, können Sie ergänzen:</p>
-<ul>
-<li>ein komplexes <strong>Mischnutzungsprojekt</strong> (mehrere Basismodelle),</li>
-<li>ein <strong>prozesslastiges</strong> Projekt (ungewöhnliche Vergabe oder Kollaboration),</li>
-<li>einen Grenzfall mit ungewöhnlichen, aber realistischen Eingaben.</li>
-</ul>
-<hr>
-<h2>Siehe auch</h2>
-<ul>
-<li><a href="definitions.html">Definitionen und zentrale Konzepte</a>  </li>
-<li><a href="project-section.html">Projekt-Bereich</a>  </li>
-<li><a href="how-it-works.html">Wie die App funktioniert</a>  </li>
-<li><a href="tutorial.html">Tutorial</a>  </li>
-<li><a href="why-valueapp.html">Warum es die ValueApp gibt</a></li>
+<li><p>Möchten Sie eine Schritt-für-Schritt-Anleitung?<br>→ <a href="workflows.html">Workflows</a></p>
+</li>
+<li><p>Möchten Sie die konzeptionellen Hintergründe zu Eingaben und Faktoren verstehen?<br>→ <a href="wissensbasis.html">Wissensbasis</a></p>
+</li>
+<li><p>Möchten Sie eine Feld-für-Feld-Referenz und Ergebnisinterpretation?<br>→ <a href="referenz.html">Referenz</a></p>
+</li>
 </ul>
 
       </section>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – faq</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button
+      class="mobile-nav-toggle"
+      id="mobileNavToggle"
+      aria-label="Toggle navigation"
+    >
+      ☰
+    </button>
+
+    <!-- Main wiki navigation: chapter landing pages -->
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+
+      <a href="/wiki/einfuehrung.html" data-i18n="wiki.nav.introduction">
+        Introduction
+      </a>
+
+      <a href="/wiki/wissensbasis.html" data-i18n="wiki.nav.knowledgeBase">
+        Knowledge base
+      </a>
+
+      <a href="/wiki/workflows.html" data-i18n="wiki.nav.workflows">
+        Workflows
+      </a>
+
+      <a href="/wiki/referenz.html" data-i18n="wiki.nav.reference">
+        Reference
+      </a>
+
+      <a href="/wiki/beispiele.html" data-i18n="wiki.nav.examples">
+        Examples
+      </a>
+
+      <a href="/wiki/support.html" data-i18n="wiki.nav.support">
+        Support
+      </a>
+    </nav>
+
+    <!-- Language switcher -->
+    <div class="lang-switcher">
+      <button
+        class="lang-toggle"
+        id="langToggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Frequently asked questions</h1>
+<p>A selection of recurring questions from practice.<br>If you are looking for step-by-step instructions, see the <a href="tutorial.html">Tutorial</a>.</p>
+<h2>General</h2>
+<h3>Does the ValueApp replace fee regulations such as SIA LHO?</h3>
+<p>No. The ValueApp implements the ETH Value Method and provides transparent, traceable effort ranges based on determinants and complexity. It can be used together with fee regulations such as SIA LHO to derive fair, non-discriminatory fee offers.</p>
+<h3>Why does the app not use construction costs as input?</h3>
+<p>Construction costs depend on market conditions, timing, and procurement strategies and can introduce distortions. The Value Method uses determinants such as gross floor area that are easier to document and compare across projects.</p>
+<h3>Is the output a fixed number of hours or a range?</h3>
+<p>The base models provide prediction intervals, not a single pseudo-precise value. Adjustment factors and user inputs lead to a plausible range that can be translated into planning assumptions and fee models.</p>
+<h2>Using the app</h2>
+<h3>How detailed should the project description be?</h3>
+<p>Aim for one short paragraph covering the starting situation, task, and key constraints. The description should be clear enough that someone else can understand the project and interpret the hours a year later.</p>
+<h3>How do I deal with mixed uses (e.g. housing and retail)?</h3>
+<p>Enter the total gross floor area and assign percentages to the relevant uses. The app combines the corresponding base models according to the mix. If one use is very minor, you can decide whether modelling it separately adds value.</p>
+<h3>What if I am unsure about the complexity assessment?</h3>
+<p>Start with your best estimate and briefly document your reasoning in the challenges. You can adjust the position in the leadership framework and observe how results change. Transparency matters more than hitting a “perfect” value.</p>
+<h3>Can I override the hours per phase?</h3>
+<p>Yes. The suggested distribution reflects typical patterns. If your project deviates, you can adjust the percentages. It is good practice to document the reason.</p>
+<h2>Technical and data</h2>
+<h3>How often are the base models updated?</h3>
+<p>Base models are updated periodically with new realised projects and refined as more data becomes available. This keeps effort ranges aligned with contemporary practice.</p>
+<h3>Can the ValueApp be integrated into our own IT systems?</h3>
+<p>Yes. The core logic can be embedded as a widget into external platforms and client portals. Technical documentation and examples are available in the integration repository.</p>
+<h3>Where can I report bugs or suggest improvements?</h3>
+<p>Use the <strong>Feedback</strong> button in the app to open a short form. You can describe the issue and reference a specific project or screenshot if needed.</p>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

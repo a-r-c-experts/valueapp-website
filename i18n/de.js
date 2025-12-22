@@ -764,4 +764,12 @@ export const contentDe = {
     "wiki.search.noResults": "Keine Treffer. Versuchen Sie einen anderen oder allgemeineren Begriff.",
     "wiki.toc.title": "Inhalt",
     "wiki.toc.toggle": "Inhalt",
+
+    "wiki.nav.home": "Startseite",
+    "wiki.nav.introduction": "Einführung",
+    "wiki.nav.knowledgeBase": "Wissensbasis",
+    "wiki.nav.workflows": "Workflows",
+    "wiki.nav.reference": "Referenz",
+    "wiki.nav.examples": "Beispiele",
+    "wiki.nav.support": "Support"
       };

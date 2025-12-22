@@ -853,4 +853,11 @@ export const contentFr = {
     "Aucun résultat. Essayez un autre terme ou une formulation plus simple.",
   "wiki.toc.title": "Sommaire",
   "wiki.toc.toggle": "Sommaire",
+  "wiki.nav.home": "Accueil",
+  "wiki.nav.introduction": "Introduction",
+  "wiki.nav.knowledgeBase": "Base de connaissances",
+  "wiki.nav.workflows": "Flux de travail",
+  "wiki.nav.reference": "Référence",
+  "wiki.nav.examples": "Exemples",
+  "wiki.nav.support": "Support"
 };
