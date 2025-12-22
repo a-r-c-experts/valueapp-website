@@ -1115,7 +1115,7 @@ nav.main-nav a.active {
 
 /* Phone: smaller (or hide entirely below) */
 @media (max-width: 900px) {
-  .wiki-hero-logo {
-    height: 44px;
+  .brand-logo-link {
+    display: none;
   }
 }
