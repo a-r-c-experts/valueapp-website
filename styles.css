@@ -717,12 +717,19 @@ footer .footer-inner {
   }
 }
 
-/* Logo sizes */
-.brand-logo-link img {
-  height: 120px;      /* bump header icon */
+/* Logo sizing: use the real class and win specificity wars */
+.brand-logo-link .wiki-hero-logo {
+  height: 120px;      /* desktop bigger */
   width: auto;
-  max-width: 100%;
   display: block;
+  object-fit: contain;
+}
+
+/* Make brand area sit nicely */
+.brand-logo-link {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
 }
 
 .wiki-search {
@@ -1010,37 +1017,22 @@ nav.main-nav a.active {
 
 /* ---------- MOBILE BEHAVIOUR ---------- */
 @media (max-width: 900px) {
-  /* the TOC container stays visible so the button is visible */
   .wiki-toc {
-    display: block;
+    position: sticky;
+    top: calc(var(--header-offset, 90px) + 8px);
+    z-index: 10;
     margin-bottom: 14px;
-    position: static;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.06);
   }
 
-  .wiki-toc-toggle {
-  font-size: 1rem;
-  line-height: 1;
-  padding: 4px 8px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: #ffffff;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.wiki-toc-toggle:hover {
-  background: var(--chip-bg);
-}
-
-  /* hide list by default */
+  /* list hidden unless open (you already do this, keep it) */
   .wiki-toc-list {
     display: none;
     margin-top: 10px;
   }
 
-  /* show list when open */
   .wiki-toc.is-open .wiki-toc-list {
     display: block;
   }
@@ -1115,7 +1107,54 @@ nav.main-nav a.active {
 
 /* Phone: smaller (or hide entirely below) */
 @media (max-width: 900px) {
-  .brand-logo-link {
+  .top-bar {
+    flex-wrap: nowrap;        /* keep first row tight */
+    gap: 10px;
+  }
+
+  .brand-logo-link .wiki-hero-logo {
+    height: 44px;             /* phone size */
+  }
+
+  .brand-text-only {
+    flex: 1 1 auto;
+    min-width: 0;             /* allow truncation */
+  }
+
+  .brand-line-main,
+  .brand-line-sub {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #mobileNavToggle {
+    margin-left: auto;        /* push burger to the right */
+  }
+
+  /* Hide the big nav links, burger toggles them */
+  .main-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin-left: 0;
+    padding: 8px 18px 12px;
+    background: #ffffff;
+    border-bottom: 1px solid var(--border);
     display: none;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    z-index: 15;
+  }
+
+  .main-nav.open {
+    display: flex;
+  }
+
+  /* Put language + search below if you want */
+  .lang-switcher,
+  .wiki-search {
+    display: none; /* optional: remove if you want them visible */
   }
 }
