@@ -7,6 +7,8 @@
    * Helpers: language + wiki URL
    * --------------------------- */
 
+  const SUPPORTED_WIKI_LANGS = ["en", "de", "fr"];
+
   function getCurrentLang() {
     if (typeof window.getStoredLanguage === "function") {
       return window.getStoredLanguage();
@@ -25,7 +27,7 @@
     return (
       parts.length >= 3 &&
       parts[0] === "wiki" &&
-      (parts[1] === "en" || parts[1] === "de")
+      SUPPORTED_WIKI_LANGS.includes(parts[1])
     );
   }
 
@@ -33,13 +35,8 @@
     const pathname = window.location.pathname;
     const parts = pathname.split("/").filter(Boolean);
 
-    // Only rewrite URLs if we're on /wiki/en/... or /wiki/de/...
-    if (
-      parts.length >= 3 &&
-      parts[0] === "wiki" &&
-      (parts[1] === "en" || parts[1] === "de")
-    ) {
-      // Replace the language segment (en/de)
+    // Only rewrite URLs if we're on /wiki/{lang}/...
+    if (parts.length >= 3 && parts[0] === "wiki" && SUPPORTED_WIKI_LANGS.includes(parts[1])) {
       parts[1] = lang;
       return "/" + parts.join("/");
     }
@@ -102,7 +99,7 @@
     if (!nav) return;
 
     const links = nav.querySelectorAll("a[data-i18n]");
-    const localizedBase = "/wiki/" + lang; // /wiki/en or /wiki/de
+    const localizedBase = "/wiki/" + lang; // /wiki/en, /wiki/de, /wiki/fr
 
     links.forEach((a) => {
       const key = a.getAttribute("data-i18n");
@@ -127,7 +124,6 @@
           a.href = localizedBase + "/tutorial.html";
           break;
         default:
-          // nav items on the main site use other keys; ignore
           break;
       }
     });
@@ -169,7 +165,7 @@
     options.forEach((btn) => {
       btn.addEventListener("click", (ev) => {
         ev.preventDefault();
-        const lang = btn.getAttribute("data-lang");
+        const lang = (btn.getAttribute("data-lang") || "").toLowerCase();
         if (!lang) return;
 
         if (typeof window.setStoredLanguage === "function") {
@@ -178,13 +174,13 @@
           document.documentElement.lang = lang;
         }
 
-        // If we are on a localized wiki HTML page (/wiki/en/... or /wiki/de/...)
+        // If we are on a localized wiki HTML page (/wiki/{lang}/...)
         // redirect to the same slug in the other language
         if (isWikiPage()) {
           const targetUrl = buildWikiUrlForLang(lang);
           if (targetUrl && targetUrl !== window.location.pathname) {
             window.location.href = targetUrl;
-            return; // page will reload, no need to applyTranslations here
+            return;
           }
         }
 
@@ -227,9 +223,6 @@
     window.applyTranslations();
   }
 
-  // main page: header already in DOM
   document.addEventListener("DOMContentLoaded", initI18nAndNav);
-
-  // wiki pages: header injected via partials.js
   document.addEventListener("partials:loaded", initI18nAndNav);
 })();

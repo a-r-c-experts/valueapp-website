@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – why-valueapp.de</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Warum es die ValueApp gibt</h1>
+<h2>Das Problem in der Praxis</h2>
+<p>Planungsaufwand wird in frühen Phasen oft mit zu wenig belastbaren Grundlagen diskutiert:</p>
+<ul>
+<li>Baukosten sind noch unsicher, trotzdem soll ein Aufwand „irgendwie“ hergeleitet werden.</li>
+<li>Vergleichsprojekte existieren, aber sie sind selten sauber dokumentiert oder direkt vergleichbar.</li>
+<li>Komplexität wird gefühlt statt strukturiert beschrieben (und später wundert man sich über Abweichungen).</li>
+<li>Kommunikation zwischen Auftraggebenden, Planungsteams und internen Stellen bleibt vage.</li>
+</ul>
+<p>Das führt zu klassischen Folgen: Fehlannahmen, Reibungsverluste, schlechte Erwartungssteuerung und unnötige Iterationsschleifen.</p>
+<h2>Was die ValueApp anders macht</h2>
+<p>Die ValueApp verbindet die ETH Value Method mit einer klaren Nutzerführung. Sie basiert auf:</p>
+<ol>
+<li><p><strong>Messbaren Determinanten</strong><br>Statt „Kosten“ stehen Größen wie m² Bruttogeschossfläche im Mittelpunkt.</p>
+</li>
+<li><p><strong>Referenzbasierten Grundmodellen</strong><br>Aufwandbereiche werden aus realisierten Projekten abgeleitet (mit Bandbreiten statt Scheingenauigkeit).</p>
+</li>
+<li><p><strong>Strukturierter Komplexitätsbeschreibung</strong><br>Komplexität wird in Dimensionen beschrieben (Gestaltung, Technik, Raum, Organisation) und über das Leadership Framework systematisiert.</p>
+</li>
+<li><p><strong>Transparenter Dokumentation</strong><br>Eingaben, Annahmen und Resultate werden so dargestellt, dass sie kommunizierbar und prüfbar sind.</p>
+</li>
+</ol>
+<h2>Typische Anwendungsfälle</h2>
+<ul>
+<li><strong>Frühe Projektphasen:</strong> Aufwandbandbreiten für Entscheidungs- und Angebotsprozesse</li>
+<li><strong>Plausibilisierung:</strong> Vergleich zwischen Projekten, Varianten, Nutzungsmix</li>
+<li><strong>Kommunikation:</strong> Gemeinsame Sprache für Komplexität und Erwartungssteuerung</li>
+<li><strong>Interne Steuerung:</strong> grobe Kapazitäts- und Phasenplanung (je nach Organisation)</li>
+</ul>
+<h2>Abgrenzung zu Kosten- oder Honorar-Tools</h2>
+<p>Die ValueApp ist kein Kosten- und kein Honorarrechner.</p>
+<ul>
+<li><strong>Kosten-/Honorar-Tools</strong>: meist „Kosten → Honorar“, stark abhängig von Kostenkennwerten und Projektdefinition  </li>
+<li><strong>ValueApp</strong>: „Determinante + Referenzdaten + Komplexität → Aufwand (h)“, mit Fokus auf Transparenz und Plausibilität</li>
+</ul>
+<p>Das bedeutet: Die ValueApp kann eine Honorarverhandlung unterstützen, ersetzt aber nicht Leistungsdefinitionen, Vertragslogik oder projektspezifische Abgrenzungen.</p>
+<h2>Warum Bandbreiten wichtig sind</h2>
+<p>In frühen Phasen ist „eine Zahl“ fast immer eine Falle.<br>Bandbreiten helfen, Unsicherheit sichtbar zu machen, statt sie zu verstecken.</p>
+<p>Die App zielt daher auf:</p>
+<ul>
+<li>nachvollziehbare Intervalle</li>
+<li>vergleichbare Kennwerte</li>
+<li>dokumentierte Annahmen</li>
+</ul>
+<h2>Weiterführende Seiten</h2>
+<ul>
+<li><strong>Wie die App funktioniert:</strong> Datenfluss und Logik: <a href="how-it-works.html">how-it-works.html</a>  </li>
+<li><strong>Erste Schritte:</strong> Einstieg in den Workflow: <a href="getting-started.html">getting-started.html</a>  </li>
+<li><strong>FAQ:</strong> typische Fragen aus der Praxis: <a href="faq.html">faq.html</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

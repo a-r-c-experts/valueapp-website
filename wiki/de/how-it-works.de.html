@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – how-it-works.de</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Wie die App funktioniert</h1>
+<h2>Kurzfassung</h2>
+<p>Die ValueApp schätzt den Planungsaufwand (Stunden) für Disziplinen und Phasen auf Basis von <strong>messbaren Determinanten</strong> (z. B. Bruttogeschossfläche) und <strong>projektbezogener Komplexität</strong>.<br>Statt „Baukosten → Honorar“ arbeitet die App mit: <strong>Referenzdaten → Basisaufwand → Anpassungsfaktoren → Stunden je Phase → Zusammenfassung</strong>.</p>
+<h2>Datenfluss in vier Schritten</h2>
+<h3>1. Beschrieb: Kontext und Organisation</h3>
+<p>Im Schritt <strong>Beschrieb</strong> erfassen Sie:</p>
+<ul>
+<li>Projekttitel, Adresse, Status (z. B. Studie, Vorprojekt, Ausführung)</li>
+<li>eine kurze Projektbeschreibung (Randbedingungen, Besonderheiten)</li>
+<li>die organisatorische Einordnung (z. B. Einzelplaner, Generalplaner, GU/TU)</li>
+</ul>
+<p><strong>Warum das wichtig ist:</strong><br>Kontext und Organisation beeinflussen die Interpretation der Resultate (z. B. Verantwortlichkeiten, Schnittstellen, Kommunikationsaufwand).</p>
+<h3>2. Projekt: Determinante, Nutzungsmix und Komplexität</h3>
+<p>Im Schritt <strong>Projekt</strong> definieren Sie die Grundlage der Berechnung:</p>
+<ul>
+<li><strong>Determinante</strong> (typisch: m² Bruttogeschossfläche)</li>
+<li><strong>Nutzung(en)</strong> bzw. Nutzungsmix (z. B. Wohnen, Arbeiten, Lernen/Forschen)</li>
+<li><strong>Komplexität</strong> in vier Dimensionen: Gestaltung, Technik, Raum, Organisation</li>
+</ul>
+<p>Die App verknüpft die Eingaben mit einem <strong>Grundmodell</strong> (Referenzdaten) und leitet daraus einen Basisaufwand (LI) ab.<br>Die Komplexitätsbeurteilung wird im <strong>Leadership Framework for Decision Making</strong> positioniert und führt zu einem <strong>Anpassungsfaktor (AF)</strong>.</p>
+<h3>3. Leistung: Rolle, Schwerpunkte und Phasenverteilung</h3>
+<p>Im Schritt <strong>Leistung</strong> wählen Sie:</p>
+<ul>
+<li>Ihre Rolle (z. B. Architektur, Architektur &amp; Generalplanung)</li>
+<li>Schwerpunktthemen (falls vorgesehen)</li>
+<li>die Verteilung über die Phasen (z. B. SIA 1–6)</li>
+</ul>
+<p><strong>Ergebnis:</strong> Stunden je Phase (und je Disziplin, falls relevant) auf Basis:</p>
+<ul>
+<li>Basisaufwand (Grundmodell + Determinante)</li>
+<li>Anpassungsfaktor(en) aus Komplexität/Qualität/Projekt- und Prozessaspekten</li>
+</ul>
+<h3>4. Zusammenfassung: Resultate, Dokumentation, Export</h3>
+<p>Die <strong>Zusammenfassung</strong> ist die „kommunizierbare“ Ebene:</p>
+<ul>
+<li>Kerndaten (Menge, Nutzungsmix, Organisation)</li>
+<li>Aufwandkennwerte (z. B. Stunden / m², Bandbreiten)</li>
+<li>Stunden je Phase und ggf. Hinweise zur Interpretation</li>
+</ul>
+<p>Diese Seite ist für <strong>Angebote, interne Plausibilisierung, Beschaffung</strong> gedacht (je nach Nutzungskontext).</p>
+<h2>Berechnungslogik in einem Satz</h2>
+<p>Vereinfacht:</p>
+<p><strong>Aufwand (h) = Basisaufwand LI (h) × Determinante × AF_Qualität × AF_(Projekt/Prozess)</strong></p>
+<ul>
+<li><strong>LI</strong> stammt aus dem Grundmodell (Referenzdaten) und ist „Aufwand pro Einheit“.</li>
+<li><strong>AF</strong> verschiebt das Ergebnis abhängig von Komplexität und Kontext.</li>
+</ul>
+<h2>Was die Resultate sind und was nicht</h2>
+<p><strong>Die Resultate sind:</strong></p>
+<ul>
+<li>eine transparente, nachvollziehbare <strong>Schätzung</strong> auf Basis von Referenzen und klaren Eingaben</li>
+<li>gut geeignet für Plausibilisierung, Kommunikation und frühe Entscheidungen</li>
+</ul>
+<p><strong>Die Resultate sind nicht:</strong></p>
+<ul>
+<li>eine Honorarberechnung nach Kostenmodellen</li>
+<li>ein Ersatz für Vertrag, Leistungsdefinition oder projektspezifische Klärungen</li>
+</ul>
+<h2>Weiterführende Seiten</h2>
+<ul>
+<li><strong>Erste Schritte:</strong> Überblick über die vier Schritte: <a href="getting-started.html">getting-started.html</a>  </li>
+<li><strong>Begriffe und Konzepte:</strong> Grundmodelle, Determinanten, AF: <a href="definitions.html">definitions.html</a>  </li>
+<li><strong>Tutorial:</strong> Schritt-für-Schritt mit Screenshots: <a href="tutorial.html">tutorial.html</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

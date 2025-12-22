@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – project-section.en</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/Logo_01_300.png" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
+        ValueApp · User Wiki
+      </span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
+        Documentation for planners and clients
+      </span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="/wiki/getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="/wiki/definitions.html" data-i18n="wiki.nav.definitions">Definitions</a>
+      <a href="/wiki/examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="/wiki/tutorial.html" data-i18n="wiki.nav.tutorial">Tutorial</a>
+      <a href="/wiki/faq.html" data-i18n="wiki.nav.faq">FAQ</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input
+        type="search"
+        id="wikiSearchInput"
+        placeholder="Search wiki"
+        aria-label="Search wiki"
+      />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Project section</h1>
+<p>The <strong>Project (Projekt)</strong> tab is where the ValueApp turns “what is it?” into “how complex is it?” and maps that to effort. This page explains the fields conceptually. For step‑by‑step clicks, use the <a href="tutorial.html">Tutorial</a>.</p>
+<h2>What you define here</h2>
+<ol>
+<li><strong>Determinant / quantity</strong> (typically m² gross floor area)</li>
+<li><strong>Use mix</strong> (housing, work, learning, etc.)</li>
+<li><strong>Complexity</strong> across four dimensions (design, technical, spatial, organisational)</li>
+<li><strong>Risk / requirements</strong> (if your version includes this concept)</li>
+</ol>
+<p>These inputs drive the selection of base models and the adjustment factor(s).</p>
+<h2>Determinant and use mix</h2>
+<p>The determinant is the measurable scale of the project. In most cases this is <strong>gross floor area</strong>. The use mix allocates that quantity across use categories so the app can combine the relevant base models.</p>
+<h2>Complexity assessment</h2>
+<p>Complexity is not “big vs small”. It describes how clear cause and effect are, and how predictable the work is. The ValueApp uses the Leadership Framework to translate your assessment into an <strong>AF_quality</strong>.</p>
+<p>If you want a deeper explanation of what AF_quality means, start with <a href="definitions.html">Definitions</a> and <a href="how-it-works.html">How the app works</a>.</p>
+<h2>Practical tips</h2>
+<ul>
+<li>Be explicit: write down the key drivers in the project description.</li>
+<li>Calibrate with references: compare your project to <a href="examples.html">Examples</a>.</li>
+<li>Use the tool to structure discussion, not to avoid it.</li>
+</ul>
+<h2>See also</h2>
+<ul>
+<li><a href="definitions.html">Definitions and core concepts</a></li>
+<li><a href="how-it-works.html">How the app works</a></li>
+<li><a href="examples.html">Examples</a></li>
+<li><a href="tutorial.html">Tutorial</a></li>
+<li><a href="why-valueapp.html">Why ValueApp exists</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

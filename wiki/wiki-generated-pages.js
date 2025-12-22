@@ -2,47 +2,183 @@
 (function () {
   window.WIKI_GENERATED_PAGES = [
   {
-    "id": "definitions",
+    "id": "definitions.de",
     "urlByLang": {
-      "de": "/wiki/de/definitions.html",
-      "en": "/wiki/en/definitions.html"
+      "de": "/wiki/de/definitions.de.html"
     },
     "titleKey": "wiki.definitions.title",
     "navKey": "wiki.nav.definitions",
-    "lastUpdated": "2025-12-15",
+    "lastUpdated": "2025-12-22",
     "searchable": true
   },
   {
-    "id": "examples",
+    "id": "definitions.en",
     "urlByLang": {
-      "de": "/wiki/de/examples.html",
-      "en": "/wiki/en/examples.html"
+      "en": "/wiki/en/definitions.en.html"
+    },
+    "titleKey": "wiki.definitions.title",
+    "navKey": "definitions",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "definitions.fr",
+    "urlByLang": {
+      "fr": "/wiki/fr/definitions.fr.html"
+    },
+    "titleKey": "wiki.definitions.fr.title",
+    "navKey": null,
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "examples.de",
+    "urlByLang": {
+      "de": "/wiki/de/examples.de.html"
     },
     "titleKey": "wiki.examples.title",
     "navKey": "wiki.nav.examples",
-    "lastUpdated": "2025-12-15",
+    "lastUpdated": "2025-12-22",
     "searchable": true
   },
   {
-    "id": "project-section",
+    "id": "examples.en",
     "urlByLang": {
-      "de": "/wiki/de/project-section.html",
-      "en": "/wiki/en/project-section.html"
+      "en": "/wiki/en/examples.en.html"
+    },
+    "titleKey": "wiki.examples.title",
+    "navKey": "examples",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "examples.fr",
+    "urlByLang": {
+      "fr": "/wiki/fr/examples.fr.html"
+    },
+    "titleKey": "wiki.examples.fr.title",
+    "navKey": null,
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "how-it-works.de",
+    "urlByLang": {
+      "de": "/wiki/de/how-it-works.de.html"
+    },
+    "titleKey": "wiki.howItWorks.title",
+    "navKey": "wiki.nav.howItWorks",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "how-it-works.en",
+    "urlByLang": {
+      "en": "/wiki/en/how-it-works.en.html"
+    },
+    "titleKey": "wiki.howItWorks.title",
+    "navKey": "how-it-works",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "how-it-works.fr",
+    "urlByLang": {
+      "fr": "/wiki/fr/how-it-works.fr.html"
+    },
+    "titleKey": "wiki.how-it-works.fr.title",
+    "navKey": null,
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "project-section.de",
+    "urlByLang": {
+      "de": "/wiki/de/project-section.de.html"
     },
     "titleKey": "wiki.projectSection.title",
     "navKey": "wiki.nav.projectSection",
-    "lastUpdated": "2025-12-15",
+    "lastUpdated": "2025-12-22",
     "searchable": true
   },
   {
-    "id": "tutorial",
+    "id": "project-section.en",
     "urlByLang": {
-      "de": "/wiki/de/tutorial.html",
-      "en": "/wiki/en/tutorial.html"
+      "en": "/wiki/en/project-section.en.html"
+    },
+    "titleKey": "wiki.projectSection.title",
+    "navKey": "project-section",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "project-section.fr",
+    "urlByLang": {
+      "fr": "/wiki/fr/project-section.fr.html"
+    },
+    "titleKey": "wiki.project-section.fr.title",
+    "navKey": null,
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "tutorial.de",
+    "urlByLang": {
+      "de": "/wiki/de/tutorial.de.html"
     },
     "titleKey": "wiki.tutorial.title",
     "navKey": "wiki.nav.tutorial",
-    "lastUpdated": "2025-12-15",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "tutorial.en",
+    "urlByLang": {
+      "en": "/wiki/en/tutorial.en.html"
+    },
+    "titleKey": "wiki.tutorial.title",
+    "navKey": "tutorial",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "tutorial.fr",
+    "urlByLang": {
+      "fr": "/wiki/fr/tutorial.fr.html"
+    },
+    "titleKey": "wiki.tutorial.fr.title",
+    "navKey": null,
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "why-valueapp.de",
+    "urlByLang": {
+      "de": "/wiki/de/why-valueapp.de.html"
+    },
+    "titleKey": "wiki.whyValueApp.title",
+    "navKey": "wiki.nav.whyValueApp",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "why-valueapp.en",
+    "urlByLang": {
+      "en": "/wiki/en/why-valueapp.en.html"
+    },
+    "titleKey": "wiki.whyValueApp.title",
+    "navKey": "why-valueapp",
+    "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "why-valueapp.fr",
+    "urlByLang": {
+      "fr": "/wiki/fr/why-valueapp.fr.html"
+    },
+    "titleKey": "wiki.why-valueapp.fr.title",
+    "navKey": null,
+    "lastUpdated": "2025-12-22",
     "searchable": true
   }
 ];
