@@ -93,41 +93,21 @@
    * --------------------------- */
 
   function updateWikiNavLinksForLang(lang) {
-    if (!isWikiPage()) return;
+  if (!isWikiPage()) return;
 
-    const nav = document.querySelector("nav.main-nav");
-    if (!nav) return;
+  const nav = document.querySelector("nav.main-nav");
+  if (!nav) return;
 
-    const links = nav.querySelectorAll("a[data-i18n]");
-    const localizedBase = "/wiki/" + lang; // /wiki/en, /wiki/de, /wiki/fr
+  const base = "/wiki/" + lang + "/";
 
-    links.forEach((a) => {
-      const key = a.getAttribute("data-i18n");
-
-      switch (key) {
-        case "wiki.nav.home":
-          a.href = "/wiki/index.html";
-          break;
-        case "wiki.nav.gettingStarted":
-          a.href = "/wiki/getting-started.html";
-          break;
-        case "wiki.nav.faq":
-          a.href = "/wiki/faq.html";
-          break;
-        case "wiki.nav.definitions":
-          a.href = localizedBase + "/definitions.html";
-          break;
-        case "wiki.nav.examples":
-          a.href = localizedBase + "/examples.html";
-          break;
-        case "wiki.nav.tutorial":
-          a.href = localizedBase + "/tutorial.html";
-          break;
-        default:
-          break;
-      }
-    });
-  }
+  // If the header uses data-wiki-link, we respect that and wire it properly.
+  const links = nav.querySelectorAll("a[data-wiki-link]");
+  links.forEach((a) => {
+    const file = a.getAttribute("data-wiki-link");
+    if (!file) return;
+    a.href = base + file;
+  });
+}
 
   /* ---------------------------
    * Language menu (header)
