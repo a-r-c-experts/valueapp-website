@@ -5,27 +5,44 @@ navKey: wiki.nav.tutorial
 ---
 
 # Tutorial – Schritt für Schritt durch die ValueApp
-## Dieses Tutorial führt Sie anhand eines Beispielprojekts durch die ValueApp. Der Fokus liegt darauf, was in jedem Tab einzugeben ist und wie die Ergebnisse zu lesen sind.
+
+Dieses Tutorial führt Sie anhand eines konkreten Beispielprojekts durch die ValueApp.  
+Der Fokus liegt darauf, **was in welchem Tab einzugeben ist**, **warum das relevant ist** und **wie die Ergebnisse zu lesen sind**.
+
+Wenn Sie während des Lesens konzeptionellen Hintergrund benötigen, halten Sie  
+[Definitionen](definitions.html) oder [Wie die App funktioniert](how-it-works.html) in einem zweiten Tab offen.
 
 ---
 
 ## Überblick — Vier Tabs, eine Methode
 
-Die ValueApp ist in vier Tabs strukturiert: **Beschrieb**, **Projekt**, **Leistung** und **Zusammenfassung**.  
-Sie folgen der Logik der ETH Value Method vom Projektkontext bis hin zu Aufwand und Leistungsumfang.
+Die ValueApp ist in vier Tabs gegliedert:
+
+- **Beschrieb** – Projektidentität und Kontext  
+- **Projekt** – Menge, Nutzungsmix und Komplexität  
+- **Leistung** – Rolle, Leistungen und Stunden  
+- **Zusammenfassung** – konsolidierter One-Pager  
+
+Sie folgen der Logik der ETH Value Method vom Projektkontext bis zur Aufwands- und Leistungsstruktur.
 
 ![Übersichtsdiagramm der ValueApp-Struktur](/wiki-assets/valueapp-architecture-overview.jpeg)
 
 *Die App verbindet Projektbeschreibung, Determinanten, Anpassungsfaktoren und Leistungen zu einem kohärenten Ablauf.*
 
-## Schritt 1 — Beschrieb
+---
 
-Beginnen Sie mit einer klaren Projektbeschreibung. Diese erscheint in Berichten und bietet Kontext, wenn Sie Projekte später vergleichen.
+## Schritt 1 — Beschrieb (Projekt beschreiben)
 
-- Projekttitel und Adresse eintragen  
-- Status festlegen (z. B. „In Planung“ oder „Ausführung“)  
-- Ausgangslage, Aufgabe und zentrale Rahmenbedingungen in 5–10 Zeilen beschreiben  
-- Die organisatorische Struktur auf Planer- und Unternehmerseite definieren  
+Beginnen Sie mit einer klaren Projektbeschreibung. Diese Angaben erscheinen in Berichten und liefern Kontext, wenn Projekte später überprüft, verglichen oder diskutiert werden.
+
+Erfassen Sie:
+
+- Projekttitel und Adresse,  
+- Projektstatus (z. B. *In Planung*, *Ausführung*),  
+- organisatorische Struktur auf Planer- und Unternehmerseite,  
+- einen kurzen Text zu Umfang, Aufgabe und zentralen Rahmenbedingungen (5–10 Zeilen).
+
+Gute Beschriebe machen spätere Komplexitätsbeurteilungen **nachvollziehbar und transparent**.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
@@ -37,19 +54,23 @@ Beginnen Sie mit einer klaren Projektbeschreibung. Diese erscheint in Berichten 
 <div class="wiki-note-box">
   <strong>Speichern und Feedback</strong>
   <p>
-    Nutzen Sie den Button „Speichern“, um Ihren Fortschritt zu sichern.  
-    Über „Feedback“ können Sie Rückmeldungen geben oder Probleme melden.
+    Nutzen Sie den Button „Speichern“, um Ihren Fortschritt zu sichern.
+    Über „Feedback“ können Sie Probleme melden oder Verbesserungsvorschläge einreichen.
   </p>
 </div>
 
+---
+
 ## Schritt 2 — Projekt (Mengen, Nutzungen und Komplexität)
 
-Im Tab **Projekt** übersetzen Sie die Aufgabenstellung in Zahlen und eine Komplexitätsbeurteilung.
+Im Tab **Projekt** übersetzen Sie die Aufgabenstellung in Zahlen und eine strukturierte Komplexitätsbeurteilung.
 
 ### 2.1 Determinante und Nutzungsmix
 
-Tragen Sie die bestimmende Menge ein, meist die Bruttogeschossfläche (GF).  
-Ordnen Sie dann prozentuale Anteile dieser Fläche den relevanten Nutzungen zu.
+Geben Sie die **Determinante** ein, in der Regel die Bruttogeschossfläche (GF).  
+Anschliessend ordnen Sie dieser Menge prozentuale Anteile der relevanten Nutzungen zu.
+
+Damit wird festgelegt, welche **Basismodelle** angewendet und wie sie kombiniert werden.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-project-uses-empty.mp4" type="video/mp4" />
@@ -63,69 +84,113 @@ Ordnen Sie dann prozentuale Anteile dieser Fläche den relevanten Nutzungen zu.
   Your browser does not support the video tag.
 </video>
 
-*Gesamte GF der Nutzung „Ausbilden und forschen“ zugewiesen.*
+*Gesamte Bruttogeschossfläche der Nutzung „Ausbilden und forschen“ zugewiesen.*
+
+Detaillierte Erläuterungen zu Determinanten und Nutzungsmix finden Sie im  
+[Bereich «Projekt»](project-section.html).
+
+---
 
 ### 2.2 Komplexität und Herausforderungen
 
-Beschreiben Sie projektspezifische Herausforderungen in vier Dimensionen  
-(**gestalterisch**, **technisch**, **räumlich**, **organisatorisch**)  
-und positionieren Sie diese im Leadership Framework.
+Beschreiben Sie projektspezifische Herausforderungen in vier Dimensionen:
+
+- gestalterisch  
+- technisch  
+- räumlich  
+- organisatorisch  
+
+Ordnen Sie diese im **Leadership Framework** ein.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Beschreibung projektspezifischer Herausforderungen und deren Einordnung im Framework.*
+*Projektspezifische Herausforderungen im Framework positioniert.*
 
-Die App berechnet einen Anpassungsfaktor anhand des Schwerpunkts Ihrer Einträge.  
-Dieser Faktor verschiebt den erwarteten Aufwand innerhalb des Prognoseintervalls des Basismodells.
+Die App berechnet daraus einen **Anpassungsfaktor (AF_quality)** auf Basis des Schwerpunkts Ihrer Einträge.  
+Dieser verschiebt den erwarteten Aufwand **innerhalb** des Prognoseintervalls des Basismodells.
 
-### 2.3 Risikoniveau
+Falls Ihnen das abstrakt erscheint, lesen Sie  
+[Definitionen](definitions.html) oder [Wie die App funktioniert](how-it-works.html).
 
-Legen Sie das Risikoniveau fest: **keine**, **erhöhte** oder **hohe Anforderungen**.  
-Dies spiegelt projektspezifische Unsicherheiten wider und kann den oberen Bereich des Aufwandsspektrums beeinflussen.
+---
 
-## Schritt 3 — Leistung (Rollen und Stunden pro Phase)
+### 2.3 Risikoniveau (falls vorhanden)
 
-Im Tab **Leistung** definieren Sie Ihre Zuständigkeit und sehen, wie sich die berechneten Stunden auf die Phasen verteilen.
+Legen Sie das Risikoniveau fest:
 
-- Rolle wählen (Architekt/in / Architekt/in & Generalplaner/in / Generalplaner/in)  
-- Fokusthemen markieren (Entwurf, Bauleitung, Kostenplanung usw.)  
-- Gesamtstunden für 100 % Grundleistungen prüfen  
-- Phasenverteilung gemäss SIA 1–6 bei Bedarf anpassen  
+- **keine**,  
+- **erhöhte**,  
+- **hohe Anforderungen**.
+
+Dies bildet Unsicherheiten ab und kann den **oberen Bereich des Aufwandsspektrums** beeinflussen.
+
+---
+
+## Schritt 3 — Leistung (Rolle und Stunden nach Phasen)
+
+Im Tab **Leistung** definieren Sie Ihre Zuständigkeit und prüfen, wie sich der berechnete Aufwand verteilt.
+
+Typischerweise:
+
+- wählen Sie Ihre Rolle (Architekt / Architekt & Generalplaner / Generalplaner),  
+- markieren Sie Fokusthemen (Entwurf, Bauleitung, Kostenplanung),  
+- prüfen Sie die Gesamtstunden für **100 % Grundleistungen**,  
+- kontrollieren und passen bei Bedarf die Verteilung über die SIA-Phasen an.
 
 <video class="wiki-img" controls preload="metadata">
   <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Beispiel für Rollen, Fokusthemen und Stunden pro Phase.*
+*Rollen, Fokusthemen und berechnete Stunden pro Phase.*
 
 ### Mehrere Disziplinen
 
-Bei Projekten mit mehreren Disziplinen (Architektur, Tragwerk, Elektro, HLKS, Sanitär):  
-Wiederholen Sie die Schritte in **Projekt** und **Leistung** für jede Disziplin.  
-Die Zusammenfassung zeigt die Ergebnisse nebeneinander.
+Bei Projekten mit mehreren Disziplinen (Architektur, Tragwerk, Elektro, HLKS, Sanitär):
 
-## Schritt 4 — Zusammenfassung (der One-Pager)
+- wiederholen Sie **Projekt** und **Leistung** für jede Disziplin,  
+- der Tab **Zusammenfassung** zeigt die Ergebnisse nebeneinander.
 
-Der Tab **Zusammenfassung** fasst alle relevanten Informationen strukturiert zusammen:
+---
 
-- Projektbeschreibung  
-- organisatorische Struktur  
-- Nutzungsmix  
-- Aufwand pro m²  
-- Risikoniveau  
-- Stunden nach SIA-Phasen  
-- zusätzliche Leistungen, falls vorhanden  
+## Schritt 4 — Zusammenfassung (den One-Pager lesen)
 
-Diese Seite kann exportiert oder gedruckt werden und eignet sich für Honorarangebote oder interne Planungsunterlagen.  
-Sie dokumentiert, weshalb ein bestimmter Aufwand plausibel ist, basierend auf den Projektparametern und der Komplexität.
+Der Tab **Zusammenfassung** ist schreibgeschützt. Er fasst zusammen:
 
-## Weiterführend
-- [Begriffe und Konzepte](definitions.html)
+- Projektbeschreibung und Organisation,  
+- Nutzungsmix und Determinante,  
+- Aufwand pro m²,  
+- Risikoniveau,  
+- Stunden nach SIA-Phasen,  
+- zusätzliche Leistungen, falls relevant.
+
+Dieser One-Pager kann exportiert oder gedruckt werden und eignet sich als Beilage zu:
+
+- Honorarangeboten,  
+- internen Planungs- oder Controlling-Unterlagen,  
+- Ausschreibungs- und Vergabeunterlagen.
+
+Er dokumentiert, **weshalb** ein bestimmter Aufwand als plausibel gilt – basierend auf Determinanten und Komplexität.
+
+---
+
+## Wann was lesen
+
+- Für den Einstieg: [Getting started](getting-started.html)  
+- Für Begriffe und Logik: [Definitionen](definitions.html)  
+- Für das konzeptionelle Verständnis: [Wie die App funktioniert](how-it-works.html) und [Warum es die ValueApp gibt](why-valueapp.html)  
+- Zur Kalibrierung: [Beispiele](examples.html)
+
+---
+
+## Siehe auch
+
+- [Getting started](getting-started.html)  
+- [Definitionen und Kernkonzepte](definitions.html)  
+- [Bereich «Projekt»](project-section.html)  
+- [Wie die App funktioniert](how-it-works.html)  
+- [Warum es die ValueApp gibt](why-valueapp.html)  
 - [Beispiele](examples.html)
-- [Bereich «Projekt»](project-section.html)
-- [Wie die App funktioniert](how-it-works.html)
-- [Warum es die ValueApp gibt](why-valueapp.html)
