@@ -137,7 +137,7 @@ function setHeaderOffsetVar() {
   const h = Math.ceil(header.getBoundingClientRect().height);
   document.documentElement.style.setProperty(
     "--header-offset",
-    `${h}px`
+    `${h+4}px`
   );
 }
 
