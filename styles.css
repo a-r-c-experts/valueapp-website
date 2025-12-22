@@ -128,11 +128,11 @@ header {
 }
 
 section[id],
+.wiki-content h1,
 .wiki-content h2,
 .wiki-content h3 {
   scroll-margin-top: var(--header-offset, 90px);
 }
-
 /* Language dropdown */
 
 .lang-switcher {
