@@ -6,27 +6,20 @@
     </a>
 
     <div class="brand-text-only">
-      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">
-        ValueApp · User Wiki
-      </span>
-      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">
-        Documentation for planners and clients
-      </span>
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
     </div>
 
-    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
-      ☰
-    </button>
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
 
     <nav class="main-nav">
-      <a href="/wiki/index.html" data-i18n="wiki.nav.home">Home</a>
-
-      <a href="/wiki/einfuehrung.html" data-i18n="wiki.nav.introduction">Introduction</a>
-      <a href="/wiki/wissensbasis.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
-      <a href="/wiki/workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
-      <a href="/wiki/referenz.html" data-i18n="wiki.nav.reference">Reference</a>
-      <a href="/wiki/beispiele.html" data-i18n="wiki.nav.examples">Examples</a>
-      <a href="/wiki/support.html" data-i18n="wiki.nav.support">Support</a>
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
     </nav>
 
     <div class="lang-switcher">
@@ -44,12 +37,47 @@
 
     <!-- Simple search box -->
     <form class="wiki-search" id="wikiSearchForm" role="search">
-      <input
-        type="search"
-        id="wikiSearchInput"
-        placeholder="Search wiki"
-        aria-label="Search wiki"
-      />
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
     </form>
   </div>
 </header>
+
+<script>
+  (function () {
+    function detectLang() {
+      // 1) URL: /wiki/{lang}/...
+      const m = window.location.pathname.match(/^\/wiki\/(en|de|fr)(\/|$)/);
+      if (m) return m[1];
+
+      // 2) localStorage fallbacks (be tolerant)
+      const ls =
+        localStorage.getItem("lang") ||
+        localStorage.getItem("valueapp_lang") ||
+        localStorage.getItem("valueappLang");
+      if (ls && /^(en|de|fr)$/.test(ls)) return ls;
+
+      // 3) html lang attribute
+      const htmlLang = (document.documentElement.getAttribute("lang") || "").slice(0, 2);
+      if (/^(en|de|fr)$/.test(htmlLang)) return htmlLang;
+
+      return "en";
+    }
+
+    function wireWikiLinks() {
+      const lang = detectLang();
+      const base = "/wiki/" + lang + "/";
+
+      document.querySelectorAll("[data-wiki-link]").forEach((a) => {
+        const file = a.getAttribute("data-wiki-link");
+        a.setAttribute("href", base + file);
+      });
+
+      // keep label in sync if present
+      const label = document.getElementById("currentLangLabel");
+      if (label) label.textContent = lang.toUpperCase();
+    }
+
+    wireWikiLinks();
+    document.addEventListener("languageChanged", wireWikiLinks);
+  })();
+</script>

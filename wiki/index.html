@@ -13,49 +13,22 @@
   <style>
     .wiki-hero { margin-bottom: 32px; text-align: left; }
     .wiki-hero-inner { display: flex; flex-direction: column; gap: 16px; max-width: 800px; }
-    .wiki-hero-logo-row { display: flex; align-items: center; gap: 16px; }
-    .wiki-hero-logo { height: 80px; width: auto; max-width: 100%; display: block; }
     .wiki-tagline { font-size: 0.95rem; color: var(--muted); }
-
-    .wiki-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
-      gap: 32px;
-      align-items: flex-start;
-    }
+    .wiki-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr); gap: 32px; align-items: flex-start; }
     @media (max-width: 800px) { .wiki-grid { grid-template-columns: 1fr; } }
-
-    .wiki-card {
-      border-radius: 16px;
-      border: 1px solid var(--border);
-      background: #ffffff;
-      padding: 20px 22px;
-      margin-bottom: 18px;
-      font-size: 0.95rem;
-    }
+    .wiki-card { border-radius: 16px; border: 1px solid var(--border); background: #fff; padding: 20px 22px; margin-bottom: 18px; font-size: 0.95rem; }
     .wiki-card h2, .wiki-card h3 { margin-top: 0; }
     .wiki-card h2::after, .wiki-card h3::after { display: none; }
-
     .wiki-nav-list { list-style: none; padding-left: 0; margin: 0; }
     .wiki-nav-list li { margin-bottom: 6px; }
     .wiki-nav-list a { text-decoration: none; color: var(--accent); }
     .wiki-nav-list a:hover { text-decoration: underline; }
-
-    .wiki-pill-link {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 6px 12px;
-      border-radius: 999px;
-      border: 1px solid var(--accent);
-      font-size: 0.85rem;
-      text-decoration: none;
-      color: var(--accent);
-    }
+    .wiki-pill-link { display: inline-block; margin-top: 10px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--accent); font-size: 0.85rem; text-decoration: none; color: var(--accent); }
     .wiki-pill-link:hover { background: var(--accent); color: #fff; }
-
     .hero-small-note { font-size: 0.85rem; color: var(--muted); }
   </style>
 </head>
+
 <body>
   <!-- Shared header -->
   <div data-include="/wiki/partials/header.html"></div>
@@ -63,14 +36,12 @@
   <main>
     <section class="hero wiki-hero">
       <div class="wiki-hero-inner">
-        <div class="wiki-hero-logo-row">
-          <div>
-            <h1 data-i18n="wiki.home.title">ValueApp – User Wiki</h1>
-            <p class="wiki-tagline" data-i18n="wiki.home.subtitle">
-              Explanations, examples and practical guidance for using the ValueApp and the ETH Value Method in everyday planning practice.
-            </p>
-            <p class="wiki-last-updated" data-last-updated-target></p>
-          </div>
+        <div>
+          <h1 data-i18n="wiki.home.title">ValueApp – User Wiki</h1>
+          <p class="wiki-tagline" data-i18n="wiki.home.subtitle">
+            Explanations, examples and practical guidance for using the ValueApp and the ETH Value Method in everyday planning practice.
+          </p>
+          <p class="wiki-last-updated" data-last-updated-target></p>
         </div>
 
         <p class="hero-small-note" data-i18n="wiki.home.note">
@@ -89,23 +60,23 @@
 
           <ul class="wiki-nav-list">
             <li>
-              <a href="einfuehrung.html" data-i18n="wiki.home.link.introduction">
+              <a href="#" data-wiki-link="introduction.html" data-i18n="wiki.home.link.introduction">
                 Introduction – what the ValueApp is and where to begin
               </a>
             </li>
             <li>
-              <a href="getting-started.html" data-i18n="wiki.home.link.gettingStarted">
+              <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.home.link.gettingStarted">
                 Getting started – four steps from project description to summary
               </a>
             </li>
             <li>
-              <a href="workflows.html" data-i18n="wiki.home.link.workflows">
+              <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.home.link.workflows">
                 Workflows – practical step-by-step usage
               </a>
             </li>
           </ul>
 
-          <a href="einfuehrung.html" class="wiki-pill-link" data-i18n="wiki.home.cta.introduction">
+          <a href="#" data-wiki-link="introduction.html" class="wiki-pill-link" data-i18n="wiki.home.cta.introduction">
             Go to Introduction
           </a>
         </article>
@@ -118,22 +89,22 @@
 
           <ul class="wiki-nav-list">
             <li>
-              <a href="wissensbasis.html" data-i18n="wiki.home.link.knowledgeBase">
+              <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.home.link.knowledgeBase">
                 Knowledge base – concepts, terminology, and why the app behaves the way it does
               </a>
             </li>
             <li>
-              <a href="referenz.html" data-i18n="wiki.home.link.reference">
+              <a href="#" data-wiki-link="reference.html" data-i18n="wiki.home.link.reference">
                 Reference – inputs, parameters, result interpretation, integration notes, versions
               </a>
             </li>
             <li>
-              <a href="beispiele.html" data-i18n="wiki.home.link.examples">
+              <a href="#" data-wiki-link="examples.html" data-i18n="wiki.home.link.examples">
                 Examples – realistic scenarios and case pages
               </a>
             </li>
             <li>
-              <a href="support.html" data-i18n="wiki.home.link.support">
+              <a href="#" data-wiki-link="support.html" data-i18n="wiki.home.link.support">
                 Support – FAQ, glossary, help, best practices
               </a>
             </li>
@@ -172,14 +143,36 @@
 
   <div data-include="/wiki/partials/footer.html"></div>
 
-  <!-- Shared footer -->
   <script src="/partials.js"></script>
   <script src="/wiki/wiki-version.js"></script>
   <script src="/wiki/wiki-page-config.js"></script>
   <script src="/wiki/wiki-last-updated.js"></script>
   <script src="/wiki/search.js"></script>
 
-  <script type="module" src="../i18n/lang-loader.js"></script>
-  <script src="../lang.js"></script>
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+
+  <script>
+    // Same rewiring trick for index page links
+    (function () {
+      function detectLang() {
+        const m = window.location.pathname.match(/^\/wiki\/(en|de|fr)(\/|$)/);
+        if (m) return m[1];
+        const ls =
+          localStorage.getItem("lang") ||
+          localStorage.getItem("valueapp_lang") ||
+          localStorage.getItem("valueappLang");
+        if (ls && /^(en|de|fr)$/.test(ls)) return ls;
+        return "en";
+      }
+
+      const lang = detectLang();
+      const base = "/wiki/" + lang + "/";
+
+      document.querySelectorAll("[data-wiki-link]").forEach((a) => {
+        a.setAttribute("href", base + a.getAttribute("data-wiki-link"));
+      });
+    })();
+  </script>
 </body>
 </html>
