@@ -1192,8 +1192,3 @@ nav.main-nav a.active {
   .main-nav.open { display: flex; }
 }
 
-@media (max-width: 900px) {
-  .brand-logo-link {
-    display: none;
-  }
-}
