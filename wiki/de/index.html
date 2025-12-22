@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="User-oriented documentation for the ValueApp: introduction, knowledge base, workflows, reference, examples and support."
+  />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .wiki-hero { margin-bottom: 32px; text-align: left; }
+    .wiki-hero-inner { display: flex; flex-direction: column; gap: 16px; max-width: 800px; }
+    .wiki-tagline { font-size: 0.95rem; color: var(--muted); }
+    .wiki-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr); gap: 32px; align-items: flex-start; }
+    @media (max-width: 800px) { .wiki-grid { grid-template-columns: 1fr; } }
+    .wiki-card { border-radius: 16px; border: 1px solid var(--border); background: #fff; padding: 20px 22px; margin-bottom: 18px; font-size: 0.95rem; }
+    .wiki-card h2, .wiki-card h3 { margin-top: 0; }
+    .wiki-card h2::after, .wiki-card h3::after { display: none; }
+    .wiki-nav-list { list-style: none; padding-left: 0; margin: 0; }
+    .wiki-nav-list li { margin-bottom: 6px; }
+    .wiki-nav-list a { text-decoration: none; color: var(--accent); }
+    .wiki-nav-list a:hover { text-decoration: underline; }
+    .wiki-pill-link { display: inline-block; margin-top: 10px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--accent); font-size: 0.85rem; text-decoration: none; color: var(--accent); }
+    .wiki-pill-link:hover { background: var(--accent); color: #fff; }
+    .hero-small-note { font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+
+<body>
+  <!-- Shared header -->
+  <div data-include="/wiki/partials/header.html"></div>
+
+  <main>
+    <section class="hero wiki-hero">
+      <div class="wiki-hero-inner">
+        <div>
+          <h1 data-i18n="wiki.home.title">ValueApp – User Wiki</h1>
+          <p class="wiki-tagline" data-i18n="wiki.home.subtitle">
+            Explanations, examples and practical guidance for using the ValueApp and the ETH Value Method in everyday planning practice.
+          </p>
+          <p class="wiki-last-updated" data-last-updated-target></p>
+        </div>
+
+        <p class="hero-small-note" data-i18n="wiki.home.note">
+          This wiki focuses on users (planners and clients). Technical details on embedding the widget live in a separate integration repository.
+        </p>
+      </div>
+    </section>
+
+    <section class="wiki-grid">
+      <div>
+        <article class="wiki-card">
+          <h2 data-i18n="wiki.home.section.start.title">Start here</h2>
+          <p data-i18n="wiki.home.section.start.text">
+            New to the ValueApp? Begin with the introduction and the quick start, then follow the path that matches your goal.
+          </p>
+
+          <ul class="wiki-nav-list">
+            <li>
+              <a href="#" data-wiki-link="introduction.html" data-i18n="wiki.home.link.introduction">
+                Introduction – what the ValueApp is and where to begin
+              </a>
+            </li>
+            <li>
+              <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.home.link.gettingStarted">
+                Getting started – four steps from project description to summary
+              </a>
+            </li>
+            <li>
+              <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.home.link.workflows">
+                Workflows – practical step-by-step usage
+              </a>
+            </li>
+          </ul>
+
+          <a href="#" data-wiki-link="introduction.html" class="wiki-pill-link" data-i18n="wiki.home.cta.introduction">
+            Go to Introduction
+          </a>
+        </article>
+
+        <article class="wiki-card">
+          <h2 data-i18n="wiki.home.section.learn.title">Learn and look things up</h2>
+          <p data-i18n="wiki.home.section.learn.text">
+            If you want conceptual grounding, field explanations, or example projects, these chapters are the most useful.
+          </p>
+
+          <ul class="wiki-nav-list">
+            <li>
+              <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.home.link.knowledgeBase">
+                Knowledge base – concepts, terminology, and why the app behaves the way it does
+              </a>
+            </li>
+            <li>
+              <a href="#" data-wiki-link="reference.html" data-i18n="wiki.home.link.reference">
+                Reference – inputs, parameters, result interpretation, integration notes, versions
+              </a>
+            </li>
+            <li>
+              <a href="#" data-wiki-link="examples.html" data-i18n="wiki.home.link.examples">
+                Examples – realistic scenarios and case pages
+              </a>
+            </li>
+            <li>
+              <a href="#" data-wiki-link="support.html" data-i18n="wiki.home.link.support">
+                Support – FAQ, glossary, help, best practices
+              </a>
+            </li>
+          </ul>
+        </article>
+      </div>
+
+      <aside>
+        <article class="wiki-card">
+          <h3 data-i18n="wiki.home.sidebar.integration.title">Technical integration</h3>
+          <p data-i18n="wiki.home.sidebar.integration.text">
+            If you want to embed the ValueApp core as a widget into your own client portal or IT system, you will find technical documentation and examples in the public integration repository.
+          </p>
+          <p>
+            <a
+              href="https://github.com/a-r-c-experts/core-value-integration"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="wiki-pill-link"
+              data-i18n="wiki.home.sidebar.integration.link"
+            >
+              Open integration repository
+            </a>
+          </p>
+        </article>
+
+        <article class="wiki-card">
+          <h3 data-i18n="wiki.home.sidebar.feedback.title">Feedback on the app</h3>
+          <p data-i18n="wiki.home.sidebar.feedback.text">
+            In the ValueApp itself you can use the “Feedback” button to send issues or suggestions via a short form. This wiki will be updated step by step based on recurring questions.
+          </p>
+        </article>
+      </aside>
+    </section>
+  </main>
+
+  <div data-include="/wiki/partials/footer.html"></div>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+
+  <script>
+    // Same rewiring trick for index page links
+    (function () {
+      function detectLang() {
+        const m = window.location.pathname.match(/^\/wiki\/(en|de|fr)(\/|$)/);
+        if (m) return m[1];
+        const ls =
+          localStorage.getItem("lang") ||
+          localStorage.getItem("valueapp_lang") ||
+          localStorage.getItem("valueappLang");
+        if (ls && /^(en|de|fr)$/.test(ls)) return ls;
+        return "en";
+      }
+
+      const lang = detectLang();
+      const base = "/wiki/" + lang + "/";
+
+      document.querySelectorAll("[data-wiki-link]").forEach((a) => {
+        a.setAttribute("href", base + a.getAttribute("data-wiki-link"));
+      });
+    })();
+  </script>
+</body>
+</html>
