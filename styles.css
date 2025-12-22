@@ -749,7 +749,7 @@ footer .footer-inner {
 
 /* Logo sizing: use the real class and win specificity wars */
 .brand-logo-link .wiki-hero-logo {
-  height: 120px;      /* desktop bigger */
+  height: 160px;      /* desktop bigger */
   width: auto;
   display: block;
   object-fit: contain;
@@ -1095,7 +1095,7 @@ nav.main-nav a.active {
   }
 
   .brand-logo-link .wiki-hero-logo {
-    height: 44px;             /* phone size */
+    height: 88px;             /* phone size */
   }
 
 
