@@ -68,22 +68,306 @@
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
 <h1>Section Projet</h1>
-<p>La section « Projet » est le cœur de la ValueApp.
-Elle relie la description initiale aux calculs de prestations.</p>
-<p>Les principes sont expliqués plus en détail dans
-<a href="how-it-works.fr.md">le fonctionnement de l’application</a>.</p>
-<h2>Contenu de la section</h2>
+<p>L’onglet <strong>Project (Projekt)</strong> est l’endroit où la ValueApp transforme « Qu’est-ce que c’est ? » en « Quelle plage d’effort est plausible ? ».<br>Pour cela, elle combine :</p>
 <ul>
-<li>Quantité déterminante</li>
-<li>Usages</li>
-<li>Évaluation de la complexité</li>
+<li>un <strong>déterminant / une quantité</strong> mesurable (généralement des m² de surface brute de plancher),</li>
+<li>un <strong>mix d’usages</strong> (pour combiner les bons modèles de base),</li>
+<li>une <strong>évaluation structurée de la complexité</strong> (cartographiée sur le Leadership Framework),</li>
+<li>et, selon votre configuration, des saisies de <strong>risque / exigences</strong>.</li>
 </ul>
-<p>Ces éléments influencent directement les résultats présentés dans les
-<a href="examples.fr.md">exemples</a>.</p>
+<p>Cette page explique les champs de manière conceptuelle. Pour une version « clic ici, saisis ça », utilisez le <a href="tutorial.html">Tutoriel</a>.</p>
+<hr>
+<h2>Ce qui se passe dans la section Projet</h2>
+<p>Dans la section <strong>Project</strong>, la ValueApp génère une première prévision de l’effort en temps attendu (souvent affichée en <strong>min/m²</strong> sur la base de la quantité choisie) à partir :</p>
+<ul>
+<li>de <strong>modèles de base</strong> (modèles par type d’usage construits à partir de projets de référence),</li>
+<li>et d’un <strong>facteur d’ajustement</strong> dérivé de votre évaluation de la complexité (souvent appelé <em>degré de complexité</em> ou <strong>AF_quality</strong>).</li>
+</ul>
+<p>Vous pouvez ajuster les prévisions générées à tout moment. Les meilleurs résultats viennent toutefois d’hypothèses explicites et cohérentes.</p>
+<p>Pour la logique « sous le capot », voir <a href="how-it-works.html">Fonctionnement de l’application</a>.<br>Si des termes comme déterminant, modèle de base ou AF_quality restent flous, commencez par <a href="definitions.html">Définitions</a>.</p>
+<hr>
+<h2>Ce que vous définissez ici</h2>
+<ol>
+<li><strong>Déterminant / quantité</strong> (généralement m² de surface brute de plancher)</li>
+<li><strong>Mix d’usages</strong> (logement, travail, enseignement, etc.)</li>
+<li><strong>Complexité</strong> sur quatre dimensions (conception, technique, spatial, organisationnel)</li>
+<li><strong>Risque / exigences</strong> (si votre version inclut ce concept)</li>
+<li>Champs contextuels optionnels comme les <strong>coûts attendus</strong> (si présents dans votre configuration)</li>
+</ol>
+<p>Ces saisies pilotent la sélection des modèles de base et les facteurs d’ajustement qui déplacent les résultats dans la plage de prédiction.</p>
+<hr>
+<h2>Déterminant et quantité</h2>
+<h3>Surface (FA / surface brute de plancher)</h3>
+<p>Dans le champ de définition du projet, saisissez la <strong>surface</strong> approximative sur l’ensemble des usages en <strong>m²</strong>.</p>
+<p>Si vous disposez déjà d’un programme de surfaces, mentionnez-le dans la description. Il est recommandé de documenter le calcul des surfaces de manière transparente, en particulier pour les autres parties prenantes et le client.</p>
+<p><strong>Important :</strong> la surface saisie influence directement l’effort calculé.<br>De petites variations de surface peuvent déplacer sensiblement le résultat.</p>
+<hr>
+<h2>Coûts attendus (optionnel)</h2>
+<p>Les coûts attendus sont optionnels et n’influencent en général <strong>pas</strong> la prévision d’effort en temps.<br>Ils sont généralement compris comme le budget du client.</p>
+<p>Dans de nombreuses configurations, la ValueApp sert de vérification de plausibilité pour des décisions liées à :</p>
+<ul>
+<li>la mission et le périmètre,</li>
+<li>les déterminants,</li>
+<li>le mix d’usages,</li>
+<li>la complexité.</li>
+</ul>
+<hr>
+<h2>Mix d’usages</h2>
+<p>Vous devez préciser le(s) <strong>usage(s)</strong> du projet.</p>
+<p>Vous pouvez sélectionner plusieurs usages (y compris des usages répétés) et attribuer des parts relatives.<br>En arrière-plan, la ValueApp combine les modèles de base correspondants et génère une première prévision.</p>
+<p><strong>Idée clé :</strong> le mix d’usages indique à l’application dans quel « monde de référence » se situe votre projet.<br>Un projet mixte n’est pas « un seul modèle avec une étiquette étrange », mais une <strong>combinaison pondérée</strong> de modèles.</p>
+<p>Pour calibrer, comparez votre cas aux <a href="examples.html">Exemples</a>.</p>
+<hr>
+<h2>Évaluation de la complexité</h2>
+<p>La complexité n’est pas « grand vs petit ». Elle décrit la prévisibilité du travail et la clarté des relations de cause à effet.</p>
+<p>La ValueApp utilise le <strong>Leadership Framework</strong> pour traduire votre évaluation en <strong>AF_quality</strong> (ou un facteur d’ajustement similaire). Vous décrivez des défis selon quatre dimensions :</p>
+<ul>
+<li><strong>conception</strong></li>
+<li><strong>technique</strong></li>
+<li><strong>spatial</strong></li>
+<li><strong>organisationnel</strong></li>
+</ul>
+<p>Le but n’est pas de trouver la seule « bonne » étiquette. Le but est de rendre les hypothèses <strong>explicites et discutables</strong>.</p>
+<p>Pour une explication plus approfondie de AF_quality, commencez par <a href="definitions.html">Définitions</a> et <a href="how-it-works.html">Fonctionnement de l’application</a>.</p>
+<hr>
+<h2>Conseils pratiques</h2>
+<ul>
+<li><strong>Soyez explicite :</strong> notez les moteurs clés dans la description du projet (contraintes, parties prenantes, exigences particulières).</li>
+<li><strong>Calibrez avec des références :</strong> comparez votre projet aux <a href="examples.html">Exemples</a>.</li>
+<li><strong>Utilisez l’outil pour structurer la discussion, pas pour l’éviter :</strong> la valeur est la transparence, pas de faire semblant que l’incertitude n’existe pas.</li>
+</ul>
+<hr>
+<h2>Programmes de bâtiments par catégorie d’usage</h2>
+<p>Les listes ci-dessous donnent des exemples de ce qui relève typiquement de chaque catégorie d’usage.<br>Elles ne constituent pas une taxonomie parfaite, mais un guide pratique pour relier des projets réels à la structure des modèles.</p>
+<h3>1 Logement <em>(Habitation, sport et loisirs)</em></h3>
+<ul>
+<li>Logements temporaires  </li>
+<li>Immeubles d’habitation  </li>
+<li>Maisons mitoyennes  </li>
+<li>Maisons de week-end  </li>
+<li>Copropriétés  </li>
+<li>Maisons individuelles  </li>
+<li>Maisons de vacances  </li>
+<li>Logements pour seniors  </li>
+<li>Résidences pour personnes âgées  </li>
+<li>Résidences étudiantes  </li>
+<li>Résidences d’apprentis  </li>
+<li>Refuges de montagne  </li>
+<li>Campings  </li>
+<li>Chalets/clubs  </li>
+<li>Gymnases  </li>
+<li>Salles de sport  </li>
+<li>Salles polyvalentes  </li>
+<li>Infrastructures de stade  </li>
+<li>Terrains de sport  </li>
+<li>Bâtiments de tribunes  </li>
+<li>Bâtiments de vestiaires  </li>
+<li>Bowling  </li>
+<li>Patinoires en plein air  </li>
+<li>Piscines extérieures  </li>
+<li>Patinoires artificielles couvertes  </li>
+<li>Piscines couvertes  </li>
+<li>Manèges  </li>
+<li>Hangars à bateaux  </li>
+<li>Installations de tir  </li>
+<li>Centres de loisirs  </li>
+<li>Centres de jeunesse  </li>
+<li>Parcs  </li>
+<li>Aires de jeux  </li>
+<li>Jardins zoologiques  </li>
+<li>Jardins botaniques  </li>
+<li>Bâtiments pour animaux  </li>
+<li>Serres</li>
+</ul>
+<hr>
+<h3>2 Travail <em>(Services et fonctions publiques)</em></h3>
+<ul>
+<li>Maisons de soins infirmiers  </li>
+<li>Maisons de prise en charge  </li>
+<li>Foyers pour enfants  </li>
+<li>Foyers pour jeunes  </li>
+<li>Blanchisseries centrales  </li>
+<li>Refuges pour animaux  </li>
+<li>Stations vétérinaires  </li>
+<li>Hôpitaux vétérinaires  </li>
+<li>Bâtiments de commerce de détail sans aménagement de base  </li>
+<li>Bâtiments de commerce de détail avec aménagement de base  </li>
+<li>Grands magasins  </li>
+<li>Centres commerciaux  </li>
+<li>Halles de marché  </li>
+<li>Bureaux simples  </li>
+<li>Bureaux avec exigences plus élevées  </li>
+<li>Bâtiments administratifs  </li>
+<li>Banques  </li>
+<li>Bâtiments communaux  </li>
+<li>Hôtels de ville  </li>
+<li>Palais de justice  </li>
+<li>Bâtiments opérationnels de police  </li>
+<li>Centres de détention  </li>
+<li>Établissements pénitentiaires  </li>
+<li>Crèches  </li>
+<li>Ateliers protégés  </li>
+<li>Églises  </li>
+<li>Chapelles  </li>
+<li>Salles funéraires  </li>
+<li>Centres paroissiaux  </li>
+<li>Installations de cimetière  </li>
+<li>Crématoriums  </li>
+<li>Monastères  </li>
+<li>Maisons d’aide sociale  </li>
+<li>Clubhouses  </li>
+<li>Centres culturels  </li>
+<li>Salles de fête  </li>
+<li>Restaurants  </li>
+<li>Hôtels  </li>
+<li>Motels  </li>
+<li>Hôtels (service limité)  </li>
+<li>Motels (service limité)  </li>
+<li>Cantines  </li>
+<li>Grandes cuisines indépendantes  </li>
+<li>Auberges  </li>
+<li>Auberges de jeunesse  </li>
+<li>Aires de service  </li>
+<li>Cafétérias  </li>
+<li>Salons de thé  </li>
+<li>Postes de douane autoroutiers  </li>
+<li>Stations-service  </li>
+<li>Halls d’attente avec locaux de service  </li>
+<li>Postes de douane  </li>
+<li>Terminaux de bus  </li>
+<li>Gares  </li>
+<li>Bâtiments d’exploitation ferroviaire  </li>
+<li>Stations de téléphérique  </li>
+<li>Aéroports  </li>
+<li>Installations portuaires  </li>
+<li>Bureaux de poste  </li>
+<li>Centrales téléphoniques  </li>
+<li>Bâtiments d’exploitation postale  </li>
+<li>Bâtiments de télécommunications  </li>
+<li>Centres de données  </li>
+<li>Casernes  </li>
+<li>Armureries  </li>
+<li>Installations publiques de protection civile  </li>
+<li>Postes de commandement  </li>
+<li>Installations de mise en place  </li>
+<li>Postes de premiers secours  </li>
+<li>Centres d’aide médicale  </li>
+<li>Salles d’opération protégées  </li>
+<li>Hôpitaux d’urgence  </li>
+<li>Centres de formation de la protection civile  </li>
+<li>Casernes de pompiers</li>
+</ul>
+<hr>
+<h3>3 Production</h3>
+<ul>
+<li>Halles industrielles  </li>
+<li>Bâtiments de production pour l’industrie des matières premières  </li>
+<li>Bâtiments de production pour l’industrie lourde  </li>
+<li>Bâtiments de production pour l’industrie mécanique  </li>
+<li>Bâtiments de production pour la mécanique de précision  </li>
+<li>Bâtiments de production pour l’industrie de transformation  </li>
+<li>Bâtiments de production pour l’industrie agroalimentaire  </li>
+<li>Bâtiments d’exploitation  </li>
+<li>Bâtiments commerciaux  </li>
+<li>Ateliers  </li>
+<li>Étables  </li>
+<li>Installations de production agricole  </li>
+<li>Abattoirs  </li>
+<li>Chaufferies  </li>
+<li>Réseaux de chauffage à distance  </li>
+<li>Bâtiments de centrales électriques  </li>
+<li>Stations de traitement de l’eau  </li>
+<li>Stations d’épuration des eaux usées  </li>
+<li>Usines d’incinération des déchets  </li>
+<li>Dépôts de stockage de carburant</li>
+</ul>
+<hr>
+<h3>4 Stockage <em>(Stockage et distribution, stationnement)</em></h3>
+<ul>
+<li>Halles de stockage  </li>
+<li>Bâtiments de stockage à plusieurs niveaux  </li>
+<li>Stockage mécanisé  </li>
+<li>Entrepôts frigorifiques  </li>
+<li>Silos  </li>
+<li>Centres de distribution (alimentaire)  </li>
+<li>Centres de distribution (non-alimentaire)  </li>
+<li>Hangars  </li>
+<li>Cabanes  </li>
+<li>Locaux de stockage de fourrage  </li>
+<li>Serres  </li>
+<li>Garages de plain-pied  </li>
+<li>Parkings souterrains  </li>
+<li>Parkings à étages en surface  </li>
+<li>Bâtiments liés au trafic routier  </li>
+<li>Dépôts/centres d’exploitation  </li>
+<li>Dépôts ferroviaires  </li>
+<li>Dépôts de tram  </li>
+<li>Zones piétonnes  </li>
+<li>Rues résidentielles</li>
+</ul>
+<hr>
+<h3>5 Enseignement et recherche <em>(Éducation, enseignement, culture, recherche)</em></h3>
+<ul>
+<li>Crèches  </li>
+<li>Jardins d’enfants  </li>
+<li>Écoles primaires  </li>
+<li>Écoles secondaires  </li>
+<li>Écoles professionnelles  </li>
+<li>Écoles techniques supérieures  </li>
+<li>Collèges  </li>
+<li>Lycées  </li>
+<li>Écoles polyvalentes  </li>
+<li>Écoles spécialisées  </li>
+<li>Écoles de rattrapage  </li>
+<li>Universités  </li>
+<li>Établissements d’enseignement supérieur  </li>
+<li>Bibliothèques  </li>
+<li>Archives d’État  </li>
+<li>Instituts de recherche sans laboratoires  </li>
+<li>Instituts de recherche avec laboratoires  </li>
+<li>Bâtiments de laboratoires pour l’industrie  </li>
+<li>Bâtiments de laboratoires pour l’artisanat  </li>
+<li>Halls d’exposition temporaires  </li>
+<li>Bâtiments d’exposition  </li>
+<li>Pavillons  </li>
+<li>Musées locaux  </li>
+<li>Galeries d’art  </li>
+<li>Musées  </li>
+<li>Petits théâtres  </li>
+<li>Salles de concert  </li>
+<li>Bâtiments de théâtre  </li>
+<li>Kiosques à musique  </li>
+<li>Cinémas  </li>
+<li>Discothèques  </li>
+<li>Salles d’assemblée  </li>
+<li>Centres de congrès  </li>
+<li>Studios radio  </li>
+<li>Studios TV  </li>
+<li>Studios de cinéma</li>
+</ul>
+<hr>
+<h3>6 Soins et prise en charge</h3>
+<ul>
+<li>Cabinets médicaux  </li>
+<li>Centres médicaux  </li>
+<li>Hôpitaux  </li>
+<li>Ailes d’hospitalisation  </li>
+<li>Ailes de traitement  </li>
+<li>Cliniques universitaires  </li>
+<li>Maisons de retraite / EMS  </li>
+<li>Centres de réadaptation  </li>
+<li>Sanatoriums  </li>
+<li>Stations thermales  </li>
+<li>Instituts spécialisés</li>
+</ul>
+<hr>
 <h2>Voir aussi</h2>
 <ul>
-<li><a href="definitions.fr.md">Définitions</a></li>
-<li><a href="tutorial.fr.md">Tutoriel</a></li>
+<li><a href="definitions.html">Définitions et concepts clés</a>  </li>
+<li><a href="how-it-works.html">Fonctionnement de l’application</a>  </li>
+<li><a href="examples.html">Exemples</a>  </li>
+<li><a href="tutorial.html">Tutoriel</a>  </li>
+<li><a href="why-valueapp.html">Pourquoi la ValueApp existe</a></li>
 </ul>
 
       </section>

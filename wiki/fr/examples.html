@@ -67,21 +67,165 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Exemples de projets</h1>
-<p>Cette page montre comment la ValueApp est utilisée dans des situations
-réelles, en complément du
-<a href="tutorial.fr.md">tutoriel</a>.</p>
-<h2>Exemple simple</h2>
-<p>Un projet de petite taille avec une structure claire et peu de facteurs
-de complexité.</p>
-<h2>Exemple complexe</h2>
-<p>Un projet avec plusieurs usages, une organisation complexe et des
-facteurs d’ajustement élevés, tels que décrits dans les
-<a href="definitions.fr.md">définitions</a>.</p>
+<h1>Exemples</h1>
+<p>Les exemples aident à calibrer les attentes et montrent comment les saisies influencent les résultats dans la ValueApp.<br>Ils démontrent comment les <strong>déterminants</strong>, le <strong>mix d’usages</strong> et la <strong>complexité</strong> se traduisent en plages d’effort.</p>
+<p>Si vous débutez, commencez par <a href="getting-started.html">Bien démarrer</a>, puis revenez ici une fois le flux de travail de base compris.</p>
+<hr>
+<h2>À quoi servent ces exemples</h2>
+<p>Ces exemples ont pour but de :</p>
+<ul>
+<li>montrer comment traduire un projet réel en déterminants, mix d’usages et complexité,</li>
+<li>démontrer comment les facteurs d’ajustement déplacent les résultats,</li>
+<li>fournir des points de référence pour les échanges avec les clients et les équipes,</li>
+<li>illustrer ce que signifie « plausible » dans la pratique.</li>
+</ul>
+<p>Ils ne sont pas des modèles à copier tels quels, mais des <strong>schémas à adapter</strong> à vos propres projets.</p>
+<hr>
+<h2>Ordre de lecture recommandé</h2>
+<ol>
+<li>Lisez <a href="definitions.html">Définitions et concepts clés</a> si des termes comme LI, déterminant ou AF<sub>qualité</sub> sont nouveaux.</li>
+<li>Consultez <a href="how-it-works.html">Fonctionnement de l’application</a> pour comprendre la logique conceptuelle.</li>
+<li>Comparez votre projet aux exemples ci-dessous.</li>
+<li>Utilisez le <a href="tutorial.html">Tutoriel</a> pour appliquer les étapes dans l’application.</li>
+</ol>
+<hr>
+<h2>Exemple 1 – Étude de faisabilité simple / concours</h2>
+<p><em>Petit projet résidentiel, mission claire, peu d’intervenants, complexité faible à moyenne.</em></p>
+<h3>Étape 1 – Beschrieb</h3>
+<p>Le projet est un petit bâtiment d’habitation d’environ <strong>100 m² de surface brute de plancher (GF)</strong>.<br>La mission consiste à vérifier la faisabilité et à préparer un concept pour une éventuelle demande de permis de construire ou une participation à un concours.</p>
+<p>Le client est un propriétaire privé avec un calendrier standard et sans contraintes contractuelles particulières.</p>
+<p>Dans l’onglet <strong>Beschrieb</strong> :</p>
+<ul>
+<li>utilisez un titre de projet clair et saisissez l’adresse,</li>
+<li>définissez le statut sur <em>In Planung</em>,</li>
+<li>décrivez la mission dans un court paragraphe (situation initiale, objectif de l’étude, contraintes clés),</li>
+<li>choisissez une organisation avec des planificateurs individuels et sans entreprise générale.</li>
+</ul>
+<h3>Étape 2 – Projekt</h3>
+<p>Dans l’onglet <strong>Projekt</strong>, vous saisissez une surface brute de plancher de <strong>100 m²</strong>.<br>L’usage principal est <em>Wohnen</em>, par exemple :</p>
+<ul>
+<li>Wohnen – 95 % de la GF  </li>
+<li>Wohnen 2 – 5 % de la GF (p. ex. surfaces annexes liées au logement)</li>
+</ul>
+<p>La complexité se situe principalement dans le registre <strong>simple à compliqué</strong> : typologie standard, cadre réglementaire connu, pas de systèmes techniques particuliers.</p>
+<p>La plupart des défis sont positionnés dans le Leadership Framework dans le domaine <em>einfach / kompliziert</em>,<br>et le niveau de risque est réglé sur <strong>Keine spez. Anforderungen</strong>.</p>
+<h3>Étape 3 – Leistung</h3>
+<p>En tant qu’architecte, vous sélectionnez le rôle <strong>Architekt/in</strong> et des thèmes prioritaires tels que la conception et la planification des coûts en phase initiale.</p>
+<p>L’application calcule un total d’environ <strong>300 heures</strong> pour 100 % de prestations de base,<br>avec un accent plus fort sur les phases 2 et 3 (pré-étude et projet) et moins d’heures en exécution.</p>
+<h3>Étape 4 – Zusammenfassung</h3>
+<p>La synthèse fournit un aperçu compact : description du projet, organisation, mix d’usages, effort par m² et heures par phase.</p>
+<p>Pour des études de faisabilité ou des concours, cette page peut être jointe à des documents internes<br>ou utilisée comme référence lors de discussions d’honoraires.</p>
+<div class="wiki-highlight-box">
+  <strong>Ce que montre cet exemple</strong>
+  <p>
+    Même pour de petits projets relativement simples, la ValueApp utilise les mêmes modèles de base
+    et la même logique de complexité. Les heures obtenues restent modestes, mais elles sont traçables
+    et comparables à celles de projets plus grands.
+  </p>
+</div>
+
+<hr>
+<h2>Exemple 2 – Bâtiment éducatif (jardin d’enfants)</h2>
+<p><em>Bâtiment éducatif à fonction claire, mais avec une complexité plus élevée sur les plans de la conception, de l’organisation et de l’espace.</em></p>
+<h3>Contexte et base de données</h3>
+<p>Cet exemple est basé sur un projet de jardin d’enfants réalisé.<br>Le bâtiment appartient au groupe d’usage <strong>Enseignement / Recherche</strong> et fait partie de la base de données<br>du modèle de base correspondant.</p>
+<p><img src="/wiki-assets/education-model-chart.jpeg" alt="Graphique de modèle de base pour bâtiments éducatifs"></p>
+<p><em>Bâtiments d’enseignement et de recherche avec intervalles de prédiction pour l’effort de planification.</em></p>
+<h3>Étape 1 – Beschrieb</h3>
+<p>L’onglet <strong>Beschrieb</strong> contient une description structurée :</p>
+<ul>
+<li>localisation et client,</li>
+<li>contexte (p. ex. quartier, espaces extérieurs),</li>
+<li>concept pédagogique,</li>
+<li>exigences particulières telles que l’inclusion, la flexibilité des espaces ou des contraintes de sécurité spécifiques.</li>
+</ul>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Description du projet dans la ValueApp pour l’exemple du jardin d’enfants.</em></p>
+<h3>Étape 2 – Projekt</h3>
+<p>La grandeur déterminante est la <strong>surface brute de plancher</strong> du jardin d’enfants.<br>La totalité de la GF est attribuée à l’usage <strong>Enseignement / Recherche</strong>, ce qui relie directement le projet au modèle éducatif.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Onglet Projet avec 100 % de la surface brute attribuée à Enseignement / Recherche.</em></p>
+<p>La complexité est évaluée comme plus élevée que dans l’exemple résidentiel :</p>
+<ul>
+<li>organisation spatiale exigeante,</li>
+<li>concept pédagogique,</li>
+<li>intégration dans un contexte existant,</li>
+<li>coordination de plusieurs parties prenantes.</li>
+</ul>
+<p>Plusieurs défis sont positionnés dans le domaine <strong>complexe</strong> du Leadership Framework.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Défis positionnés dans le Leadership Framework ; le centre de gravité mène à un facteur d’ajustement.</em></p>
+<h3>Étape 3 – Leistung</h3>
+<p>Le bureau d’architecture assume le rôle <strong>Architekt/in</strong> ou <strong>Architekt/in &amp; Generalplaner/in</strong>, selon la configuration.</p>
+<p>Les thèmes prioritaires incluent la conception, la coordination avec les spécialistes, la direction des travaux et la planification des coûts.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Heures calculées pour 100 % de prestations de base et leur répartition par phases SIA.</em></p>
+<p>Le total d’heures est nettement plus élevé que dans l’exemple simple,<br>à la fois en raison de la GF plus importante et du facteur d’ajustement plus élevé.</p>
+<p>Les phases <strong>3–5</strong> (projet, appel d’offres et exécution) représentent la plus grande part de l’effort.</p>
+<h3>Étape 4 – Zusammenfassung</h3>
+<p>La synthèse présente le jardin d’enfants comme projet de référence avec :</p>
+<ul>
+<li>des déterminants clairement documentés,</li>
+<li>une évaluation explicite de la complexité,</li>
+<li>la répartition résultante de l’effort.</li>
+</ul>
+<p>De telles synthèses peuvent servir de benchmarks internes,<br>de base pour des discussions d’honoraires transparentes ou dans des procédures de marchés publics.</p>
+<div class="wiki-highlight-box">
+  <strong>Ce que montre cet exemple</strong>
+  <p>
+    La complexité et le contexte comptent. Même avec une grandeur déterminante identique,
+    le facteur d’ajustement dérivé du Leadership Framework peut modifier sensiblement l’effort attendu.
+    Cet exemple montre comment ce déplacement est documenté de manière transparente.
+  </p>
+</div>
+
+<div class="wiki-highlight-box">
+  <strong>Origine des données</strong>
+  <p>
+    Les projets réalisés sont documentés dans un système séparé de données et de références.
+    Ces jeux de données alimentent les modèles statistiques de base de la ValueApp.
+  </p>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/werk-material-kindergarten.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="wiki-img-caption">
+    Exemple d’une entrée de projet dans la base de référence sous-jacente (illustratif).
+  </div>
+</div>
+
+<hr>
+<h2>Autres exemples que vous pourrez ajouter plus tard</h2>
+<p>Pour renforcer le wiki (et une future recherche via chatbot), vous pouvez envisager d’ajouter :</p>
+<ul>
+<li>un projet <strong>mixte complexe</strong> (plusieurs modèles de base),</li>
+<li>un projet <strong>très dépendant du processus</strong> (passation ou collaboration atypiques),</li>
+<li>un cas limite avec des saisies inhabituelles mais réalistes.</li>
+</ul>
+<hr>
 <h2>Voir aussi</h2>
 <ul>
-<li><a href="how-it-works.fr.md">Fonctionnement de l’application</a></li>
-<li><a href="project-section.fr.md">Section Projet</a></li>
+<li><a href="definitions.html">Définitions et concepts clés</a>  </li>
+<li><a href="project-section.html">Section Projet</a>  </li>
+<li><a href="how-it-works.html">Fonctionnement de l’application</a>  </li>
+<li><a href="tutorial.html">Tutoriel</a>  </li>
+<li><a href="why-valueapp.html">Pourquoi la ValueApp existe</a></li>
 </ul>
 
       </section>

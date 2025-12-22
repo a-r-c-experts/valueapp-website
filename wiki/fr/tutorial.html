@@ -67,23 +67,97 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Tutoriel</h1>
-<p>Ce tutoriel explique étape par étape comment utiliser la ValueApp,
-en s’appuyant sur les concepts décrits dans les
-<a href="definitions.fr.md">définitions</a>.</p>
-<h2>Étapes principales</h2>
-<ol>
-<li>Décrire le projet</li>
-<li>Définir la quantité et la complexité</li>
-<li>Sélectionner les prestations</li>
-<li>Examiner le résumé</li>
-</ol>
-<p>Chaque étape correspond à une partie du
-<a href="how-it-works.fr.md">fonctionnement de l’application</a>.</p>
-<h2>Voir aussi</h2>
+<h1>Tutoriel – pas à pas dans la ValueApp</h1>
+<h2>Ce tutoriel vous guide dans la ValueApp à l’aide d’un projet d’exemple. L’objectif est de clarifier quoi saisir dans chaque onglet et comment lire les résultats.</h2>
+<hr>
+<h2>Vue d’ensemble — Quatre onglets, une méthode</h2>
+<p>La ValueApp est structurée en quatre onglets : <strong>Beschrieb</strong>, <strong>Projekt</strong>, <strong>Leistung</strong> et <strong>Zusammenfassung</strong>.<br>Ils suivent la logique de l’ETH Value Method, du contexte du projet jusqu’à l’effort et à la répartition des prestations.</p>
+<p><img src="/wiki-assets/valueapp-architecture-overview.jpeg" alt="Diagramme d’ensemble de la structure de la ValueApp"></p>
+<p><em>L’application relie la description du projet, les déterminants, les facteurs d’ajustement et les prestations dans un flux cohérent.</em></p>
+<h2>Étape 1 — Beschrieb</h2>
+<p>Commencez par une description de projet claire. Elle apparaît dans les rapports et fournit du contexte lorsque vous comparez des projets plus tard.</p>
 <ul>
-<li><a href="examples.fr.md">Exemples de projets</a></li>
-<li><a href="why-valueapp.fr.md">Pourquoi la ValueApp existe</a></li>
+<li>Saisir le titre du projet et l’adresse  </li>
+<li>Définir le statut (p. ex. « In Planung » ou « Ausführung »)  </li>
+<li>Décrire la situation de départ, la mission et les contraintes principales en 5 à 10 lignes  </li>
+<li>Définir l’organisation côté planification et côté entreprise</li>
+</ul>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Exemple d’un onglet « Beschrieb » rempli pour un bâtiment d’enseignement.</em></p>
+<div class="wiki-note-box">
+  <strong>Enregistrement et feedback</strong>
+  <p>
+    Utilisez le bouton « Speichern » pour enregistrer votre progression.  
+    Le bouton « Feedback » permet d’envoyer des retours ou de signaler des problèmes.
+  </p>
+</div>
+
+<h2>Étape 2 — Projekt (quantités, usages et complexité)</h2>
+<p>Dans l’onglet <strong>Projekt</strong>, vous traduisez la mission en chiffres et en une évaluation de la complexité.</p>
+<h3>2.1 Déterminant et mix d’usages</h3>
+<p>Saisissez la quantité déterminante, généralement la surface brute de plancher (GF).<br>Attribuez ensuite des pourcentages de cette surface aux usages pertinents.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-project-uses-empty.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Onglet « Projekt » avant l’attribution des usages.</em></p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>100 % de la GF attribuée à « Ausbilden und forschen ».</em></p>
+<h3>2.2 Complexité et défis</h3>
+<p>Décrivez les défis spécifiques au projet sur quatre dimensions<br>(<strong>conception</strong>, <strong>technique</strong>, <strong>spatiale</strong>, <strong>organisationnelle</strong>)<br>et positionnez-les dans le Leadership Framework.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Description des défis spécifiques au projet et leur positionnement dans le framework.</em></p>
+<p>L’application calcule un facteur d’ajustement à partir du « centre de gravité » de vos saisies.<br>Ce facteur déplace l’effort attendu à l’intérieur de l’intervalle de prédiction du modèle de base.</p>
+<h3>2.3 Niveau de risque</h3>
+<p>Définissez le niveau de risque : <strong>aucune</strong>, <strong>exigences accrues</strong> ou <strong>exigences élevées</strong>.<br>Cela reflète des incertitudes spécifiques au projet et peut influencer la partie haute de la plage d’effort.</p>
+<h2>Étape 3 — Leistung (rôles et heures par phase)</h2>
+<p>Dans l’onglet <strong>Leistung</strong>, vous définissez votre responsabilité et vous voyez comment les heures calculées se répartissent par phase.</p>
+<ul>
+<li>Choisir le rôle (Architecte / Architecte &amp; Generalplaner / Generalplaner)  </li>
+<li>Marquer les thèmes prioritaires (conception, direction des travaux, planification des coûts, etc.)  </li>
+<li>Vérifier le total d’heures pour 100 % des prestations de base  </li>
+<li>Adapter si nécessaire la répartition des phases selon SIA 1–6</li>
+</ul>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Exemple de rôles, thèmes prioritaires et heures par phase.</em></p>
+<h3>Plusieurs disciplines</h3>
+<p>Pour les projets multi-disciplines (architecture, structure, électricité, CVCS, sanitaire) :<br>répétez les étapes <strong>Projekt</strong> et <strong>Leistung</strong> pour chaque discipline.<br>La synthèse affiche ensuite les résultats côte à côte.</p>
+<h2>Étape 4 — Zusammenfassung (le one-pager)</h2>
+<p>L’onglet <strong>Zusammenfassung</strong> regroupe toutes les informations pertinentes de manière structurée :</p>
+<ul>
+<li>description du projet  </li>
+<li>organisation  </li>
+<li>mix d’usages  </li>
+<li>effort par m²  </li>
+<li>niveau de risque  </li>
+<li>heures par phases SIA  </li>
+<li>prestations supplémentaires, si présentes</li>
+</ul>
+<p>Cette page peut être exportée ou imprimée et convient pour des offres d’honoraires ou des documents internes de planification.<br>Elle documente pourquoi un certain effort est plausible, sur la base des paramètres du projet et de la complexité.</p>
+<h2>Pour aller plus loin</h2>
+<ul>
+<li><a href="definitions.html">Termes et concepts</a></li>
+<li><a href="examples.html">Exemples</a></li>
+<li><a href="project-section.html">Section « Projet »</a></li>
+<li><a href="how-it-works.html">Fonctionnement de l’application</a></li>
+<li><a href="why-valueapp.html">Pourquoi la ValueApp existe</a></li>
 </ul>
 
       </section>

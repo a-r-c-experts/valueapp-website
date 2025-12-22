@@ -68,32 +68,163 @@
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
 <h1>Examples</h1>
-<p>Examples help calibrate expectations and show how inputs influence results. If you are new, begin with <a href="getting-started.html">Getting started</a> and then come back here.</p>
+<p>Examples help calibrate expectations and show how inputs influence results in the ValueApp.<br>They demonstrate how <strong>determinants</strong>, <strong>use mix</strong> and <strong>complexity</strong> translate into effort ranges.</p>
+<p>If you are new, start with <a href="getting-started.html">Getting started</a>, then return here once you understand the basic workflow.</p>
+<hr>
 <h2>What these examples are for</h2>
+<p>These examples are meant to:</p>
 <ul>
 <li>show how to translate a real project into determinants, use mix and complexity,</li>
-<li>demonstrate how adjustment factors move results,</li>
-<li>provide reference points for discussion.</li>
+<li>demonstrate how adjustment factors shift results,</li>
+<li>provide reference points for discussion with clients and teams,</li>
+<li>illustrate what “plausible” means in practice.</li>
 </ul>
+<p>They are not templates to be copied verbatim, but <strong>patterns to be adapted</strong>.</p>
+<hr>
 <h2>Suggested reading order</h2>
 <ol>
-<li>Start with <a href="definitions.html">Definitions</a> if terms like LI, determinant or AF_quality are new.</li>
-<li>Read <a href="how-it-works.html">How the app works</a> for the conceptual pipeline.</li>
-<li>Compare your case to these examples.</li>
-<li>Use the <a href="tutorial.html">Tutorial</a> to implement the steps in the app.</li>
+<li>Read <a href="definitions.html">Definitions and core concepts</a> if terms like LI, determinant or AF<sub>quality</sub> are new.</li>
+<li>Review <a href="how-it-works.html">How the app works</a> to understand the conceptual pipeline.</li>
+<li>Compare your project to the examples below.</li>
+<li>Use the <a href="tutorial.html">Tutorial</a> to implement the steps in the application.</li>
 </ol>
-<h2>Example types you should cover</h2>
+<hr>
+<h2>Example 1 – Simple feasibility / competition project</h2>
+<p><em>Small residential project, clear task, few stakeholders, low-to-medium complexity.</em></p>
+<h3>Step 1 – Beschrieb</h3>
+<p>The project is a small residential building with approximately <strong>100 m² gross floor area (GF)</strong>.<br>The task is to examine feasibility and prepare a concept for a possible building permit or competition entry.</p>
+<p>The client is a private owner with a standard schedule and no unusual contractual constraints.</p>
+<p>In the <strong>Beschrieb</strong> tab you:</p>
 <ul>
-<li>A simple, single‑use project (baseline)</li>
-<li>A complex, multi‑use project (mixed models, higher AF_quality)</li>
-<li>A “weird but real” edge case (odd inputs, special process constraints)</li>
+<li>use a clear project title and enter the address,</li>
+<li>set the status to <em>In Planung</em>,</li>
+<li>describe the task in a short paragraph (existing situation, goal of the study, key constraints),</li>
+<li>choose an organisational setup with individual planners and no general contractor.</li>
 </ul>
+<h3>Step 2 – Projekt</h3>
+<p>In the <strong>Projekt</strong> tab you enter a gross floor area of <strong>100 m²</strong>.<br>The main use is <em>Wohnen</em>, for example:</p>
+<ul>
+<li>Wohnen – 95% of GF  </li>
+<li>Wohnen 2 – 5% of GF (e.g. ancillary residential space)</li>
+</ul>
+<p>Complexity is mostly in the <strong>simple to complicated</strong> range: standard residential typology, known regulations, no special technical systems.</p>
+<p>Most challenges are positioned in the <em>einfach / kompliziert</em> domain of the Leadership Framework,<br>and the risk level is set to <strong>Keine spez. Anforderungen</strong>.</p>
+<h3>Step 3 – Leistung</h3>
+<p>As an architect you select the role <strong>Architekt/in</strong> and focus topics such as design and early cost planning.</p>
+<p>The app calculates a total of roughly <strong>300 hours</strong> for 100% basic services,<br>with a stronger emphasis on phases 2 and 3 (pre-design and design) and fewer hours in execution.</p>
+<h3>Step 4 – Zusammenfassung</h3>
+<p>The summary provides a compact overview: project description, organisational setup, use mix, effort per m² and hours per phase.</p>
+<p>For feasibility studies or competitions, this page can be attached to internal planning documents<br>or used as a reference for fee discussions.</p>
+<div class="wiki-highlight-box">
+  <strong>What this example shows</strong>
+  <p>
+    Even for small, relatively simple projects, the ValueApp uses the same base models
+    and complexity logic. The resulting hours are modest, but fully traceable and
+    comparable with larger projects.
+  </p>
+</div>
+
+<hr>
+<h2>Example 2 – Educational building (Kindergarten)</h2>
+<p><em>Educational building with a clear function but higher design, organisational and spatial complexity.</em></p>
+<h3>Context and data basis</h3>
+<p>This example is based on a realised kindergarten project.<br>The building belongs to the usage group <strong>Learning / Research</strong> and forms part of the data basis<br>for the corresponding base model.</p>
+<p><img src="/wiki-assets/education-model-chart.jpeg" alt="Base model chart for educational buildings"></p>
+<p><em>Educational and research buildings with prediction intervals for planning effort.</em></p>
+<h3>Step 1 – Beschrieb</h3>
+<p>The <strong>Beschrieb</strong> tab contains a structured project description:</p>
+<ul>
+<li>location and client,</li>
+<li>context (e.g. neighbourhood, outdoor spaces),</li>
+<li>pedagogical concept,</li>
+<li>special requirements such as inclusion, flexible spaces or specific safety constraints.</li>
+</ul>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Project description in the ValueApp for the kindergarten example.</em></p>
+<h3>Step 2 – Projekt</h3>
+<p>The determinating quantity is the <strong>gross floor area</strong> of the kindergarten.<br>The entire GF is assigned to the use <strong>Learning / Research</strong>, linking the project directly to the educational base model.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Project tab with 100% of the gross floor area assigned to Learning / Research.</em></p>
+<p>Complexity is assessed as higher than in the residential example:</p>
+<ul>
+<li>demanding spatial organisation,</li>
+<li>pedagogical concept,</li>
+<li>integration into an existing context,</li>
+<li>coordination of multiple stakeholders.</li>
+</ul>
+<p>Several challenges are positioned in the <strong>complex</strong> domain of the Leadership Framework.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Challenges positioned in the Leadership Framework; the centre of gravity leads to an adjustment factor.</em></p>
+<h3>Step 3 – Leistung</h3>
+<p>The architectural office takes the role <strong>Architekt/in</strong> or <strong>Architekt/in &amp; Generalplaner/in</strong>, depending on the setup.</p>
+<p>Focus topics include design, coordination with specialists, construction management and cost planning.</p>
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Calculated hours for 100% basic services and their distribution across SIA phases.</em></p>
+<p>The total hours are significantly higher than in the simple example,<br>both due to the larger GF and the higher adjustment factor.</p>
+<p>Phases <strong>3–5</strong> (projecting, tendering and execution) account for the majority of effort.</p>
+<h3>Step 4 – Zusammenfassung</h3>
+<p>The summary presents the kindergarten as a reference project with:</p>
+<ul>
+<li>clearly documented determinants,</li>
+<li>explicit complexity assessment,</li>
+<li>resulting effort distribution.</li>
+</ul>
+<p>Such summaries can be used as internal benchmarks,<br>for transparent fee discussions or in public procurement procedures.</p>
+<div class="wiki-highlight-box">
+  <strong>What this example shows</strong>
+  <p>
+    Complexity and context matter. Even with the same determinating quantity,
+    the adjustment factor derived from the Leadership Framework can significantly
+    shift expected effort. This example shows how that shift is documented transparently.
+  </p>
+</div>
+
+<div class="wiki-highlight-box">
+  <strong>Data provenance</strong>
+  <p>
+    Realised projects are documented in a separate data and reference system.
+    These data sets feed the statistical base models behind the ValueApp.
+  </p>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/werk-material-kindergarten.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="wiki-img-caption">
+    Example of a project entry in the underlying reference database (illustrative).
+  </div>
+</div>
+
+<hr>
+<h2>What other examples you may add later</h2>
+<p>To further strengthen the wiki (and future chatbot retrieval), consider adding:</p>
+<ul>
+<li>a complex <strong>mixed-use</strong> project (multiple base models),</li>
+<li>a <strong>process-heavy</strong> project (unusual procurement or collaboration),</li>
+<li>an edge case with odd but realistic inputs.</li>
+</ul>
+<hr>
 <h2>See also</h2>
 <ul>
-<li><a href="definitions.html">Definitions and core concepts</a></li>
-<li><a href="project-section.html">Project section</a></li>
-<li><a href="how-it-works.html">How the app works</a></li>
-<li><a href="tutorial.html">Tutorial</a></li>
+<li><a href="definitions.html">Definitions and core concepts</a>  </li>
+<li><a href="project-section.html">Project section</a>  </li>
+<li><a href="how-it-works.html">How the app works</a>  </li>
+<li><a href="tutorial.html">Tutorial</a>  </li>
 <li><a href="why-valueapp.html">Why ValueApp exists</a></li>
 </ul>
 

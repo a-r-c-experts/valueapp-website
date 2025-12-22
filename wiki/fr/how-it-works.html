@@ -67,24 +67,48 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Comment fonctionne la ValueApp</h1>
-<p>Cette page décrit la logique interne de la ValueApp,
-depuis la saisie des données jusqu’aux résultats.</p>
-<p>Elle complète les
-<a href="getting-started.html">Premiers pas</a> et le
-<a href="tutorial.fr.md">tutoriel</a>.</p>
-<h2>Flux de données</h2>
-<p>Les données saisies sont combinées à des modèles de référence,
-puis ajustées à l’aide de facteurs décrits dans les
-<a href="definitions.fr.md">définitions</a>.</p>
-<h2>Résultats</h2>
-<p>Les résultats doivent être interprétés dans leur contexte,
-comme illustré dans les
-<a href="examples.fr.md">exemples</a>.</p>
+<h1>Comment l’application fonctionne</h1>
+<p>Cette page explique, à un niveau conceptuel, ce que fait la ValueApp entre vos saisies et le one-pager final. Si vous cherchez plutôt la version « cliquez ici, saisissez cela », passez directement au <a href="tutorial.html">Tutoriel</a>.</p>
+<h2>L’idée en une phrase</h2>
+<p>La ValueApp estime l’effort de planification (en heures) pour les prestations de base en combinant un <strong>modèle de base</strong> (issu de projets de référence) avec un <strong>déterminant</strong> (généralement la surface de plancher brute) et des <strong>facteurs d’ajustement</strong> (complexité et contexte).</p>
+<h2>Ce qui se passe de gauche à droite</h2>
+<h3>1) Vous décrivez le projet</h3>
+<p>Dans <strong>Description (Beschrieb)</strong>, vous saisissez l’identité du projet et l’organisation des acteurs. C’est important, car les résultats sont faits pour être communiqués et archivés, pas seulement consultés à l’écran.</p>
+<h3>2) Vous définissez quantité, usages et complexité</h3>
+<p>Dans <strong>Projet (Projekt)</strong>, vous renseignez :</p>
+<ul>
+<li>le <strong>déterminant</strong> (par exemple la surface de plancher brute en m²),</li>
+<li>la <strong>répartition des usages</strong> (logement, travail, enseignement, etc.),</li>
+<li>une <strong>évaluation structurée de la complexité</strong> (dimensions architecturale, technique, spatiale et organisationnelle).</li>
+</ul>
+<p>Cette complexité est positionnée dans le Leadership Framework et traduite en <strong>facteur d’ajustement</strong>.</p>
+<h3>3) Vous sélectionnez le rôle et le périmètre des prestations</h3>
+<p>Dans <strong>Prestations (Leistung)</strong>, vous choisissez votre rôle (architecte, planificateur général, etc.), indiquez les thèmes prioritaires et examinez les heures calculées pour 100 % des prestations de base, y compris leur répartition par phase.</p>
+<h3>4) Vous validez et exportez</h3>
+<p>Dans <strong>Synthèse (Zusammenfassung)</strong>, l’application consolide les données et les résultats dans un one-pager destiné à la communication (offre, contrôle interne, appels d’offres, documentation).</p>
+<h2>Ce qui est calculé</h2>
+<p>Sous une forme simplifiée, la méthode peut s’écrire ainsi :</p>
+<p><strong>Effort (h) = Effort de base × Déterminant × AF_qualité × AF_projet/processus</strong></p>
+<ul>
+<li><strong>Effort de base</strong> : issu d’un modèle statistique de référence pour un usage donné.</li>
+<li><strong>Déterminant</strong> : facteur d’échelle de l’effort (le plus souvent en m²).</li>
+<li><strong>AF_qualité</strong> : reflète la complexité des défis architecturaux, techniques, spatiaux et organisationnels.</li>
+<li><strong>AF_projet/processus</strong> : prend en compte des effets supplémentaires liés au contexte ou au processus, le cas échéant.</li>
+</ul>
+<p>Si ces notions vous semblent abstraites, la page <a href="definitions.html">Définitions</a> les détaille.</p>
+<h2>Ce que le résultat est (et n’est pas)</h2>
+<ul>
+<li>Le résultat est une <strong>fourchette d’effort plausible</strong>, ancrée dans des projets de référence comparables.</li>
+<li>Ce n’est <strong>pas</strong> un calculateur d’honoraires et cela ne <strong>remplace pas</strong> le jugement professionnel.</li>
+<li>Sa valeur réside dans la transparence : les hypothèses sont visibles, discutables et documentables.</li>
+</ul>
 <h2>Voir aussi</h2>
 <ul>
-<li><a href="why-valueapp.fr.md">Pourquoi la ValueApp existe</a></li>
-<li><a href="project-section.fr.md">Section Projet</a></li>
+<li><a href="why-valueapp.html">Pourquoi la ValueApp existe</a></li>
+<li><a href="definitions.html">Définitions et concepts clés</a></li>
+<li><a href="project-section.html">Section Projet</a></li>
+<li><a href="examples.html">Exemples</a></li>
+<li><a href="tutorial.html">Tutoriel</a></li>
 </ul>
 
       </section>

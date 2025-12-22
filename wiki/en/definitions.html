@@ -68,44 +68,125 @@
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
 <h1>Definitions and core concepts</h1>
-<p>This page explains the key ideas behind the ValueApp and the ETH Value Method: <strong>base models</strong>, <strong>determinants</strong>, <strong>adjustment factors</strong>, and how they combine into an effort range.</p>
-<p>If you mainly want to learn by doing, go straight to the <a href="tutorial.html">Tutorial</a> or the <a href="examples.html">Examples</a>.</p>
-<h2>What the ValueApp estimates</h2>
-<p>The ValueApp estimates planning effort (hours) for different disciplines based on transparent determinants. Instead of construction cost, it uses measurable quantities such as <strong>gross floor area</strong> and links them to statistical <strong>base models</strong>.</p>
-<p>Project‑specific context is added through <strong>adjustment factors</strong> derived from the Leadership Framework.</p>
-<h2>Simplified core formula</h2>
-<p><strong>Effort (h) = LI × Determinant × AF_quality × AF_project/process</strong></p>
+<p>This page explains the main concepts behind the ValueApp and the ETH Value Method: <strong>base models</strong>, <strong>determinants</strong>, <strong>adjustment factors</strong>, the <strong>Leadership Framework</strong>, and how they combine into a transparent <strong>effort range</strong>.</p>
+<p>If you mainly want to learn by doing, you can jump directly to the <a href="tutorial.html">Tutorial</a> or explore the <a href="examples.html">Examples</a>. For the conceptual pipeline, see <a href="how-it-works.html">How the app works</a>.</p>
+<hr>
+<h2>What the ValueApp does</h2>
+<p>The ValueApp estimates planning effort (hours) for different disciplines based on <strong>transparent, documented determinants</strong>.</p>
+<p>Instead of construction cost, it uses measurable quantities such as <strong>gross floor area</strong> and links them to statistical <strong>base models</strong> derived from realised projects.</p>
+<p>Project-specific complexity and context are incorporated through <strong>adjustment factors</strong> derived from the <strong>Leadership Framework for Decision Making</strong>.<br>The result is a <strong>plausible, transparent effort range</strong> that can be documented, discussed and communicated.</p>
+<hr>
+<h2>Core formula (simplified)</h2>
+<p>In simplified form, the method can be written as:</p>
+<p><strong>Effort (h) = LI × Determinant × AF<sub>quality</sub> × AF<sub>project/process</sub></strong></p>
 <p>Where:</p>
 <ul>
-<li><strong>LI</strong>: base effort per unit from the base model (e.g. minutes per m²).</li>
-<li><strong>Determinant</strong>: the measurable scaling quantity (typically m² gross floor area).</li>
-<li><strong>AF_quality</strong>: adjustment factor based on complexity in design/technical/spatial/organisational dimensions.</li>
-<li><strong>AF_project/process</strong>: additional project or process adjustments where relevant.</li>
+<li><strong>LI</strong> is the base effort per unit (e.g. minutes per m² gross floor area) from the statistical base model.  </li>
+<li>The <strong>determinant</strong> is a transparent, measurable scaling quantity, typically m² gross floor area (GF).  </li>
+<li><strong>AF<sub>quality</sub></strong> is an adjustment factor derived from the Leadership Framework, based on design, technical, spatial and organisational challenges.  </li>
+<li><strong>AF<sub>project/process</sub></strong> captures additional project- or process-specific adjustments where relevant.</li>
 </ul>
-<p>The practical place to enter most of this is the <a href="project-section.html">Project section</a>.</p>
+<p>The practical place where most of these inputs are entered is the <a href="project-section.html">Project section</a>.</p>
+<hr>
 <h2>Base models and determinants</h2>
-<p>Base models are built from realised reference projects. For each use type, they connect a determinant (typically m²) with effort intervals. These intervals are usually shown as an 80% prediction band structured into deciles.</p>
-<h2>Adjustment factors</h2>
-<p>Adjustment factors are used to represent complexity and context that the determinant alone cannot capture.</p>
-<h3>AF_quality</h3>
-<p>AF_quality is derived from the Leadership Framework by positioning challenges across four dimensions:</p>
+<p>Base models are built from <strong>realised reference projects</strong>. For each use type, they link a determinant (typically m² GF) to <strong>intervals of planning effort</strong>.</p>
+<p>These intervals usually cover around <strong>80% of comparable projects</strong> and are structured into <strong>deciles</strong>, making variability explicit rather than hiding it behind a single number.</p>
+<p><img src="/wiki-assets/base-model-housing-reference-cloud.jpeg" alt="Reference cloud for residential base model"></p>
+<p><em>Reference projects and prediction intervals for residential and related buildings.</em></p>
+<p><img src="/wiki-assets/base-model-mfh-example.jpeg" alt="Example of a multi-family house in the prediction interval"></p>
+<p><em>Example: multi-family house at a given gross floor area within the 80% prediction interval.</em></p>
+<p>The ValueApp currently uses usage-based base models such as:</p>
 <ul>
-<li>design,</li>
-<li>technical,</li>
-<li>spatial,</li>
-<li>organisational.</li>
+<li>Housing  </li>
+<li>Working / Services  </li>
+<li>Industry  </li>
+<li>Storage  </li>
+<li>Learning / Research  </li>
+<li>Healing / Care</li>
 </ul>
-<p>It is meant to be explicit and discussable, not “hidden calibration”.</p>
-<h3>AF_project/process</h3>
-<p>Where applicable, additional factors reflect process and project setup (for example procurement, collaboration model, constraints, etc.).</p>
+<p>Each model assumes <strong>100% basic services</strong> for the corresponding discipline.</p>
+<hr>
+<h2>Leadership Framework and complexity</h2>
+<p>The <strong>Leadership Framework for Decision Making</strong> classifies situations according to the clarity of cause-and-effect relationships.<br>It distinguishes between <strong>simple</strong>, <strong>complicated</strong>, <strong>complex</strong> and <strong>chaotic</strong> contexts and suggests different ways of acting in each.</p>
+<p><img src="/wiki-assets/leadership-framework-overview.jpeg" alt="Leadership framework overview"></p>
+<p><em>Leadership Framework: from simple through complicated and complex to chaotic decision contexts.</em></p>
+<p>In the ValueApp, project challenges are described across four dimensions:</p>
+<ul>
+<li><strong>design</strong>,  </li>
+<li><strong>technical</strong>,  </li>
+<li><strong>spatial</strong>,  </li>
+<li><strong>organisational</strong>.</li>
+</ul>
+<p>These challenges are positioned within the framework. Their combined “centre of gravity” results in an <strong>AF<sub>quality</sub></strong> value.</p>
+<p><img src="/wiki-assets/leadership-framework-centre-of-gravity.jpeg" alt="Leadership framework with centre of gravity"></p>
+<p><em>Project-specific challenges positioned in the framework; the centre of gravity determines the adjustment factor.</em></p>
+<p>This logic is explicit and discussable. It is not hidden calibration.</p>
+<hr>
+<h2>Adjustment factors</h2>
+<p>Adjustment factors represent complexity and context that the determinant alone cannot capture.</p>
+<h3>AF<sub>quality</sub></h3>
+<p>Derived from the Leadership Framework, AF<sub>quality</sub> reflects the combined effect of design, technical, spatial and organisational challenges.</p>
+<h3>AF<sub>project/process</sub></h3>
+<p>Where applicable, additional factors reflect project and process setup, such as procurement model, collaboration structure, constraints, phasing or special contractual conditions.</p>
+<hr>
 <h2>Prediction intervals</h2>
-<p>A prediction interval is a range that covers the majority of comparable projects (often around 80%). It is not a guarantee. It is a structured way to express uncertainty and variability.</p>
+<p>A <strong>prediction interval</strong> is a range that covers the majority of comparable projects, typically around 80%.</p>
+<p>It is not a guarantee and not a target.<br>It is a structured way to express <strong>uncertainty and variability</strong> based on observed data.</p>
+<hr>
+<h2>Structure of the ValueApp</h2>
+<p>The ValueApp is organised into four main tabs that mirror the logic of the method:</p>
+<ul>
+<li><strong>Beschrieb (Description)</strong> – project context, address, organisational setup and status.  </li>
+<li><strong>Projekt (Project)</strong> – determinant, use mix, complexity and risk.  </li>
+<li><strong>Leistung (Services)</strong> – role, focus topics and hours per phase.  </li>
+<li><strong>Zusammenfassung (Summary)</strong> – consolidated one-pager for communication and documentation.</li>
+</ul>
+<p><img src="/wiki-assets/valueapp-architecture-overview.jpeg" alt="Diagram of the ValueApp architecture and data flows"></p>
+<p><em>The ValueApp connects project description, determinants, adjustment factors and services into one consistent model.</em></p>
+<hr>
+<h2>Fields in the app: recommended usage</h2>
+<h3>Beschrieb</h3>
+<p>Use the project title and address to clearly identify the project in reports and internal systems.<br>The project description should briefly cover starting situation, task, key constraints and central themes that influence complexity.</p>
+<h3>Projekt</h3>
+<p>Enter the determinant (typically m² gross floor area) and assign percentages to the relevant uses.<br>Assess complexity across the four dimensions and set the risk level (<strong>no special</strong>, <strong>increased</strong>, <strong>high</strong>).</p>
+<p>Further guidance is available in the <a href="project-section.html">Project section</a>.</p>
+<h3>Leistung</h3>
+<p>Choose your contractual role and highlight focus topics.<br>Review the calculated hours for 100% basic services and their distribution across phases.<br>Adjust phase percentages where justified.</p>
+<h3>Zusammenfassung</h3>
+<p>The summary compiles all inputs and calculated results into a traceable overview.<br>It is intended to be attached to fee offers, internal controlling documents or procurement procedures.</p>
+<hr>
+<h2>Glossary</h2>
+<p><strong>Determinant (determinierende Grösse)</strong><br>Measurable quantity that drives the base model, usually the gross floor area GF relevant for the project scope.<br>See also the <a href="project-section.html">Project section</a>.</p>
+<p><strong>Base model (Grundmodell)</strong><br>Statistical model for a usage type that links determinants to effort ranges for 100% basic services.</p>
+<p><strong>Prediction interval (Prognoseintervall)</strong><br>Range covering most comparable projects (around 80%), structured in deciles.</p>
+<p><strong>AF Qualität</strong><br>Adjustment factor derived from the Leadership Framework based on design, technical, spatial and organisational challenges.</p>
+<p><strong>Basic services (Grundleistungen)</strong><br>Scope of standard services defined in professional regulations (e.g. SIA), assumed at 100% in the base models.</p>
+<p><strong>Additional services (Zusätzliche Leistungen)</strong><br>Project-specific services beyond basic services that can be documented separately.</p>
+<hr>
+<div class="wiki-aside-card">
+  <h3>Method sources</h3>
+  <p>
+    The Value Method and the ValueApp are based on research at ETH Zürich and are developed
+    together with practice partners and professional associations.
+    Reference models are continuously updated with realised project data.
+  </p>
+</div>
+
+<div class="wiki-aside-card">
+  <h3>Tip for users</h3>
+  <p>
+    In everyday work, you do not need to master every statistical detail.
+    Focus on a clear project description, realistic quantities,
+    an honest complexity assessment and a transparent distribution of services across phases.
+  </p>
+</div>
+
 <h2>See also</h2>
 <ul>
-<li><a href="how-it-works.html">How the app works</a></li>
-<li><a href="why-valueapp.html">Why ValueApp exists</a></li>
-<li><a href="project-section.html">Project section</a></li>
-<li><a href="examples.html">Examples</a></li>
+<li><a href="how-it-works.html">How the app works</a>  </li>
+<li><a href="why-valueapp.html">Why ValueApp exists</a>  </li>
+<li><a href="project-section.html">Project section</a>  </li>
+<li><a href="examples.html">Examples</a>  </li>
 <li><a href="tutorial.html">Tutorial</a></li>
 </ul>
 
