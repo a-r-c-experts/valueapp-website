@@ -128,3 +128,19 @@
   document.addEventListener("DOMContentLoaded", buildToc);
   document.addEventListener("partials:loaded", buildToc);
 })();
+
+// ---- Header offset handling for anchor scrolling ----
+function setHeaderOffsetVar() {
+  const header = document.querySelector("header");
+  if (!header) return;
+
+  const h = Math.ceil(header.getBoundingClientRect().height);
+  document.documentElement.style.setProperty(
+    "--header-offset",
+    `${h + 12}px`
+  );
+}
+
+document.addEventListener("DOMContentLoaded", setHeaderOffsetVar);
+document.addEventListener("partials:loaded", setHeaderOffsetVar);
+window.addEventListener("resize", setHeaderOffsetVar);

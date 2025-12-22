@@ -127,8 +127,10 @@ header {
   width: 100%;
 }
 
-section[id] {
-  scroll-margin-top: 90px; /* space under sticky header */
+section[id],
+.wiki-content h2,
+.wiki-content h3 {
+  scroll-margin-top: var(--header-offset, 90px);
 }
 
 /* Language dropdown */
@@ -723,7 +725,7 @@ footer .footer-inner {
 
 /* Logo sizes */
 .brand-logo-link img {
-  height: 72px;      /* bump header icon */
+  height: 120px;      /* bump header icon */
   width: auto;
   max-width: 100%;
   display: block;
