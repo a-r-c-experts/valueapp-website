@@ -122,7 +122,7 @@ export const contentEn = {
       "Note: The non-English language versions of this page were initially translated with AI and then reviewed.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Chair of Architecture and Building Process · in collaboration with <span class=\"nowrap\">a r c experts AG</span>.",
+      "© 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
       "This site uses only functional cookies to improve the user experience.",
     // wiki

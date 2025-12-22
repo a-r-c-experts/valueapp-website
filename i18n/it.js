@@ -122,7 +122,7 @@ export const contentIt = {
       "Nota: Le versioni non inglesi di questa pagina sono state inizialmente tradotte con l’AI e poi revisionate.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Cattedra di architettura e processo edilizio · in collaborazione con <span class=\"nowrap\">a r c experts AG</span>.",
+      "© 2026 ETH Zürich, Cattedra di architettura e processo edilizio · in collaborazione con <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
       "Questo sito utilizza esclusivamente cookie funzionali per migliorare l’esperienza utente."
   };

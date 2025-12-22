@@ -122,7 +122,7 @@ export const contentDe = {
       "Hinweis: Die nicht englischen Sprachversionen dieser Seite wurden zunächst mit KI übersetzt und anschliessend überprüft.",
 
     "footer.copyright":
-      "© 2025 ETH Zürich, Professur für Architektur und Bauprozess · in Zusammenarbeit mit <span class=\"nowrap\">a r c experts AG</span>.",
+      "© 2026 ETH Zürich, Professur für Architektur und Bauprozess · in Zusammenarbeit mit <span class=\"nowrap\">a r c experts AG</span>.",
     "footer.cookies":
       "Diese Seite verwendet nur funktionale Cookies, um das Nutzererlebnis zu verbessern.",
   // wiki

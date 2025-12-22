@@ -124,5 +124,5 @@ export const contentPt = {
     "footer.cookies":
       "Este site utiliza apenas cookies funcionais para melhorar a experiência do utilizador.",
     "footer.copyright":
-      "© 2025 ETH Zürich, Cátedra de Arquitetura e Processo de Construção · em colaboração com <span class=\"nowrap\">a r c experts AG</span>."
+      "© 2026 ETH Zürich, Cátedra de Arquitetura e Processo de Construção · em colaboração com <span class=\"nowrap\">a r c experts AG</span>."
   };
