@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 900px) {
-  :root { --anchor-buffer: 40px; }
+  :root { --anchor-buffer: 6px; }
 }
 * {
   box-sizing: border-box;
