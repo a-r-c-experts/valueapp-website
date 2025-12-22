@@ -1,24 +1,24 @@
-// Update these when you cut a new "release" of the wiki.
-const WIKI_VERSION = {
-  wikiVersion: "2025-12-01",
-  appVersion: "ValueApp 1.0.0-alpha",
-  note: "Alpha user wiki"
-};
-
-document.addEventListener("DOMContentLoaded", () => {
+async function applyWikiVersion() {
   const span = document.getElementById("wikiVersionLabel");
   if (!span) return;
 
-  const parts = [];
-  if (WIKI_VERSION.wikiVersion) {
-    parts.push(`Wiki version: ${WIKI_VERSION.wikiVersion}`);
-  }
-  if (WIKI_VERSION.appVersion) {
-    parts.push(`App: ${WIKI_VERSION.appVersion}`);
-  }
-  if (WIKI_VERSION.note) {
-    parts.push(WIKI_VERSION.note);
-  }
+  try {
+    const res = await fetch("/wiki/wiki-version.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
 
-  span.textContent = parts.join(" · ");
-});
+    const parts = [];
+    if (data.wikiVersion) parts.push(`Wiki version: ${data.wikiVersion}`);
+    if (data.appVersion) parts.push(`App: ${data.appVersion}`);
+    if (data.note) parts.push(data.note);
+    if (data.commit) parts.push(`commit: ${data.commit}`);
+
+    span.textContent = parts.join(" · ");
+  } catch {
+    // optional fallback
+    span.textContent = "";
+  }
+}
+
+document.addEventListener("DOMContentLoaded", applyWikiVersion);
+document.addEventListener("partials:loaded", applyWikiVersion);

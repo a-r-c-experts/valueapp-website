@@ -1103,3 +1103,29 @@ nav.main-nav a.active {
     display: none;
   }
 }
+
+/* Make anchor jumps account for sticky header */
+:root {
+  --header-offset: 96px; /* adjust if your header height changes */
+}
+
+html {
+  scroll-padding-top: var(--header-offset);
+}
+
+:root { --header-offset: 96px; }
+
+html { scroll-padding-top: var(--header-offset); }
+
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3 {
+  scroll-margin-top: var(--header-offset);
+}
+
+/* Logo size */
+.brand-logo-link img { height: 120px; }
+
+@media (max-width: 900px) {
+  .brand-logo-link img { height: 96px; }
+}

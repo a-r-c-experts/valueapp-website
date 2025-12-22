@@ -1,9 +1,12 @@
 {
   "name": "valueapp-website",
   "type": "module",
+  "version": "1.0.0-alpha",
   "scripts": {
     "check-i18n": "node tools/check-i18n.mjs",
-    "build:wiki": "node tools/build-wiki.mjs"
+    "gen:wiki-version": "node tools/gen-wiki-version.mjs",
+    "build:wiki": "node tools/gen-wiki-version.mjs && node tools/build-wiki.mjs",
+    "build": "npm run build:wiki"
   },
   "devDependencies": {
     "marked": "^17.0.1"
