@@ -51,13 +51,29 @@ header {
   backdrop-filter: blur(8px);
 }
 
-.top-bar {
+.top-bar{
   max-width: 1400px;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto auto;
   align-items: center;
-  gap: 16px;
+  column-gap: 16px;
 }
+.brand-logo-link { grid-column: 1; }
+.brand-text-only {
+  grid-column: 2;
+  justify-self: center;
+  text-align: center;
+  margin-right: 0;   /* stop pushing nav away */
+  min-width: 0;      /* allow it to shrink if needed */
+}
+.main-nav {
+  grid-column: 3;
+  justify-self: start;
+  margin-left: 0;
+}
+.lang-switcher { grid-column: 4; justify-self: end; }
+.wiki-search   { grid-column: 5; justify-self: end; margin-left: 0; }
 
 /* Brand text only */
 
@@ -65,9 +81,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2px;
-
-  min-width: 280px;        /* give it guaranteed room on desktop */
-  margin-right: 24px;      /* space before nav */
   line-height: 1.25;
 }
 
@@ -1114,21 +1127,67 @@ nav.main-nav a.active {
     z-index: 15;
   }
 
-  .brand-text-only { flex: 0 0 auto; }
-  .main-nav { flex: 1 1 0; }
 
   .main-nav.open {
     display: flex;
   }
 
-  /* Put language + search below if you want */
-  .lang-switcher,
-  .wiki-search {
-    display: none; /* optional: remove if you want them visible */
-  }
+
 }
 
 @media (max-width: 900px) {
   .wiki-toc { max-height: 56px; overflow: hidden; }
   .wiki-toc.is-open { max-height: none; overflow: visible; }
+}
+
+@media (max-width: 900px) {
+  .top-bar{
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+  }
+
+  /* Row 1: logo + title + burger */
+  .brand-logo-link { grid-column: 1; grid-row: 1; }
+  .brand-text-only { grid-column: 2; grid-row: 1; justify-self: start; text-align: left; }
+  #mobileNavToggle { grid-column: 3; grid-row: 1; justify-self: end; }
+
+  /* Hide subtitle on phone */
+  .brand-line-sub { display: none; }
+
+  /* Keep main title in one line */
+  .brand-line-main{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Row 2: language + search (visible again) */
+  .lang-switcher { grid-column: 1 / -1; grid-row: 2; justify-self: start; }
+  .wiki-search   { grid-column: 1 / -1; grid-row: 2; justify-self: end; }
+
+  /* Make search usable */
+  .wiki-search input[type="search"]{
+    width: min(52vw, 260px);
+    min-width: 140px;
+  }
+
+  /* Nav becomes dropdown (your existing approach) */
+  .mobile-nav-toggle { display: block; }
+  .main-nav{
+    grid-column: 1 / -1;
+    grid-row: 3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    padding: 8px 18px 12px;
+    background: #ffffff;
+    border-bottom: 1px solid var(--border);
+    display: none;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    z-index: 15;
+  }
+  .main-nav.open { display: flex; }
 }

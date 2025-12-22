@@ -113,8 +113,8 @@ ${bodyHtml}
   <script src="/wiki/wiki-last-updated.js"></script>
   <script src="/wiki/search.js"></script>
   <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
 
-  <link rel="stylesheet" href="/styles.css" />
   <script type="module" src="/i18n/lang-loader.js"></script>
   <script src="/lang.js"></script>
 </body>
