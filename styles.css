@@ -737,14 +737,6 @@ footer .footer-inner {
   min-width: 140px;
 }
 
-.top-bar .wiki-hero-logo {
-  height: auto;
-  max-height: 100px;  /* adjust to taste */
-  width: auto;
-  object-fit: contain;
-  display: block;
-}
-
 nav.main-nav a.active {
   font-weight: 600;
   text-decoration: underline;
@@ -1111,9 +1103,19 @@ nav.main-nav a.active {
   scroll-margin-top: var(--header-offset);
 }
 
-/* Logo size */
-.brand-logo-link img { height: 120px; }
 
+
+/* Logo: one rule to rule them all */
+.wiki-hero-logo {
+  height: 88px;      /* desktop size */
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Phone: smaller (or hide entirely below) */
 @media (max-width: 900px) {
-  .brand-logo-link img { height: 96px; }
+  .wiki-hero-logo {
+    height: 44px;
+  }
 }
