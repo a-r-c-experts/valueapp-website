@@ -50,7 +50,7 @@ Pour des explications conceptuelles complémentaires, il est recommandé de cons
 4. **Vérifier et exporter la synthèse (Summary)**  
    Contrôle de la fiche récapitulative et export pour la documentation d’offres ou d’appels d’offres.
 
-![Vue d’ensemble des quatre étapes de la ValueApp](/wiki-assets/tutorial/valueapp-architecture-overview.png)
+![Vue d’ensemble des quatre étapes de la ValueApp](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
 ---
 
@@ -122,7 +122,7 @@ Créer une identité de projet claire et partagée.
   <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
 </video>
 
-![Description – données de projet complétées](/wiki-assets/tutorial/description-project-details.png)
+![Description – données de projet complétées](/wiki-assets/tutorial/description-project-details.jpeg)
 
 **Erreurs fréquentes**
 - Texte promotionnel au lieu d’une description factuelle.
@@ -167,7 +167,7 @@ Définir la structure organisationnelle et les responsabilités.
   <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
 </video>
 
-![Options d’organisation du projet](/wiki-assets/tutorial/description-organisation-options.png)
+![Options d’organisation du projet](/wiki-assets/tutorial/description-organisation-options.jpeg)
 
 **Pourquoi c’est important**
 - Influence la responsabilité par phase.
@@ -246,7 +246,7 @@ Indiquer l’affectation du projet.
   <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
 </video>
 
-![Exemple de répartition des usages](/wiki-assets/tutorial/project-use-mix.png)
+![Exemple de répartition des usages](/wiki-assets/tutorial/project-use-mix.jpeg)
 
 Documentation complémentaire :  
 [Programmes de bâtiments par catégorie d’usage](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
@@ -274,7 +274,7 @@ Justifier les écarts par rapport au cas de référence.
   <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
 </video>
 
-![Dimensions de la complexité](/wiki-assets/tutorial/project-complexity-dimensions.png)
+![Dimensions de la complexité](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
 
 **Vérification**
 - Le facteur d’ajustement évolue.

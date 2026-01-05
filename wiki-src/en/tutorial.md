@@ -50,7 +50,7 @@ If you want conceptual background while reading, keep
 4. **Review and export the summary (Summary)**  
    Check the generated one-pager and export it for documentation or offers.
 
-![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.png)
+![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
 ---
 
@@ -122,7 +122,7 @@ Create a clear, shared project identity.
   <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
 </video>
 
-![Description – project details filled](/wiki-assets/tutorial/description-project-details.png)
+![Description – project details filled](/wiki-assets/tutorial/description-project-details.jpeg)
 
 **Common mistakes**
 - Writing marketing text instead of scope and constraints.
@@ -167,7 +167,7 @@ Define how responsibilities are structured.
   <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
 </video>
 
-![Organisation setup options](/wiki-assets/tutorial/description-organisation-options.png)
+![Organisation setup options](/wiki-assets/tutorial/description-organisation-options.jpeg)
 
 **Why this matters**
 - Organisation affects **phase responsibility**.
@@ -247,7 +247,7 @@ Tell the app *what the project is used for*.
   <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
 </video>
 
-![Use mix example](/wiki-assets/tutorial/project-use-mix.png)
+![Use mix example](/wiki-assets/tutorial/project-use-mix.jpeg)
 
 Related reading:  
 [Building programs by use category](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
@@ -275,7 +275,7 @@ Justify why this project is easier or harder than a reference case.
   <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
 </video>
 
-![Complexity dimensions](/wiki-assets/tutorial/project-complexity-dimensions.png)
+![Complexity dimensions](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
 
 **Check**
 - The adjustment factor changes.

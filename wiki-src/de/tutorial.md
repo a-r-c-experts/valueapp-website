@@ -50,7 +50,7 @@ Für vertiefende Erläuterungen empfehlen wir, parallel
 4. **Zusammenfassung prüfen und exportieren (Summary)**  
    Kontrolle der generierten Einseite und Export als Dokumentation für Offerten oder Beschaffung.
 
-![Übersicht der vier Schritte in der ValueApp](/wiki-assets/tutorial/valueapp-architecture-overview.png)
+![Übersicht der vier Schritte in der ValueApp](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
 ---
 
@@ -122,7 +122,7 @@ Schaffung einer klaren und gemeinsamen Projektidentität.
   <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
 </video>
 
-![Description – ausgefüllte Projektdaten](/wiki-assets/tutorial/description-project-details.png)
+![Description – ausgefüllte Projektdaten](/wiki-assets/tutorial/description-project-details.jpeg)
 
 **Typische Fehler**
 - Werbetexte statt Projektbeschreibung.
@@ -167,7 +167,7 @@ Festlegung der organisatorischen Struktur und Verantwortlichkeiten.
   <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
 </video>
 
-![Auswahl der Organisationsform](/wiki-assets/tutorial/description-organisation-options.png)
+![Auswahl der Organisationsform](/wiki-assets/tutorial/description-organisation-options.jpeg)
 
 **Relevanz**
 - Beeinflusst die Phasenverantwortung.
@@ -246,7 +246,7 @@ Definition der Projektverwendung.
   <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
 </video>
 
-![Beispiel Nutzungsmix](/wiki-assets/tutorial/project-use-mix.png)
+![Beispiel Nutzungsmix](/wiki-assets/tutorial/project-use-mix.jpeg)
 
 Weiterführend:  
 [Gebäudeprogramme nach Nutzungskategorie](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
@@ -274,7 +274,7 @@ Begründung projektspezifischer Abweichungen vom Referenzfall.
   <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
 </video>
 
-![Komplexitätsdimensionen](/wiki-assets/tutorial/project-complexity-dimensions.png)
+![Komplexitätsdimensionen](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
 
 **Kontrolle**
 - Anpassungsfaktor verändert sich.
