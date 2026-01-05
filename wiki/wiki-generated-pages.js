@@ -2,6 +2,18 @@
 (function () {
   window.WIKI_GENERATED_PAGES = [
   {
+    "id": "best-practices",
+    "urlByLang": {
+      "de": "/wiki/de/best-practices.html",
+      "en": "/wiki/en/best-practices.html",
+      "fr": "/wiki/fr/best-practices.html"
+    },
+    "titleKey": "wiki.bestPractices.title",
+    "navKey": "best-practices",
+    "lastUpdated": "2026-01-05",
+    "searchable": true
+  },
+  {
     "id": "definitions",
     "urlByLang": {
       "de": "/wiki/de/definitions.html",

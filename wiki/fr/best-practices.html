@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – best-practices</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Bonnes pratiques et recommandations</h1>
+<p>Cette page présente des pratiques éprouvées pour l’utilisation de la ValueApp. Elle vise à faciliter une <strong>interprétation correcte</strong>, une <strong>application cohérente</strong> et une <strong>communication transparente</strong> des résultats.</p>
+<h2>Principes généraux</h2>
+<ul>
+<li>La ValueApp fournit des <strong>valeurs de référence</strong>, pas des honoraires contractuels.</li>
+<li>Les résultats doivent toujours être interprétés dans leur <strong>contexte de projet</strong>.</li>
+<li>Les comparaisons ne sont pertinentes que sous des <strong>conditions équivalentes</strong>.</li>
+</ul>
+<h2>Création du projet</h2>
+<ul>
+<li>Choisissez le <strong>modèle de base approprié</strong> (logement, travail, enseignement, etc.).</li>
+<li>Saisissez les surfaces et paramètres de manière <strong>cohérente et traçable</strong>.</li>
+<li>Évitez d’adapter artificiellement des cas particuliers à des paramètres standards.</li>
+</ul>
+<h2>Interprétation des résultats</h2>
+<ul>
+<li>Les durées doivent être comprises comme des <strong>plages de valeurs</strong>.</li>
+<li>De légers changements de paramètres peuvent produire des <strong>effets significatifs</strong>.</li>
+<li>Privilégiez les comparaisons de scénarios plutôt que des valeurs isolées.</li>
+</ul>
+<h2>Qualité des données</h2>
+<ul>
+<li>La fiabilité dépend fortement de la <strong>qualité des données d’entrée</strong>.</li>
+<li>Les résultats en phase précoce sont naturellement <strong>plus incertains</strong>.</li>
+<li>Documentez clairement les hypothèses et écarts.</li>
+</ul>
+<h2>Erreurs fréquentes</h2>
+<ul>
+<li>Ne pas intégrer directement les résultats dans des contrats.</li>
+<li>Éviter les comparaisons entre <strong>typologies différentes</strong>.</li>
+<li>Ne pas déduire des taux horaires individuels.</li>
+</ul>
+<h2>Collaboration et communication</h2>
+<ul>
+<li>Utilisez la ValueApp comme <strong>outil de discussion</strong>, pas comme verdict.</li>
+<li>Expliquez aux mandants la <strong>logique et les limites</strong> de la méthode.</li>
+<li>Partagez les hypothèses au sein de l’équipe de projet.</li>
+</ul>
+<h2>Voir aussi</h2>
+<ul>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="workflows.html">Workflows</a></li>
+<li><a href="help-and-contact.html">Aide et contact</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>
