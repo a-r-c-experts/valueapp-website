@@ -771,5 +771,18 @@ export const contentEn = {
     "wiki.home.section.why.text": "Many misunderstandings happen because ValueApp is seen as a fee calculator, proposal generator, or a controlling tool. It is not.",
     "wiki.home.section.why.text2": "This page explains the purpose of ValueApp, its limits, and how to use it responsibly within the planning process.",
     "wiki.home.section.why.link": "What ValueApp is – and what it is not",
+    "wiki.home.section.start.title": "Start here",
+    "wiki.home.section.start.text": "New to ValueApp? Begin with the introduction and quick start, then follow the path that matches your goal.",
+    "wiki.home.link.introduction": "Introduction – what ValueApp is and how to begin",
+    "wiki.home.link.gettingStarted": "Getting started – four steps from project description to summary",
+    "wiki.home.link.workflows": "Workflows – practical step-by-step guides",
+    "wiki.home.cta.introduction": "Go to introduction",
+
+    "wiki.home.section.learn.title": "Look up and go deeper",
+    "wiki.home.section.learn.text": "If you are looking for conceptual background, field explanations, or example projects, these chapters are especially helpful.",
+    "wiki.home.link.knowledgeBase": "Knowledge base – concepts, terms, and why the app behaves the way it does",
+    "wiki.home.link.reference": "Reference – inputs, parameters, interpreting results, integration, versions",
+    "wiki.home.link.examples": "Examples – realistic scenarios and case studies",
+    "wiki.home.link.support": "Support – FAQ, glossary, help and best practices",
 
   };

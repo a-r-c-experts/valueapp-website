@@ -776,4 +776,18 @@ export const contentDe = {
     "wiki.home.section.why.text": "Viele Missverständnisse entstehen dadurch, dass die ValueApp als Honorarrechner, Angebotsgenerator oder Controlling-Tool verstanden wird. Das ist sie nicht.",
     "wiki.home.section.why.text2": "Diese Seite erklärt den Zweck der ValueApp, ihre Grenzen und wie sie sinnvoll im Planungsprozess eingesetzt wird.",
     "wiki.home.section.why.link": "Was die ValueApp ist – und was nicht",
+    "wiki.home.section.start.title": "Hier beginnen",
+    "wiki.home.section.start.text": "Neu bei der ValueApp? Starten Sie mit der Einführung und dem Schnellstart und folgen Sie dann dem Pfad, der zu Ihrem Ziel passt.",
+    "wiki.home.link.introduction": "Einführung – was die ValueApp ist und wie Sie beginnen",
+    "wiki.home.link.gettingStarted": "Einstieg – vier Schritte von der Projektbeschreibung zur Zusammenfassung",
+    "wiki.home.link.workflows": "Workflows – praxisnahe Schritt-für-Schritt-Anleitungen",
+    "wiki.home.cta.introduction": "Zur Einführung",
+
+    "wiki.home.section.learn.title": "Nachschlagen und vertiefen",
+    "wiki.home.section.learn.text": "Wenn Sie konzeptionelle Hintergründe, Felderklärungen oder Beispielprojekte suchen, sind diese Kapitel besonders hilfreich.",
+    "wiki.home.link.knowledgeBase": "Wissensbasis – Konzepte, Begriffe und warum sich die App so verhält",
+    "wiki.home.link.reference": "Referenz – Eingaben, Parameter, Ergebnisinterpretation, Integration, Versionen",
+    "wiki.home.link.examples": "Beispiele – realistische Anwendungsszenarien und Fallstudien",
+    "wiki.home.link.support": "Support – FAQ, Glossar, Hilfe und Best Practices",
+
       };
