@@ -859,5 +859,9 @@ export const contentFr = {
   "wiki.nav.workflows": "Flux de travail",
   "wiki.nav.reference": "Référence",
   "wiki.nav.examples": "Exemples",
-  "wiki.nav.support": "Support"
+  "wiki.nav.support": "Support",
+  "wiki.home.section.why.title": "Pourquoi ValueApp existe – et à quoi elle ne sert pas",
+  "wiki.home.section.why.text": "Beaucoup de malentendus viennent du fait que ValueApp est perçue comme un calculateur d’honoraires, un générateur d’offres ou un outil de contrôle. Ce n’est pas le cas.",
+  "wiki.home.section.why.text2": "Cette page explique l’objectif de ValueApp, ses limites et comment l’utiliser de manière pertinente dans le processus de planification.",
+  "wiki.home.section.why.link": "Ce qu’est ValueApp – et ce qu’elle n’est pas",
 };

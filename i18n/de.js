@@ -771,5 +771,9 @@ export const contentDe = {
     "wiki.nav.workflows": "Workflows",
     "wiki.nav.reference": "Referenz",
     "wiki.nav.examples": "Beispiele",
-    "wiki.nav.support": "Support"
+    "wiki.nav.support": "Support",
+    "wiki.home.section.why.title": "Warum die ValueApp existiert – und wofür sie nicht gedacht ist",
+    "wiki.home.section.why.text": "Viele Missverständnisse entstehen dadurch, dass die ValueApp als Honorarrechner, Angebotsgenerator oder Controlling-Tool verstanden wird. Das ist sie nicht.",
+    "wiki.home.section.why.text2": "Diese Seite erklärt den Zweck der ValueApp, ihre Grenzen und wie sie sinnvoll im Planungsprozess eingesetzt wird.",
+    "wiki.home.section.why.link": "Was die ValueApp ist – und was nicht",
       };

@@ -766,6 +766,10 @@ export const contentEn = {
     "wiki.nav.workflows": "Workflows",
     "wiki.nav.reference": "Reference",
     "wiki.nav.examples": "Examples",
-    "wiki.nav.support": "Support"
+    "wiki.nav.support": "Support",
+    "wiki.home.section.why.title": "Why ValueApp exists – and what it is not for",
+    "wiki.home.section.why.text": "Many misunderstandings happen because ValueApp is seen as a fee calculator, proposal generator, or a controlling tool. It is not.",
+    "wiki.home.section.why.text2": "This page explains the purpose of ValueApp, its limits, and how to use it responsibly within the planning process.",
+    "wiki.home.section.why.link": "What ValueApp is – and what it is not",
 
   };
