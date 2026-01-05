@@ -34,7 +34,7 @@
     },
     "titleKey": "wiki.faq.title",
     "navKey": "faq",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-01-05",
     "searchable": true
   },
   {
@@ -47,6 +47,18 @@
     "titleKey": "wiki.gettingStarted.title",
     "navKey": "getting-started",
     "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "help-and-contact",
+    "urlByLang": {
+      "de": "/wiki/de/help-and-contact.html",
+      "en": "/wiki/en/help-and-contact.html",
+      "fr": "/wiki/fr/help-and-contact.html"
+    },
+    "titleKey": "wiki.helpAndContact.title",
+    "navKey": "help-and-contact",
+    "lastUpdated": "2026-01-05",
     "searchable": true
   },
   {
@@ -118,7 +130,7 @@
     },
     "titleKey": "wiki.support.title",
     "navKey": "support",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-01-05",
     "searchable": true
   },
   {
