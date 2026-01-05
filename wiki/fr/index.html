@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>ValueApp Wiki – Accueil</title>
+  <title>ValueApp Wiki – Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="Documentation orientée utilisateur pour la ValueApp : introduction, base de connaissances, workflows, référence, exemples et support."
+    content="User-focused documentation for ValueApp: introduction, knowledge base, workflows, reference, examples and support."
   />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="stylesheet" href="/styles.css" />
@@ -37,75 +37,99 @@
     <section class="hero wiki-hero">
       <div class="wiki-hero-inner">
         <div>
-          <h1 data-i18n="wiki.home.title">ValueApp – Wiki utilisateur</h1>
+          <h1 data-i18n="wiki.home.title">ValueApp – User Wiki</h1>
           <p class="wiki-tagline" data-i18n="wiki.home.subtitle">
-            Explications, exemples et guides pratiques pour utiliser la ValueApp et la méthode ETH Value dans la pratique quotidienne de la planification.
+            Explanations, examples and practical guidance for using ValueApp and the ETH Value Method in day-to-day planning work.
           </p>
           <p class="wiki-last-updated" data-last-updated-target></p>
         </div>
 
         <p class="hero-small-note" data-i18n="wiki.home.note">
-          Ce wiki s’adresse aux utilisateurs (planificateurs et mandants). Les détails techniques concernant l’intégration du widget sont disponibles dans un dépôt d’intégration séparé.
+          This wiki is for users (planning teams and clients). Technical details for embedding the widget are documented in a separate integration repository.
         </p>
       </div>
     </section>
 
     <section class="wiki-grid">
       <div>
+        <!-- NEW: Why ValueApp card -->
         <article class="wiki-card">
-          <h2 data-i18n="wiki.home.section.start.title">Commencer ici</h2>
+          <h2 data-i18n="wiki.home.section.why.title">
+            Why ValueApp exists – and what it is not for
+          </h2>
+
+          <p data-i18n="wiki.home.section.why.text">
+            Many misunderstandings happen because ValueApp is seen as a fee calculator, proposal generator, or a controlling tool. It is not.
+          </p>
+
+          <p data-i18n="wiki.home.section.why.text2">
+            This page explains the purpose of ValueApp, its limits, and how to use it responsibly within the planning process.
+          </p>
+
+          <a
+            href="#"
+            data-wiki-link="why-valueapp.html"
+            class="wiki-pill-link"
+            data-i18n="wiki.home.section.why.link"
+          >
+            What ValueApp is – and what it is not
+          </a>
+        </article>
+
+        <article class="wiki-card">
+          <h2 data-i18n="wiki.home.section.start.title">Start here</h2>
           <p data-i18n="wiki.home.section.start.text">
-            Vous découvrez la ValueApp ? Commencez par l’introduction et la prise en main rapide, puis suivez le parcours correspondant à votre objectif.
+            New to ValueApp? Begin with the introduction and quick start, then follow the path that matches your goal.
           </p>
 
           <ul class="wiki-nav-list">
             <li>
               <a href="#" data-wiki-link="introduction.html" data-i18n="wiki.home.link.introduction">
-                Introduction – ce qu’est la ValueApp et par où commencer
+                Introduction – what ValueApp is and how to begin
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.home.link.gettingStarted">
-                Premiers pas – quatre étapes de la description du projet au résumé
+                Getting started – four steps from project description to summary
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.home.link.workflows">
-                Workflows – utilisation pratique pas à pas
+                Workflows – practical step-by-step guides
               </a>
             </li>
           </ul>
 
           <a href="#" data-wiki-link="introduction.html" class="wiki-pill-link" data-i18n="wiki.home.cta.introduction">
-            Aller à l’introduction
+            Go to introduction
           </a>
         </article>
 
         <article class="wiki-card">
-          <h2 data-i18n="wiki.home.section.learn.title">Approfondir et consulter</h2>
+          <h2 data-i18n="wiki.home.section.learn.title">Look up and go deeper</h2>
           <p data-i18n="wiki.home.section.learn.text">
-            Pour comprendre les concepts, les champs de saisie ou comparer des projets types, ces chapitres sont les plus utiles.
+            If you are looking for conceptual background, field explanations, or example projects, these chapters are especially helpful.
           </p>
 
           <ul class="wiki-nav-list">
             <li>
               <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.home.link.knowledgeBase">
-                Base de connaissances – concepts, terminologie et logique de l’application
+                Knowledge base – concepts, terms, and why the app behaves the way it does
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="reference.html" data-i18n="wiki.home.link.reference">
-                Référence – entrées, paramètres, interprétation des résultats, intégration, versions
+                Reference – inputs, parameters, interpreting results, integration, versions
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="examples.html" data-i18n="wiki.home.link.examples">
-                Exemples – scénarios réalistes et études de cas
+                Examples – realistic scenarios and case studies
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="support.html" data-i18n="wiki.home.link.support">
-                Support – FAQ, glossaire, aide et bonnes pratiques
+                Support – FAQ, glossary, help and best practices
               </a>
             </li>
           </ul>
@@ -114,9 +138,9 @@
 
       <aside>
         <article class="wiki-card">
-          <h3 data-i18n="wiki.home.sidebar.integration.title">Intégration technique</h3>
+          <h3 data-i18n="wiki.home.sidebar.integration.title">Technical integration</h3>
           <p data-i18n="wiki.home.sidebar.integration.text">
-            Si vous souhaitez intégrer le cœur de la ValueApp sous forme de widget dans un portail client ou un système informatique existant, vous trouverez la documentation technique et des exemples dans le dépôt public d’intégration.
+            If you want to embed the ValueApp core as a widget into your own client portal or IT system, you can find technical documentation and examples in the public integration repository.
           </p>
           <p>
             <a
@@ -126,15 +150,15 @@
               class="wiki-pill-link"
               data-i18n="wiki.home.sidebar.integration.link"
             >
-              Ouvrir le dépôt d’intégration
+              Open integration repository
             </a>
           </p>
         </article>
 
         <article class="wiki-card">
-          <h3 data-i18n="wiki.home.sidebar.feedback.title">Retour sur l’application</h3>
+          <h3 data-i18n="wiki.home.sidebar.feedback.title">Feedback about the app</h3>
           <p data-i18n="wiki.home.sidebar.feedback.text">
-            Dans la ValueApp, le bouton « Feedback » vous permet de signaler des problèmes ou de proposer des améliorations via un court formulaire. Ce wiki sera enrichi progressivement à partir des questions récurrentes.
+            In ValueApp you can use the “Feedback” button to send notes, issues or improvement ideas via a short form. This wiki is expanded step by step based on recurring questions.
           </p>
         </article>
       </aside>

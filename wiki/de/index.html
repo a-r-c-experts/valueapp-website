@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>ValueApp Wiki – Startseite</title>
+  <title>ValueApp Wiki – Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="Nutzerorientierte Dokumentation zur ValueApp: Einführung, Wissensbasis, Workflows, Referenz, Beispiele und Support."
+    content="User-focused documentation for ValueApp: introduction, knowledge base, workflows, reference, examples and support."
   />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="stylesheet" href="/styles.css" />
@@ -39,73 +39,97 @@
         <div>
           <h1 data-i18n="wiki.home.title">ValueApp – User Wiki</h1>
           <p class="wiki-tagline" data-i18n="wiki.home.subtitle">
-            Erläuterungen, Beispiele und praxisnahe Anleitungen zur Nutzung der ValueApp und der ETH Value Method im Planungsalltag.
+            Explanations, examples and practical guidance for using ValueApp and the ETH Value Method in day-to-day planning work.
           </p>
           <p class="wiki-last-updated" data-last-updated-target></p>
         </div>
 
         <p class="hero-small-note" data-i18n="wiki.home.note">
-          Dieses Wiki richtet sich an Anwenderinnen und Anwender (Planende und Auftraggebende). Technische Details zur Einbettung des Widgets finden sich in einem separaten Integrations-Repository.
+          This wiki is for users (planning teams and clients). Technical details for embedding the widget are documented in a separate integration repository.
         </p>
       </div>
     </section>
 
     <section class="wiki-grid">
       <div>
+        <!-- NEW: Why ValueApp card -->
         <article class="wiki-card">
-          <h2 data-i18n="wiki.home.section.start.title">Hier beginnen</h2>
+          <h2 data-i18n="wiki.home.section.why.title">
+            Why ValueApp exists – and what it is not for
+          </h2>
+
+          <p data-i18n="wiki.home.section.why.text">
+            Many misunderstandings happen because ValueApp is seen as a fee calculator, proposal generator, or a controlling tool. It is not.
+          </p>
+
+          <p data-i18n="wiki.home.section.why.text2">
+            This page explains the purpose of ValueApp, its limits, and how to use it responsibly within the planning process.
+          </p>
+
+          <a
+            href="#"
+            data-wiki-link="why-valueapp.html"
+            class="wiki-pill-link"
+            data-i18n="wiki.home.section.why.link"
+          >
+            What ValueApp is – and what it is not
+          </a>
+        </article>
+
+        <article class="wiki-card">
+          <h2 data-i18n="wiki.home.section.start.title">Start here</h2>
           <p data-i18n="wiki.home.section.start.text">
-            Neu bei der ValueApp? Starten Sie mit der Einführung und dem Schnellstart und folgen Sie dann dem Pfad, der zu Ihrem Ziel passt.
+            New to ValueApp? Begin with the introduction and quick start, then follow the path that matches your goal.
           </p>
 
           <ul class="wiki-nav-list">
             <li>
               <a href="#" data-wiki-link="introduction.html" data-i18n="wiki.home.link.introduction">
-                Einführung – was die ValueApp ist und wie Sie beginnen
+                Introduction – what ValueApp is and how to begin
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.home.link.gettingStarted">
-                Erste Schritte – vier Schritte von der Projektbeschreibung bis zur Zusammenfassung
+                Getting started – four steps from project description to summary
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.home.link.workflows">
-                Workflows – praxisnahe Schritt-für-Schritt-Anleitungen
+                Workflows – practical step-by-step guides
               </a>
             </li>
           </ul>
 
           <a href="#" data-wiki-link="introduction.html" class="wiki-pill-link" data-i18n="wiki.home.cta.introduction">
-            Zur Einführung
+            Go to introduction
           </a>
         </article>
 
         <article class="wiki-card">
-          <h2 data-i18n="wiki.home.section.learn.title">Nachschlagen und vertiefen</h2>
+          <h2 data-i18n="wiki.home.section.learn.title">Look up and go deeper</h2>
           <p data-i18n="wiki.home.section.learn.text">
-            Wenn Sie konzeptionelle Hintergründe, Felderklärungen oder Beispielprojekte suchen, sind diese Kapitel besonders hilfreich.
+            If you are looking for conceptual background, field explanations, or example projects, these chapters are especially helpful.
           </p>
 
           <ul class="wiki-nav-list">
             <li>
               <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.home.link.knowledgeBase">
-                Wissensbasis – Konzepte, Begriffe und warum sich die App so verhält
+                Knowledge base – concepts, terms, and why the app behaves the way it does
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="reference.html" data-i18n="wiki.home.link.reference">
-                Referenz – Eingaben, Parameter, Ergebnisinterpretation, Integration, Versionen
+                Reference – inputs, parameters, interpreting results, integration, versions
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="examples.html" data-i18n="wiki.home.link.examples">
-                Beispiele – realistische Anwendungsszenarien und Fallstudien
+                Examples – realistic scenarios and case studies
               </a>
             </li>
             <li>
               <a href="#" data-wiki-link="support.html" data-i18n="wiki.home.link.support">
-                Support – FAQ, Glossar, Hilfe und Best Practices
+                Support – FAQ, glossary, help and best practices
               </a>
             </li>
           </ul>
@@ -114,9 +138,9 @@
 
       <aside>
         <article class="wiki-card">
-          <h3 data-i18n="wiki.home.sidebar.integration.title">Technische Integration</h3>
+          <h3 data-i18n="wiki.home.sidebar.integration.title">Technical integration</h3>
           <p data-i18n="wiki.home.sidebar.integration.text">
-            Wenn Sie den ValueApp-Kern als Widget in ein eigenes Kundenportal oder IT-System einbetten möchten, finden Sie technische Dokumentation und Beispiele im öffentlichen Integrations-Repository.
+            If you want to embed the ValueApp core as a widget into your own client portal or IT system, you can find technical documentation and examples in the public integration repository.
           </p>
           <p>
             <a
@@ -126,15 +150,15 @@
               class="wiki-pill-link"
               data-i18n="wiki.home.sidebar.integration.link"
             >
-              Integrations-Repository öffnen
+              Open integration repository
             </a>
           </p>
         </article>
 
         <article class="wiki-card">
-          <h3 data-i18n="wiki.home.sidebar.feedback.title">Feedback zur App</h3>
+          <h3 data-i18n="wiki.home.sidebar.feedback.title">Feedback about the app</h3>
           <p data-i18n="wiki.home.sidebar.feedback.text">
-            In der ValueApp selbst können Sie über den Button „Feedback“ Hinweise, Probleme oder Verbesserungsvorschläge über ein kurzes Formular übermitteln. Dieses Wiki wird schrittweise anhand wiederkehrender Fragen ergänzt.
+            In ValueApp you can use the “Feedback” button to send notes, issues or improvement ideas via a short form. This wiki is expanded step by step based on recurring questions.
           </p>
         </article>
       </aside>
