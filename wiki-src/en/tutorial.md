@@ -4,193 +4,448 @@ i18nSubtitle: wiki.tutorial.subtitle
 navKey: wiki.nav.tutorial
 ---
 
-# Tutorial – step by step through the ValueApp
+# Tutorial – Step by step through the ValueApp
 
 This tutorial walks you through the ValueApp using a concrete example project.  
-The focus is on **what to enter in each tab**, **why it matters**, and **how to read the results**.
+The focus is on **what to enter**, **why it matters**, and **how to read and use the result**.
+
+The tutorial mirrors the real structure of the app and follows the same sequence you see on screen.
 
 If you want conceptual background while reading, keep  
 [Definitions](definitions.html) or [How the app works](how-it-works.html) open in another tab.
 
 ---
 
-## Overview — Four tabs, one method
+## At a glance
 
-The ValueApp is structured into four tabs:
+**What you need**
+- a rough project idea (scale, use, task),
+- an approximate quantity (e.g. gross floor area),
+- a basic understanding of your role in the project.
 
-- **Beschrieb** – project identity and context  
-- **Projekt** – quantity, use mix and complexity  
-- **Leistung** – role, services and hours  
-- **Zusammenfassung** – consolidated one-pager  
+**What you get**
+- a traceable effort range,
+- hours by phase and discipline,
+- a one-page PDF for offers, planning, or procurement.
 
-They follow the logic of the ETH Value Method from project context to effort and service distribution.
-
-![Overview diagram of the ValueApp structure](/wiki-assets/valueapp-architecture-overview.jpeg)
-
-*The app connects project description, determinants, adjustment factors and services into one coherent flow.*
+**Time to complete**
+- first estimate: ~10–15 minutes  
+- refined version: depends on how honest you are with complexity
 
 ---
 
-## Step 1 — Beschrieb (describe the project)
+## The four main steps
 
-Start with a clear project description. These inputs appear in reports and provide context when projects are reviewed, compared or discussed later.
+1. **Describe the project (Description)**  
+   Define project identity, task, location, and organisational setup.
 
-Capture:
+2. **Define quantity, uses, and complexity (Project)**  
+   Enter the determining quantity, define the use mix, assess complexity and risk.  
+   The app derives an adjustment factor via the Leadership Framework.
 
-- project title and address,  
-- project status (e.g. *In Planung*, *Ausführung*),  
-- organisational setup on the planning and contractor side,  
-- a short text describing scope, task and key constraints (5–10 lines).
+3. **Define your role and services (Services)**  
+   Select your role, focus topics, and review the calculated hours for  
+   **100% basic services**, including their distribution across planning phases.
 
-Good descriptions make later complexity assessments **defensible and transparent**.
+4. **Review and export the summary (Summary)**  
+   Check the generated one-pager and export it for documentation or offers.
+
+![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.png)
+
+---
+
+## 0 — Orientation: how the ValueApp works
+
+### What the ValueApp does
+
+The ValueApp estimates and documents **planning effort** by combining:
+
+- quantitative inputs (quantity, use mix),
+- qualitative inputs (complexity, risk),
+- organisational context,
+- your role and scope.
+
+It produces **ranges and distributions**, not a single “correct” number.
+
+### What the ValueApp does *not* do
+
+- It does not calculate fees automatically.
+- It does not replace professional judgement.
+- It does not guarantee outcomes.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-*Example of the Beschrieb tab filled for an educational building.*
+---
 
-<div class="wiki-note-box">
-  <strong>Saving and feedback</strong>
-  <p>
-    Use the “Speichern” button to store your progress.
-    The “Feedback” button opens a short form where you can report issues or suggest improvements.
-  </p>
-</div>
+### Standards and regions
+
+Examples use **Swiss standards** (e.g. SIA phases) because the underlying data comes from that context.  
+The **method itself is generic** and applicable internationally.
+
+If you work outside Switzerland:
+- treat phases as generic planning phases,
+- focus on **relative distributions**, not labels,
+- use the structure and reasoning.
 
 ---
 
-## Step 2 — Projekt (quantity, uses and complexity)
+## Step 1 — Describe the project (Description)
 
-In the **Projekt** tab you translate the brief into numbers and a structured complexity assessment.
+The **Description** step documents the project context.  
+This information appears in the summary and should be shareable with stakeholders.
 
-### 2.1 Determinant and use mix
+> **Important:**  
+> Cost-related inputs do **not** affect effort.  
+> Organisation, task type, and scope **do**.
 
-Enter the **determinant**, usually the gross floor area (GF).  
-Then assign percentages of this quantity to the relevant uses.
+---
 
-This tells the app which **base models** to apply and how to combine them.
+### 1.1 Project details
+
+**Goal**  
+Create a clear, shared project identity.
+
+**Do**
+- Enter project name and address.
+- Select the project status.
+- Choose the task (e.g. new build or refurbishment).
+- Write a short project description (5–10 lines).
+
+**Check**
+- The description clearly explains *what kind of project this is*.
+- A third party could read it and understand the context.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-empty.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
+  <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
 </video>
 
-*Project tab before assigning uses.*
+![Description – project details filled](/wiki-assets/tutorial/description-project-details.png)
+
+**Common mistakes**
+- Writing marketing text instead of scope and constraints.
+- Leaving the description unchanged as the project evolves.
+
+---
+
+### 1.2 Location
+
+**Goal**  
+Document where the project is planned.
+
+**Do**
+- Move the map.
+- Mark the project location.
+
+**Check**
+- The location marker is set correctly.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
+  <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
 </video>
 
-*All gross floor area assigned to “Ausbilden und forschen”.*
-
-For detailed explanations of determinants and use mix, see the  
-[Project section](project-section.html).
+> **Does not affect effort**  
+> Location-related statistics are contextual only.
 
 ---
 
-### 2.2 Complexity and challenges
+### 1.3 Organisational setup
 
-Describe project challenges in four dimensions:
+**Goal**  
+Define how responsibilities are structured.
 
-- design  
-- technical  
-- spatial  
-- organisational  
+**Do**
+- Select the organisational model on the **planning side**.
+- Select the organisational model on the **contractor side**.
 
-Position them in the **Leadership Framework**.
+**Check**
+- The selected model reflects contractual reality, not wishful thinking.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
+  <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
 </video>
 
-*Project-specific challenges positioned in the framework.*
+![Organisation setup options](/wiki-assets/tutorial/description-organisation-options.png)
 
-The app calculates an **adjustment factor (AF_quality)** based on the centre of gravity of your entries.  
-This shifts the expected effort **within** the prediction interval of the base model.
+**Why this matters**
+- Organisation affects **phase responsibility**.
+- It influences the **interpretation range** of phase percentages later.
 
-If this feels abstract, read  
-[Definitions](definitions.html) or [How the app works](how-it-works.html).
-
----
-
-### 2.3 Risk level (if applicable)
-
-Set the risk level:
-
-- **none**,  
-- **increased**,  
-- **high requirements**.
-
-This reflects uncertainty and may influence the **upper part of the effort range**.
+**Good practice**
+- Evaluate organisation early.
+- Avoid changing the model mid-project unless unavoidable.
 
 ---
 
-## Step 3 — Leistung (role and hours by phase)
+### 1.4 Task type: new build vs refurbishment
 
-In the **Leistung** tab you define your responsibility and review how the calculated effort is distributed.
+**Goal**  
+Specify the nature of the intervention.
 
-You typically:
+**Do**
+- Select *New build* or *Refurbishment*.
+- If applicable, define intervention depth.
 
-- choose your role (Architect / Architect & General planner / General planner),  
-- mark focus topics (design, construction management, cost planning),  
-- review total hours for **100% basic services**,  
-- check and, if justified, adjust the distribution across SIA phases.
+**Check**
+- The task reflects the real scope, not the budget narrative.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
+  <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
 </video>
 
-*Roles, focus topics and calculated hours per phase.*
-
-### Multiple disciplines
-
-For multi-discipline projects (architecture, structural, electrical, HVAC, sanitary):
-
-- repeat **Projekt** and **Leistung** for each discipline,  
-- the **Zusammenfassung** tab will display them side by side.
+> **Affects effort**  
+> Task type and intervention depth influence effort.  
+> Cost factors do not.
 
 ---
 
-## Step 4 — Zusammenfassung (reading the one-pager)
+## Step 2 — Define quantity, uses, and complexity (Project)
 
-The **Zusammenfassung** tab is read-only. It consolidates:
-
-- project description and organisational setup,  
-- use mix and determinant,  
-- effort per m²,  
-- risk level,  
-- hours per SIA phase,  
-- additional services where relevant.
-
-This one-pager can be exported or printed and attached to:
-
-- fee offers,  
-- internal planning or controlling documents,  
-- procurement or tender documentation.
-
-Its purpose is to document **why** a certain effort range is plausible given the project’s determinants and complexity.
+This step produces the **first effort forecast**.
 
 ---
 
-## When to read what
+### 2.1 Determining quantity
 
-- For first use: start with [Getting started](getting-started.html)  
-- For terminology and logic: [Definitions](definitions.html)  
-- For conceptual understanding: [How the app works](how-it-works.html) and [Why ValueApp exists](why-valueapp.html)  
-- For calibration: [Examples](examples.html)
+**Goal**  
+Define the scale of the project.
+
+**Do**
+- Enter the approximate gross floor area (or relevant unit).
+- Use total values, not per-floor values.
+
+**Check**
+- The quantity represents the whole project.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
+</video>
+
+**Common mistakes**
+- Entering net area instead of gross.
+- Forgetting basements or shared areas.
+
+---
+
+### 2.2 Use mix
+
+**Goal**  
+Tell the app *what the project is used for*.
+
+**Do**
+- Add at least one use.
+- Assign percentages so the total equals 100%.
+- Reorder uses if needed.
+
+**Check**
+- The complexity section unlocks.
+- A min/m² value appears.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
+</video>
+
+![Use mix example](/wiki-assets/tutorial/project-use-mix.png)
+
+Related reading:  
+[Building programs by use category](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
+
+---
+
+### 2.3 Complexity assessment
+
+**Goal**  
+Justify why this project is easier or harder than a reference case.
+
+**What complexity is**
+- A reflection of **requirements and approach**, not aesthetics alone.
+- A way to document professional judgement.
+
+**Do**
+- Assess complexity in four dimensions:
+  - Design
+  - Spatial
+  - Technical
+  - Organisational
+- Place challenges in the Leadership Framework.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
+</video>
+
+![Complexity dimensions](/wiki-assets/tutorial/project-complexity-dimensions.png)
+
+**Check**
+- The adjustment factor changes.
+- The reason feels explainable to a client.
+
+**Worked example**
+- Simple housing project → mostly *simple/complicated*
+- Inner-city hospital retrofit → *complex/unclear* in several dimensions
+
+**Common mistake**
+- Increasing complexity just to “get more hours”.
+
+---
+
+### 2.4 Risk assessment
+
+**Goal**  
+Account for planning uncertainty.
+
+**Do**
+- Select a risk level.
+- Document the reason (if possible).
+
+**Check**
+- Risk feels external (appeals, interruptions), not internal (design quality).
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
+</video>
+
+---
+
+## Step 3 — Define your role and services (Services)
+
+This step adapts effort to **your responsibility**.
+
+---
+
+### 3.1 Select your role
+
+**Goal**  
+Define contractual scope.
+
+**Do**
+- Select your role (e.g. Architect, Architect & General Planner).
+
+**Check**
+- The role matches your contract, not your ambition.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
+</video>
+
+---
+
+### 3.2 Focus topics
+
+**Goal**  
+Highlight special responsibilities.
+
+**Do**
+- Select focus topics where relevant.
+
+**Check**
+- Focus topics explain service emphasis, not inflate scope.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
+</video>
+
+---
+
+### 3.3 Hours and phase distribution
+
+**Goal**  
+Understand and, if needed, adjust phase effort.
+
+**Do**
+- Review suggested phase percentages.
+- Adjust if your delivery differs from the norm.
+
+**Check**
+- Total hours remain constant.
+- Phase shifts make sense.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
+</video>
+
+**Reading example**
+- Total effort: 240 h  
+- Phase 3 at 33% → ~79 h  
+- Phase 5 at 48% → ~115 h
+
+---
+
+### 3.4 Project-specific and additional services
+
+**Goal**  
+Document deviations from basic services.
+
+**Do**
+- Adjust sub-phases if needed.
+- Add additional services with descriptions.
+
+**Check**
+- Additional services are explicit and traceable.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
+</video>
+
+---
+
+## Step 4 — Review and export the summary (Summary)
+
+---
+
+### 4.1 Review the one-pager
+
+**Goal**  
+Verify that the result matches your inputs.
+
+**Do**
+- Read through all sections.
+- Check for inconsistencies.
+
+**Check**
+- You can explain every number.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
+</video>
+
+---
+
+### 4.2 Export and use the PDF
+
+**Goal**  
+Create a document for real-world use.
+
+**Do**
+- Export the PDF.
+- Attach it to offers or procurement documents.
+
+**Check**
+- The PDF explains assumptions, not just numbers.
+
+<video class="wiki-img" controls preload="metadata">
+  <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
+</video>
+
+**Template sentence for offers**
+> “The proposed effort range is based on project quantity, use mix, complexity, risk, organisational setup, and service scope, documented in the attached ValueApp summary.”
+
+---
+
+## Typical problems and how to fix them
+
+- **Complexity is locked** → No use selected.
+- **Numbers feel wrong** → Check quantity and unit.
+- **Phases show 0 hours** → Check role and selected phases.
+- **Client questions the result** → Review Description and complexity justification.
 
 ---
 
 ## See also
 
-- [Getting started](getting-started.html)  
-- [Definitions and core concepts](definitions.html)  
-- [Project section](project-section.html)  
-- [How the app works](how-it-works.html)  
-- [Why ValueApp exists](why-valueapp.html)  
+- [Getting started](getting-started.html)
+- [Definitions and core concepts](definitions.html)
+- [How the app works](how-it-works.html)
+- [Why ValueApp exists](why-valueapp.html)
 - [Examples](examples.html)
