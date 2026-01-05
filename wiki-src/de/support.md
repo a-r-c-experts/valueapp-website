@@ -7,16 +7,24 @@ navKey: support
 
 Dieses Kapitel dient schnellen Antworten, reduziert Rückfragen und hilft Nutzerinnen und Nutzern, mit möglichst wenig Drama weiterzukommen.
 
-## FAQ (bestehend)
+## FAQ
 
 - **FAQ**: häufige Fragen aus der Praxis.  
   → [FAQ öffnen](faq.html)
 
-## Geplante Support-Seiten
+## Hilfe und Kontakt
 
-- **Glossar / Abkürzungen** (bestehend oder erweitert)
-- **Hilfe und Kontakt**
-- **Best Practices und Empfehlungen**
+Wenn etwas unklar ist, nicht funktioniert oder Feedback sinnvoll erscheint:
+
+- **Hilfe und Kontakt**  
+  → [Zur Hilfe- und Kontaktseite](help-and-contact.html)
+
+## Best Practices und Empfehlungen
+
+Erprobte Vorgehensweisen aus der Anwendungspraxis, um Ergebnisse besser einzuordnen und sinnvoll zu nutzen:
+
+- **Best Practices**  
+  → [Best Practices und Empfehlungen](best-practices.html)
 
 ## Optional, aber sehr hilfreich für einen zukünftigen Chat-Assistenten
 

@@ -5,26 +5,35 @@ navKey: support
 
 # Support
 
-This chapter is for fast answers, reducing back-and-forth, and helping users get unstuck with minimal drama.
+This chapter is for quick answers, reducing back-and-forth, and helping users get unstuck with as little drama as possible.
 
-## FAQ (existing)
+## FAQ
 
-- **FAQ**: frequent questions from practice.  
+- **FAQ**: frequently asked questions from practice.  
   → [Open FAQ](faq.html)
 
-## Planned support pages
+## Help and contact
 
-- **Glossary / abbreviations** (existing or expanded)
-- **Help and contact**
-- **Best practices and recommendations**
+If something is unclear, not working as expected, or feedback seems useful:
+
+- **Help and contact**  
+  → [Go to the help and contact page](help-and-contact.html)
+
+## Best practices and recommendations
+
+Proven approaches from practical use to better interpret and apply results:
+
+- **Best practices**  
+  → [Best practices and recommendations](best-practices.html)
 
 ## Optional but very useful for a future chat assistant
 
-Structured question-and-answer pages improve semantic search and embeddings, for example:
+Structured question-and-answer pages significantly improve semantic search and embeddings, for example:
 
 - “How do I create a project?”
 - “What does AF quality mean?”
-- Example-driven Q&A (“In this case, what should I interpret?”)
+- Example-based Q&A  
+  (“How should this result be interpreted in this case?”)
 
 ## See also
 

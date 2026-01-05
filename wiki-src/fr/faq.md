@@ -3,53 +3,87 @@ i18nTitle: wiki.faq.title
 navKey: faq
 ---
 
-# Foire aux questions
+# Questions fréquentes
 
 Une sélection de questions récurrentes issues de la pratique.  
 Pour des instructions pas à pas, consultez le [Tutoriel](tutorial.html).
 
-## Général
+Si votre question n’est pas traitée ici, vous trouverez de l’aide supplémentaire dans la  
+→ [Section Support](support.html).
 
-### La ValueApp remplace-t-elle des réglementations d’honoraires comme la SIA LHO ?
+---
 
-Non. La ValueApp met en œuvre la méthode ETH Value et fournit des plages d’effort transparentes et traçables basées sur des déterminants et la complexité. Elle peut être utilisée conjointement avec des réglementations d’honoraires telles que la SIA LHO pour établir des offres équitables et non discriminatoires.
+## Généralités
 
-### Pourquoi l’application n’utilise-t-elle pas les coûts de construction comme entrée ?
+### La ValueApp remplace-t-elle des règlements d’honoraires comme la SIA LHO ?
 
-Les coûts de construction dépendent des conditions du marché, du calendrier et des stratégies de passation de marchés, ce qui peut introduire des distorsions. La méthode Value utilise des déterminants comme la surface brute de plancher, plus faciles à documenter et à comparer.
+Non. La ValueApp met en œuvre la **ETH Value Method** et fournit des plages d’effort transparentes et traçables, basées sur des déterminants et la complexité.  
+Elle peut être utilisée conjointement avec des règlements d’honoraires tels que la SIA LHO pour établir des offres d’honoraires équitables et non discriminatoires.
 
-### Le résultat est-il une valeur fixe ou une plage ?
+### Pourquoi l’application n’utilise-t-elle pas les coûts de construction comme donnée d’entrée ?
 
-Les modèles de base fournissent des intervalles de prévision, et non une valeur unique artificiellement précise. Les facteurs d’ajustement et les entrées produisent une plage plausible utilisable pour la planification et les modèles d’honoraires.
+Les coûts de construction dépendent fortement des conditions du marché, du calendrier et de la stratégie de passation des marchés, et peuvent introduire des distorsions.  
+La Value Method utilise à la place des déterminants tels que la **surface brute de plancher**, plus faciles à documenter et à comparer entre projets.
+
+### Le résultat est-il un nombre d’heures fixe ou une plage ?
+
+Les modèles de base fournissent des **intervalles de prévision**, et non une valeur unique artificiellement précise.  
+Les facteurs d’ajustement et les données saisies conduisent à une **plage plausible**, qui peut ensuite être traduite en hypothèses de planification et en modèles d’honoraires.
+
+---
 
 ## Utilisation de l’application
 
-### Quel niveau de détail pour la description du projet ?
+### Quel niveau de détail est attendu pour la description du projet ?
 
-Un court paragraphe décrivant la situation initiale, la tâche et les contraintes principales suffit. Il doit permettre à une autre personne de comprendre le projet et d’interpréter les heures ultérieurement.
+Un court paragraphe décrivant la situation initiale, la mission et les contraintes principales suffit.  
+La description doit être suffisamment claire pour qu’une autre personne puisse encore comprendre le projet et interpréter les heures un an plus tard.
 
-### Comment gérer les usages mixtes (par ex. logement et commerce) ?
+### Comment gérer des usages mixtes (p. ex. logement et commerce) ?
 
-Indiquez la surface brute totale et répartissez les pourcentages par usage. L’application combine les modèles de base correspondants. Les usages très mineurs peuvent être omis si cela est pertinent.
+Saisissez la surface brute totale et attribuez des pourcentages aux différents usages.  
+L’application combine les modèles de base correspondants. Les parts très faibles peuvent être ignorées si nécessaire.
 
 ### Que faire si je ne suis pas sûr de l’évaluation de la complexité ?
 
-Commencez par votre meilleure estimation et documentez brièvement le raisonnement. Vous pouvez ajuster la position dans le Leadership Framework et observer l’impact sur les résultats. La transparence est prioritaire.
+Commencez par votre meilleure estimation et documentez brièvement le raisonnement.  
+Les ajustements dans le Leadership Framework montrent immédiatement l’impact sur l’effort.  
+**La transparence est plus importante qu’une valeur “parfaite”.**
 
 ### Puis-je modifier les heures par phase ?
 
-Oui. La répartition proposée reflète des schémas typiques. Vous pouvez l’ajuster en cas de projet atypique, en documentant la raison.
+Oui. La répartition proposée repose sur des projets types.  
+Si votre projet s’en écarte, vous pouvez ajuster les pourcentages.  
+Une brève justification améliore la traçabilité.
+
+---
 
 ## Technique et données
 
 ### À quelle fréquence les modèles de base sont-ils mis à jour ?
 
-Les modèles de base sont mis à jour périodiquement avec de nouveaux projets réalisés et affinés au fil du temps afin de rester alignés avec la pratique actuelle.
+Les modèles de base sont mis à jour périodiquement avec de nouveaux projets réalisés et affinés afin de rester en phase avec la pratique actuelle.
 
-### La ValueApp peut-elle être intégrée dans nos propres systèmes IT ?
+### La ValueApp peut-elle être intégrée dans nos propres systèmes informatiques ?
 
-Oui. La logique centrale peut être intégrée sous forme de widget dans des plateformes externes. Une documentation technique et des exemples sont disponibles dans le dépôt d’intégration.
+Oui. La logique centrale peut être intégrée sous forme de widget dans des plateformes et portails externes.  
+La documentation technique et des exemples sont disponibles dans le  
+→ [Dépôt d’intégration](https://github.com/a-r-c-experts/core-value-integration).
 
-### Où signaler des bugs ou proposer des améliorations ?
+### Où signaler des erreurs ou proposer des améliorations ?
 
-Utilisez le bouton **Feedback** dans l’application. Vous pouvez y décrire le problème et référencer un projet ou une capture d’écran si nécessaire.
+Utilisez le bouton **Feedback** dans l’application.  
+Vous pouvez y décrire les problèmes rencontrés et, si utile, faire référence à un projet ou à une capture d’écran.
+
+---
+
+## Aide complémentaire
+
+- **Vous n’avez pas trouvé ce que vous cherchez ?**  
+  → [Aide et contact](help-and-contact.html)
+
+- **Des doutes sur l’interprétation des résultats ?**  
+  → [Bonnes pratiques et recommandations](best-practices.html)
+
+- **Clarifier les concepts et la terminologie**  
+  → [Knowledge base](knowledge-base.html)
