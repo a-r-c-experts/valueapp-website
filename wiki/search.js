@@ -65,7 +65,7 @@
     return page.id || "Page";
   }
 
-  function renderResults(query, results) {
+  function renderResults(query, results, lang) {
     const container = document.getElementById("wikiSearchResults");
     if (!container) return;
 
@@ -108,6 +108,22 @@
     container.appendChild(list);
   }
 
+  function waitForI18n(lang, timeoutMs = 2000) {
+    return new Promise((resolve) => {
+      const start = Date.now();
+
+      (function tick() {
+        const dictAll = window.content || {};
+        const dict = dictAll[lang] || dictAll.en;
+
+        if (dict && Object.keys(dict).length > 0) return resolve(true);
+        if (Date.now() - start > timeoutMs) return resolve(false);
+
+        setTimeout(tick, 50);
+      })();
+    });
+  }
+
   // --- search form wiring ------------------------------------------
 
   function setupSearchForm() {
@@ -146,11 +162,14 @@
     const langParam = getQueryParam("lang");
     const lang = (langParam || getCurrentLang()).toLowerCase();
 
+    // Wait until translations are available, otherwise titles default to EN
+    await waitForI18n(lang);
+
     const input = document.getElementById("wikiSearchInput");
     if (input) input.value = q;
 
     if (!q) {
-      renderResults("", []);
+      renderResults("", [], lang);
       return;
     }
 
@@ -205,7 +224,7 @@
       });
     }
 
-    renderResults(q, results);
+    renderResults(q, results, lang);
   }
 
   // --- init --------------------------------------------------------
