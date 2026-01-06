@@ -47,6 +47,11 @@ html {
   text-size-adjust: 100%;
 }
 
+header, header * {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 @keyframes fadeUpSoft {
   from {
     opacity: 0;
@@ -1166,10 +1171,13 @@ nav.main-nav a.active {
     text-overflow: ellipsis;
 
     /* smaller + responsive */
-    font-size: clamp(0.78rem, 3.5vw, 0.9rem);
-    letter-spacing: 0.1em;
+    font-size: clamp(0.68rem, 3.1vw, 0.82rem);
+    letter-spacing: clamp(0.04em, 0.9vw, 0.08em);
     line-height: 1.1;
   }
+
+  .brand-text-only { padding-right: 14px; } /* space for the button */
+  #mobileNavToggle, .mobile-nav-toggle { min-width: 40px; }
 
   .lang-switcher { grid-column: 1 / -1; grid-row: 2; justify-self: start; }
   .wiki-search   { grid-column: 1 / -1; grid-row: 2; justify-self: end; }
