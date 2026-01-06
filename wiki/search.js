@@ -5,17 +5,30 @@
   function getCurrentLang() {
     if (typeof window.getStoredLanguage === "function") {
       const stored = window.getStoredLanguage();
-      if (stored) return stored;
+      if (stored) return stored.toLowerCase();
     }
+
+    // If URL path contains /wiki/{lang}/..., prefer that
+    const m = window.location.pathname.match(/^\/wiki\/(en|de|fr)(\/|$)/);
+    if (m) return m[1];
+
     const htmlLang = (document.documentElement.lang || "").toLowerCase();
     return htmlLang || "en";
   }
 
   function getPageUrl(page, lang) {
+    // 1) Generated pages from build-wiki.mjs
+    if (page && page.urlByLang && page.urlByLang[lang]) {
+      return page.urlByLang[lang];
+    }
+
+    // 2) If wiki-page-config offers a resolver, try it
     if (typeof window.getWikiPageUrlForLang === "function") {
       const url = window.getWikiPageUrlForLang(page, lang);
       if (url) return url;
     }
+
+    // 3) Legacy fallback
     return page.url || null;
   }
 
@@ -34,7 +47,6 @@
       const doc = parser.parseFromString(html, "text/html");
       const main = doc.querySelector("main") || doc.body;
 
-      // Collapse whitespace so snippets don’t look insane
       return (main.textContent || "").replace(/\s+/g, " ").trim();
     } catch (err) {
       console.warn("wiki search: failed to fetch", url, err);
@@ -46,7 +58,6 @@
     const dictAll = window.content || {};
     const dict = dictAll[lang] || dictAll.en || {};
     if (page.titleKey && dict[page.titleKey]) {
-      // Strip any inline HTML from title
       const tmp = document.createElement("div");
       tmp.innerHTML = dict[page.titleKey];
       return tmp.textContent || tmp.innerText || dict[page.titleKey];
@@ -54,7 +65,7 @@
     return page.id || "Page";
   }
 
-  function renderResults(query, results, lang) {
+  function renderResults(query, results) {
     const container = document.getElementById("wikiSearchResults");
     if (!container) return;
 
@@ -104,14 +115,22 @@
     const input = document.getElementById("wikiSearchInput");
     if (!form || !input) return;
 
+    // Avoid stacking multiple listeners if partials reload
+    if (form.__wikiSearchBound) return;
+    form.__wikiSearchBound = true;
+
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       const q = input.value.trim();
+
+      // Search in the currently active language
       const lang = getCurrentLang();
       const base = "/wiki/search.html";
+
       const url = q
         ? `${base}?q=${encodeURIComponent(q)}&lang=${encodeURIComponent(lang)}`
-        : base;
+        : `${base}?lang=${encodeURIComponent(lang)}`;
+
       window.location.href = url;
     });
   }
@@ -120,7 +139,7 @@
 
   async function runSearchIfNeeded() {
     if (!/\/wiki\/search\.html$/.test(window.location.pathname)) {
-      return; // we’re not on the search page
+      return;
     }
 
     const q = getQueryParam("q").trim();
@@ -131,7 +150,7 @@
     if (input) input.value = q;
 
     if (!q) {
-      renderResults("", [], lang);
+      renderResults("", []);
       return;
     }
 
@@ -142,9 +161,23 @@
       ...(window.WIKI_GENERATED_PAGES || [])
     ];
 
-    const pages = Array.from(
-      new Map(combined.map(p => [p.id, p])).values()
-    ).filter((p) => p.searchable !== false && p.id !== "search");
+    // De-dupe by id, prefer entries that have urlByLang
+    const byId = new Map();
+    for (const p of combined) {
+      if (!p || !p.id) continue;
+      const existing = byId.get(p.id);
+      if (!existing) {
+        byId.set(p.id, p);
+      } else {
+        const existingHas = !!existing.urlByLang;
+        const pHas = !!p.urlByLang;
+        if (pHas && !existingHas) byId.set(p.id, p);
+      }
+    }
+
+    const pages = Array.from(byId.values()).filter(
+      (p) => p.searchable !== false && p.id !== "search"
+    );
 
     const results = [];
 
@@ -160,6 +193,7 @@
 
       const start = Math.max(0, idx - 80);
       const end = Math.min(text.length, idx + q.length + 80);
+
       let snippet = text.slice(start, end).trim();
       if (start > 0) snippet = "… " + snippet;
       if (end < text.length) snippet = snippet + " …";
@@ -171,7 +205,7 @@
       });
     }
 
-    renderResults(q, results, lang);
+    renderResults(q, results);
   }
 
   // --- init --------------------------------------------------------
@@ -181,7 +215,6 @@
     runSearchIfNeeded();
   });
 
-  // header is injected via partials → rebind search form
   document.addEventListener("partials:loaded", () => {
     setupSearchForm();
   });
