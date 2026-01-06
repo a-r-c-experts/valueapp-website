@@ -784,5 +784,7 @@ export const contentEn = {
     "wiki.home.link.reference": "Reference – inputs, parameters, interpreting results, integration, versions",
     "wiki.home.link.examples": "Examples – realistic scenarios and case studies",
     "wiki.home.link.support": "Support – FAQ, glossary, help and best practices",
+    "wiki.home.link.tutorial": "Tutorial – step by step through the ValueApp",
+    "wiki.home.cta.tutorial": "Go to tutorial"
 
   };
