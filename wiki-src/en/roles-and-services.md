@@ -54,7 +54,7 @@ Each role implies:
 - a different **coordination load**,
 - a different distribution of effort across phases.
 
-![Role-dependent service scope](wiki-assets/knowledge/roles-services-scope-overview.jpeg)
+![Role-dependent service scope](\/wiki-assets/knowledge/roles-services-scope-overview.jpeg)
 
 ---
 
@@ -113,7 +113,7 @@ They do **not**:
 - replace complexity assessment,
 - account for exceptional services.
 
-![Effect of role on phase distribution](wiki-assets/knowledge/roles-services-phase-distribution.jpeg)
+![Effect of role on phase distribution](\/wiki-assets/knowledge/roles-services-phase-distribution.jpeg)
 
 If your scope deviates significantly from standard services, document it externally.
 

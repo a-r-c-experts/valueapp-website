@@ -65,7 +65,7 @@ Der Faktor wird aus einer strukturierten Einschätzung der **Führungs- und Proz
 
 Diese Einschätzungen erfolgen qualitativ und werden auf einen kalibrierten Anpassungsbereich abgebildet.
 
-![Eingabedimensionen des Anpassungsfaktors](wiki-assets/knowledge/adjustment-factor-dimensions.png)
+![Eingabedimensionen des Anpassungsfaktors](\/wiki-assets/knowledge/adjustment-factor-dimensions.png)
 
 ---
 
@@ -86,7 +86,7 @@ Er:
 - garantiert **keine** höheren Honorare,
 - ersetzt **nicht** die fachliche Beurteilung.
 
-![Auswirkung des Anpassungsfaktors auf die Aufwandsbandbreite](wiki-assets/knowledge/adjustment-factor-impact.jpeg)
+![Auswirkung des Anpassungsfaktors auf die Aufwandsbandbreite](\/wiki-assets/knowledge/adjustment-factor-impact.jpeg)
 
 ---
 

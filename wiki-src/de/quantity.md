@@ -133,7 +133,7 @@ Es bedeutet, dass sich der Projektumfang geändert hat.
 
 Der Zusammenhang zwischen Menge und Basisaufwand ist **nicht linear**:
 
-![Menge vs. Basisaufwand](wiki-assets/knowledge/quantity-baseline-curve.jpg)
+![Menge vs. Basisaufwand](\/wiki-assets/knowledge/quantity-baseline-curve.jpg)
 
 Die Kurve berücksichtigt:
 - Wiederholungseffekte,

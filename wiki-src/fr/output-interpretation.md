@@ -27,7 +27,7 @@ Cette plage reflète :
 - la variabilité de l’effort de coordination et de pilotage,
 - la stabilité plus ou moins grande des processus.
 
-![Plage d’effort plutôt qu’une valeur unique](wiki-assets/knowledge/output-effort-range.jpeg)
+![Plage d’effort plutôt qu’une valeur unique](\/wiki-assets/knowledge/output-effort-range.jpeg)
 
 Si vous cherchez de la précision, vous êtes probablement trop tôt dans le projet.
 
@@ -63,7 +63,7 @@ Cela permet :
 - d’aligner ressources et flux financiers,
 - de comparer des projets de manière structurelle, pas émotionnelle.
 
-![Répartition de l’effort par phase](wiki-assets/knowledge/output-phase-distribution.jpeg)
+![Répartition de l’effort par phase](\/wiki-assets/knowledge/output-phase-distribution.jpeg)
 
 Important :
 - Les répartitions par phase sont **issues d’un modèle**, pas des plannings.
@@ -83,7 +83,7 @@ Raisons typiques :
 - organisations différentes,
 - facteurs de complexité ou de pilotage différents.
 
-![Projets similaires, résultats différents](wiki-assets/knowledge/output-comparison-scenarios.jpeg)
+![Projets similaires, résultats différents](\/wiki-assets/knowledge/output-comparison-scenarios.jpeg)
 
 Les comparaisons n’ont de sens que si :
 - les hypothèses sont alignées,

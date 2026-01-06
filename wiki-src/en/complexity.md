@@ -37,7 +37,7 @@ Those belong to the **adjustment (leadership) factor**, not here.
 Complexity is assessed across **four independent dimensions**.  
 Each dimension captures a different source of design and coordination effort.
 
-![Overview of complexity dimensions](wiki-assets/knowledge/complexity-dimensions-overview.jpg)
+![Overview of complexity dimensions](\/wiki-assets/knowledge/complexity-dimensions-overview.jpg)
 
 ### 1. Design (Gestalterisch)
 
@@ -114,7 +114,7 @@ Higher complexity:
 - overlapping operational requirements,
 - continuous operation during construction.
 
-![Example of organisational complexity](wiki-assets/knowledge/complexity-organisational-example.jpg)
+![Example of organisational complexity](\/wiki-assets/knowledge/complexity-organisational-example.jpg)
 
 ---
 
@@ -126,7 +126,7 @@ Each dimension is positioned along a spectrum from:
 The assessment is **qualitative but structured**.  
 It does not require exact measurement, but it does require honesty.
 
-![Complexity assessment scale](wiki-assets/knowledge/complexity-assessment-scale.jpg)
+![Complexity assessment scale](\/wiki-assets/knowledge/complexity-assessment-scale.jpg)
 
 You are not rating “good” or “bad”.  
 You are stating **how demanding the design task is likely to be**.

@@ -5,69 +5,67 @@ navKey: complexity
 
 # Komplexitätsdimensionen
 
-Komplexität beschreibt, **wie anspruchsvoll die planerische Aufgabe an sich ist**, unabhängig von Projektgrösse und Organisation.
+Komplexität beschreibt, **wie anspruchsvoll die Planungsaufgabe an sich ist** – unabhängig von Grösse und Organisation.
 
-Sie erfasst, **was im Objekt entworfen, koordiniert und gelöst werden muss** – nicht, wie das Projekt geführt wird.  
-Diese Unterscheidung ist wichtig, weil Komplexität und Führungsaufwand in der ValueApp **zwei getrennte Treiber des Aufwands** sind.
+Sie erfasst **was am Objekt entworfen, koordiniert und gelöst werden muss**, nicht wie das Projekt geführt wird.  
+Diese Unterscheidung ist wichtig, weil Komplexität und Führungsaufwand in der ValueApp **separate Treiber des Arbeitsaufwands** sind.
 
 ---
 
 ## Was Komplexität in der ValueApp bedeutet
 
-In der ValueApp steht Komplexität für:
-- die **Art der Entwurfsaufgabe**,
+In der ValueApp spiegelt Komplexität:
+- die **Art der Entwurfs- und Planungsaufgabe**,
 - die **technischen und räumlichen Abhängigkeiten**,
-- den **Grad an Unsicherheit innerhalb der Lösung selbst**.
+- den **Grad an Unsicherheit innerhalb der Lösung**.
 
 Sie beantwortet die Frage:
 
-> *„Wie schwierig ist es, dieses Projekt planerisch zu entwerfen und aufzulösen?“*
+> *«Wie schwierig ist es, dieses Projekt zu entwerfen und planerisch zu klären?»*
 
 Nicht:
-- wie viele Beteiligte involviert sind,
-- wie unklar oder politisch der Auftrag ist,
-- wie aufwendig die Abstimmung mit der Bauherrschaft wird.
+- wie viele Personen beteiligt sind,
+- wie chaotisch die Bauherrschaft ist,
+- wie politisch der Prozess wird.
 
-Diese Aspekte gehören zum **Anpassungs- bzw. Leadership-Faktor**, nicht zur Komplexität.
+Das gehört zum **Adjustment (Leadership) Factor**, nicht hierher.
 
 ---
 
 ## Die vier Komplexitätsdimensionen
 
-Die Komplexität wird entlang von **vier unabhängigen Dimensionen** beurteilt.  
+Komplexität wird über **vier unabhängige Dimensionen** beurteilt.  
 Jede Dimension beschreibt eine andere Quelle von Entwurfs- und Koordinationsaufwand.
 
-![Übersicht Komplexitätsdimensionen](wiki-assets/knowledge/complexity-dimensions-overview.jpg)
+![Overview of complexity dimensions](\/wiki-assets/knowledge/complexity-dimensions-overview.jpg)
 
----
+### 1. Design (Gestalterisch)
 
-### 1. Gestalterisch (Design)
+Diese Dimension reflektiert:
+- formalen Anspruch,
+- architektonische Artikulation,
+- entwurfsgetriebene Iteration und Verfeinerung.
 
-Diese Dimension beschreibt:
-- den gestalterischen Anspruch,
-- die architektonische Ausformulierung,
-- entwurfsgetriebene Iterationen und Präzisierungen.
-
-Geringe Komplexität:
+Niedrige Komplexität:
 - standardisierte Grundrisse,
 - repetitive Strukturen,
-- geringe Variationsbreite.
+- geringe Variation.
 
 Höhere Komplexität:
-- starke formale Intention,
+- starke formale Absicht,
 - viele Entwurfsiterationen,
-- hohe Anforderungen an Kohärenz und Detailtiefe.
+- hohe Anforderungen an Kohärenz und Detaillierung.
 
 ---
 
-### 2. Technisch
+### 2. Technik (Technisch)
 
-Die technische Komplexität umfasst:
+Diese Dimension erfasst:
 - technische Systeme,
 - Integration der Gebäudetechnik,
-- ingenieurtechnische Abhängigkeiten.
+- Abhängigkeiten im Engineering.
 
-Geringe Komplexität:
+Niedrige Komplexität:
 - konventionelle Systeme,
 - bewährte Lösungen,
 - wenige Schnittstellen.
@@ -75,63 +73,63 @@ Geringe Komplexität:
 Höhere Komplexität:
 - dichte technische Infrastruktur,
 - innovative oder unübliche Systeme,
-- enge Toleranzen und hohe Koordinationsdichte.
+- enge Toleranzen und intensive Koordinationsschlaufen.
 
 ---
 
-### 3. Räumlich
+### 3. Raum (Räumlich)
 
-Die räumliche Komplexität bezieht sich auf:
+Räumliche Komplexität bezieht sich auf:
 - dreidimensionale Organisation,
-- Erschliessung und Zirkulation,
-- räumliche Verschränkungen und Zwänge.
+- Erschliessung und Zugang,
+- räumliche Verschränkungen und Randbedingungen.
 
-Geringe Komplexität:
+Niedrige Komplexität:
 - einfache Volumen,
-- klare Zonierungen,
-- geringe räumliche Abhängigkeiten.
+- klare Zonierung,
+- minimale Abhängigkeiten.
 
 Höhere Komplexität:
-- gestapelte oder ineinander greifende Räume,
-- komplexe Erschliessungssysteme,
-- beengte oder stark eingeschränkte Standorte.
+- gestapelte oder verschränkte Räume,
+- komplexe Wegeführung,
+- enge Grundstücke oder anspruchsvolle Transformationen.
 
 ---
 
-### 4. Organisatorisch
+### 4. Organisation (Organisatorisch)
 
-Diese Dimension beschreibt **objektbezogene organisatorische Komplexität**, nicht Projektmanagement.
+Diese Dimension beschreibt **objektbezogene organisatorische Schwierigkeit**, nicht Projektmanagement.
 
 Dazu gehören:
-- Bau- oder Nutzungsphasen innerhalb des Gebäudes,
-- Schnittstellen zwischen unterschiedlichen Nutzungen,
-- gleichzeitiger Betrieb und Umbau.
+- Etappierung innerhalb des Gebäudes,
+- Schnittstellen zwischen Nutzungen,
+- Betriebskonflikte (z.B. Bauen im laufenden Betrieb).
 
-Geringe Komplexität:
-- Einzelnutzung,
-- klare betriebliche Logik.
+Niedrige Komplexität:
+- eine Nutzung,
+- klare Betriebslogik.
 
 Höhere Komplexität:
 - Mischnutzungen,
 - überlagerte Betriebsanforderungen,
-- Weiterbetrieb während Bau- oder Umbaumassnahmen.
+- kontinuierlicher Betrieb während der Bauzeit.
 
-![Beispiel organisatorische Komplexität](wiki-assets/knowledge/complexity-organisational-example.jpg)
+![Example of organisational complexity](\/wiki-assets/knowledge/complexity-organisational-example.jpg)
 
 ---
 
 ## Wie Komplexität beurteilt wird
 
-Jede Dimension wird entlang eines Spektrums eingeordnet:
-**einfach → kompliziert → komplex**
+Jede Dimension wird entlang eines Spektrums positioniert:
+**simple → complicated → complex**
 
 Die Beurteilung ist **qualitativ, aber strukturiert**.  
-Sie verlangt keine exakten Messwerte, aber eine ehrliche Einschätzung.
+Sie braucht keine exakte Messung, aber sie braucht Ehrlichkeit.
 
-![Komplexitätsskala](wiki-assets/knowledge/complexity-assessment-scale.jpg)
+![Complexity assessment scale](\/wiki-assets/knowledge/complexity-assessment-scale.jpg)
 
-Es geht nicht darum, „gut“ oder „schlecht“ zu bewerten.  
-Es geht darum, **wie anspruchsvoll die planerische Aufgabe voraussichtlich ist**.
+Sie bewerten nicht «gut» oder «schlecht».  
+Sie halten fest, **wie anspruchsvoll die Planungsaufgabe voraussichtlich ist**.
 
 ---
 
@@ -139,58 +137,58 @@ Es geht darum, **wie anspruchsvoll die planerische Aufgabe voraussichtlich ist**
 
 Komplexität:
 - erhöht den Basisaufwand,
-- wirkt sich auf alle Planungsphasen aus,
-- beeinflusst sowohl den Mittelwert als auch die Spannweite der Ergebnisse.
+- wirkt über alle Planungsphasen,
+- beeinflusst Mittelwert und Unsicherheitsbandbreite.
 
-Höhere Komplexität bedeutet in der Regel:
-- mehr interdisziplinäre Koordination,
-- mehr Iterationen,
-- mehr Aufwand zur Konfliktlösung.
+Höhere Komplexität bedeutet typischerweise:
+- mehr Koordination zwischen Disziplinen,
+- mehr Iteration,
+- mehr Zeit zur Konfliktauflösung.
 
-Komplexität:
-- erweitert **nicht** automatisch den Leistungsumfang,
-- ersetzt **keine** vertraglichen Festlegungen,
-- rechtfertigt Aufwand **nicht isoliert** ohne Bezug zur Projektgrösse.
+Sie bewirkt **nicht**:
+- eine Vergrösserung des Leistungsumfangs,
+- einen Ersatz vertraglicher Definitionen,
+- eine Rechtfertigung von Aufwand ohne Menge.
 
-Komplexität wirkt immer **zusammen mit der Menge**, nie an deren Stelle.
+Komplexität wirkt immer **zusammen mit Menge**, nicht anstelle davon.
 
 ---
 
-## Wo Komplexität in der App erscheint
+## Wo Komplexität in der App vorkommt
 
-Komplexität begegnet Ihnen in der ValueApp:
+Komplexität begegnet Ihnen in:
 
-- **In der Projektdefinition**  
-  Bei der Einschätzung der vier Dimensionen.
+- **Project definition**  
+  Bei der Beurteilung der vier Dimensionen im Setup.
 
-- **In der Basiskalkulation**  
-  Wo sie den aus Menge und Nutzung abgeleiteten Aufwand modifiziert.
+- **Baseline calculation**  
+  Dort, wo sie den Aufwand aus Menge und Nutzung modifiziert.
 
-- **In der Ergebnisinterpretation**  
-  Wo höhere Stundenwerte bei ähnlicher Grösse erklärbar werden.
+- **Result interpretation**  
+  Dort, wo höhere Komplexität mehr Stunden erklärt, auch bei ähnlicher Grösse.
 
-Für eine geführte Anwendung siehe:  
-→ [Workflow: Komplexität definieren](workflows.html#complexity)
+Für eine geführte Anleitung siehe:  
+→ [Workflow: defining complexity](workflows.html#complexity)
 
 ---
 
 ## Häufige Fehler vermeiden
 
-Vermeiden Sie:
-- Komplexität aus persönlichem Stolz hoch anzusetzen,
-- Komplexität zur Kompensation unklarer Leistungen zu verwenden,
-- „interessantes Projekt“ mit „komplexes Projekt“ gleichzusetzen.
+Nicht:
+- Komplexität nach persönlichem Stolz bewerten,
+- Komplexität nutzen, um unklaren Umfang zu kompensieren,
+- annehmen, ein «spannendes Projekt» sei automatisch «komplex».
 
 Wenn sich Komplexität schwer begründen lässt, ist das oft ein Hinweis darauf, dass:
-- die Projektdefinition noch zu unklar ist, oder
-- organisatorische Themen fälschlich hier statt beim Leadership-Faktor verortet werden.
+- die Projektdefinition noch zu vage ist, oder
+- organisatorische Themen in die falsche Kategorie geraten.
 
 ---
 
 ## Siehe auch
 
-- [Menge und Basisaufwand](quantity.html)
-- [Anpassungs- / Leadership-Faktor](adjustment-factor.html)
-- [Rollen und Leistungen](roles-and-services.html)
-- [Ergebnisinterpretation](output-interpretation.html)
-- [Was die ValueApp ist – und was nicht](why-valueapp.html)
+- [Quantity and baseline effort](quantity.html)
+- [Adjustment (leadership) factor](adjustment-factor.html)
+- [Roles and services](roles-and-services.html)
+- [Interpreting results](output-interpretation.html)
+- [What ValueApp is – and what it is not](why-valueapp.html)

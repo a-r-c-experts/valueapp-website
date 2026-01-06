@@ -29,7 +29,8 @@
     "id": "complexity",
     "urlByLang": {
       "de": "/wiki/de/complexity.html",
-      "en": "/wiki/en/complexity.html"
+      "en": "/wiki/en/complexity.html",
+      "fr": "/wiki/fr/complexity.html"
     },
     "titleKey": "wiki.complexity.title",
     "navKey": "complexity",

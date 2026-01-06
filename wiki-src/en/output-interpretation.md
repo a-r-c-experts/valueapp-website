@@ -27,7 +27,7 @@ This range reflects:
 - variability in leadership and coordination effort,
 - differences in process stability.
 
-![Effort range instead of a single value](wiki-assets/knowledge/output-effort-range.jpeg)
+![Effort range instead of a single value](\/wiki-assets/knowledge/output-effort-range.jpeg)
 
 If you are looking for precision, you are likely looking too early.
 
@@ -63,7 +63,7 @@ This helps to:
 - align staffing and cash flow expectations,
 - compare projects structurally, not emotionally.
 
-![Effort distributed across phases](wiki-assets/knowledge/output-phase-distribution.jpeg)
+![Effort distributed across phases](\/wiki-assets/knowledge/output-phase-distribution.jpeg)
 
 Important:
 - Phase distributions are **model-based**, not schedules.
@@ -83,7 +83,7 @@ Typical reasons include:
 - different organisational setups,
 - different complexity or leadership factors.
 
-![Similar projects, different outcomes](wiki-assets/knowledge/output-comparison-scenarios.jpeg)
+![Similar projects, different outcomes](\/wiki-assets/knowledge/output-comparison-scenarios.jpeg)
 
 Comparisons only make sense if:
 - assumptions are aligned,

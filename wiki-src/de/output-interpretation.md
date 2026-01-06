@@ -27,7 +27,7 @@ Dieser Bereich berücksichtigt:
 - Unterschiede im Führungs- und Koordinationsaufwand,
 - unterschiedliche Prozessstabilität.
 
-![Aufwandsbereich statt Einzelwert](wiki-assets/knowledge/output-effort-range.jpeg)
+![Aufwandsbereich statt Einzelwert](\/wiki-assets/knowledge/output-effort-range.jpeg)
 
 Wenn Sie Präzision erwarten, sind Sie meist zu früh im Projekt.
 
@@ -63,7 +63,7 @@ Das hilft:
 - Ressourcen- und Liquiditätsplanung abzustimmen,
 - Projekte strukturell statt emotional zu vergleichen.
 
-![Aufwand nach Phasen verteilt](wiki-assets/knowledge/output-phase-distribution.jpeg)
+![Aufwand nach Phasen verteilt](\/wiki-assets/knowledge/output-phase-distribution.jpeg)
 
 Wichtig:
 - Phasenverteilungen sind **modellbasiert**, keine Terminpläne.
@@ -83,7 +83,7 @@ Typische Gründe:
 - unterschiedliche Organisationsformen,
 - unterschiedliche Komplexitäts- oder Führungsfaktoren.
 
-![Ähnliche Projekte, unterschiedliche Resultate](wiki-assets/knowledge/output-comparison-scenarios.jpeg)
+![Ähnliche Projekte, unterschiedliche Resultate](\/wiki-assets/knowledge/output-comparison-scenarios.jpeg)
 
 Vergleiche sind nur sinnvoll, wenn:
 - Annahmen vergleichbar sind,

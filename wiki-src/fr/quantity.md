@@ -133,7 +133,7 @@ Cela signifie que le périmètre du projet a changé.
 
 La relation entre quantité et effort de base est **non linéaire** :
 
-![Quantité vs effort de base](wiki-assets/knowledge/quantity-baseline-curve.jpg)
+![Quantité vs effort de base](\/wiki-assets/knowledge/quantity-baseline-curve.jpg)
 
 Cette courbe reflète :
 - les effets de répétition,

@@ -54,7 +54,7 @@ Jede Rolle impliziert:
 - einen anderen **Koordinationsaufwand**,
 - eine andere Verteilung des Aufwands über die Phasen.
 
-![Rollenabhängiger Leistungsumfang](wiki-assets/knowledge/roles-services-scope-overview.jpeg)
+![Rollenabhängiger Leistungsumfang](\/wiki-assets/knowledge/roles-services-scope-overview.jpeg)
 
 ---
 
@@ -113,7 +113,7 @@ Sie verändern **nicht**:
 - die Komplexitätsbewertung,
 - ausserordentliche Zusatzleistungen.
 
-![Einfluss der Rolle auf die Phasenverteilung](wiki-assets/knowledge/roles-services-phase-distribution.jpeg)
+![Einfluss der Rolle auf die Phasenverteilung](\/wiki-assets/knowledge/roles-services-phase-distribution.jpeg)
 
 Wenn Ihr Leistungsumfang deutlich von Standardleistungen abweicht, dokumentieren Sie dies ausserhalb der App.
 

@@ -54,7 +54,7 @@ Chaque rôle implique :
 - une **charge de coordination** différente,
 - une répartition différente de l’effort selon les phases.
 
-![Périmètre des prestations selon le rôle](wiki-assets/knowledge/roles-services-scope-overview.jpeg)
+![Périmètre des prestations selon le rôle](\/wiki-assets/knowledge/roles-services-scope-overview.jpeg)
 
 ---
 
@@ -113,7 +113,7 @@ Ils ne :
 - remplacent pas l’évaluation de la complexité,
 - couvrent pas les prestations exceptionnelles.
 
-![Influence du rôle sur la répartition par phase](wiki-assets/knowledge/roles-services-phase-distribution.jpeg)
+![Influence du rôle sur la répartition par phase](\/wiki-assets/knowledge/roles-services-phase-distribution.jpeg)
 
 Si votre périmètre diffère fortement des prestations standard, documentez-le en dehors de l’application.
 
