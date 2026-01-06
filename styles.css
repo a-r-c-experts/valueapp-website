@@ -1155,10 +1155,6 @@ nav.main-nav a.active {
 
 }
 
-@media (max-width: 900px) {
-  .wiki-toc { max-height: 56px; overflow: hidden; }
-  .wiki-toc.is-open { max-height: none; overflow: visible; }
-}
 
 @media (max-width: 900px) {
   .top-bar{
