@@ -137,9 +137,14 @@
 
     const qLower = q.toLowerCase();
 
-    const pages = (window.WIKI_PAGES || []).filter(
-      (p) => p.searchable !== false && p.id !== "search"
-    );
+    const combined = [
+      ...(window.WIKI_PAGES || []),
+      ...(window.WIKI_GENERATED_PAGES || [])
+    ];
+
+    const pages = Array.from(
+      new Map(combined.map(p => [p.id, p])).values()
+    ).filter((p) => p.searchable !== false && p.id !== "search");
 
     const results = [];
 
