@@ -73,10 +73,19 @@ It produces **ranges and distributions**, not a single “correct” number.
 - It does not replace professional judgement.
 - It does not guarantee outcomes.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+![ValueApp purpose overview](/wiki-assets/tutorial/intro-valueapp-purpose.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</details>
+
+**Related reading**
+- [How the app works](how-it-works.html) (method and logic)
+- [Definitions](definitions.html) (terms used in the UI)
 
 ---
 
@@ -118,11 +127,18 @@ Create a clear, shared project identity.
 - The description clearly explains *what kind of project this is*.
 - A third party could read it and understand the context.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
-</video>
-
 ![Description – project details filled](/wiki-assets/tutorial/description-project-details.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Why this matters**
+- The description is what others will read in the exported summary.
+- Good descriptions reduce back-and-forth and prevent misinterpretation.
 
 **Common mistakes**
 - Writing marketing text instead of scope and constraints.
@@ -142,9 +158,14 @@ Document where the project is planned.
 **Check**
 - The location marker is set correctly.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
-</video>
+![Description – location map](/wiki-assets/tutorial/description-location-map.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
+  </video>
+</details>
 
 > **Does not affect effort**  
 > Location-related statistics are contextual only.
@@ -163,11 +184,14 @@ Define how responsibilities are structured.
 **Check**
 - The selected model reflects contractual reality, not wishful thinking.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
-</video>
-
 ![Organisation setup options](/wiki-assets/tutorial/description-organisation-options.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
+  </video>
+</details>
 
 **Why this matters**
 - Organisation affects **phase responsibility**.
@@ -176,6 +200,9 @@ Define how responsibilities are structured.
 **Good practice**
 - Evaluate organisation early.
 - Avoid changing the model mid-project unless unavoidable.
+
+**Related reading**
+- [Reference](reference.html) (how to interpret phase distributions)
 
 ---
 
@@ -191,13 +218,22 @@ Specify the nature of the intervention.
 **Check**
 - The task reflects the real scope, not the budget narrative.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
-</video>
+![Description – task selection](/wiki-assets/tutorial/description-task-selection.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
+  </video>
+</details>
 
 > **Affects effort**  
 > Task type and intervention depth influence effort.  
 > Cost factors do not.
+
+**Common mistakes**
+- Picking *Refurbishment* “because there’s an existing building”, even if the scope is effectively a new build.
+- Understating intervention depth in early phases.
 
 ---
 
@@ -219,13 +255,24 @@ Define the scale of the project.
 **Check**
 - The quantity represents the whole project.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
-</video>
+![Project – enter quantity](/wiki-assets/tutorial/project-enter-quantity.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Why this matters**
+- The base model uses quantity as the main driver for the initial range.
 
 **Common mistakes**
 - Entering net area instead of gross.
 - Forgetting basements or shared areas.
+
+**Related reading**
+- [Project section](project-section.html) (quantities and use categories)
 
 ---
 
@@ -243,11 +290,17 @@ Tell the app *what the project is used for*.
 - The complexity section unlocks.
 - A min/m² value appears.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
-</video>
-
 ![Use mix example](/wiki-assets/tutorial/project-use-mix.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Why this matters**
+- The use mix selects the relevant base model(s) and changes the expected effort.
 
 Related reading:  
 [Building programs by use category](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
@@ -271,11 +324,14 @@ Justify why this project is easier or harder than a reference case.
   - Organisational
 - Place challenges in the Leadership Framework.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
-</video>
-
 ![Complexity dimensions](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
+  </video>
+</details>
 
 **Check**
 - The adjustment factor changes.
@@ -287,6 +343,10 @@ Justify why this project is easier or harder than a reference case.
 
 **Common mistake**
 - Increasing complexity just to “get more hours”.
+
+**Related reading**
+- [Definitions](definitions.html) (complexity, leadership framework)
+- [How the app works](how-it-works.html) (how complexity influences the range)
 
 ---
 
@@ -302,9 +362,21 @@ Account for planning uncertainty.
 **Check**
 - Risk feels external (appeals, interruptions), not internal (design quality).
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
-</video>
+![Project – risk assessment](/wiki-assets/tutorial/project-risk-assessment.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Why this matters**
+- Risk helps document uncertainty in early phases, when not everything is known.
+
+**Related reading**
+- [Definitions](definitions.html) (risk)
+- [How the app works](how-it-works.html) (risk vs complexity)
 
 ---
 
@@ -325,9 +397,18 @@ Define contractual scope.
 **Check**
 - The role matches your contract, not your ambition.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
-</video>
+![Services – select role](/wiki-assets/tutorial/services-select-role.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Common mistakes**
+- Choosing a broader role than you are contractually responsible for.
+- Forgetting that the output is for **basic services** by default.
 
 ---
 
@@ -342,9 +423,17 @@ Highlight special responsibilities.
 **Check**
 - Focus topics explain service emphasis, not inflate scope.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
-</video>
+![Services – focus topics](/wiki-assets/tutorial/services-focus-topics.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Related reading**
+- [Best practices](best-practices.html) (how to document assumptions)
 
 ---
 
@@ -361,14 +450,25 @@ Understand and, if needed, adjust phase effort.
 - Total hours remain constant.
 - Phase shifts make sense.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
-</video>
+![Services – hours and phases](/wiki-assets/tutorial/services-hours-phases.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
+  </video>
+</details>
 
 **Reading example**
 - Total effort: 240 h  
 - Phase 3 at 33% → ~79 h  
 - Phase 5 at 48% → ~115 h
+
+**Why this matters**
+- Phase distribution affects planning and procurement conversations even when total hours stay the same.
+
+**Related reading**
+- [Reference](reference.html) (phases and interpretation)
 
 ---
 
@@ -384,9 +484,21 @@ Document deviations from basic services.
 **Check**
 - Additional services are explicit and traceable.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
-</video>
+![Services – additional services](/wiki-assets/tutorial/services-additional-services.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Common mistakes**
+- Adding “additional services” without a description.
+- Using additional services to correct bad inputs earlier (quantity/use/complexity).
+
+**Related reading**
+- [Definitions](definitions.html) (basic vs additional services)
 
 ---
 
@@ -406,9 +518,17 @@ Verify that the result matches your inputs.
 **Check**
 - You can explain every number.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
-</video>
+![Summary – review one-pager](/wiki-assets/tutorial/summary-review.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Why this matters**
+- The summary is what you can share. If it’s unclear, the conversation will be unclear.
 
 ---
 
@@ -424,12 +544,42 @@ Create a document for real-world use.
 **Check**
 - The PDF explains assumptions, not just numbers.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
-</video>
+![Summary – export PDF](/wiki-assets/tutorial/summary-export-pdf.jpeg)
+
+<details>
+  <summary>Watch video (optional)</summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
+  </video>
+</details>
 
 **Template sentence for offers**
 > “The proposed effort range is based on project quantity, use mix, complexity, risk, organisational setup, and service scope, documented in the attached ValueApp summary.”
+
+---
+
+## 5 — Worked mini-example (quick sanity check)
+
+Use this to validate you’re getting a plausible result before sharing it.
+
+**Example**
+- Project type: Kindergarten (small education building)
+- Quantity: ~850 m² GF
+- Use mix: 100% Education
+- Complexity: moderate (technical + organisational)
+- Risk: medium
+- Role: Architect
+
+**What usually moves the result most**
+- use mix changes (typology),
+- complexity assessment (especially organisational),
+- role and phase distribution.
+
+![Example – summary output](/wiki-assets/tutorial/example-summary-output.jpeg)
+
+See also:  
+[Examples](examples.html) (more reference projects) and  
+[Best practices](best-practices.html) (how to document assumptions for clients).
 
 ---
 
@@ -439,6 +589,7 @@ Create a document for real-world use.
 - **Numbers feel wrong** → Check quantity and unit.
 - **Phases show 0 hours** → Check role and selected phases.
 - **Client questions the result** → Review Description and complexity justification.
+- **Result feels “too high/too low”** → Re-check use mix, complexity, and role before adding additional services.
 
 ---
 
@@ -447,5 +598,7 @@ Create a document for real-world use.
 - [Getting started](getting-started.html)
 - [Definitions and core concepts](definitions.html)
 - [How the app works](how-it-works.html)
+- [Reference](reference.html)
+- [Best practices](best-practices.html)
 - [Why ValueApp exists](why-valueapp.html)
 - [Examples](examples.html)
