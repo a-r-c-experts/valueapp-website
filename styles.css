@@ -1049,7 +1049,7 @@ nav.main-nav a.active {
 
 
 
-/* ---------- MOBILE BEHAVIOUR ---------- */
+/* ---------- MOBILE BEHAVIOUR (TOC) ---------- */
 @media (max-width: 900px) {
   .wiki-toc {
     position: sticky;
@@ -1059,6 +1059,10 @@ nav.main-nav a.active {
     background: #fff;
     border: 1px solid rgba(0,0,0,0.06);
     box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+
+    /* collapsed state */
+    max-height: 56px;
+    overflow: hidden;
   }
 
   .wiki-toc-list {
@@ -1068,6 +1072,17 @@ nav.main-nav a.active {
 
   .wiki-toc.is-open .wiki-toc-list {
     display: block;
+
+    /* scroll inside TOC when long */
+    max-height: calc(100vh - var(--header-offset, 90px) - 56px - 24px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-right: 6px;
+  }
+
+  /* keep the TOC box itself within the viewport when open */
+  .wiki-toc.is-open {
+    max-height: calc(100vh - var(--header-offset, 90px) - 16px);
   }
 }
 
