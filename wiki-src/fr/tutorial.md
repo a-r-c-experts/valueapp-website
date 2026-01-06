@@ -77,7 +77,7 @@ Elle produit des **plages et des répartitions**, pas un chiffre unique “juste
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
     Your browser does not support the video tag.
@@ -132,7 +132,7 @@ Créer une identité de projet claire et partagée.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
   </video>
@@ -164,7 +164,7 @@ Documenter où le projet est prévu.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
   </video>
@@ -193,7 +193,7 @@ Définir la structure des responsabilités.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
   </video>
@@ -228,7 +228,7 @@ Préciser la nature de l’intervention.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
   </video>
@@ -266,7 +266,7 @@ Définir l’échelle du projet.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
   </video>
@@ -302,7 +302,7 @@ Indiquer à l’app *à quoi sert le projet*.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
   </video>
@@ -339,7 +339,7 @@ Justifier pourquoi le projet est plus simple ou plus difficile qu’un cas de r�
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
   </video>
@@ -378,7 +378,7 @@ Tenir compte de l’incertitude de planification.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
   </video>
@@ -414,7 +414,7 @@ Définir le périmètre contractuel.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
   </video>
@@ -441,7 +441,7 @@ Mettre en évidence des responsabilités spécifiques.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
   </video>
@@ -469,7 +469,7 @@ Comprendre et, si nécessaire, ajuster l’effort par phase.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
   </video>
@@ -504,7 +504,7 @@ Documenter les écarts par rapport aux prestations de base.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
   </video>
@@ -539,7 +539,7 @@ Confirmer que le résultat correspond aux entrées.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
   </video>
@@ -566,7 +566,7 @@ Créer un document utilisable en situation réelle.
 
 <p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <summary><strong> Regarder le court extrait</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
   </video>

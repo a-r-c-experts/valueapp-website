@@ -77,7 +77,7 @@ It produces **ranges and distributions**, not a single “correct” number.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
     Your browser does not support the video tag.
@@ -132,7 +132,7 @@ Create a clear, shared project identity.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
   </video>
@@ -164,7 +164,7 @@ Document where the project is planned.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
   </video>
@@ -193,7 +193,7 @@ Define how responsibilities are structured.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
   </video>
@@ -228,7 +228,7 @@ Specify the nature of the intervention.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
   </video>
@@ -266,7 +266,7 @@ Define the scale of the project.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
   </video>
@@ -302,7 +302,7 @@ Tell the app *what the project is used for*.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
   </video>
@@ -339,7 +339,7 @@ Justify why this project is easier or harder than a reference case.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
   </video>
@@ -378,7 +378,7 @@ Account for planning uncertainty.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
   </video>
@@ -414,7 +414,7 @@ Define contractual scope.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
   </video>
@@ -441,7 +441,7 @@ Highlight special responsibilities.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
   </video>
@@ -469,7 +469,7 @@ Understand and, if needed, adjust phase effort.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
   </video>
@@ -504,7 +504,7 @@ Document deviations from basic services.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
   </video>
@@ -539,7 +539,7 @@ Verify that the result matches your inputs.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
   </video>
@@ -566,7 +566,7 @@ Create a document for real-world use.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to watch</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Watch the short clip</strong></summary>
+  <summary><strong> Watch the short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
   </video>

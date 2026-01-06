@@ -77,7 +77,7 @@ Sie liefert **Bandbreiten und Verteilungen**, keine einzelne „richtige“ Zahl
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
     Your browser does not support the video tag.
@@ -132,7 +132,7 @@ Eine klare, gemeinsame Projektidentität festlegen.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
   </video>
@@ -164,7 +164,7 @@ Dokumentieren, wo das Projekt geplant ist.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
   </video>
@@ -193,7 +193,7 @@ Festlegen, wie Verantwortlichkeiten strukturiert sind.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
   </video>
@@ -228,7 +228,7 @@ Art des Eingriffs sauber festhalten.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
   </video>
@@ -266,7 +266,7 @@ Projektgrösse festlegen.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
   </video>
@@ -302,7 +302,7 @@ Der App mitteilen, wofür das Gebäude genutzt wird.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
   </video>
@@ -339,7 +339,7 @@ Begründen, warum das Projekt einfacher oder anspruchsvoller ist als ein Referen
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
   </video>
@@ -378,7 +378,7 @@ Planungsunsicherheit sichtbar machen.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
   </video>
@@ -414,7 +414,7 @@ Vertraglichen Leistungsumfang festlegen.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
   </video>
@@ -441,7 +441,7 @@ Besondere Verantwortlichkeiten sichtbar machen.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
   </video>
@@ -469,7 +469,7 @@ Phasenaufwand verstehen und bei Bedarf anpassen.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
   </video>
@@ -504,7 +504,7 @@ Abweichungen von den Grundleistungen dokumentieren.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
   </video>
@@ -539,7 +539,7 @@ Sicherstellen, dass das Resultat zu den Eingaben passt.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
   </video>
@@ -566,7 +566,7 @@ Ein Dokument für die praktische Anwendung erstellen.
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
-  <summary><strong>▶ Kurzen Clip ansehen</strong></summary>
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
   </video>
