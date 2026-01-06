@@ -14,7 +14,7 @@ navKey: wiki.nav.tutorial
 The ValueApp is structured into four tabs: **Beschrieb**, **Projekt**, **Leistung** and **Zusammenfassung**.  
 They follow the logic of the ETH Value Method from project context to effort and service distribution.
 
-![Overview diagram of the ValueApp structure](/wiki-assets/valueapp-architecture-overview.jpeg)
+![Overview diagram of the ValueApp structure](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
 *The app connects project description, determinants, adjustment factors and services into one coherent flow.*
 
@@ -28,7 +28,7 @@ Start with a clear project description. This information appears in reports and 
 - Define the organisational setup on the planning and contractor side.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-beschrieb-kindergarten.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -52,14 +52,14 @@ Enter the determinating quantity, usually the gross floor area (GF).
 Then assign percentages of this area to the relevant uses.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-empty.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-project-uses-empty.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 *Project tab before assigning uses.*
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-project-uses-education-100.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -71,7 +71,7 @@ Describe project challenges in four dimensions (design, technical, spatial, orga
 and position them in the leadership framework.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-complexity-challenges-popup.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -95,7 +95,7 @@ In the **Leistung** tab you define your responsibility and see how the calculate
 - Adjust SIA phase distribution where justified  
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-roles-hours.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

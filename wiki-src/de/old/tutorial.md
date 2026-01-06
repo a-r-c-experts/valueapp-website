@@ -14,7 +14,7 @@ navKey: wiki.nav.tutorial
 Die ValueApp ist in vier Tabs strukturiert: **Beschrieb**, **Projekt**, **Leistung** und **Zusammenfassung**.  
 Sie folgen der Logik der ETH Value Method vom Projektkontext bis hin zu Aufwand und Leistungsumfang.
 
-![Übersichtsdiagramm der ValueApp-Struktur](/wiki-assets/valueapp-architecture-overview.jpeg)
+![Übersichtsdiagramm der ValueApp-Struktur](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
 *Die App verbindet Projektbeschreibung, Determinanten, Anpassungsfaktoren und Leistungen zu einem kohärenten Ablauf.*
 
@@ -28,7 +28,7 @@ Beginnen Sie mit einer klaren Projektbeschreibung. Diese erscheint in Berichten 
 - Die organisatorische Struktur auf Planer- und Unternehmerseite definieren  
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-beschrieb-kindergarten.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-beschrieb-kindergarten.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -52,14 +52,14 @@ Tragen Sie die bestimmende Menge ein, meist die Bruttogeschossfläche (GF).
 Ordnen Sie dann prozentuale Anteile dieser Fläche den relevanten Nutzungen zu.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-empty.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-project-uses-empty.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 *Projekt-Tab vor der Zuweisung der Nutzungen.*
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-project-uses-education-100.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-project-uses-education-100.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -72,7 +72,7 @@ Beschreiben Sie projektspezifische Herausforderungen in vier Dimensionen
 und positionieren Sie diese im Leadership Framework.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-complexity-challenges-popup.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-complexity-challenges-popup.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -96,7 +96,7 @@ Im Tab **Leistung** definieren Sie Ihre Zuständigkeit und sehen, wie sich die b
 - Phasenverteilung gemäss SIA 1–6 bei Bedarf anpassen  
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/app-roles-hours.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/app-roles-hours.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

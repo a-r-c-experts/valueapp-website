@@ -50,7 +50,7 @@ Pour des explications conceptuelles complémentaires, il est recommandé de cons
 4. **Vérifier et exporter la synthèse (Summary)**  
    Contrôle de la fiche récapitulative et export pour la documentation d’offres ou d’appels d’offres.
 
-![Vue d’ensemble des quatre étapes de la ValueApp](/wiki-assets/valueapp-architecture-overview.jpeg)
+![Vue d’ensemble des quatre étapes de la ValueApp](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
 ---
 
@@ -75,7 +75,7 @@ Le résultat se présente sous forme de **plages et de répartitions**, et non c
 - une garantie des coûts ou des heures effectives.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/intro-valueapp-purpose.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -119,10 +119,10 @@ Créer une identité de projet claire et partagée.
 - Une tierce personne peut en saisir les enjeux principaux.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/description-project-details.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
 </video>
 
-![Description – données de projet complétées](/wiki-assets/description-project-details.jpeg)
+![Description – données de projet complétées](/wiki-assets/tutorial/description-project-details.jpeg)
 
 **Erreurs fréquentes**
 - Texte promotionnel au lieu d’une description factuelle.
@@ -143,7 +143,7 @@ Documenter l’emplacement du projet.
 - Le marqueur correspond à l’emplacement réel.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/description-location-map.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
 </video>
 
 > **N’influence pas l’effort**  
@@ -164,10 +164,10 @@ Définir la structure organisationnelle et les responsabilités.
 - Le modèle reflète la réalité contractuelle.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/description-organisation-setup.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
 </video>
 
-![Options d’organisation du projet](/wiki-assets/description-organisation-options.jpeg)
+![Options d’organisation du projet](/wiki-assets/tutorial/description-organisation-options.jpeg)
 
 **Pourquoi c’est important**
 - Influence la responsabilité par phase.
@@ -192,7 +192,7 @@ Qualifier la nature de l’intervention.
 - Le type de tâche correspond au périmètre réel.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/description-task-selection.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
 </video>
 
 > **Influence l’effort**  
@@ -220,7 +220,7 @@ Définir l’échelle du projet.
 - La quantité représente l’ensemble du projet.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/project-enter-quantity.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
 </video>
 
 **Erreurs fréquentes**
@@ -243,10 +243,10 @@ Indiquer l’affectation du projet.
 - Une valeur en min/m² s’affiche.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/project-use-mix.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
 </video>
 
-![Exemple de répartition des usages](/wiki-assets/project-use-mix.jpeg)
+![Exemple de répartition des usages](/wiki-assets/tutorial/project-use-mix.jpeg)
 
 Documentation complémentaire :  
 [Programmes de bâtiments par catégorie d’usage](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
@@ -271,10 +271,10 @@ Justifier les écarts par rapport au cas de référence.
 - Positionner les défis dans le Leadership Framework.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/project-complexity-framework.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
 </video>
 
-![Dimensions de la complexité](/wiki-assets/project-complexity-dimensions.jpeg)
+![Dimensions de la complexité](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
 
 **Vérification**
 - Le facteur d’ajustement évolue.
@@ -302,7 +302,7 @@ Prendre en compte les incertitudes du processus.
 - Le risque est d’origine externe (recours, interruptions, etc.).
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/project-risk-assessment.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -325,7 +325,7 @@ Définir le périmètre des prestations.
 - Le rôle correspond au contrat.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/services-select-role.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -342,7 +342,7 @@ Identifier les responsabilités particulières.
 - Les thématiques expliquent le focus, pas le volume d’heures.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/services-focus-topics.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -361,7 +361,7 @@ Contrôler et ajuster la répartition des efforts.
 - Les ajustements sont cohérents.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/services-hours-phases.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
 </video>
 
 **Exemple de lecture**
@@ -384,7 +384,7 @@ Documenter les écarts par rapport aux prestations de base.
 - Les prestations supplémentaires sont clairement délimitées.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/services-additional-services.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -406,7 +406,7 @@ S’assurer de la cohérence des résultats.
 - Chaque valeur est explicable.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/summary-review.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -424,7 +424,7 @@ Créer une documentation exploitable.
 - Les hypothèses et la logique sont compréhensibles.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/summary-export-pdf.mp4" type="video/mp4" />
+  <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
 </video>
 
 **Formulation type pour une offre**
