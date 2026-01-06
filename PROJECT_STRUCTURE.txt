@@ -2,69 +2,220 @@
 ├── CNAME
 ├── favicon.png
 ├── i18n
-│   ├── de.js
-│   ├── en.js
-│   └── lang-loader.js
+│   ├── de.js
+│   ├── en.js
+│   ├── es.js
+│   ├── fr.js
+│   ├── it.js
+│   ├── lang-loader.js
+│   └── pt.js
 ├── index.html
 ├── lang.js
 ├── Logo_01_300.png
 ├── logos
-│   ├── logo_AHO.jpg
-│   ├── logo_arc.png
-│   ├── logo_architectes.png
-│   ├── logo_ETH.png
-│   ├── logo_G30.png
-│   ├── logo_HOAI.png
-│   ├── logo_OAI.jpg
-│   ├── logo_RAIC.png
-│   ├── logo_SIA.png
-│   ├── logo_SIAS.png
-│   └── logo_ValueApp.gif
+│   ├── Logo_.gif
+│   ├── Logo_02.png
+│   ├── logo_AHO.jpg
+│   ├── logo_arc.png
+│   ├── logo_architectes.png
+│   ├── logo_ETH.png
+│   ├── logo_G30.png
+│   ├── logo_HOAI.png
+│   ├── logo_OAI.jpg
+│   ├── logo_RAIC.png
+│   ├── logo_SIA.png
+│   ├── logo_SIAS.png
+│   ├── logo_ValueApp.gif
+│   └── Logo.gif
+├── node_modules
+│   └── marked
+│       ├── bin
+│       │   ├── main.js
+│       │   └── marked.js
+│       ├── lib
+│       │   ├── marked.d.ts
+│       │   ├── marked.esm.js
+│       │   ├── marked.esm.js.map
+│       │   ├── marked.umd.js
+│       │   └── marked.umd.js.map
+│       ├── LICENSE.md
+│       ├── man
+│       │   ├── marked.1
+│       │   └── marked.1.md
+│       ├── package.json
+│       └── README.md
+├── package-lock.json
 ├── package.json
 ├── partials.js
 ├── PROJECT_STRUCTURE.txt
 ├── README.md
 ├── styles.css
 ├── tools
-│   └── check-i18n.mjs
+│   ├── build-wiki.mjs
+│   ├── check-i18n.mjs
+│   └── gen-wiki-version.mjs
 ├── Value Method english.mp4
 ├── wiki
-│   ├── definitions.html
-│   ├── examples.html
-│   ├── faq.html
-│   ├── getting-started.html
-│   ├── index.html
-│   ├── nav.js
-│   ├── partials
-│   │   ├── footer.html
-│   │   └── header.html
-│   ├── search.html
-│   ├── search.js
-│   ├── tutorial.html
-│   ├── wiki-last-updated.js
-│   ├── wiki-page-config.js
-│   └── wiki-version.js
-└── wiki-assets
-    ├── app-beschrieb-kindergarten.jpeg
-    ├── app-beschrieb-kindergarten.mp4
-    ├── app-complexity-challenges-popup.jpeg
-    ├── app-complexity-challenges-popup.mp4
-    ├── app-project-uses-education-100.jpeg
-    ├── app-project-uses-education-100.mp4
-    ├── app-project-uses-empty.jpeg
-    ├── app-project-uses-empty.mp4
-    ├── app-roles-hours.jpeg
-    ├── app-roles-hours.mp4
-    ├── base-model-housing-reference-cloud.jpeg
-    ├── base-model-mfh-example.jpeg
-    ├── education-model-chart.jpeg
-    ├── leadership-framework-centre-of-gravity.jpeg
-    ├── leadership-framework-overview.jpeg
-    ├── media1.mp4-0.0000-27.4075.mp4
-    ├── value-method-title-slide.jpeg
-    ├── valueapp-architecture-overview.jpeg
-    ├── werk-material-kindergarten.jpeg
-    ├── werk-material-kindergarten.mov
-    └── werk-material-kindergarten.mp4
-
-7 directories, 61 files
+│   ├── de
+│   │   ├── best-practices.html
+│   │   ├── definitions.html
+│   │   ├── examples.html
+│   │   ├── faq.html
+│   │   ├── getting-started.html
+│   │   ├── help-and-contact.html
+│   │   ├── how-it-works.html
+│   │   ├── index.html
+│   │   ├── introduction.html
+│   │   ├── knowledge-base.html
+│   │   ├── project-section.html
+│   │   ├── reference.html
+│   │   ├── support.html
+│   │   ├── tutorial.html
+│   │   ├── why-valueapp.html
+│   │   └── workflows.html
+│   ├── en
+│   │   ├── best-practices.html
+│   │   ├── definitions.html
+│   │   ├── examples.html
+│   │   ├── faq.html
+│   │   ├── getting-started.html
+│   │   ├── help-and-contact.html
+│   │   ├── how-it-works.html
+│   │   ├── index.html
+│   │   ├── introduction.html
+│   │   ├── knowledge-base.html
+│   │   ├── project-section.html
+│   │   ├── reference.html
+│   │   ├── support.html
+│   │   ├── tutorial.html
+│   │   ├── why-valueapp.html
+│   │   └── workflows.html
+│   ├── fr
+│   │   ├── best-practices.html
+│   │   ├── definitions.html
+│   │   ├── examples.html
+│   │   ├── faq.html
+│   │   ├── getting-started.html
+│   │   ├── help-and-contact.html
+│   │   ├── how-it-works.html
+│   │   ├── index.html
+│   │   ├── introduction.html
+│   │   ├── knowledge-base.html
+│   │   ├── project-section.html
+│   │   ├── reference.html
+│   │   ├── support.html
+│   │   ├── tutorial.html
+│   │   ├── why-valueapp.html
+│   │   └── workflows.html
+│   ├── index.html
+│   ├── layout.html
+│   ├── nav.js
+│   ├── partials
+│   │   ├── footer.html
+│   │   └── header.html
+│   ├── search.html
+│   ├── search.js
+│   ├── toc.js
+│   ├── wiki-generated-pages.js
+│   ├── wiki-last-updated.js
+│   ├── wiki-page-config.js
+│   ├── wiki-toc-mobile.js
+│   ├── wiki-version.js
+│   └── wiki-version.json
+├── wiki-assets
+│   ├── app-beschrieb-kindergarten.jpeg
+│   ├── app-beschrieb-kindergarten.mp4
+│   ├── app-complexity-challenges-popup.jpeg
+│   ├── app-complexity-challenges-popup.mp4
+│   ├── app-project-uses-education-100.jpeg
+│   ├── app-project-uses-education-100.mp4
+│   ├── app-project-uses-empty.jpeg
+│   ├── app-project-uses-empty.mp4
+│   ├── app-roles-hours.jpeg
+│   ├── app-roles-hours.mp4
+│   ├── base-model-housing-reference-cloud.jpeg
+│   ├── base-model-mfh-example.jpeg
+│   ├── education-model-chart.jpeg
+│   ├── leadership-framework-centre-of-gravity.jpeg
+│   ├── leadership-framework-overview.jpeg
+│   ├── media1.mp4-0.0000-27.4075.mp4
+│   ├── tutorial
+│   │   ├── valueapp_100days_results_summary.jpeg
+│   │   ├── valueapp_100tage_intro.mp4
+│   │   ├── valueapp_100tage_title.jpeg
+│   │   ├── valueapp_basic_models_6.jpeg
+│   │   ├── valueapp_gf_vs_time_scatter.jpeg
+│   │   ├── valueapp_measures_outlook.jpeg
+│   │   ├── valueapp_method_explained.mp4
+│   │   ├── valueapp_outlook_next_steps.mp4
+│   │   ├── valueapp_overview_method.jpeg
+│   │   ├── valueapp_reference_projects_1500.jpeg
+│   │   ├── valueapp_scatter_small_projects.mp4
+│   │   ├── valueapp_small_projects_variance.jpeg
+│   │   ├── valueapp_typology_adjustment_concept.mp4
+│   │   ├── valueapp_weko_conformity.mp4
+│   │   └── valueapp_weko_scope.jpeg
+│   ├── value-method-title-slide.jpeg
+│   ├── valueapp-architecture-overview.jpeg
+│   ├── werk-material-kindergarten.jpeg
+│   ├── werk-material-kindergarten.mov
+│   └── werk-material-kindergarten.mp4
+└── wiki-src
+    ├── de
+    │   ├── best-practices.md
+    │   ├── definitions.md
+    │   ├── examples.md
+    │   ├── faq.md
+    │   ├── getting-started.md
+    │   ├── help-and-contact.md
+    │   ├── how-it-works.md
+    │   ├── introduction.md
+    │   ├── knowledge-base.md
+    │   ├── old
+    │   │   ├── definitions.md
+    │   │   ├── examples.md
+    │   │   ├── project-section.md
+    │   │   └── tutorial.md
+    │   ├── project-section.md
+    │   ├── reference.md
+    │   ├── support.md
+    │   ├── tutorial.md
+    │   ├── why-valueapp.md
+    │   └── workflows.md
+    ├── en
+    │   ├── best-practices.md
+    │   ├── definitions.md
+    │   ├── examples.md
+    │   ├── faq.md
+    │   ├── getting-started.md
+    │   ├── help-and-contact.md
+    │   ├── how-it-works.md
+    │   ├── introduction.md
+    │   ├── knowledge-base.md
+    │   ├── old
+    │   │   ├── definitions.md
+    │   │   ├── examples.md
+    │   │   ├── project-section.md
+    │   │   └── tutorial.md
+    │   ├── project-section.md
+    │   ├── reference.md
+    │   ├── support.md
+    │   ├── tutorial.md
+    │   ├── why-valueapp.md
+    │   └── workflows.md
+    └── fr
+        ├── best-practices.md
+        ├── definitions.md
+        ├── examples.md
+        ├── faq.md
+        ├── getting-started.md
+        ├── help-and-contact.md
+        ├── how-it-works.md
+        ├── introduction.md
+        ├── knowledge-base.md
+        ├── project-section.md
+        ├── reference.md
+        ├── support.md
+        ├── tutorial.md
+        ├── why-valueapp.md
+        └── workflows.md

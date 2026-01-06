@@ -50,7 +50,7 @@ If you want conceptual background while reading, keep
 4. **Review and export the summary (Summary)**  
    Check the generated one-pager and export it for documentation or offers.
 
-![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
+![ValueApp four-step overview](/wiki-assets/valueapp-architecture-overview.jpeg)
 
 ---
 
@@ -74,7 +74,7 @@ It produces **ranges and distributions**, not a single “correct” number.
 - It does not guarantee outcomes.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
+  <source src="/wiki-assets/intro-valueapp-purpose.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -119,10 +119,10 @@ Create a clear, shared project identity.
 - A third party could read it and understand the context.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
+  <source src="/wiki-assets/description-project-details.mp4" type="video/mp4" />
 </video>
 
-![Description – project details filled](/wiki-assets/tutorial/description-project-details.jpeg)
+![Description – project details filled](/wiki-assets/description-project-details.jpeg)
 
 **Common mistakes**
 - Writing marketing text instead of scope and constraints.
@@ -143,7 +143,7 @@ Document where the project is planned.
 - The location marker is set correctly.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
+  <source src="/wiki-assets/description-location-map.mp4" type="video/mp4" />
 </video>
 
 > **Does not affect effort**  
@@ -164,10 +164,10 @@ Define how responsibilities are structured.
 - The selected model reflects contractual reality, not wishful thinking.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
+  <source src="/wiki-assets/description-organisation-setup.mp4" type="video/mp4" />
 </video>
 
-![Organisation setup options](/wiki-assets/tutorial/description-organisation-options.jpeg)
+![Organisation setup options](/wiki-assets/description-organisation-options.jpeg)
 
 **Why this matters**
 - Organisation affects **phase responsibility**.
@@ -192,7 +192,7 @@ Specify the nature of the intervention.
 - The task reflects the real scope, not the budget narrative.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
+  <source src="/wiki-assets/description-task-selection.mp4" type="video/mp4" />
 </video>
 
 > **Affects effort**  
@@ -220,7 +220,7 @@ Define the scale of the project.
 - The quantity represents the whole project.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
+  <source src="/wiki-assets/project-enter-quantity.mp4" type="video/mp4" />
 </video>
 
 **Common mistakes**
@@ -244,10 +244,10 @@ Tell the app *what the project is used for*.
 - A min/m² value appears.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
+  <source src="/wiki-assets/project-use-mix.mp4" type="video/mp4" />
 </video>
 
-![Use mix example](/wiki-assets/tutorial/project-use-mix.jpeg)
+![Use mix example](/wiki-assets/project-use-mix.jpeg)
 
 Related reading:  
 [Building programs by use category](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
@@ -272,10 +272,10 @@ Justify why this project is easier or harder than a reference case.
 - Place challenges in the Leadership Framework.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
+  <source src="/wiki-assets/project-complexity-framework.mp4" type="video/mp4" />
 </video>
 
-![Complexity dimensions](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
+![Complexity dimensions](/wiki-assets/project-complexity-dimensions.jpeg)
 
 **Check**
 - The adjustment factor changes.
@@ -303,7 +303,7 @@ Account for planning uncertainty.
 - Risk feels external (appeals, interruptions), not internal (design quality).
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
+  <source src="/wiki-assets/project-risk-assessment.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -326,7 +326,7 @@ Define contractual scope.
 - The role matches your contract, not your ambition.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
+  <source src="/wiki-assets/services-select-role.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -343,7 +343,7 @@ Highlight special responsibilities.
 - Focus topics explain service emphasis, not inflate scope.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
+  <source src="/wiki-assets/services-focus-topics.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -362,7 +362,7 @@ Understand and, if needed, adjust phase effort.
 - Phase shifts make sense.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
+  <source src="/wiki-assets/services-hours-phases.mp4" type="video/mp4" />
 </video>
 
 **Reading example**
@@ -385,7 +385,7 @@ Document deviations from basic services.
 - Additional services are explicit and traceable.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
+  <source src="/wiki-assets/services-additional-services.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -407,7 +407,7 @@ Verify that the result matches your inputs.
 - You can explain every number.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
+  <source src="/wiki-assets/summary-review.mp4" type="video/mp4" />
 </video>
 
 ---
@@ -425,7 +425,7 @@ Create a document for real-world use.
 - The PDF explains assumptions, not just numbers.
 
 <video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
+  <source src="/wiki-assets/summary-export-pdf.mp4" type="video/mp4" />
 </video>
 
 **Template sentence for offers**
