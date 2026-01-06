@@ -42,6 +42,11 @@ body {
 
 /* HEADER */
 
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 @keyframes fadeUpSoft {
   from {
     opacity: 0;
@@ -1158,15 +1163,25 @@ nav.main-nav a.active {
 
 @media (max-width: 900px) {
   .top-bar{
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto minmax(0, 1fr) auto;
     grid-template-rows: auto auto;
     row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
   }
 
   /* Row 1: logo + title + burger */
   .brand-logo-link { grid-column: 1; grid-row: 1; }
-  .brand-text-only { grid-column: 2; grid-row: 1; justify-self: start; text-align: left; }
-  #mobileNavToggle { grid-column: 3; grid-row: 1; justify-self: end; }
+  .brand-text-only {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: start;
+    text-align: left;
+    min-width: 0;
+    padding-right: 8px;
+  }
+  #mobileNavToggle,
+  .mobile-nav-toggle { grid-column: 3; grid-row: 1; justify-self: end; }
 
   /* Hide subtitle on phone */
   .brand-line-sub { display: none; }
@@ -1176,6 +1191,7 @@ nav.main-nav a.active {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    letter-spacing: 0.12em;
   }
 
   /* Row 2: language + search (visible again) */
