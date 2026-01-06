@@ -37,7 +37,7 @@ Das gehört zum **Adjustment (Leadership) Factor**, nicht hierher.
 Komplexität wird über **vier unabhängige Dimensionen** beurteilt.  
 Jede Dimension beschreibt eine andere Quelle von Entwurfs- und Koordinationsaufwand.
 
-![Overview of complexity dimensions](\/wiki-assets/knowledge/complexity-dimensions-overview.jpg)
+![Overview of complexity dimensions](\/wiki-assets/knowledge/complexity-dimensions-overview.jpeg)
 
 ### 1. Design (Gestalterisch)
 
@@ -114,7 +114,7 @@ Höhere Komplexität:
 - überlagerte Betriebsanforderungen,
 - kontinuierlicher Betrieb während der Bauzeit.
 
-![Example of organisational complexity](\/wiki-assets/knowledge/complexity-organisational-example.jpg)
+![Example of organisational complexity](\/wiki-assets/knowledge/complexity-organisational-example.jpeg)
 
 ---
 
@@ -126,7 +126,7 @@ Jede Dimension wird entlang eines Spektrums positioniert:
 Die Beurteilung ist **qualitativ, aber strukturiert**.  
 Sie braucht keine exakte Messung, aber sie braucht Ehrlichkeit.
 
-![Complexity assessment scale](\/wiki-assets/knowledge/complexity-assessment-scale.jpg)
+![Complexity assessment scale](\/wiki-assets/knowledge/complexity-assessment-scale.jpeg)
 
 Sie bewerten nicht «gut» oder «schlecht».  
 Sie halten fest, **wie anspruchsvoll die Planungsaufgabe voraussichtlich ist**.

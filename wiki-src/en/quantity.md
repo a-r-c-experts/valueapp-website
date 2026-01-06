@@ -133,7 +133,7 @@ It means the project scope changed.
 
 The relationship between quantity and baseline effort is **non-linear**:
 
-![Quantity vs baseline effort curve](\/wiki-assets/knowledge/quantity-baseline-curve.jpg)
+![Quantity vs baseline effort curve](\/wiki-assets/knowledge/quantity-baseline-curve.jpeg)
 
 The curve reflects:
 - economies of repetition,
