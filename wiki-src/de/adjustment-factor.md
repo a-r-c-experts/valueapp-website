@@ -65,7 +65,7 @@ Der Faktor wird aus einer strukturierten Einschätzung der **Führungs- und Proz
 
 Diese Einschätzungen erfolgen qualitativ und werden auf einen kalibrierten Anpassungsbereich abgebildet.
 
-![Eingabedimensionen des Anpassungsfaktors](\/wiki-assets/knowledge/adjustment-factor-dimensions.png)
+![Eingabedimensionen des Anpassungsfaktors](\/wiki-assets/knowledge/adjustment-factor-dimensions.jpeg)
 
 ---
 

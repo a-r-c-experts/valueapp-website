@@ -62,7 +62,7 @@ The factor is derived from a structured assessment of **leadership and process c
 
 These inputs are assessed qualitatively and mapped to a calibrated adjustment range.
 
-![Adjustment factor input dimensions](\/wiki-assets/knowledge/adjustment-factor-dimensions.png)
+![Adjustment factor input dimensions](\/wiki-assets/knowledge/adjustment-factor-dimensions.jpeg)
 
 ---
 

@@ -65,7 +65,7 @@ Le facteur est dérivé d’une évaluation structurée des **conditions de lead
 
 Ces éléments sont évalués de manière qualitative et traduits dans une plage d’ajustement calibrée.
 
-![Dimensions d’entrée du facteur d’ajustement](\/wiki-assets/knowledge/adjustment-factor-dimensions.png)
+![Dimensions d’entrée du facteur d’ajustement](\/wiki-assets/knowledge/adjustment-factor-dimensions.jpeg)
 
 ---
 
