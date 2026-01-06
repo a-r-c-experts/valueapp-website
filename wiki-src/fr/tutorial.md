@@ -4,447 +4,620 @@ i18nSubtitle: wiki.tutorial.subtitle
 navKey: wiki.nav.tutorial
 ---
 
-# Tutoriel – Parcours pas à pas dans la ValueApp
+# Tutoriel – Pas à pas dans la ValueApp
 
-Ce tutoriel vous guide à travers la ValueApp à l’aide d’un projet d’exemple.  
-L’accent est mis sur **quoi saisir**, **pourquoi ces informations sont pertinentes** et **comment lire et utiliser les résultats**.
+Ce tutoriel vous guide dans la ValueApp à l’aide d’un exemple concret.  
+L’objectif est de clarifier **quoi saisir**, **pourquoi c’est important** et **comment lire et utiliser le résultat**.
 
-Le tutoriel suit strictement la structure réelle de l’application et l’ordre des onglets affichés à l’écran.
+Le tutoriel reflète la structure réelle de l’application et suit la même séquence que celle affichée à l’écran.
 
-Pour des explications conceptuelles complémentaires, il est recommandé de consulter en parallèle  
-[Définitions](definitions.html) ou [Fonctionnement de l’application](how-it-works.html).
+Si vous souhaitez approfondir pendant la lecture, gardez  
+[Definitions](definitions.html) ou [How the app works](how-it-works.html) ouvert dans un autre onglet.
 
 ---
 
-## En un coup d’œil
+## En bref
 
-**Pré-requis**
-- une idée de projet (échelle, usage, type d’intervention),
-- une quantité approximative (p. ex. surface de plancher),
-- une compréhension claire de votre rôle dans le projet.
+**Ce qu’il vous faut**
+- une idée de projet (échelle, usage, mission),
+- une quantité approximative (p. ex. surface de plancher brute),
+- une compréhension de base de votre rôle dans le projet.
 
-**Résultat**
-- une plage d’effort argumentée,
+**Ce que vous obtenez**
+- une plage d’effort traçable,
 - des heures par phase et par discipline,
-- un PDF synthétique pour offres, planification ou procédures de marché.
+- un PDF d’une page pour offres, planification ou achats.
 
 **Temps nécessaire**
 - première estimation : env. 10–15 minutes  
-- version affinée : selon le niveau de détail et de complexité
+- version affinée : dépend de votre honnêteté sur la complexité
 
 ---
 
 ## Les quatre étapes principales
 
 1. **Décrire le projet (Description)**  
-   Définition de l’identité du projet, de la tâche, du site et de l’organisation.
+   Définir l’identité du projet, la mission, l’emplacement et le cadre organisationnel.
 
-2. **Définir les quantités, les usages et la complexité (Project)**  
-   Saisie de la grandeur déterminante, définition des usages et évaluation de la complexité et des risques.  
+2. **Définir quantité, usages et complexité (Project)**  
+   Saisir la quantité déterminante, définir le mix d’usages, évaluer complexité et risque.  
    L’application en déduit un facteur d’ajustement via le Leadership Framework.
 
 3. **Définir votre rôle et vos prestations (Services)**  
-   Sélection du rôle, des thématiques prioritaires et contrôle des heures calculées pour  
+   Sélectionner votre rôle, les thèmes de focus, puis vérifier les heures calculées pour  
    **100 % des prestations de base**, y compris leur répartition par phases.
 
-4. **Vérifier et exporter la synthèse (Summary)**  
-   Contrôle de la fiche récapitulative et export pour la documentation d’offres ou d’appels d’offres.
+4. **Contrôler et exporter le résumé (Summary)**  
+   Vérifier le one-pager généré et l’exporter pour documentation ou offres.
 
-![Vue d’ensemble des quatre étapes de la ValueApp](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
+![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
 ---
 
-## 0 — Orientation : principe de fonctionnement de la ValueApp
+## 0 — Orientation : comment fonctionne la ValueApp
 
-### Objectif de la ValueApp
+### Ce que fait la ValueApp
 
-La ValueApp sert à **estimer et documenter de manière structurée l’effort de planification**.  
-Elle combine :
+La ValueApp estime et documente **l’effort de planification** en combinant :
 
-- des données quantitatives (quantités, usages),
-- des évaluations qualitatives (complexité, risque),
+- des entrées quantitatives (quantité, mix d’usages),
+- des entrées qualitatives (complexité, risque),
 - le contexte organisationnel,
-- votre rôle et votre périmètre de prestations.
+- votre rôle et votre périmètre.
 
-Le résultat se présente sous forme de **plages et de répartitions**, et non comme une valeur unique « exacte ».
+Elle produit des **plages et des répartitions**, pas un chiffre unique “juste”.
 
-### Ce que la ValueApp n’est pas
+### Ce que la ValueApp ne fait *pas*
 
-- un calculateur automatique d’honoraires,
-- un substitut au jugement professionnel,
-- une garantie des coûts ou des heures effectives.
+- Elle ne calcule pas automatiquement les honoraires.
+- Elle ne remplace pas le jugement professionnel.
+- Elle ne garantit pas les résultats.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
-</video>
+![ValueApp purpose overview](/wiki-assets/tutorial/intro-valueapp-purpose.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</details>
+
+**À lire aussi**
+- [How the app works](how-it-works.html) (méthode et logique)
+- [Definitions](definitions.html) (termes utilisés dans l’interface)
 
 ---
 
-### Normes et contexte régional
+### Standards et régions
 
-Les exemples reposent sur des **standards suisses** (p. ex. phases SIA), car les données de référence sont issues de ce contexte.  
-La **méthodologie est toutefois générique** et applicable à l’international.
+Les exemples utilisent des **standards suisses** (p. ex. phases SIA), car les données de base proviennent de ce contexte.  
+La **méthode est néanmoins générique** et applicable à l’international.
 
-Pour une utilisation hors Suisse :
-- interpréter les phases comme des phases de planification génériques,
-- se concentrer sur les répartitions relatives,
-- appliquer la logique plutôt que la terminologie.
+Si vous travaillez hors de Suisse :
+- considérez les phases comme des phases de planification génériques,
+- concentrez-vous sur les **répartitions relatives**, pas sur les libellés,
+- reprenez la structure et le raisonnement.
 
 ---
 
 ## Étape 1 — Décrire le projet (Description)
 
-L’étape **Description** permet de documenter le projet de manière aussi complète que possible.  
-Ces informations apparaissent dans la synthèse et peuvent être partagées avec les parties prenantes.
+L’étape **Description** documente le contexte du projet.  
+Ces informations apparaissent dans le résumé et doivent pouvoir être partagées avec les parties prenantes.
 
-> **Important**  
-> Les informations liées aux coûts **n’influencent pas l’effort**.  
-> En revanche, l’organisation, le type de tâche et le périmètre des prestations oui.
+> **Important :**  
+> Les données liées aux coûts **n’influencent pas** l’effort.  
+> L’organisation, le type de mission et le périmètre **oui**.
 
 ---
 
-### 1.1 Données du projet
+### 1.1 Détails du projet
 
-**Objectif**  
+**But**  
 Créer une identité de projet claire et partagée.
 
 **À faire**
-- Saisir le nom et l’adresse du projet.
-- Sélectionner l’état du projet.
-- Définir la tâche (p. ex. construction neuve ou rénovation).
-- Rédiger une description succincte (5–10 lignes).
+- Saisir le nom du projet et l’adresse.
+- Sélectionner le statut du projet.
+- Choisir la mission (p. ex. construction neuve ou rénovation).
+- Rédiger une description courte (5–10 lignes).
 
-**Vérification**
-- La description permet de comprendre le type et le contexte du projet.
-- Une tierce personne peut en saisir les enjeux principaux.
+**À vérifier**
+- La description explique clairement *de quel type de projet il s’agit*.
+- Une tierce personne comprend le contexte.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
-</video>
+![Description – project details filled](/wiki-assets/tutorial/description-project-details.jpeg)
 
-![Description – données de projet complétées](/wiki-assets/tutorial/description-project-details.jpeg)
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Pourquoi c’est important**
+- La description est ce que les autres liront dans le résumé exporté.
+- Une bonne description réduit les allers-retours et évite les malentendus.
 
 **Erreurs fréquentes**
-- Texte promotionnel au lieu d’une description factuelle.
-- Description non mise à jour malgré l’évolution du projet.
+- Écrire du texte “marketing” au lieu du périmètre et des contraintes.
+- Ne pas mettre à jour la description au fil de l’évolution du projet.
 
 ---
 
 ### 1.2 Localisation
 
-**Objectif**  
-Documenter l’emplacement du projet.
+**But**  
+Documenter où le projet est prévu.
 
 **À faire**
 - Déplacer la carte.
-- Positionner le marqueur du projet.
+- Marquer l’emplacement du projet.
 
-**Vérification**
-- Le marqueur correspond à l’emplacement réel.
+**À vérifier**
+- Le marqueur est correctement placé.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
-</video>
+![Description – location map](/wiki-assets/tutorial/description-location-map.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
+  </video>
+</details>
 
 > **N’influence pas l’effort**  
-> Les données statistiques régionales sont uniquement contextuelles.
+> Les statistiques liées au lieu servent uniquement de contexte.
 
 ---
 
-### 1.3 Organisation du projet
+### 1.3 Cadre organisationnel
 
-**Objectif**  
-Définir la structure organisationnelle et les responsabilités.
+**But**  
+Définir la structure des responsabilités.
 
 **À faire**
-- Choisir le modèle d’organisation côté **planification**.
-- Choisir le modèle d’organisation côté **exécution**.
+- Sélectionner le modèle organisationnel côté **planification**.
+- Sélectionner le modèle organisationnel côté **entreprise**.
 
-**Vérification**
-- Le modèle reflète la réalité contractuelle.
+**À vérifier**
+- Le modèle reflète la réalité contractuelle, pas une intention.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
-</video>
+![Description – organisation setup](/wiki-assets/tutorial/description-organisation-setup.jpeg)
 
-![Options d’organisation du projet](/wiki-assets/tutorial/description-organisation-options.jpeg)
+![Organisation setup options](/wiki-assets/tutorial/description-organisation-options.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
+  </video>
+</details>
 
 **Pourquoi c’est important**
-- Influence la responsabilité par phase.
-- Affecte les intervalles d’interprétation des pourcentages de prestations.
+- L’organisation influence la **responsabilité par phase**.
+- Elle affecte l’interprétation des pourcentages de phases plus loin.
 
 **Bonne pratique**
-- Définir l’organisation le plus tôt possible.
-- Éviter les changements en cours de projet.
+- Clarifier l’organisation tôt.
+- Éviter de changer de modèle en cours de projet, sauf nécessité.
+
+**À lire aussi**
+- [Reference](reference.html) (interprétation des répartitions par phases)
 
 ---
 
-### 1.4 Type de tâche : construction neuve ou rénovation
+### 1.4 Type de mission : construction neuve vs rénovation
 
-**Objectif**  
-Qualifier la nature de l’intervention.
+**But**  
+Préciser la nature de l’intervention.
 
 **À faire**
-- Sélectionner construction neuve ou rénovation.
-- Définir, le cas échéant, la profondeur d’intervention.
+- Sélectionner *New build* ou *Refurbishment*.
+- Si applicable : définir la profondeur d’intervention.
 
-**Vérification**
-- Le type de tâche correspond au périmètre réel.
+**À vérifier**
+- Le choix correspond au périmètre réel, pas au narratif budgétaire.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
-</video>
+![Description – task selection](/wiki-assets/tutorial/description-task-selection.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
+  </video>
+</details>
 
 > **Influence l’effort**  
-> Le type de tâche et le degré d’intervention ont un impact sur l’effort.  
-> Les facteurs de coûts n’en ont pas.
+> Le type de mission et la profondeur d’intervention influencent l’effort.  
+> Les facteurs de coût, non.
+
+**Erreurs fréquentes**
+- Choisir *Refurbishment* “parce qu’il y a un bâtiment existant”, alors que le périmètre est en pratique du neuf.
+- Sous-estimer la profondeur d’intervention en phase initiale.
 
 ---
 
-## Étape 2 — Définir les quantités, les usages et la complexité (Project)
+## Étape 2 — Définir quantité, usages et complexité (Project)
 
-Cette étape génère la **première estimation de l’effort**.
+Cette étape produit la **première estimation**.
 
 ---
 
-### 2.1 Grandeur déterminante
+### 2.1 Quantité déterminante
 
-**Objectif**  
+**But**  
 Définir l’échelle du projet.
 
 **À faire**
-- Saisir la surface de plancher approximative (ou autre unité pertinente).
-- Indiquer la valeur globale du projet.
+- Saisir la surface de plancher brute (ou l’unité pertinente).
+- Saisir une valeur totale (pas “par étage”).
 
-**Vérification**
+**À vérifier**
 - La quantité représente l’ensemble du projet.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
-</video>
+![Project – enter quantity](/wiki-assets/tutorial/project-enter-quantity.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Pourquoi c’est important**
+- Le modèle de base utilise la quantité comme moteur principal de la plage initiale.
 
 **Erreurs fréquentes**
-- Surface nette au lieu de surface brute.
-- Oubli des sous-sols ou des surfaces communes.
+- Saisir une surface nette au lieu de brute.
+- Oublier sous-sols ou surfaces communes.
+
+**À lire aussi**
+- [Project section](project-section.html) (quantités et catégories d’usage)
 
 ---
 
-### 2.2 Usages et répartition
+### 2.2 Mix d’usages
 
-**Objectif**  
-Indiquer l’affectation du projet.
+**But**  
+Indiquer à l’app *à quoi sert le projet*.
 
 **À faire**
 - Ajouter au moins un usage.
-- Répartir les pourcentages jusqu’à 100 %.
+- Répartir les pourcentages pour atteindre 100 %.
+- Réordonner si nécessaire.
 
-**Vérification**
-- La section « Complexité » est accessible.
-- Une valeur en min/m² s’affiche.
+**À vérifier**
+- La section complexité se déverrouille.
+- Une valeur min/m² apparaît.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
-</video>
+![Use mix example](/wiki-assets/tutorial/project-use-mix.jpeg)
 
-![Exemple de répartition des usages](/wiki-assets/tutorial/project-use-mix.jpeg)
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
+  </video>
+</details>
 
-Documentation complémentaire :  
-[Programmes de bâtiments par catégorie d’usage](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
+**Pourquoi c’est important**
+- Le mix d’usages sélectionne les modèles de base pertinents et modifie l’effort attendu.
+
+Related reading:  
+[Building programs by use category](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
 
 ---
 
 ### 2.3 Évaluation de la complexité
 
-**Objectif**  
-Justifier les écarts par rapport au cas de référence.
+**But**  
+Justifier pourquoi le projet est plus simple ou plus difficile qu’un cas de référence.
 
-**Définition**
-- La complexité reflète les exigences et la démarche.
-- Elle formalise le jugement professionnel.
+**Ce que la complexité est**
+- Un reflet des **exigences et de l’approche**, pas seulement de l’esthétique.
+- Une manière de documenter le jugement professionnel.
 
 **À faire**
-- Évaluer quatre dimensions :
-  - conception,
-  - spatial,
-  - technique,
-  - organisationnel.
+- Évaluer la complexité sur quatre dimensions :
+  - Design
+  - Spatial
+  - Technical
+  - Organisational
 - Positionner les défis dans le Leadership Framework.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
-</video>
+![Project – complexity framework](/wiki-assets/tutorial/project-complexity-framework.jpeg)
 
-![Dimensions de la complexité](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
+![Complexity dimensions](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
 
-**Vérification**
-- Le facteur d’ajustement évolue.
-- L’évaluation est explicable à un tiers.
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**À vérifier**
+- Le facteur d’ajustement change.
+- La justification est explicable au client.
 
 **Exemple**
-- Logement standard → simple / compliqué  
-- Rénovation hospitalière en centre-ville → complexe / incertain
+- Petit logement simple → surtout *simple/complicated*
+- Rénovation d’hôpital en centre-ville → *complex/unclear* sur plusieurs axes
 
-**Erreur typique**
-- Ajuster la complexité pour augmenter artificiellement l’effort.
+**Erreur fréquente**
+- Augmenter la complexité “pour obtenir plus d’heures”.
+
+**À lire aussi**
+- [Definitions](definitions.html) (complexité, leadership framework)
+- [How the app works](how-it-works.html) (impact de la complexité)
 
 ---
 
-### 2.4 Évaluation des risques
+### 2.4 Évaluation du risque
 
-**Objectif**  
-Prendre en compte les incertitudes du processus.
+**But**  
+Tenir compte de l’incertitude de planification.
 
 **À faire**
-- Sélectionner le niveau de risque.
-- Documenter la justification si possible.
+- Sélectionner un niveau de risque.
+- Documenter la raison (si possible).
 
-**Vérification**
-- Le risque est d’origine externe (recours, interruptions, etc.).
+**À vérifier**
+- Le risque est externe (recours, interruptions), pas interne (qualité de design).
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
-</video>
+![Project – risk assessment](/wiki-assets/tutorial/project-risk-assessment.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Pourquoi c’est important**
+- Le risque documente l’incertitude en phases précoces, quand tout n’est pas encore connu.
+
+**À lire aussi**
+- [Definitions](definitions.html) (risque)
+- [How the app works](how-it-works.html) (risque vs complexité)
 
 ---
 
 ## Étape 3 — Définir votre rôle et vos prestations (Services)
 
-Cette étape adapte l’effort à **votre responsabilité contractuelle**.
+Cette étape adapte l’effort à **votre responsabilité**.
 
 ---
 
-### 3.1 Sélection du rôle
+### 3.1 Sélectionner votre rôle
 
-**Objectif**  
-Définir le périmètre des prestations.
+**But**  
+Définir le périmètre contractuel.
 
 **À faire**
-- Sélectionner votre rôle (p. ex. architecte).
+- Sélectionner votre rôle (p. ex. Architect, Architect & General Planner).
 
-**Vérification**
-- Le rôle correspond au contrat.
+**À vérifier**
+- Le rôle correspond au contrat, pas à l’ambition.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
-</video>
+![Services – select role](/wiki-assets/tutorial/services-select-role.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Erreurs fréquentes**
+- Choisir un rôle plus large que celui du contrat.
+- Oublier que la sortie concerne par défaut les **prestations de base**.
 
 ---
 
-### 3.2 Thématiques prioritaires
+### 3.2 Thèmes de focus (Focus topics)
 
-**Objectif**  
-Identifier les responsabilités particulières.
+**But**  
+Mettre en évidence des responsabilités spécifiques.
 
 **À faire**
-- Sélectionner les thématiques pertinentes.
+- Sélectionner les focus topics pertinents.
 
-**Vérification**
-- Les thématiques expliquent le focus, pas le volume d’heures.
+**À vérifier**
+- Les focus topics expliquent une emphase, pas une inflation du périmètre.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
-</video>
+![Services – focus topics](/wiki-assets/tutorial/services-focus-topics.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**À lire aussi**
+- [Best practices](best-practices.html) (documenter correctement les hypothèses)
 
 ---
 
-### 3.3 Heures et répartition par phase
+### 3.3 Heures et répartition par phases
 
-**Objectif**  
-Contrôler et ajuster la répartition des efforts.
+**But**  
+Comprendre et, si nécessaire, ajuster l’effort par phase.
 
 **À faire**
-- Examiner les pourcentages proposés.
-- Ajuster si nécessaire.
+- Vérifier les pourcentages proposés.
+- Ajuster si votre livraison diffère de la norme.
 
-**Vérification**
+**À vérifier**
 - Le total d’heures reste constant.
-- Les ajustements sont cohérents.
+- Les déplacements par phase sont cohérents.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
-</video>
+![Services – hours and phases](/wiki-assets/tutorial/services-hours-phases.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
+  </video>
+</details>
 
 **Exemple de lecture**
 - Effort total : 240 h  
 - Phase 3 à 33 % → env. 79 h  
 - Phase 5 à 48 % → env. 115 h
 
+**Pourquoi c’est important**
+- La répartition par phase influence les discussions de planification et de procurement, même si le total ne change pas.
+
+**À lire aussi**
+- [Reference](reference.html) (phases et interprétation)
+
 ---
 
-### 3.4 Prestations spécifiques et supplémentaires
+### 3.4 Prestations spécifiques et prestations supplémentaires
 
-**Objectif**  
+**But**  
 Documenter les écarts par rapport aux prestations de base.
 
 **À faire**
-- Affiner les sous-phases si nécessaire.
-- Décrire les prestations supplémentaires.
+- Ajuster les sous-phases si nécessaire.
+- Ajouter des prestations supplémentaires avec description.
 
-**Vérification**
-- Les prestations supplémentaires sont clairement délimitées.
+**À vérifier**
+- Les prestations supplémentaires sont explicites et traçables.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
-</video>
+![Services – additional services](/wiki-assets/tutorial/services-additional-services.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Erreurs fréquentes**
+- Ajouter des prestations sans description.
+- Utiliser les “prestations supplémentaires” pour corriger de mauvaises entrées plus tôt (quantité/usage/complexité).
+
+**À lire aussi**
+- [Definitions](definitions.html) (prestations de base vs prestations supplémentaires)
 
 ---
 
-## Étape 4 — Vérifier et exporter la synthèse (Summary)
+## Étape 4 — Contrôler et exporter le résumé (Summary)
 
 ---
 
-### 4.1 Vérification de la synthèse
+### 4.1 Vérifier le one-pager
 
-**Objectif**  
-S’assurer de la cohérence des résultats.
+**But**  
+Confirmer que le résultat correspond aux entrées.
 
 **À faire**
-- Parcourir l’ensemble de la fiche.
-- Identifier les incohérences éventuelles.
+- Relire tous les blocs.
+- Contrôler les incohérences.
 
-**Vérification**
-- Chaque valeur est explicable.
+**À vérifier**
+- Vous pouvez expliquer chaque nombre.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
-</video>
+![Summary – review one-pager](/wiki-assets/tutorial/summary-review.jpeg)
+
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Pourquoi c’est important**
+- Le résumé est la pièce partageable. S’il est flou, la discussion le sera aussi.
 
 ---
 
-### 4.2 Export et utilisation du PDF
+### 4.2 Exporter et utiliser le PDF
 
-**Objectif**  
-Créer une documentation exploitable.
+**But**  
+Créer un document utilisable en situation réelle.
 
 **À faire**
 - Exporter le PDF.
-- L’intégrer aux offres ou dossiers de marché.
+- Joindre le PDF aux offres ou documents de procurement.
 
-**Vérification**
-- Les hypothèses et la logique sont compréhensibles.
+**À vérifier**
+- Le PDF explique les hypothèses, pas seulement des chiffres.
 
-<video class="wiki-img" controls preload="metadata">
-  <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
-</video>
+![Summary – export PDF](/wiki-assets/tutorial/summary-export-pdf.jpeg)
 
-**Formulation type pour une offre**
-> « La plage d’effort proposée repose sur la taille du projet, les usages, la complexité, le risque, l’organisation et le périmètre des prestations, tels que documentés dans la synthèse ValueApp jointe. »
+<p><strong>🎬 Vidéo (optionnelle) :</strong> <strong>Cliquer pour lire</strong></p>
+<details class="wiki-video">
+  <summary><strong>▶ Regarder le court extrait</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Phrase modèle pour une offre**
+> « La plage d’effort proposée est basée sur la quantité du projet, le mix d’usages, la complexité, le risque, l’organisation et le périmètre des prestations, documentés dans le résumé ValueApp joint. »
 
 ---
 
-## Problèmes fréquents et solutions
+## 5 — Mini-exemple (contrôle de plausibilité)
 
-- **Complexité inaccessible** → aucun usage défini.
-- **Résultats peu plausibles** → vérifier quantité et unité.
-- **Phases à 0 heure** → vérifier rôle ou sélection des phases.
-- **Questions du maître d’ouvrage** → revoir la description et la justification de la complexité.
+Utilisez ceci pour valider rapidement si le résultat semble plausible avant de le partager.
+
+**Exemple**
+- Type de projet : jardin d’enfants (petit bâtiment éducatif)
+- Quantité : env. 850 m² (GF)
+- Mix d’usages : 100 % Education
+- Complexité : moyenne (technique + organisationnelle)
+- Risque : moyen
+- Rôle : Architect
+
+**Ce qui fait le plus bouger le résultat**
+- modifications du mix d’usages (typologie),
+- complexité (surtout organisationnelle),
+- rôle et répartition par phases.
+
+![Example – summary output](/wiki-assets/tutorial/example-summary-output.jpeg)
+
+Voir aussi :  
+[Examples](examples.html) (plus de projets de référence) et  
+[Best practices](best-practices.html) (documenter les hypothèses côté client).
+
+---
+
+## Problèmes fréquents et corrections
+
+- **Complexité verrouillée** → Aucun usage sélectionné.
+- **Chiffres incohérents** → Vérifier quantité et unité.
+- **Phases à 0 heure** → Vérifier rôle et phases sélectionnées.
+- **Le client remet en question le résultat** → Revoir Description et justification de complexité.
+- **Résultat “trop haut/trop bas”** → Recontrôler mix d’usages, complexité et rôle avant d’ajouter des prestations supplémentaires.
 
 ---
 
 ## Voir aussi
 
-- [Getting started](getting-started.html)  
-- [Définitions et concepts de base](definitions.html)  
-- [Fonctionnement de l’application](how-it-works.html)  
-- [Pourquoi ValueApp](why-valueapp.html)  
-- [Exemples](examples.html)
+- [Getting started](getting-started.html)
+- [Definitions and core concepts](definitions.html)
+- [How the app works](how-it-works.html)
+- [Reference](reference.html)
+- [Best practices](best-practices.html)
+- [Why ValueApp exists](why-valueapp.html)
+- [Examples](examples.html)
