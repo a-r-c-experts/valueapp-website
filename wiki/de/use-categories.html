@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – use-categories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Nutzungskategorien (Bauprogramme)</h1>
+<p>Nutzungskategorien definieren, <strong>um welche Art von Projekt es sich handelt</strong>.<br>Sie bestimmen, welche <strong>Referenzmodelle</strong> als Basis für die Aufwandsschätzung verwendet werden.</p>
+<p>Die ValueApp behandelt «Nutzung» nicht als Etikett.<br>Sie verwendet Nutzung als <strong>Proxy für typische Anforderungen, Koordinationsaufwand und Planungsintensität</strong>.</p>
+<p>Diese Seite erklärt, wie Nutzungskategorien funktionieren, und zeigt anhand von Beispielen, wie reale Projekte dem Modell zugeordnet werden.</p>
+<hr>
+<h2>Was eine Nutzungskategorie bewirkt</h2>
+<p>Eine Nutzungskategorie:</p>
+<ul>
+<li>wählt ein oder mehrere <strong>Basismodelle</strong> aus,</li>
+<li>definiert einen typischen <strong>Aufwand pro Einheit</strong>,</li>
+<li>beeinflusst, wie Komplexität und Adjustment-Faktoren auf das Resultat wirken.</li>
+</ul>
+<p>Bei gemischt genutzten Projekten bildet die ValueApp eine <strong>gewichtete Kombination</strong> der entsprechenden Modelle.</p>
+<hr>
+<h2>Wie diese Liste zu verwenden ist</h2>
+<p>Verwenden Sie die Kategorien als <strong>Orientierung</strong>, nicht als starre Typologie.</p>
+<p>Gute Praxis:</p>
+<ul>
+<li>wählen Sie die Kategorie, die den <strong>Planungsaufwand</strong> am besten widerspiegelt, nicht die Vermarktungslogik,</li>
+<li>orientieren Sie sich an der <strong>dominanten funktionalen Anforderung</strong>,</li>
+<li>teilen Sie Mischnutzungen auf und vergeben Sie pro Nutzung Anteile.</li>
+</ul>
+<p>Im Zweifelsfall vergleichen Sie Ihr Projekt mit:
+→ <a href="examples.html">Beispielen</a></p>
+<hr>
+<h2>1 Wohnen <em>(Wohnen, Sport und Freizeit)</em></h2>
+<ul>
+<li>Temporäres Wohnen  </li>
+<li>Mehrfamilienhäuser  </li>
+<li>Reihenhäuser  </li>
+<li>Wochenendhäuser  </li>
+<li>Eigentumswohnungen  </li>
+<li>Einfamilienhäuser  </li>
+<li>Ferienhäuser  </li>
+<li>Alterswohnen  </li>
+<li>Altersresidenzen  </li>
+<li>Studierendenwohnheime  </li>
+<li>Lehrlingswohnheime  </li>
+<li>Berghütten  </li>
+<li>Campinganlagen  </li>
+<li>Clubhäuser  </li>
+<li>Turnhallen  </li>
+<li>Sporthallen  </li>
+<li>Mehrzweckhallen  </li>
+<li>Stadionbauten  </li>
+<li>Sportanlagen  </li>
+<li>Tribünenbauten  </li>
+<li>Garderobengebäude  </li>
+<li>Bowlinganlagen  </li>
+<li>Freiluft-Eisbahnen  </li>
+<li>Freibäder  </li>
+<li>Kunsteisbahnen  </li>
+<li>Hallenbäder  </li>
+<li>Reithallen  </li>
+<li>Bootshäuser  </li>
+<li>Schiessanlagen  </li>
+<li>Freizeitzentren  </li>
+<li>Jugendzentren  </li>
+<li>Parks  </li>
+<li>Spielplätze  </li>
+<li>Zoologische Gärten  </li>
+<li>Botanische Gärten  </li>
+<li>Tierhäuser  </li>
+<li>Gewächshäuser</li>
+</ul>
+<hr>
+<h2>2 Arbeiten <em>(Dienstleistungen und öffentliche Funktionen)</em></h2>
+<ul>
+<li>Pflegeheime  </li>
+<li>Betreuungseinrichtungen  </li>
+<li>Kinderheime  </li>
+<li>Jugendheime  </li>
+<li>Zentrallager  </li>
+<li>Tierheime  </li>
+<li>Tierarztpraxen  </li>
+<li>Tierkliniken  </li>
+<li>Verkaufsbauten ohne Grundausbau  </li>
+<li>Verkaufsbauten mit Grundausbau  </li>
+<li>Warenhäuser  </li>
+<li>Einkaufszentren  </li>
+<li>Markthallen  </li>
+<li>Einfache Bürogebäude  </li>
+<li>Bürogebäude mit erhöhten Anforderungen  </li>
+<li>Verwaltungsgebäude  </li>
+<li>Banken  </li>
+<li>Gemeindezentren  </li>
+<li>Rathäuser  </li>
+<li>Gerichtsgebäude  </li>
+<li>Polizeigebäude  </li>
+<li>Haftanstalten  </li>
+<li>Justizvollzugsanstalten  </li>
+<li>Kindertagesstätten  </li>
+<li>Geschützte Werkstätten  </li>
+<li>Kirchen  </li>
+<li>Kapellen  </li>
+<li>Abdankungshallen  </li>
+<li>Pfarreizentren  </li>
+<li>Friedhofsanlagen  </li>
+<li>Krematorien  </li>
+<li>Klöster  </li>
+<li>Soziale Einrichtungen  </li>
+<li>Vereinshäuser  </li>
+<li>Kulturzentren  </li>
+<li>Festhallen  </li>
+<li>Restaurants  </li>
+<li>Hotels  </li>
+<li>Motels  </li>
+<li>Hotels (Limited Service)  </li>
+<li>Motels (Limited Service)  </li>
+<li>Kantinen  </li>
+<li>Grossküchen  </li>
+<li>Gasthöfe  </li>
+<li>Jugendherbergen  </li>
+<li>Raststätten  </li>
+<li>Cafeterias  </li>
+<li>Teestuben  </li>
+<li>Autobahn-Zollanlagen  </li>
+<li>Tankstellen  </li>
+<li>Wartesäle mit Nebenräumen  </li>
+<li>Zollanlagen  </li>
+<li>Busterminals  </li>
+<li>Bahnhöfe  </li>
+<li>Betriebsgebäude Bahn  </li>
+<li>Seilbahnstationen  </li>
+<li>Flughäfen  </li>
+<li>Hafenanlagen  </li>
+<li>Postgebäude  </li>
+<li>Telefonzentralen  </li>
+<li>Postverteilzentren  </li>
+<li>Telekommunikationsgebäude  </li>
+<li>Rechenzentren  </li>
+<li>Kasernen  </li>
+<li>Waffenlager  </li>
+<li>Zivilschutzanlagen  </li>
+<li>Kommandoposten  </li>
+<li>Bereitstellungsanlagen  </li>
+<li>Sanitätsposten  </li>
+<li>Medizinische Versorgungszentren  </li>
+<li>Geschützte Operationsräume  </li>
+<li>Notspitäler  </li>
+<li>Zivilschutzausbildungszentren  </li>
+<li>Feuerwehrgebäude</li>
+</ul>
+<hr>
+<h2>3 Produktion</h2>
+<ul>
+<li>Industriehallen  </li>
+<li>Produktionsbauten Rohstoffindustrie  </li>
+<li>Produktionsbauten Schwerindustrie  </li>
+<li>Produktionsbauten Maschinenbau  </li>
+<li>Produktionsbauten Präzisionsindustrie  </li>
+<li>Produktionsbauten Verarbeitungsindustrie  </li>
+<li>Produktionsbauten Lebensmittelindustrie  </li>
+<li>Betriebsgebäude  </li>
+<li>Gewerbebauten  </li>
+<li>Werkstätten  </li>
+<li>Stallanlagen  </li>
+<li>Landwirtschaftliche Produktionsanlagen  </li>
+<li>Schlachthöfe  </li>
+<li>Heizwerke  </li>
+<li>Fernwärmeanlagen  </li>
+<li>Kraftwerksbauten  </li>
+<li>Wasseraufbereitungsanlagen  </li>
+<li>Abwasserreinigungsanlagen  </li>
+<li>Kehrichtverbrennungsanlagen  </li>
+<li>Treibstofflager</li>
+</ul>
+<hr>
+<h2>4 Lagern <em>(Lager, Distribution, Parkieren)</em></h2>
+<ul>
+<li>Lagerhallen  </li>
+<li>Mehrgeschossige Lagerbauten  </li>
+<li>Mechanisierte Lager  </li>
+<li>Kühlhäuser  </li>
+<li>Silobauten  </li>
+<li>Verteilzentren (Lebensmittel)  </li>
+<li>Verteilzentren (Nicht-Lebensmittel)  </li>
+<li>Schuppen  </li>
+<li>Hütten  </li>
+<li>Futtermittellager  </li>
+<li>Gewächshäuser  </li>
+<li>Einstöckige Garagen  </li>
+<li>Tiefgaragen  </li>
+<li>Hochgaragen  </li>
+<li>Verkehrsbauten  </li>
+<li>Werkhöfe  </li>
+<li>Bahndepots  </li>
+<li>Tramdepots  </li>
+<li>Fussgängerzonen  </li>
+<li>Wohnstrassen</li>
+</ul>
+<hr>
+<h2>5 Bilden und Forschen <em>(Bildung, Lehre, Kultur, Forschung)</em></h2>
+<ul>
+<li>Kindertagesstätten  </li>
+<li>Kindergärten  </li>
+<li>Primarschulen  </li>
+<li>Sekundarschulen  </li>
+<li>Berufsschulen  </li>
+<li>Fachschulen  </li>
+<li>Mittelschulen  </li>
+<li>Gymnasien  </li>
+<li>Gesamtschulen  </li>
+<li>Sonderschulen  </li>
+<li>Heilpädagogische Schulen  </li>
+<li>Universitäten  </li>
+<li>Hochschulen  </li>
+<li>Bibliotheken  </li>
+<li>Staatsarchive  </li>
+<li>Forschungsinstitute ohne Labore  </li>
+<li>Forschungsinstitute mit Laboren  </li>
+<li>Laborbauten Industrie  </li>
+<li>Laborbauten Gewerbe  </li>
+<li>Temporäre Ausstellungshallen  </li>
+<li>Ausstellungsbauten  </li>
+<li>Pavillons  </li>
+<li>Lokale Museen  </li>
+<li>Kunstgalerien  </li>
+<li>Museen  </li>
+<li>Kleine Theater  </li>
+<li>Konzertsäle  </li>
+<li>Theaterbauten  </li>
+<li>Musikpavillons  </li>
+<li>Kinos  </li>
+<li>Diskotheken  </li>
+<li>Versammlungshallen  </li>
+<li>Kongresszentren  </li>
+<li>Radiostudios  </li>
+<li>Fernsehstudios  </li>
+<li>Filmstudios</li>
+</ul>
+<hr>
+<h2>6 Heilen und Pflegen</h2>
+<ul>
+<li>Arztpraxen  </li>
+<li>Medizinische Zentren  </li>
+<li>Spitäler  </li>
+<li>Bettenhäuser  </li>
+<li>Behandlungsbauten  </li>
+<li>Universitätsspitäler  </li>
+<li>Pflegeheime  </li>
+<li>Rehabilitationszentren  </li>
+<li>Sanatorien  </li>
+<li>Kurbäder  </li>
+<li>Spezialisierte Institute</li>
+</ul>
+<hr>
+<h2>Typische Zuordnungsprobleme</h2>
+<ul>
+<li><p><strong>«Es ist Mischnutzung, also wählen wir eine Kategorie»</strong><br>→ Nutzungen aufteilen und gewichten.</p>
+</li>
+<li><p><strong>«Es ist Wohnen, aber sehr speziell»</strong><br>→ Nutzung beibehalten, Besonderheiten über die <strong>Komplexität</strong> abbilden.</p>
+</li>
+<li><p><strong>«Es ist klein, also einfach»</strong><br>→ Grösse und Nutzung sind getrennte Treiber. Komplexität wird separat bewertet.</p>
+</li>
+</ul>
+<hr>
+<h2>Siehe auch</h2>
+<ul>
+<li><a href="project-section.html">Projektbereich</a></li>
+<li><a href="quantity.html">Menge / Projektgrösse</a></li>
+<li><a href="complexity.html">Komplexitätsdimensionen</a></li>
+<li><a href="examples.html">Beispiele</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

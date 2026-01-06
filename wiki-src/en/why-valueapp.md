@@ -3,53 +3,60 @@ i18nTitle: wiki.whyValueApp.title
 navKey: why-valueapp
 ---
 
-# Why ValueApp exists
+# Warum ValueApp existiert
 
-Because “we feel it will take about X hours” is not documentation. This page explains what problem the ValueApp is trying to solve and where it fits (and does not fit) in everyday planning practice.
+Weil «wir haben das Gefühl, das dauert etwa X Stunden» keine Dokumentation ist.  
+Diese Seite erklärt, welches Problem die ValueApp adressiert und wo sie sich in der täglichen Planungspraxis einordnet – und wo bewusst nicht.
 
-## The problem it addresses
+## Das zugrunde liegende Problem
 
-Planning effort is real, but it is often communicated through:
+Planungsaufwand ist real, wird aber häufig kommuniziert über:
 
-- inconsistent assumptions,
-- fuzzy benchmarks,
-- and post‑hoc justifications that nobody trusts.
+- inkonsistente Annahmen,
+- vage Vergleichswerte,
+- nachträgliche Begründungen, denen niemand wirklich vertraut.
 
-The ValueApp provides a **shared, transparent starting point**: a structured estimate based on reference projects plus explicit adjustments for complexity and context.
+Die ValueApp bietet einen **gemeinsamen, transparenten Ausgangspunkt**:  
+eine strukturierte Aufwandsabschätzung auf Basis von Referenzprojekten, ergänzt durch explizite Anpassungen für Komplexität und Kontext.
 
-## Typical use cases
+## Typische Anwendungsfälle
 
-### Early phase orientation
+### Orientierung in frühen Projektphasen
 
-When you have only rough quantities and a first understanding of the project, the app helps establish an effort range and makes assumptions explicit.
+Wenn nur grobe Mengen und ein erstes Projektverständnis vorliegen, hilft die App, eine Aufwandsbandbreite zu bestimmen und Annahmen sichtbar zu machen.
 
-### Communication with clients and teams
+### Kommunikation mit Bauherrschaften und Teams
 
-Because the logic is documented (base model, determinant, adjustment factors), you can discuss the drivers of effort instead of arguing about vibes.
+Da die Logik dokumentiert ist (Basismodell, Determinante, Anpassungsfaktoren), können die Treiber des Aufwands diskutiert werden – statt über Bauchgefühle zu streiten.
 
-### Internal controlling and plausibility checks
+### Internes Controlling und Plausibilitätsprüfungen
 
-Teams can compare projects across time, detect outliers and improve consistency.
+Teams können Projekte über die Zeit vergleichen, Ausreisser erkennen und die Konsistenz ihrer Einschätzungen verbessern.
 
-## What it is not
+## Was sie nicht ist
 
-- **Not a cost tool**: it does not estimate construction cost.
-- **Not a fee calculator**: it does not output a contractual fee.
-- **Not an automatic truth machine**: the output is a structured estimate that still needs professional judgement.
+- **Kein Kostentool**: Es werden keine Baukosten berechnet.
+- **Kein Honorarrechner**: Es wird kein vertragliches Honorar ausgegeben.
+- **Keine automatische Wahrheitsmaschine**: Das Ergebnis ist eine strukturierte Schätzung, die weiterhin fachliche Beurteilung benötigt.
 
-## How this relates to the method
+Zu häufigen Missverständnissen (und wie man sie sachlich entkräftet), siehe:  
+[Was ValueApp ist – und was nicht](what-valueapp-is-not.html)
 
-The ValueApp operationalises the ETH Value Method by connecting:
+## Einordnung in die Methode
 
-- **base models** (reference projects),
-- **determinants** (measurable quantities),
-- and **adjustment factors** (complexity and context).
+Die ValueApp operationalisiert die ETH-Value-Methode, indem sie verbindet:
 
-For the “how does the app turn inputs into outputs” view, see [How the app works](how-it-works.html).
+- **Basismodelle** (Referenzprojekte),
+- **Determinanten** (messbare Grössen),
+- **Anpassungsfaktoren** (Komplexität und Kontext).
 
-## See also
-- [How the app works](how-it-works.html)
-- [Definitions and core concepts](definitions.html)
-- [Examples](examples.html)
-- [Project section](project-section.html)
+Für die Sicht «wie die App aus Eingaben Ergebnisse erzeugt», siehe:  
+[Wie die App funktioniert](how-it-works.html)
+
+## Siehe auch
+- [Was ValueApp ist – und was nicht](what-valueapp-is-not.html)
+- [Wie die App funktioniert](how-it-works.html)
+- [Begriffe und Grundkonzepte](definitions.html)
+- [Beispiele](examples.html)
+- [Projektbereich](project-section.html)
 - [Tutorial](tutorial.html)

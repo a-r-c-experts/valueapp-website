@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – complexity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Komplexitätsdimensionen</h1>
+<p>Komplexität beschreibt, <strong>wie anspruchsvoll die planerische Aufgabe an sich ist</strong>, unabhängig von Projektgrösse und Organisation.</p>
+<p>Sie erfasst, <strong>was im Objekt entworfen, koordiniert und gelöst werden muss</strong> – nicht, wie das Projekt geführt wird.<br>Diese Unterscheidung ist wichtig, weil Komplexität und Führungsaufwand in der ValueApp <strong>zwei getrennte Treiber des Aufwands</strong> sind.</p>
+<hr>
+<h2>Was Komplexität in der ValueApp bedeutet</h2>
+<p>In der ValueApp steht Komplexität für:</p>
+<ul>
+<li>die <strong>Art der Entwurfsaufgabe</strong>,</li>
+<li>die <strong>technischen und räumlichen Abhängigkeiten</strong>,</li>
+<li>den <strong>Grad an Unsicherheit innerhalb der Lösung selbst</strong>.</li>
+</ul>
+<p>Sie beantwortet die Frage:</p>
+<blockquote>
+<p><em>„Wie schwierig ist es, dieses Projekt planerisch zu entwerfen und aufzulösen?“</em></p>
+</blockquote>
+<p>Nicht:</p>
+<ul>
+<li>wie viele Beteiligte involviert sind,</li>
+<li>wie unklar oder politisch der Auftrag ist,</li>
+<li>wie aufwendig die Abstimmung mit der Bauherrschaft wird.</li>
+</ul>
+<p>Diese Aspekte gehören zum <strong>Anpassungs- bzw. Leadership-Faktor</strong>, nicht zur Komplexität.</p>
+<hr>
+<h2>Die vier Komplexitätsdimensionen</h2>
+<p>Die Komplexität wird entlang von <strong>vier unabhängigen Dimensionen</strong> beurteilt.<br>Jede Dimension beschreibt eine andere Quelle von Entwurfs- und Koordinationsaufwand.</p>
+<p><img src="wiki-assets/knowledge/complexity-dimensions-overview.jpg" alt="Übersicht Komplexitätsdimensionen"></p>
+<hr>
+<h3>1. Gestalterisch (Design)</h3>
+<p>Diese Dimension beschreibt:</p>
+<ul>
+<li>den gestalterischen Anspruch,</li>
+<li>die architektonische Ausformulierung,</li>
+<li>entwurfsgetriebene Iterationen und Präzisierungen.</li>
+</ul>
+<p>Geringe Komplexität:</p>
+<ul>
+<li>standardisierte Grundrisse,</li>
+<li>repetitive Strukturen,</li>
+<li>geringe Variationsbreite.</li>
+</ul>
+<p>Höhere Komplexität:</p>
+<ul>
+<li>starke formale Intention,</li>
+<li>viele Entwurfsiterationen,</li>
+<li>hohe Anforderungen an Kohärenz und Detailtiefe.</li>
+</ul>
+<hr>
+<h3>2. Technisch</h3>
+<p>Die technische Komplexität umfasst:</p>
+<ul>
+<li>technische Systeme,</li>
+<li>Integration der Gebäudetechnik,</li>
+<li>ingenieurtechnische Abhängigkeiten.</li>
+</ul>
+<p>Geringe Komplexität:</p>
+<ul>
+<li>konventionelle Systeme,</li>
+<li>bewährte Lösungen,</li>
+<li>wenige Schnittstellen.</li>
+</ul>
+<p>Höhere Komplexität:</p>
+<ul>
+<li>dichte technische Infrastruktur,</li>
+<li>innovative oder unübliche Systeme,</li>
+<li>enge Toleranzen und hohe Koordinationsdichte.</li>
+</ul>
+<hr>
+<h3>3. Räumlich</h3>
+<p>Die räumliche Komplexität bezieht sich auf:</p>
+<ul>
+<li>dreidimensionale Organisation,</li>
+<li>Erschliessung und Zirkulation,</li>
+<li>räumliche Verschränkungen und Zwänge.</li>
+</ul>
+<p>Geringe Komplexität:</p>
+<ul>
+<li>einfache Volumen,</li>
+<li>klare Zonierungen,</li>
+<li>geringe räumliche Abhängigkeiten.</li>
+</ul>
+<p>Höhere Komplexität:</p>
+<ul>
+<li>gestapelte oder ineinander greifende Räume,</li>
+<li>komplexe Erschliessungssysteme,</li>
+<li>beengte oder stark eingeschränkte Standorte.</li>
+</ul>
+<hr>
+<h3>4. Organisatorisch</h3>
+<p>Diese Dimension beschreibt <strong>objektbezogene organisatorische Komplexität</strong>, nicht Projektmanagement.</p>
+<p>Dazu gehören:</p>
+<ul>
+<li>Bau- oder Nutzungsphasen innerhalb des Gebäudes,</li>
+<li>Schnittstellen zwischen unterschiedlichen Nutzungen,</li>
+<li>gleichzeitiger Betrieb und Umbau.</li>
+</ul>
+<p>Geringe Komplexität:</p>
+<ul>
+<li>Einzelnutzung,</li>
+<li>klare betriebliche Logik.</li>
+</ul>
+<p>Höhere Komplexität:</p>
+<ul>
+<li>Mischnutzungen,</li>
+<li>überlagerte Betriebsanforderungen,</li>
+<li>Weiterbetrieb während Bau- oder Umbaumassnahmen.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/complexity-organisational-example.jpg" alt="Beispiel organisatorische Komplexität"></p>
+<hr>
+<h2>Wie Komplexität beurteilt wird</h2>
+<p>Jede Dimension wird entlang eines Spektrums eingeordnet:
+<strong>einfach → kompliziert → komplex</strong></p>
+<p>Die Beurteilung ist <strong>qualitativ, aber strukturiert</strong>.<br>Sie verlangt keine exakten Messwerte, aber eine ehrliche Einschätzung.</p>
+<p><img src="wiki-assets/knowledge/complexity-assessment-scale.jpg" alt="Komplexitätsskala"></p>
+<p>Es geht nicht darum, „gut“ oder „schlecht“ zu bewerten.<br>Es geht darum, <strong>wie anspruchsvoll die planerische Aufgabe voraussichtlich ist</strong>.</p>
+<hr>
+<h2>Wie Komplexität die Ergebnisse beeinflusst</h2>
+<p>Komplexität:</p>
+<ul>
+<li>erhöht den Basisaufwand,</li>
+<li>wirkt sich auf alle Planungsphasen aus,</li>
+<li>beeinflusst sowohl den Mittelwert als auch die Spannweite der Ergebnisse.</li>
+</ul>
+<p>Höhere Komplexität bedeutet in der Regel:</p>
+<ul>
+<li>mehr interdisziplinäre Koordination,</li>
+<li>mehr Iterationen,</li>
+<li>mehr Aufwand zur Konfliktlösung.</li>
+</ul>
+<p>Komplexität:</p>
+<ul>
+<li>erweitert <strong>nicht</strong> automatisch den Leistungsumfang,</li>
+<li>ersetzt <strong>keine</strong> vertraglichen Festlegungen,</li>
+<li>rechtfertigt Aufwand <strong>nicht isoliert</strong> ohne Bezug zur Projektgrösse.</li>
+</ul>
+<p>Komplexität wirkt immer <strong>zusammen mit der Menge</strong>, nie an deren Stelle.</p>
+<hr>
+<h2>Wo Komplexität in der App erscheint</h2>
+<p>Komplexität begegnet Ihnen in der ValueApp:</p>
+<ul>
+<li><p><strong>In der Projektdefinition</strong><br>Bei der Einschätzung der vier Dimensionen.</p>
+</li>
+<li><p><strong>In der Basiskalkulation</strong><br>Wo sie den aus Menge und Nutzung abgeleiteten Aufwand modifiziert.</p>
+</li>
+<li><p><strong>In der Ergebnisinterpretation</strong><br>Wo höhere Stundenwerte bei ähnlicher Grösse erklärbar werden.</p>
+</li>
+</ul>
+<p>Für eine geführte Anwendung siehe:<br>→ <a href="workflows.html#complexity">Workflow: Komplexität definieren</a></p>
+<hr>
+<h2>Häufige Fehler vermeiden</h2>
+<p>Vermeiden Sie:</p>
+<ul>
+<li>Komplexität aus persönlichem Stolz hoch anzusetzen,</li>
+<li>Komplexität zur Kompensation unklarer Leistungen zu verwenden,</li>
+<li>„interessantes Projekt“ mit „komplexes Projekt“ gleichzusetzen.</li>
+</ul>
+<p>Wenn sich Komplexität schwer begründen lässt, ist das oft ein Hinweis darauf, dass:</p>
+<ul>
+<li>die Projektdefinition noch zu unklar ist, oder</li>
+<li>organisatorische Themen fälschlich hier statt beim Leadership-Faktor verortet werden.</li>
+</ul>
+<hr>
+<h2>Siehe auch</h2>
+<ul>
+<li><a href="quantity.html">Menge und Basisaufwand</a></li>
+<li><a href="adjustment-factor.html">Anpassungs- / Leadership-Faktor</a></li>
+<li><a href="roles-and-services.html">Rollen und Leistungen</a></li>
+<li><a href="output-interpretation.html">Ergebnisinterpretation</a></li>
+<li><a href="why-valueapp.html">Was die ValueApp ist – und was nicht</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

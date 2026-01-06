@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – quantity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Menge und Basisaufwand</h1>
+<p>Die Menge definiert den <strong>Massstab des Projekts</strong>.<br>Sie ist der wichtigste Treiber des Basisaufwands in der ValueApp.</p>
+<p>Alles Weitere (Komplexität, Adjustment Factor) <strong>modifiziert</strong> diesen Basiswert.<br>Nichts ersetzt ihn.</p>
+<hr>
+<h2>Was «Menge» in der ValueApp bedeutet</h2>
+<p>In der ValueApp steht die Menge für:</p>
+<ul>
+<li>die <strong>Grösse dessen, was geplant wird</strong>,</li>
+<li>ausgedrückt über <strong>eine dominante Kennzahl</strong>.</li>
+</ul>
+<p>Sie beantwortet die Frage:</p>
+<blockquote>
+<p><em>«Wie viel Projekt ist das?»</em></p>
+</blockquote>
+<p>Nicht:</p>
+<ul>
+<li>wie schwierig es ist,</li>
+<li>wie gut es organisiert ist,</li>
+<li>wie ambitioniert der Entwurf ist.</li>
+</ul>
+<p>Diese Aspekte werden an anderer Stelle berücksichtigt.</p>
+<hr>
+<h2>Typische verwendete Mengen</h2>
+<p>Je nach Projekttyp wird die Menge meist angegeben als:</p>
+<ul>
+<li><p><strong>Bruttogeschossfläche (BGF)</strong><br>Der häufigste Fall bei Hochbauten.</p>
+</li>
+<li><p><strong>Einheiten</strong><br>Zum Beispiel Wohnungen, Zimmer oder serielle Elemente.</p>
+</li>
+<li><p><strong>Funktionale Fläche</strong><br>Wenn nur ein Teil eines Gebäudes relevant ist.</p>
+</li>
+</ul>
+<p>Die zentrale Regel lautet:</p>
+<blockquote>
+<p><strong>Wählen Sie die Kennzahl, die den Planungsaufwand am besten abbildet</strong>, nicht die Baukosten.</p>
+</blockquote>
+<hr>
+<h2>Warum die Menge so entscheidend ist</h2>
+<p>Die Menge ist der <strong>einzige Faktor</strong>, der den Aufwand verlässlich skaliert.</p>
+<p>Eine Verdoppelung der Menge verdoppelt den Aufwand nicht linear, führt aber zu:</p>
+<ul>
+<li>mehr Koordination,</li>
+<li>mehr Dokumentation,</li>
+<li>mehr Wiederholung mit Variation.</li>
+</ul>
+<p>Die Basiskurven der ValueApp sind so kalibriert, dass:</p>
+<ul>
+<li>kleine Projekte nicht überschätzt werden,</li>
+<li>grosse Projekte nicht naiv hochgerechnet werden.</li>
+</ul>
+<hr>
+<h2>Wie die Menge die Resultate beeinflusst</h2>
+<p>Die Menge:</p>
+<ul>
+<li>definiert den <strong>Basisaufwandsbereich</strong>,</li>
+<li>wirkt über alle Planungsphasen hinweg,</li>
+<li>steht immer im Zusammenspiel mit der Komplexität.</li>
+</ul>
+<p>Eine grössere Menge bedeutet typischerweise:</p>
+<ul>
+<li>mehr Pläne,</li>
+<li>mehr Abstimmungsschlaufen,</li>
+<li>mehr Schnittstellen.</li>
+</ul>
+<p>Die Menge allein erklärt jedoch <strong>nicht</strong>:</p>
+<ul>
+<li>warum gleich grosse Projekte sehr unterschiedliche Aufwände haben,</li>
+<li>warum kleine Projekte manchmal unverhältnismässig anspruchsvoll sind.</li>
+</ul>
+<p>Dafür gibt es Komplexität und Adjustment Factors.</p>
+<hr>
+<h2>Die richtige Menge wählen</h2>
+<p>Im Zweifel gilt:</p>
+<ul>
+<li>Lieber <strong>leicht vereinfacht</strong> als künstlich präzise.</li>
+<li><strong>Eine dominante Kennzahl</strong> verwenden, nicht mehrere.</li>
+<li>Keine „optimierten“ Mengen einsetzen, um Resultate zu beeinflussen.</li>
+</ul>
+<p>Wenn eine Zahl diskutabel ist, dokumentieren Sie die Annahme, statt sie endlos zu verfeinern.</p>
+<p>Präzision ohne Klarheit ist keine Genauigkeit.</p>
+<hr>
+<h2>Wo die Menge in der App erscheint</h2>
+<p>Die Menge definieren Sie in:</p>
+<ul>
+<li><p><strong>Projektdefinition</strong><br>Als erste inhaltliche Eingabe.</p>
+</li>
+<li><p><strong>Basisberechnung</strong><br>Wo sie alle weiteren Anpassungen verankert.</p>
+</li>
+<li><p><strong>Resultatzusammenfassung</strong><br>Wo sie grössenbedingte Aufwandsunterschiede erklärt.</p>
+</li>
+</ul>
+<p>Für eine geführte Anleitung siehe:
+→ <a href="workflows.html#quantity">Workflow: Menge definieren</a></p>
+<hr>
+<h2>Häufige Fehler vermeiden</h2>
+<p>Vermeiden Sie:</p>
+<ul>
+<li>Netto- und Bruttoflächen zu vermischen,</li>
+<li>unbequeme Projektteile auszuklammern,</li>
+<li>die Menge nachträglich zu ändern, um ein Resultat zu „korrigieren“.</li>
+</ul>
+<p>Wenn eine Mengenänderung das Resultat stark verändert, ist das kein Fehler.<br>Es bedeutet, dass sich der Projektumfang geändert hat.</p>
+<hr>
+<h2>Optionale visuelle Referenz</h2>
+<p>Der Zusammenhang zwischen Menge und Basisaufwand ist <strong>nicht linear</strong>:</p>
+<p><img src="wiki-assets/knowledge/quantity-baseline-curve.jpg" alt="Menge vs. Basisaufwand"></p>
+<p>Die Kurve berücksichtigt:</p>
+<ul>
+<li>Wiederholungseffekte,</li>
+<li>steigenden Koordinationsaufwand bei zunehmender Grösse.</li>
+</ul>
+<hr>
+<h2>Siehe auch</h2>
+<ul>
+<li><a href="complexity.html">Komplexitätsdimensionen</a></li>
+<li><a href="adjustment-factor.html">Adjustment / Leadership Factor</a></li>
+<li><a href="roles-and-services.html">Rollen und Leistungen</a></li>
+<li><a href="output-interpretation.html">Resultate interpretieren</a></li>
+<li><a href="why-valueapp.html">Was ValueApp ist – und was nicht</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

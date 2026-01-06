@@ -6,347 +6,143 @@ navKey: wiki.nav.projectSection
 
 # Project section
 
-The **Project (Projekt)** tab is where the ValueApp turns “what is it?” into “what effort range is plausible?”  
+The **Project** tab is where the ValueApp turns  
+**“what kind of project is this?”** into **“what effort range is plausible?”**
+
 It does this by combining:
 
-- a measurable **determinant / quantity** (typically m² gross floor area),
-- a **use mix** (so the right base models can be combined),
-- a structured **complexity assessment** (mapped to the Leadership Framework),
-- and, depending on your configuration, **risk / requirements** inputs.
+- a measurable **quantity** (project size),
+- a defined **use mix** (reference context),
+- a structured **complexity assessment**,
+- and, depending on configuration, **risk / requirements** inputs.
 
-This page explains the fields conceptually. If you want step-by-step clicks, use the [Tutorial](tutorial.html).
+This page explains the fields conceptually.  
+For click-by-click instructions, see the [Tutorial](tutorial.html).
 
 ---
 
 ## What happens in the Project section
 
-In the **Project** section, the ValueApp generates an initial forecast of expected time effort (often shown as **min/m²** based on the selected quantity) based on:
+In the **Project** section, the ValueApp generates the **baseline effort range** by:
 
-- **base models** (use-type models built from reference projects),
-- and an **adjustment factor** derived from your complexity assessment (often referred to as *degree of complexity* or **AF_quality**).
+1. selecting relevant **base models** via the use mix,
+2. scaling them with the entered **quantity**,
+3. adjusting the result through **complexity and leadership conditions**.
 
-You can adjust generated forecasts individually at any time, but the best results come from making your assumptions explicit and consistent.
+The output is usually shown as:
+- an effort range,
+- often normalised (e.g. min/m²),
+- before role and service scope are applied.
 
-If you want the “under the hood” story, see [How the app works](how-it-works.html).  
-If terms like determinant, base model, or AF_quality feel vague, start with [Definitions](definitions.html).
+For the full method logic, see:
+→ [How the app works](how-it-works.html)
 
 ---
 
 ## What you define here
 
-1. **Determinant / quantity** (typically m² gross floor area)
-2. **Use mix** (housing, work, learning, etc.)
-3. **Complexity** across four dimensions (design, technical, spatial, organisational)
-4. **Risk / requirements** (if your version includes this concept)
-5. Optional contextual fields like **expected costs** (if present in your setup)
+You typically define:
 
-These inputs drive the selection of base models and the adjustment factor(s) that shift results within the prediction range.
+1. **Quantity / project size**  
+   → [Quantity](quantity.html)
 
----
+2. **Use mix**  
+   → [Use categories](use-categories.html)
 
-## Determinant and quantity
+3. **Complexity** across four dimensions  
+   → [Complexity dimensions](complexity.html)
 
-### Floor area (FA / gross floor area)
+4. **Leadership / adjustment factor** (derived)  
+   → [Adjustment factor](adjustment-factor.html)
 
-In the Project definition field, enter the approximate **floor area** across all uses in **m²**.
+5. **Risk / requirements** (if enabled)
 
-If you already have a space allocation plan, reference it in the description. It is recommended to document your area calculation transparently for other project participants, especially the client.
-
-**Important:** the specified area directly affects the calculated effort.  
-Small changes in area can meaningfully shift the output.
+Together, these inputs determine the **baseline effort profile** before roles and services are applied.
 
 ---
 
-## Expected costs (optional)
+## Quantity (determinant)
 
-Expected costs are optional and typically do **not** influence the time-effort forecast.  
-They are usually understood as the client’s budget.
+The quantity represents the **scale of the project**, most commonly:
 
-In many setups, the ValueApp is used as a plausibility check for decisions regarding:
+- gross floor area (m² GF)
 
-- task and scope,
-- determinants,
-- use mix,
-- complexity.
+Key points:
+- always enter **total project quantity**,
+- include basements and shared areas where relevant,
+- small changes can significantly affect the result.
+
+For details and common pitfalls:
+→ [Quantity](quantity.html)
 
 ---
 
 ## Use mix
 
-You must specify the **use(s)** of the project.
+The use mix tells the app **what reference world your project belongs to**.
 
-You can select several uses (including repeated uses) and assign relative shares.  
-In the background, the ValueApp combines the corresponding base models for those uses and generates an initial forecast.
+- You can select one or multiple uses.
+- Percentages must sum to 100%.
+- Mixed-use projects are calculated as **weighted combinations**.
 
-**Key idea:** the use mix tells the app which reference world your project belongs to.  
-A mixed-use project is not “one model with a weird label”, it is a **weighted combination** of models.
+The use mix selects the relevant base models.  
+Complexity explains deviations *within* those models.
 
-For calibration, compare your case to [Examples](examples.html).
+For examples and category definitions:
+→ [Use categories](use-categories.html)
 
 ---
 
 ## Complexity assessment
 
-Complexity is not “big vs small”. It describes how predictable the work is and how clear cause-and-effect relationships are.
+Complexity describes **how predictable and manageable the project is**, not how “good” or “ambitious” it is.
 
-The ValueApp uses the **Leadership Framework** to translate your assessment into an **AF_quality** (or similar adjustment factor). You describe challenges across four dimensions:
+The ValueApp assesses complexity across four dimensions:
+- design
+- technical
+- spatial
+- organisational
 
-- **design**
-- **technical**
-- **spatial**
-- **organisational**
+These inputs are mapped to a **leadership / adjustment factor** that modifies the baseline effort.
 
-The point is not to find the one “correct” label. The point is to make assumptions **explicit and discussable**.
-
-If you want a deeper explanation of what AF_quality means, start with [Definitions](definitions.html) and [How the app works](how-it-works.html).
-
----
-
-## Practical tips
-
-- **Be explicit:** write down key drivers in the project description (constraints, stakeholders, special requirements).
-- **Calibrate with references:** compare your project to [Examples](examples.html).
-- **Use the tool to structure discussion, not to avoid it:** the value is transparency, not pretending uncertainty doesn’t exist.
+For conceptual background:
+→ [Complexity dimensions](complexity.html)  
+→ [Adjustment factor](adjustment-factor.html)
 
 ---
 
-## Building programs by use category
+## Risk and requirements (optional)
 
-The following lists give examples of what typically falls under each use category.  
-They are not meant as a perfect taxonomy, but as a practical guide for mapping real projects to the model structure.
+If enabled in your setup, risk inputs help document:
+- external uncertainty,
+- approval risks,
+- process instability.
 
-### 1 Housing *(Residence, sports and leisure)*
+Risk typically:
+- widens ranges,
+- does not change the underlying baseline logic.
 
-- Temporary housing  
-- Multi-family houses  
-- Terrace houses  
-- Weekend houses  
-- Condominiums  
-- Single-family houses  
-- Vacation homes  
-- Senior housing  
-- Retirement communities  
-- Student dormitories  
-- Apprentice dormitories  
-- Mountain lodges  
-- Campsites  
-- Club huts  
-- Gymnasiums  
-- Sports halls  
-- Multipurpose halls  
-- Stadium facilities  
-- Sports fields  
-- Grandstand buildings  
-- Locker-room buildings  
-- Bowling alleys  
-- Open-air ice rinks  
-- Outdoor swimming pools  
-- Indoor ice rinks  
-- Indoor swimming pools  
-- Riding halls  
-- Boathouses  
-- Shooting ranges  
-- Recreation centers  
-- Youth centers  
-- Parks  
-- Playgrounds  
-- Zoological gardens  
-- Botanical gardens  
-- Animal houses  
-- Greenhouses  
+For interpretation:
+→ [Output interpretation](output-interpretation.html)
 
 ---
 
-### 2 Working *(Services and public functions)*
+## Practical guidance
 
-- Nursing homes  
-- Care homes  
-- Children’s homes  
-- Youth homes  
-- Central laundries  
-- Animal shelters  
-- Veterinary stations  
-- Animal hospitals  
-- Retail buildings without basic fit-out  
-- Retail buildings with basic fit-out  
-- Department stores  
-- Shopping centers  
-- Market halls  
-- Simple office buildings  
-- Office buildings with higher requirements  
-- Administrative buildings  
-- Banks  
-- Municipal buildings  
-- Town halls  
-- Courthouses  
-- Police operational buildings  
-- Detention centers  
-- Correctional facilities  
-- Daycare homes  
-- Sheltered workshops  
-- Churches  
-- Chapels  
-- Funeral halls  
-- Parish community centers  
-- Cemetery facilities  
-- Crematoriums  
-- Monasteries  
-- Welfare houses  
-- Clubhouses  
-- Cultural centers  
-- Festival halls  
-- Restaurants  
-- Hotels  
-- Motels  
-- Hotels (limited service)  
-- Motels (limited service)  
-- Canteens  
-- Independent large kitchens  
-- Inns  
-- Youth hostels  
-- Service stations  
-- Cafeterias  
-- Tea rooms  
-- Motorway customs stations  
-- Gas stations  
-- Waiting halls with service rooms  
-- Customs posts  
-- Bus terminals  
-- Train stations  
-- Railway operation buildings  
-- Cable car stations  
-- Airports  
-- Harbor facilities  
-- Post office buildings  
-- Telephone exchange buildings  
-- Postal operations buildings  
-- Telecommunications buildings  
-- Data centers  
-- Barracks  
-- Armories  
-- Public civil defense facilities  
-- Command posts  
-- Staging facilities  
-- First aid posts  
-- Medical aid centers  
-- Protected operating rooms  
-- Emergency hospitals  
-- Civil defense training centers  
-- Fire stations  
+- **Be explicit**: document assumptions in the project description.
+- **Use references**: compare with similar projects.
+- **Avoid tuning**: don’t “fix” results here that belong to role or service scope later.
 
----
-
-### 3 Manufacturing
-
-- Industrial halls  
-- Production buildings for raw materials industry  
-- Production buildings for heavy industry  
-- Production buildings for mechanical industry  
-- Production buildings for precision engineering  
-- Production buildings for processing industry  
-- Production buildings for food industry  
-- Operational buildings  
-- Commercial buildings  
-- Workshops  
-- Stables  
-- Agricultural production facilities  
-- Slaughterhouses  
-- Heating plants  
-- District heating systems  
-- Power plant buildings  
-- Water treatment plants  
-- Wastewater treatment plants  
-- Waste incineration plants  
-- Fuel storage facilities  
-
----
-
-### 4 Storing *(Storage and distribution, parking)*
-
-- Storage halls  
-- Multi-story storage buildings  
-- Mechanized storage  
-- Cold storage  
-- Silo buildings  
-- Distribution centers (food)  
-- Distribution centers (non-food)  
-- Sheds  
-- Huts  
-- Feed storage rooms  
-- Greenhouses  
-- Single-story garages  
-- Underground parking garages  
-- Above-ground parking structures  
-- Road traffic buildings  
-- Works yards  
-- Railway depots  
-- Tram depots  
-- Pedestrian zones  
-- Residential streets  
-
----
-
-### 5 Educating and Researching *(Education, teaching, culture, research)*
-
-- Daycare centers  
-- Kindergartens  
-- Primary schools  
-- Secondary schools  
-- Vocational schools  
-- Advanced technical schools  
-- Middle schools  
-- High schools  
-- Comprehensive schools  
-- Special education schools  
-- Remedial schools  
-- Universities  
-- Higher education institutions  
-- Libraries  
-- State archives  
-- Research institutes without laboratories  
-- Research institutes with laboratories  
-- Laboratory buildings for industry  
-- Laboratory buildings for trade  
-- Temporary exhibition halls  
-- Exhibition buildings  
-- Pavilions  
-- Local museums  
-- Art galleries  
-- Museums  
-- Small theaters  
-- Concert halls  
-- Theater buildings  
-- Bandstands  
-- Cinemas  
-- Discotheques  
-- Assembly halls  
-- Convention centers  
-- Radio studios  
-- Television studios  
-- Film studios  
-
----
-
-### 6 Healing and Nursing
-
-- Doctor’s offices  
-- Medical centers  
-- Hospitals  
-- Bed wings  
-- Treatment wings  
-- University clinics  
-- Nursing homes  
-- Rehabilitation centers  
-- Sanatoriums  
-- Spas  
-- Specialized institutes  
+The Project section is about **context and plausibility**, not negotiation.
 
 ---
 
 ## See also
 
-- [Definitions and core concepts](definitions.html)  
-- [How the app works](how-it-works.html)  
-- [Examples](examples.html)  
-- [Tutorial](tutorial.html)  
+- [Tutorial](tutorial.html)
+- [Quantity](quantity.html)
+- [Use categories](use-categories.html)
+- [Complexity dimensions](complexity.html)
+- [Adjustment factor](adjustment-factor.html)
+- [Interpreting results](output-interpretation.html)
 - [Why ValueApp exists](why-valueapp.html)

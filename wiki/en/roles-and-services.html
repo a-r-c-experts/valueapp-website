@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – roles-and-services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Roles and services</h1>
+<p>Roles and services define <strong>what part of the planning work is covered by the calculation</strong>.</p>
+<p>They do not describe:</p>
+<ul>
+<li>personal responsibility,</li>
+<li>contractual risk,</li>
+<li>or who is ultimately liable.</li>
+</ul>
+<p>They describe <strong>which services are included in the effort model</strong>.</p>
+<hr>
+<h2>What “role” means in ValueApp</h2>
+<p>In ValueApp, a role represents:</p>
+<ul>
+<li>the <strong>planning position you are taking</strong> in the project,</li>
+<li>relative to other planners and the client.</li>
+</ul>
+<p>It answers the question:</p>
+<blockquote>
+<p><em>“From which planning perspective is this effort being calculated?”</em></p>
+</blockquote>
+<p>Not:</p>
+<ul>
+<li>who signs the contract,</li>
+<li>who carries insurance,</li>
+<li>or how the team is staffed internally.</li>
+</ul>
+<hr>
+<h2>Typical roles</h2>
+<p>Depending on the setup, common roles include:</p>
+<ul>
+<li><p><strong>Architect</strong><br>Planning services within the architectural discipline.</p>
+</li>
+<li><p><strong>Architect as general planner</strong><br>Architectural services plus coordination of other planners.</p>
+</li>
+<li><p><strong>Discipline planner</strong><br>Structural, building services, or specialist planning roles.</p>
+</li>
+<li><p><strong>Supporting role</strong><br>Partial services within a larger planning organisation.</p>
+</li>
+</ul>
+<p>Each role implies:</p>
+<ul>
+<li>a different <strong>service scope</strong>,</li>
+<li>a different <strong>coordination load</strong>,</li>
+<li>a different distribution of effort across phases.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/roles-services-scope-overview.jpeg" alt="Role-dependent service scope"></p>
+<hr>
+<h2>What “services” mean</h2>
+<p>Services define:</p>
+<ul>
+<li><strong>which planning phases are included</strong>,</li>
+<li><strong>which tasks are assumed</strong>, at a high level.</li>
+</ul>
+<p>They are based on:</p>
+<ul>
+<li>standard service models (e.g. SIA, HOAI, OAI),</li>
+<li>adapted to a <strong>generic, comparable structure</strong>.</li>
+</ul>
+<p>ValueApp does not calculate:</p>
+<ul>
+<li>bespoke task lists,</li>
+<li>project-specific exclusions,</li>
+<li>contractual special clauses.</li>
+</ul>
+<p>It calculates <strong>100% of the selected basic services</strong>.</p>
+<hr>
+<h2>Why roles and services exist in the model</h2>
+<p>Two projects with identical quantity and complexity can differ drastically if:</p>
+<ul>
+<li>one planner coordinates all disciplines,</li>
+<li>another only delivers partial services.</li>
+</ul>
+<p>Without roles and services:</p>
+<ul>
+<li>effort comparisons would be meaningless,</li>
+<li>leadership effort would be double-counted or missed,</li>
+<li>results would appear inconsistent.</li>
+</ul>
+<p>Roles and services exist to:</p>
+<ul>
+<li>anchor responsibility assumptions,</li>
+<li>distribute effort correctly across phases,</li>
+<li>avoid implicit scope creep.</li>
+</ul>
+<hr>
+<h2>How they affect results</h2>
+<p>Roles and services influence:</p>
+<ul>
+<li><p><strong>Total effort</strong><br>Through included service scope.</p>
+</li>
+<li><p><strong>Phase distribution</strong><br>Early vs late planning effort.</p>
+</li>
+<li><p><strong>Coordination load</strong><br>Especially for general planners.</p>
+</li>
+</ul>
+<p>They do <strong>not</strong>:</p>
+<ul>
+<li>change the baseline quantity,</li>
+<li>replace complexity assessment,</li>
+<li>account for exceptional services.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/roles-services-phase-distribution.jpeg" alt="Effect of role on phase distribution"></p>
+<p>If your scope deviates significantly from standard services, document it externally.</p>
+<hr>
+<h2>Where roles and services appear in the app</h2>
+<p>You define them in:</p>
+<ul>
+<li><p><strong>Service selection step</strong><br>Choosing role and service scope.</p>
+</li>
+<li><p><strong>Phase overview</strong><br>Showing effort distribution per phase.</p>
+</li>
+<li><p><strong>Result summary</strong><br>Clarifying what the calculated hours actually cover.</p>
+</li>
+</ul>
+<p>For a step-by-step walkthrough, see:<br>→ <a href="workflows.html#roles-and-services">Workflow: defining roles and services</a></p>
+<hr>
+<h2>Using roles responsibly</h2>
+<p>Good practice:</p>
+<ul>
+<li>choose the role that matches your <strong>actual planning position</strong>,</li>
+<li>use standard services as the baseline,</li>
+<li>explain deviations outside the app.</li>
+</ul>
+<p>Avoid:</p>
+<ul>
+<li>selecting broader roles to “cover uncertainty”,</li>
+<li>narrowing services to force a target number,</li>
+<li>mixing internal staffing logic with service scope.</li>
+</ul>
+<p>If the role choice feels uncomfortable, that usually signals an unclear project setup, not a calculation problem.</p>
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a href="quantity.html">Quantity and baseline effort</a></li>
+<li><a href="complexity.html">Complexity dimensions</a></li>
+<li><a href="adjustment-factor.html">Adjustment (leadership) factor</a></li>
+<li><a href="output-interpretation.html">Interpreting results</a></li>
+<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

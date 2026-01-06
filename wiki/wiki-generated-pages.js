@@ -2,6 +2,18 @@
 (function () {
   window.WIKI_GENERATED_PAGES = [
   {
+    "id": "adjustment-factor",
+    "urlByLang": {
+      "de": "/wiki/de/adjustment-factor.html",
+      "en": "/wiki/en/adjustment-factor.html",
+      "fr": "/wiki/fr/adjustment-factor.html"
+    },
+    "titleKey": "wiki.adjustmentFactor.title",
+    "navKey": "adjustment-factor",
+    "lastUpdated": "2026-01-06",
+    "searchable": true
+  },
+  {
     "id": "best-practices",
     "urlByLang": {
       "de": "/wiki/de/best-practices.html",
@@ -11,6 +23,17 @@
     "titleKey": "wiki.bestPractices.title",
     "navKey": "best-practices",
     "lastUpdated": "2026-01-05",
+    "searchable": true
+  },
+  {
+    "id": "complexity",
+    "urlByLang": {
+      "de": "/wiki/de/complexity.html",
+      "en": "/wiki/en/complexity.html"
+    },
+    "titleKey": "wiki.complexity.title",
+    "navKey": "complexity",
+    "lastUpdated": "2026-01-06",
     "searchable": true
   },
   {
@@ -106,7 +129,19 @@
     },
     "titleKey": "wiki.knowledgeBase.title",
     "navKey": "knowledge-base",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-01-06",
+    "searchable": true
+  },
+  {
+    "id": "output-interpretation",
+    "urlByLang": {
+      "de": "/wiki/de/output-interpretation.html",
+      "en": "/wiki/en/output-interpretation.html",
+      "fr": "/wiki/fr/output-interpretation.html"
+    },
+    "titleKey": "wiki.outputInterpretation.title",
+    "navKey": "output-interpretation",
+    "lastUpdated": "2026-01-06",
     "searchable": true
   },
   {
@@ -118,7 +153,19 @@
     },
     "titleKey": "wiki.projectSection.title",
     "navKey": "wiki.nav.projectSection",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-01-06",
+    "searchable": true
+  },
+  {
+    "id": "quantity",
+    "urlByLang": {
+      "de": "/wiki/de/quantity.html",
+      "en": "/wiki/en/quantity.html",
+      "fr": "/wiki/fr/quantity.html"
+    },
+    "titleKey": "wiki.quantity.title",
+    "navKey": "quantity",
+    "lastUpdated": "2026-01-06",
     "searchable": true
   },
   {
@@ -130,7 +177,19 @@
     },
     "titleKey": "wiki.reference.title",
     "navKey": "reference",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-01-06",
+    "searchable": true
+  },
+  {
+    "id": "roles-and-services",
+    "urlByLang": {
+      "de": "/wiki/de/roles-and-services.html",
+      "en": "/wiki/en/roles-and-services.html",
+      "fr": "/wiki/fr/roles-and-services.html"
+    },
+    "titleKey": "wiki.rolesAndServices.title",
+    "navKey": "roles-and-services",
+    "lastUpdated": "2026-01-06",
     "searchable": true
   },
   {
@@ -158,6 +217,30 @@
     "searchable": true
   },
   {
+    "id": "use-categories",
+    "urlByLang": {
+      "de": "/wiki/de/use-categories.html",
+      "en": "/wiki/en/use-categories.html",
+      "fr": "/wiki/fr/use-categories.html"
+    },
+    "titleKey": "wiki.useCategories.title",
+    "navKey": "use-categories",
+    "lastUpdated": "2026-01-06",
+    "searchable": true
+  },
+  {
+    "id": "what-valueapp-is-not",
+    "urlByLang": {
+      "de": "/wiki/de/what-valueapp-is-not.html",
+      "en": "/wiki/en/what-valueapp-is-not.html",
+      "fr": "/wiki/fr/what-valueapp-is-not.html"
+    },
+    "titleKey": "wiki.whatValueAppIsNot.title",
+    "navKey": "what-valueapp-is-not",
+    "lastUpdated": "2026-01-06",
+    "searchable": true
+  },
+  {
     "id": "why-valueapp",
     "urlByLang": {
       "de": "/wiki/de/why-valueapp.html",
@@ -166,7 +249,7 @@
     },
     "titleKey": "wiki.whyValueApp.title",
     "navKey": "wiki.nav.whyValueApp",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-01-06",
     "searchable": true
   },
   {

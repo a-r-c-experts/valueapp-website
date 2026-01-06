@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – roles-and-services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Rôles et prestations</h1>
+<p>Les rôles et prestations définissent <strong>quelle part du travail de planification est couverte par le calcul</strong>.</p>
+<p>Ils ne décrivent pas :</p>
+<ul>
+<li>la responsabilité personnelle,</li>
+<li>le risque contractuel,</li>
+<li>ni la responsabilité juridique finale.</li>
+</ul>
+<p>Ils décrivent <strong>quelles prestations sont incluses dans le modèle d’effort</strong>.</p>
+<hr>
+<h2>Ce que signifie un « rôle » dans ValueApp</h2>
+<p>Dans ValueApp, un rôle représente :</p>
+<ul>
+<li>la <strong>position de planification</strong> que vous occupez dans le projet,</li>
+<li>par rapport aux autres planificateurs et au maître d’ouvrage.</li>
+</ul>
+<p>Il répond à la question :</p>
+<blockquote>
+<p><em>« Depuis quelle perspective de planification cet effort est-il calculé ? »</em></p>
+</blockquote>
+<p>Et non :</p>
+<ul>
+<li>qui signe le contrat,</li>
+<li>qui porte l’assurance,</li>
+<li>ou comment l’équipe est organisée en interne.</li>
+</ul>
+<hr>
+<h2>Rôles typiques</h2>
+<p>Selon la configuration, les rôles courants incluent notamment :</p>
+<ul>
+<li><p><strong>Architecte</strong><br>Prestations de planification au sein de la discipline architecturale.</p>
+</li>
+<li><p><strong>Architecte en tant que planificateur général</strong><br>Prestations architecturales plus coordination des autres planificateurs.</p>
+</li>
+<li><p><strong>Planificateur spécialisé</strong><br>Structure, technique du bâtiment ou autres disciplines spécialisées.</p>
+</li>
+<li><p><strong>Rôle de soutien</strong><br>Prestations partielles au sein d’une organisation de planification plus large.</p>
+</li>
+</ul>
+<p>Chaque rôle implique :</p>
+<ul>
+<li>un <strong>périmètre de prestations</strong> différent,</li>
+<li>une <strong>charge de coordination</strong> différente,</li>
+<li>une répartition différente de l’effort selon les phases.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/roles-services-scope-overview.jpeg" alt="Périmètre des prestations selon le rôle"></p>
+<hr>
+<h2>Ce que signifient les « prestations »</h2>
+<p>Les prestations définissent :</p>
+<ul>
+<li><strong>quelles phases de planification sont incluses</strong>,</li>
+<li><strong>quelles tâches sont supposées</strong>, à un niveau global.</li>
+</ul>
+<p>Elles s’appuient sur :</p>
+<ul>
+<li>des modèles de prestations standard (p. ex. SIA, HOAI, OAI),</li>
+<li>traduits dans une <strong>structure générique et comparable</strong>.</li>
+</ul>
+<p>ValueApp ne calcule pas :</p>
+<ul>
+<li>des listes de tâches sur mesure,</li>
+<li>des exclusions spécifiques au projet,</li>
+<li>des clauses contractuelles particulières.</li>
+</ul>
+<p>Elle calcule <strong>100 % des prestations de base sélectionnées</strong>.</p>
+<hr>
+<h2>Pourquoi les rôles et prestations existent dans le modèle</h2>
+<p>Deux projets de quantité et de complexité identiques peuvent différer fortement si :</p>
+<ul>
+<li>l’un assure la coordination globale,</li>
+<li>l’autre ne fournit que des prestations partielles.</li>
+</ul>
+<p>Sans rôles et prestations :</p>
+<ul>
+<li>les comparaisons d’effort seraient trompeuses,</li>
+<li>l’effort de pilotage serait doublé ou omis,</li>
+<li>les résultats paraîtraient incohérents.</li>
+</ul>
+<p>Les rôles et prestations servent à :</p>
+<ul>
+<li>rendre explicites les hypothèses de responsabilité,</li>
+<li>répartir correctement l’effort par phase,</li>
+<li>éviter l’extension implicite du périmètre.</li>
+</ul>
+<hr>
+<h2>Comment ils influencent les résultats</h2>
+<p>Les rôles et prestations influencent :</p>
+<ul>
+<li><p><strong>L’effort total</strong><br>Via le périmètre de prestations inclus.</p>
+</li>
+<li><p><strong>La répartition par phase</strong><br>Effort en phases amont ou aval.</p>
+</li>
+<li><p><strong>La charge de coordination</strong><br>En particulier pour les rôles de planificateur général.</p>
+</li>
+</ul>
+<p>Ils ne :</p>
+<ul>
+<li>modifient pas la quantité de base,</li>
+<li>remplacent pas l’évaluation de la complexité,</li>
+<li>couvrent pas les prestations exceptionnelles.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/roles-services-phase-distribution.jpeg" alt="Influence du rôle sur la répartition par phase"></p>
+<p>Si votre périmètre diffère fortement des prestations standard, documentez-le en dehors de l’application.</p>
+<hr>
+<h2>Où les rôles et prestations apparaissent dans l’application</h2>
+<p>Ils sont définis dans :</p>
+<ul>
+<li><p><strong>La sélection des prestations</strong><br>Choix du rôle et du périmètre.</p>
+</li>
+<li><p><strong>La vue des phases</strong><br>Répartition de l’effort par phase.</p>
+</li>
+<li><p><strong>Le résumé des résultats</strong><br>Clarification de ce que couvrent réellement les heures calculées.</p>
+</li>
+</ul>
+<p>Pour un parcours guidé, voir :<br>→ <a href="workflows.html#roles-and-services">Workflow : définir les rôles et prestations</a></p>
+<hr>
+<h2>Utiliser les rôles de manière responsable</h2>
+<p>Bonne pratique :</p>
+<ul>
+<li>choisir le rôle correspondant à votre <strong>position réelle dans le projet</strong>,</li>
+<li>utiliser les prestations standard comme base,</li>
+<li>expliquer les écarts de manière transparente.</li>
+</ul>
+<p>À éviter :</p>
+<ul>
+<li>sélectionner un rôle plus large pour « couvrir l’incertitude »,</li>
+<li>réduire artificiellement les prestations pour atteindre un chiffre cible,</li>
+<li>confondre organisation interne et périmètre de prestations.</li>
+</ul>
+<p>Si le choix du rôle semble inconfortable, cela indique souvent une définition de projet floue, pas un problème de calcul.</p>
+<hr>
+<h2>Voir aussi</h2>
+<ul>
+<li><a href="quantity.html">Quantité et effort de base</a></li>
+<li><a href="complexity.html">Dimensions de complexité</a></li>
+<li><a href="adjustment-factor.html">Facteur d’ajustement / de pilotage</a></li>
+<li><a href="output-interpretation.html">Interpréter les résultats</a></li>
+<li><a href="why-valueapp.html">Ce que ValueApp est – et n’est pas</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

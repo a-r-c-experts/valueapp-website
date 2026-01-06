@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – use-categories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Catégories d’usage (programmes de bâtiments)</h1>
+<p>Les catégories d’usage définissent <strong>le type de projet en planification</strong>.<br>Elles déterminent quels <strong>modèles de référence</strong> servent de base à l’estimation de l’effort.</p>
+<p>ValueApp ne considère pas l’usage comme une simple étiquette.<br>L’usage est utilisé comme <strong>indicateur des exigences typiques, de l’effort de coordination et de l’intensité de planification</strong>.</p>
+<p>Cette page explique le fonctionnement des catégories d’usage et donne des exemples pratiques pour rattacher des projets réels à la structure du modèle.</p>
+<hr>
+<h2>À quoi sert une catégorie d’usage</h2>
+<p>Une catégorie d’usage :</p>
+<ul>
+<li>sélectionne un ou plusieurs <strong>modèles de base</strong>,</li>
+<li>définit un <strong>effort typique par unité</strong>,</li>
+<li>influence la manière dont la complexité et les facteurs d’ajustement agissent sur le résultat.</li>
+</ul>
+<p>Pour les projets à usages mixtes, ValueApp crée une <strong>combinaison pondérée</strong> des modèles correspondants.</p>
+<hr>
+<h2>Comment utiliser cette liste</h2>
+<p>Utilisez les catégories comme <strong>outil d’orientation</strong>, pas comme une classification rigide.</p>
+<p>Bonne pratique :</p>
+<ul>
+<li>choisir la catégorie qui reflète le mieux <strong>l’effort de planification</strong>, pas le discours marketing,</li>
+<li>privilégier la <strong>fonction dominante</strong> du projet,</li>
+<li>décomposer les projets mixtes et attribuer des pourcentages.</li>
+</ul>
+<p>En cas de doute, comparez avec :
+→ <a href="examples.html">Exemples</a></p>
+<hr>
+<h2>1 Habitat <em>(logement, sport et loisirs)</em></h2>
+<ul>
+<li>Logements temporaires  </li>
+<li>Immeubles d’habitation  </li>
+<li>Maisons en rangée  </li>
+<li>Résidences de week-end  </li>
+<li>Copropriétés  </li>
+<li>Maisons individuelles  </li>
+<li>Résidences de vacances  </li>
+<li>Logements pour seniors  </li>
+<li>Résidences médicalisées  </li>
+<li>Résidences étudiantes  </li>
+<li>Foyers d’apprentis  </li>
+<li>Refuges de montagne  </li>
+<li>Campings  </li>
+<li>Maisons de club  </li>
+<li>Gymnases  </li>
+<li>Salles de sport  </li>
+<li>Salles polyvalentes  </li>
+<li>Installations de stade  </li>
+<li>Terrains de sport  </li>
+<li>Tribunes  </li>
+<li>Bâtiments de vestiaires  </li>
+<li>Bowlings  </li>
+<li>Patinoires extérieures  </li>
+<li>Piscines extérieures  </li>
+<li>Patinoires couvertes  </li>
+<li>Piscines couvertes  </li>
+<li>Manèges  </li>
+<li>Hangars à bateaux  </li>
+<li>Installations de tir  </li>
+<li>Centres de loisirs  </li>
+<li>Maisons de jeunes  </li>
+<li>Parcs  </li>
+<li>Aires de jeux  </li>
+<li>Jardins zoologiques  </li>
+<li>Jardins botaniques  </li>
+<li>Bâtiments pour animaux  </li>
+<li>Serres</li>
+</ul>
+<hr>
+<h2>2 Travail <em>(services et fonctions publiques)</em></h2>
+<ul>
+<li>Maisons de soins  </li>
+<li>Établissements médico-sociaux  </li>
+<li>Foyers pour enfants  </li>
+<li>Foyers pour jeunes  </li>
+<li>Blanchisseries centrales  </li>
+<li>Refuges pour animaux  </li>
+<li>Cabinets vétérinaires  </li>
+<li>Cliniques vétérinaires  </li>
+<li>Bâtiments commerciaux sans aménagement de base  </li>
+<li>Bâtiments commerciaux avec aménagement de base  </li>
+<li>Grands magasins  </li>
+<li>Centres commerciaux  </li>
+<li>Halles de marché  </li>
+<li>Bureaux simples  </li>
+<li>Bureaux à exigences élevées  </li>
+<li>Bâtiments administratifs  </li>
+<li>Banques  </li>
+<li>Bâtiments communaux  </li>
+<li>Mairies  </li>
+<li>Tribunaux  </li>
+<li>Bâtiments de police  </li>
+<li>Centres de détention  </li>
+<li>Établissements pénitentiaires  </li>
+<li>Crèches  </li>
+<li>Ateliers protégés  </li>
+<li>Églises  </li>
+<li>Chapelles  </li>
+<li>Salles funéraires  </li>
+<li>Centres paroissiaux  </li>
+<li>Infrastructures de cimetière  </li>
+<li>Crématoriums  </li>
+<li>Monastères  </li>
+<li>Institutions sociales  </li>
+<li>Maisons associatives  </li>
+<li>Centres culturels  </li>
+<li>Salles de fête  </li>
+<li>Restaurants  </li>
+<li>Hôtels  </li>
+<li>Motels  </li>
+<li>Hôtels (service limité)  </li>
+<li>Motels (service limité)  </li>
+<li>Cantines  </li>
+<li>Grandes cuisines indépendantes  </li>
+<li>Auberges  </li>
+<li>Auberges de jeunesse  </li>
+<li>Aires de service  </li>
+<li>Cafétérias  </li>
+<li>Salons de thé  </li>
+<li>Postes douaniers autoroutiers  </li>
+<li>Stations-service  </li>
+<li>Salles d’attente avec services  </li>
+<li>Postes de douane  </li>
+<li>Terminaux de bus  </li>
+<li>Gares  </li>
+<li>Bâtiments d’exploitation ferroviaire  </li>
+<li>Stations de téléphériques  </li>
+<li>Aéroports  </li>
+<li>Installations portuaires  </li>
+<li>Bâtiments postaux  </li>
+<li>Centrales téléphoniques  </li>
+<li>Centres logistiques postaux  </li>
+<li>Bâtiments de télécommunication  </li>
+<li>Centres de données  </li>
+<li>Casernes  </li>
+<li>Arsenaux  </li>
+<li>Installations de protection civile  </li>
+<li>Postes de commandement  </li>
+<li>Installations de préparation  </li>
+<li>Postes de secours  </li>
+<li>Centres médicaux  </li>
+<li>Blocs opératoires protégés  </li>
+<li>Hôpitaux d’urgence  </li>
+<li>Centres de formation de la protection civile  </li>
+<li>Casernes de pompiers</li>
+</ul>
+<hr>
+<h2>3 Production</h2>
+<ul>
+<li>Halls industriels  </li>
+<li>Bâtiments de production – industrie des matières premières  </li>
+<li>Bâtiments de production – industrie lourde  </li>
+<li>Bâtiments de production – construction mécanique  </li>
+<li>Bâtiments de production – industrie de précision  </li>
+<li>Bâtiments de production – industrie de transformation  </li>
+<li>Bâtiments de production – industrie alimentaire  </li>
+<li>Bâtiments d’exploitation  </li>
+<li>Bâtiments artisanaux  </li>
+<li>Ateliers  </li>
+<li>Écuries  </li>
+<li>Installations agricoles  </li>
+<li>Abattoirs  </li>
+<li>Centrales de chauffage  </li>
+<li>Réseaux de chauffage à distance  </li>
+<li>Centrales électriques  </li>
+<li>Stations de traitement de l’eau  </li>
+<li>Stations d’épuration  </li>
+<li>Usines d’incinération  </li>
+<li>Dépôts de carburant</li>
+</ul>
+<hr>
+<h2>4 Stocker <em>(stockage, distribution, stationnement)</em></h2>
+<ul>
+<li>Entrepôts  </li>
+<li>Entrepôts à plusieurs niveaux  </li>
+<li>Stockage mécanisé  </li>
+<li>Entrepôts frigorifiques  </li>
+<li>Silos  </li>
+<li>Centres de distribution (alimentaire)  </li>
+<li>Centres de distribution (non alimentaire)  </li>
+<li>Remises  </li>
+<li>Cabanes  </li>
+<li>Locaux de stockage de fourrage  </li>
+<li>Serres  </li>
+<li>Garages de plain-pied  </li>
+<li>Parkings souterrains  </li>
+<li>Parkings aériens  </li>
+<li>Bâtiments de trafic  </li>
+<li>Dépôts techniques  </li>
+<li>Dépôts ferroviaires  </li>
+<li>Dépôts de tramway  </li>
+<li>Zones piétonnes  </li>
+<li>Rues résidentielles</li>
+</ul>
+<hr>
+<h2>5 Enseigner et rechercher <em>(éducation, culture, recherche)</em></h2>
+<ul>
+<li>Crèches  </li>
+<li>Jardins d’enfants  </li>
+<li>Écoles primaires  </li>
+<li>Écoles secondaires  </li>
+<li>Écoles professionnelles  </li>
+<li>Écoles techniques  </li>
+<li>Collèges  </li>
+<li>Lycées  </li>
+<li>Écoles polyvalentes  </li>
+<li>Écoles spécialisées  </li>
+<li>Écoles thérapeutiques  </li>
+<li>Universités  </li>
+<li>Hautes écoles  </li>
+<li>Bibliothèques  </li>
+<li>Archives d’État  </li>
+<li>Instituts de recherche sans laboratoire  </li>
+<li>Instituts de recherche avec laboratoires  </li>
+<li>Bâtiments de laboratoires industriels  </li>
+<li>Bâtiments de laboratoires artisanaux  </li>
+<li>Salles d’exposition temporaires  </li>
+<li>Bâtiments d’exposition  </li>
+<li>Pavillons  </li>
+<li>Musées locaux  </li>
+<li>Galeries d’art  </li>
+<li>Musées  </li>
+<li>Petits théâtres  </li>
+<li>Salles de concert  </li>
+<li>Théâtres  </li>
+<li>Kiosques à musique  </li>
+<li>Cinémas  </li>
+<li>Discothèques  </li>
+<li>Salles de réunion  </li>
+<li>Centres de congrès  </li>
+<li>Studios de radio  </li>
+<li>Studios de télévision  </li>
+<li>Studios de cinéma</li>
+</ul>
+<hr>
+<h2>6 Soigner et accompagner</h2>
+<ul>
+<li>Cabinets médicaux  </li>
+<li>Centres médicaux  </li>
+<li>Hôpitaux  </li>
+<li>Bâtiments d’hospitalisation  </li>
+<li>Bâtiments de traitement  </li>
+<li>Centres hospitaliers universitaires  </li>
+<li>Établissements de soins  </li>
+<li>Centres de réadaptation  </li>
+<li>Sanatoriums  </li>
+<li>Centres thermaux  </li>
+<li>Instituts spécialisés</li>
+</ul>
+<hr>
+<h2>Problèmes typiques de classification</h2>
+<ul>
+<li><p><strong>« C’est un usage mixte, donc on choisit une seule catégorie »</strong><br>→ Décomposer les usages et les pondérer.</p>
+</li>
+<li><p><strong>« C’est du logement, mais très particulier »</strong><br>→ Conserver l’usage, refléter la différence via la <strong>complexité</strong>.</p>
+</li>
+<li><p><strong>« C’est petit, donc simple »</strong><br>→ Taille et usage sont des facteurs distincts. La complexité est évaluée séparément.</p>
+</li>
+</ul>
+<hr>
+<h2>Voir aussi</h2>
+<ul>
+<li><a href="project-section.html">Section Projet</a></li>
+<li><a href="quantity.html">Quantité / taille du projet</a></li>
+<li><a href="complexity.html">Dimensions de complexité</a></li>
+<li><a href="examples.html">Exemples</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

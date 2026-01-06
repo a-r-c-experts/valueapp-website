@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – quantity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Quantity and baseline effort</h1>
+<p>Quantity defines the <strong>scale of the project</strong>.<br>It is the primary driver of baseline effort in ValueApp.</p>
+<p>Everything else (complexity, adjustment factor) <strong>modifies</strong> this baseline.<br>Nothing replaces it.</p>
+<hr>
+<h2>What quantity means in ValueApp</h2>
+<p>In ValueApp, quantity represents:</p>
+<ul>
+<li>the <strong>size of what is being planned</strong>,</li>
+<li>expressed through a <strong>single, dominant quantity</strong>.</li>
+</ul>
+<p>It answers the question:</p>
+<blockquote>
+<p><em>“How much project is there?”</em></p>
+</blockquote>
+<p>Not:</p>
+<ul>
+<li>how difficult it is,</li>
+<li>how well organised it is,</li>
+<li>how ambitious the design is.</li>
+</ul>
+<p>Those are handled elsewhere.</p>
+<hr>
+<h2>Typical quantities used</h2>
+<p>Depending on project type, quantity is usually expressed as:</p>
+<ul>
+<li><p><strong>Gross floor area (GFA / BGF)</strong><br>Most common for buildings.</p>
+</li>
+<li><p><strong>Units</strong><br>For housing, rooms, or repetitive elements.</p>
+</li>
+<li><p><strong>Functional area</strong><br>When only part of a building is relevant.</p>
+</li>
+</ul>
+<p>The key rule is:</p>
+<blockquote>
+<p><strong>Use the quantity that best represents planning effort</strong>, not construction cost.</p>
+</blockquote>
+<hr>
+<h2>Why quantity matters so much</h2>
+<p>Quantity is the <strong>only factor that scales effort predictably</strong>.</p>
+<p>Doubling the quantity does not double effort linearly, but:</p>
+<ul>
+<li>it increases coordination,</li>
+<li>increases documentation,</li>
+<li>increases repetition with variation.</li>
+</ul>
+<p>ValueApp’s baseline curves are calibrated so that:</p>
+<ul>
+<li>small projects are not overestimated,</li>
+<li>large projects are not naïvely extrapolated.</li>
+</ul>
+<hr>
+<h2>How quantity affects results</h2>
+<p>Quantity:</p>
+<ul>
+<li>defines the <strong>baseline effort range</strong>,</li>
+<li>applies across all planning phases,</li>
+<li>interacts with complexity rather than replacing it.</li>
+</ul>
+<p>A larger quantity means:</p>
+<ul>
+<li>more drawings,</li>
+<li>more coordination cycles,</li>
+<li>more interfaces to manage.</li>
+</ul>
+<p>But quantity alone does <strong>not</strong> explain:</p>
+<ul>
+<li>why two projects of the same size differ significantly,</li>
+<li>why some small projects are disproportionately demanding.</li>
+</ul>
+<p>That is why complexity and adjustment factors exist.</p>
+<hr>
+<h2>Choosing the right quantity</h2>
+<p>When in doubt:</p>
+<ul>
+<li>Prefer <strong>slightly too simple</strong> over overly precise.</li>
+<li>Use <strong>one dominant quantity</strong>, not several.</li>
+<li>Avoid “optimised” quantities chosen to influence results.</li>
+</ul>
+<p>If the number feels debatable, document the assumption rather than refining it endlessly.</p>
+<p>Precision without clarity is not accuracy.</p>
+<hr>
+<h2>Where quantity appears in the app</h2>
+<p>You define quantity in:</p>
+<ul>
+<li><p><strong>Project setup</strong><br>As the first substantive input.</p>
+</li>
+<li><p><strong>Baseline calculation</strong><br>Where it anchors all further adjustments.</p>
+</li>
+<li><p><strong>Result summary</strong><br>Where it explains scale-related effort differences.</p>
+</li>
+</ul>
+<p>For a guided walkthrough, see:
+→ <a href="workflows.html#quantity">Workflow: defining quantity</a></p>
+<hr>
+<h2>Common mistakes to avoid</h2>
+<p>Do not:</p>
+<ul>
+<li>mix net and gross areas inconsistently,</li>
+<li>exclude “uncomfortable” parts of the project,</li>
+<li>change quantity late to correct an outcome.</li>
+</ul>
+<p>If changing quantity significantly alters the result, that is not a bug.<br>It means the project scope changed.</p>
+<hr>
+<h2>Optional visual reference</h2>
+<p>The relationship between quantity and baseline effort is <strong>non-linear</strong>:</p>
+<p><img src="wiki-assets/knowledge/quantity-baseline-curve.jpg" alt="Quantity vs baseline effort curve"></p>
+<p>The curve reflects:</p>
+<ul>
+<li>economies of repetition,</li>
+<li>increasing coordination load at scale.</li>
+</ul>
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a href="complexity.html">Complexity dimensions</a></li>
+<li><a href="adjustment-factor.html">Adjustment (leadership) factor</a></li>
+<li><a href="roles-and-services.html">Roles and services</a></li>
+<li><a href="output-interpretation.html">Interpreting results</a></li>
+<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

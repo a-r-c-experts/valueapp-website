@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – adjustment-factor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Adjustment factor (Leadership factor)</h1>
+<p>The adjustment factor reflects <strong>how demanding the project setup is beyond size and basic complexity</strong>.<br>It captures organisational, procedural, and coordination-related effort that cannot be derived from quantities alone.</p>
+<p>It does <strong>not</strong> reward ambition, quality, or design excellence.<br>It models <strong>management and leadership load</strong>.</p>
+<hr>
+<h2>What it is</h2>
+<p>The adjustment factor is a <strong>multiplicative modifier</strong> applied to the baseline effort calculated from quantity, use, and complexity.</p>
+<p>It represents the additional effort required to:</p>
+<ul>
+<li>coordinate multiple stakeholders,</li>
+<li>manage decision-making structures,</li>
+<li>handle process-related uncertainty,</li>
+<li>lead complex planning organisations.</li>
+</ul>
+<p>In short: it answers <em>“How hard is this project to lead?”</em>, not <em>“How good is the project?”</em>.</p>
+<hr>
+<h2>Why it exists in ValueApp</h2>
+<p>Projects with identical size and complexity can require very different effort because of:</p>
+<ul>
+<li>fragmented responsibilities,</li>
+<li>unclear decision authority,</li>
+<li>tight schedules with many interfaces,</li>
+<li>unstable client or user requirements.</li>
+</ul>
+<p>Without an adjustment factor, these differences would be invisible in the model and systematically underestimated.</p>
+<p>The adjustment factor exists to:</p>
+<ul>
+<li>make leadership effort explicit,</li>
+<li>prevent unrealistic baseline assumptions,</li>
+<li>allow transparent discussion of organisational risk.</li>
+</ul>
+<hr>
+<h2>What influences the adjustment factor</h2>
+<p>The factor is derived from a structured assessment of <strong>leadership and process conditions</strong>, typically including:</p>
+<ul>
+<li><p><strong>Organisational setup</strong><br>Number of parties, hierarchy, contractual structure.</p>
+</li>
+<li><p><strong>Decision-making clarity</strong><br>Clear authority vs. distributed or shifting responsibilities.</p>
+</li>
+<li><p><strong>Process stability</strong><br>Fixed scope and timeline vs. iterative or evolving processes.</p>
+</li>
+<li><p><strong>Coordination intensity</strong><br>Interfaces between disciplines, authorities, users, and external actors.</p>
+</li>
+</ul>
+<p>These inputs are assessed qualitatively and mapped to a calibrated adjustment range.</p>
+<p><img src="wiki-assets/knowledge/adjustment-factor-dimensions.png" alt="Adjustment factor input dimensions"></p>
+<hr>
+<h2>How it affects results</h2>
+<p>The adjustment factor:</p>
+<ul>
+<li>scales the total calculated effort,</li>
+<li>affects <strong>all phases</strong>, not just early design,</li>
+<li>widens effort ranges when uncertainty is high.</li>
+</ul>
+<p>A higher adjustment factor means:</p>
+<ul>
+<li>more coordination time,</li>
+<li>more meetings and alignment loops,</li>
+<li>higher management overhead.</li>
+</ul>
+<p>It does <strong>not</strong>:</p>
+<ul>
+<li>change the underlying scope of services,</li>
+<li>guarantee higher fees,</li>
+<li>replace professional judgement.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/adjustment-factor-impact.jpeg" alt="Effect of adjustment factor on effort range"></p>
+<hr>
+<h2>Where it appears in the app</h2>
+<p>You encounter the adjustment factor in:</p>
+<ul>
+<li><p><strong>Project setup</strong><br>As part of the organisational and process-related inputs.</p>
+</li>
+<li><p><strong>Service overview</strong><br>Where total hours are adjusted accordingly.</p>
+</li>
+<li><p><strong>Result summary</strong><br>Where its impact is visible in the effort range and total hours.</p>
+</li>
+</ul>
+<p>For a step-by-step walkthrough, see:
+→ <a href="workflows.html#organisational-setup">Workflow: defining organisational setup</a></p>
+<hr>
+<h2>How to use it responsibly</h2>
+<p>Use the adjustment factor to:</p>
+<ul>
+<li>discuss leadership effort early,</li>
+<li>explain differences between comparable projects,</li>
+<li>document assumptions transparently.</li>
+</ul>
+<p>Do <strong>not</strong> use it to:</p>
+<ul>
+<li>artificially inflate results,</li>
+<li>compensate for missing scope definition,</li>
+<li>argue precision where uncertainty remains high.</li>
+</ul>
+<p>If you feel tempted to “tune” the factor until the number looks right, that’s usually a sign that the project setup needs clarification instead.</p>
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a href="quantity.html">Quantity and baseline effort</a></li>
+<li><a href="complexity.html">Complexity dimensions</a></li>
+<li><a href="roles-and-services.html">Roles and services</a></li>
+<li><a href="output-interpretation.html">Interpreting results</a></li>
+<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

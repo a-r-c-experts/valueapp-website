@@ -87,6 +87,7 @@ It produces **ranges and distributions**, not a single “correct” number.
 **Related reading**
 - [How the app works](how-it-works.html) (method and logic)
 - [Definitions](definitions.html) (terms used in the UI)
+- [What ValueApp is – and what it is not](why-valueapp.html)
 
 ---
 
@@ -248,6 +249,9 @@ Specify the nature of the intervention.
 
 This step produces the **first effort forecast**.
 
+If you want the conceptual overview of the fields and logic in this step, see  
+→ [Project section](project-section.html)
+
 ---
 
 ### 2.1 Determining quantity
@@ -281,6 +285,7 @@ Define the scale of the project.
 
 **Related reading**
 - [Project section](project-section.html) (quantities and use categories)
+- [Quantity](quantity.html) (what counts, what doesn’t, and why)
 
 ---
 
@@ -311,8 +316,8 @@ Tell the app *what the project is used for*.
 **Why this matters**
 - The use mix selects the relevant base model(s) and changes the expected effort.
 
-Related reading:  
-[Building programs by use category](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
+**Related reading**
+- [Use categories](use-categories.html) (what counts as which use, with examples)
 
 ---
 
@@ -359,6 +364,8 @@ Justify why this project is easier or harder than a reference case.
 **Related reading**
 - [Definitions](definitions.html) (complexity, leadership framework)
 - [How the app works](how-it-works.html) (how complexity influences the range)
+- [Complexity dimensions](complexity.html) (what each dimension actually means)
+- [Adjustment factor (Leadership factor)](adjustment-factor.html) (how complexity affects total effort)
 
 ---
 
@@ -424,6 +431,9 @@ Define contractual scope.
 - Choosing a broader role than you are contractually responsible for.
 - Forgetting that the output is for **basic services** by default.
 
+**Related reading**
+- [Roles and services](roles-and-services.html) (what roles include and exclude)
+
 ---
 
 ### 3.2 Focus topics
@@ -485,6 +495,7 @@ Understand and, if needed, adjust phase effort.
 
 **Related reading**
 - [Reference](reference.html) (phases and interpretation)
+- [Output interpretation](output-interpretation.html) (how to read hours, ranges, and phases)
 
 ---
 
@@ -547,6 +558,9 @@ Verify that the result matches your inputs.
 
 **Why this matters**
 - The summary is what you can share. If it’s unclear, the conversation will be unclear.
+
+**Before sharing**
+- [What ValueApp is – and what it is not](why-valueapp.html)
 
 ---
 
@@ -619,5 +633,5 @@ See also:
 - [How the app works](how-it-works.html)
 - [Reference](reference.html)
 - [Best practices](best-practices.html)
-- [Why ValueApp exists](why-valueapp.html)
+- [What ValueApp is – and what it is not](why-valueapp.html)
 - [Examples](examples.html)

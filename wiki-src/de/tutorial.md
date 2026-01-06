@@ -7,48 +7,48 @@ navKey: wiki.nav.tutorial
 # Tutorial – Schritt für Schritt durch die ValueApp
 
 Dieses Tutorial führt Sie anhand eines konkreten Beispielprojekts durch die ValueApp.  
-Im Fokus stehen **was Sie eingeben**, **warum es relevant ist** und **wie Sie das Resultat lesen und nutzen**.
+Der Fokus liegt auf **was Sie eingeben**, **warum es wichtig ist**, und **wie Sie das Ergebnis lesen und nutzen**.
 
-Das Tutorial spiegelt die Struktur der App und folgt derselben Reihenfolge, die Sie auch im Interface sehen.
+Das Tutorial spiegelt die reale Struktur der App und folgt derselben Reihenfolge, die Sie auch auf dem Bildschirm sehen.
 
-Wenn Sie beim Lesen konzeptionelle Hintergründe nachschlagen möchten, halten Sie  
+Wenn Sie während des Lesens konzeptionellen Hintergrund brauchen, halten Sie  
 [Definitions](definitions.html) oder [How the app works](how-it-works.html) in einem zweiten Tab offen.
 
 ---
 
 ## Auf einen Blick
 
-**Was Sie benötigen**
+**Was Sie brauchen**
 - eine grobe Projektidee (Grösse, Nutzung, Aufgabe),
-- eine ungefähre Menge (z. B. Bruttogeschossfläche),
-- ein Grundverständnis Ihrer Rolle im Projekt.
+- eine ungefähre Menge (z.B. Bruttogeschossfläche),
+- ein grundlegendes Verständnis Ihrer Rolle im Projekt.
 
-**Was Sie erhalten**
+**Was Sie bekommen**
 - eine nachvollziehbare Aufwandsbandbreite,
 - Stunden nach Phase und Disziplin,
 - ein einseitiges PDF für Offerten, Planung oder Beschaffung.
 
-**Dauer**
-- erste Schätzung: ca. 10–15 Minuten  
-- verfeinerte Version: abhängig davon, wie ehrlich Sie die Komplexität einschätzen
+**Zeitaufwand**
+- erste Schätzung: ~10–15 Minuten  
+- verfeinerte Version: hängt davon ab, wie ehrlich Sie mit Komplexität sind
 
 ---
 
 ## Die vier Hauptschritte
 
 1. **Projekt beschreiben (Description)**  
-   Projektidentität, Aufgabe, Standort und Organisationsform festlegen.
+   Projektidentität, Aufgabe, Ort und Organisationssetup definieren.
 
 2. **Menge, Nutzungen und Komplexität definieren (Project)**  
-   Bestimmende Menge erfassen, Nutzungsmix definieren, Komplexität und Risiko einschätzen.  
+   Bestimmende Menge erfassen, Nutzungsmix definieren, Komplexität und Risiko beurteilen.  
    Die App leitet daraus über das Leadership Framework einen Anpassungsfaktor ab.
 
 3. **Rolle und Leistungen definieren (Services)**  
-   Rolle wählen, Schwerpunktthemen setzen und die berechneten Stunden für  
-   **100 % Grundleistungen** inkl. Verteilung über die Planungsphasen prüfen.
+   Rolle wählen, Fokusthemen setzen und die berechneten Stunden für  
+   **100% Grundleistungen** prüfen, inkl. Verteilung über die Planungsphasen.
 
 4. **Zusammenfassung prüfen und exportieren (Summary)**  
-   One-Pager kontrollieren und für Dokumentation oder Offerten exportieren.
+   One-Pager prüfen und als Dokumentation oder Offerte exportieren.
 
 ![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
@@ -58,19 +58,19 @@ Wenn Sie beim Lesen konzeptionelle Hintergründe nachschlagen möchten, halten S
 
 ### Was die ValueApp macht
 
-Die ValueApp schätzt und dokumentiert den **Planungsaufwand**, indem sie kombiniert:
+Die ValueApp schätzt und dokumentiert **Planungsaufwand**, indem sie kombiniert:
 
 - quantitative Eingaben (Menge, Nutzungsmix),
 - qualitative Eingaben (Komplexität, Risiko),
 - organisatorischen Kontext,
-- Ihre Rolle und den Leistungsumfang.
+- Ihre Rolle und Ihren Leistungsumfang.
 
-Sie liefert **Bandbreiten und Verteilungen**, keine einzelne „richtige“ Zahl.
+Sie liefert **Bandbreiten und Verteilungen**, nicht eine einzelne «richtige» Zahl.
 
 ### Was die ValueApp *nicht* macht
 
 - Sie berechnet keine Honorare automatisch.
-- Sie ersetzt keine fachliche Beurteilung.
+- Sie ersetzt kein professionelles Urteil.
 - Sie garantiert keine Ergebnisse.
 
 ![ValueApp purpose overview](/wiki-assets/tutorial/intro-valueapp-purpose.jpeg)
@@ -80,25 +80,26 @@ Sie liefert **Bandbreiten und Verteilungen**, keine einzelne „richtige“ Zahl
   <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
+    Ihr Browser unterstützt das Video-Tag nicht.
   </video>
 </details>
 
 **Weiterführend**
 - [How the app works](how-it-works.html) (Methode und Logik)
-- [Definitions](definitions.html) (Begriffe aus der UI)
+- [Definitions](definitions.html) (Begriffe in der UI)
+- [What ValueApp is – and what it is not](why-valueapp.html)
 
 ---
 
 ### Standards und Regionen
 
-Die Beispiele verwenden **Schweizer Standards** (z. B. SIA-Phasen), da die zugrunde liegenden Daten aus diesem Kontext stammen.  
-Die **Methode ist grundsätzlich generisch** und international anwendbar.
+Die Beispiele verwenden **Schweizer Standards** (z.B. SIA-Phasen), weil die zugrunde liegenden Daten aus diesem Kontext stammen.  
+Die **Methode selbst ist generisch** und international anwendbar.
 
 Wenn Sie ausserhalb der Schweiz arbeiten:
-- betrachten Sie die Phasen als generische Planungsphasen,
-- fokussieren Sie auf **relative Verteilungen**, nicht auf die Bezeichnungen,
-- übernehmen Sie Struktur und Begründungslogik.
+- Phasen als generische Planungsphasen verstehen,
+- auf **relative Verteilungen** achten, nicht auf Labels,
+- Struktur und Begründung übernehmen.
 
 ---
 
@@ -108,25 +109,25 @@ Der Schritt **Description** dokumentiert den Projektkontext.
 Diese Informationen erscheinen in der Zusammenfassung und sollten mit Stakeholdern teilbar sein.
 
 > **Wichtig:**  
-> Kosteneingaben beeinflussen den Aufwand **nicht**.  
-> Organisation, Aufgabentyp und Leistungsumfang hingegen **schon**.
+> Kostenbezogene Eingaben beeinflussen den Aufwand **nicht**.  
+> Organisation, Aufgabenart und Umfang **schon**.
 
 ---
 
 ### 1.1 Projektdetails
 
 **Ziel**  
-Eine klare, gemeinsame Projektidentität festlegen.
+Eine klare, gemeinsame Projektidentität erstellen.
 
-**So gehen Sie vor**
+**Tun**
 - Projektname und Adresse erfassen.
-- Projektstatus auswählen.
-- Aufgabe wählen (z. B. Neubau oder Umbau).
-- Kurzbeschreibung verfassen (5–10 Zeilen).
+- Projektstatus wählen.
+- Aufgabe wählen (z.B. Neubau oder Umbau).
+- Kurze Projektbeschreibung schreiben (5–10 Zeilen).
 
 **Prüfen**
-- Die Beschreibung erklärt klar, *um welche Art Projekt es geht*.
-- Eine Drittperson versteht Kontext und Rahmenbedingungen.
+- Die Beschreibung erklärt klar, *um was für ein Projekt es geht*.
+- Eine Drittperson versteht den Kontext beim Lesen.
 
 ![Description – project details filled](/wiki-assets/tutorial/description-project-details.jpeg)
 
@@ -139,12 +140,12 @@ Eine klare, gemeinsame Projektidentität festlegen.
 </details>
 
 **Warum das wichtig ist**
-- Die Beschreibung ist das, was andere im exportierten Summary tatsächlich lesen.
-- Gute Beschreibungen reduzieren Rückfragen und verhindern Fehlinterpretationen.
+- Die Beschreibung ist das, was andere im exportierten Summary lesen.
+- Gute Beschreibungen reduzieren Rückfragen und Missverständnisse.
 
 **Häufige Fehler**
 - Marketingtext statt Umfang und Randbedingungen.
-- Beschreibung bleibt unverändert, obwohl sich das Projekt weiterentwickelt.
+- Beschreibung wird nicht angepasst, obwohl sich das Projekt weiterentwickelt.
 
 ---
 
@@ -153,12 +154,12 @@ Eine klare, gemeinsame Projektidentität festlegen.
 **Ziel**  
 Dokumentieren, wo das Projekt geplant ist.
 
-**So gehen Sie vor**
+**Tun**
 - Karte verschieben.
 - Projektstandort markieren.
 
 **Prüfen**
-- Der Marker sitzt korrekt.
+- Marker ist korrekt gesetzt.
 
 ![Description – location map](/wiki-assets/tutorial/description-location-map.jpeg)
 
@@ -171,21 +172,21 @@ Dokumentieren, wo das Projekt geplant ist.
 </details>
 
 > **Beeinflusst den Aufwand nicht**  
-> Standortstatistiken sind rein kontextuell.
+> Standortstatistiken dienen nur als Kontext.
 
 ---
 
-### 1.3 Organisationsform
+### 1.3 Organisationssetup
 
 **Ziel**  
-Festlegen, wie Verantwortlichkeiten strukturiert sind.
+Definieren, wie Verantwortlichkeiten strukturiert sind.
 
-**So gehen Sie vor**
-- Organisationsmodell auf **Planerseite** auswählen.
-- Organisationsmodell auf **Unternehmerseite** auswählen.
+**Tun**
+- Organisationsmodell auf der **Planerseite** wählen.
+- Organisationsmodell auf der **Unternehmerseite** wählen.
 
 **Prüfen**
-- Das Modell entspricht der vertraglichen Realität, nicht der Wunschvorstellung.
+- Auswahl entspricht der vertraglichen Realität, nicht Wunschdenken.
 
 ![Description – organisation setup](/wiki-assets/tutorial/description-organisation-setup.jpeg)
 
@@ -200,29 +201,29 @@ Festlegen, wie Verantwortlichkeiten strukturiert sind.
 </details>
 
 **Warum das wichtig ist**
-- Organisation beeinflusst **Phasenverantwortungen**.
-- Sie bestimmt, wie die Phasenprozente später zu interpretieren sind.
+- Organisation beeinflusst **Phasenverantwortung**.
+- Sie beeinflusst die **Interpretation** der Phasenprozente später.
 
 **Good practice**
-- Organisation früh klären.
-- Modell nicht mitten im Projekt ändern, ausser es ist wirklich nötig.
+- Organisation früh evaluieren.
+- Modell nicht mitten im Projekt wechseln, ausser es ist unvermeidbar.
 
 **Weiterführend**
-- [Reference](reference.html) (Interpretation der Phasenverteilungen)
+- [Reference](reference.html) (Phasenverteilungen interpretieren)
 
 ---
 
-### 1.4 Aufgabentyp: Neubau vs. Umbau
+### 1.4 Aufgabenart: Neubau vs. Umbau
 
 **Ziel**  
-Art des Eingriffs sauber festhalten.
+Art des Eingriffs festlegen.
 
-**So gehen Sie vor**
+**Tun**
 - *New build* oder *Refurbishment* wählen.
 - Falls vorhanden: Eingriffstiefe definieren.
 
 **Prüfen**
-- Die Auswahl entspricht dem tatsächlichen Umfang, nicht der Budget-Story.
+- Aufgabe entspricht dem realen Umfang, nicht der Budget-Erzählung.
 
 ![Description – task selection](/wiki-assets/tutorial/description-task-selection.jpeg)
 
@@ -235,32 +236,35 @@ Art des Eingriffs sauber festhalten.
 </details>
 
 > **Beeinflusst den Aufwand**  
-> Aufgabentyp und Eingriffstiefe wirken auf den Aufwand.  
+> Aufgabenart und Eingriffstiefe beeinflussen den Aufwand.  
 > Kostenfaktoren nicht.
 
 **Häufige Fehler**
-- *Refurbishment* „weil es ein Bestandsgebäude gibt“, obwohl der Umfang faktisch einem Neubau entspricht.
-- Eingriffstiefe zu tief ansetzen in frühen Phasen.
+- *Refurbishment* wählen «weil ein Gebäude existiert», obwohl der Umfang faktisch Neubau ist.
+- Eingriffstiefe in frühen Phasen zu tief ansetzen.
 
 ---
 
 ## Schritt 2 — Menge, Nutzungen und Komplexität definieren (Project)
 
-Dieser Schritt erzeugt die **erste Aufwandsschätzung**.
+Dieser Schritt liefert die **erste Aufwandsschätzung**.
+
+Wenn Sie den konzeptionellen Überblick über Felder und Logik möchten, siehe:  
+→ [Project section](project-section.html)
 
 ---
 
 ### 2.1 Bestimmende Menge
 
 **Ziel**  
-Projektgrösse festlegen.
+Projektgrösse definieren.
 
-**So gehen Sie vor**
-- Bruttogeschossfläche (oder relevante Einheit) grob erfassen.
-- Gesamtwerte verwenden, nicht pro Geschoss.
+**Tun**
+- Ungefähre Bruttogeschossfläche erfassen (oder relevante Einheit).
+- Gesamtwert erfassen, nicht pro Geschoss.
 
 **Prüfen**
-- Die Menge bildet das gesamte Projekt ab.
+- Menge umfasst das gesamte Projekt.
 
 ![Project – enter quantity](/wiki-assets/tutorial/project-enter-quantity.jpeg)
 
@@ -273,29 +277,30 @@ Projektgrösse festlegen.
 </details>
 
 **Warum das wichtig ist**
-- Die Menge ist der wichtigste Treiber für die initiale Bandbreite.
+- Das Basismodell nutzt die Menge als Haupttreiber der ersten Bandbreite.
 
 **Häufige Fehler**
-- Nettofläche statt Bruttogeschossfläche erfassen.
-- Untergeschosse oder Gemeinschaftsflächen vergessen.
+- Nettofläche statt Brutto erfassen.
+- Untergeschosse oder gemeinschaftliche Flächen vergessen.
 
 **Weiterführend**
 - [Project section](project-section.html) (Mengen und Nutzungskategorien)
+- [Quantity](quantity.html) (was zählt, was nicht, und warum)
 
 ---
 
 ### 2.2 Nutzungsmix
 
 **Ziel**  
-Der App mitteilen, wofür das Gebäude genutzt wird.
+Der App sagen, *wofür das Projekt genutzt wird*.
 
-**So gehen Sie vor**
+**Tun**
 - Mindestens eine Nutzung hinzufügen.
-- Prozente so vergeben, dass die Summe 100 % ergibt.
-- Nutzungen bei Bedarf umsortieren.
+- Prozente so setzen, dass total 100% ergibt.
+- Nutzungen bei Bedarf neu sortieren.
 
 **Prüfen**
-- Die Komplexitätssektion wird freigeschaltet.
+- Komplexitätsbereich wird freigeschaltet.
 - Ein min/m²-Wert erscheint.
 
 ![Use mix example](/wiki-assets/tutorial/project-use-mix.jpeg)
@@ -309,24 +314,24 @@ Der App mitteilen, wofür das Gebäude genutzt wird.
 </details>
 
 **Warum das wichtig ist**
-- Der Nutzungsmix wählt die relevanten Basismodelle und verändert den erwarteten Aufwand.
+- Der Nutzungsmix wählt die relevanten Basismodelle aus und verändert den erwarteten Aufwand.
 
-Related reading:  
-[Building programs by use category](https://www.value-app.com/wiki/en/project-section.html#building-programs-by-use-category)
+**Weiterführend**
+- [Use categories](use-categories.html) (welche Nutzung wofür steht, mit Beispielen)
 
 ---
 
-### 2.3 Komplexität
+### 2.3 Komplexitätsbeurteilung
 
 **Ziel**  
-Begründen, warum das Projekt einfacher oder anspruchsvoller ist als ein Referenzfall.
+Begründen, warum dieses Projekt einfacher oder anspruchsvoller ist als ein Referenzfall.
 
 **Was Komplexität ist**
-- Abbild von **Anforderungen und Vorgehen**, nicht nur „Design“.
-- Dokumentierte fachliche Einschätzung.
+- Abbild von **Anforderungen und Vorgehen**, nicht nur Ästhetik.
+- Möglichkeit, fachliches Urteil zu dokumentieren.
 
-**So gehen Sie vor**
-- Komplexität in vier Dimensionen einschätzen:
+**Tun**
+- Komplexität in vier Dimensionen beurteilen:
   - Design
   - Spatial
   - Technical
@@ -347,32 +352,34 @@ Begründen, warum das Projekt einfacher oder anspruchsvoller ist als ein Referen
 
 **Prüfen**
 - Der Anpassungsfaktor verändert sich.
-- Die Begründung ist gegenüber Bauherrschaft/Team plausibel erklärbar.
+- Die Begründung ist gegenüber Bauherrschaft erklärbar.
 
-**Beispiel**
-- Einfaches Wohnprojekt → überwiegend *simple/complicated*
+**Kurzbeispiele**
+- Einfaches Wohnprojekt → eher *simple/complicated*
 - Innenstadt-Spitalumbau → in mehreren Dimensionen *complex/unclear*
 
 **Häufiger Fehler**
-- Komplexität erhöhen, um „mehr Stunden“ zu erhalten.
+- Komplexität erhöhen, nur um «mehr Stunden» zu erhalten.
 
 **Weiterführend**
 - [Definitions](definitions.html) (Komplexität, Leadership Framework)
-- [How the app works](how-it-works.html) (Einfluss der Komplexität)
+- [How the app works](how-it-works.html) (wie Komplexität die Bandbreite beeinflusst)
+- [Complexity dimensions](complexity.html) (was die Dimensionen bedeuten)
+- [Adjustment factor (Leadership factor)](adjustment-factor.html) (wie Komplexität den Gesamtaufwand beeinflusst)
 
 ---
 
-### 2.4 Risiko
+### 2.4 Risikobeurteilung
 
 **Ziel**  
-Planungsunsicherheit sichtbar machen.
+Planungsunsicherheit abbilden.
 
-**So gehen Sie vor**
+**Tun**
 - Risikostufe wählen.
 - Begründung dokumentieren (wenn möglich).
 
 **Prüfen**
-- Risiko ist extern (Einsprachen, Unterbrüche), nicht intern („Designqualität“).
+- Risiko wirkt extern (Einsprachen, Unterbrüche), nicht intern (Designqualität).
 
 ![Project – risk assessment](/wiki-assets/tutorial/project-risk-assessment.jpeg)
 
@@ -385,7 +392,7 @@ Planungsunsicherheit sichtbar machen.
 </details>
 
 **Warum das wichtig ist**
-- Risiko dokumentiert Unsicherheit in frühen Phasen, wenn vieles noch offen ist.
+- Risiko dokumentiert Unsicherheit in frühen Phasen, wenn vieles noch nicht bekannt ist.
 
 **Weiterführend**
 - [Definitions](definitions.html) (Risiko)
@@ -402,10 +409,10 @@ Dieser Schritt passt den Aufwand an **Ihre Verantwortung** an.
 ### 3.1 Rolle wählen
 
 **Ziel**  
-Vertraglichen Leistungsumfang festlegen.
+Vertraglichen Leistungsumfang abbilden.
 
-**So gehen Sie vor**
-- Rolle auswählen (z. B. Architect, Architect & General Planner).
+**Tun**
+- Rolle wählen (z.B. Architect, Architect & General Planner).
 
 **Prüfen**
 - Rolle entspricht dem Vertrag, nicht der Ambition.
@@ -421,21 +428,24 @@ Vertraglichen Leistungsumfang festlegen.
 </details>
 
 **Häufige Fehler**
-- Zu breite Rolle wählen im Vergleich zum Vertrag.
-- Vergessen, dass das Resultat standardmässig **Grundleistungen** abbildet.
+- Breitere Rolle auswählen als vertraglich vereinbart.
+- Vergessen: Output ist standardmässig **Grundleistungen**.
+
+**Weiterführend**
+- [Roles and services](roles-and-services.html) (was Rollen beinhalten und ausschliessen)
 
 ---
 
-### 3.2 Schwerpunktthemen (Focus topics)
+### 3.2 Fokusthemen
 
 **Ziel**  
-Besondere Verantwortlichkeiten sichtbar machen.
+Spezielle Verantwortungen sichtbar machen.
 
-**So gehen Sie vor**
-- Relevante Focus topics auswählen.
+**Tun**
+- Relevante Fokusthemen wählen.
 
 **Prüfen**
-- Focus topics erklären Schwerpunktsetzung, nicht künstliche Umfangserhöhung.
+- Fokusthemen erklären Schwerpunkte, nicht «Scope aufblasen».
 
 ![Services – focus topics](/wiki-assets/tutorial/services-focus-topics.jpeg)
 
@@ -455,11 +465,11 @@ Besondere Verantwortlichkeiten sichtbar machen.
 ### 3.3 Stunden und Phasenverteilung
 
 **Ziel**  
-Phasenaufwand verstehen und bei Bedarf anpassen.
+Phasenverteilung verstehen und bei Bedarf anpassen.
 
-**So gehen Sie vor**
+**Tun**
 - Vorgeschlagene Phasenprozente prüfen.
-- Bei abweichender Leistungserbringung anpassen.
+- Anpassen, wenn Ihre Leistungserbringung vom Standard abweicht.
 
 **Prüfen**
 - Totalstunden bleiben konstant.
@@ -476,29 +486,30 @@ Phasenaufwand verstehen und bei Bedarf anpassen.
 </details>
 
 **Lesebeispiel**
-- Totalaufwand: 240 h  
-- Phase 3 mit 33 % → ca. 79 h  
-- Phase 5 mit 48 % → ca. 115 h
+- Gesamtaufwand: 240 h  
+- Phase 3 mit 33% → ~79 h  
+- Phase 5 mit 48% → ~115 h
 
 **Warum das wichtig ist**
-- Die Phasenverteilung beeinflusst Planung und Beschaffung, selbst wenn die Totalstunden gleich bleiben.
+- Phasenverteilung beeinflusst Planung und Beschaffung, auch wenn Totalstunden gleich bleiben.
 
 **Weiterführend**
 - [Reference](reference.html) (Phasen und Interpretation)
+- [Output interpretation](output-interpretation.html) (Stunden, Bandbreiten und Phasen lesen)
 
 ---
 
 ### 3.4 Projektspezifische und zusätzliche Leistungen
 
 **Ziel**  
-Abweichungen von den Grundleistungen dokumentieren.
+Abweichungen von Grundleistungen dokumentieren.
 
-**So gehen Sie vor**
+**Tun**
 - Subphasen bei Bedarf anpassen.
 - Zusätzliche Leistungen mit Beschreibung hinzufügen.
 
 **Prüfen**
-- Zusätzliche Leistungen sind klar beschrieben und nachvollziehbar.
+- Zusätzliche Leistungen sind explizit und nachvollziehbar.
 
 ![Services – additional services](/wiki-assets/tutorial/services-additional-services.jpeg)
 
@@ -511,11 +522,11 @@ Abweichungen von den Grundleistungen dokumentieren.
 </details>
 
 **Häufige Fehler**
-- Zusätzliche Leistungen ohne Beschreibung erfassen.
-- Zusätzliche Leistungen als Korrektur für fehlerhafte Eingaben zuvor verwenden (Menge/Nutzung/Komplexität).
+- Zusätzliche Leistungen ohne Beschreibung.
+- Zusätzliche Leistungen als Korrektur für schlechte Eingaben früher (Menge/Nutzung/Komplexität).
 
 **Weiterführend**
-- [Definitions](definitions.html) (Grundleistungen vs. Zusatzleistungen)
+- [Definitions](definitions.html) (Grundleistungen vs. zusätzliche Leistungen)
 
 ---
 
@@ -526,14 +537,14 @@ Abweichungen von den Grundleistungen dokumentieren.
 ### 4.1 One-Pager prüfen
 
 **Ziel**  
-Sicherstellen, dass das Resultat zu den Eingaben passt.
+Sicherstellen, dass Ergebnis und Eingaben zusammenpassen.
 
-**So gehen Sie vor**
-- Alle Abschnitte durchlesen.
-- Auf Widersprüche prüfen.
+**Tun**
+- Alle Bereiche durchlesen.
+- Auf Inkonsistenzen prüfen.
 
 **Prüfen**
-- Sie können jede Zahl erklären.
+- Jede Zahl ist erklärbar.
 
 ![Summary – review one-pager](/wiki-assets/tutorial/summary-review.jpeg)
 
@@ -546,21 +557,24 @@ Sicherstellen, dass das Resultat zu den Eingaben passt.
 </details>
 
 **Warum das wichtig ist**
-- Die Zusammenfassung ist das, was Sie weitergeben. Wenn sie unklar ist, wird das Gespräch unklar.
+- Das Summary ist das, was Sie teilen. Wenn es unklar ist, wird das Gespräch unklar.
+
+**Vor dem Teilen**
+- [What ValueApp is – and what it is not](why-valueapp.html)
 
 ---
 
-### 4.2 PDF exportieren und verwenden
+### 4.2 PDF exportieren und nutzen
 
 **Ziel**  
-Ein Dokument für die praktische Anwendung erstellen.
+Ein Dokument für die Praxis erstellen.
 
-**So gehen Sie vor**
+**Tun**
 - PDF exportieren.
-- PDF Offerten oder Beschaffungsunterlagen beilegen.
+- In Offerten oder Beschaffungsunterlagen beilegen.
 
 **Prüfen**
-- Das PDF erklärt die Annahmen, nicht nur die Zahlen.
+- PDF erklärt Annahmen, nicht nur Zahlen.
 
 ![Summary – export PDF](/wiki-assets/tutorial/summary-export-pdf.jpeg)
 
@@ -572,43 +586,43 @@ Ein Dokument für die praktische Anwendung erstellen.
   </video>
 </details>
 
-**Textbaustein für Offerten**
-> „Die vorgeschlagene Aufwandsbandbreite basiert auf Menge, Nutzungsmix, Komplexität, Risiko, Organisationsform und Leistungsumfang und ist in der beigefügten ValueApp-Zusammenfassung dokumentiert.“
+**Vorlagensatz für Offerten**
+> «Die vorgeschlagene Aufwandsbandbreite basiert auf Projektmenge, Nutzungsmix, Komplexität, Risiko, Organisationssetup und Leistungsumfang, dokumentiert im beigelegten ValueApp-Summary.»
 
 ---
 
-## 5 — Mini-Beispiel (Plausibilitätscheck)
+## 5 — Mini-Beispiel (Quick Sanity Check)
 
-Damit prüfen Sie schnell, ob das Resultat plausibel ist, bevor Sie es teilen.
+Nutzen Sie dies, um ein plausibles Ergebnis zu prüfen, bevor Sie es teilen.
 
 **Beispiel**
 - Projekttyp: Kindergarten (kleines Bildungsgebäude)
-- Menge: ca. 850 m² BGF
-- Nutzungsmix: 100 % Education
-- Komplexität: mittel (technisch + organisatorisch)
+- Menge: ~850 m² GF
+- Nutzungsmix: 100% Education
+- Komplexität: moderat (technisch + organisatorisch)
 - Risiko: mittel
 - Rolle: Architect
 
-**Was das Resultat meist am stärksten bewegt**
-- Nutzungsmix (Typologie),
-- Komplexität (v. a. organisatorisch),
+**Was das Ergebnis meist am stärksten bewegt**
+- Änderung des Nutzungsmix (Typologie),
+- Komplexitätsbeurteilung (v.a. organisatorisch),
 - Rolle und Phasenverteilung.
 
 ![Example – summary output](/wiki-assets/tutorial/example-summary-output.jpeg)
 
 Siehe auch:  
 [Examples](examples.html) (weitere Referenzprojekte) und  
-[Best practices](best-practices.html) (Annahmen für Bauherrschaften sauber dokumentieren).
+[Best practices](best-practices.html) (Annahmen für Bauherrschaften sauber dokumentieren)
 
 ---
 
-## Typische Probleme und Lösungen
+## Typische Probleme und wie man sie löst
 
-- **Komplexität ist gesperrt** → Keine Nutzung ausgewählt.
+- **Komplexität ist gesperrt** → Keine Nutzung gewählt.
 - **Zahlen wirken falsch** → Menge und Einheit prüfen.
 - **Phasen zeigen 0 Stunden** → Rolle und gewählte Phasen prüfen.
-- **Bauherrschaft stellt Resultat infrage** → Description und Komplexitätsbegründung überprüfen.
-- **Resultat wirkt „zu hoch/zu tief“** → Nutzungsmix, Komplexität und Rolle prüfen, bevor Zusatzleistungen ergänzt werden.
+- **Bauherrschaft stellt Ergebnis infrage** → Description und Komplexitätsbegründung prüfen.
+- **Ergebnis wirkt «zu hoch/zu tief»** → Nutzungsmix, Komplexität und Rolle prüfen, bevor Sie Zusatzleistungen hinzufügen.
 
 ---
 
@@ -619,5 +633,5 @@ Siehe auch:
 - [How the app works](how-it-works.html)
 - [Reference](reference.html)
 - [Best practices](best-practices.html)
-- [Why ValueApp exists](why-valueapp.html)
+- [What ValueApp is – and what it is not](why-valueapp.html)
 - [Examples](examples.html)

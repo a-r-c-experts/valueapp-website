@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – output-interpretation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Interpreting results</h1>
+<p>The results produced by ValueApp are <strong>decision-support information</strong>, not promises, guarantees, or contractual truths.</p>
+<p>They are meant to:</p>
+<ul>
+<li>support early discussions,</li>
+<li>create shared expectations,</li>
+<li>make assumptions explicit.</li>
+</ul>
+<p>They are <strong>not</strong> meant to replace professional judgement.</p>
+<hr>
+<h2>What the output represents</h2>
+<p>ValueApp outputs:</p>
+<ul>
+<li>an <strong>effort range</strong> (not a single number),</li>
+<li>broken down by <strong>planning phase</strong> and <strong>service scope</strong>.</li>
+</ul>
+<p>This range reflects:</p>
+<ul>
+<li>uncertainty in early project stages,</li>
+<li>variability in leadership and coordination effort,</li>
+<li>differences in process stability.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/output-effort-range.jpeg" alt="Effort range instead of a single value"></p>
+<p>If you are looking for precision, you are likely looking too early.</p>
+<hr>
+<h2>Why the result is a range</h2>
+<p>Planning effort cannot be calculated deterministically because:</p>
+<ul>
+<li>project requirements evolve,</li>
+<li>decisions are revisited,</li>
+<li>coordination intensity changes over time.</li>
+</ul>
+<p>The range expresses:</p>
+<ul>
+<li><strong>lower bound</strong>: optimistic, stable conditions,</li>
+<li><strong>upper bound</strong>: higher coordination and iteration load.</li>
+</ul>
+<p>The width of the range is as important as its absolute value.</p>
+<p>A narrow range usually indicates:</p>
+<ul>
+<li>a well-defined project setup.</li>
+</ul>
+<p>A wide range usually signals:</p>
+<ul>
+<li>unresolved organisational or procedural questions.</li>
+</ul>
+<hr>
+<h2>Phase-based effort distribution</h2>
+<p>The output shows how effort is distributed across planning phases.</p>
+<p>This helps to:</p>
+<ul>
+<li>understand <strong>when</strong> work happens,</li>
+<li>align staffing and cash flow expectations,</li>
+<li>compare projects structurally, not emotionally.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/output-phase-distribution.jpeg" alt="Effort distributed across phases"></p>
+<p>Important:</p>
+<ul>
+<li>Phase distributions are <strong>model-based</strong>, not schedules.</li>
+<li>They assume continuous progress, not stop-and-go reality.</li>
+</ul>
+<hr>
+<h2>Comparing results between projects</h2>
+<p>Two projects can:</p>
+<ul>
+<li>look similar in size,</li>
+<li>feel similar in ambition,</li>
+<li>but produce different outputs.</li>
+</ul>
+<p>Typical reasons include:</p>
+<ul>
+<li>different roles or service scopes,</li>
+<li>different organisational setups,</li>
+<li>different complexity or leadership factors.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/output-comparison-scenarios.jpeg" alt="Similar projects, different outcomes"></p>
+<p>Comparisons only make sense if:</p>
+<ul>
+<li>assumptions are aligned,</li>
+<li>roles and services are comparable,</li>
+<li>project maturity is similar.</li>
+</ul>
+<hr>
+<h2>What the output does <em>not</em> say</h2>
+<p>The results do <strong>not</strong>:</p>
+<ul>
+<li>define fees,</li>
+<li>guarantee workload,</li>
+<li>assign responsibility,</li>
+<li>replace contractual agreements.</li>
+</ul>
+<p>They also do <strong>not</strong>:</p>
+<ul>
+<li>validate underfunded projects,</li>
+<li>compensate for unclear scope,</li>
+<li>remove risk from planning.</li>
+</ul>
+<p>If a number feels “wrong”, inspect the assumptions before questioning the model.</p>
+<hr>
+<h2>Using the output responsibly</h2>
+<p>Good practice:</p>
+<ul>
+<li>communicate ranges, not just mid-values,</li>
+<li>document key assumptions alongside results,</li>
+<li>revisit calculations as the project evolves.</li>
+</ul>
+<p>Avoid:</p>
+<ul>
+<li>fixing numbers too early,</li>
+<li>presenting results as binding commitments,</li>
+<li>hiding uncertainty to appear precise.</li>
+</ul>
+<p>Precision is comforting. Transparency is useful.</p>
+<hr>
+<h2>Where to go next</h2>
+<ul>
+<li><a href="quantity.html">Quantity and baseline effort</a></li>
+<li><a href="complexity.html">Complexity dimensions</a></li>
+<li><a href="adjustment-factor.html">Adjustment (leadership) factor</a></li>
+<li><a href="roles-and-services.html">Roles and services</a></li>
+<li><a href="workflows.html">Workflows</a></li>
+<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

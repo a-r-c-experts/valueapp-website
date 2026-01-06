@@ -58,30 +58,122 @@
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
 <h1>Reference</h1>
-<p>This chapter is the <strong>lookup layer</strong>: precise, structured reference pages that are also suitable as a future knowledge base for search and chat assistants.</p>
+<p>This chapter is the <strong>lookup layer</strong>: concise, structured pages you can consult while working in the app.</p>
+<ul>
+<li><strong>Tutorial</strong> = step-by-step walkthrough  </li>
+<li><strong>Knowledge base</strong> = concepts and logic  </li>
+<li><strong>Reference</strong> = “what does this field mean” and “how do I read this output”</li>
+</ul>
+<p>If you are looking for click-by-click guidance, go to the <a href="tutorial.html">Tutorial</a> or <a href="workflows.html">Workflows</a>.</p>
+<hr>
+<h2>Quick lookup</h2>
+<p>Use this section when you just need the right page, quickly.</p>
+<h3>Project (quantity, uses, complexity)</h3>
+<ul>
+<li><p><strong>Quantity / determinant</strong> (what counts, units, typical mistakes)<br>→ <a href="quantity.html">Quantity</a></p>
+</li>
+<li><p><strong>Use categories</strong> (how to map real projects to “uses”)<br>→ <a href="use-categories.html">Use categories</a></p>
+</li>
+<li><p><strong>Project fields overview</strong> (how the Project tab works conceptually)<br>→ <a href="project-section.html">Project section</a></p>
+</li>
+<li><p><strong>Complexity dimensions</strong> (what “design/technical/spatial/organisational” actually means)<br>→ <a href="complexity.html">Complexity</a></p>
+</li>
+<li><p><strong>Adjustment / leadership factor</strong> (what it reflects and what it does not)<br>→ <a href="adjustment-factor.html">Adjustment factor</a></p>
+</li>
+</ul>
+<h3>Services (roles, phases, additional services)</h3>
+<ul>
+<li><strong>Roles and services</strong> (what the role selection changes, what basic services means)<br>→ <a href="roles-and-services.html">Roles and services</a></li>
+</ul>
+<h3>Results (hours, ranges, phase distributions)</h3>
+<ul>
+<li><strong>How to read results</strong> (hours, ranges, distributions, what not to claim)<br>→ <a href="output-interpretation.html">Output interpretation</a></li>
+</ul>
+<h3>Purpose and limits</h3>
+<ul>
+<li><strong>What ValueApp is (and is not)</strong> (avoid the “fee calculator” misunderstanding)<br>→ <a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+</ul>
+<hr>
+<h2>What belongs in Reference (and what does not)</h2>
+<p>Reference pages should be:</p>
+<ul>
+<li><strong>precise</strong> (one term = one meaning),</li>
+<li><strong>structured</strong> (so search and future assistants can retrieve it),</li>
+<li><strong>free of marketing language</strong>,</li>
+<li><strong>explicit about limits</strong> (what a field does <em>not</em> do).</li>
+</ul>
+<p>Reference pages should <em>not</em> try to be:</p>
+<ul>
+<li>a full theory chapter (that’s the <a href="knowledge-base.html">Knowledge base</a>),</li>
+<li>a workflow (that’s <a href="workflows.html">Workflows</a>),</li>
+<li>a pitch deck (that’s <a href="why-valueapp.html">Why ValueApp exists</a>).</li>
+</ul>
+<hr>
 <h2>Planned reference pages</h2>
+<p>These are the pages that should eventually live here. The titles are written so they can become individual markdown files later.</p>
 <h3>Inputs and parameters reference</h3>
+<p>Goal: explain every input field in the UI in a consistent structure.</p>
+<p>Recommended structure per field:</p>
 <ul>
-<li>Explanation of every field</li>
-<li>Thresholds and default assumptions</li>
+<li><strong>What it is</strong></li>
+<li><strong>Where it appears</strong> (tab/section)</li>
+<li><strong>What it influences</strong></li>
+<li><strong>Common mistakes</strong></li>
+<li><strong>Related concepts</strong> (links)</li>
 </ul>
+<p>Planned pages:</p>
+<ul>
+<li><strong>Description tab – fields and meaning</strong> (project identity, status, task, organisation)</li>
+<li><strong>Project tab – fields and meaning</strong> (quantity, use mix, complexity, risk)</li>
+<li><strong>Services tab – fields and meaning</strong> (role, focus topics, phase distribution, additional services)</li>
+</ul>
+<p>Until these exist, use:</p>
+<ul>
+<li><a href="project-section.html">Project section</a></li>
+<li><a href="roles-and-services.html">Roles and services</a></li>
+<li><a href="tutorial.html">Tutorial</a></li>
+</ul>
+<hr>
 <h3>Result interpretation reference</h3>
+<p>Goal: prevent misuse of the output and make “ranges” non-negotiable.</p>
+<p>Planned pages:</p>
 <ul>
-<li>What the results mean in practice</li>
-<li>What the results do <strong>not</strong> mean</li>
+<li><strong>Hours and ranges</strong> (what the range means, how to communicate it)</li>
+<li><strong>Phase distributions</strong> (what shifts mean, what stays constant)</li>
+<li><strong>min/m² and derived metrics</strong> (how to interpret and when not to use)</li>
+<li><strong>Comparisons across projects</strong> (what is comparable and what is not)</li>
 </ul>
+<p>Until these exist, use:</p>
+<ul>
+<li><a href="output-interpretation.html">Output interpretation</a></li>
+</ul>
+<hr>
 <h3>Integration and technical reference</h3>
+<p>Goal: everything needed to embed ValueApp as a widget.</p>
+<p>Planned pages:</p>
 <ul>
-<li>Widget embedding</li>
-<li>Data formats (metadata, callbacks, authentication)</li>
-<li>Summary of the example project from the integration repository</li>
+<li><strong>Widget embedding</strong> (where to place it, sizing, responsive constraints)</li>
+<li><strong>Data formats and callbacks</strong> (metadata, events, export)</li>
+<li><strong>Authentication / access patterns</strong> (if applicable)</li>
+<li><strong>Example implementation summary</strong> (based on the public integration repository)</li>
 </ul>
+<p>For now, the integration entry point is:</p>
+<ul>
+<li>Public integration repository: <a href="https://github.com/a-r-c-experts/core-value-integration">https://github.com/a-r-c-experts/core-value-integration</a></li>
+</ul>
+<hr>
 <h3>Versions and release notes</h3>
+<p>Goal: traceability for changes affecting results, UI, or assumptions.</p>
+<p>Planned pages:</p>
 <ul>
-<li>Chronological changes and improvements over time</li>
+<li><strong>Release notes</strong> (chronological, short, user-impact focused)</li>
+<li><strong>Model changes</strong> (when base models or calibration changed)</li>
+<li><strong>Known limitations</strong> (what’s intentionally not covered yet)</li>
 </ul>
+<hr>
 <h2>See also</h2>
 <ul>
+<li><a href="tutorial.html">Tutorial</a></li>
 <li><a href="workflows.html">Workflows</a></li>
 <li><a href="knowledge-base.html">Knowledge base</a></li>
 <li><a href="support.html">Support</a></li>

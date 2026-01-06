@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – roles-and-services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Rollen und Leistungen</h1>
+<p>Rollen und Leistungen definieren, <strong>welcher Teil der Planungsarbeit durch die Berechnung abgedeckt wird</strong>.</p>
+<p>Sie beschreiben nicht:</p>
+<ul>
+<li>persönliche Verantwortung,</li>
+<li>vertragliche Risiken,</li>
+<li>oder wer letztlich haftet.</li>
+</ul>
+<p>Sie beschreiben <strong>welche Leistungen im Aufwandsmodell enthalten sind</strong>.</p>
+<hr>
+<h2>Was «Rolle» in der ValueApp bedeutet</h2>
+<p>In der ValueApp steht eine Rolle für:</p>
+<ul>
+<li>die <strong>Planungsposition</strong>, die Sie im Projekt einnehmen,</li>
+<li>im Verhältnis zu anderen Planenden und zur Auftraggeberschaft.</li>
+</ul>
+<p>Sie beantwortet die Frage:</p>
+<blockquote>
+<p><em>«Aus welcher planerischen Perspektive wird dieser Aufwand berechnet?»</em></p>
+</blockquote>
+<p>Nicht:</p>
+<ul>
+<li>wer den Vertrag unterschreibt,</li>
+<li>wer versichert ist,</li>
+<li>oder wie das Team intern organisiert ist.</li>
+</ul>
+<hr>
+<h2>Typische Rollen</h2>
+<p>Je nach Setup kommen unter anderem folgende Rollen vor:</p>
+<ul>
+<li><p><strong>Architekt/in</strong><br>Planungsleistungen innerhalb der architektonischen Disziplin.</p>
+</li>
+<li><p><strong>Architekt/in als Generalplaner/in</strong><br>Architektonische Leistungen plus Koordination weiterer Fachplaner.</p>
+</li>
+<li><p><strong>Fachplaner/in</strong><br>Tragwerks-, Gebäudetechnik- oder spezialisierte Planungsrollen.</p>
+</li>
+<li><p><strong>Unterstützende Rolle</strong><br>Teilleistungen innerhalb einer grösseren Planungsorganisation.</p>
+</li>
+</ul>
+<p>Jede Rolle impliziert:</p>
+<ul>
+<li>einen anderen <strong>Leistungsumfang</strong>,</li>
+<li>einen anderen <strong>Koordinationsaufwand</strong>,</li>
+<li>eine andere Verteilung des Aufwands über die Phasen.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/roles-services-scope-overview.jpeg" alt="Rollenabhängiger Leistungsumfang"></p>
+<hr>
+<h2>Was «Leistungen» bedeuten</h2>
+<p>Leistungen definieren:</p>
+<ul>
+<li><strong>welche Planungsphasen enthalten sind</strong>,</li>
+<li><strong>welche Aufgaben auf hoher Ebene angenommen werden</strong>.</li>
+</ul>
+<p>Sie basieren auf:</p>
+<ul>
+<li>etablierten Leistungsmodellen (z.B. SIA, HOAI, OAI),</li>
+<li>übersetzt in eine <strong>generische, vergleichbare Struktur</strong>.</li>
+</ul>
+<p>Die ValueApp berechnet nicht:</p>
+<ul>
+<li>projektspezifische Aufgabenlisten,</li>
+<li>individuelle Ausschlüsse,</li>
+<li>vertragliche Sonderregelungen.</li>
+</ul>
+<p>Sie berechnet <strong>100 % der gewählten Grundleistungen</strong>.</p>
+<hr>
+<h2>Warum Rollen und Leistungen Teil des Modells sind</h2>
+<p>Zwei Projekte mit identischer Menge und Komplexität können sich stark unterscheiden, wenn:</p>
+<ul>
+<li>eine Rolle die Gesamtkoordination übernimmt,</li>
+<li>eine andere nur Teilleistungen erbringt.</li>
+</ul>
+<p>Ohne Rollen und Leistungen wären:</p>
+<ul>
+<li>Aufwandsvergleiche nicht sinnvoll,</li>
+<li>Führungsaufwand doppelt gezählt oder übersehen,</li>
+<li>Resultate inkonsistent.</li>
+</ul>
+<p>Rollen und Leistungen dienen dazu:</p>
+<ul>
+<li>Verantwortungsannahmen explizit zu machen,</li>
+<li>den Aufwand korrekt über Phasen zu verteilen,</li>
+<li>implizite Leistungsausweitungen zu vermeiden.</li>
+</ul>
+<hr>
+<h2>Wie sie die Resultate beeinflussen</h2>
+<p>Rollen und Leistungen beeinflussen:</p>
+<ul>
+<li><p><strong>Gesamtaufwand</strong><br>Über den enthaltenen Leistungsumfang.</p>
+</li>
+<li><p><strong>Phasenverteilung</strong><br>Frühe vs. späte Planungsphasen.</p>
+</li>
+<li><p><strong>Koordinationsaufwand</strong><br>Insbesondere bei Generalplanerrollen.</p>
+</li>
+</ul>
+<p>Sie verändern <strong>nicht</strong>:</p>
+<ul>
+<li>die zugrunde liegende Menge,</li>
+<li>die Komplexitätsbewertung,</li>
+<li>ausserordentliche Zusatzleistungen.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/roles-services-phase-distribution.jpeg" alt="Einfluss der Rolle auf die Phasenverteilung"></p>
+<p>Wenn Ihr Leistungsumfang deutlich von Standardleistungen abweicht, dokumentieren Sie dies ausserhalb der App.</p>
+<hr>
+<h2>Wo Rollen und Leistungen in der App erscheinen</h2>
+<p>Sie definieren diese in:</p>
+<ul>
+<li><p><strong>Leistungsauswahl</strong><br>Auswahl von Rolle und Leistungsumfang.</p>
+</li>
+<li><p><strong>Phasenübersicht</strong><br>Darstellung des Aufwands pro Phase.</p>
+</li>
+<li><p><strong>Resultatzusammenfassung</strong><br>Klärung, was die berechneten Stunden tatsächlich abdecken.</p>
+</li>
+</ul>
+<p>Für eine geführte Anleitung siehe:<br>→ <a href="workflows.html#roles-and-services">Workflow: Rollen und Leistungen definieren</a></p>
+<hr>
+<h2>Rollen verantwortungsvoll verwenden</h2>
+<p>Gute Praxis:</p>
+<ul>
+<li>wählen Sie die Rolle, die Ihrer <strong>realen Planungsposition</strong> entspricht,</li>
+<li>nutzen Sie Standardleistungen als Basis,</li>
+<li>erläutern Sie Abweichungen transparent.</li>
+</ul>
+<p>Vermeiden Sie:</p>
+<ul>
+<li>breitere Rollen zur «Absicherung von Unsicherheit»,</li>
+<li>künstliche Leistungsreduktion zur Zahlenglättung,</li>
+<li>Vermischung interner Organisation mit Leistungsumfang.</li>
+</ul>
+<p>Wenn sich die Rollenwahl unangenehm anfühlt, ist meist die Projektdefinition unklar – nicht die Berechnung falsch.</p>
+<hr>
+<h2>Siehe auch</h2>
+<ul>
+<li><a href="quantity.html">Menge und Basisaufwand</a></li>
+<li><a href="complexity.html">Komplexitätsdimensionen</a></li>
+<li><a href="adjustment-factor.html">Adjustment / Leadership Factor</a></li>
+<li><a href="output-interpretation.html">Resultate interpretieren</a></li>
+<li><a href="why-valueapp.html">Was ValueApp ist – und was nicht</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

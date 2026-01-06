@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – output-interpretation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Ergebnisse interpretieren</h1>
+<p>Die von der ValueApp erzeugten Resultate sind <strong>Entscheidungsunterstützung</strong>, keine Versprechen, Garantien oder vertraglichen Wahrheiten.</p>
+<p>Sie dienen dazu:</p>
+<ul>
+<li>frühe Diskussionen zu strukturieren,</li>
+<li>gemeinsame Erwartungen zu schaffen,</li>
+<li>Annahmen transparent zu machen.</li>
+</ul>
+<p>Sie ersetzen <strong>keine</strong> fachliche Beurteilung.</p>
+<hr>
+<h2>Was das Resultat darstellt</h2>
+<p>Die ValueApp gibt aus:</p>
+<ul>
+<li>einen <strong>Aufwandsbereich</strong> (keine einzelne Zahl),</li>
+<li>aufgeteilt nach <strong>Planungsphasen</strong> und <strong>Leistungsumfang</strong>.</li>
+</ul>
+<p>Dieser Bereich berücksichtigt:</p>
+<ul>
+<li>Unsicherheit in frühen Projektphasen,</li>
+<li>Unterschiede im Führungs- und Koordinationsaufwand,</li>
+<li>unterschiedliche Prozessstabilität.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/output-effort-range.jpeg" alt="Aufwandsbereich statt Einzelwert"></p>
+<p>Wenn Sie Präzision erwarten, sind Sie meist zu früh im Projekt.</p>
+<hr>
+<h2>Warum das Resultat ein Bereich ist</h2>
+<p>Planungsaufwand ist nicht deterministisch berechenbar, weil:</p>
+<ul>
+<li>Anforderungen sich verändern,</li>
+<li>Entscheide revidiert werden,</li>
+<li>Koordinationsintensität schwankt.</li>
+</ul>
+<p>Der Bereich bedeutet:</p>
+<ul>
+<li><strong>untere Grenze</strong>: stabile, günstige Rahmenbedingungen,</li>
+<li><strong>obere Grenze</strong>: erhöhter Koordinations- und Iterationsaufwand.</li>
+</ul>
+<p>Die Breite des Bereichs ist genauso relevant wie sein Mittelwert.</p>
+<p>Ein enger Bereich deutet meist auf:</p>
+<ul>
+<li>eine klar definierte Projektanlage hin.</li>
+</ul>
+<p>Ein weiter Bereich weist oft auf:</p>
+<ul>
+<li>offene organisatorische oder prozessuale Fragen.</li>
+</ul>
+<hr>
+<h2>Phasenbezogene Aufwandsverteilung</h2>
+<p>Die Resultate zeigen, wie sich der Aufwand über die Planungsphasen verteilt.</p>
+<p>Das hilft:</p>
+<ul>
+<li>den <strong>Zeitpunkt</strong> der Leistungserbringung zu verstehen,</li>
+<li>Ressourcen- und Liquiditätsplanung abzustimmen,</li>
+<li>Projekte strukturell statt emotional zu vergleichen.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/output-phase-distribution.jpeg" alt="Aufwand nach Phasen verteilt"></p>
+<p>Wichtig:</p>
+<ul>
+<li>Phasenverteilungen sind <strong>modellbasiert</strong>, keine Terminpläne.</li>
+<li>Sie gehen von kontinuierlichem Fortschritt aus, nicht von realen Unterbrüchen.</li>
+</ul>
+<hr>
+<h2>Vergleich von Projekten</h2>
+<p>Zwei Projekte können:</p>
+<ul>
+<li>ähnlich gross sein,</li>
+<li>ähnlich ambitioniert wirken,</li>
+<li>aber unterschiedliche Resultate liefern.</li>
+</ul>
+<p>Typische Gründe:</p>
+<ul>
+<li>unterschiedliche Rollen oder Leistungsumfänge,</li>
+<li>unterschiedliche Organisationsformen,</li>
+<li>unterschiedliche Komplexitäts- oder Führungsfaktoren.</li>
+</ul>
+<p><img src="wiki-assets/knowledge/output-comparison-scenarios.jpeg" alt="Ähnliche Projekte, unterschiedliche Resultate"></p>
+<p>Vergleiche sind nur sinnvoll, wenn:</p>
+<ul>
+<li>Annahmen vergleichbar sind,</li>
+<li>Rollen und Leistungen übereinstimmen,</li>
+<li>die Projektphase ähnlich ist.</li>
+</ul>
+<hr>
+<h2>Was das Resultat <em>nicht</em> aussagt</h2>
+<p>Die Resultate:</p>
+<ul>
+<li>definieren keine Honorare,</li>
+<li>garantieren keinen Arbeitsaufwand,</li>
+<li>ersetzen keine Verträge,</li>
+<li>weisen keine Verantwortung zu.</li>
+</ul>
+<p>Sie:</p>
+<ul>
+<li>legitimieren keine Unterfinanzierung,</li>
+<li>kompensieren keine unklare Aufgabenstellung,</li>
+<li>eliminieren kein Projektrisiko.</li>
+</ul>
+<p>Wenn ein Wert „falsch“ wirkt, prüfen Sie zuerst die Annahmen.</p>
+<hr>
+<h2>Verantwortungsvolle Nutzung der Resultate</h2>
+<p>Gute Praxis:</p>
+<ul>
+<li>Bereiche kommunizieren, nicht nur Mittelwerte,</li>
+<li>zentrale Annahmen dokumentieren,</li>
+<li>Berechnungen im Projektverlauf aktualisieren.</li>
+</ul>
+<p>Vermeiden Sie:</p>
+<ul>
+<li>zu frühe Fixierung auf Zahlen,</li>
+<li>Darstellung als verbindliche Zusage,</li>
+<li>Verschleierung von Unsicherheit zugunsten scheinbarer Genauigkeit.</li>
+</ul>
+<p>Präzision beruhigt. Transparenz hilft.</p>
+<hr>
+<h2>Weiterführend</h2>
+<ul>
+<li><a href="quantity.html">Quantity und Basisaufwand</a></li>
+<li><a href="complexity.html">Komplexitätsdimensionen</a></li>
+<li><a href="adjustment-factor.html">Adjustment / Leadership Factor</a></li>
+<li><a href="roles-and-services.html">Rollen und Leistungen</a></li>
+<li><a href="workflows.html">Workflows</a></li>
+<li><a href="why-valueapp.html">Was ValueApp ist – und was nicht</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

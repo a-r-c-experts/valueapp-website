@@ -3,52 +3,59 @@ i18nTitle: wiki.whyValueApp.title
 navKey: why-valueapp
 ---
 
-# Pourquoi la ValueApp existe
+# Pourquoi ValueApp existe
 
-Parce que « on pense que cela prendra environ X heures » n’est pas une documentation. Cette page explique quel problème la ValueApp cherche à résoudre et où elle se situe (et ne se situe pas) dans la pratique quotidienne de la planification.
+Parce que « on a l’impression que cela prendra environ X heures » n’est pas une documentation.  
+Cette page explique quel problème ValueApp cherche à résoudre et où elle se situe – et ne se situe pas – dans la pratique quotidienne de la planification.
 
-## Le problème abordé
+## Le problème adressé
 
 L’effort de planification est bien réel, mais il est souvent communiqué à travers :
 
 - des hypothèses incohérentes,
-- des benchmarks flous,
+- des références floues,
 - des justifications a posteriori auxquelles personne ne fait vraiment confiance.
 
-La ValueApp fournit un **point de départ commun et transparent** : une estimation structurée basée sur des projets de référence, complétée par des ajustements explicites liés à la complexité et au contexte.
+ValueApp fournit un **point de départ commun et transparent** :  
+une estimation structurée basée sur des projets de référence, complétée par des ajustements explicites liés à la complexité et au contexte.
 
 ## Cas d’usage typiques
 
 ### Orientation en phase précoce
 
-Lorsque seules des quantités approximatives et une première compréhension du projet sont disponibles, l’application aide à définir une fourchette d’effort et à rendre les hypothèses explicites.
+Lorsque seules des quantités approximatives et une première compréhension du projet sont disponibles, l’application aide à établir une plage d’effort et à rendre les hypothèses explicites.
 
-### Communication avec les client·e·s et les équipes
+### Communication avec les maîtres d’ouvrage et les équipes
 
-Comme la logique est documentée (modèle de base, déterminant, facteurs d’ajustement), la discussion porte sur les moteurs de l’effort plutôt que sur des impressions subjectives.
+La logique étant documentée (modèles de base, déterminants, facteurs d’ajustement), il est possible de discuter des moteurs de l’effort plutôt que de débattre d’impressions subjectives.
 
 ### Contrôle interne et vérification de plausibilité
 
-Les équipes peuvent comparer des projets dans le temps, identifier des valeurs aberrantes et améliorer la cohérence interne.
+Les équipes peuvent comparer des projets dans le temps, identifier des valeurs atypiques et améliorer la cohérence de leurs évaluations.
 
 ## Ce que ce n’est pas
 
-- **Pas un outil de coûts** : elle n’estime pas les coûts de construction.
-- **Pas un calculateur d’honoraires** : elle ne produit pas un honoraire contractuel.
+- **Pas un outil de coûts** : il n’estime pas les coûts de construction.
+- **Pas un calculateur d’honoraires** : il ne produit pas de montant contractuel.
 - **Pas une machine à vérité automatique** : le résultat est une estimation structurée qui nécessite toujours un jugement professionnel.
+
+Pour les malentendus fréquents (et comment les corriger calmement), voir :  
+[Ce que ValueApp est – et ce qu’elle n’est pas](what-valueapp-is-not.html)
 
 ## Lien avec la méthode
 
-La ValueApp met en œuvre la ETH Value Method en reliant :
+ValueApp met en œuvre la méthode ETH Value en reliant :
 
 - des **modèles de base** (projets de référence),
 - des **déterminants** (quantités mesurables),
-- et des **facteurs d’ajustement** (complexité et contexte).
+- des **facteurs d’ajustement** (complexité et contexte).
 
-Pour comprendre comment l’application transforme les saisies en résultats, voir [Comment l’application fonctionne](how-it-works.html).
+Pour comprendre « comment l’application transforme les entrées en résultats », voir :  
+[Comment fonctionne l’application](how-it-works.html)
 
 ## Voir aussi
-- [Comment l’application fonctionne](how-it-works.html)
+- [Ce que ValueApp est – et ce qu’elle n’est pas](what-valueapp-is-not.html)
+- [Comment fonctionne l’application](how-it-works.html)
 - [Définitions et concepts clés](definitions.html)
 - [Exemples](examples.html)
 - [Section Projet](project-section.html)

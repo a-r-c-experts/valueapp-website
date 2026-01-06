@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – use-categories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Use categories (building programs)</h1>
+<p>Use categories define <strong>what kind of project you are planning</strong>.<br>They determine which <strong>reference models</strong> are used as the baseline for effort estimation.</p>
+<p>The ValueApp does not treat “use” as a label.<br>It treats use as a <strong>proxy for typical requirements, coordination effort, and planning intensity</strong>.</p>
+<p>This page explains how use categories work and provides practical examples for mapping real projects to the model structure.</p>
+<hr>
+<h2>What a use category does</h2>
+<p>A use category:</p>
+<ul>
+<li>selects one or more <strong>base models</strong>,</li>
+<li>defines a typical <strong>effort per unit</strong> range,</li>
+<li>influences how complexity and adjustment factors act on the result.</li>
+</ul>
+<p>If a project combines multiple uses, the ValueApp creates a <strong>weighted combination</strong> of the corresponding models.</p>
+<hr>
+<h2>How to use this list</h2>
+<p>Use the categories as <strong>orientation</strong>, not as a rigid taxonomy.</p>
+<p>Good practice:</p>
+<ul>
+<li>choose the category that best reflects <strong>planning effort</strong>, not marketing language,</li>
+<li>prefer the <strong>dominant functional requirement</strong> over minor secondary uses,</li>
+<li>split mixed-use projects into several uses and assign percentages.</li>
+</ul>
+<p>If in doubt, compare your case with:
+→ <a href="examples.html">Examples</a></p>
+<hr>
+<h2>1 Housing <em>(Residence, sports and leisure)</em></h2>
+<ul>
+<li>Temporary housing  </li>
+<li>Multi-family houses  </li>
+<li>Terrace houses  </li>
+<li>Weekend houses  </li>
+<li>Condominiums  </li>
+<li>Single-family houses  </li>
+<li>Vacation homes  </li>
+<li>Senior housing  </li>
+<li>Retirement communities  </li>
+<li>Student dormitories  </li>
+<li>Apprentice dormitories  </li>
+<li>Mountain lodges  </li>
+<li>Campsites  </li>
+<li>Club huts  </li>
+<li>Gymnasiums  </li>
+<li>Sports halls  </li>
+<li>Multipurpose halls  </li>
+<li>Stadium facilities  </li>
+<li>Sports fields  </li>
+<li>Grandstand buildings  </li>
+<li>Locker-room buildings  </li>
+<li>Bowling alleys  </li>
+<li>Open-air ice rinks  </li>
+<li>Outdoor swimming pools  </li>
+<li>Indoor ice rinks  </li>
+<li>Indoor swimming pools  </li>
+<li>Riding halls  </li>
+<li>Boathouses  </li>
+<li>Shooting ranges  </li>
+<li>Recreation centers  </li>
+<li>Youth centers  </li>
+<li>Parks  </li>
+<li>Playgrounds  </li>
+<li>Zoological gardens  </li>
+<li>Botanical gardens  </li>
+<li>Animal houses  </li>
+<li>Greenhouses</li>
+</ul>
+<hr>
+<h2>2 Working <em>(Services and public functions)</em></h2>
+<ul>
+<li>Nursing homes  </li>
+<li>Care homes  </li>
+<li>Children’s homes  </li>
+<li>Youth homes  </li>
+<li>Central laundries  </li>
+<li>Animal shelters  </li>
+<li>Veterinary stations  </li>
+<li>Animal hospitals  </li>
+<li>Retail buildings without basic fit-out  </li>
+<li>Retail buildings with basic fit-out  </li>
+<li>Department stores  </li>
+<li>Shopping centers  </li>
+<li>Market halls  </li>
+<li>Simple office buildings  </li>
+<li>Office buildings with higher requirements  </li>
+<li>Administrative buildings  </li>
+<li>Banks  </li>
+<li>Municipal buildings  </li>
+<li>Town halls  </li>
+<li>Courthouses  </li>
+<li>Police operational buildings  </li>
+<li>Detention centers  </li>
+<li>Correctional facilities  </li>
+<li>Daycare homes  </li>
+<li>Sheltered workshops  </li>
+<li>Churches  </li>
+<li>Chapels  </li>
+<li>Funeral halls  </li>
+<li>Parish community centers  </li>
+<li>Cemetery facilities  </li>
+<li>Crematoriums  </li>
+<li>Monasteries  </li>
+<li>Welfare houses  </li>
+<li>Clubhouses  </li>
+<li>Cultural centers  </li>
+<li>Festival halls  </li>
+<li>Restaurants  </li>
+<li>Hotels  </li>
+<li>Motels  </li>
+<li>Hotels (limited service)  </li>
+<li>Motels (limited service)  </li>
+<li>Canteens  </li>
+<li>Independent large kitchens  </li>
+<li>Inns  </li>
+<li>Youth hostels  </li>
+<li>Service stations  </li>
+<li>Cafeterias  </li>
+<li>Tea rooms  </li>
+<li>Motorway customs stations  </li>
+<li>Gas stations  </li>
+<li>Waiting halls with service rooms  </li>
+<li>Customs posts  </li>
+<li>Bus terminals  </li>
+<li>Train stations  </li>
+<li>Railway operation buildings  </li>
+<li>Cable car stations  </li>
+<li>Airports  </li>
+<li>Harbor facilities  </li>
+<li>Post office buildings  </li>
+<li>Telephone exchange buildings  </li>
+<li>Postal operations buildings  </li>
+<li>Telecommunications buildings  </li>
+<li>Data centers  </li>
+<li>Barracks  </li>
+<li>Armories  </li>
+<li>Public civil defense facilities  </li>
+<li>Command posts  </li>
+<li>Staging facilities  </li>
+<li>First aid posts  </li>
+<li>Medical aid centers  </li>
+<li>Protected operating rooms  </li>
+<li>Emergency hospitals  </li>
+<li>Civil defense training centers  </li>
+<li>Fire stations</li>
+</ul>
+<hr>
+<h3>3 Manufacturing</h3>
+<ul>
+<li>Industrial halls  </li>
+<li>Production buildings for raw materials industry  </li>
+<li>Production buildings for heavy industry  </li>
+<li>Production buildings for mechanical industry  </li>
+<li>Production buildings for precision engineering  </li>
+<li>Production buildings for processing industry  </li>
+<li>Production buildings for food industry  </li>
+<li>Operational buildings  </li>
+<li>Commercial buildings  </li>
+<li>Workshops  </li>
+<li>Stables  </li>
+<li>Agricultural production facilities  </li>
+<li>Slaughterhouses  </li>
+<li>Heating plants  </li>
+<li>District heating systems  </li>
+<li>Power plant buildings  </li>
+<li>Water treatment plants  </li>
+<li>Wastewater treatment plants  </li>
+<li>Waste incineration plants  </li>
+<li>Fuel storage facilities</li>
+</ul>
+<hr>
+<h2>4 Storing <em>(Storage and distribution, parking)</em></h2>
+<ul>
+<li>Storage halls  </li>
+<li>Multi-story storage buildings  </li>
+<li>Mechanized storage  </li>
+<li>Cold storage  </li>
+<li>Silo buildings  </li>
+<li>Distribution centers (food)  </li>
+<li>Distribution centers (non-food)  </li>
+<li>Sheds  </li>
+<li>Huts  </li>
+<li>Feed storage rooms  </li>
+<li>Greenhouses  </li>
+<li>Single-story garages  </li>
+<li>Underground parking garages  </li>
+<li>Above-ground parking structures  </li>
+<li>Road traffic buildings  </li>
+<li>Works yards  </li>
+<li>Railway depots  </li>
+<li>Tram depots  </li>
+<li>Pedestrian zones  </li>
+<li>Residential streets</li>
+</ul>
+<hr>
+<h2>5 Educating and Researching <em>(Education, teaching, culture, research)</em></h2>
+<ul>
+<li>Daycare centers  </li>
+<li>Kindergartens  </li>
+<li>Primary schools  </li>
+<li>Secondary schools  </li>
+<li>Vocational schools  </li>
+<li>Advanced technical schools  </li>
+<li>Middle schools  </li>
+<li>High schools  </li>
+<li>Comprehensive schools  </li>
+<li>Special education schools  </li>
+<li>Remedial schools  </li>
+<li>Universities  </li>
+<li>Higher education institutions  </li>
+<li>Libraries  </li>
+<li>State archives  </li>
+<li>Research institutes without laboratories  </li>
+<li>Research institutes with laboratories  </li>
+<li>Laboratory buildings for industry  </li>
+<li>Laboratory buildings for trade  </li>
+<li>Temporary exhibition halls  </li>
+<li>Exhibition buildings  </li>
+<li>Pavilions  </li>
+<li>Local museums  </li>
+<li>Art galleries  </li>
+<li>Museums  </li>
+<li>Small theaters  </li>
+<li>Concert halls  </li>
+<li>Theater buildings  </li>
+<li>Bandstands  </li>
+<li>Cinemas  </li>
+<li>Discotheques  </li>
+<li>Assembly halls  </li>
+<li>Convention centers  </li>
+<li>Radio studios  </li>
+<li>Television studios  </li>
+<li>Film studios</li>
+</ul>
+<hr>
+<h2>6 Healing and Nursing</h2>
+<ul>
+<li>Doctor’s offices  </li>
+<li>Medical centers  </li>
+<li>Hospitals  </li>
+<li>Bed wings  </li>
+<li>Treatment wings  </li>
+<li>University clinics  </li>
+<li>Nursing homes  </li>
+<li>Rehabilitation centers  </li>
+<li>Sanatoriums  </li>
+<li>Spas  </li>
+<li>Specialized institutes</li>
+</ul>
+<hr>
+<h2>Typical mapping problems</h2>
+<ul>
+<li><p><strong>“It’s mixed-use, so we pick one category”</strong><br>→ Split uses and assign percentages.</p>
+</li>
+<li><p><strong>“It’s housing, but very special”</strong><br>→ Keep the use, reflect the difference in <strong>complexity</strong>, not by changing the category.</p>
+</li>
+<li><p><strong>“It’s small, so it’s simple”</strong><br>→ Size and use are different drivers. Complexity is assessed separately.</p>
+</li>
+</ul>
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a href="project-section.html">Project section</a></li>
+<li><a href="quantity.html">Quantity / project size</a></li>
+<li><a href="complexity.html">Complexity dimensions</a></li>
+<li><a href="examples.html">Examples</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>
