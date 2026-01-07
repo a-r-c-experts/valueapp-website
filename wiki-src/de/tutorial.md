@@ -181,8 +181,6 @@ Definieren, wie Verantwortlichkeiten strukturiert sind.
 
 ![Description – organisation setup](/wiki-assets/tutorial/description-organisation-setup.jpeg)
 
-![Organisation setup options](/wiki-assets/tutorial/description-organisation-options.jpeg)
-
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
   <summary><strong> Kurzen Clip ansehen</strong></summary>
