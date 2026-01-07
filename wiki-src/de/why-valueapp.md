@@ -7,59 +7,61 @@ navKey: wiki.nav.whyValueApp
 
 ## Das Problem in der Praxis
 
-Planungsaufwand wird in frühen Phasen oft mit zu wenig belastbaren Grundlagen diskutiert:
+Der Planungsaufwand wird in frühen Phasen häufig auf einer zu wenig belastbaren Grundlage diskutiert:
 
-- Baukosten sind noch unsicher, trotzdem soll ein Aufwand „irgendwie“ hergeleitet werden.
-- Vergleichsprojekte existieren, aber sie sind selten sauber dokumentiert oder direkt vergleichbar.
-- Komplexität wird gefühlt statt strukturiert beschrieben (und später wundert man sich über Abweichungen).
-- Kommunikation zwischen Auftraggebenden, Planungsteams und internen Stellen bleibt vage.
+- Die Baukosten sind noch unsicher, trotzdem soll der Aufwand «irgendwie» hergeleitet werden.
+- Vergleichsprojekte existieren, sind jedoch selten sauber dokumentiert oder direkt vergleichbar.
+- Komplexität wird eher gefühlt als strukturiert beschrieben (und später wundert man sich über Abweichungen).
+- Die Kommunikation zwischen Auftraggebenden, Planungsteams und internen Stellen bleibt oft unklar.
 
-Das führt zu klassischen Folgen: Fehlannahmen, Reibungsverluste, schlechte Erwartungssteuerung und unnötige Iterationsschleifen.
+Die typischen Folgen sind Fehlannahmen, Reibungsverluste, mangelhafte Erwartungssteuerung und unnötige Iterationsschlaufen.
 
 ## Was die ValueApp anders macht
 
-Die ValueApp verbindet die ETH Value Method mit einer klaren Nutzerführung. Sie basiert auf:
+Die ValueApp verbindet die ETH Value Method mit einer klaren, geführten Anwendung. Sie basiert auf:
 
 1. **Messbaren Determinanten**  
-   Statt „Kosten“ stehen Größen wie m² Bruttogeschossfläche im Mittelpunkt.
+   Anstelle von «Kosten» stehen Grössen wie die Bruttogeschossfläche in m² im Zentrum.
 
 2. **Referenzbasierten Grundmodellen**  
-   Aufwandbereiche werden aus realisierten Projekten abgeleitet (mit Bandbreiten statt Scheingenauigkeit).
+   Aufwandsbereiche werden aus realisierten Projekten abgeleitet – bewusst mit Bandbreiten statt Scheingenauigkeit.
 
-3. **Strukturierter Komplexitätsbeschreibung**  
-   Komplexität wird in Dimensionen beschrieben (Gestaltung, Technik, Raum, Organisation) und über das Leadership Framework systematisiert.
+3. **Strukturierter Beschreibung der Komplexität**  
+   Komplexität wird entlang klarer Dimensionen beschrieben (Gestaltung, Technik, Raum, Organisation) und über das Leadership Framework systematisiert.
 
 4. **Transparenter Dokumentation**  
-   Eingaben, Annahmen und Resultate werden so dargestellt, dass sie kommunizierbar und prüfbar sind.
+   Eingaben, Annahmen und Resultate werden so dargestellt, dass sie nachvollziehbar, kommunizierbar und prüfbar sind.
 
 ## Typische Anwendungsfälle
 
-- **Frühe Projektphasen:** Aufwandbandbreiten für Entscheidungs- und Angebotsprozesse
-- **Plausibilisierung:** Vergleich zwischen Projekten, Varianten, Nutzungsmix
+- **Frühe Projektphasen:** Abschätzung von Aufwandsbandbreiten für Entscheidungs- und Angebotsprozesse
+- **Plausibilisierung:** Vergleich zwischen Projekten, Varianten oder Nutzungsmixen
 - **Kommunikation:** Gemeinsame Sprache für Komplexität und Erwartungssteuerung
-- **Interne Steuerung:** grobe Kapazitäts- und Phasenplanung (je nach Organisation)
+- **Interne Steuerung:** Grobe Kapazitäts- und Phasenplanung (organisationsabhängig)
 
-## Abgrenzung zu Kosten- oder Honorar-Tools
+## Abgrenzung zu Kosten- oder Honorartools
 
-Die ValueApp ist kein Kosten- und kein Honorarrechner.
+Die ValueApp ist weder ein Kosten- noch ein Honorartool.
 
-- **Kosten-/Honorar-Tools**: meist „Kosten → Honorar“, stark abhängig von Kostenkennwerten und Projektdefinition  
-- **ValueApp**: „Determinante + Referenzdaten + Komplexität → Aufwand (h)“, mit Fokus auf Transparenz und Plausibilität
+- **Kosten-/Honorartools**: meist «Kosten → Honorar», stark abhängig von Kennwerten und dem Detaillierungsgrad der Projektdefinition  
+- **ValueApp**: «Determinante + Referenzdaten + Komplexität → Aufwand (h)», mit Fokus auf Transparenz und Plausibilität
 
-Das bedeutet: Die ValueApp kann eine Honorarverhandlung unterstützen, ersetzt aber nicht Leistungsdefinitionen, Vertragslogik oder projektspezifische Abgrenzungen.
+Das bedeutet: Die ValueApp kann Honorarverhandlungen unterstützen, ersetzt jedoch keine Leistungsdefinitionen, Vertragslogiken oder projektspezifischen Abgrenzungen.
 
 ## Warum Bandbreiten wichtig sind
 
-In frühen Phasen ist „eine Zahl“ fast immer eine Falle.  
-Bandbreiten helfen, Unsicherheit sichtbar zu machen, statt sie zu verstecken.
+In frühen Phasen ist «eine Zahl» fast immer eine Falle.  
+Bandbreiten machen Unsicherheit sichtbar, anstatt sie zu kaschieren.
 
-Die App zielt daher auf:
+Die App zielt deshalb auf:
 - nachvollziehbare Intervalle
 - vergleichbare Kennwerte
 - dokumentierte Annahmen
 
-## Weiterführende Seiten
+## Siehe auch
 
-- **Wie die App funktioniert:** Datenfluss und Logik: [how-it-works.html](how-it-works.html)  
-- **Erste Schritte:** Einstieg in den Workflow: [getting-started.html](getting-started.html)  
-- **FAQ:** typische Fragen aus der Praxis: [faq.html](faq.html)
+- [Menge und Basisaufwand](quantity.html)
+- [Komplexitätsdimensionen](complexity.html)
+- [Adjustment / Leadership Factor](adjustment-factor.html)
+- [Resultate interpretieren](output-interpretation.html)
+- [Was ValueApp ist – und was nicht](what-valueapp-is-not.html)

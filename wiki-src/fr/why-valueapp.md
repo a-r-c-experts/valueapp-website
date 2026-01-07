@@ -1,62 +1,67 @@
 ---
 i18nTitle: wiki.whyValueApp.title
-navKey: why-valueapp
+navKey: wiki.nav.whyValueApp
 ---
 
-# Pourquoi ValueApp existe
+# Pourquoi la ValueApp existe
 
-Parce que « on a l’impression que cela prendra environ X heures » n’est pas une documentation.  
-Cette page explique quel problème ValueApp cherche à résoudre et où elle se situe – et ne se situe pas – dans la pratique quotidienne de la planification.
+## Le problème dans la pratique
 
-## Le problème adressé
+Dans les phases initiales, l’effort de planification est souvent discuté sur des bases peu solides :
 
-L’effort de planification est bien réel, mais il est souvent communiqué à travers :
+- Les coûts de construction sont encore incertains, mais un effort doit tout de même être « estimé ».
+- Des projets de référence existent, mais ils sont rarement bien documentés ou directement comparables.
+- La complexité est décrite de manière intuitive plutôt que structurée (et l’on s’étonne ensuite des écarts).
+- La communication entre maîtres d’ouvrage, équipes de planification et instances internes reste floue.
 
-- des hypothèses incohérentes,
-- des références floues,
-- des justifications a posteriori auxquelles personne ne fait vraiment confiance.
+Il en résulte des hypothèses erronées, des frictions, une mauvaise gestion des attentes et des boucles d’itération inutiles.
 
-ValueApp fournit un **point de départ commun et transparent** :  
-une estimation structurée basée sur des projets de référence, complétée par des ajustements explicites liés à la complexité et au contexte.
+## Ce que la ValueApp fait différemment
+
+La ValueApp combine la ETH Value Method avec une interface guidée et claire. Elle repose sur :
+
+1. **Des déterminants mesurables**  
+   Au lieu des « coûts », des grandeurs telles que la surface brute de plancher (m²) sont au centre.
+
+2. **Des modèles de base fondés sur des références**  
+   Les plages d’effort sont dérivées de projets réalisés, avec des intervalles plutôt qu’une fausse précision.
+
+3. **Une description structurée de la complexité**  
+   La complexité est décrite selon des dimensions distinctes (conception, technique, spatial, organisation) et systématisée via le Leadership Framework.
+
+4. **Une documentation transparente**  
+   Les saisies, hypothèses et résultats sont présentés de manière compréhensible, communicable et vérifiable.
 
 ## Cas d’usage typiques
 
-### Orientation en phase précoce
+- **Phases initiales du projet :** Estimation de plages d’effort pour les décisions et les offres
+- **Plausibilisation :** Comparaison entre projets, variantes ou mix d’usages
+- **Communication :** Langage commun pour la complexité et la gestion des attentes
+- **Pilotage interne :** Planification grossière des capacités et des phases (selon l’organisation)
 
-Lorsque seules des quantités approximatives et une première compréhension du projet sont disponibles, l’application aide à établir une plage d’effort et à rendre les hypothèses explicites.
+## Délimitation par rapport aux outils de coûts ou d’honoraires
 
-### Communication avec les maîtres d’ouvrage et les équipes
+La ValueApp n’est ni un outil de coûts ni un calculateur d’honoraires.
 
-La logique étant documentée (modèles de base, déterminants, facteurs d’ajustement), il est possible de discuter des moteurs de l’effort plutôt que de débattre d’impressions subjectives.
+- **Outils de coûts/honoraires** : généralement « coûts → honoraires », fortement dépendants d’indicateurs de coûts et du niveau de définition du projet  
+- **ValueApp** : « déterminant + données de référence + complexité → effort (h) », avec un accent sur la transparence et la plausibilité
 
-### Contrôle interne et vérification de plausibilité
+Cela signifie que la ValueApp peut soutenir une négociation d’honoraires, mais ne remplace ni la définition des prestations, ni la logique contractuelle, ni les délimitations spécifiques au projet.
 
-Les équipes peuvent comparer des projets dans le temps, identifier des valeurs atypiques et améliorer la cohérence de leurs évaluations.
+## Pourquoi les plages sont importantes
 
-## Ce que ce n’est pas
+Dans les phases précoces, « un chiffre unique » est presque toujours trompeur.  
+Les plages rendent l’incertitude visible au lieu de la dissimuler.
 
-- **Pas un outil de coûts** : il n’estime pas les coûts de construction.
-- **Pas un calculateur d’honoraires** : il ne produit pas de montant contractuel.
-- **Pas une machine à vérité automatique** : le résultat est une estimation structurée qui nécessite toujours un jugement professionnel.
-
-Pour les malentendus fréquents (et comment les corriger calmement), voir :  
-[Ce que ValueApp est – et ce qu’elle n’est pas](what-valueapp-is-not.html)
-
-## Lien avec la méthode
-
-ValueApp met en œuvre la méthode ETH Value en reliant :
-
-- des **modèles de base** (projets de référence),
-- des **déterminants** (quantités mesurables),
-- des **facteurs d’ajustement** (complexité et contexte).
-
-Pour comprendre « comment l’application transforme les entrées en résultats », voir :  
-[Comment fonctionne l’application](how-it-works.html)
+L’application vise donc :
+- des intervalles compréhensibles
+- des valeurs de référence comparables
+- des hypothèses documentées
 
 ## Voir aussi
-- [Ce que ValueApp est – et ce qu’elle n’est pas](what-valueapp-is-not.html)
-- [Comment fonctionne l’application](how-it-works.html)
-- [Définitions et concepts clés](definitions.html)
-- [Exemples](examples.html)
-- [Section Projet](project-section.html)
-- [Tutoriel](tutorial.html)
+
+- [Quantité et effort de base](quantity.html)
+- [Dimensions de la complexité](complexity.html)
+- [Adjustment / Leadership Factor](adjustment-factor.html)
+- [Interpréter les résultats](output-interpretation.html)
+- [Ce qu’est la ValueApp – et ce qu’elle n’est pas](what-valueapp-is-not.html)

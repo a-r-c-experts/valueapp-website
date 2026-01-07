@@ -1,62 +1,67 @@
 ---
 i18nTitle: wiki.whyValueApp.title
-navKey: why-valueapp
+navKey: wiki.nav.whyValueApp
 ---
 
-# Warum ValueApp existiert
+# Why the ValueApp exists
 
-Weil «wir haben das Gefühl, das dauert etwa X Stunden» keine Dokumentation ist.  
-Diese Seite erklärt, welches Problem die ValueApp adressiert und wo sie sich in der täglichen Planungspraxis einordnet – und wo bewusst nicht.
+## The problem in practice
 
-## Das zugrunde liegende Problem
+In early project phases, planning effort is often discussed on an insufficiently robust basis:
 
-Planungsaufwand ist real, wird aber häufig kommuniziert über:
+- Construction costs are still uncertain, yet an effort estimate is expected “somehow”.
+- Reference projects exist, but are rarely well documented or directly comparable.
+- Complexity is described intuitively rather than in a structured way (and later the deviations come as a surprise).
+- Communication between clients, planning teams, and internal stakeholders remains vague.
 
-- inkonsistente Annahmen,
-- vage Vergleichswerte,
-- nachträgliche Begründungen, denen niemand wirklich vertraut.
+The typical consequences are flawed assumptions, friction, poor expectation management, and unnecessary iteration loops.
 
-Die ValueApp bietet einen **gemeinsamen, transparenten Ausgangspunkt**:  
-eine strukturierte Aufwandsabschätzung auf Basis von Referenzprojekten, ergänzt durch explizite Anpassungen für Komplexität und Kontext.
+## What the ValueApp does differently
 
-## Typische Anwendungsfälle
+The ValueApp combines the ETH Value Method with a clear, guided user experience. It is based on:
 
-### Orientierung in frühen Projektphasen
+1. **Measurable determinants**  
+   Instead of “cost”, quantities such as gross floor area (m²) are the primary drivers.
 
-Wenn nur grobe Mengen und ein erstes Projektverständnis vorliegen, hilft die App, eine Aufwandsbandbreite zu bestimmen und Annahmen sichtbar zu machen.
+2. **Reference-based base models**  
+   Effort ranges are derived from realised projects, deliberately using ranges instead of false precision.
 
-### Kommunikation mit Bauherrschaften und Teams
+3. **Structured description of complexity**  
+   Complexity is described across distinct dimensions (design, technical, spatial, organisational) and systematised through the Leadership Framework.
 
-Da die Logik dokumentiert ist (Basismodell, Determinante, Anpassungsfaktoren), können die Treiber des Aufwands diskutiert werden – statt über Bauchgefühle zu streiten.
+4. **Transparent documentation**  
+   Inputs, assumptions, and results are presented in a way that makes them traceable, communicable, and reviewable.
 
-### Internes Controlling und Plausibilitätsprüfungen
+## Typical use cases
 
-Teams können Projekte über die Zeit vergleichen, Ausreisser erkennen und die Konsistenz ihrer Einschätzungen verbessern.
+- **Early project phases:** Effort ranges for decision-making and proposal processes
+- **Plausibility checks:** Comparison between projects, variants, or use mixes
+- **Communication:** A shared language for complexity and expectation management
+- **Internal steering:** Rough capacity and phase planning (depending on the organisation)
 
-## Was sie nicht ist
+## Delimitation from cost or fee tools
 
-- **Kein Kostentool**: Es werden keine Baukosten berechnet.
-- **Kein Honorarrechner**: Es wird kein vertragliches Honorar ausgegeben.
-- **Keine automatische Wahrheitsmaschine**: Das Ergebnis ist eine strukturierte Schätzung, die weiterhin fachliche Beurteilung benötigt.
+The ValueApp is neither a cost tool nor a fee calculator.
 
-Zu häufigen Missverständnissen (und wie man sie sachlich entkräftet), siehe:  
-[Was ValueApp ist – und was nicht](what-valueapp-is-not.html)
+- **Cost/fee tools:** typically “cost → fee”, highly dependent on cost benchmarks and project definition  
+- **ValueApp:** “determinant + reference data + complexity → effort (h)”, with a focus on transparency and plausibility
 
-## Einordnung in die Methode
+This means the ValueApp can support fee discussions, but it does not replace service definitions, contractual logic, or project-specific delineations.
 
-Die ValueApp operationalisiert die ETH-Value-Methode, indem sie verbindet:
+## Why ranges matter
 
-- **Basismodelle** (Referenzprojekte),
-- **Determinanten** (messbare Grössen),
-- **Anpassungsfaktoren** (Komplexität und Kontext).
+In early phases, “a single number” is almost always a trap.  
+Ranges make uncertainty visible instead of hiding it.
 
-Für die Sicht «wie die App aus Eingaben Ergebnisse erzeugt», siehe:  
-[Wie die App funktioniert](how-it-works.html)
+The app therefore aims for:
+- traceable intervals
+- comparable reference values
+- documented assumptions
 
-## Siehe auch
-- [Was ValueApp ist – und was nicht](what-valueapp-is-not.html)
-- [Wie die App funktioniert](how-it-works.html)
-- [Begriffe und Grundkonzepte](definitions.html)
-- [Beispiele](examples.html)
-- [Projektbereich](project-section.html)
-- [Tutorial](tutorial.html)
+## See also
+
+- [Quantity and base effort](quantity.html)
+- [Complexity dimensions](complexity.html)
+- [Adjustment / Leadership Factor](adjustment-factor.html)
+- [Interpreting results](output-interpretation.html)
+- [What ValueApp is – and what it is not](what-valueapp-is-not.html)

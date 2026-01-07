@@ -145,6 +145,7 @@ Wenn sich ein Ergebnis unbequem anfühlt, ist das oft eine wichtige Information.
 ## Einordnung im Gesamtzusammenhang
 
 - [Ergebnisse interpretieren](output-interpretation.html)
+- [Warum es die ValueApp gibt](why-valueapp.html)
 - [Anpassungs- / Führungsfaktor](adjustment-factor.html)
 - [Komplexitätsdimensionen](complexity.html)
 - [Rollen und Leistungen](roles-and-services.html)

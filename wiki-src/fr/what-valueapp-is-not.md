@@ -145,6 +145,7 @@ Un résultat inconfortable est souvent instructif.
 ## Mise en perspective
 
 - [Interpréter les résultats](output-interpretation.html)
+- [Pourquoi la ValueApp existe](why-valueapp.html)
 - [Facteur d’ajustement / de pilotage](adjustment-factor.html)
 - [Dimensions de complexité](complexity.html)
 - [Rôles et prestations](roles-and-services.html)

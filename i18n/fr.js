@@ -878,5 +878,6 @@ export const contentFr = {
   "wiki.home.link.examples": "Exemples – scénarios réalistes et études de cas",
   "wiki.home.link.support": "Support – FAQ, glossaire, aide et bonnes pratiques",
   "wiki.home.link.tutorial": "Tutoriel – pas à pas dans ValueApp",
-  "wiki.home.cta.tutorial": "Aller au tutoriel"
+  "wiki.home.cta.tutorial": "Aller au tutoriel",
+  "wiki.home.section.whatNot.link": "Ce que ValueApp est – et ce qu’elle n’est pas"
 };

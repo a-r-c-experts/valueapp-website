@@ -238,7 +238,7 @@
     },
     "titleKey": "wiki.whatValueAppIsNot.title",
     "navKey": "what-valueapp-is-not",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-01-07",
     "searchable": true
   },
   {
@@ -250,7 +250,7 @@
     },
     "titleKey": "wiki.whyValueApp.title",
     "navKey": "wiki.nav.whyValueApp",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-01-07",
     "searchable": true
   },
   {

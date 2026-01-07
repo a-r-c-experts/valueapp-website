@@ -145,6 +145,7 @@ If the output feels uncomfortable, that discomfort is usually informative.
 ## Where this fits in the bigger picture
 
 - [Interpreting results](output-interpretation.html)
+- [Why the ValueApp exists](why-valueapp.html)
 - [Adjustment (leadership) factor](adjustment-factor.html)
 - [Complexity dimensions](complexity.html)
 - [Roles and services](roles-and-services.html)
