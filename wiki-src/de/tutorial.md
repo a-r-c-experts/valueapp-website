@@ -94,9 +94,9 @@ Wenn Sie ausserhalb der Schweiz arbeiten:
 
 ---
 
-## Schritt 1 — Projekt beschreiben (Description)
+## Schritt 1 — Projekt beschreiben
 
-Der Schritt **Description** dokumentiert den Projektkontext.  
+Der Schritt **Beschrieb** dokumentiert den Projektkontext.  
 Diese Informationen erscheinen in der Zusammenfassung und sollten mit Stakeholdern teilbar sein.
 
 > **Wichtig:**  
@@ -234,7 +234,7 @@ Art des Eingriffs festlegen.
 
 ---
 
-## Schritt 2 — Menge, Nutzungen und Komplexität definieren (Project)
+## Schritt 2 — Menge, Nutzungen und Komplexität definieren
 
 Dieser Schritt liefert die **erste Aufwandsschätzung**.
 
@@ -436,7 +436,7 @@ Planungsunsicherheit abbilden.
 
 ---
 
-## Schritt 3 — Rolle und Leistungen definieren (Services)
+## Schritt 3 — Leistungen definieren
 
 Dieser Schritt passt den Aufwand an **Ihre Verantwortung** an.
 
@@ -566,7 +566,7 @@ Abweichungen von Grundleistungen dokumentieren.
 
 ---
 
-## Schritt 4 — Zusammenfassung prüfen und exportieren (Summary)
+## Schritt 4 — Zusammenfassung prüfen und exportieren
 
 ---
 
@@ -632,12 +632,12 @@ Ein Dokument für die Praxis erstellen.
 Nutzen Sie dies, um ein plausibles Ergebnis zu prüfen, bevor Sie es teilen.
 
 **Beispiel**
-- Projekttyp: Kindergarten (kleines Bildungsgebäude)
-- Menge: ~850 m² GF
-- Nutzungsmix: 100% Education
+- Projekttyp: Wohnungsgebäude
+- Menge: ~16000 m² GF
+- Nutzungsmix: 92% Wohnen 8% Arbeiten
 - Komplexität: moderat (technisch + organisatorisch)
-- Risiko: mittel
-- Rolle: Architect
+- Risiko: Keine spez. Anforderungen
+- Rolle: Architekt
 
 **Was das Ergebnis meist am stärksten bewegt**
 - Änderung des Nutzungsmix (Typologie),
