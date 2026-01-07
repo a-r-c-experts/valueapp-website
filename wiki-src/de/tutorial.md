@@ -243,7 +243,54 @@ Wenn Sie den konzeptionellen Überblick über Felder und Logik möchten, siehe:
 
 ---
 
-### 2.1 Bestimmende Menge
+### 2.1 Rollen festlegen
+
+**Ziel**  
+Definieren, **für welche Fachrollen** der Aufwand berechnet wird.
+
+Die ValueApp berechnet Aufwand **immer rollenbezogen**.  
+Ohne Rollen gibt es keine sinnvolle Aussage zum Gesamtaufwand.
+
+**Tun**
+- Relevante Rollen aktivieren:
+  - Architektur
+  - Ingenieurwesen
+  - Elektro
+  - Heizung / Lüftung
+  - Sanitär
+- Rollen auswählen, die effektiv beauftragt oder betrachtet werden sollen.
+
+**Prüfen**
+- Nur aktive Rollen fliessen in die Berechnung ein.
+- Jede Rolle wird später separat ausgewiesen.
+
+![Project – roles selection](/wiki-assets/tutorial/project-roles-selection.jpeg)
+
+<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
+<details class="wiki-video">
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-roles-selection.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Warum das wichtig ist**
+- Unterschiedliche Rollen haben unterschiedliche Basismodelle.
+- Komplexität und Risiko wirken **nicht identisch** auf alle Disziplinen.
+- Transparente Rollenwahl verhindert spätere Missverständnisse in Angeboten und Diskussionen.
+
+**Häufige Fehler**
+- Alle Rollen aktivieren «zur Sicherheit».
+- Rollen auswählen, obwohl sie projektseitig nicht beauftragt sind.
+- Rollenwechsel später vornehmen, ohne Resultate neu zu prüfen.
+
+**Weiterführend**
+- [Roles and services](roles-and-services.html) (Rollenlogik und Leistungsverständnis)
+- [Definitions](definitions.html) (Rolle vs. Leistung)
+
+---
+
+### 2.2 Bestimmende Menge
 
 **Ziel**  
 Projektgrösse definieren.
@@ -278,14 +325,14 @@ Projektgrösse definieren.
 
 ---
 
-### 2.2 Nutzungsmix
+### 2.3 Nutzungsmix
 
 **Ziel**  
 Der App sagen, *wofür das Projekt genutzt wird*.
 
 **Tun**
 - Mindestens eine Nutzung hinzufügen.
-- Prozente so setzen, dass total 100% ergibt.
+- Prozente so setzen, dass total 100 % ergibt.
 - Nutzungen bei Bedarf neu sortieren.
 
 **Prüfen**
@@ -310,7 +357,7 @@ Der App sagen, *wofür das Projekt genutzt wird*.
 
 ---
 
-### 2.3 Komplexitätsbeurteilung
+### 2.4 Komplexitätsbeurteilung
 
 **Ziel**  
 Begründen, warum dieses Projekt einfacher oder anspruchsvoller ist als ein Referenzfall.
@@ -353,12 +400,12 @@ Begründen, warum dieses Projekt einfacher oder anspruchsvoller ist als ein Refe
 **Weiterführend**
 - [Definitions](definitions.html) (Komplexität, Leadership Framework)
 - [How the app works](how-it-works.html) (wie Komplexität die Bandbreite beeinflusst)
-- [Complexity dimensions](complexity.html) (was die Dimensionen bedeuten)
-- [Adjustment factor (Leadership factor)](adjustment-factor.html) (wie Komplexität den Gesamtaufwand beeinflusst)
+- [Complexity dimensions](complexity.html)
+- [Adjustment factor (Leadership factor)](adjustment-factor.html)
 
 ---
 
-### 2.4 Risikobeurteilung
+### 2.5 Risikobeurteilung
 
 **Ziel**  
 Planungsunsicherheit abbilden.
