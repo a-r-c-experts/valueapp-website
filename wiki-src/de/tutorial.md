@@ -50,6 +50,8 @@ Wenn Sie während des Lesens konzeptionellen Hintergrund brauchen, halten Sie
 4. **Zusammenfassung prüfen und exportieren (Summary)**  
    One-Pager prüfen und als Dokumentation oder Offerte exportieren.
 
+![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
+
 ---
 
 ## 0 — Orientierung: wie die ValueApp funktioniert
