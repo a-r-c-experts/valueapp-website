@@ -472,16 +472,16 @@ Vertraglichen Leistungsumfang abbilden.
 
 ---
 
-### 3.2 Fokusthemen
+### 3.2 Schwerpunktthemen
 
 **Ziel**  
 Spezielle Verantwortungen sichtbar machen.
 
 **Tun**
-- Relevante Fokusthemen wählen.
+- Relevante Schwerpunktthemen wählen.
 
 **Prüfen**
-- Fokusthemen erklären Schwerpunkte, nicht «Scope aufblasen».
+- Schwerpunktthemen erklären Schwerpunkte, nicht «Scope aufblasen».
 
 ![Services – focus topics](/wiki-assets/tutorial/services-focus-topics.jpeg)
 
