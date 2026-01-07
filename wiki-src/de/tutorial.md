@@ -50,8 +50,6 @@ Wenn Sie während des Lesens konzeptionellen Hintergrund brauchen, halten Sie
 4. **Zusammenfassung prüfen und exportieren (Summary)**  
    One-Pager prüfen und als Dokumentation oder Offerte exportieren.
 
-![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
-
 ---
 
 ## 0 — Orientierung: wie die ValueApp funktioniert
@@ -74,15 +72,6 @@ Sie liefert **Bandbreiten und Verteilungen**, nicht eine einzelne «richtige» Z
 - Sie garantiert keine Ergebnisse.
 
 ![ValueApp purpose overview](/wiki-assets/tutorial/intro-valueapp-purpose.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
-<details class="wiki-video">
-  <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/intro-valueapp-purpose.mp4" type="video/mp4" />
-    Ihr Browser unterstützt das Video-Tag nicht.
-  </video>
-</details>
 
 **Weiterführend**
 - [How the app works](how-it-works.html) (Methode und Logik)
