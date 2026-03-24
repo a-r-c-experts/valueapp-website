@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – project-section</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Project section</h1>
+<p>The <strong>Project</strong> tab is where the ValueApp turns<br><strong>“what kind of project is this?”</strong> into <strong>“what effort range is plausible?”</strong></p>
+<p>It does this by combining:</p>
+<ul>
+<li>a measurable <strong>quantity</strong> (project size),</li>
+<li>a defined <strong>use mix</strong> (reference context),</li>
+<li>a structured <strong>complexity assessment</strong>,</li>
+<li>and, depending on configuration, <strong>risk / requirements</strong> inputs.</li>
+</ul>
+<p>This page explains the fields conceptually.<br>For click-by-click instructions, see the <a href="tutorial.html">Tutorial</a>.</p>
+<hr>
+<h2>What happens in the Project section</h2>
+<p>In the <strong>Project</strong> section, the ValueApp generates the <strong>baseline effort range</strong> by:</p>
+<ol>
+<li>selecting relevant <strong>base models</strong> via the use mix,</li>
+<li>scaling them with the entered <strong>quantity</strong>,</li>
+<li>adjusting the result through <strong>complexity and leadership conditions</strong>.</li>
+</ol>
+<p>The output is usually shown as:</p>
+<ul>
+<li>an effort range,</li>
+<li>often normalised (e.g. min/m²),</li>
+<li>before role and service scope are applied.</li>
+</ul>
+<p>For the full method logic, see:
+→ <a href="how-it-works.html">How the app works</a></p>
+<hr>
+<h2>What you define here</h2>
+<p>You typically define:</p>
+<ol>
+<li><p><strong>Quantity / project size</strong><br>→ <a href="quantity.html">Quantity</a></p>
+</li>
+<li><p><strong>Use mix</strong><br>→ <a href="use-categories.html">Use categories</a></p>
+</li>
+<li><p><strong>Complexity</strong> across four dimensions<br>→ <a href="complexity.html">Complexity dimensions</a></p>
+</li>
+<li><p><strong>Leadership / adjustment factor</strong> (derived)<br>→ <a href="adjustment-factor.html">Adjustment factor</a></p>
+</li>
+<li><p><strong>Risk / requirements</strong> (if enabled)</p>
+</li>
+</ol>
+<p>Together, these inputs determine the <strong>baseline effort profile</strong> before roles and services are applied.</p>
+<hr>
+<h2>Quantity (determinant)</h2>
+<p>The quantity represents the <strong>scale of the project</strong>, most commonly:</p>
+<ul>
+<li>gross floor area (m² GF)</li>
+</ul>
+<p>Key points:</p>
+<ul>
+<li>always enter <strong>total project quantity</strong>,</li>
+<li>include basements and shared areas where relevant,</li>
+<li>small changes can significantly affect the result.</li>
+</ul>
+<p>For details and common pitfalls:
+→ <a href="quantity.html">Quantity</a></p>
+<hr>
+<h2>Use mix</h2>
+<p>The use mix tells the app <strong>what reference world your project belongs to</strong>.</p>
+<ul>
+<li>You can select one or multiple uses.</li>
+<li>Percentages must sum to 100%.</li>
+<li>Mixed-use projects are calculated as <strong>weighted combinations</strong>.</li>
+</ul>
+<p>The use mix selects the relevant base models.<br>Complexity explains deviations <em>within</em> those models.</p>
+<p>For examples and category definitions:
+→ <a href="use-categories.html">Use categories</a></p>
+<hr>
+<h2>Complexity assessment</h2>
+<p>Complexity describes <strong>how predictable and manageable the project is</strong>, not how “good” or “ambitious” it is.</p>
+<p>The ValueApp assesses complexity across four dimensions:</p>
+<ul>
+<li>design</li>
+<li>technical</li>
+<li>spatial</li>
+<li>organisational</li>
+</ul>
+<p>These inputs are mapped to a <strong>leadership / adjustment factor</strong> that modifies the baseline effort.</p>
+<p>For conceptual background:
+→ <a href="complexity.html">Complexity dimensions</a><br>→ <a href="adjustment-factor.html">Adjustment factor</a></p>
+<hr>
+<h2>Risk and requirements (optional)</h2>
+<p>If enabled in your setup, risk inputs help document:</p>
+<ul>
+<li>external uncertainty,</li>
+<li>approval risks,</li>
+<li>process instability.</li>
+</ul>
+<p>Risk typically:</p>
+<ul>
+<li>widens ranges,</li>
+<li>does not change the underlying baseline logic.</li>
+</ul>
+<p>For interpretation:
+→ <a href="output-interpretation.html">Output interpretation</a></p>
+<hr>
+<h2>Practical guidance</h2>
+<ul>
+<li><strong>Be explicit</strong>: document assumptions in the project description.</li>
+<li><strong>Use references</strong>: compare with similar projects.</li>
+<li><strong>Avoid tuning</strong>: don’t “fix” results here that belong to role or service scope later.</li>
+</ul>
+<p>The Project section is about <strong>context and plausibility</strong>, not negotiation.</p>
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a href="tutorial.html">Tutorial</a></li>
+<li><a href="quantity.html">Quantity</a></li>
+<li><a href="use-categories.html">Use categories</a></li>
+<li><a href="complexity.html">Complexity dimensions</a></li>
+<li><a href="adjustment-factor.html">Adjustment factor</a></li>
+<li><a href="output-interpretation.html">Interpreting results</a></li>
+<li><a href="why-valueapp.html">Why ValueApp exists</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

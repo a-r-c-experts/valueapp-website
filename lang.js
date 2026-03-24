@@ -7,7 +7,7 @@
    * Helpers: language + wiki URL
    * --------------------------- */
 
-  const SUPPORTED_WIKI_LANGS = ["en", "de", "fr"];
+  const SUPPORTED_WIKI_LANGS = ["en", "de", "fr", "it"];
 
   function getCurrentLang() {
     if (typeof window.getStoredLanguage === "function") {

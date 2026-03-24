@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – tutorial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Tutorial – Step by step through the ValueApp</h1>
+<p>This tutorial guides you through the ValueApp using a concrete example project.<br>The focus is on <strong>what you enter</strong>, <strong>why it matters</strong>, and <strong>how to read and use the result</strong>.</p>
+<p>The tutorial mirrors the real structure of the app and follows the same sequence you see on screen.</p>
+<p>If you need conceptual background while reading, keep<br><a href="definitions.html">Definitions</a> or <a href="how-it-works.html">How the app works</a> open in a second tab.</p>
+<hr>
+<h2>At a glance</h2>
+<p><strong>What you need</strong></p>
+<ul>
+<li>a rough project idea (size, use, task),</li>
+<li>an approximate quantity (e.g. gross floor area),</li>
+<li>a basic understanding of your role in the project.</li>
+</ul>
+<p><strong>What you get</strong></p>
+<ul>
+<li>a traceable effort range,</li>
+<li>hours by phase and discipline,</li>
+<li>a one-page PDF for proposals, planning, or procurement.</li>
+</ul>
+<p><strong>Time required</strong></p>
+<ul>
+<li>first estimate: ~10–15 minutes  </li>
+<li>refined version: depends on how honest you are about complexity</li>
+</ul>
+<hr>
+<h2>The four main steps</h2>
+<ol>
+<li><p><strong>Describe the project (Description)</strong><br>Define project identity, task, location, and organisational setup.</p>
+</li>
+<li><p><strong>Define quantity, uses, and complexity (Project)</strong><br>Enter the determining quantity, define the use mix, assess complexity and risk.<br>The app derives an adjustment factor via the Leadership Framework.</p>
+</li>
+<li><p><strong>Define role and services (Services)</strong><br>Select a role, set focus topics, and review the calculated hours for<br><strong>100% basic services</strong>, including distribution across planning phases.</p>
+</li>
+<li><p><strong>Review and export the summary (Summary)</strong><br>Review the one-pager and export it as documentation or a proposal.</p>
+</li>
+</ol>
+<p><img src="/wiki-assets/tutorial/valueapp-architecture-overview.jpeg" alt="ValueApp four-step overview"></p>
+<hr>
+<h2>0 — Orientation: how the ValueApp works</h2>
+<h3>What the ValueApp does</h3>
+<p>The ValueApp estimates and documents <strong>planning effort</strong> by combining:</p>
+<ul>
+<li>quantitative inputs (quantity, use mix),</li>
+<li>qualitative inputs (complexity, risk),</li>
+<li>organisational context,</li>
+<li>your role and service scope.</li>
+</ul>
+<p>It delivers <strong>ranges and distributions</strong>, not a single “correct” number.</p>
+<h3>What the ValueApp does <em>not</em> do</h3>
+<ul>
+<li>It does not calculate fees automatically.</li>
+<li>It does not replace professional judgement.</li>
+<li>It does not guarantee outcomes.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/intro-valueapp-purpose.jpeg" alt="ValueApp purpose overview"></p>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="how-it-works.html">How the app works</a> (method and logic)</li>
+<li><a href="definitions.html">Definitions</a> (terms in the UI)</li>
+<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+</ul>
+<hr>
+<h3>Standards and regions</h3>
+<p>The examples use <strong>Swiss standards</strong> (e.g. SIA phases) because the underlying data comes from this context.<br>The <strong>method itself is generic</strong> and applicable internationally.</p>
+<p>If you work outside Switzerland:</p>
+<ul>
+<li>interpret phases as generic planning phases,</li>
+<li>focus on <strong>relative distributions</strong>, not labels,</li>
+<li>adopt the structure and the reasoning.</li>
+</ul>
+<hr>
+<h2>Step 1 — Describe the project</h2>
+<p>The <strong>Description</strong> step documents the project context.<br>This information appears in the summary and should be shareable with stakeholders.</p>
+<blockquote>
+<p><strong>Important:</strong><br>Cost-related inputs do <strong>not</strong> influence the effort.<br>Organisation, task type, and scope <strong>do</strong>.</p>
+</blockquote>
+<hr>
+<h3>1.1 Project details</h3>
+<p><strong>Goal</strong><br>Create a clear, shared project identity.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Enter project name and address.</li>
+<li>Select project status.</li>
+<li>Select task (e.g. new build or refurbishment).</li>
+<li>Write a short project description (5–10 lines).</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>The description clearly explains <em>what kind of project this is</em>.</li>
+<li>A third person understands the context when reading it.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/description-project-details.jpeg" alt="Description – project details filled"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>The description is what others read in the exported summary.</li>
+<li>Good descriptions reduce follow-up questions and misunderstandings.</li>
+</ul>
+<p><strong>Common mistakes</strong></p>
+<ul>
+<li>Marketing text instead of scope and boundary conditions.</li>
+<li>The description is not updated even though the project evolves.</li>
+</ul>
+<hr>
+<h3>1.2 Location</h3>
+<p><strong>Goal</strong><br>Document where the project is planned.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Move the map.</li>
+<li>Mark the project location.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>The marker is set correctly.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/description-location-map.jpeg" alt="Description – location map"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<blockquote>
+<p><strong>Does not influence effort</strong><br>Location statistics are used only as context.</p>
+</blockquote>
+<hr>
+<h3>1.3 Organisational setup</h3>
+<p><strong>Goal</strong><br>Define how responsibilities are structured.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Select an organisational model on the <strong>planner side</strong>.</li>
+<li>Select an organisational model on the <strong>contractor side</strong>.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>The selection matches contractual reality, not wishful thinking.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/description-organisation-setup.jpeg" alt="Description – organisation setup"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>Organisation influences <strong>phase responsibility</strong>.</li>
+<li>It influences the <strong>interpretation</strong> of phase percentages later.</li>
+</ul>
+<p><strong>Good practice</strong></p>
+<ul>
+<li>Evaluate organisation early.</li>
+<li>Do not change the model mid-project unless unavoidable.</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="reference.html">Reference</a> (interpreting phase distributions)</li>
+</ul>
+<hr>
+<h3>1.4 Task type: new build vs. refurbishment</h3>
+<p><strong>Goal</strong><br>Define the type of intervention.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Select <em>New build</em> or <em>Refurbishment</em>.</li>
+<li>If available: define intervention depth.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>The task matches the real scope, not the budget narrative.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/description-task-selection.jpeg" alt="Description – task selection"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<blockquote>
+<p><strong>Influences effort</strong><br>Task type and intervention depth influence effort.<br>Cost factors do not.</p>
+</blockquote>
+<p><strong>Common mistakes</strong></p>
+<ul>
+<li>Selecting <em>Refurbishment</em> “because a building exists”, even though the scope is effectively new build.</li>
+<li>Setting intervention depth too low in early phases.</li>
+</ul>
+<hr>
+<h2>Step 2 — Define quantity, uses, and complexity</h2>
+<p>This step provides the <strong>first effort estimate</strong>.</p>
+<p>If you want the conceptual overview of fields and logic, see:<br>→ <a href="project-section.html">Project section</a></p>
+<hr>
+<h3>2.1 Define roles</h3>
+<p><strong>Goal</strong><br>Define <strong>for which professional roles</strong> the effort is calculated.</p>
+<p>The ValueApp always calculates effort <strong>by role</strong>.<br>Without roles, there is no meaningful statement about total effort.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Activate the relevant roles:<ul>
+<li>Architecture</li>
+<li>Structural engineering</li>
+<li>Electrical</li>
+<li>Heating / ventilation</li>
+<li>Sanitary</li>
+</ul>
+</li>
+<li>Select roles that are actually commissioned or should be assessed.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>Only active roles are included in the calculation.</li>
+<li>Each role will be shown separately later.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/project-roles-selection.jpeg" alt="Project – roles selection"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-roles-selection.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>Different roles have different base models.</li>
+<li>Complexity and risk do <strong>not</strong> affect all disciplines identically.</li>
+<li>Transparent role selection prevents misunderstandings later in proposals and discussions.</li>
+</ul>
+<p><strong>Common mistakes</strong></p>
+<ul>
+<li>Activating all roles “just in case”.</li>
+<li>Selecting roles even though they are not commissioned on the project side.</li>
+<li>Changing roles later without re-checking results.</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="roles-and-services.html">Roles and services</a> (role logic and service understanding)</li>
+<li><a href="definitions.html">Definitions</a> (role vs. service)</li>
+</ul>
+<hr>
+<h3>2.2 Determining quantity</h3>
+<p><strong>Goal</strong><br>Define project size.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Enter an approximate gross floor area (or relevant unit).</li>
+<li>Enter the total value, not per floor.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>Quantity covers the entire project.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/project-enter-quantity.jpeg" alt="Project – enter quantity"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>The base model uses quantity as the main driver of the initial range.</li>
+</ul>
+<p><strong>Common mistakes</strong></p>
+<ul>
+<li>Entering net area instead of gross area.</li>
+<li>Forgetting basements or shared/common areas.</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="project-section.html">Project section</a> (quantities and use categories)</li>
+<li><a href="quantity.html">Quantity</a> (what counts, what doesn’t, and why)</li>
+</ul>
+<hr>
+<h3>2.3 Use mix</h3>
+<p><strong>Goal</strong><br>Tell the app <em>what the project is used for</em>.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Add at least one use.</li>
+<li>Set percentages so the total equals 100%.</li>
+<li>Reorder uses if needed.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>The complexity area becomes available.</li>
+<li>A min/m² value appears.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/project-use-mix.jpeg" alt="Use mix example"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>The use mix selects the relevant base models and changes the expected effort.</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="use-categories.html">Use categories</a> (what each use represents, with examples)</li>
+</ul>
+<hr>
+<h3>2.4 Complexity assessment</h3>
+<p><strong>Goal</strong><br>Explain why this project is simpler or more demanding than a reference case.</p>
+<p><strong>What complexity is</strong></p>
+<ul>
+<li>A representation of <strong>requirements and approach</strong>, not just aesthetics.</li>
+<li>A way to document professional judgement.</li>
+</ul>
+<p><strong>Do</strong></p>
+<ul>
+<li>Assess complexity in four dimensions:<ul>
+<li>Design</li>
+<li>Spatial</li>
+<li>Technical</li>
+<li>Organisational</li>
+</ul>
+</li>
+<li>Place challenges within the Leadership Framework.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/project-complexity-framework.jpeg" alt="Project – complexity framework"></p>
+<p><img src="/wiki-assets/tutorial/project-complexity-dimensions.jpeg" alt="Complexity dimensions"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Check</strong></p>
+<ul>
+<li>The adjustment factor changes.</li>
+<li>The reasoning is explainable to the client.</li>
+</ul>
+<p><strong>Short examples</strong></p>
+<ul>
+<li>Simple housing project → more <em>simple/complicated</em></li>
+<li>Inner-city hospital refurbishment → <em>complex/unclear</em> in multiple dimensions</li>
+</ul>
+<p><strong>Common mistake</strong></p>
+<ul>
+<li>Increasing complexity just to “get more hours”.</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="definitions.html">Definitions</a> (complexity, Leadership Framework)</li>
+<li><a href="how-it-works.html">How the app works</a> (how complexity influences the range)</li>
+<li><a href="complexity.html">Complexity dimensions</a></li>
+<li><a href="adjustment-factor.html">Adjustment factor (Leadership factor)</a></li>
+</ul>
+<hr>
+<h3>2.5 Risk assessment</h3>
+<p><strong>Goal</strong><br>Represent planning uncertainty.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Select a risk level.</li>
+<li>Document a justification (if possible).</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>Risk acts externally (objections, interruptions), not internally (design quality).</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/project-risk-assessment.jpeg" alt="Project – risk assessment"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>Risk documents uncertainty in early phases, when many things are still unknown.</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="definitions.html">Definitions</a> (risk)</li>
+<li><a href="how-it-works.html">How the app works</a> (risk vs. complexity)</li>
+</ul>
+<hr>
+<h2>Step 3 — Define services</h2>
+<p>This step adapts the effort to <strong>your responsibility</strong>.</p>
+<hr>
+<h3>3.1 Select role</h3>
+<p><strong>Goal</strong><br>Represent contractual scope of services.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Select a role (e.g. Architect, Architect &amp; General Planner).</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>The role matches the contract, not the ambition.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/services-select-role.jpeg" alt="Services – select role"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Common mistakes</strong></p>
+<ul>
+<li>Choosing a broader role than contractually agreed.</li>
+<li>Forgetting: output is <strong>basic services</strong> by default.</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="roles-and-services.html">Roles and services</a> (what roles include and exclude)</li>
+</ul>
+<hr>
+<h3>3.2 Focus topics</h3>
+<p><strong>Goal</strong><br>Make special responsibilities visible.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Select relevant focus topics.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>Focus topics explain emphasis, not “inflate scope”.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/services-focus-topics.jpeg" alt="Services – focus topics"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="best-practices.html">Best practices</a> (documenting assumptions cleanly)</li>
+</ul>
+<hr>
+<h3>3.3 Hours and phase distribution</h3>
+<p><strong>Goal</strong><br>Understand phase distribution and adjust if needed.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Review suggested phase percentages.</li>
+<li>Adjust if your service delivery deviates from the standard.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>Total hours remain constant.</li>
+<li>Shifts are plausible.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/services-hours-phases.jpeg" alt="Services – hours and phases"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Reading example</strong></p>
+<ul>
+<li>Total effort: 240 h  </li>
+<li>Phase 3 at 33% → ~79 h  </li>
+<li>Phase 5 at 48% → ~115 h</li>
+</ul>
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>Phase distribution influences planning and procurement, even if total hours stay the same.</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="reference.html">Reference</a> (phases and interpretation)</li>
+<li><a href="output-interpretation.html">Output interpretation</a> (reading hours, ranges, and phases)</li>
+</ul>
+<hr>
+<h3>3.4 Project-specific and additional services</h3>
+<p><strong>Goal</strong><br>Document deviations from basic services.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Adjust subphases if needed.</li>
+<li>Add additional services with a description.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>Additional services are explicit and traceable.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/services-additional-services.jpeg" alt="Services – additional services"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Common mistakes</strong></p>
+<ul>
+<li>Additional services without a description.</li>
+<li>Using additional services as a correction for poor earlier inputs (quantity/use/complexity).</li>
+</ul>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="definitions.html">Definitions</a> (basic services vs. additional services)</li>
+</ul>
+<hr>
+<h2>Step 4 — Review and export the summary</h2>
+<hr>
+<h3>4.1 Review the one-pager</h3>
+<p><strong>Goal</strong><br>Ensure that result and inputs match.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Read through all sections.</li>
+<li>Check for inconsistencies.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>Every number is explainable.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/summary-review.jpeg" alt="Summary – review one-pager"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>The summary is what you share. If it’s unclear, the conversation becomes unclear.</li>
+</ul>
+<p><strong>Before sharing</strong></p>
+<ul>
+<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+</ul>
+<hr>
+<h3>4.2 Export and use the PDF</h3>
+<p><strong>Goal</strong><br>Create a document for practice.</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>Export the PDF.</li>
+<li>Attach it to proposals or procurement documents.</li>
+</ul>
+<p><strong>Check</strong></p>
+<ul>
+<li>The PDF explains assumptions, not just numbers.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/summary-export-pdf.jpeg" alt="Summary – export PDF"></p>
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch a short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
+  </video>
+</details>
+
+<p><strong>Template sentence for proposals</strong></p>
+<blockquote>
+<p>“The proposed effort range is based on project quantity, use mix, complexity, risk, organisational setup, and service scope, documented in the attached ValueApp summary.”</p>
+</blockquote>
+<hr>
+<h2>5 — Mini example (Quick sanity check)</h2>
+<p>Use this to verify a plausible result before sharing it.</p>
+<p><strong>Example</strong></p>
+<ul>
+<li>Project type: housing building</li>
+<li>Quantity: ~16000 m² GFA</li>
+<li>Use mix: 92% housing 8% office</li>
+<li>Complexity: moderate (technical + organisational)</li>
+<li>Risk: no specific requirements</li>
+<li>Role: architect</li>
+</ul>
+<p><strong>What typically moves the result most</strong></p>
+<ul>
+<li>changing the use mix (typology),</li>
+<li>complexity assessment (especially organisational),</li>
+<li>role and phase distribution.</li>
+</ul>
+<p><img src="/wiki-assets/tutorial/example-summary-output.jpeg" alt="Example – summary output"></p>
+<p>See also:<br><a href="examples.html">Examples</a> (more reference projects) and<br><a href="best-practices.html">Best practices</a> (documenting assumptions clearly for clients)</p>
+<hr>
+<h2>Typical problems and how to solve them</h2>
+<ul>
+<li><strong>Complexity is locked</strong> → No use selected.</li>
+<li><strong>Numbers look wrong</strong> → Check quantity and unit.</li>
+<li><strong>Phases show 0 hours</strong> → Check role and selected phases.</li>
+<li><strong>Client questions the result</strong> → Review the description and the complexity reasoning.</li>
+<li><strong>Result feels “too high/too low”</strong> → Check use mix, complexity, and role before adding additional services.</li>
+</ul>
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a href="getting-started.html">Getting started</a></li>
+<li><a href="definitions.html">Definitions and core concepts</a></li>
+<li><a href="how-it-works.html">How the app works</a></li>
+<li><a href="reference.html">Reference</a></li>
+<li><a href="best-practices.html">Best practices</a></li>
+<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+<li><a href="examples.html">Examples</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

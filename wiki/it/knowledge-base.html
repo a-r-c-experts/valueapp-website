@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – knowledge-base</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Knowledge base</h1>
+<p>This chapter explains <strong>why the ValueApp behaves the way it does</strong>.<br>It focuses on concepts and logic, not on click-by-click instructions.</p>
+<p>If you are looking for practical steps, go to the <a href="workflows.html">Workflows</a>.</p>
+<hr>
+<h2>Core concepts</h2>
+<p>The following pages explain the key concepts that directly shape the results produced by the ValueApp.<br>Each concept is documented in plain language and linked to where it appears in the app.</p>
+<ul>
+<li><p><strong>Quantity / project size</strong><br>What “size” means in the ValueApp, why it matters, and how it sets the baseline for effort estimation.<br>→ <a href="quantity.html">Open quantity</a></p>
+</li>
+<li><p><strong>Use categories (building programs)</strong><br>How the ValueApp selects reference models based on project use and why mixed-use projects are handled as weighted combinations.<br>→ <a href="use-categories.html">Open use categories</a></p>
+</li>
+<li><p><strong>Complexity dimensions</strong><br>How design, technical, spatial, and organisational complexity are assessed and why similar-sized projects can behave very differently.<br>→ <a href="complexity.html">Open complexity dimensions</a></p>
+</li>
+<li><p><strong>Roles and services</strong><br>How roles (e.g. architect, general planner) and service scope influence effort distribution and totals.<br>→ <a href="roles-and-services.html">Open roles and services</a></p>
+</li>
+<li><p><strong>Adjustment / leadership factor</strong><br>How organisational and process-related demands are reflected in the model and how they modify results.<br>→ <a href="adjustment-factor.html">Open adjustment factor</a></p>
+</li>
+<li><p><strong>Interpreting results</strong><br>How to read hours, ranges, and distributions correctly, and what the results are suitable (and not suitable) for.<br>→ <a href="output-interpretation.html">Open result interpretation</a></p>
+</li>
+<li><p><strong>What ValueApp is – and what it is not</strong><br>A clarification of the app’s purpose, limits, and common misunderstandings.<br>→ <a href="why-valueapp.html">Open purpose and limits</a></p>
+</li>
+</ul>
+<hr>
+<h2>How to use this chapter</h2>
+<p>Use the Knowledge Base when you want to understand:</p>
+<ul>
+<li>why a change in input affects the result,</li>
+<li>why the app shows ranges instead of fixed values,</li>
+<li>how different project setups lead to different effort profiles,</li>
+<li>where professional judgement is still required.</li>
+</ul>
+<p>For concrete workflows and examples, switch to:</p>
+<ul>
+<li><a href="workflows.html">Workflows</a></li>
+<li><a href="examples.html">Examples</a></li>
+</ul>
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a href="introduction.html">Introduction</a></li>
+<li><a href="workflows.html">Workflows</a></li>
+<li><a href="reference.html">Reference</a></li>
+<li><a href="support.html">Support</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

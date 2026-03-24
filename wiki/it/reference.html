@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – reference</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Reference</h1>
+<p>This chapter is the <strong>lookup layer</strong>: concise, structured pages you can consult while working in the app.</p>
+<ul>
+<li><strong>Tutorial</strong> = step-by-step walkthrough  </li>
+<li><strong>Knowledge base</strong> = concepts and logic  </li>
+<li><strong>Reference</strong> = “what does this field mean” and “how do I read this output”</li>
+</ul>
+<p>If you are looking for click-by-click guidance, go to the <a href="tutorial.html">Tutorial</a> or <a href="workflows.html">Workflows</a>.</p>
+<hr>
+<h2>Quick lookup</h2>
+<p>Use this section when you just need the right page, quickly.</p>
+<h3>Project (quantity, uses, complexity)</h3>
+<ul>
+<li><p><strong>Quantity / determinant</strong> (what counts, units, typical mistakes)<br>→ <a href="quantity.html">Quantity</a></p>
+</li>
+<li><p><strong>Use categories</strong> (how to map real projects to “uses”)<br>→ <a href="use-categories.html">Use categories</a></p>
+</li>
+<li><p><strong>Project fields overview</strong> (how the Project tab works conceptually)<br>→ <a href="project-section.html">Project section</a></p>
+</li>
+<li><p><strong>Complexity dimensions</strong> (what “design/technical/spatial/organisational” actually means)<br>→ <a href="complexity.html">Complexity</a></p>
+</li>
+<li><p><strong>Adjustment / leadership factor</strong> (what it reflects and what it does not)<br>→ <a href="adjustment-factor.html">Adjustment factor</a></p>
+</li>
+</ul>
+<h3>Services (roles, phases, additional services)</h3>
+<ul>
+<li><strong>Roles and services</strong> (what the role selection changes, what basic services means)<br>→ <a href="roles-and-services.html">Roles and services</a></li>
+</ul>
+<h3>Results (hours, ranges, phase distributions)</h3>
+<ul>
+<li><strong>How to read results</strong> (hours, ranges, distributions, what not to claim)<br>→ <a href="output-interpretation.html">Output interpretation</a></li>
+</ul>
+<h3>Purpose and limits</h3>
+<ul>
+<li><strong>What ValueApp is (and is not)</strong> (avoid the “fee calculator” misunderstanding)<br>→ <a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+</ul>
+<hr>
+<h2>What belongs in Reference (and what does not)</h2>
+<p>Reference pages should be:</p>
+<ul>
+<li><strong>precise</strong> (one term = one meaning),</li>
+<li><strong>structured</strong> (so search and future assistants can retrieve it),</li>
+<li><strong>free of marketing language</strong>,</li>
+<li><strong>explicit about limits</strong> (what a field does <em>not</em> do).</li>
+</ul>
+<p>Reference pages should <em>not</em> try to be:</p>
+<ul>
+<li>a full theory chapter (that’s the <a href="knowledge-base.html">Knowledge base</a>),</li>
+<li>a workflow (that’s <a href="workflows.html">Workflows</a>),</li>
+<li>a pitch deck (that’s <a href="why-valueapp.html">Why ValueApp exists</a>).</li>
+</ul>
+<hr>
+<h2>Planned reference pages</h2>
+<p>These are the pages that should eventually live here. The titles are written so they can become individual markdown files later.</p>
+<h3>Inputs and parameters reference</h3>
+<p>Goal: explain every input field in the UI in a consistent structure.</p>
+<p>Recommended structure per field:</p>
+<ul>
+<li><strong>What it is</strong></li>
+<li><strong>Where it appears</strong> (tab/section)</li>
+<li><strong>What it influences</strong></li>
+<li><strong>Common mistakes</strong></li>
+<li><strong>Related concepts</strong> (links)</li>
+</ul>
+<p>Planned pages:</p>
+<ul>
+<li><strong>Description tab – fields and meaning</strong> (project identity, status, task, organisation)</li>
+<li><strong>Project tab – fields and meaning</strong> (quantity, use mix, complexity, risk)</li>
+<li><strong>Services tab – fields and meaning</strong> (role, focus topics, phase distribution, additional services)</li>
+</ul>
+<p>Until these exist, use:</p>
+<ul>
+<li><a href="project-section.html">Project section</a></li>
+<li><a href="roles-and-services.html">Roles and services</a></li>
+<li><a href="tutorial.html">Tutorial</a></li>
+</ul>
+<hr>
+<h3>Result interpretation reference</h3>
+<p>Goal: prevent misuse of the output and make “ranges” non-negotiable.</p>
+<p>Planned pages:</p>
+<ul>
+<li><strong>Hours and ranges</strong> (what the range means, how to communicate it)</li>
+<li><strong>Phase distributions</strong> (what shifts mean, what stays constant)</li>
+<li><strong>min/m² and derived metrics</strong> (how to interpret and when not to use)</li>
+<li><strong>Comparisons across projects</strong> (what is comparable and what is not)</li>
+</ul>
+<p>Until these exist, use:</p>
+<ul>
+<li><a href="output-interpretation.html">Output interpretation</a></li>
+</ul>
+<hr>
+<h3>Integration and technical reference</h3>
+<p>Goal: everything needed to embed ValueApp as a widget.</p>
+<p>Planned pages:</p>
+<ul>
+<li><strong>Widget embedding</strong> (where to place it, sizing, responsive constraints)</li>
+<li><strong>Data formats and callbacks</strong> (metadata, events, export)</li>
+<li><strong>Authentication / access patterns</strong> (if applicable)</li>
+<li><strong>Example implementation summary</strong> (based on the public integration repository)</li>
+</ul>
+<p>For now, the integration entry point is:</p>
+<ul>
+<li>Public integration repository: <a href="https://github.com/a-r-c-experts/core-value-integration">https://github.com/a-r-c-experts/core-value-integration</a></li>
+</ul>
+<hr>
+<h3>Versions and release notes</h3>
+<p>Goal: traceability for changes affecting results, UI, or assumptions.</p>
+<p>Planned pages:</p>
+<ul>
+<li><strong>Release notes</strong> (chronological, short, user-impact focused)</li>
+<li><strong>Model changes</strong> (when base models or calibration changed)</li>
+<li><strong>Known limitations</strong> (what’s intentionally not covered yet)</li>
+</ul>
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a href="tutorial.html">Tutorial</a></li>
+<li><a href="workflows.html">Workflows</a></li>
+<li><a href="knowledge-base.html">Knowledge base</a></li>
+<li><a href="support.html">Support</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

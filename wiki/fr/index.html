@@ -184,13 +184,13 @@
   <script>
     (function () {
       function detectLang() {
-        const m = window.location.pathname.match(/^\/wiki\/(en|de|fr)(\/|$)/);
+        const m = window.location.pathname.match(/^\/wiki\/(en|de|fr|it)(\/|$)/);
         if (m) return m[1];
         const ls =
           localStorage.getItem("lang") ||
           localStorage.getItem("valueapp_lang") ||
           localStorage.getItem("valueappLang");
-        if (ls && /^(en|de|fr)$/.test(ls)) return ls;
+        if (ls && /^(en|de|fr|it)$/.test(ls)) return ls;
         return "en";
       }
 

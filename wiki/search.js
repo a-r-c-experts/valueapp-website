@@ -9,7 +9,7 @@
     }
 
     // If URL path contains /wiki/{lang}/..., prefer that
-    const m = window.location.pathname.match(/^\/wiki\/(en|de|fr)(\/|$)/);
+    const m = window.location.pathname.match(/^\/wiki\/(en|de|fr|it)(\/|$)/);
     if (m) return m[1];
 
     const htmlLang = (document.documentElement.lang || "").toLowerCase();

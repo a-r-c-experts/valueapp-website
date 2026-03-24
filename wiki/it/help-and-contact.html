@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – help-and-contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Help and contact</h1>
+<p>This page explains <strong>where to get help</strong> if something is unclear or does not work as expected.</p>
+<h2>Help with using the app</h2>
+<p>If you are unsure while using the ValueApp:</p>
+<ul>
+<li><p>First check the <strong>FAQ</strong> for common questions.<br>→ <a href="faq.html">Open FAQ</a></p>
+</li>
+<li><p>Use the <strong>Workflows</strong> for step-by-step instructions.<br>→ <a href="workflows.html">Workflows</a></p>
+</li>
+<li><p>For conceptual questions, consult the <strong>Knowledge base</strong>.<br>→ <a href="knowledge-base.html">Knowledge base</a></p>
+</li>
+</ul>
+<h2>Feedback and requests</h2>
+<p>Within the ValueApp, a <strong>Feedback button</strong> is available. You can use it to:</p>
+<ul>
+<li>Report errors or inconsistencies  </li>
+<li>Submit improvement suggestions  </li>
+<li>Ask questions about specific projects</li>
+</ul>
+<p>It is helpful if you briefly describe:</p>
+<ul>
+<li>the context (project type, role)</li>
+<li>what you expected</li>
+<li>what actually happened</li>
+</ul>
+<h2>Contact by email</h2>
+<p>If your request cannot be resolved directly via the app, you can also contact the ValueApp team by email:</p>
+<ul>
+<li><strong><a href="mailto:info@core-value.ch">info@core-value.ch</a></strong></li>
+</ul>
+<p>Please indicate, if possible, which page or project your question refers to.</p>
+<h2>Technical questions</h2>
+<p>For technical integrations or embedding the ValueApp:</p>
+<ul>
+<li>Technical documentation and examples are available in the separate integration repository.<br>→ <a href="https://github.com/a-r-c-experts/core-value-integration">Integration Repository</a></li>
+</ul>
+<h2>See also</h2>
+<ul>
+<li><a href="support.html">Support</a></li>
+<li><a href="best-practices.html">Best practices</a></li>
+<li><a href="reference.html">Reference</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>
