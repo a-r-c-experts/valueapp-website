@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – bayes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Apprentissage bayésien dans ValueApp</h1>
+<p>L’apprentissage bayésien décrit <strong>comment ValueApp combine les connaissances existantes avec les données réelles des projets</strong>.</p>
+<p>Il permet au système de :</p>
+<ul>
+<li>partir d’une référence structurée,</li>
+<li>apprendre à partir des projets observés,</li>
+<li>et mettre à jour les résultats de manière contrôlée et transparente.</li>
+</ul>
+<hr>
+<h2>Ce que signifie « bayésien » (en termes simples)</h2>
+<p>Au fond, le raisonnement bayésien répond à une question :</p>
+<blockquote>
+<p><em>« Comment devons-nous mettre à jour ce que nous croyons lorsque nous voyons de nouvelles données ? »</em></p>
+</blockquote>
+<p>Il combine toujours deux éléments :</p>
+<ul>
+<li>ce que nous <strong>attendons déjà</strong>  </li>
+<li>ce que nous <strong>observons réellement</strong></li>
+</ul>
+<p>Dans ValueApp, cela signifie :</p>
+<ul>
+<li>nous ne partons pas de zéro  </li>
+<li>et nous ne faisons pas confiance aux données aveuglément  </li>
+<li>nous <strong>combinons les deux</strong></li>
+</ul>
+<hr>
+<h2>Les deux composantes</h2>
+<h3>1. Prior (connaissance existante)</h3>
+<p>Le <strong>prior</strong> correspond à ce que nous savons avant d’observer les données actuelles.</p>
+<p>Dans ValueApp, cela provient de :</p>
+<ul>
+<li>études (p. ex. travaux de l’ETH),</li>
+<li>expérience structurée,</li>
+<li>courbes de référence établies.</li>
+</ul>
+<p>Il définit :</p>
+<blockquote>
+<p><em>Ce que nous attendons du comportement d’un type de bâtiment selon les intervalles de GF.</em></p>
+</blockquote>
+<hr>
+<h3>2. Données (projets réels)</h3>
+<p>Les données comprennent :</p>
+<ul>
+<li>des projets réels,</li>
+<li>des valeurs observées,</li>
+<li>des distributions réelles selon la taille des bâtiments.</li>
+</ul>
+<p>Elles montrent :</p>
+<blockquote>
+<p><em>Ce qui se passe réellement en pratique.</em></p>
+</blockquote>
+<hr>
+<h2>Le résultat : une estimation mise à jour</h2>
+<p>L’apprentissage bayésien combine le prior et les données pour produire :</p>
+<blockquote>
+<p>un <strong>posterior (résultat mis à jour)</strong></p>
+</blockquote>
+<p>C’est ce que ValueApp affiche comme <strong>courbe apprise</strong>.</p>
+<p>Elle est :</p>
+<ul>
+<li>ni purement prédéfinie,</li>
+<li>ni purement issue des données,</li>
+<li>mais une <strong>combinaison des deux</strong>.</li>
+</ul>
+<hr>
+<h2>Pourquoi c’est nécessaire</h2>
+<p>Si nous utilisions uniquement les priors :</p>
+<ul>
+<li>les résultats seraient stables  </li>
+<li>mais déconnectés de la réalité</li>
+</ul>
+<p>Si nous utilisions uniquement les données :</p>
+<ul>
+<li>les résultats seraient instables  </li>
+<li>surtout avec peu d’observations</li>
+</ul>
+<p>L’approche bayésienne équilibre ces deux aspects.</p>
+<hr>
+<h2>Comment l’équilibre fonctionne</h2>
+<p>Le système ajuste automatiquement le poids de chaque source.</p>
+<h3>Lorsqu’il y a beaucoup de données</h3>
+<ul>
+<li>le modèle s’appuie davantage sur les <strong>projets réels</strong>  </li>
+<li>le résultat devient plus spécifique  </li>
+<li>la courbe reflète le comportement observé</li>
+</ul>
+<h3>Lorsqu’il y a peu de données</h3>
+<ul>
+<li>le modèle s’appuie davantage sur le <strong>prior</strong>  </li>
+<li>le résultat reste stable  </li>
+<li>les variations irréalistes sont évitées</li>
+</ul>
+<p>Dans tous les cas :</p>
+<blockquote>
+<p>Le système reste cohérent tout en s’adaptant lorsque c’est possible.</p>
+</blockquote>
+<hr>
+<h2>Pourquoi c’est important pour les types de bâtiments</h2>
+<p>Tous les types de bâtiments ne sont pas représentés de manière égale.</p>
+<p>Certains ont :</p>
+<ul>
+<li>beaucoup de projets  </li>
+<li>des signaux forts dans les données</li>
+</ul>
+<p>D’autres ont :</p>
+<ul>
+<li>très peu d’observations  </li>
+<li>des informations incomplètes</li>
+</ul>
+<p>L’apprentissage bayésien permet à ValueApp de :</p>
+<ul>
+<li>produire des résultats pour tous les types de bâtiments,  </li>
+<li>refléter clairement la disponibilité des données,  </li>
+<li>sans surajustement ni estimation arbitraire.</li>
+</ul>
+<hr>
+<h2>Ce que cela signifie pour les intervalles de GF</h2>
+<p>Dans chaque intervalle de GF, le modèle :</p>
+<ol>
+<li>commence avec la valeur de référence (prior),  </li>
+<li>la compare aux données réelles,  </li>
+<li>ajuste la valeur en conséquence.</li>
+</ol>
+<p>Cela produit une courbe qui :</p>
+<ul>
+<li>suit le comportement réel là où les données existent,  </li>
+<li>et reste stable là où elles manquent.</li>
+</ul>
+<hr>
+<h2>Ce que l’apprentissage bayésien n’est pas</h2>
+<p>Ce n’est pas :</p>
+<ul>
+<li>une boîte noire qui invente des valeurs  </li>
+<li>un remplacement du savoir métier  </li>
+<li>un exercice purement statistique sans structure</li>
+</ul>
+<p>Au contraire :</p>
+<ul>
+<li>il formalise l’interaction entre expérience et données  </li>
+<li>et la rend cohérente pour tous les types de bâtiments</li>
+</ul>
+<hr>
+<h2>En une phrase</h2>
+<blockquote>
+<p>L’apprentissage bayésien permet à ValueApp de partir de références établies et de les mettre à jour en continu à partir de données réelles de projets.</p>
+</blockquote>
+<hr>
+<h2>Pourquoi cela améliore ValueApp</h2>
+<p>Avec l’apprentissage bayésien, le système devient :</p>
+<ul>
+<li>plus réaliste → reflète les projets réels  </li>
+<li>plus robuste → reste stable même avec peu de données  </li>
+<li>plus scalable → fonctionne pour tous les types de bâtiments</li>
+</ul>
+<p>Il garantit que :</p>
+<ul>
+<li>les nouvelles données améliorent les résultats,  </li>
+<li>sans jamais supprimer les connaissances existantes.</li>
+</ul>
+<hr>
+<h2>Malentendus fréquents</h2>
+<p>Ne pas supposer :</p>
+<ul>
+<li>que les priors sont ignorés  </li>
+<li>que les données remplacent tout  </li>
+<li>que plus de données signifie forcément de grands changements</li>
+</ul>
+<p>Au contraire :</p>
+<ul>
+<li>les priors restent la base  </li>
+<li>les données les affinent  </li>
+<li>et le modèle contrôle l’ampleur des ajustements</li>
+</ul>
+<hr>
+<h2>Voir aussi</h2>
+<ul>
+<li><a href="gf-intervals.html">Intervalles de GF et courbes apprises</a></li>
+<li><a href="complexity.html">Dimensions de complexité</a></li>
+<li><a href="quantity.html">Quantité et effort de base</a></li>
+<li><a href="output-interpretation.html">Interprétation des résultats</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

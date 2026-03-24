@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – gf-intervals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>GF-Intervalle und gelernte Kurven</h1>
+<p>GF-Intervalle beschreiben, <strong>wie sich Werte über die Gebäudegrösse verändern</strong>.</p>
+<p>Anstatt einem gesamten Bauwesen einen einzigen Wert zuzuweisen, bewertet ValueApp Projekte <strong>über Bereiche der Geschossfläche (GF)</strong> und bildet über diese Bereiche eine Kurve.</p>
+<p>Dies ermöglicht es dem System, eine einfache Realität abzubilden:</p>
+<blockquote>
+<p><em>Kleine Gebäude verhalten sich anders als grosse.</em></p>
+</blockquote>
+<hr>
+<h2>Was GF-Intervalle in ValueApp bedeuten</h2>
+<p>In ValueApp sind GF-Intervalle:</p>
+<ul>
+<li><strong>Grössenbereiche von Gebäuden</strong> (z. B. klein, mittel, gross),</li>
+<li>die verwendet werden, um vergleichbare Projekte zu gruppieren,</li>
+<li>und um Werte unter <strong>ähnlichen Grössenbedingungen</strong> zu berechnen.</li>
+</ul>
+<p>Sie beantworten die Frage:</p>
+<blockquote>
+<p><em>„Wie verhält sich dieses Bauwesen bei unterschiedlichen Grössen?“</em></p>
+</blockquote>
+<p>Nicht:</p>
+<ul>
+<li>was der exakte Wert eines einzelnen Projekts ist,</li>
+<li>oder was der Durchschnitt über alle Grössen ist.</li>
+</ul>
+<hr>
+<h2>Der bisherige Ansatz (Referenzwerte)</h2>
+<p>Bisher arbeitete ValueApp hauptsächlich mit <strong>Referenzkurven</strong>.</p>
+<ul>
+<li>Diese basierten auf <strong>Priors</strong>  </li>
+<li>Abgeleitet aus Studien, Erfahrung und strukturierten Annahmen  </li>
+<li>In der App dargestellt als <strong>schwarze Linie</strong></li>
+</ul>
+<p>Diese Referenzwerte waren:</p>
+<ul>
+<li>stabil,</li>
+<li>konsistent,</li>
+<li>aber nicht direkt aus Projektdaten gelernt.</li>
+</ul>
+<p>Sie definierten das erwartete Verhalten über die GF-Intervalle.</p>
+<hr>
+<h2>Der neue Ansatz (Lernen aus Daten)</h2>
+<p>Mit dem neuen Update führt ValueApp eine grundlegende Änderung ein:</p>
+<blockquote>
+<p>Werte werden nicht mehr nur definiert — sie werden <strong>gelernt</strong>.</p>
+</blockquote>
+<p>Das System:</p>
+<ol>
+<li>startet mit der bestehenden Referenzkurve (Priors),</li>
+<li>betrachtet <strong>reale Projektdaten</strong>,</li>
+<li>und lernt, wie sich jedes Bauwesen über die GF-Intervalle verhält.</li>
+</ol>
+<p>Das Resultat:</p>
+<ul>
+<li>eine <strong>dateninformierte Kurve</strong> statt einer rein vorgegebenen,</li>
+<li>pro Bauwesen angepasst,</li>
+<li>und weiterhin in der ursprünglichen Referenzlogik verankert.</li>
+</ul>
+<hr>
+<h2>Was man in der Grafik sieht</h2>
+<p>Ein typisches Resultat enthält drei Elemente:</p>
+<ul>
+<li><p><strong>Schwarze Linie</strong><br>→ bisherige Referenz (Priors)</p>
+</li>
+<li><p><strong>Punkte</strong><br>→ reale Projekte</p>
+</li>
+<li><p><strong>Farbige gestrichelte Linien</strong><br>→ gelernte Werte je Anforderungsstufe</p>
+</li>
+</ul>
+<p>Dies zeigt klar:</p>
+<ul>
+<li>wo die Realität der Referenz entspricht,</li>
+<li>wo sie davon abweicht,</li>
+<li>und wie sich das System anpasst.</li>
+</ul>
+<hr>
+<h2>Warum GF-Intervalle wesentlich sind</h2>
+<p>Ohne GF-Intervalle würde das System annehmen:</p>
+<ul>
+<li>ein Wert pro Bauwesen,</li>
+<li>unabhängig von der Grösse.</li>
+</ul>
+<p>Das würde Folgendes ignorieren:</p>
+<ul>
+<li>Skaleneffekte,</li>
+<li>Effizienzunterschiede,</li>
+<li>strukturelle und organisatorische Veränderungen mit der Grösse.</li>
+</ul>
+<p>GF-Intervalle ermöglichen dem Modell:</p>
+<ul>
+<li>diese Effekte abzubilden,</li>
+<li>und eine <strong>Kurve statt eines Punktes</strong> zu beschreiben.</li>
+</ul>
+<hr>
+<h2>Wie das Lernen über Bauwesen hinweg funktioniert</h2>
+<p>Nicht alle Bauwesen haben gleich viele Daten.</p>
+<p>Einige sind gut vertreten.<br>Andere sind selten.</p>
+<p>Das System geht damit um, indem es kombiniert:</p>
+<ul>
+<li>die <strong>Referenzkurve (Priors)</strong>,</li>
+<li><strong>reale Projekte desselben Bauwesens</strong>,</li>
+<li>und <strong>verwandte Bauwesen innerhalb derselben Gruppe</strong>.</li>
+</ul>
+<p>Das bedeutet:</p>
+<ul>
+<li>Bei vielen Daten → die Kurve wird spezifischer  </li>
+<li>Bei wenigen Daten → die Kurve bleibt näher an der Referenz</li>
+</ul>
+<p>In beiden Fällen:</p>
+<blockquote>
+<p>Das Resultat bleibt stabil, wird aber, wo möglich, datenbasierter.</p>
+</blockquote>
+<hr>
+<h2>Was das in der Praxis bedeutet</h2>
+<p>Die zentrale Veränderung ist:</p>
+<p>Früher:</p>
+<ul>
+<li>die Referenz definierte das Resultat</li>
+</ul>
+<p>Heute:</p>
+<ul>
+<li>die Referenz ist der Ausgangspunkt,</li>
+<li>und das System <strong>lernt aus realen Projekten</strong></li>
+</ul>
+<p>Das ermöglicht ValueApp:</p>
+<ul>
+<li>sich an die tatsächliche Praxis anzupassen,</li>
+<li>Unterschiede zwischen Bauwesen abzubilden,</li>
+<li>und sich mit zunehmenden Daten kontinuierlich zu verbessern.</li>
+</ul>
+<hr>
+<h2>Häufige Missverständnisse</h2>
+<p>Man sollte nicht annehmen:</p>
+<ul>
+<li>dass die Referenzwerte entfernt werden  </li>
+<li>dass das System Werte frei erfindet  </li>
+<li>dass mehr Daten immer zu völlig anderen Resultaten führen</li>
+</ul>
+<p>Stattdessen:</p>
+<ul>
+<li>die Referenz bleibt die Grundlage  </li>
+<li>das Modell passt sie kontrolliert an  </li>
+<li>und das Lernen erfolgt <strong>innerhalb einer klaren Struktur</strong></li>
+</ul>
+<hr>
+<h2>In einem Satz</h2>
+<blockquote>
+<p>ValueApp lernt nun, wie sich jedes Bauwesen über die GF-Intervalle verhält, indem Referenzwissen mit realen Projektdaten kombiniert wird.</p>
+</blockquote>
+<hr>
+<h2>Siehe auch</h2>
+<ul>
+<li><a href="complexity.html">Komplexitätsdimensionen</a></li>
+<li><a href="quantity.html">Menge und Grundaufwand</a></li>
+<li><a href="adjustment-factor.html">Adjustment (Leadership) Factor</a></li>
+<li><a href="output-interpretation.html">Interpretation der Resultate</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

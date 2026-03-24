@@ -14,6 +14,18 @@
     "searchable": true
   },
   {
+    "id": "bayes",
+    "urlByLang": {
+      "de": "/wiki/de/bayes.html",
+      "en": "/wiki/en/bayes.html",
+      "fr": "/wiki/fr/bayes.html"
+    },
+    "titleKey": "wiki.bayes.title",
+    "navKey": "bayes",
+    "lastUpdated": "2026-03-23",
+    "searchable": true
+  },
+  {
     "id": "best-practices",
     "urlByLang": {
       "de": "/wiki/de/best-practices.html",
@@ -83,6 +95,18 @@
     "titleKey": "wiki.gettingStarted.title",
     "navKey": "getting-started",
     "lastUpdated": "2025-12-22",
+    "searchable": true
+  },
+  {
+    "id": "gf-intervals",
+    "urlByLang": {
+      "de": "/wiki/de/gf-intervals.html",
+      "en": "/wiki/en/gf-intervals.html",
+      "fr": "/wiki/fr/gf-intervals.html"
+    },
+    "titleKey": "wiki.gfIntervals.title",
+    "navKey": "gf-intervals",
+    "lastUpdated": "2026-03-23",
     "searchable": true
   },
   {

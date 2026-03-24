@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – gf-intervals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Intervalles de GF et courbes apprises</h1>
+<p>Les intervalles de GF décrivent <strong>comment les valeurs évoluent selon la taille des bâtiments</strong>.</p>
+<p>Au lieu d’attribuer une seule valeur à un type de bâtiment entier, ValueApp évalue les projets <strong>sur des plages de surface de plancher (GF)</strong> et construit une courbe sur ces plages.</p>
+<p>Cela permet au système de refléter une réalité simple :</p>
+<blockquote>
+<p><em>Les petits bâtiments se comportent différemment des grands.</em></p>
+</blockquote>
+<hr>
+<h2>Ce que signifient les intervalles de GF dans ValueApp</h2>
+<p>Dans ValueApp, les intervalles de GF sont :</p>
+<ul>
+<li>des <strong>plages de taille de bâtiments</strong> (p. ex. petit, moyen, grand),</li>
+<li>utilisées pour regrouper des projets comparables,</li>
+<li>et pour calculer des valeurs dans des <strong>conditions d’échelle similaires</strong>.</li>
+</ul>
+<p>Ils répondent à la question :</p>
+<blockquote>
+<p><em>« Comment ce type de bâtiment se comporte-t-il selon la taille ? »</em></p>
+</blockquote>
+<p>Pas :</p>
+<ul>
+<li>quelle est la valeur exacte d’un projet individuel,</li>
+<li>ni quelle est la moyenne sur toutes les tailles.</li>
+</ul>
+<hr>
+<h2>L’approche précédente (valeurs de référence)</h2>
+<p>Auparavant, ValueApp fonctionnait principalement avec des <strong>courbes de référence</strong>.</p>
+<ul>
+<li>Basées sur des <strong>priors</strong>  </li>
+<li>Issues d’études, d’expérience et d’hypothèses structurées  </li>
+<li>Représentées dans l’application par la <strong>ligne noire</strong></li>
+</ul>
+<p>Ces valeurs étaient :</p>
+<ul>
+<li>stables,</li>
+<li>cohérentes,</li>
+<li>mais pas directement apprises à partir des données.</li>
+</ul>
+<p>Elles définissaient le comportement attendu sur les intervalles de GF.</p>
+<hr>
+<h2>La nouvelle approche (apprentissage à partir des données)</h2>
+<p>Avec la nouvelle version, ValueApp introduit un changement fondamental :</p>
+<blockquote>
+<p>Les valeurs ne sont plus seulement définies — elles sont <strong>apprises</strong>.</p>
+</blockquote>
+<p>Le système :</p>
+<ol>
+<li>part de la courbe de référence (priors),</li>
+<li>analyse les <strong>données réelles des projets</strong>,</li>
+<li>et apprend le comportement de chaque type de bâtiment sur les intervalles de GF.</li>
+</ol>
+<p>Le résultat :</p>
+<ul>
+<li>une <strong>courbe informée par les données</strong> au lieu d’une courbe purement définie,</li>
+<li>ajustée par type de bâtiment,</li>
+<li>tout en restant ancrée dans la logique de référence initiale.</li>
+</ul>
+<hr>
+<h2>Ce que montre le graphique</h2>
+<p>Un résultat typique contient trois éléments :</p>
+<ul>
+<li><p><strong>Ligne noire</strong><br>→ référence (priors)</p>
+</li>
+<li><p><strong>Points</strong><br>→ projets réels</p>
+</li>
+<li><p><strong>Lignes pointillées colorées</strong><br>→ valeurs apprises selon le niveau d’exigence</p>
+</li>
+</ul>
+<p>Cela montre clairement :</p>
+<ul>
+<li>où la réalité correspond à la référence,</li>
+<li>où elle s’en écarte,</li>
+<li>et comment le système s’adapte.</li>
+</ul>
+<hr>
+<h2>Pourquoi les intervalles de GF sont essentiels</h2>
+<p>Sans intervalles de GF, le système supposerait :</p>
+<ul>
+<li>une valeur unique par type de bâtiment,</li>
+<li>indépendamment de la taille.</li>
+</ul>
+<p>Cela ignorerait :</p>
+<ul>
+<li>les effets d’échelle,</li>
+<li>les différences d’efficacité,</li>
+<li>les changements structurels et organisationnels liés à la taille.</li>
+</ul>
+<p>Les intervalles de GF permettent au modèle :</p>
+<ul>
+<li>de capturer ces effets,</li>
+<li>et de décrire une <strong>courbe plutôt qu’un point</strong>.</li>
+</ul>
+<hr>
+<h2>Comment l’apprentissage fonctionne entre types de bâtiments</h2>
+<p>Tous les types de bâtiments ne disposent pas de la même quantité de données.</p>
+<p>Certains sont bien représentés.<br>D’autres sont rares.</p>
+<p>Le système combine :</p>
+<ul>
+<li>la <strong>courbe de référence (priors)</strong>,</li>
+<li>les <strong>projets réels du même type</strong>,</li>
+<li>et des <strong>types de bâtiments similaires dans le même groupe</strong>.</li>
+</ul>
+<p>Cela signifie :</p>
+<ul>
+<li>beaucoup de données → courbe plus spécifique  </li>
+<li>peu de données → courbe plus proche de la référence</li>
+</ul>
+<p>Dans tous les cas :</p>
+<blockquote>
+<p>Le résultat reste stable, mais devient plus basé sur les données lorsque c’est possible.</p>
+</blockquote>
+<hr>
+<h2>Ce que cela signifie en pratique</h2>
+<p>Le changement clé est :</p>
+<p>Avant :</p>
+<ul>
+<li>la référence définissait le résultat</li>
+</ul>
+<p>Maintenant :</p>
+<ul>
+<li>la référence est le point de départ,</li>
+<li>et le système <strong>apprend à partir des projets réels</strong></li>
+</ul>
+<p>Cela permet à ValueApp :</p>
+<ul>
+<li>de s’adapter à la pratique réelle,</li>
+<li>de refléter les différences entre types de bâtiments,</li>
+<li>et de s’améliorer continuellement avec de nouvelles données.</li>
+</ul>
+<hr>
+<h2>Malentendus fréquents</h2>
+<p>Ne pas supposer :</p>
+<ul>
+<li>que les valeurs de référence sont supprimées  </li>
+<li>que le système invente des valeurs librement  </li>
+<li>que plus de données signifie toujours des résultats complètement différents</li>
+</ul>
+<p>Au contraire :</p>
+<ul>
+<li>la référence reste la base  </li>
+<li>le modèle l’ajuste avec prudence  </li>
+<li>et l’apprentissage se fait <strong>dans une structure contrôlée</strong></li>
+</ul>
+<hr>
+<h2>En une phrase</h2>
+<blockquote>
+<p>ValueApp apprend désormais comment chaque type de bâtiment se comporte selon les intervalles de GF en combinant les connaissances de référence avec les données réelles.</p>
+</blockquote>
+<hr>
+<h2>Voir aussi</h2>
+<ul>
+<li><a href="complexity.html">Dimensions de complexité</a></li>
+<li><a href="quantity.html">Quantité et effort de base</a></li>
+<li><a href="adjustment-factor.html">Facteur d’ajustement (pilotage)</a></li>
+<li><a href="output-interpretation.html">Interprétation des résultats</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>

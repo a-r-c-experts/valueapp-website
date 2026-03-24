@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ValueApp Wiki – bayes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValueApp user documentation for planners and clients (wiki page)." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <!-- Back to main ValueApp page at site root -->
+    <a href="/index.html" class="brand-logo-link" aria-label="Back to main ValueApp page">
+      <img src="/logos/Logo.gif" alt="ValueApp" class="wiki-hero-logo" />
+    </a>
+
+    <div class="brand-text-only">
+      <span class="brand-line-main" data-i18n="wiki.brand.lineMain">ValueApp · User Wiki</span>
+      <span class="brand-line-sub" data-i18n="wiki.brand.lineSub">Documentation for planners and clients</span>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="main-nav">
+      <a href="#" data-wiki-link="index.html" data-i18n="wiki.nav.home">Home</a>
+      <a href="#" data-wiki-link="getting-started.html" data-i18n="wiki.nav.gettingStarted">Getting started</a>
+      <a href="#" data-wiki-link="knowledge-base.html" data-i18n="wiki.nav.knowledgeBase">Knowledge base</a>
+      <a href="#" data-wiki-link="workflows.html" data-i18n="wiki.nav.workflows">Workflows</a>
+      <a href="#" data-wiki-link="reference.html" data-i18n="wiki.nav.reference">Reference</a>
+      <a href="#" data-wiki-link="examples.html" data-i18n="wiki.nav.examples">Examples</a>
+      <a href="#" data-wiki-link="support.html" data-i18n="wiki.nav.support">Support</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-label" data-i18n="ui.languageLabel">Language</span>
+        <span class="lang-current" id="currentLangLabel">EN</span>
+        <span class="lang-chevron">▾</span>
+      </button>
+      <div class="lang-menu" id="langMenu" aria-label="Select language">
+        <button class="lang-option" data-lang="en">EN</button>
+        <button class="lang-option" data-lang="de">DE</button>
+        <button class="lang-option" data-lang="fr">FR</button>
+      </div>
+    </div>
+
+    <!-- Simple search box -->
+    <form class="wiki-search" id="wikiSearchForm" role="search">
+      <input type="search" id="wikiSearchInput" placeholder="Search wiki" aria-label="Search wiki" />
+    </form>
+  </div>
+</header>
+
+  <main class="wiki-main">
+    <div class="wiki-layout">
+      <aside class="wiki-toc" id="wikiToc"></aside>
+      <section class="wiki-section wiki-content">
+<h1>Bayesianisches Lernen in ValueApp</h1>
+<p>Bayesianisches Lernen beschreibt <strong>wie ValueApp bestehendes Wissen mit realen Projektdaten kombiniert</strong>.</p>
+<p>Es ermöglicht dem System:</p>
+<ul>
+<li>von einer strukturierten Referenz auszugehen,</li>
+<li>aus beobachteten Projekten zu lernen,</li>
+<li>und Resultate kontrolliert und transparent zu aktualisieren.</li>
+</ul>
+<hr>
+<h2>Was „Bayesianisch“ bedeutet (einfach erklärt)</h2>
+<p>Im Kern beantwortet bayesianisches Denken eine Frage:</p>
+<blockquote>
+<p><em>„Wie sollen wir das, was wir glauben, anpassen, sobald wir neue Daten sehen?“</em></p>
+</blockquote>
+<p>Es kombiniert immer zwei Dinge:</p>
+<ul>
+<li>was wir <strong>bereits erwarten</strong>  </li>
+<li>was wir <strong>tatsächlich beobachten</strong></li>
+</ul>
+<p>In ValueApp bedeutet das:</p>
+<ul>
+<li>wir starten nicht bei null  </li>
+<li>und wir vertrauen den Daten nicht blind  </li>
+<li>wir <strong>kombinieren beides</strong></li>
+</ul>
+<hr>
+<h2>Die zwei Bestandteile</h2>
+<h3>1. Prior (bestehendes Wissen)</h3>
+<p>Der <strong>Prior</strong> ist das, was wir wissen, bevor wir die aktuellen Daten betrachten.</p>
+<p>In ValueApp stammt das aus:</p>
+<ul>
+<li>Studien (z. B. ETH),</li>
+<li>strukturierter Erfahrung,</li>
+<li>bestehenden Referenzkurven.</li>
+</ul>
+<p>Er definiert:</p>
+<blockquote>
+<p><em>Wie wir erwarten, dass sich ein Bauwesen über die GF-Intervalle verhält.</em></p>
+</blockquote>
+<hr>
+<h3>2. Daten (reale Projekte)</h3>
+<p>Die Daten bestehen aus:</p>
+<ul>
+<li>realen Projekten,</li>
+<li>beobachteten Werten,</li>
+<li>tatsächlichen Verteilungen über Gebäudegrössen.</li>
+</ul>
+<p>Sie zeigen:</p>
+<blockquote>
+<p><em>Was in der Praxis tatsächlich passiert.</em></p>
+</blockquote>
+<hr>
+<h2>Das Resultat: eine aktualisierte Schätzung</h2>
+<p>Bayesianisches Lernen kombiniert Prior und Daten zu einem:</p>
+<blockquote>
+<p><strong>Posterior (aktualisiertes Resultat)</strong></p>
+</blockquote>
+<p>Das ist das, was ValueApp als <strong>gelernte Kurve</strong> zeigt.</p>
+<p>Sie ist:</p>
+<ul>
+<li>nicht rein vorgegeben,</li>
+<li>nicht rein datengetrieben,</li>
+<li>sondern eine <strong>Kombination aus beidem</strong>.</li>
+</ul>
+<hr>
+<h2>Warum das notwendig ist</h2>
+<p>Wenn wir nur Priors verwenden würden:</p>
+<ul>
+<li>wären die Resultate stabil  </li>
+<li>aber von der Realität entkoppelt</li>
+</ul>
+<p>Wenn wir nur Daten verwenden würden:</p>
+<ul>
+<li>wären die Resultate instabil  </li>
+<li>besonders bei wenigen Beobachtungen</li>
+</ul>
+<p>Bayesianisches Lernen löst dieses Problem, indem es beides ausbalanciert.</p>
+<hr>
+<h2>Wie die Gewichtung funktioniert</h2>
+<p>Das System passt automatisch an, wie stark es welcher Quelle vertraut.</p>
+<h3>Wenn viele Daten vorhanden sind</h3>
+<ul>
+<li>das Modell stützt sich stärker auf <strong>reale Projekte</strong>  </li>
+<li>das Resultat wird spezifischer  </li>
+<li>die Kurve folgt dem beobachteten Verhalten</li>
+</ul>
+<h3>Wenn wenige Daten vorhanden sind</h3>
+<ul>
+<li>das Modell stützt sich stärker auf den <strong>Prior</strong>  </li>
+<li>das Resultat bleibt stabil  </li>
+<li>unrealistische Sprünge werden vermieden</li>
+</ul>
+<p>In beiden Fällen gilt:</p>
+<blockquote>
+<p>Das System verhält sich konsistent, passt sich aber dort an, wo es möglich ist.</p>
+</blockquote>
+<hr>
+<h2>Warum das für Bauwesen wichtig ist</h2>
+<p>Nicht alle Bauwesen sind gleich gut abgedeckt.</p>
+<p>Einige haben:</p>
+<ul>
+<li>viele Projekte  </li>
+<li>starke Datensignale</li>
+</ul>
+<p>Andere haben:</p>
+<ul>
+<li>sehr wenige Beobachtungen  </li>
+<li>unvollständige Informationen</li>
+</ul>
+<p>Bayesianisches Lernen ermöglicht ValueApp:</p>
+<ul>
+<li>Resultate für alle Bauwesen zu liefern,  </li>
+<li>die Datenlage transparent zu berücksichtigen,  </li>
+<li>ohne Überanpassung oder „Raten“.</li>
+</ul>
+<hr>
+<h2>Bedeutung für GF-Intervalle</h2>
+<p>Innerhalb jedes GF-Intervalls:</p>
+<ol>
+<li>startet das Modell beim Referenzwert (Prior),  </li>
+<li>vergleicht ihn mit realen Projektdaten,  </li>
+<li>passt den Wert entsprechend an.</li>
+</ol>
+<p>So entsteht eine Kurve, die:</p>
+<ul>
+<li>dem realen Verhalten folgt, wo Daten vorhanden sind,  </li>
+<li>und stabil bleibt, wo dies nicht der Fall ist.</li>
+</ul>
+<hr>
+<h2>Was Bayesianisches Lernen nicht ist</h2>
+<p>Es ist nicht:</p>
+<ul>
+<li>eine Blackbox, die Werte erfindet  </li>
+<li>ein Ersatz für Fachwissen  </li>
+<li>eine rein statistische Übung ohne Struktur</li>
+</ul>
+<p>Stattdessen:</p>
+<ul>
+<li>formalisiert es das Zusammenspiel von Erfahrung und Daten  </li>
+<li>und macht dieses Zusammenspiel über alle Bauwesen hinweg konsistent</li>
+</ul>
+<hr>
+<h2>In einem Satz</h2>
+<blockquote>
+<p>Bayesianisches Lernen ermöglicht es ValueApp, von bestehenden Referenzwerten auszugehen und diese kontinuierlich mit realen Projektdaten zu aktualisieren.</p>
+</blockquote>
+<hr>
+<h2>Warum dies ValueApp verbessert</h2>
+<p>Durch bayesianisches Lernen wird das System:</p>
+<ul>
+<li>realistischer → bildet reale Projekte besser ab  </li>
+<li>robuster → bleibt stabil auch bei wenig Daten  </li>
+<li>skalierbarer → funktioniert über alle Bauwesen hinweg</li>
+</ul>
+<p>Es stellt sicher:</p>
+<ul>
+<li>dass neue Daten die Resultate verbessern,  </li>
+<li>ohne bestehendes Wissen zu verwerfen.</li>
+</ul>
+<hr>
+<h2>Häufige Missverständnisse</h2>
+<p>Man sollte nicht annehmen:</p>
+<ul>
+<li>dass Priors ignoriert werden  </li>
+<li>dass Daten alles vollständig überschreiben  </li>
+<li>dass mehr Daten immer zu grossen Änderungen führen</li>
+</ul>
+<p>Stattdessen gilt:</p>
+<ul>
+<li>Priors bleiben die Grundlage  </li>
+<li>Daten verfeinern diese  </li>
+<li>und das Modell steuert, wie stark angepasst wird</li>
+</ul>
+<hr>
+<h2>Siehe auch</h2>
+<ul>
+<li><a href="gf-intervals.html">GF-Intervalle und gelernte Kurven</a></li>
+<li><a href="complexity.html">Komplexitätsdimensionen</a></li>
+<li><a href="quantity.html">Menge und Grundaufwand</a></li>
+<li><a href="output-interpretation.html">Interpretation der Resultate</a></li>
+</ul>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  <div class="footer-inner">
+    <div>
+      <span data-i18n="footer.copyright">
+        © 2026 ETH Zürich, Chair of Architecture and Building Process · in collaboration with
+        <span class="nowrap">a r c experts AG</span>.
+      </span>
+      <!-- Version info placeholder -->
+      <span id="wikiVersionLabel"></span>
+    </div>
+    <div class="footer-links">
+      <span data-i18n="footer.cookies">
+        This site uses only functional cookies to improve the user experience.
+      </span>
+    </div>
+    <div class="footer-logos">
+      <a href="https://www.arcexperts.ch" target="_blank" rel="noopener noreferrer" class="footer-logo-link">
+        <img src="/logos/logo_arc.png" alt="a r c experts AG" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/partials.js"></script>
+  <script src="/wiki/wiki-version.js"></script>
+
+  <!-- generated list of markdown pages -->
+  <script src="/wiki/wiki-generated-pages.js"></script>
+
+  <script src="/wiki/wiki-page-config.js"></script>
+  <script src="/wiki/wiki-last-updated.js"></script>
+  <script src="/wiki/search.js"></script>
+  <script src="/wiki/toc.js"></script>
+  <script src="/wiki/wiki-toc-mobile.js"></script>
+
+  <script type="module" src="/i18n/lang-loader.js"></script>
+  <script src="/lang.js"></script>
+</body>
+</html>
