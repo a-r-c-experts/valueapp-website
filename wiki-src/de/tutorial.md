@@ -94,7 +94,7 @@ Wenn Sie ausserhalb der Schweiz arbeiten:
 
 ---
 
-## Schritt 1 — Projekt beschreiben
+## Schritt 1 — Beschrieb
 
 Der Schritt **Beschrieb** dokumentiert den Projektkontext.  
 Diese Informationen erscheinen in der Zusammenfassung und sollten mit Stakeholdern teilbar sein.
@@ -105,20 +105,19 @@ Diese Informationen erscheinen in der Zusammenfassung und sollten mit Stakeholde
 
 ---
 
-### 1.1 Projektdetails
+### 1.1 Projektangaben
 
 **Ziel**  
-Eine klare, gemeinsame Projektidentität erstellen.
+Eine klare und verständliche Projektbasis festlegen.
 
 **Tun**
-- Projektname und Adresse erfassen.
-- Projektstatus wählen.
-- Aufgabe wählen (z.B. Neubau oder Umbau).
+- Projektname erfassen.
+- Projektstatus wählen (z. B. *in Planung*).
 - Kurze Projektbeschreibung schreiben (5–10 Zeilen).
 
 **Prüfen**
-- Die Beschreibung erklärt klar, *um was für ein Projekt es geht*.
-- Eine Drittperson versteht den Kontext beim Lesen.
+- Die Beschreibung erklärt klar, *worum es im Projekt geht*.
+- Eine Drittperson versteht Ziel und Kontext ohne zusätzliche Erklärungen.
 
 ![Description – project details filled](/wiki-assets/tutorial/description-project-details.jpeg)
 
@@ -131,53 +130,33 @@ Eine klare, gemeinsame Projektidentität erstellen.
 </details>
 
 **Warum das wichtig ist**
-- Die Beschreibung ist das, was andere im exportierten Summary lesen.
-- Gute Beschreibungen reduzieren Rückfragen und Missverständnisse.
+- Die Beschreibung erscheint im exportierten Summary.
+- Sie bildet die Grundlage für das gemeinsame Projektverständnis.
 
 **Häufige Fehler**
-- Marketingtext statt Umfang und Randbedingungen.
-- Beschreibung wird nicht angepasst, obwohl sich das Projekt weiterentwickelt.
+- Zu vage oder zu allgemein formuliert.
+- Fokus auf Marketing statt auf Inhalt und Rahmenbedingungen.
+- Beschreibung wird nicht aktualisiert, obwohl sich das Projekt verändert.
 
 ---
 
-### 1.2 Standort
+### 1.2 Nutzungen
 
 **Ziel**  
-Dokumentieren, wo das Projekt geplant ist.
+Die Nutzungen des Projekts klar und differenziert definieren.
 
 **Tun**
-- Karte verschieben.
-- Projektstandort markieren.
+- Nutzungen per Klick hinzufügen.
+- Mehrere Nutzungen erfassen, falls das Projekt gemischt ist.
+- Pro Nutzung wählen:
+  - Eine **Kategorie** (z. B. *Wohnen, Arbeiten, Produzieren, Lagern, Ausbilden und Forschen, Heilen und Pflegen*)
+  - Oder eine **konkrete Bauwerksart** (z. B. Mehrfamilienhäuser)
 
 **Prüfen**
-- Marker ist korrekt gesetzt.
-
-![Description – location map](/wiki-assets/tutorial/description-location-map.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
-<details class="wiki-video">
-  <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
-  </video>
-</details>
-
-> **Beeinflusst den Aufwand nicht**  
-> Standortstatistiken dienen nur als Kontext.
-
----
-
-### 1.3 Organisationssetup
-
-**Ziel**  
-Definieren, wie Verantwortlichkeiten strukturiert sind.
-
-**Tun**
-- Organisationsmodell auf der **Planerseite** wählen.
-- Organisationsmodell auf der **Unternehmerseite** wählen.
-
-**Prüfen**
-- Auswahl entspricht der vertraglichen Realität, nicht Wunschdenken.
+- Alle relevanten Nutzungen sind abgebildet.
+- Die gewählte Ebene passt zum Projektstand:
+  - Kategorie = gröbere Einordnung
+  - Bauwerksart = präzisere Abbildung
 
 ![Description – organisation setup](/wiki-assets/tutorial/description-organisation-setup.jpeg)
 
@@ -190,29 +169,34 @@ Definieren, wie Verantwortlichkeiten strukturiert sind.
 </details>
 
 **Warum das wichtig ist**
-- Organisation beeinflusst **Phasenverantwortung**.
-- Sie beeinflusst die **Interpretation** der Phasenprozente später.
+- Die Nutzung bestimmt die Zuordnung zu Bauwerksarten.
+- Eine präzisere Auswahl führt zu genaueren Berechnungen.
 
 **Good practice**
-- Organisation früh evaluieren.
-- Modell nicht mitten im Projekt wechseln, ausser es ist unvermeidbar.
+- Frühe Phase: Kategorie wählen, wenn Details noch unklar sind.
+- Spätere Phase: Konkrete Bauwerksart wählen für bessere Genauigkeit.
+- Mischprojekte bewusst aufteilen statt vereinfachen.
 
-**Weiterführend**
-- [Reference](reference.html) (Phasenverteilungen interpretieren)
+**Häufige Fehler**
+- Nur eine Nutzung wählen, obwohl mehrere vorhanden sind.
+- Zu früh eine zu spezifische Bauwerksart festlegen.
+- Nutzung aus Gewohnheit statt aus tatsächlichem Projektinhalt wählen.
 
 ---
 
-### 1.4 Aufgabenart: Neubau vs. Umbau
+### 1.3 Anforderungen und Aufgaben
 
 **Ziel**  
-Art des Eingriffs festlegen.
+Das Anforderungsniveau und die Aufgabenart pro Nutzung festlegen.
 
 **Tun**
-- *New build* oder *Refurbishment* wählen.
-- Falls vorhanden: Eingriffstiefe definieren.
+- Für jede Nutzung definieren:
+  - Anforderungsniveau (*tief, standard, hoch, sehr hoch*)
+  - Aufgabe (*Neubau oder Umbau/Sanierung*)
 
 **Prüfen**
-- Aufgabe entspricht dem realen Umfang, nicht der Budget-Erzählung.
+- Anforderungen entsprechen der tatsächlichen Komplexität.
+- Aufgabe entspricht dem realen Eingriff, nicht der Projektbezeichnung.
 
 ![Description – task selection](/wiki-assets/tutorial/description-task-selection.jpeg)
 
@@ -224,45 +208,114 @@ Art des Eingriffs festlegen.
   </video>
 </details>
 
-> **Beeinflusst den Aufwand**  
-> Aufgabenart und Eingriffstiefe beeinflussen den Aufwand.  
-> Kostenfaktoren nicht.
+> **Einfluss auf den Aufwand**  
+> Anforderungen und Aufgaben wirken sich direkt auf die berechneten Werte aus.
 
 **Häufige Fehler**
-- *Refurbishment* wählen «weil ein Gebäude existiert», obwohl der Umfang faktisch Neubau ist.
-- Eingriffstiefe in frühen Phasen zu tief ansetzen.
+- Anforderungen zu tief ansetzen.
+- Umbau wählen, obwohl es faktisch ein Neubau ist.
 
 ---
 
-## Schritt 2 — Menge, Nutzungen und Komplexität definieren
+### 1.4 Flächenverteilung
 
-Dieser Schritt liefert die **erste Aufwandsschätzung**.
+**Ziel**  
+Die Projektgrösse und deren Aufteilung nachvollziehbar definieren.
+
+**Tun**
+- Geschossfläche (GF) erfassen.
+- Nutzungsanteile definieren (ab mindestens zwei Nutzungen).
+
+**Prüfen**
+- Die Gesamtfläche entspricht dem aktuellen Planungsstand.
+- Nutzungsanteile ergeben zusammen 100 %.
+
+![Description – task selection](/wiki-assets/tutorial/description-task-selection.jpeg)
+
+<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
+<details class="wiki-video">
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
+  </video>
+</details>
+
+> **Direkter Einfluss auf Ergebnisse**  
+> Die Geschossfläche ist eine zentrale Eingangsgrösse für die Berechnung.
+
+**Häufige Fehler**
+- Unklare oder geschätzte Flächen.
+- Nutzungsanteile werden nicht aktualisiert.
+
+---
+
+### 1.5 Geplante Organisationsform
+
+**Ziel**  
+Die Projektorganisation korrekt abbilden.
+
+**Tun**
+- Organisationsmodell auf der **Planendenseite** wählen:
+  - Generalplaner/in (GP)
+  - Planergemeinschaft
+  - Mehrheitlich Einzelleistungsplanende
+- Organisationsmodell auf der **Unternehmendenseite** wählen:
+  - Totalunternehmer/in (TU)
+  - Generalunternehmer/in (GU)
+  - Mehrheitlich Einzelleistungsunternehmende
+
+**Prüfen**
+- Auswahl entspricht der vertraglichen Realität.
+- Keine „Wunschorganisation“, sondern die tatsächliche Struktur.
+
+![Description – organisation setup](/wiki-assets/tutorial/description-organisation-setup.jpeg)
+
+<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
+<details class="wiki-video">
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Warum das wichtig ist**
+- Die Organisation beeinflusst die Verteilung der Leistungen.
+- Sie hat Auswirkungen auf die Interpretation der Ergebnisse.
+
+**Good practice**
+- Früh festlegen und konsistent halten.
+- Änderungen nur bei tatsächlichen Projektanpassungen vornehmen.
+
+---
+
+## Schritt 2 — Projekt
+
+Dieser Schritt führt zur **konkreten Aufwandsschätzung** auf Basis der gewählten Rolle und der projektspezifischen Anpassungen.
 
 Wenn Sie den konzeptionellen Überblick über Felder und Logik möchten, siehe:  
 → [Project section](project-section.html)
 
 ---
 
-### 2.1 Rollen festlegen
+### 2.1 Rolle
 
 **Ziel**  
-Definieren, **für welche Fachrollen** der Aufwand berechnet wird.
+Festlegen, **für welche Rolle** der Aufwand berechnet wird.
 
-Die ValueApp berechnet Aufwand **immer rollenbezogen**.  
-Ohne Rollen gibt es keine sinnvolle Aussage zum Gesamtaufwand.
+Die ValueApp berechnet den Aufwand immer **rollenbezogen**.  
+Die Auswahl bestimmt das zugrunde liegende Modell.
 
 **Tun**
-- Relevante Rollen aktivieren:
-  - Architektur
+- Eine Rolle auswählen:
+  - Architekt
   - Ingenieurwesen
   - Elektro
   - Heizung / Lüftung
   - Sanitär
-- Rollen auswählen, die effektiv beauftragt oder betrachtet werden sollen.
 
 **Prüfen**
-- Nur aktive Rollen fliessen in die Berechnung ein.
-- Jede Rolle wird später separat ausgewiesen.
+- Die gewählte Rolle entspricht dem tatsächlichen Leistungsumfang.
+- Nur relevante Rollen betrachten (keine theoretischen Szenarien).
 
 ![Project – roles selection](/wiki-assets/tutorial/project-roles-selection.jpeg)
 
@@ -275,32 +328,27 @@ Ohne Rollen gibt es keine sinnvolle Aussage zum Gesamtaufwand.
 </details>
 
 **Warum das wichtig ist**
-- Unterschiedliche Rollen haben unterschiedliche Basismodelle.
-- Komplexität und Risiko wirken **nicht identisch** auf alle Disziplinen.
-- Transparente Rollenwahl verhindert spätere Missverständnisse in Angeboten und Diskussionen.
+- Jede Rolle hat eigene Referenzwerte und Berechnungslogiken.
+- Ergebnisse sind nur innerhalb derselben Rolle vergleichbar.
 
 **Häufige Fehler**
-- Alle Rollen aktivieren «zur Sicherheit».
-- Rollen auswählen, obwohl sie projektseitig nicht beauftragt sind.
-- Rollenwechsel später vornehmen, ohne Resultate neu zu prüfen.
-
-**Weiterführend**
-- [Roles and services](roles-and-services.html) (Rollenlogik und Leistungsverständnis)
-- [Definitions](definitions.html) (Rolle vs. Leistung)
+- Rolle wählen, die nicht beauftragt ist.
+- Rolle wechseln, ohne die Ergebnisse neu zu interpretieren.
 
 ---
 
-### 2.2 Bestimmende Menge
+### 2.2 Aufwandanpassung
 
 **Ziel**  
-Projektgrösse definieren.
+Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
 
 **Tun**
-- Ungefähre Bruttogeschossfläche erfassen (oder relevante Einheit).
-- Gesamtwert erfassen, nicht pro Geschoss.
+- Den angezeigten Wert (min/m²) prüfen.
+- Verstehen, wie sich der Wert aus Nutzung, Fläche und Modell ergibt.
 
 **Prüfen**
-- Menge umfasst das gesamte Projekt.
+- Der Wert ist plausibel im Vergleich zu ähnlichen Projekten.
+- Die Einheit (min/m²) wird korrekt interpretiert.
 
 ![Project – enter quantity](/wiki-assets/tutorial/project-enter-quantity.jpeg)
 
@@ -313,70 +361,41 @@ Projektgrösse definieren.
 </details>
 
 **Warum das wichtig ist**
-- Das Basismodell nutzt die Menge als Haupttreiber der ersten Bandbreite.
+- Dies ist der Ausgangswert vor projektbezogenen Anpassungen.
+- Alle weiteren Faktoren bauen auf diesem Wert auf.
 
 **Häufige Fehler**
-- Nettofläche statt Brutto erfassen.
-- Untergeschosse oder gemeinschaftliche Flächen vergessen.
-
-**Weiterführend**
-- [Project section](project-section.html) (Mengen und Nutzungskategorien)
-- [Quantity](quantity.html) (was zählt, was nicht, und warum)
+- Wert isoliert betrachten, ohne Kontext von Nutzung und Fläche.
+- min/m² mit Gesamtaufwand verwechseln.
 
 ---
 
-### 2.3 Nutzungsmix
+### 2.3 Anpassungsfaktor Qualität (Planungsanforderungen)
 
 **Ziel**  
-Der App sagen, *wofür das Projekt genutzt wird*.
+Die projektspezifischen Anforderungen differenziert abbilden.
+
+**Was bewertet wird**
+- Gestalterisch
+- Technisch
+- Räumlich
+- Organisatorisch
 
 **Tun**
-- Mindestens eine Nutzung hinzufügen.
-- Prozente so setzen, dass total 100 % ergibt.
-- Nutzungen bei Bedarf neu sortieren.
+- Jede Dimension mit dem Schieberegler bewerten.
+- Einschätzung anhand der tatsächlichen Projektanforderungen vornehmen.
 
 **Prüfen**
-- Komplexitätsbereich wird freigeschaltet.
-- Ein min/m²-Wert erscheint.
+- Der Komplexitätsfaktor passt zur Projektrealität.
+- Die Anpassung ist fachlich begründbar.
 
-![Use mix example](/wiki-assets/tutorial/project-use-mix.jpeg)
+**Ergebnis**
+- Der Basiswert (min/m²) wird mit dem Faktor multipliziert.
 
-<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
-<details class="wiki-video">
-  <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
-  </video>
-</details>
-
-**Warum das wichtig ist**
-- Der Nutzungsmix wählt die relevanten Basismodelle aus und verändert den erwarteten Aufwand.
-
-**Weiterführend**
-- [Use categories](use-categories.html) (welche Nutzung wofür steht, mit Beispielen)
-
----
-
-### 2.4 Komplexitätsbeurteilung
-
-**Ziel**  
-Begründen, warum dieses Projekt einfacher oder anspruchsvoller ist als ein Referenzfall.
-
-**Was Komplexität ist**
-- Abbild von **Anforderungen und Vorgehen**, nicht nur Ästhetik.
-- Möglichkeit, fachliches Urteil zu dokumentieren.
-
-**Tun**
-- Komplexität in vier Dimensionen beurteilen:
-  - Design
-  - Spatial
-  - Technical
-  - Organisational
-- Herausforderungen im Leadership Framework verorten.
+> Beispiel:  
+> 257 min/m² × 1.05 = 270 min/m²
 
 ![Project – complexity framework](/wiki-assets/tutorial/project-complexity-framework.jpeg)
-
-![Complexity dimensions](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
@@ -386,36 +405,27 @@ Begründen, warum dieses Projekt einfacher oder anspruchsvoller ist als ein Refe
   </video>
 </details>
 
-**Prüfen**
-- Der Anpassungsfaktor verändert sich.
-- Die Begründung ist gegenüber Bauherrschaft erklärbar.
+**Warum das wichtig ist**
+- Der Faktor bildet die effektiven Planungsanforderungen ab.
+- Er ersetzt pauschale Annahmen durch eine strukturierte Bewertung.
 
-**Kurzbeispiele**
-- Einfaches Wohnprojekt → eher *simple/complicated*
-- Innenstadt-Spitalumbau → in mehreren Dimensionen *complex/unclear*
-
-**Häufiger Fehler**
-- Komplexität erhöhen, nur um «mehr Stunden» zu erhalten.
-
-**Weiterführend**
-- [Definitions](definitions.html) (Komplexität, Leadership Framework)
-- [How the app works](how-it-works.html) (wie Komplexität die Bandbreite beeinflusst)
-- [Complexity dimensions](complexity.html)
-- [Adjustment factor (Leadership factor)](adjustment-factor.html)
+**Häufige Fehler**
+- Alle Regler auf 1.0 lassen «zur Sicherheit».
+- Faktor erhöhen ohne fachliche Begründung.
 
 ---
 
-### 2.5 Risikobeurteilung
+### 2.4 Risikoabwägung
 
 **Ziel**  
-Planungsunsicherheit abbilden.
+Projektunsicherheiten ergänzend berücksichtigen.
 
 **Tun**
-- Risikostufe wählen.
-- Begründung dokumentieren (wenn möglich).
+- Passende Risikostufe wählen (z. B. keine, erhöhte oder hohe Anforderungen).
 
 **Prüfen**
-- Risiko wirkt extern (Einsprachen, Unterbrüche), nicht intern (Designqualität).
+- Risiko beschreibt externe Unsicherheiten (z. B. Verfahren, Rahmenbedingungen).
+- Risiko wird nicht mit Komplexität verwechselt.
 
 ![Project – risk assessment](/wiki-assets/tutorial/project-risk-assessment.jpeg)
 
@@ -428,88 +438,42 @@ Planungsunsicherheit abbilden.
 </details>
 
 **Warum das wichtig ist**
-- Risiko dokumentiert Unsicherheit in frühen Phasen, wenn vieles noch nicht bekannt ist.
-
-**Weiterführend**
-- [Definitions](definitions.html) (Risiko)
-- [How the app works](how-it-works.html) (Risiko vs. Komplexität)
-
----
-
-## Schritt 3 — Leistungen definieren
-
-Dieser Schritt passt den Aufwand an **Ihre Verantwortung** an.
-
----
-
-### 3.1 Rolle wählen
-
-**Ziel**  
-Vertraglichen Leistungsumfang abbilden.
-
-**Tun**
-- Rolle wählen (z.B. Architect, Architect & General Planner).
-
-**Prüfen**
-- Rolle entspricht dem Vertrag, nicht der Ambition.
-
-![Services – select role](/wiki-assets/tutorial/services-select-role.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
-<details class="wiki-video">
-  <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
-  </video>
-</details>
+- Risiko macht Unsicherheiten transparent.
+- Es ergänzt die Bewertung der Anforderungen, ersetzt sie aber nicht.
 
 **Häufige Fehler**
-- Breitere Rolle auswählen als vertraglich vereinbart.
-- Vergessen: Output ist standardmässig **Grundleistungen**.
-
-**Weiterführend**
-- [Roles and services](roles-and-services.html) (was Rollen beinhalten und ausschliessen)
+- Risiko verwenden, um fehlende Komplexitätsbewertung zu kompensieren.
+- Interne Themen (z. B. Designentscheidungen) als Risiko deklarieren.
 
 ---
 
-### 3.2 Schwerpunktthemen
+## Schritt 3 — Leistung
 
-**Ziel**  
-Spezielle Verantwortungen sichtbar machen.
-
-**Tun**
-- Relevante Schwerpunktthemen wählen.
-
-**Prüfen**
-- Schwerpunktthemen erklären Schwerpunkte, nicht «Scope aufblasen».
-
-![Services – focus topics](/wiki-assets/tutorial/services-focus-topics.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
-<details class="wiki-video">
-  <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
-  </video>
-</details>
-
-**Weiterführend**
-- [Best practices](best-practices.html) (Annahmen sauber dokumentieren)
+Dieser Schritt zeigt den **berechneten Stundenaufwand** und dessen Verteilung über die Phasen.
 
 ---
 
-### 3.3 Stunden und Phasenverteilung
+### 3.1 Stundenaufwand
 
 **Ziel**  
-Phasenverteilung verstehen und bei Bedarf anpassen.
+Den gesamten Projektaufwand verstehen und einordnen.
+
+**Was angezeigt wird**
+- Geschätzte Projektstunden (100 % Grundleistung)
+- Aufwand pro Phase gemäss Organisationsform
+- Prozentuale Verteilung und absolute Stunden
 
 **Tun**
-- Vorgeschlagene Phasenprozente prüfen.
-- Anpassen, wenn Ihre Leistungserbringung vom Standard abweicht.
+- Gesamtstunden prüfen (z. B. 450 h).
+- Verteilung auf die Phasen analysieren:
+  - Phase 3 Projektierung
+  - Phase 4 Ausschreibung
+  - Phase 5 Realisierung
+- Verhältnis zwischen Prozent (%) und Stunden (h) verstehen.
 
 **Prüfen**
-- Totalstunden bleiben konstant.
-- Verschiebungen sind plausibel.
+- Die Gesamtstunden sind plausibel im Vergleich zu ähnlichen Projekten.
+- Die Phasenverteilung entspricht der gewählten Organisationsform.
 
 ![Services – hours and phases](/wiki-assets/tutorial/services-hours-phases.jpeg)
 
@@ -522,30 +486,35 @@ Phasenverteilung verstehen und bei Bedarf anpassen.
 </details>
 
 **Lesebeispiel**
-- Gesamtaufwand: 240 h  
-- Phase 3 mit 33% → ~79 h  
-- Phase 5 mit 48% → ~115 h
+- Gesamtaufwand: 450 h  
+- Phase 3 mit 33 % → 149 h  
+- Phase 5 mit 48 % → 216 h  
 
 **Warum das wichtig ist**
-- Phasenverteilung beeinflusst Planung und Beschaffung, auch wenn Totalstunden gleich bleiben.
+- Der Gesamtaufwand bildet die Grundlage für Honorar- und Ressourcenplanung.
+- Die Phasenverteilung zeigt, wann der Aufwand anfällt.
 
-**Weiterführend**
-- [Reference](reference.html) (Phasen und Interpretation)
-- [Output interpretation](output-interpretation.html) (Stunden, Bandbreiten und Phasen lesen)
+**Häufige Fehler**
+- Nur die Gesamtstunden betrachten und die Phasen ignorieren.
+- Prozentwerte lesen, ohne sie in Stunden zu übersetzen.
 
 ---
 
-### 3.4 Projektspezifische und zusätzliche Leistungen
+### 3.2 Projektspezifischer Aufwand
 
 **Ziel**  
-Abweichungen von Grundleistungen dokumentieren.
+Den Aufwand pro Phase klar und direkt ablesen.
+
+**Was angezeigt wird**
+- Stunden pro Phase als konkrete Werte (z. B. 149 h, 85.5 h, 216 h)
 
 **Tun**
-- Subphasen bei Bedarf anpassen.
-- Zusätzliche Leistungen mit Beschreibung hinzufügen.
+- Aufwand pro Phase prüfen.
+- Kritische Phasen identifizieren (z. B. hoher Anteil in Phase 5).
 
 **Prüfen**
-- Zusätzliche Leistungen sind explizit und nachvollziehbar.
+- Die Verteilung ist nachvollziehbar und entspricht der Projektlogik.
+- Keine Phase ist unrealistisch unter- oder übergewichtet.
 
 ![Services – additional services](/wiki-assets/tutorial/services-additional-services.jpeg)
 
@@ -557,30 +526,39 @@ Abweichungen von Grundleistungen dokumentieren.
   </video>
 </details>
 
+**Warum das wichtig ist**
+- Macht den Aufwand operativ nutzbar (Planung, Ressourcen, Termine).
+- Unterstützt die Diskussion mit Bauherrschaft und Projektteam.
+
 **Häufige Fehler**
-- Zusätzliche Leistungen ohne Beschreibung.
-- Zusätzliche Leistungen als Korrektur für schlechte Eingaben früher (Menge/Nutzung/Komplexität).
-
-**Weiterführend**
-- [Definitions](definitions.html) (Grundleistungen vs. zusätzliche Leistungen)
+- Stunden isoliert betrachten, ohne Zusammenhang zur Gesamtlogik.
+- Phasen mit 0 h falsch interpretieren (nicht Teil des Leistungsumfangs).
 
 ---
 
-## Schritt 4 — Zusammenfassung prüfen und exportieren
+## Schritt 4 — Zusammenfassung und Weiterverwendung
 
 ---
 
-### 4.1 One-Pager prüfen
+### 4.1 Zusammenfassung
 
 **Ziel**  
-Sicherstellen, dass Ergebnis und Eingaben zusammenpassen.
+Die Ergebnisse gesamthaft verstehen und überprüfen.
+
+**Was angezeigt wird**
+- Gesamtwerte über alle Rollen
+- Geschossfläche
+- Gesamtaufwand (h)
+- Nutzungen inkl. Anteile
 
 **Tun**
-- Alle Bereiche durchlesen.
-- Auf Inkonsistenzen prüfen.
+- Übersicht prüfen.
+- Zusammenhang zwischen Eingaben und Resultaten nachvollziehen.
 
 **Prüfen**
-- Jede Zahl ist erklärbar.
+- Die Werte sind plausibel.
+- Die Nutzung und Fläche stimmen mit dem Projekt überein.
+- Der Aufwand ist erklärbar auf Basis der vorherigen Schritte.
 
 ![Summary – review one-pager](/wiki-assets/tutorial/summary-review.jpeg)
 
@@ -593,24 +571,21 @@ Sicherstellen, dass Ergebnis und Eingaben zusammenpassen.
 </details>
 
 **Warum das wichtig ist**
-- Das Summary ist das, was Sie teilen. Wenn es unklar ist, wird das Gespräch unklar.
-
-**Vor dem Teilen**
-- [What ValueApp is – and what it is not](why-valueapp.html)
+- Die Zusammenfassung ist die Basis für interne Abstimmungen und externe Kommunikation.
+- Unklare Ergebnisse führen zu unklaren Entscheidungen.
 
 ---
 
-### 4.2 PDF exportieren und nutzen
+### 4.2 Download
 
 **Ziel**  
-Ein Dokument für die Praxis erstellen.
+Ein dokumentiertes Ergebnis für die weitere Verwendung erstellen.
 
 **Tun**
-- PDF exportieren.
-- In Offerten oder Beschaffungsunterlagen beilegen.
+- Bericht als PDF herunterladen.
 
 **Prüfen**
-- PDF erklärt Annahmen, nicht nur Zahlen.
+- Das Dokument enthält alle relevanten Annahmen und Resultate.
 
 ![Summary – export PDF](/wiki-assets/tutorial/summary-export-pdf.jpeg)
 
@@ -622,8 +597,43 @@ Ein Dokument für die Praxis erstellen.
   </video>
 </details>
 
+**Warum das wichtig ist**
+- Der Bericht dient als Grundlage für Offerten, Gespräche und Dokumentation.
+
 **Vorlagensatz für Offerten**
-> «Die vorgeschlagene Aufwandsbandbreite basiert auf Projektmenge, Nutzungsmix, Komplexität, Risiko, Organisationssetup und Leistungsumfang, dokumentiert im beigelegten ValueApp-Summary.»
+> «Die vorgeschlagene Aufwandsbandbreite basiert auf Projektmenge, Nutzung, Anforderungen, Organisationsform und Leistungsumfang gemäss ValueApp-Auswertung.»
+
+---
+
+### 4.3 Projekteingabe
+
+**Ziel**  
+Projektdaten zur Verbesserung der ValueApp beitragen.
+
+**Was erfasst wird**
+- Projektdaten (z. B. Nutzung, Fläche, Bauwerksart)
+- Schwierigkeitsgrade gemäss SIA
+- Kosten und Stunden (falls verfügbar)
+
+**Tun**
+- Relevante Projektdaten eingeben (optional).
+- Daten übermitteln.
+
+**Prüfen**
+- Keine personenbezogenen oder sensiblen Daten in Freitextfeldern erfassen.
+- Angaben sind plausibel und vollständig, sofern verfügbar.
+
+**Warum das wichtig ist**
+- Die Daten helfen, die Modelle der ValueApp kontinuierlich zu verbessern.
+- Zukünftige Berechnungen werden dadurch robuster und präziser.
+
+**Hinweis**
+- Die Daten werden anonymisiert verarbeitet.
+- Es werden keine genauen Adressen oder personenbezogenen Daten gespeichert.
+
+**Häufige Fehler**
+- Freitextfelder mit sensiblen Informationen füllen.
+- Unvollständige oder inkonsistente Projektdaten eingeben.
 
 ---
 
