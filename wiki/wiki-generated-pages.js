@@ -234,7 +234,8 @@
     "urlByLang": {
       "de": "/wiki/de/tutorial.html",
       "en": "/wiki/en/tutorial.html",
-      "fr": "/wiki/fr/tutorial.html"
+      "fr": "/wiki/fr/tutorial.html",
+      "it": "/wiki/it/tutorial.html"
     },
     "titleKey": "wiki.tutorial.title",
     "navKey": "wiki.nav.tutorial",

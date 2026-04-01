@@ -9,7 +9,7 @@ navKey: wiki.nav.tutorial
 This tutorial guides you through the ValueApp using a concrete example project.  
 The focus is on **what you enter**, **why it matters**, and **how to read and use the result**.
 
-The tutorial mirrors the real structure of the app and follows the same sequence you see on screen.
+The tutorial mirrors the real structure of the app and follows the same order that you see on the screen.
 
 If you need conceptual background while reading, keep  
 [Definitions](definitions.html) or [How the app works](how-it-works.html) open in a second tab.
@@ -26,7 +26,7 @@ If you need conceptual background while reading, keep
 **What you get**
 - a traceable effort range,
 - hours by phase and discipline,
-- a one-page PDF for proposals, planning, or procurement.
+- a one-page PDF for proposals, planning or procurement.
 
 **Time required**
 - first estimate: ~10–15 minutes  
@@ -37,18 +37,18 @@ If you need conceptual background while reading, keep
 ## The four main steps
 
 1. **Describe the project (Description)**  
-   Define project identity, task, location, and organisational setup.
+   Define project identity, task, location and organisational setup.
 
-2. **Define quantity, uses, and complexity (Project)**  
+2. **Define quantity, uses and complexity (Project)**  
    Enter the determining quantity, define the use mix, assess complexity and risk.  
-   The app derives an adjustment factor via the Leadership Framework.
+   The app derives an adjustment factor from this via the Leadership Framework.
 
 3. **Define role and services (Services)**  
-   Select a role, set focus topics, and review the calculated hours for  
-   **100% basic services**, including distribution across planning phases.
+   Select the role, set focus topics and check the calculated hours for  
+   **100% basic services**, including their distribution across the planning phases.
 
 4. **Review and export the summary (Summary)**  
-   Review the one-pager and export it as documentation or a proposal.
+   Check the one-pager and export it as documentation or proposal.
 
 ![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
@@ -63,15 +63,15 @@ The ValueApp estimates and documents **planning effort** by combining:
 - quantitative inputs (quantity, use mix),
 - qualitative inputs (complexity, risk),
 - organisational context,
-- your role and service scope.
+- your role and scope of services.
 
-It delivers **ranges and distributions**, not a single “correct” number.
+It provides **ranges and distributions**, not a single “correct” number.
 
-### What the ValueApp does *not* do
+### What the ValueApp *does not* do
 
 - It does not calculate fees automatically.
 - It does not replace professional judgement.
-- It does not guarantee outcomes.
+- It does not guarantee results.
 
 ![ValueApp purpose overview](/wiki-assets/tutorial/intro-valueapp-purpose.jpeg)
 
@@ -84,570 +84,618 @@ It delivers **ranges and distributions**, not a single “correct” number.
 
 ### Standards and regions
 
-The examples use **Swiss standards** (e.g. SIA phases) because the underlying data comes from this context.  
+The examples use **Swiss standards** (e.g. SIA phases), because the underlying data comes from this context.  
 The **method itself is generic** and applicable internationally.
 
-If you work outside Switzerland:
-- interpret phases as generic planning phases,
-- focus on **relative distributions**, not labels,
-- adopt the structure and the reasoning.
+If you are working outside Switzerland:
+- understand phases as generic planning phases,
+- pay attention to **relative distributions**, not labels,
+- adopt the structure and reasoning.
 
 ---
 
-## Step 1 — Describe the project
+## Step 1 — Description
 
 The **Description** step documents the project context.  
 This information appears in the summary and should be shareable with stakeholders.
 
 > **Important:**  
-> Cost-related inputs do **not** influence the effort.  
-> Organisation, task type, and scope **do**.
+> Cost-related inputs do **not** influence effort.  
+> Organisation, task type and scope **do**.
 
 ---
 
 ### 1.1 Project details
 
 **Goal**  
-Create a clear, shared project identity.
+Define a clear and understandable project basis.
 
 **Do**
-- Enter project name and address.
-- Select project status.
-- Select task (e.g. new build or refurbishment).
+- Enter the project name.
+- Select the project status (e.g. *in planning*).
 - Write a short project description (5–10 lines).
 
 **Check**
-- The description clearly explains *what kind of project this is*.
-- A third person understands the context when reading it.
+- The description clearly explains *what the project is about*.
+- A third party understands the goal and context without additional explanation.
 
 ![Description – project details filled](/wiki-assets/tutorial/description-project-details.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
+  <summary><strong> Watch short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-project-details.mp4" type="video/mp4" />
   </video>
 </details>
 
 **Why this matters**
-- The description is what others read in the exported summary.
-- Good descriptions reduce follow-up questions and misunderstandings.
+- The description appears in the exported summary.
+- It forms the basis for a shared understanding of the project.
 
 **Common mistakes**
-- Marketing text instead of scope and boundary conditions.
-- The description is not updated even though the project evolves.
+- Formulating it too vaguely or too generally.
+- Focusing on marketing instead of content and boundary conditions.
+- Not updating the description even though the project changes.
 
 ---
 
-### 1.2 Location
+### 1.2 Uses
 
 **Goal**  
-Document where the project is planned.
+Define the project uses clearly and in a differentiated way.
 
 **Do**
-- Move the map.
-- Mark the project location.
+- Add uses by clicking.
+- Enter multiple uses if the project is mixed.
+- For each use select:
+  - A **category** (e.g. *Housing, Working, Producing, Storing, Education and Research, Healing and Care*)
+  - Or a **specific building type** (e.g. multi-family housing)
 
 **Check**
-- The marker is set correctly.
+- All relevant uses are represented.
+- The selected level matches the project stage:
+  - Category = broader classification
+  - Building type = more precise representation
 
-![Description – location map](/wiki-assets/tutorial/description-location-map.jpeg)
+![Description – organisation setup](/wiki-assets/tutorial/description-uses.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
+  <summary><strong> Watch short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/description-location-map.mp4" type="video/mp4" />
+    <source src="/wiki-assets/tutorial/description-uses.mp4" type="video/mp4" />
   </video>
 </details>
 
-> **Does not influence effort**  
-> Location statistics are used only as context.
+**Why this matters**
+- The use determines the allocation to building types.
+- A more precise selection leads to more accurate calculations.
+
+**Good practice**
+- Early phase: choose a category if details are still unclear.
+- Later phase: choose a specific building type for better accuracy.
+- Deliberately split mixed-use projects instead of oversimplifying them.
+
+**Common mistakes**
+- Choosing only one use although several are present.
+- Defining a building type too specifically too early.
+- Choosing a use out of habit instead of based on the actual project content.
 
 ---
 
-### 1.3 Organisational setup
+### 1.3 Requirements and tasks
 
 **Goal**  
-Define how responsibilities are structured.
+Define the requirement level and task type for each use.
 
 **Do**
-- Select an organisational model on the **planner side**.
-- Select an organisational model on the **contractor side**.
+- For each use define:
+  - Requirement level (*low, standard, high, very high*)
+  - Task (*new build or refurbishment/renovation*)
 
 **Check**
-- The selection matches contractual reality, not wishful thinking.
+- Requirements match the actual complexity.
+- The task matches the real intervention, not the project label.
+
+![Description – task selection](/wiki-assets/tutorial/description-anforderungen.jpeg)
+
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-anforderungen.mp4" type="video/mp4" />
+  </video>
+</details>
+
+> **Impact on effort**  
+> Requirements and tasks directly affect the calculated values.
+
+**Common mistakes**
+- Setting requirements too low.
+- Choosing refurbishment although it is effectively a new build.
+
+---
+
+### 1.4 Area distribution
+
+**Goal**  
+Define the project size and its distribution in a traceable way.
+
+**Do**
+- Enter gross floor area (GFA).
+- Define the use shares (from at least two uses onward).
+
+**Check**
+- The total area matches the current planning status.
+- The use shares add up to 100%.
+
+![Description – task selection](/wiki-assets/tutorial/description-flaechenverteilung.jpeg)
+
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/description-flaechenverteilung.mp4" type="video/mp4" />
+  </video>
+</details>
+
+> **Direct impact on results**  
+> Gross floor area is a central input variable for the calculation.
+
+**Common mistakes**
+- Unclear or estimated areas.
+- Use shares are not updated.
+
+---
+
+### 1.5 Planned organisational form
+
+**Goal**  
+Represent the project organisation correctly.
+
+**Do**
+- Select the organisational model on the **planning side**:
+  - General planner (GP)
+  - Planning consortium
+  - Predominantly individual specialist planners
+- Select the organisational model on the **contractor side**:
+  - Total contractor (TU)
+  - General contractor (GU)
+  - Predominantly individual specialist contractors
+
+**Check**
+- The selection matches the contractual reality.
+- No “desired organisation”, but the actual structure.
 
 ![Description – organisation setup](/wiki-assets/tutorial/description-organisation-setup.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
+  <summary><strong> Watch short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/description-organisation-setup.mp4" type="video/mp4" />
   </video>
 </details>
 
 **Why this matters**
-- Organisation influences **phase responsibility**.
-- It influences the **interpretation** of phase percentages later.
+- The organisation influences the distribution of services.
+- It affects how results are interpreted.
 
 **Good practice**
-- Evaluate organisation early.
-- Do not change the model mid-project unless unavoidable.
-
-**Further reading**
-- [Reference](reference.html) (interpreting phase distributions)
+- Define it early and keep it consistent.
+- Only make changes when the project is actually adjusted.
 
 ---
 
-### 1.4 Task type: new build vs. refurbishment
+## Step 2 — Project
 
-**Goal**  
-Define the type of intervention.
+This step leads to the **concrete effort estimate** based on the selected role and the project-specific adjustments.
 
-**Do**
-- Select *New build* or *Refurbishment*.
-- If available: define intervention depth.
-
-**Check**
-- The task matches the real scope, not the budget narrative.
-
-![Description – task selection](/wiki-assets/tutorial/description-task-selection.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
-<details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
-  </video>
-</details>
-
-> **Influences effort**  
-> Task type and intervention depth influence effort.  
-> Cost factors do not.
-
-**Common mistakes**
-- Selecting *Refurbishment* “because a building exists”, even though the scope is effectively new build.
-- Setting intervention depth too low in early phases.
-
----
-
-## Step 2 — Define quantity, uses, and complexity
-
-This step provides the **first effort estimate**.
-
-If you want the conceptual overview of fields and logic, see:  
+If you would like the conceptual overview of fields and logic, see:  
 → [Project section](project-section.html)
 
 ---
 
-### 2.1 Define roles
+### 2.1 Specialist role / discipline
 
 **Goal**  
-Define **for which professional roles** the effort is calculated.
+Define **for which discipline** the effort is being considered.
 
-The ValueApp always calculates effort **by role**.  
-Without roles, there is no meaningful statement about total effort.
+The ValueApp always calculates effort **by discipline**.  
+The selection determines for which specialist area the following inputs and results apply.
 
 **Do**
-- Activate the relevant roles:
+- Select a discipline:
   - Architecture
-  - Structural engineering
+  - Engineering
   - Electrical
-  - Heating / ventilation
+  - Heating / Ventilation
   - Sanitary
-- Select roles that are actually commissioned or should be assessed.
 
 **Check**
-- Only active roles are included in the calculation.
-- Each role will be shown separately later.
+- The selected discipline matches the area you actually want to assess.
+- Only consider relevant disciplines, no theoretical extra scenarios.
 
 ![Project – roles selection](/wiki-assets/tutorial/project-roles-selection.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
+  <summary><strong> Watch short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata" playsinline>
     <source src="/wiki-assets/tutorial/project-roles-selection.mp4" type="video/mp4" />
   </video>
 </details>
 
 **Why this matters**
-- Different roles have different base models.
-- Complexity and risk do **not** affect all disciplines identically.
-- Transparent role selection prevents misunderstandings later in proposals and discussions.
+- Each discipline has its own reference values and calculation logic.
+- Results are only meaningfully comparable within the same discipline.
 
 **Common mistakes**
-- Activating all roles “just in case”.
-- Selecting roles even though they are not commissioned on the project side.
-- Changing roles later without re-checking results.
-
-**Further reading**
-- [Roles and services](roles-and-services.html) (role logic and service understanding)
-- [Definitions](definitions.html) (role vs. service)
+- Choosing a discipline that is not considered in the project at all.
+- Switching between disciplines without reinterpreting the results.
 
 ---
 
-### 2.2 Determining quantity
+### 2.2 Service role
 
 **Goal**  
-Define project size.
+Define **which role within the selected discipline** is assumed.
+
+In addition to the discipline, the specific service role is also selected.  
+This describes **which responsibility** is taken on within the project.
 
 **Do**
-- Enter an approximate gross floor area (or relevant unit).
-- Enter the total value, not per floor.
+- Select a service role:
+  - Overall lead
+  - Specialist coordination
+  - Specialist site management
 
 **Check**
-- Quantity covers the entire project.
+- The role matches the actual scope of services.
+- The selection matches the contractual or project-specific responsibility.
 
-![Project – enter quantity](/wiki-assets/tutorial/project-enter-quantity.jpeg)
+![Project – service role selection](/wiki-assets/tutorial/project-leistungsrolle.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
+  <summary><strong> Watch short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata" playsinline>
+    <source src="/wiki-assets/tutorial/project-leistungsrolle.mp4" type="video/mp4" />
   </video>
 </details>
 
 **Why this matters**
-- The base model uses quantity as the main driver of the initial range.
+- The service role influences how effort is read and carried forward within the discipline.
+- The same discipline can be interpreted differently depending on the responsibility.
 
 **Common mistakes**
-- Entering net area instead of gross area.
-- Forgetting basements or shared/common areas.
-
-**Further reading**
-- [Project section](project-section.html) (quantities and use categories)
-- [Quantity](quantity.html) (what counts, what doesn’t, and why)
+- Choosing overall lead although only specialist coordination or specialist site management is provided.
+- Treating the role as a desired image instead of the real commission.
 
 ---
 
-### 2.3 Use mix
+### 2.3 Effort adjustment
 
 **Goal**  
-Tell the app *what the project is used for*.
+Understand the calculated base value for the specific project.
 
 **Do**
-- Add at least one use.
-- Set percentages so the total equals 100%.
-- Reorder uses if needed.
+- Check the displayed value (min/m²).
+- Understand how the value results from use, area and model.
 
 **Check**
-- The complexity area becomes available.
-- A min/m² value appears.
+- The value is plausible compared with similar projects.
+- The unit (min/m²) is interpreted correctly.
 
-![Use mix example](/wiki-assets/tutorial/project-use-mix.jpeg)
+![Project – enter quantity](/wiki-assets/tutorial/project-aufwandanpassung.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/project-use-mix.mp4" type="video/mp4" />
+  <summary><strong> Watch short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata" playsinline>
+    <source src="/wiki-assets/tutorial/project-aufwandanpassung.mp4" type="video/mp4" />
   </video>
 </details>
 
 **Why this matters**
-- The use mix selects the relevant base models and changes the expected effort.
+- This is the starting value before project-specific adjustments.
+- All further factors build on this value.
 
-**Further reading**
-- [Use categories](use-categories.html) (what each use represents, with examples)
+**Common mistakes**
+- Looking at the value in isolation, without the context of use and area.
+- Confusing min/m² with total effort.
 
 ---
 
-### 2.4 Complexity assessment
+### 2.4 Quality adjustment factor (planning requirements)
 
 **Goal**  
-Explain why this project is simpler or more demanding than a reference case.
+Represent the project-specific requirements in a differentiated way.
 
-**What complexity is**
-- A representation of **requirements and approach**, not just aesthetics.
-- A way to document professional judgement.
+**What is assessed**
+- Design
+- Technical
+- Spatial
+- Organisational
 
 **Do**
-- Assess complexity in four dimensions:
-  - Design
-  - Spatial
-  - Technical
-  - Organisational
-- Place challenges within the Leadership Framework.
+- Assess each dimension using the slider.
+- Base the assessment on the actual project requirements.
+
+**Check**
+- The complexity factor matches the project reality.
+- The adjustment can be justified professionally.
+
+**Result**
+- The base value (min/m²) is multiplied by the factor.
+
+> Example:  
+> 257 min/m² × 1.05 = 270 min/m²
 
 ![Project – complexity framework](/wiki-assets/tutorial/project-complexity-framework.jpeg)
 
-![Complexity dimensions](/wiki-assets/tutorial/project-complexity-dimensions.jpeg)
-
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
+  <summary><strong> Watch short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-complexity-framework.mp4" type="video/mp4" />
   </video>
 </details>
 
-**Check**
-- The adjustment factor changes.
-- The reasoning is explainable to the client.
+**Why this matters**
+- The factor represents the actual planning requirements.
+- It replaces blanket assumptions with a structured assessment.
 
-**Short examples**
-- Simple housing project → more *simple/complicated*
-- Inner-city hospital refurbishment → *complex/unclear* in multiple dimensions
-
-**Common mistake**
-- Increasing complexity just to “get more hours”.
-
-**Further reading**
-- [Definitions](definitions.html) (complexity, Leadership Framework)
-- [How the app works](how-it-works.html) (how complexity influences the range)
-- [Complexity dimensions](complexity.html)
-- [Adjustment factor (Leadership factor)](adjustment-factor.html)
+**Common mistakes**
+- Leaving all sliders at 1.0 “just to be safe”.
+- Increasing the factor without a professional justification.
 
 ---
 
 ### 2.5 Risk assessment
 
 **Goal**  
-Represent planning uncertainty.
+Take project uncertainties into account as an additional layer.
 
 **Do**
-- Select a risk level.
-- Document a justification (if possible).
+- Select the appropriate risk level (e.g. none, increased or high requirements).
 
 **Check**
-- Risk acts externally (objections, interruptions), not internally (design quality).
+- Risk describes external uncertainties (e.g. procedures, framework conditions).
+- Risk is not confused with complexity.
 
 ![Project – risk assessment](/wiki-assets/tutorial/project-risk-assessment.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
+  <summary><strong> Watch short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
   </video>
 </details>
 
 **Why this matters**
-- Risk documents uncertainty in early phases, when many things are still unknown.
-
-**Further reading**
-- [Definitions](definitions.html) (risk)
-- [How the app works](how-it-works.html) (risk vs. complexity)
-
----
-
-## Step 3 — Define services
-
-This step adapts the effort to **your responsibility**.
-
----
-
-### 3.1 Select role
-
-**Goal**  
-Represent contractual scope of services.
-
-**Do**
-- Select a role (e.g. Architect, Architect & General Planner).
-
-**Check**
-- The role matches the contract, not the ambition.
-
-![Services – select role](/wiki-assets/tutorial/services-select-role.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
-<details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/services-select-role.mp4" type="video/mp4" />
-  </video>
-</details>
+- Risk makes uncertainties transparent.
+- It complements the assessment of requirements, but does not replace it.
 
 **Common mistakes**
-- Choosing a broader role than contractually agreed.
-- Forgetting: output is **basic services** by default.
-
-**Further reading**
-- [Roles and services](roles-and-services.html) (what roles include and exclude)
+- Using risk to compensate for a missing complexity assessment.
+- Declaring internal issues (e.g. design decisions) as risk.
 
 ---
 
-### 3.2 Focus topics
+## Step 3 — Services
 
-**Goal**  
-Make special responsibilities visible.
-
-**Do**
-- Select relevant focus topics.
-
-**Check**
-- Focus topics explain emphasis, not “inflate scope”.
-
-![Services – focus topics](/wiki-assets/tutorial/services-focus-topics.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
-<details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/services-focus-topics.mp4" type="video/mp4" />
-  </video>
-</details>
-
-**Further reading**
-- [Best practices](best-practices.html) (documenting assumptions cleanly)
+This step shows the **calculated number of hours** and its distribution across the phases.
 
 ---
 
-### 3.3 Hours and phase distribution
+### 3.1 Hours of effort
 
 **Goal**  
-Understand phase distribution and adjust if needed.
+Understand and classify the overall project effort.
+
+**What is shown**
+- Estimated project hours (100% basic service)
+- Effort per phase according to organisational form
+- Percentage distribution and absolute hours
 
 **Do**
-- Review suggested phase percentages.
-- Adjust if your service delivery deviates from the standard.
+- Check total hours (e.g. 450 h).
+- Analyse the distribution across the phases:
+  - Phase 3 Design
+  - Phase 4 Tendering
+  - Phase 5 Realisation
+- Understand the relationship between percentage (%) and hours (h).
 
 **Check**
-- Total hours remain constant.
-- Shifts are plausible.
+- The total hours are plausible compared with similar projects.
+- The phase distribution matches the selected organisational form.
 
 ![Services – hours and phases](/wiki-assets/tutorial/services-hours-phases.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
+  <summary><strong> Watch short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-hours-phases.mp4" type="video/mp4" />
   </video>
 </details>
 
 **Reading example**
-- Total effort: 240 h  
-- Phase 3 at 33% → ~79 h  
-- Phase 5 at 48% → ~115 h
+- Total effort: 450 h  
+- Phase 3 at 33 % → 149 h  
+- Phase 5 at 48 % → 216 h  
 
 **Why this matters**
-- Phase distribution influences planning and procurement, even if total hours stay the same.
+- Total effort forms the basis for fee and resource planning.
+- The phase distribution shows when the effort occurs.
 
-**Further reading**
-- [Reference](reference.html) (phases and interpretation)
-- [Output interpretation](output-interpretation.html) (reading hours, ranges, and phases)
+**Common mistakes**
+- Looking only at the total hours and ignoring the phases.
+- Reading percentages without translating them into hours.
 
 ---
 
-### 3.4 Project-specific and additional services
+### 3.2 Project-specific effort
 
 **Goal**  
-Document deviations from basic services.
+Read the effort per phase clearly and directly.
+
+**What is shown**
+- Hours per phase as concrete values (e.g. 149 h, 85.5 h, 216 h)
 
 **Do**
-- Adjust subphases if needed.
-- Add additional services with a description.
+- Check the effort per phase.
+- Identify critical phases (e.g. a high share in Phase 5).
 
 **Check**
-- Additional services are explicit and traceable.
+- The distribution is understandable and matches the project logic.
+- No phase is unrealistically under- or overweighted.
 
 ![Services – additional services](/wiki-assets/tutorial/services-additional-services.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
+  <summary><strong> Watch short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/services-additional-services.mp4" type="video/mp4" />
   </video>
 </details>
 
+**Why this matters**
+- Makes the effort operationally usable (planning, resources, schedules).
+- Supports the discussion with the client and project team.
+
 **Common mistakes**
-- Additional services without a description.
-- Using additional services as a correction for poor earlier inputs (quantity/use/complexity).
-
-**Further reading**
-- [Definitions](definitions.html) (basic services vs. additional services)
+- Looking at hours in isolation, without the overall logic.
+- Interpreting phases with 0 h incorrectly (not part of the scope of services).
 
 ---
 
-## Step 4 — Review and export the summary
+## Step 4 — Summary and further use
 
 ---
 
-### 4.1 Review the one-pager
+### 4.1 Summary
 
 **Goal**  
-Ensure that result and inputs match.
+Understand and review the results as a whole.
+
+**What is shown**
+- Total values across all roles
+- Gross floor area
+- Total effort (h)
+- Uses including shares
 
 **Do**
-- Read through all sections.
-- Check for inconsistencies.
+- Review the overview.
+- Understand the relationship between inputs and results.
 
 **Check**
-- Every number is explainable.
+- The values are plausible.
+- The use and area match the project.
+- The effort can be explained based on the previous steps.
 
 ![Summary – review one-pager](/wiki-assets/tutorial/summary-review.jpeg)
 
-<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
-<details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
-  </video>
-</details>
-
 **Why this matters**
-- The summary is what you share. If it’s unclear, the conversation becomes unclear.
-
-**Before sharing**
-- [What ValueApp is – and what it is not](why-valueapp.html)
+- The summary is the basis for internal coordination and external communication.
+- Unclear results lead to unclear decisions.
 
 ---
 
-### 4.2 Export and use the PDF
+### 4.2 Download
 
 **Goal**  
-Create a document for practice.
+Create a documented result for further use.
 
 **Do**
-- Export the PDF.
-- Attach it to proposals or procurement documents.
+- Download the report as a PDF.
 
 **Check**
-- The PDF explains assumptions, not just numbers.
+- The document contains all relevant assumptions and results.
 
 ![Summary – export PDF](/wiki-assets/tutorial/summary-export-pdf.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
 <details class="wiki-video">
-  <summary><strong> Watch a short clip</strong></summary>
+  <summary><strong> Watch short clip</strong></summary>
   <video class="wiki-img" controls preload="metadata">
     <source src="/wiki-assets/tutorial/summary-export-pdf.mp4" type="video/mp4" />
   </video>
 </details>
 
+**Why this matters**
+- The report serves as a basis for proposals, discussions and documentation.
+
 **Template sentence for proposals**
-> “The proposed effort range is based on project quantity, use mix, complexity, risk, organisational setup, and service scope, documented in the attached ValueApp summary.”
+> «The proposed effort range is based on project quantity, use, requirements, organisational form and scope of services according to the ValueApp evaluation.»
+
+---
+
+### 4.3 Project data entry
+
+**Goal**  
+Contribute project data to improve the ValueApp.
+
+**What is captured**
+- Project data (e.g. use, area, building type)
+- Difficulty levels according to SIA
+- Costs and hours (if available)
+
+**Do**
+- Enter relevant project data (optional).
+- Submit the data.
+
+**Check**
+- Do not enter personal or sensitive data in free-text fields.
+- Entries are plausible and complete, where available.
+
+**Why this matters**
+- The data helps to continuously improve the ValueApp models.
+- Future calculations become more robust and more precise.
+
+**Note**
+- The data is processed anonymously.
+- No exact addresses or personal data are stored.
+
+**Common mistakes**
+- Filling free-text fields with sensitive information.
+- Entering incomplete or inconsistent project data.
 
 ---
 
 ## 5 — Mini example (Quick sanity check)
 
-Use this to verify a plausible result before sharing it.
+Use this to check a plausible result before sharing it.
 
 **Example**
-- Project type: housing building
+- Project type: residential building
 - Quantity: ~16000 m² GFA
-- Use mix: 92% housing 8% office
+- Use mix: 92% housing 8% working
 - Complexity: moderate (technical + organisational)
-- Risk: no specific requirements
+- Risk: no special requirements
 - Role: architect
 
-**What typically moves the result most**
-- changing the use mix (typology),
+**What usually influences the result most strongly**
+- changes in the use mix (typology),
 - complexity assessment (especially organisational),
 - role and phase distribution.
 
 ![Example – summary output](/wiki-assets/tutorial/example-summary-output.jpeg)
 
+<p><strong>🎬 Video (optional):</strong> <strong>Click to play</strong></p>
+<details class="wiki-video">
+  <summary><strong> Watch short clip</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/example-summary-output.mp4" type="video/mp4" />
+  </video>
+</details>
+
 See also:  
-[Examples](examples.html) (more reference projects) and  
+[Examples](examples.html) (additional reference projects) and  
 [Best practices](best-practices.html) (documenting assumptions clearly for clients)
 
 ---
@@ -655,10 +703,10 @@ See also:
 ## Typical problems and how to solve them
 
 - **Complexity is locked** → No use selected.
-- **Numbers look wrong** → Check quantity and unit.
+- **The numbers seem wrong** → Check quantity and unit.
 - **Phases show 0 hours** → Check role and selected phases.
-- **Client questions the result** → Review the description and the complexity reasoning.
-- **Result feels “too high/too low”** → Check use mix, complexity, and role before adding additional services.
+- **The client questions the result** → Check the description and the complexity justification.
+- **The result seems “too high/too low”** → Check use mix, complexity and role before adding additional services.
 
 ---
 
@@ -670,4 +718,4 @@ See also:
 - [Reference](reference.html)
 - [Best practices](best-practices.html)
 - [What ValueApp is – and what it is not](why-valueapp.html)
-- [Examples](examples.html) 
+- [Examples](examples.html)
