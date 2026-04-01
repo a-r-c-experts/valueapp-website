@@ -297,47 +297,85 @@ Wenn Sie den konzeptionellen Überblick über Felder und Logik möchten, siehe:
 
 ---
 
-### 2.1 Rolle
+### 2.1 Fachrolle / Disziplin
 
 **Ziel**  
-Festlegen, **für welche Rolle** der Aufwand berechnet wird.
+Festlegen, **für welche Disziplin** der Aufwand betrachtet wird.
 
-Die ValueApp berechnet den Aufwand immer **rollenbezogen**.  
-Die Auswahl bestimmt das zugrunde liegende Modell.
+Die ValueApp berechnet den Aufwand immer **disziplinbezogen**.  
+Die Auswahl bestimmt, für welchen Fachbereich die folgenden Angaben und Resultate gelten.
 
 **Tun**
-- Eine Rolle auswählen:
-  - Architekt
+- Eine Disziplin auswählen:
+  - Architektur
   - Ingenieurwesen
   - Elektro
   - Heizung / Lüftung
   - Sanitär
 
 **Prüfen**
-- Die gewählte Rolle entspricht dem tatsächlichen Leistungsumfang.
-- Nur relevante Rollen betrachten (keine theoretischen Szenarien).
+- Die gewählte Disziplin entspricht dem Bereich, den Sie tatsächlich beurteilen wollen.
+- Nur relevante Disziplinen betrachten, keine theoretischen Zusatzszenarien.
 
 ![Project – roles selection](/wiki-assets/tutorial/project-roles-selection.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
   <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
+  <video class="wiki-img" controls preload="metadata" playsinline>
     <source src="/wiki-assets/tutorial/project-roles-selection.mp4" type="video/mp4" />
   </video>
 </details>
 
 **Warum das wichtig ist**
-- Jede Rolle hat eigene Referenzwerte und Berechnungslogiken.
-- Ergebnisse sind nur innerhalb derselben Rolle vergleichbar.
+- Jede Disziplin hat eigene Referenzwerte und Berechnungslogiken.
+- Ergebnisse sind nur innerhalb derselben Disziplin sinnvoll vergleichbar.
 
 **Häufige Fehler**
-- Rolle wählen, die nicht beauftragt ist.
-- Rolle wechseln, ohne die Ergebnisse neu zu interpretieren.
+- Disziplin wählen, die im Projekt gar nicht betrachtet wird.
+- Zwischen Disziplinen wechseln, ohne die Resultate neu zu interpretieren.
 
 ---
 
-### 2.2 Aufwandanpassung
+### 2.2 Leistungsrolle
+
+**Ziel**  
+Festlegen, **welche Rolle innerhalb der gewählten Disziplin** übernommen wird.
+
+Neben der Disziplin wird auch die konkrete Leistungsrolle gewählt.  
+Diese beschreibt, **welche Verantwortung** innerhalb des Projekts übernommen wird.
+
+**Tun**
+- Eine Leistungsrolle auswählen:
+  - Gesamtleitung
+  - Fachkoordination
+  - Fachbauleitung
+
+**Prüfen**
+- Die Rolle entspricht dem tatsächlichen Leistungsumfang.
+- Die Auswahl passt zur vertraglichen oder projektspezifischen Verantwortung.
+
+![Project – service role selection](/wiki-assets/tutorial/project-leistungsrolle.jpeg)
+
+<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
+<details class="wiki-video">
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
+  <video class="wiki-img" controls preload="metadata" playsinline>
+    <source src="/wiki-assets/tutorial/project-leistungsrolle.mp4" type="video/mp4" />
+  </video>
+</details>
+
+**Warum das wichtig ist**
+- Die Leistungsrolle beeinflusst, wie der Aufwand innerhalb der Disziplin gelesen und weitergeführt wird.
+- Dieselbe Disziplin kann je nach Verantwortung unterschiedlich interpretiert werden.
+
+**Häufige Fehler**
+- Gesamtleitung wählen, obwohl nur Fachkoordination oder Fachbauleitung erbracht wird.
+- Rolle als Wunschbild statt als reale Beauftragung verstehen.
+
+---
+
+### 2.3 Aufwandanpassung
 
 **Ziel**  
 Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
@@ -350,13 +388,13 @@ Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
 - Der Wert ist plausibel im Vergleich zu ähnlichen Projekten.
 - Die Einheit (min/m²) wird korrekt interpretiert.
 
-![Project – enter quantity](/wiki-assets/tutorial/project-enter-quantity.jpeg)
+![Project – enter quantity](/wiki-assets/tutorial/project-aufwandanpassung.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
   <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/project-enter-quantity.mp4" type="video/mp4" />
+  <video class="wiki-img" controls preload="metadata" playsinline>
+    <source src="/wiki-assets/tutorial/project-aufwandanpassung.mp4" type="video/mp4" />
   </video>
 </details>
 
@@ -370,7 +408,7 @@ Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
 
 ---
 
-### 2.3 Anpassungsfaktor Qualität (Planungsanforderungen)
+### 2.4 Anpassungsfaktor Qualität (Planungsanforderungen)
 
 **Ziel**  
 Die projektspezifischen Anforderungen differenziert abbilden.
@@ -415,7 +453,7 @@ Die projektspezifischen Anforderungen differenziert abbilden.
 
 ---
 
-### 2.4 Risikoabwägung
+### 2.5 Risikoabwägung
 
 **Ziel**  
 Projektunsicherheiten ergänzend berücksichtigen.
