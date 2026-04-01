@@ -198,13 +198,13 @@ Das Anforderungsniveau und die Aufgabenart pro Nutzung festlegen.
 - Anforderungen entsprechen der tatsächlichen Komplexität.
 - Aufgabe entspricht dem realen Eingriff, nicht der Projektbezeichnung.
 
-![Description – task selection](/wiki-assets/tutorial/description-task-selection.jpeg)
+![Description – task selection](/wiki-assets/tutorial/description-anforderungen.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
   <summary><strong> Kurzen Clip ansehen</strong></summary>
   <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/description-task-selection.mp4" type="video/mp4" />
+    <source src="/wiki-assets/tutorial/description-anforderungen.mp4" type="video/mp4" />
   </video>
 </details>
 
