@@ -238,7 +238,7 @@
     },
     "titleKey": "wiki.tutorial.title",
     "navKey": "wiki.nav.tutorial",
-    "lastUpdated": "2026-03-25",
+    "lastUpdated": "2026-04-01",
     "searchable": true
   },
   {
