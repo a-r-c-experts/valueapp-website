@@ -600,14 +600,6 @@ Die Ergebnisse gesamthaft verstehen und überprüfen.
 
 ![Summary – review one-pager](/wiki-assets/tutorial/summary-review.jpeg)
 
-<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
-<details class="wiki-video">
-  <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/summary-review.mp4" type="video/mp4" />
-  </video>
-</details>
-
 **Warum das wichtig ist**
 - Die Zusammenfassung ist die Basis für interne Abstimmungen und externe Kommunikation.
 - Unklare Ergebnisse führen zu unklaren Entscheidungen.
@@ -693,6 +685,14 @@ Nutzen Sie dies, um ein plausibles Ergebnis zu prüfen, bevor Sie es teilen.
 - Rolle und Phasenverteilung.
 
 ![Example – summary output](/wiki-assets/tutorial/example-summary-output.jpeg)
+
+<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
+<details class="wiki-video">
+  <summary><strong> Kurzen Clip ansehen</strong></summary>
+  <video class="wiki-img" controls preload="metadata">
+    <source src="/wiki-assets/tutorial/example-summary-output.mp4" type="video/mp4" />
+  </video>
+</details>
 
 Siehe auch:  
 [Examples](examples.html) (weitere Referenzprojekte) und  
