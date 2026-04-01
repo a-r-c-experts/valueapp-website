@@ -158,7 +158,7 @@ Die Nutzungen des Projekts klar und differenziert definieren.
   - Kategorie = gröbere Einordnung
   - Bauwerksart = präzisere Abbildung
 
-![Description – organisation setup](/wiki-assets/tutorial/description_uses.jpeg)
+![Description – organisation setup](/wiki-assets/tutorial/description-uses.jpeg)
 
 <p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
 <details class="wiki-video">
