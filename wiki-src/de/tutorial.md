@@ -337,45 +337,7 @@ Die Auswahl bestimmt, für welchen Fachbereich die folgenden Angaben und Resulta
 
 ---
 
-### 2.2 Leistungsrolle
-
-**Ziel**  
-Festlegen, **welche Rolle innerhalb der gewählten Disziplin** übernommen wird.
-
-Neben der Disziplin wird auch die konkrete Leistungsrolle gewählt.  
-Diese beschreibt, **welche Verantwortung** innerhalb des Projekts übernommen wird.
-
-**Tun**
-- Eine Leistungsrolle auswählen:
-  - Gesamtleitung
-  - Fachkoordination
-  - Fachbauleitung
-
-**Prüfen**
-- Die Rolle entspricht dem tatsächlichen Leistungsumfang.
-- Die Auswahl passt zur vertraglichen oder projektspezifischen Verantwortung.
-
-![Project – service role selection](/wiki-assets/tutorial/project-leistungsrolle.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
-<details class="wiki-video">
-  <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata" playsinline>
-    <source src="/wiki-assets/tutorial/project-leistungsrolle.mp4" type="video/mp4" />
-  </video>
-</details>
-
-**Warum das wichtig ist**
-- Die Leistungsrolle beeinflusst, wie der Aufwand innerhalb der Disziplin gelesen und weitergeführt wird.
-- Dieselbe Disziplin kann je nach Verantwortung unterschiedlich interpretiert werden.
-
-**Häufige Fehler**
-- Gesamtleitung wählen, obwohl nur Fachkoordination oder Fachbauleitung erbracht wird.
-- Rolle als Wunschbild statt als reale Beauftragung verstehen.
-
----
-
-### 2.3 Aufwandanpassung
+### 2.2 Aufwandanpassung
 
 **Ziel**  
 Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
@@ -408,7 +370,7 @@ Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
 
 ---
 
-### 2.4 Anpassungsfaktor Qualität (Planungsanforderungen)
+### 2.3 Anpassungsfaktor Qualität (Planungsanforderungen)
 
 **Ziel**  
 Die projektspezifischen Anforderungen differenziert abbilden.
@@ -450,38 +412,6 @@ Die projektspezifischen Anforderungen differenziert abbilden.
 **Häufige Fehler**
 - Alle Regler auf 1.0 lassen «zur Sicherheit».
 - Faktor erhöhen ohne fachliche Begründung.
-
----
-
-### 2.5 Risikoabwägung
-
-**Ziel**  
-Projektunsicherheiten ergänzend berücksichtigen.
-
-**Tun**
-- Passende Risikostufe wählen (z. B. keine, erhöhte oder hohe Anforderungen).
-
-**Prüfen**
-- Risiko beschreibt externe Unsicherheiten (z. B. Verfahren, Rahmenbedingungen).
-- Risiko wird nicht mit Komplexität verwechselt.
-
-![Project – risk assessment](/wiki-assets/tutorial/project-risk-assessment.jpeg)
-
-<p><strong>🎬 Video (optional):</strong> <strong>Klicken zum Abspielen</strong></p>
-<details class="wiki-video">
-  <summary><strong> Kurzen Clip ansehen</strong></summary>
-  <video class="wiki-img" controls preload="metadata">
-    <source src="/wiki-assets/tutorial/project-risk-assessment.mp4" type="video/mp4" />
-  </video>
-</details>
-
-**Warum das wichtig ist**
-- Risiko macht Unsicherheiten transparent.
-- Es ergänzt die Bewertung der Anforderungen, ersetzt sie aber nicht.
-
-**Häufige Fehler**
-- Risiko verwenden, um fehlende Komplexitätsbewertung zu kompensieren.
-- Interne Themen (z. B. Designentscheidungen) als Risiko deklarieren.
 
 ---
 
@@ -664,25 +594,6 @@ Projektdaten zur Verbesserung der ValueApp beitragen.
 **Häufige Fehler**
 - Freitextfelder mit sensiblen Informationen füllen.
 - Unvollständige oder inkonsistente Projektdaten eingeben.
-
----
-
-## 5 — Mini-Beispiel (Quick Sanity Check)
-
-Nutzen Sie dies, um ein plausibles Ergebnis zu prüfen, bevor Sie es teilen.
-
-**Beispiel**
-- Projekttyp: Wohnungsgebäude
-- Menge: ~16000 m² GF
-- Nutzungsmix: 92% Wohnen 8% Arbeiten
-- Komplexität: moderat (technisch + organisatorisch)
-- Risiko: Keine spez. Anforderungen
-- Rolle: Architekt
-
-**Was das Ergebnis meist am stärksten bewegt**
-- Änderung des Nutzungsmix (Typologie),
-- Komplexitätsbeurteilung (v.a. organisatorisch),
-- Rolle und Phasenverteilung.
 
 ![Example – summary output](/wiki-assets/tutorial/example-summary-output.jpeg)
 
