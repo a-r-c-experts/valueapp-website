@@ -239,7 +239,7 @@
     },
     "titleKey": "wiki.tutorial.title",
     "navKey": "wiki.nav.tutorial",
-    "lastUpdated": "2026-04-01",
+    "lastUpdated": "2026-04-08",
     "searchable": true
   },
   {
