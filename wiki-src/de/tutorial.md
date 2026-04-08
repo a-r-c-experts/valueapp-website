@@ -19,36 +19,37 @@ Wenn Sie während des Lesens konzeptionellen Hintergrund brauchen, halten Sie
 ## Auf einen Blick
 
 **Was Sie brauchen**
-- eine grobe Projektidee (Grösse, Nutzung, Aufgabe),
-- eine ungefähre Menge (z.B. Bruttogeschossfläche),
+- eine grobe Projektidee (Nutzung, Aufgabe),
+- die determinierende Grösse (Geschossfläche/Bruttogeschossfläche),
 - ein grundlegendes Verständnis Ihrer Rolle im Projekt.
 
 **Was Sie bekommen**
-- eine nachvollziehbare Aufwandsbandbreite,
+- eine nachvollziehbare Aufwandsprognose,
 - Stunden nach Phase und Disziplin,
-- ein einseitiges PDF für Offerten, Planung oder Beschaffung.
+- ein PDF Ihrer Angaben.
 
 **Zeitaufwand**
 - erste Schätzung: ~10–15 Minuten  
-- verfeinerte Version: hängt davon ab, wie ehrlich Sie mit Komplexität sind
+- verfeinerte Version: hängt davon ab, wie detailliert Ihre Angaben sind.
 
 ---
 
 ## Die vier Hauptschritte
 
-1. **Projekt beschreiben (Description)**  
+1. **Beschrieb**  
    Projektidentität, Aufgabe, Ort und Organisationssetup definieren.
 
-2. **Menge, Nutzungen und Komplexität definieren (Project)**  
-   Bestimmende Menge erfassen, Nutzungsmix definieren, Komplexität und Risiko beurteilen.  
+2. **Projekt**  
+   Determinierende Grösse erfassen, Nutzungsmix definieren, Komplexität und Risiko beurteilen.  
    Die App leitet daraus über das Leadership Framework einen Anpassungsfaktor ab.
 
-3. **Rolle und Leistungen definieren (Services)**  
+3. **Leistung**  
    Rolle wählen, Fokusthemen setzen und die berechneten Stunden für  
-   **100% Grundleistungen** prüfen, inkl. Verteilung über die Planungsphasen.
+   Ihre Leistungen prüfen, inkl. Verteilung über die Planungsphasen.
 
-4. **Zusammenfassung prüfen und exportieren (Summary)**  
-   One-Pager prüfen und als Dokumentation oder Offerte exportieren.
+4. **Zusammenfassung**  
+   PDF prüfen und herunterladen.
+   Feedbackformular ausfüllen und absenden (**Die Daten werden immer anonymisiert übermittelt**).
 
 ![ValueApp four-step overview](/wiki-assets/tutorial/valueapp-architecture-overview.jpeg)
 
@@ -58,14 +59,14 @@ Wenn Sie während des Lesens konzeptionellen Hintergrund brauchen, halten Sie
 
 ### Was die ValueApp macht
 
-Die ValueApp schätzt und dokumentiert **Planungsaufwand**, indem sie kombiniert:
+Die ValueApp schätzt und dokumentiert **Planungsaufwände**, indem sie folgende Dinge kombiniert:
 
 - quantitative Eingaben (Menge, Nutzungsmix),
 - qualitative Eingaben (Komplexität, Risiko),
 - organisatorischen Kontext,
 - Ihre Rolle und Ihren Leistungsumfang.
 
-Sie liefert **Bandbreiten und Verteilungen**, nicht eine einzelne «richtige» Zahl.
+Sie liefert **Prognosen**, dessen Genauigkeit von den Angaben abhängig ist.
 
 ### Was die ValueApp *nicht* macht
 
@@ -76,9 +77,9 @@ Sie liefert **Bandbreiten und Verteilungen**, nicht eine einzelne «richtige» Z
 ![ValueApp purpose overview](/wiki-assets/tutorial/intro-valueapp-purpose.jpeg)
 
 **Weiterführend**
-- [How the app works](how-it-works.html) (Methode und Logik)
-- [Definitions](definitions.html) (Begriffe in der UI)
-- [What ValueApp is – and what it is not](why-valueapp.html)
+- [Wie die App funktioniert](how-it-works.html) (Methode und Logik)
+- [Definitionen](definitions.html) (Begriffe in der UI)
+- [Was die ValueApp ist – und was nicht](what-valueapp-is-not.html)
 
 ---
 
@@ -87,7 +88,7 @@ Sie liefert **Bandbreiten und Verteilungen**, nicht eine einzelne «richtige» Z
 Die Beispiele verwenden **Schweizer Standards** (z.B. SIA-Phasen), weil die zugrunde liegenden Daten aus diesem Kontext stammen.  
 Die **Methode selbst ist generisch** und international anwendbar.
 
-Wenn Sie ausserhalb der Schweiz arbeiten:
+Wenn Sie nicht die schweizer Version verwenden:
 - Phasen als generische Planungsphasen verstehen,
 - auf **relative Verteilungen** achten, nicht auf Labels,
 - Struktur und Begründung übernehmen.
@@ -97,11 +98,7 @@ Wenn Sie ausserhalb der Schweiz arbeiten:
 ## Schritt 1 — Beschrieb
 
 Der Schritt **Beschrieb** dokumentiert den Projektkontext.  
-Diese Informationen erscheinen in der Zusammenfassung und sollten mit Stakeholdern teilbar sein.
-
-> **Wichtig:**  
-> Kostenbezogene Eingaben beeinflussen den Aufwand **nicht**.  
-> Organisation, Aufgabenart und Umfang **schon**.
+Diese Informationen erscheinen in der Zusammenfassung und sind sichtbar für alle Projektteilnehmenden.
 
 ---
 
@@ -111,9 +108,9 @@ Diese Informationen erscheinen in der Zusammenfassung und sollten mit Stakeholde
 Eine klare und verständliche Projektbasis festlegen.
 
 **Tun**
-- Projektname erfassen.
+- Projektdaten erfassen.
 - Projektstatus wählen (z. B. *in Planung*).
-- Kurze Projektbeschreibung schreiben (5–10 Zeilen).
+- Projektbeschreibung hinzufügen.
 
 **Prüfen**
 - Die Beschreibung erklärt klar, *worum es im Projekt geht*.
@@ -130,7 +127,7 @@ Eine klare und verständliche Projektbasis festlegen.
 </details>
 
 **Warum das wichtig ist**
-- Die Beschreibung erscheint im exportierten Summary.
+- Die Beschreibung erscheint in der exportierten Zusammenfassung.
 - Sie bildet die Grundlage für das gemeinsame Projektverständnis.
 
 **Häufige Fehler**
@@ -147,15 +144,15 @@ Die Nutzungen des Projekts klar und differenziert definieren.
 
 **Tun**
 - Nutzungen per Klick hinzufügen.
-- Mehrere Nutzungen erfassen, falls das Projekt gemischt ist.
+- Jede Nutzung einzeln erfassen (einmal pro Nutzung und/oder Anforderung und Aufgabe).
 - Pro Nutzung wählen:
-  - Eine **Kategorie** (z. B. *Wohnen, Arbeiten, Produzieren, Lagern, Ausbilden und Forschen, Heilen und Pflegen*)
-  - Oder eine **konkrete Bauwerksart** (z. B. Mehrfamilienhäuser)
+  - Eine **Übergeordnete Nutzung** (z. B. *Wohnen, Arbeiten, Produzieren, Lagern, Ausbilden und Forschen, Heilen und Pflegen*)
+  - Oder eine **konkrete Bauwerksart** (z. B. Altersheime)
 
 **Prüfen**
 - Alle relevanten Nutzungen sind abgebildet.
 - Die gewählte Ebene passt zum Projektstand:
-  - Kategorie = gröbere Einordnung
+  - Nutzung = gröbere Einordnung
   - Bauwerksart = präzisere Abbildung
 
 ![Description – organisation setup](/wiki-assets/tutorial/description-uses.jpeg)
@@ -169,18 +166,16 @@ Die Nutzungen des Projekts klar und differenziert definieren.
 </details>
 
 **Warum das wichtig ist**
-- Die Nutzung bestimmt die Zuordnung zu Bauwerksarten.
 - Eine präzisere Auswahl führt zu genaueren Berechnungen.
 
 **Good practice**
-- Frühe Phase: Kategorie wählen, wenn Details noch unklar sind.
+- Frühe Phase: Übergeordnete Nutzung wählen, wenn Details noch unklar sind.
 - Spätere Phase: Konkrete Bauwerksart wählen für bessere Genauigkeit.
 - Mischprojekte bewusst aufteilen statt vereinfachen.
 
 **Häufige Fehler**
 - Nur eine Nutzung wählen, obwohl mehrere vorhanden sind.
 - Zu früh eine zu spezifische Bauwerksart festlegen.
-- Nutzung aus Gewohnheit statt aus tatsächlichem Projektinhalt wählen.
 
 ---
 
@@ -195,7 +190,7 @@ Das Anforderungsniveau und die Aufgabenart pro Nutzung festlegen.
   - Aufgabe (*Neubau oder Umbau/Sanierung*)
 
 **Prüfen**
-- Anforderungen entsprechen der tatsächlichen Komplexität.
+- Anforderungen entsprechen der Realität.
 - Aufgabe entspricht dem realen Eingriff, nicht der Projektbezeichnung.
 
 ![Description – task selection](/wiki-assets/tutorial/description-anforderungen.jpeg)
@@ -209,10 +204,10 @@ Das Anforderungsniveau und die Aufgabenart pro Nutzung festlegen.
 </details>
 
 > **Einfluss auf den Aufwand**  
-> Anforderungen und Aufgaben wirken sich direkt auf die berechneten Werte aus.
+> Anforderungen und Aufgaben wirken sich direkt auf die prognostizierten Werte aus.
 
 **Häufige Fehler**
-- Anforderungen zu tief ansetzen.
+- Anforderungen zu tief/hoch ansetzen.
 - Umbau wählen, obwohl es faktisch ein Neubau ist.
 
 ---
@@ -223,12 +218,11 @@ Das Anforderungsniveau und die Aufgabenart pro Nutzung festlegen.
 Die Projektgrösse und deren Aufteilung nachvollziehbar definieren.
 
 **Tun**
-- Geschossfläche (GF) erfassen.
+- Geschossfläche/Bruttogeschossfläche (GF/BGF) erfassen.
 - Nutzungsanteile definieren (ab mindestens zwei Nutzungen).
 
 **Prüfen**
 - Die Gesamtfläche entspricht dem aktuellen Planungsstand.
-- Nutzungsanteile ergeben zusammen 100 %.
 
 ![Description – task selection](/wiki-assets/tutorial/description-flaechenverteilung.jpeg)
 
@@ -241,7 +235,7 @@ Die Projektgrösse und deren Aufteilung nachvollziehbar definieren.
 </details>
 
 > **Direkter Einfluss auf Ergebnisse**  
-> Die Geschossfläche ist eine zentrale Eingangsgrösse für die Berechnung.
+> Die Geschossfläche ist eine zentrale Grösse für die Berechnung.
 
 **Häufige Fehler**
 - Unklare oder geschätzte Flächen.
@@ -292,12 +286,9 @@ Die Projektorganisation korrekt abbilden.
 
 Dieser Schritt führt zur **konkreten Aufwandsschätzung** auf Basis der gewählten Rolle und der projektspezifischen Anpassungen.
 
-Wenn Sie den konzeptionellen Überblick über Felder und Logik möchten, siehe:  
-→ [Project section](project-section.html)
-
 ---
 
-### 2.1 Fachrolle / Disziplin
+### 2.1 Disziplin
 
 **Ziel**  
 Festlegen, **für welche Disziplin** der Aufwand betrachtet wird.
@@ -312,6 +303,7 @@ Die Auswahl bestimmt, für welchen Fachbereich die folgenden Angaben und Resulta
   - Elektro
   - Heizung / Lüftung
   - Sanitär
+  - Landschaftsarchitekt
 
 **Prüfen**
 - Die gewählte Disziplin entspricht dem Bereich, den Sie tatsächlich beurteilen wollen.
@@ -335,6 +327,9 @@ Die Auswahl bestimmt, für welchen Fachbereich die folgenden Angaben und Resulta
 - Disziplin wählen, die im Projekt gar nicht betrachtet wird.
 - Zwischen Disziplinen wechseln, ohne die Resultate neu zu interpretieren.
 
+**Anmerkung**
+- Disziplinen können Länderspezifisch sein.
+
 ---
 
 ### 2.2 Aufwandanpassung
@@ -345,10 +340,6 @@ Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
 **Tun**
 - Den angezeigten Wert (min/m²) prüfen.
 - Verstehen, wie sich der Wert aus Nutzung, Fläche und Modell ergibt.
-
-**Prüfen**
-- Der Wert ist plausibel im Vergleich zu ähnlichen Projekten.
-- Die Einheit (min/m²) wird korrekt interpretiert.
 
 ![Project – enter quantity](/wiki-assets/tutorial/project-aufwandanpassung.jpeg)
 
@@ -366,7 +357,10 @@ Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
 
 **Häufige Fehler**
 - Wert isoliert betrachten, ohne Kontext von Nutzung und Fläche.
-- min/m² mit Gesamtaufwand verwechseln.
+- min/m² mit effektivem Aufwand verwechseln.
+
+**Anmerkung**
+- Die Werte sind nur eine Prognose und können individuell überschrieben werden.
 
 ---
 
@@ -375,18 +369,18 @@ Den berechneten Basiswert für das konkrete Projekt nachvollziehen.
 **Ziel**  
 Die projektspezifischen Anforderungen differenziert abbilden.
 
-**Was bewertet wird**
+**Was bewertet wird (Beispiel Bereich Architektur)**
 - Gestalterisch
 - Technisch
 - Räumlich
 - Organisatorisch
 
 **Tun**
-- Jede Dimension mit dem Schieberegler bewerten.
+- Jede Anforderung mit dem Schieberegler bewerten.
 - Einschätzung anhand der tatsächlichen Projektanforderungen vornehmen.
 
 **Prüfen**
-- Der Komplexitätsfaktor passt zur Projektrealität.
+- Der Anpassungsfaktor Qualität passt zur Projektrealität.
 - Die Anpassung ist fachlich begründbar.
 
 **Ergebnis**
@@ -394,6 +388,9 @@ Die projektspezifischen Anforderungen differenziert abbilden.
 
 > Beispiel:  
 > 257 min/m² × 1.05 = 270 min/m²
+
+**Anmerkung**
+- Die Regler können nicht verschoben werden solange keine Begründung verfasst wurde.
 
 ![Project – complexity framework](/wiki-assets/tutorial/project-complexity-framework.jpeg)
 
@@ -410,8 +407,7 @@ Die projektspezifischen Anforderungen differenziert abbilden.
 - Er ersetzt pauschale Annahmen durch eine strukturierte Bewertung.
 
 **Häufige Fehler**
-- Alle Regler auf 1.0 lassen «zur Sicherheit».
-- Faktor erhöhen ohne fachliche Begründung.
+- Die Regler fälschlicherweise auf 1.0 lassen.
 
 ---
 
@@ -434,10 +430,10 @@ Den gesamten Projektaufwand verstehen und einordnen.
 **Tun**
 - Gesamtstunden prüfen (z. B. 450 h).
 - Verteilung auf die Phasen analysieren:
-  - Phase 3 Projektierung
-  - Phase 4 Ausschreibung
-  - Phase 5 Realisierung
-- Verhältnis zwischen Prozent (%) und Stunden (h) verstehen.
+  - z. B. SIA Phase 3 Projektierung
+  - z. B. SIA Phase 4 Ausschreibung
+  - z. B. SIA Phase 5 Realisierung
+- Verhältnis zwischen Leistungsprozent (%) und Stunden (h) verstehen.
 
 **Prüfen**
 - Die Gesamtstunden sind plausibel im Vergleich zu ähnlichen Projekten.
@@ -453,18 +449,12 @@ Den gesamten Projektaufwand verstehen und einordnen.
   </video>
 </details>
 
-**Lesebeispiel**
-- Gesamtaufwand: 450 h  
-- Phase 3 mit 33 % → 149 h  
-- Phase 5 mit 48 % → 216 h  
-
 **Warum das wichtig ist**
 - Der Gesamtaufwand bildet die Grundlage für Honorar- und Ressourcenplanung.
 - Die Phasenverteilung zeigt, wann der Aufwand anfällt.
 
 **Häufige Fehler**
 - Nur die Gesamtstunden betrachten und die Phasen ignorieren.
-- Prozentwerte lesen, ohne sie in Stunden zu übersetzen.
 
 ---
 
@@ -474,11 +464,11 @@ Den gesamten Projektaufwand verstehen und einordnen.
 Den Aufwand pro Phase klar und direkt ablesen.
 
 **Was angezeigt wird**
-- Stunden pro Phase als konkrete Werte (z. B. 149 h, 85.5 h, 216 h)
+- Stunden pro Phase als konkrete Werte (z. B. 149 h, 85 h, 216 h)
 
 **Tun**
 - Aufwand pro Phase prüfen.
-- Kritische Phasen identifizieren (z. B. hoher Anteil in Phase 5).
+- Kritische Phasen identifizieren (z. B. hoher Aufwand in Phase 5).
 
 **Prüfen**
 - Die Verteilung ist nachvollziehbar und entspricht der Projektlogik.
@@ -563,32 +553,34 @@ Ein dokumentiertes Ergebnis für die weitere Verwendung erstellen.
 **Vorlagensatz für Offerten**
 > «Die vorgeschlagene Aufwandsbandbreite basiert auf Projektmenge, Nutzung, Anforderungen, Organisationsform und Leistungsumfang gemäss ValueApp-Auswertung.»
 
+**Anmerkung**
+- Nach dem ersten Download, wird automatisch das Datum des Downloads sowie das Datum der letzten Projektänderung aktualisiert und dargestellt.
+
 ---
 
-### 4.3 Projekteingabe
+### 4.3 Feedbackformular
 
 **Ziel**  
-Projektdaten zur Verbesserung der ValueApp beitragen.
+Projektdaten zur Weiterentwicklung der ValueApp beitragen.
 
 **Was erfasst wird**
-- Projektdaten (z. B. Nutzung, Fläche, Bauwerksart)
+- anonymisierte Projektdaten (z. B. Nutzung, Fläche, Bauwerksart)
 - Schwierigkeitsgrade gemäss SIA
-- Kosten und Stunden (falls verfügbar)
 
 **Tun**
 - Relevante Projektdaten eingeben (optional).
-- Daten übermitteln.
+- Daten senden.
 
 **Prüfen**
-- Keine personenbezogenen oder sensiblen Daten in Freitextfeldern erfassen.
+- Keine sensiblen Daten in Freitextfeldern erfassen.
 - Angaben sind plausibel und vollständig, sofern verfügbar.
 
 **Warum das wichtig ist**
-- Die Daten helfen, die Modelle der ValueApp kontinuierlich zu verbessern.
-- Zukünftige Berechnungen werden dadurch robuster und präziser.
+- Die Daten helfen, die Modelle der ValueApp kontinuierlich weiterzuentwickeln.
+- durch Ihr Feedback, werden zukünftige Berechnungen robuster und präziser.
 
 **Hinweis**
-- Die Daten werden anonymisiert verarbeitet.
+- Die Daten werden **anonymisiert** übermittelt.
 - Es werden keine genauen Adressen oder personenbezogenen Daten gespeichert.
 
 **Häufige Fehler**
@@ -613,11 +605,9 @@ Siehe auch:
 
 ## Typische Probleme und wie man sie löst
 
-- **Komplexität ist gesperrt** → Keine Nutzung gewählt.
-- **Zahlen wirken falsch** → Menge und Einheit prüfen.
-- **Phasen zeigen 0 Stunden** → Rolle und gewählte Phasen prüfen.
-- **Bauherrschaft stellt Ergebnis infrage** → Description und Komplexitätsbegründung prüfen.
-- **Ergebnis wirkt «zu hoch/zu tief»** → Nutzungsmix, Komplexität und Rolle prüfen, bevor Sie Zusatzleistungen hinzufügen.
+- **Anpassungsfaktor Qualität ist gesperrt** → Keine Begründung verfasst.
+- **Schätzungen wirken falsch** → Determinierende Grösse und Anpassungsfaktoren prüfen.
+- **Ergebnis wirkt «zu hoch/zu tief»** → Nutzungsmix, Anpassungsfaktoren und Rolle prüfen, bevor Sie Zusatzleistungen hinzufügen.
 
 ---
 
