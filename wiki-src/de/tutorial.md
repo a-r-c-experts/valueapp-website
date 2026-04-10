@@ -61,7 +61,7 @@ Wenn Sie während des Lesens konzeptionellen Hintergrund brauchen, halten Sie
 
 Die ValueApp schätzt und dokumentiert **Planungsaufwände**, indem sie folgende Dinge kombiniert:
 
-- quantitative Eingaben (Menge, Nutzungsmix),
+- quantitative Eingaben (Determinierende Grösse, Nutzungsmix),
 - qualitative Eingaben (Komplexität, Risiko),
 - organisatorischen Kontext,
 - Ihre Rolle und Ihren Leistungsumfang.
@@ -551,7 +551,7 @@ Ein dokumentiertes Ergebnis für die weitere Verwendung erstellen.
 - Der Bericht dient als Grundlage für Offerten, Gespräche und Dokumentation.
 
 **Vorlagensatz für Offerten**
-> «Die vorgeschlagene Aufwandsbandbreite basiert auf Projektmenge, Nutzung, Anforderungen, Organisationsform und Leistungsumfang gemäss ValueApp-Auswertung.»
+> «Die vorgeschlagene Aufwandsbandbreite basiert auf ProjektDeterminierende Grösse, Nutzung, Anforderungen, Organisationsform und Leistungsumfang gemäss ValueApp-Auswertung.»
 
 **Anmerkung**
 - Nach dem ersten Download, wird automatisch das Datum des Downloads sowie das Datum der letzten Projektänderung aktualisiert und dargestellt.

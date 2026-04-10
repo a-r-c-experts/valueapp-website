@@ -33,7 +33,7 @@ Each concept is documented in plain language and linked to where it appears in t
   How roles (e.g. architect, general planner) and service scope influence effort distribution and totals.  
   → [Open roles and services](roles-and-services.html)
 
-- **Adjustment / leadership factor**  
+- **Anpassungsfaktor**  
   How organisational and process-related demands are reflected in the model and how they modify results.  
   → [Open adjustment factor](adjustment-factor.html)
 

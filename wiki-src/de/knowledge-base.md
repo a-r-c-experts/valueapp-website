@@ -17,25 +17,25 @@ Wenn Sie praktische Schritte suchen, wechseln Sie zu den [Workflows](workflows.h
 Die folgenden Seiten erläutern die zentralen Konzepte, welche die von der ValueApp erzeugten Ergebnisse direkt prägen.  
 Jedes Konzept ist in verständlicher Sprache beschrieben und mit seiner Verwendung in der App verknüpft.
 
-- **Menge / Projektgrösse**  
+- **Determinierende Grösse**  
   Was „Grösse“ in der ValueApp bedeutet, warum sie relevant ist und wie sie die Basis für die Aufwandsschätzung bildet.  
-  → [Menge öffnen](quantity.html)
+  → [Determinierende Gösse öffnen](quantity.html)
 
-- **Nutzungskategorien (Bauprogramme)**  
+- **Nutzungskategorien (Bauwerksarten)**  
   Wie die ValueApp anhand der Nutzung Referenzmodelle auswählt und warum Mischnutzungen als gewichtete Kombinationen behandelt werden.  
   → [Nutzungskategorien öffnen](use-categories.html)
 
-- **Komplexitätsdimensionen**  
+- **Anpassungsfaktor**  
+  Wie organisatorische und prozessbezogene Anforderungen im Modell abgebildet werden und wie sie die Resultate verändern.  
+  → [Anpassungsfaktor öffnen](adjustment-factor.html)
+
+- **Methodik Anpassungsfaktor**  
   Wie gestalterische, technische, räumliche und organisatorische Komplexität beurteilt werden und warum gleich grosse Projekte sehr unterschiedlich ausfallen können.  
-  → [Komplexitätsdimensionen öffnen](complexity.html)
+  → [Methodik Anpassungsfaktor öffnen](complexity.html)
 
 - **Rollen und Leistungen**  
   Wie Rollen (z.B. Architekt/in, Generalplaner/in) und Leistungsumfang die Aufwandsverteilung und den Gesamtaufwand beeinflussen.  
   → [Rollen und Leistungen öffnen](roles-and-services.html)
-
-- **Anpassungs- / Führungsfaktor**  
-  Wie organisatorische und prozessbezogene Anforderungen im Modell abgebildet werden und wie sie die Resultate verändern.  
-  → [Anpassungsfaktor öffnen](adjustment-factor.html)
 
 - **Ergebnisse interpretieren**  
   Wie Stunden, Spannweiten und Verteilungen korrekt zu lesen sind und wofür die Resultate geeignet sind – und wofür nicht.  

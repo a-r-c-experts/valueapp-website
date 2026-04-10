@@ -7,7 +7,7 @@ navKey: gf-intervals
 
 GF-Intervalle beschreiben, **wie sich Werte über die Gebäudegrösse verändern**.
 
-Anstatt einem gesamten Bauwesen einen einzigen Wert zuzuweisen, bewertet ValueApp Projekte **über Bereiche der Geschossfläche (GF)** und bildet über diese Bereiche eine Kurve.
+Anstatt einem gesamten Bauwerksarten einen einzigen Wert zuzuweisen, bewertet ValueApp Projekte **über Bereiche der Geschossfläche (GF)** und bildet über diese Bereiche eine Kurve.
 
 Dies ermöglicht es dem System, eine einfache Realität abzubilden:
 
@@ -25,7 +25,7 @@ In ValueApp sind GF-Intervalle:
 
 Sie beantworten die Frage:
 
-> *„Wie verhält sich dieses Bauwesen bei unterschiedlichen Grössen?“*
+> *„Wie verhält sich diese Bauwerksarten bei unterschiedlichen Grössen?“*
 
 Nicht:
 - was der exakte Wert eines einzelnen Projekts ist,
@@ -35,7 +35,7 @@ Nicht:
 
 ## Der bisherige Ansatz (Referenzwerte)
 
-Bisher arbeitete ValueApp hauptsächlich mit **Referenzkurven**.
+Bisher arbeitete ValueApp hauptsächlich mit **Referenzintervallen**.
 
 - Diese basierten auf **Priors**  
 - Abgeleitet aus Studien, Erfahrung und strukturierten Annahmen  
@@ -59,7 +59,7 @@ Mit dem neuen Update führt ValueApp eine grundlegende Änderung ein:
 
 Das System:
 
-1. startet mit der bestehenden Referenzkurve (Priors),
+1. startet mit der bestehenden Referenzintervallen (Priors),
 2. betrachtet **reale Projektdaten**,
 3. und lernt, wie sich jedes Bauwesen über die GF-Intervalle verhält.
 
@@ -96,7 +96,7 @@ Dies zeigt klar:
 
 Ohne GF-Intervalle würde das System annehmen:
 
-- ein Wert pro Bauwesen,
+- ein Wert pro Bauwerksart,
 - unabhängig von der Grösse.
 
 Das würde Folgendes ignorieren:
@@ -122,7 +122,7 @@ Andere sind selten.
 Das System geht damit um, indem es kombiniert:
 
 - die **Referenzkurve (Priors)**,
-- **reale Projekte desselben Bauwesens**,
+- **reale Projekte derselben Bauwerksart**,
 - und **verwandte Bauwesen innerhalb derselben Gruppe**.
 
 Das bedeutet:
@@ -150,7 +150,7 @@ Heute:
 Das ermöglicht ValueApp:
 
 - sich an die tatsächliche Praxis anzupassen,
-- Unterschiede zwischen Bauwesen abzubilden,
+- Unterschiede zwischen Bauwerksarten abzubilden,
 - und sich mit zunehmenden Daten kontinuierlich zu verbessern.
 
 ---
@@ -173,13 +173,13 @@ Stattdessen:
 
 ## In einem Satz
 
-> ValueApp lernt nun, wie sich jedes Bauwesen über die GF-Intervalle verhält, indem Referenzwissen mit realen Projektdaten kombiniert wird.
+> ValueApp lernt nun, wie sich jede Bauwerksart über die GF-Intervalle verhält, indem Referenzwissen mit realen Projektdaten kombiniert wird.
 
 ---
 
 ## Siehe auch
 
-- [Komplexitätsdimensionen](complexity.html)
-- [Menge und Grundaufwand](quantity.html)
+- [Methodik Anpassungsfaktor](complexity.html)
+- [Determinierende Grösse und Grundaufwand](quantity.html)
 - [Adjustment (Leadership) Factor](adjustment-factor.html)
 - [Interpretation der Resultate](output-interpretation.html)

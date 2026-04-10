@@ -3,7 +3,7 @@ i18nTitle: wiki.complexity.title
 navKey: complexity
 ---
 
-# Komplexitätsdimensionen
+# Methodik Anpassungsfaktor
 
 Komplexität beschreibt, **wie anspruchsvoll die Planungsaufgabe an sich ist** – unabhängig von Grösse und Organisation.
 
@@ -32,7 +32,7 @@ Das gehört zum **Adjustment (Leadership) Factor**, nicht hierher.
 
 ---
 
-## Die vier Komplexitätsdimensionen
+## Anpassungsfaktor Qualität (AF<sub>Q</sub>)
 
 Komplexität wird über **vier unabhängige Dimensionen** beurteilt.  
 Jede Dimension beschreibt eine andere Quelle von Entwurfs- und Koordinationsaufwand.
@@ -118,7 +118,7 @@ Höhere Komplexität:
 
 ---
 
-## Wie Komplexität beurteilt wird
+## Wie die Anpassungsfaktoren beurteilt werden
 
 Jede Dimension wird entlang eines Spektrums positioniert:
 **simple → complicated → complex**
@@ -133,7 +133,7 @@ Sie halten fest, **wie anspruchsvoll die Planungsaufgabe voraussichtlich ist**.
 
 ---
 
-## Wie Komplexität die Ergebnisse beeinflusst
+## Wie die Anpassungsfaktoren die Ergebnisse beeinflussen
 
 Komplexität:
 - erhöht den Basisaufwand,
@@ -148,24 +148,23 @@ Höhere Komplexität bedeutet typischerweise:
 Sie bewirkt **nicht**:
 - eine Vergrösserung des Leistungsumfangs,
 - einen Ersatz vertraglicher Definitionen,
-- eine Rechtfertigung von Aufwand ohne Menge.
+- eine Rechtfertigung von Aufwand ohne Determinierende Grösse.
 
-Komplexität wirkt immer **zusammen mit Menge**, nicht anstelle davon.
+Komplexität wirkt immer **zusammen mit Determinierende Grösse**, nicht anstelle davon.
 
 ---
 
-## Wo Komplexität in der App vorkommt
+## Wo der Anpassungsfaktor in der App vorkommt
 
-Komplexität begegnet Ihnen in:
 
-- **Project definition**  
+- **Projektdefinition**  
   Bei der Beurteilung der vier Dimensionen im Setup.
 
-- **Baseline calculation**  
-  Dort, wo sie den Aufwand aus Menge und Nutzung modifiziert.
+- **Basisberechnung**  
+  Dort, wo sie den Aufwand aus Determinierende Grösse und Nutzung modifiziert.
 
-- **Result interpretation**  
-  Dort, wo höhere Komplexität mehr Stunden erklärt, auch bei ähnlicher Grösse.
+- **Ergebnisinterpretation**  
+  Dort, wo höhere Anforderungen mehr Stunden erklärt, auch bei ähnlicher Grösse.
 
 Für eine geführte Anleitung siehe:  
 → [Workflow: defining complexity](workflows.html#complexity)

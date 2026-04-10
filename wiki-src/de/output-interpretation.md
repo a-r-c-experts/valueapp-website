@@ -81,7 +81,7 @@ Zwei Projekte können:
 Typische Gründe:
 - unterschiedliche Rollen oder Leistungsumfänge,
 - unterschiedliche Organisationsformen,
-- unterschiedliche Komplexitäts- oder Führungsfaktoren.
+- unterschiedliche Anpassungs- oder Führungsfaktoren.
 
 ![Ähnliche Projekte, unterschiedliche Resultate](\/wiki-assets/knowledge/output-comparison-scenarios.jpeg)
 
@@ -128,8 +128,8 @@ Präzision beruhigt. Transparenz hilft.
 ## Weiterführend
 
 - [Quantity und Basisaufwand](quantity.html)
-- [Komplexitätsdimensionen](complexity.html)
-- [Adjustment / Leadership Factor](adjustment-factor.html)
+- [Methodik Anpassungsfaktor](complexity.html)
+- [Anpassungsfaktor](adjustment-factor.html)
 - [Rollen und Leistungen](roles-and-services.html)
 - [Workflows](workflows.html)
 - [Was ValueApp ist – und was nicht](why-valueapp.html)

@@ -32,7 +32,7 @@ Use this section when you just need the right page, quickly.
 - **Complexity dimensions** (what “design/technical/spatial/organisational” actually means)  
   → [Complexity](complexity.html)
 
-- **Adjustment / leadership factor** (what it reflects and what it does not)  
+- **Anpassungsfaktor** (what it reflects and what it does not)  
   → [Adjustment factor](adjustment-factor.html)
 
 ### Services (roles, phases, additional services)

@@ -14,7 +14,7 @@ Dieses Kapitel richtet sich an die praktische Anwendung: **wie man Dinge in der 
 
 ## Geplante Workflow-Anleitungen
 
-Diese Seiten werden mit dem Ausbau des Wikis ergänzt:
+Diese Seiten werden mit dem Ausbau der Wiki ergänzt:
 
 - **Neues Projekt anlegen**
 - **Ergebnisse teilen oder kommunizieren**

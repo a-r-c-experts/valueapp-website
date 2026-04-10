@@ -62,6 +62,6 @@ L’application vise donc :
 
 - [Quantité et effort de base](quantity.html)
 - [Dimensions de la complexité](complexity.html)
-- [Adjustment / Leadership Factor](adjustment-factor.html)
+- [Anpassungsfaktor](adjustment-factor.html)
 - [Interpréter les résultats](output-interpretation.html)
 - [Ce qu’est la ValueApp – et ce qu’elle n’est pas](what-valueapp-is-not.html)

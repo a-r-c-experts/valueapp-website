@@ -79,7 +79,7 @@ Sie berechnet **100 % der gewählten Grundleistungen**.
 
 ## Warum Rollen und Leistungen Teil des Modells sind
 
-Zwei Projekte mit identischer Menge und Komplexität können sich stark unterscheiden, wenn:
+Zwei Projekte mit identischer Determinierende Grösse und Komplexität können sich stark unterscheiden, wenn:
 - eine Rolle die Gesamtkoordination übernimmt,
 - eine andere nur Teilleistungen erbringt.
 
@@ -109,7 +109,7 @@ Rollen und Leistungen beeinflussen:
   Insbesondere bei Generalplanerrollen.
 
 Sie verändern **nicht**:
-- die zugrunde liegende Menge,
+- die zugrunde liegende Determinierende Grösse,
 - die Komplexitätsbewertung,
 - ausserordentliche Zusatzleistungen.
 
@@ -155,8 +155,8 @@ Wenn sich die Rollenwahl unangenehm anfühlt, ist meist die Projektdefinition un
 
 ## Siehe auch
 
-- [Menge und Basisaufwand](quantity.html)
-- [Komplexitätsdimensionen](complexity.html)
-- [Adjustment / Leadership Factor](adjustment-factor.html)
+- [Determinierende Grösse und Basisaufwand](quantity.html)
+- [Methodik Anpassungsfaktor](complexity.html)
+- [Anpassungsfaktor](adjustment-factor.html)
 - [Resultate interpretieren](output-interpretation.html)
 - [Was ValueApp ist – und was nicht](why-valueapp.html)

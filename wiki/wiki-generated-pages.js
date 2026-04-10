@@ -10,7 +10,7 @@
     },
     "titleKey": "wiki.adjustmentFactor.title",
     "navKey": "adjustment-factor",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -22,7 +22,7 @@
     },
     "titleKey": "wiki.bayes.title",
     "navKey": "bayes",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -46,7 +46,7 @@
     },
     "titleKey": "wiki.complexity.title",
     "navKey": "complexity",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -58,7 +58,7 @@
     },
     "titleKey": "wiki.definitions.title",
     "navKey": "wiki.nav.definitions",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -82,7 +82,7 @@
     },
     "titleKey": "wiki.faq.title",
     "navKey": "faq",
-    "lastUpdated": "2026-01-05",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -94,7 +94,7 @@
     },
     "titleKey": "wiki.gettingStarted.title",
     "navKey": "getting-started",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -106,7 +106,7 @@
     },
     "titleKey": "wiki.gfIntervals.title",
     "navKey": "gf-intervals",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -130,7 +130,7 @@
     },
     "titleKey": "wiki.howItWorks.title",
     "navKey": "wiki.nav.howItWorks",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -154,7 +154,7 @@
     },
     "titleKey": "wiki.knowledgeBase.title",
     "navKey": "knowledge-base",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -166,7 +166,7 @@
     },
     "titleKey": "wiki.outputInterpretation.title",
     "navKey": "output-interpretation",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -178,7 +178,7 @@
     },
     "titleKey": "wiki.projectSection.title",
     "navKey": "wiki.nav.projectSection",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -190,7 +190,7 @@
     },
     "titleKey": "wiki.quantity.title",
     "navKey": "quantity",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -202,7 +202,7 @@
     },
     "titleKey": "wiki.reference.title",
     "navKey": "reference",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -214,7 +214,7 @@
     },
     "titleKey": "wiki.rolesAndServices.title",
     "navKey": "roles-and-services",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -226,7 +226,7 @@
     },
     "titleKey": "wiki.support.title",
     "navKey": "support",
-    "lastUpdated": "2026-01-05",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -239,7 +239,7 @@
     },
     "titleKey": "wiki.tutorial.title",
     "navKey": "wiki.nav.tutorial",
-    "lastUpdated": "2026-04-08",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -251,7 +251,7 @@
     },
     "titleKey": "wiki.useCategories.title",
     "navKey": "use-categories",
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -263,7 +263,7 @@
     },
     "titleKey": "wiki.whatValueAppIsNot.title",
     "navKey": "what-valueapp-is-not",
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -275,7 +275,7 @@
     },
     "titleKey": "wiki.whyValueApp.title",
     "navKey": "wiki.nav.whyValueApp",
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -287,7 +287,7 @@
     },
     "titleKey": "wiki.workflows.title",
     "navKey": "workflows",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   }
 ];

@@ -14,15 +14,15 @@ Diese Seite gibt einen schnellen Überblick, bevor Sie ins ausführliche Tutoria
    Erfassen Sie Name, Adresse, Status und eine kurze Projektbeschreibung.  
    Definieren Sie die organisatorische Aufstellung auf Planer- und Unternehmerseite (z. B. Einzelplaner/in, Generalplaner/in, Generalunternehmer/in).
 
-2. **Menge, Nutzung und Komplexität definieren (Projekt)**  
-   Geben Sie die bestimmende Grösse ein (meist Bruttogeschossfläche in m²), legen Sie die Nutzungsverteilung fest und beurteilen Sie die Komplexität in vier Dimensionen: gestalterisch, technisch, räumlich und organisatorisch.  
+2. **Determinierende Grösse, Nutzung und Anpassungsfaktoren definieren (Projekt)**  
+   Geben Sie die determinierende Grösse ein (meist Geschossfläche/Bruttogeschossfläche in m²), legen Sie die Nutzungsverteilung fest und beurteilen Sie die Anpassungsfaktoren in vier Dimensionen: gestalterisch, technisch, räumlich und organisatorisch.  
    Die App ordnet diese Einschätzung dem Leadership Framework zu und leitet daraus einen Anpassungsfaktor ab.
 
 3. **Rolle und Leistungen festlegen (Leistung)**  
-   Wählen Sie Ihre Rolle (z. B. Architekt/in, Architekt/in & Generalplaner/in), markieren Sie Schwerpunktthemen und prüfen Sie die berechneten Stunden für 100 % Grundleistungen inklusive deren Verteilung auf die SIA-Phasen 1–6.
+   Wählen Sie Ihre Rolle (z. B. Architekt/in, Architekt/in & Generalplaner/in), markieren Sie Schwerpunktthemen und prüfen Sie die berechneten Stunden für 100 % Grundleistungen inklusive deren Verteilung auf die SIA-Phasen 3–5.
 
 4. **Zusammenfassung prüfen und exportieren (Zusammenfassung)**  
-   Kontrollieren Sie das generierte One-Pager-Dokument mit Projektdaten, Organisation, Nutzungsverteilung, Aufwand pro m² und Stunden je Phase.  
+   Kontrollieren Sie das generierte PDF mit Projektdaten, Organisation, Nutzungsverteilung, Aufwand pro m² und Stunden je Phase.  
    Dieses Dokument kann exportiert oder ausgedruckt werden, z. B. für Honorarangebote oder Vergabeverfahren.
 
 ## Wie geht es weiter?

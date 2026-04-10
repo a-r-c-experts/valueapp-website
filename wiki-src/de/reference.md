@@ -19,9 +19,9 @@ Wenn Sie eine klickbasierte Anleitung suchen, wechseln Sie zum [Tutorial](tutori
 
 Nutzen Sie diesen Bereich, wenn Sie schnell die passende Seite finden möchten.
 
-### Projekt (Menge, Nutzung, Komplexität)
-- **Menge / Determinante** (was zählt, Einheiten, typische Fehler)  
-  → [Menge](quantity.html)
+### Projekt (Determinierende Grösse, Nutzung, Anpassungsfaktor)
+- **Determinierende Grösse / Determinante** (was zählt, Einheiten, typische Fehler)  
+  → [Determinierende Grösse](quantity.html)
 
 - **Nutzungskategorien** (wie reale Projekte auf Nutzungen abgebildet werden)  
   → [Nutzungskategorien](use-categories.html)
@@ -29,11 +29,12 @@ Nutzen Sie diesen Bereich, wenn Sie schnell die passende Seite finden möchten.
 - **Übersicht Projektfelder** (konzeptionelle Funktionsweise des Projekt-Reiters)  
   → [Projektbereich](project-section.html)
 
-- **Komplexitätsdimensionen** (was „gestalterisch / technisch / räumlich / organisatorisch“ bedeutet)  
+- **Anpassungsfaktor** (was er abbildet und was nicht)  
+  → [Anpassungsfaktor](adjustment-factor.html)
+
+- **Methodik Anpassungsfaktor** (was „gestalterisch / technisch / räumlich / organisatorisch“ bedeutet)  
   → [Komplexität](complexity.html)
 
-- **Anpassungs- / Führungsfaktor** (was er abbildet und was nicht)  
-  → [Anpassungsfaktor](adjustment-factor.html)
 
 ### Leistungen (Rollen, Phasen, Zusatzleistungen)
 - **Rollen und Leistungen** (Auswirkung der Rollenwahl, Bedeutung der Grundleistungen)  
@@ -81,7 +82,7 @@ Empfohlene Struktur pro Feld:
 
 Geplante Seiten:
 - **Reiter Beschreibung – Felder und Bedeutung** (Projektidentität, Status, Aufgabe, Organisation)
-- **Reiter Projekt – Felder und Bedeutung** (Menge, Nutzung, Komplexität, Risiko)
+- **Reiter Projekt – Felder und Bedeutung** (Determinierende Grösse, Nutzung, Komplexität, Risiko)
 - **Reiter Leistungen – Felder und Bedeutung** (Rolle, Fokusthemen, Phasenverteilung, Zusatzleistungen)
 
 Bis diese existieren, nutzen Sie:

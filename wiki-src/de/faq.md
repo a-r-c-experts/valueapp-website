@@ -62,7 +62,7 @@ Eine kurze Begründung erhöht die Nachvollziehbarkeit.
 
 ### Wie oft werden die Basismodelle aktualisiert?
 
-Die Basismodelle werden periodisch mit neuen realisierten Projekten aktualisiert und weiter verfeinert, um die Ergebnisse an die aktuelle Praxis anzupassen.
+Die Basismodelle werden periodisch mit neuen realisierten Projekten überprüft und weiter verfeinert, um die Ergebnisse an die aktuelle Praxis anzupassen.
 
 ### Kann die ValueApp in eigene IT-Systeme integriert werden?
 

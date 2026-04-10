@@ -11,7 +11,7 @@ Der Planungsaufwand wird in frühen Phasen häufig auf einer zu wenig belastbare
 
 - Die Baukosten sind noch unsicher, trotzdem soll der Aufwand «irgendwie» hergeleitet werden.
 - Vergleichsprojekte existieren, sind jedoch selten sauber dokumentiert oder direkt vergleichbar.
-- Komplexität wird eher gefühlt als strukturiert beschrieben (und später wundert man sich über Abweichungen).
+- Anpassungsfaktoren werden eher gefühlt als strukturiert beschrieben (und später wundert man sich über Abweichungen).
 - Die Kommunikation zwischen Auftraggebenden, Planungsteams und internen Stellen bleibt oft unklar.
 
 Die typischen Folgen sind Fehlannahmen, Reibungsverluste, mangelhafte Erwartungssteuerung und unnötige Iterationsschlaufen.
@@ -27,7 +27,7 @@ Die ValueApp verbindet die ETH Value Method mit einer klaren, geführten Anwendu
    Aufwandsbereiche werden aus realisierten Projekten abgeleitet – bewusst mit Bandbreiten statt Scheingenauigkeit.
 
 3. **Strukturierter Beschreibung der Komplexität**  
-   Komplexität wird entlang klarer Dimensionen beschrieben (Gestaltung, Technik, Raum, Organisation) und über das Leadership Framework systematisiert.
+   Komplexität wird entlang klarer Dimensionen beschrieben (gestalterisch, technisch, räumlich, organisatorisch) und über das Leadership Framework systematisiert.
 
 4. **Transparenter Dokumentation**  
    Eingaben, Annahmen und Resultate werden so dargestellt, dass sie nachvollziehbar, kommunizierbar und prüfbar sind.
@@ -36,7 +36,7 @@ Die ValueApp verbindet die ETH Value Method mit einer klaren, geführten Anwendu
 
 - **Frühe Projektphasen:** Abschätzung von Aufwandsbandbreiten für Entscheidungs- und Angebotsprozesse
 - **Plausibilisierung:** Vergleich zwischen Projekten, Varianten oder Nutzungsmixen
-- **Kommunikation:** Gemeinsame Sprache für Komplexität und Erwartungssteuerung
+- **Kommunikation:** Gemeinsame Sprache für Anforderung und Erwartungssteuerung
 - **Interne Steuerung:** Grobe Kapazitäts- und Phasenplanung (organisationsabhängig)
 
 ## Abgrenzung zu Kosten- oder Honorartools
@@ -44,7 +44,7 @@ Die ValueApp verbindet die ETH Value Method mit einer klaren, geführten Anwendu
 Die ValueApp ist weder ein Kosten- noch ein Honorartool.
 
 - **Kosten-/Honorartools**: meist «Kosten → Honorar», stark abhängig von Kennwerten und dem Detaillierungsgrad der Projektdefinition  
-- **ValueApp**: «Determinante + Referenzdaten + Komplexität → Aufwand (h)», mit Fokus auf Transparenz und Plausibilität
+- **ValueApp**: «Determinante + Referenzdaten + Anpassungsfaktoren → Aufwand (h)», mit Fokus auf Transparenz und Plausibilität
 
 Das bedeutet: Die ValueApp kann Honorarverhandlungen unterstützen, ersetzt jedoch keine Leistungsdefinitionen, Vertragslogiken oder projektspezifischen Abgrenzungen.
 
@@ -60,8 +60,8 @@ Die App zielt deshalb auf:
 
 ## Siehe auch
 
-- [Menge und Basisaufwand](quantity.html)
-- [Komplexitätsdimensionen](complexity.html)
-- [Adjustment / Leadership Factor](adjustment-factor.html)
+- [Determinierende Grösse und Basisaufwand](quantity.html)
+- [Methodik Anpassungsfaktor](complexity.html)
+- [Anpassungsfaktor](adjustment-factor.html)
 - [Resultate interpretieren](output-interpretation.html)
 - [Was ValueApp ist – und was nicht](what-valueapp-is-not.html)

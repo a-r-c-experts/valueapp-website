@@ -58,12 +58,12 @@ Diese Intervalle decken in der Regel rund **80 % vergleichbarer Projekte** ab un
 
 Aktuell nutzt die ValueApp nutzungsbasierte Basismodelle für:
 
-- Wohnen  
-- Arbeiten / Dienstleistungen  
-- Industrie  
-- Lagerung  
-- Lernen / Forschen  
-- Heilen / Pflegen  
+- Wohnen und Freizeit  
+- Arbeiten   
+- Produzieren  
+- Lagern  
+- Ausbilden und Forschen  
+- Heilen und Pflegen  
 
 Alle Modelle gehen von **100 % Grundleistungen** für die jeweilige Disziplin aus.
 
@@ -80,10 +80,10 @@ Es unterscheidet zwischen **einfachen**, **komplizierten**, **komplexen** und **
 
 In der ValueApp werden projektspezifische Herausforderungen in vier Dimensionen beschrieben:
 
-- **Gestaltung**,  
-- **Technik**,  
-- **Raum**,  
-- **Organisation**.
+- **gestalterisch**,  
+- **technisch**,  
+- **räumlich**,  
+- **organisatorisch**.
 
 Diese werden im Framework positioniert. Ihr gemeinsamer „Schwerpunkt“ ergibt den Wert für **AF<sub>Qualität</sub>**.
 
@@ -142,7 +142,7 @@ Die Beschreibung sollte Ausgangslage, Aufgabe, wesentliche Rahmenbedingungen und
 ### Projekt
 
 Erfassen Sie die Determinante (typischerweise m² GF) und verteilen Sie diese auf die relevanten Nutzungen.  
-Beurteilen Sie die Komplexität in den vier Dimensionen und setzen Sie den Risikograd (**keine speziellen**, **erhöhte**, **hohe Anforderungen**).
+Beurteilen Sie die Anpassungsfaktoren in den vier Dimensionen und setzen Sie das Anforderungsniveau (**tief**, **standard**, **hohe**, **höchste**).
 
 Weitere Hinweise finden Sie im [Projekt-Bereich](project-section.html).
 

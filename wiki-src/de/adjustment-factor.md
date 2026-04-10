@@ -6,7 +6,7 @@ navKey: adjustment-factor
 # Anpassungsfaktor (Leadership-Faktor)
 
 Der Anpassungsfaktor beschreibt, **wie anspruchsvoll die Projektorganisation über Grösse und Grundkomplexität hinaus ist**.  
-Er erfasst organisatorischen, prozessualen und koordinativen Aufwand, der sich nicht allein aus Mengen ableiten lässt.
+Er erfasst organisatorischen, prozessualen und koordinativen Aufwand, der sich nicht allein aus Determinierende Grössen ableiten lässt.
 
 Er **belohnt keine Ambition, Qualität oder gestalterische Exzellenz**.  
 Er modelliert **Führungs- und Managementaufwand**.
@@ -15,7 +15,7 @@ Er modelliert **Führungs- und Managementaufwand**.
 
 ## Was ist der Anpassungsfaktor?
 
-Der Anpassungsfaktor ist ein **multiplikativer Faktor**, der auf den Basisaufwand angewendet wird, der aus Menge, Nutzung und Komplexität berechnet wird.
+Der Anpassungsfaktor ist ein **multiplikativer Faktor**, der auf den Basisaufwand angewendet wird, der aus Determinierende Grösse, Nutzung und Anforderungen berechnet wird.
 
 Er bildet den zusätzlichen Aufwand ab, der entsteht durch:
 - Koordination mehrerer Beteiligter,
@@ -32,7 +32,7 @@ nicht
 
 ## Warum gibt es den Anpassungsfaktor in der ValueApp?
 
-Projekte mit identischer Grösse und vergleichbarer Komplexität können sehr unterschiedlichen Aufwand verursachen, etwa aufgrund von:
+Projekte mit identischer Grösse und vergleichbaren Anfoderungen können sehr unterschiedlichen Aufwand verursachen, etwa aufgrund von:
 - fragmentierten Zuständigkeiten,
 - unklaren oder wechselnden Entscheidungswegen,
 - engen Terminplänen mit vielen Schnittstellen,
@@ -58,7 +58,7 @@ Der Faktor wird aus einer strukturierten Einschätzung der **Führungs- und Proz
   Klare Zuständigkeiten vs. verteilte oder wechselnde Verantwortung.
 
 - **Prozessstabilität**  
-  Fester Umfang und Zeitplan vs. iterative oder offene Prozesse.
+  Fester Umfang und Zeitplan vs. sich wiederholende oder offene Prozesse.
 
 - **Koordinationsintensität**  
   Anzahl und Art der Schnittstellen zwischen Fachdisziplinen, Behörden, Nutzenden und externen Akteuren.
@@ -126,8 +126,8 @@ Wenn Sie den Drang verspüren, den Faktor so lange «einzustellen», bis das Erg
 
 ## Siehe auch
 
-- [Mengen und Basisaufwand](quantity.html)
-- [Komplexitätsdimensionen](complexity.html)
+- [Determinierende Grössen und Basisaufwand](quantity.html)
+- [Methodik Anpassungsfaktor](complexity.html)
 - [Rollen und Leistungen](roles-and-services.html)
 - [Ergebnisse interpretieren](output-interpretation.html)
 - [Was die ValueApp ist – und was nicht](why-valueapp.html)

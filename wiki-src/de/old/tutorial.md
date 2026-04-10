@@ -42,13 +42,13 @@ Beginnen Sie mit einer klaren Projektbeschreibung. Diese erscheint in Berichten 
   </p>
 </div>
 
-## Schritt 2 — Projekt (Mengen, Nutzungen und Komplexität)
+## Schritt 2 — Projekt (Determinierende Grössen, Nutzungen und Komplexität)
 
 Im Tab **Projekt** übersetzen Sie die Aufgabenstellung in Zahlen und eine Komplexitätsbeurteilung.
 
 ### 2.1 Determinante und Nutzungsmix
 
-Tragen Sie die bestimmende Menge ein, meist die Bruttogeschossfläche (GF).  
+Tragen Sie die bestimmende Determinierende Grösse ein, meist die Bruttogeschossfläche (GF).  
 Ordnen Sie dann prozentuale Anteile dieser Fläche den relevanten Nutzungen zu.
 
 <video class="wiki-img" controls preload="metadata">

@@ -12,7 +12,7 @@ Der Reiter **Projekt** ist der Ort, an dem die ValueApp
 
 Dies geschieht durch die Kombination von:
 
-- einer messbaren **Menge** (Projektgrösse),
+- einer messbaren **Determinierende Grösse** (Projektgrösse),
 - einer definierten **Nutzungsmischung** (Referenzkontext),
 - einer strukturierten **Komplexitätsbeurteilung**,
 - sowie – je nach Konfiguration – **Risiko- / Anforderungsangaben**.
@@ -27,7 +27,7 @@ Für eine Schritt-für-Schritt-Anleitung siehe das [Tutorial](tutorial.html).
 Im **Projektbereich** erzeugt die ValueApp den **Basis-Aufwandsbereich**, indem sie:
 
 1. über die Nutzung passende **Basismodelle** auswählt,
-2. diese mit der eingegebenen **Menge** skaliert,
+2. diese mit der eingegebenen **Determinierende Grösse** skaliert,
 3. das Resultat über **Komplexität und Führungsbedingungen** anpasst.
 
 Das Ergebnis wird in der Regel dargestellt als:
@@ -44,14 +44,14 @@ Zur methodischen Herleitung siehe:
 
 Typischerweise definieren Sie:
 
-1. **Menge / Projektgrösse**  
-   → [Menge](quantity.html)
+1. **Determinierende Grösse / Projektgrösse**  
+   → [Determinierende Grösse](quantity.html)
 
 2. **Nutzungsmischung**  
    → [Nutzungskategorien](use-categories.html)
 
 3. **Komplexität** in vier Dimensionen  
-   → [Komplexitätsdimensionen](complexity.html)
+   → [Methodik Anpassungsfaktor](complexity.html)
 
 4. **Führungs- / Anpassungsfaktor** (abgeleitet)  
    → [Anpassungsfaktor](adjustment-factor.html)
@@ -62,19 +62,19 @@ Diese Eingaben bestimmen gemeinsam das **Basis-Aufwandsprofil**, bevor Rollen un
 
 ---
 
-## Menge (Determinante)
+## Determinierende Grösse (Determinante)
 
-Die Menge beschreibt den **Massstab des Projekts**, meist als:
+Die Determinierende Grösse beschreibt den **Massstab des Projekts**, meist als:
 
 - Bruttogeschossfläche (m² BGF)
 
 Wichtige Punkte:
-- immer die **Gesamtmenge des Projekts** eingeben,
+- immer die **gesamte Determinierende Grösse des Projekts** eingeben,
 - Untergeschosse und gemeinschaftliche Flächen berücksichtigen,
 - kleine Änderungen können grosse Auswirkungen haben.
 
 Details und typische Fehler:
-→ [Menge](quantity.html)
+→ [Determinierende Grösse](quantity.html)
 
 ---
 
@@ -87,18 +87,18 @@ Die Nutzungsmischung sagt der App, **in welcher Referenzwelt sich das Projekt be
 - Mischnutzungen werden als **gewichtete Kombinationen** berechnet.
 
 Die Nutzung wählt die Basismodelle.  
-Komplexität erklärt Abweichungen *innerhalb* dieser Modelle.
+Anpassungsfaktoren erklärt Abweichungen *innerhalb* dieser Modelle.
 
 Beispiele und Definitionen:
 → [Nutzungskategorien](use-categories.html)
 
 ---
 
-## Komplexitätsbeurteilung
+## Beurteilung Anpassungsfaktoren
 
-Komplexität beschreibt, **wie vorhersehbar und beherrschbar die Planungsaufgabe ist**, nicht deren Qualität oder Ambition.
+Anpassungsfaktoren beschreiben, **wie vorhersehbar und beherrschbar die Planungsaufgabe ist**, nicht deren Qualität oder Ambition.
 
-Die ValueApp beurteilt Komplexität in vier Dimensionen:
+Die ValueApp beurteilt Anpassungsfakoren in vier Dimensionen:
 - gestalterisch
 - technisch
 - räumlich
@@ -107,7 +107,7 @@ Die ValueApp beurteilt Komplexität in vier Dimensionen:
 Diese Einschätzungen werden auf einen **Führungs- / Anpassungsfaktor** abgebildet, der den Basisaufwand modifiziert.
 
 Konzeptioneller Hintergrund:
-→ [Komplexitätsdimensionen](complexity.html)  
+→ [Methodik Anpassungsfaktor](complexity.html)  
 → [Anpassungsfaktor](adjustment-factor.html)
 
 ---
@@ -141,9 +141,9 @@ Der Projektbereich dient der **Einordnung und Plausibilisierung**, nicht der Ver
 ## Siehe auch
 
 - [Tutorial](tutorial.html)
-- [Menge](quantity.html)
+- [Determinierende Grösse](quantity.html)
 - [Nutzungskategorien](use-categories.html)
-- [Komplexitätsdimensionen](complexity.html)
+- [Methodik Anpassungsfaktor](complexity.html)
 - [Anpassungsfaktor](adjustment-factor.html)
 - [Ergebnisse interpretieren](output-interpretation.html)
 - [Warum ValueApp existiert](why-valueapp.html)

@@ -285,6 +285,6 @@ Im Zweifelsfall vergleichen Sie Ihr Projekt mit:
 ## Siehe auch
 
 - [Projektbereich](project-section.html)
-- [Menge / Projektgrösse](quantity.html)
-- [Komplexitätsdimensionen](complexity.html)
+- [Determinierende Grösse / Projektgrösse](quantity.html)
+- [Methodik Anpassungsfaktor](complexity.html)
 - [Beispiele](examples.html)

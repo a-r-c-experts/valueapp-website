@@ -210,6 +210,6 @@ Stattdessen gilt:
 ## Siehe auch
 
 - [GF-Intervalle und gelernte Kurven](gf-intervals.html)
-- [Komplexitätsdimensionen](complexity.html)
-- [Menge und Grundaufwand](quantity.html)
+- [Methodik Anpassungsfaktor](complexity.html)
+- [Determinierende Grösse und Grundaufwand](quantity.html)
 - [Interpretation der Resultate](output-interpretation.html)

@@ -97,7 +97,7 @@ Die Projektbeschreibung sollte kurz Ausgangslage, Aufgabe, zentrale Randbedingun
 Erfassen Sie die determinierende Grösse (typischerweise m² Bruttogeschossfläche) und verteilen Sie diese auf die relevanten Nutzungen.  
 Beurteilen Sie anschliessend die Komplexität in den vier Dimensionen und legen Sie das Risiko fest (**keine speziellen**, **erhöhte**, **hohe Anforderungen**).
 
-> **Weiterführend:** Detaillierte Hinweise zum Tab **Projekt** (Mengen, Nutzungsmix, Komplexität) finden Sie hier:  
+> **Weiterführend:** Detaillierte Hinweise zum Tab **Projekt** (Determinierende Grössen, Nutzungsmix, Komplexität) finden Sie hier:  
 > [Allgemeine Informationen – Bereich «Projekt»](/wiki/de/project-section.html)
 
 ### Leistung
@@ -150,7 +150,7 @@ Projektspezifische Leistungen, die über Grundleistungen hinausgehen und separat
   <h3>Hinweis für Anwender/innen</h3>
   <p>
     Im Alltag müssen Sie nicht jedes statistische Detail kennen.
-    Entscheidend sind eine klare Projektbeschreibung, realistische Mengen,
+    Entscheidend sind eine klare Projektbeschreibung, realistische Determinierende Grössen,
     eine ehrliche Komplexitätsbeurteilung und eine transparente Verteilung der Leistungen
     über die Phasen.
   </p>

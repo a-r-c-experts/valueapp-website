@@ -14,7 +14,7 @@ Diese Abgrenzung ist zentral für einen verantwortungsvollen Einsatz.
 
 ## Was ValueApp ist
 
-ValueApp ist ein **Entscheidungsunterstützungswerkzeug** für frühe und mittlere Planungsphasen.
+ValueApp ist eine **Unterstützung für Entscheidungen** in frühen Planungsphasen.
 
 Es hilft dabei:
 - Aufwandsbereiche abzuschätzen,
@@ -24,7 +24,7 @@ Es hilft dabei:
 
 ValueApp basiert auf:
 - empirischen Referenzdaten,
-- einer strukturierten Bewertung von Menge, Komplexität, Rollen und Führungsaufwand,
+- einer strukturierten Bewertung von Determinierenden Grössen, Anpassungsfaktoren, Rollen und Führungsaufwand,
 - kalibrierten Unsicherheitsbereichen.
 
 ValueApp unterstützt das fachliche Urteil.  
@@ -41,15 +41,12 @@ ValueApp berechnet **keine Honorare**.
 Es liefert:
 - Aufwandsbereiche (Stunden),
 - keine Preise,
-- keine verbindlichen Angebote.
 
 Honorare hängen ab von:
 - Marktbedingungen,
 - vertraglichen Regelungen,
 - Risikoverteilung,
 - Verhandlung.
-
-ValueApp-Ergebnisse als „das Honorar“ zu verwenden, ist ein Kategorienfehler.
 
 ---
 
@@ -147,7 +144,7 @@ Wenn sich ein Ergebnis unbequem anfühlt, ist das oft eine wichtige Information.
 - [Ergebnisse interpretieren](output-interpretation.html)
 - [Warum es die ValueApp gibt](why-valueapp.html)
 - [Anpassungs- / Führungsfaktor](adjustment-factor.html)
-- [Komplexitätsdimensionen](complexity.html)
+- [Anpassungsfaktoren](complexity.html)
 - [Rollen und Leistungen](roles-and-services.html)
 - [Workflows](workflows.html)
 - [Referenz](reference.html)

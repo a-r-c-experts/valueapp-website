@@ -3,95 +3,74 @@ i18nTitle: wiki.quantity.title
 navKey: quantity
 ---
 
-# Menge und Basisaufwand
+# Determinierende Grösse und Basisaufwand
 
-Die Menge definiert den **Massstab des Projekts**.  
+Die Determinierende Grösse definiert den **Massstab des Projekts**.  
 Sie ist der wichtigste Treiber des Basisaufwands in der ValueApp.
 
-Alles Weitere (Komplexität, Adjustment Factor) **modifiziert** diesen Basiswert.  
+Anpassungsfaktoren **modifizieren** diesen Basiswert.  
 Nichts ersetzt ihn.
 
 ---
 
-## Was «Menge» in der ValueApp bedeutet
+## Was «Determinierende Grösse» in der ValueApp bedeutet
 
-In der ValueApp steht die Menge für:
+In der ValueApp steht die Determinierende Grösse für:
 - die **Grösse dessen, was geplant wird**,
 - ausgedrückt über **eine dominante Kennzahl**.
 
-Sie beantwortet die Frage:
+---
 
-> *«Wie viel Projekt ist das?»*
+## verwendete Determinierende Grössen
 
-Nicht:
-- wie schwierig es ist,
-- wie gut es organisiert ist,
-- wie ambitioniert der Entwurf ist.
+die Determinierende Grösse wird angegeben als:
 
-Diese Aspekte werden an anderer Stelle berücksichtigt.
+- **Geschossfläche/Bruttogeschossfläche**  
 
 ---
 
-## Typische verwendete Mengen
+## Warum die Determinierende Grösse so entscheidend ist
 
-Je nach Projekttyp wird die Menge meist angegeben als:
+Die Determinierende Grösse ist der **einzige Faktor**, der den Aufwand verlässlich skaliert.
 
-- **Bruttogeschossfläche (BGF)**  
-  Der häufigste Fall bei Hochbauten.
-
-- **Einheiten**  
-  Zum Beispiel Wohnungen, Zimmer oder serielle Elemente.
-
-- **Funktionale Fläche**  
-  Wenn nur ein Teil eines Gebäudes relevant ist.
-
-Die zentrale Regel lautet:
-> **Wählen Sie die Kennzahl, die den Planungsaufwand am besten abbildet**, nicht die Baukosten.
-
----
-
-## Warum die Menge so entscheidend ist
-
-Die Menge ist der **einzige Faktor**, der den Aufwand verlässlich skaliert.
-
-Eine Verdoppelung der Menge verdoppelt den Aufwand nicht linear, führt aber zu:
+Eine Verdoppelung der Determinierende Grösse verdoppelt den Aufwand nicht linear, führt aber zu:
 - mehr Koordination,
 - mehr Dokumentation,
 - mehr Wiederholung mit Variation.
 
-Die Basiskurven der ValueApp sind so kalibriert, dass:
+Die Intervalle der ValueApp sind so kalibriert, dass:
 - kleine Projekte nicht überschätzt werden,
 - grosse Projekte nicht naiv hochgerechnet werden.
 
 ---
 
-## Wie die Menge die Resultate beeinflusst
+## Wie die Determinierende Grösse die Resultate beeinflusst
 
-Die Menge:
+Die Determinierende Grösse:
 - definiert den **Basisaufwandsbereich**,
 - wirkt über alle Planungsphasen hinweg,
-- steht immer im Zusammenspiel mit der Komplexität.
+- steht immer im Zusammenspiel mit den Anpassungsfaktoren.
 
-Eine grössere Menge bedeutet typischerweise:
+Eine grössere Determinierende Grösse bedeutet typischerweise:
 - mehr Pläne,
 - mehr Abstimmungsschlaufen,
 - mehr Schnittstellen.
 
-Die Menge allein erklärt jedoch **nicht**:
+Die Determinierende Grösse allein erklärt jedoch **nicht**:
 - warum gleich grosse Projekte sehr unterschiedliche Aufwände haben,
 - warum kleine Projekte manchmal unverhältnismässig anspruchsvoll sind.
 
-Dafür gibt es Komplexität und Adjustment Factors.
+Dafür gibt es Anpassungsfaktoren.
 
 ---
 
-## Die richtige Menge wählen
+## Die richtige Determinierende Grösse wählen
 
 Im Zweifel gilt:
 
 - Lieber **leicht vereinfacht** als künstlich präzise.
 - **Eine dominante Kennzahl** verwenden, nicht mehrere.
-- Keine „optimierten“ Mengen einsetzen, um Resultate zu beeinflussen.
+- Keine „optimierten“ Determinierende Grössen einsetzen, um Resultate zu beeinflussen.
 
 Wenn eine Zahl diskutabel ist, dokumentieren Sie die Annahme, statt sie endlos zu verfeinern.
 
@@ -99,9 +78,9 @@ Präzision ohne Klarheit ist keine Genauigkeit.
 
 ---
 
-## Wo die Menge in der App erscheint
+## Wo die Determinierende Grösse in der App erscheint
 
-Die Menge definieren Sie in:
+Die Determinierende Grösse definieren Sie in:
 
 - **Projektdefinition**  
   Als erste inhaltliche Eingabe.
@@ -113,7 +92,7 @@ Die Menge definieren Sie in:
   Wo sie grössenbedingte Aufwandsunterschiede erklärt.
 
 Für eine geführte Anleitung siehe:
-→ [Workflow: Menge definieren](workflows.html#quantity)
+→ [Workflow: Determinierende Grösse definieren](workflows.html#quantity)
 
 ---
 
@@ -122,18 +101,18 @@ Für eine geführte Anleitung siehe:
 Vermeiden Sie:
 - Netto- und Bruttoflächen zu vermischen,
 - unbequeme Projektteile auszuklammern,
-- die Menge nachträglich zu ändern, um ein Resultat zu „korrigieren“.
+- die Determinierende Grösse nachträglich zu ändern, um ein Resultat zu „korrigieren“.
 
-Wenn eine Mengenänderung das Resultat stark verändert, ist das kein Fehler.  
+Wenn eine Determinierende Grössenänderung das Resultat stark verändert, ist das kein Fehler.  
 Es bedeutet, dass sich der Projektumfang geändert hat.
 
 ---
 
 ## Optionale visuelle Referenz
 
-Der Zusammenhang zwischen Menge und Basisaufwand ist **nicht linear**:
+Der Zusammenhang zwischen Determinierende Grösse und Basisaufwand ist **nicht linear**:
 
-![Menge vs. Basisaufwand](\/wiki-assets/knowledge/quantity-baseline-curve.jpeg)
+![Determinierende Grösse vs. Basisaufwand](\/wiki-assets/knowledge/quantity-baseline-curve.jpeg)
 
 Die Kurve berücksichtigt:
 - Wiederholungseffekte,
@@ -143,8 +122,8 @@ Die Kurve berücksichtigt:
 
 ## Siehe auch
 
-- [Komplexitätsdimensionen](complexity.html)
-- [Adjustment / Leadership Factor](adjustment-factor.html)
+- [Methodik Anpassungsfaktor](complexity.html)
+- [Anpassungsfaktor](adjustment-factor.html)
 - [Rollen und Leistungen](roles-and-services.html)
 - [Resultate interpretieren](output-interpretation.html)
 - [Was ValueApp ist – und was nicht](why-valueapp.html)

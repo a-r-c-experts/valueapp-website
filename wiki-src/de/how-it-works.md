@@ -7,7 +7,7 @@ navKey: wiki.nav.howItWorks
 
 ## Kurzfassung
 
-Die ValueApp schätzt den Planungsaufwand (Stunden) für Disziplinen und Phasen auf Basis von **messbaren Determinanten** (z. B. Bruttogeschossfläche) und **projektbezogener Komplexität**.  
+Die ValueApp schätzt den Planungsaufwand (Stunden) für Disziplinen und Phasen auf Basis von **messbaren Determinanten** (z. B. /Geschossfläche/Bruttogeschossfläche) und **projektbezogenem Anpassungsfaktor**.  
 Statt „Baukosten → Honorar“ arbeitet die App mit: **Referenzdaten → Basisaufwand → Anpassungsfaktoren → Stunden je Phase → Zusammenfassung**.
 
 ## Datenfluss in vier Schritten
@@ -16,18 +16,18 @@ Statt „Baukosten → Honorar“ arbeitet die App mit: **Referenzdaten → Basi
 
 Im Schritt **Beschrieb** erfassen Sie:
 - Projekttitel, Adresse, Status (z. B. Studie, Vorprojekt, Ausführung)
-- eine kurze Projektbeschreibung (Randbedingungen, Besonderheiten)
+- eine kurze Projektbeschreibung (Rahmenbedingungen, Besonderheiten)
 - die organisatorische Einordnung (z. B. Einzelplaner, Generalplaner, GU/TU)
 
 **Warum das wichtig ist:**  
 Kontext und Organisation beeinflussen die Interpretation der Resultate (z. B. Verantwortlichkeiten, Schnittstellen, Kommunikationsaufwand).
 
-### 2. Projekt: Determinante, Nutzungsmix und Komplexität
+### 2. Projekt: Determinante, Nutzungsmix und Anpassungsfaktoren
 
 Im Schritt **Projekt** definieren Sie die Grundlage der Berechnung:
 - **Determinante** (typisch: m² Bruttogeschossfläche)
 - **Nutzung(en)** bzw. Nutzungsmix (z. B. Wohnen, Arbeiten, Lernen/Forschen)
-- **Komplexität** in vier Dimensionen: Gestaltung, Technik, Raum, Organisation
+- **Anpassungsfaktor** in vier Dimensionen: Gestaltung, Technik, Raum, Organisation
 
 Die App verknüpft die Eingaben mit einem **Grundmodell** (Referenzdaten) und leitet daraus einen Basisaufwand (LI) ab.  
 Die Komplexitätsbeurteilung wird im **Leadership Framework for Decision Making** positioniert und führt zu einem **Anpassungsfaktor (AF)**.
@@ -37,16 +37,16 @@ Die Komplexitätsbeurteilung wird im **Leadership Framework for Decision Making*
 Im Schritt **Leistung** wählen Sie:
 - Ihre Rolle (z. B. Architektur, Architektur & Generalplanung)
 - Schwerpunktthemen (falls vorgesehen)
-- die Verteilung über die Phasen (z. B. SIA 1–6)
+- die Verteilung über die Phasen (z. B. SIA 3–5)
 
 **Ergebnis:** Stunden je Phase (und je Disziplin, falls relevant) auf Basis:
 - Basisaufwand (Grundmodell + Determinante)
-- Anpassungsfaktor(en) aus Komplexität/Qualität/Projekt- und Prozessaspekten
+- Anpassungsfaktor(en) aus Anpassungsfaktor/Qualität/Projekt- und Prozessaspekten
 
 ### 4. Zusammenfassung: Resultate, Dokumentation, Export
 
 Die **Zusammenfassung** ist die „kommunizierbare“ Ebene:
-- Kerndaten (Menge, Nutzungsmix, Organisation)
+- Kerndaten (Determinierende Grösse, Nutzungsmix, Organisation)
 - Aufwandkennwerte (z. B. Stunden / m², Bandbreiten)
 - Stunden je Phase und ggf. Hinweise zur Interpretation
 
