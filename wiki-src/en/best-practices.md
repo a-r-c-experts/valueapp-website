@@ -5,46 +5,46 @@ navKey: best-practices
 
 # Best Practices and Recommendations
 
-This page summarizes proven practices for working with the ValueApp. Its purpose is to support **correct interpretation**, **consistent application**, and **transparent communication** of results.
+This page summarizes proven approaches from using the ValueApp. It helps to **interpret results correctly**, **apply them consistently**, and **avoid common misconceptions**.
 
-## General Principles
+## General principles
 
 - The ValueApp provides **reference values**, not binding fees.
-- Results must always be interpreted in their **project context**.
-- Comparisons are meaningful only under **comparable conditions**.
+- Results must always be read in the **project context**.
+- Comparisons are only meaningful when **conditions are the same**.
 
-## Project Setup
+## Project setup
 
-- Select the **appropriate base model** (e.g. housing, working, learning).
-- Enter areas and parameters **consistently and transparently**.
-- Avoid forcing special cases into unsuitable standard parameters.
+- Choose the **appropriate base model** (e.g. residential, work, education).
+- Record areas and key values **consistently** and transparently.
+- Avoid forcing special cases into standard parameters.
 
-## Interpreting Results
+## Interpretation of results
 
-- Time values represent **ranges**, not exact figures.
-- Small parameter changes may have **systematic effects**.
-- Use scenario-based comparisons rather than isolated numbers.
+- Time efforts should be understood as **ranges**, not fixed values.
+- Small changes in individual parameters can have **systematic effects**.
+- Use relative comparisons (scenarios), not only absolute numbers.
 
-## Data Quality and Reliability
+## Quality and data basis
 
-- Result quality depends on **input quality**.
-- Early-phase results are inherently **less precise**.
-- Document assumptions and deviations clearly.
+- The reliability of results increases with **data quality**.
+- Early-phase results are inherently **more uncertain** than later ones.
+- Document assumptions and deviations transparently.
 
-## Common Pitfalls
+## Avoid common mistakes
 
-- Do not transfer results directly into contracts.
-- Avoid comparisons across **different building typologies**.
-- Do not back-calculate individual hourly rates.
+- Do not transfer results 1:1 into contracts.
+- Avoid comparisons between **different typologies**.
+- Do not back-calculate to individuals or hourly rates.
 
-## Collaboration and Communication
+## Collaboration and communication
 
-- Use the ValueApp as a **discussion tool**, not a final authority.
-- Explain the **method and its limits** to clients.
-- Align assumptions within the project team.
+- Use the ValueApp as a **basis for discussion**, not as a blunt argument.
+- Explain the **logic and limitations** of the method to clients.
+- Document agreed assumptions within the project team.
 
 ## See also
 
 - [FAQ](faq.html)
 - [Workflows](workflows.html)
-- [Help and Contact](help-and-contact.html)
+- [Help and contact](help-and-contact.html)

@@ -5,28 +5,28 @@ navKey: examples
 
 # Examples
 
-This chapter shows **realistic usage scenarios** so you can compare your project to something tangible.
+This chapter presents **realistic application scenarios**, allowing you to compare your project with concrete references.
 
-## Examples (existing)
+## Existing examples
 
 - **Examples**: one simple and one complex project.  
-  → [Open Examples](examples.html)
+  → [Open examples](examples.html)
 
-## Planned case pages
+## Planned case studies
 
 - **Simple project**
 - **Complex project**
-- **Edge cases and special situations**
-  - Unusual inputs
-  - Projects with multiple disciplines
+- **Special and edge cases**
+  - Unusual inputs  
+  - Projects involving multiple disciplines  
 
-## Where to go next
+## Where to go next?
 
-- Want the step-by-step walkthrough?  
+- Looking for a step-by-step guide?  
   → [Workflows](workflows.html)
 
-- Want conceptual explanations behind inputs and factors?  
+- Want to understand the conceptual background of inputs and factors?  
   → [Knowledge base](knowledge-base.html)
 
-- Want field-by-field reference and result interpretation?  
+- Looking for a field-by-field reference and result interpretation?  
   → [Reference](reference.html)

@@ -3,43 +3,43 @@ i18nTitle: wiki.complexity.title
 navKey: complexity
 ---
 
-# Complexity dimensions
+# Methodology: Adjustment Factor (Complexity)
 
-Complexity describes **how difficult the planning task itself is**, independent of size and organisation.
+Complexity describes **how demanding the planning task itself is** – independent of size and organization.
 
 It captures **what must be designed, coordinated, and resolved within the object**, not how the project is managed.  
-That distinction matters, because complexity and leadership effort are **separate drivers of workload** in ValueApp.
+This distinction is important, because complexity and leadership effort are **separate drivers of workload** in the ValueApp.
 
 ---
 
 ## What complexity means in ValueApp
 
 In ValueApp, complexity reflects:
-- the **nature of the design task**,
+- the **nature of the design and planning task**,
 - the **technical and spatial interdependencies**,
-- the **degree of uncertainty within the solution itself**.
+- the **degree of uncertainty within the solution**.
 
 It answers the question:
 
-> *“How difficult is it to design and resolve this project?”*
+> *“How difficult is it to design and resolve this project from a planning perspective?”*
 
 Not:
 - how many people are involved,
-- how messy the client is,
+- how chaotic the client is,
 - how political the process becomes.
 
-Those belong to the **adjustment (leadership) factor**, not here.
+That belongs to the **Adjustment (Leadership) Factor**, not here.
 
 ---
 
-## The four complexity dimensions
+## Quality Adjustment Factor (AF<sub>Q</sub>)
 
-Complexity is assessed across **four independent dimensions**.  
-Each dimension captures a different source of design and coordination effort.
+Complexity is assessed through **four independent dimensions**.  
+Each dimension represents a different source of design and coordination effort.
 
 ![Overview of complexity dimensions](\/wiki-assets/knowledge/complexity-dimensions-overview.jpeg)
 
-### 1. Design (Gestalterisch)
+### 1. Design
 
 This dimension reflects:
 - formal ambition,
@@ -47,23 +47,23 @@ This dimension reflects:
 - design-driven iteration and refinement.
 
 Low complexity:
-- standardised layouts,
+- standardized layouts,
 - repetitive structures,
-- limited variation.
+- little variation.
 
 Higher complexity:
 - strong formal intent,
 - many design iterations,
-- high demands on coherence and detail.
+- high demands for coherence and detailing.
 
 ---
 
-### 2. Technical (Technisch)
+### 2. Technology
 
 This dimension captures:
 - technical systems,
-- building services integration,
-- engineering dependencies.
+- integration of building services,
+- dependencies in engineering.
 
 Low complexity:
 - conventional systems,
@@ -73,44 +73,44 @@ Low complexity:
 Higher complexity:
 - dense technical infrastructure,
 - innovative or uncommon systems,
-- tight tolerances and coordination loops.
+- tight tolerances and intensive coordination loops.
 
 ---
 
-### 3. Spatial (Räumlich)
+### 3. Space
 
-Spatial complexity relates to:
-- three-dimensional organisation,
+Spatial complexity refers to:
+- three-dimensional organization,
 - circulation and access,
-- spatial interlocking and constraints.
+- spatial interdependencies and constraints.
 
 Low complexity:
 - simple volumes,
 - clear zoning,
-- minimal interdependencies.
+- minimal dependencies.
 
 Higher complexity:
-- stacked or intertwined spaces,
+- stacked or interwoven spaces,
 - complex circulation,
-- constrained sites or transformations.
+- constrained sites or demanding transformations.
 
 ---
 
-### 4. Organisational (Organisatorisch)
+### 4. Organization
 
-This dimension reflects **object-related organisational difficulty**, not project management.
+This dimension describes **object-related organizational complexity**, not project management.
 
-It includes:
+This includes:
 - phasing within the building,
 - interfaces between uses,
-- operational coexistence (e.g. building while in use).
+- operational conflicts (e.g. construction during ongoing use).
 
 Low complexity:
 - single use,
 - clear operational logic.
 
 Higher complexity:
-- mixed-use environments,
+- mixed-use,
 - overlapping operational requirements,
 - continuous operation during construction.
 
@@ -118,77 +118,75 @@ Higher complexity:
 
 ---
 
-## How complexity is assessed
+## How the adjustment factors are assessed
 
-Each dimension is positioned along a spectrum from:
+Each dimension is positioned along a spectrum:  
 **simple → complicated → complex**
 
-The assessment is **qualitative but structured**.  
+The assessment is **qualitative, but structured**.  
 It does not require exact measurement, but it does require honesty.
 
 ![Complexity assessment scale](\/wiki-assets/knowledge/complexity-assessment-scale.jpeg)
 
-You are not rating “good” or “bad”.  
-You are stating **how demanding the design task is likely to be**.
+You are not evaluating “good” or “bad”.  
+You are defining **how demanding the planning task is likely to be**.
 
 ---
 
-## How complexity affects results
+## How complexity affects the results
 
 Complexity:
-- increases baseline effort,
-- affects all planning phases,
-- influences both mean effort and uncertainty range.
+- increases the base effort,
+- applies across all planning phases,
+- influences both mean values and uncertainty ranges.
 
 Higher complexity typically means:
 - more coordination between disciplines,
 - more iteration,
-- more time spent resolving conflicts.
+- more time required to resolve conflicts.
 
 It does **not**:
-- increase scope of services,
+- increase the scope of services,
 - replace contractual definitions,
-- justify effort on its own without quantity.
+- justify effort without determining variables.
 
-Complexity always works **together with quantity**, not instead of it.
+Complexity always acts **together with determining variables**, not instead of them.
 
 ---
 
 ## Where complexity appears in the app
 
-You encounter complexity in:
-
 - **Project definition**  
-  When assessing the four dimensions during setup.
+  During the assessment of the four dimensions in the setup.
 
-- **Baseline calculation**  
-  Where it modifies effort derived from quantity and use.
+- **Base calculation**  
+  Where it modifies the effort derived from determining variables and use.
 
 - **Result interpretation**  
-  Where higher complexity explains increased hours even at similar size.
+  Where higher demands explain increased hours, even for similar sizes.
 
-For a guided walkthrough, see:
+For a guided explanation, see:  
 → [Workflow: defining complexity](workflows.html#complexity)
 
 ---
 
-## Common mistakes to avoid
+## Avoid common mistakes
 
 Do not:
-- rate complexity based on personal pride,
+- assess complexity based on personal pride,
 - use complexity to compensate for unclear scope,
-- assume “interesting project” means “complex project”.
+- assume that an “interesting project” is automatically “complex”.
 
-If complexity feels hard to justify, that is often a signal that:
-- the project definition is still vague, or
-- organisational issues are being mixed into the wrong category.
+If complexity is difficult to justify, it is often a sign that:
+- the project definition is still too vague, or
+- organizational aspects have been placed in the wrong category.
 
 ---
 
 ## See also
 
-- [Quantity and baseline effort](quantity.html)
-- [Adjustment (leadership) factor](adjustment-factor.html)
-- [Roles and services](roles-and-services.html)
-- [Interpreting results](output-interpretation.html)
-- [What ValueApp is – and what it is not](why-valueapp.html)
+- [Quantità e sforzo di base](quantity.html)
+- [Fattore di adeguamento (gestione)](adjustment-factor.html)
+- [Ruoli e prestazioni](roles-and-services.html)
+- [Interpretazione dei risultati](output-interpretation.html)
+- [Cos’è la ValueApp – e cosa non è](why-valueapp.html)

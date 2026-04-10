@@ -3,33 +3,33 @@ i18nTitle: wiki.gettingStarted.title
 navKey: getting-started
 ---
 
-# Getting started with the ValueApp
+# Getting Started with the ValueApp
 
-The ValueApp guides you through four steps: project description, project definition, services, and summary.  
-This page gives you a quick overview before you dive into the full tutorial.
+The ValueApp guides you through the process in four steps: project description, project definition, services, and summary.  
+This page provides a quick overview before you dive into the detailed tutorial.
 
 ## The four main steps
 
 1. **Describe the project (Description)**  
-   Enter name, address, status, and a short project description.  
-   Define the organisational setup on the planning and contractor side (e.g. individual planners, general planner, general contractor).
+   Enter the name, address, status, and a short project description.  
+   Define the organizational setup on both the planning and contractor side (e.g. individual planner, general planner, general contractor).
 
-2. **Define quantity, uses, and complexity (Project)**  
-   Enter the determining quantity (usually gross floor area in m²), define the mix of uses, and assess complexity in four dimensions: design, technical, spatial, and organisational.  
-   The app maps this assessment to the Leadership Framework to derive an adjustment factor.
+2. **Define determinant, use, and adjustment factors (Project)**  
+   Enter the determining variable (usually floor area/gross floor area in m²), define the distribution of uses, and assess the adjustment factors across four dimensions: design, technical, spatial, and organizational.  
+   The app maps this assessment to the Leadership Framework and derives an adjustment factor from it.
 
-3. **Define your role and services (Services)**  
-   Select your role (e.g. architect, architect & general planner), highlight focus topics, and review the calculated hours for 100 % basic services, including their distribution across SIA phases 1–6.
+3. **Define role and services (Services)**  
+   Select your role (e.g. architect, architect & general planner), mark key focus topics, and review the calculated hours for 100% base services, including their distribution across SIA phases 3–5.
 
-4. **Review and export the summary (Summary)**  
-   Check the generated one-pager with key project data, organisational setup, use mix, effort per m², and hours by phase.  
-   You can export or print this as documentation for fee offers or procurement.
+4. **Review and export summary (Summary)**  
+   Check the generated PDF with project data, organization, use distribution, effort per m², and hours per phase.  
+   This document can be exported or printed, for example for fee proposals or procurement procedures.
 
-## Where to go next
+## What’s next?
 
-If you want a more detailed explanation of all concepts and fields, continue with the Definitions page.  
-If you prefer to learn by example, start with the simple and complex project examples.
+For deeper explanations of terms and fields, refer to the definitions.  
+If you prefer learning through concrete examples, start with the project examples.
 
-- → [Definitions – core concepts and field explanations](definitions.html)  
+- → [Definitions – key concepts and fields](definitions.html)  
 - → [Examples – simple and complex projects](examples.html)  
-- → [Tutorial – detailed walkthrough with screenshots](tutorial.html)
+- → [Tutorial – detailed step-by-step guide](tutorial.html)

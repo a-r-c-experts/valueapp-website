@@ -3,58 +3,58 @@ i18nTitle: wiki.rolesAndServices.title
 navKey: roles-and-services
 ---
 
-# Roles and services
+# Roles and Services
 
-Roles and services define **what part of the planning work is covered by the calculation**.
+Roles and services define **which part of the planning work is covered by the calculation**.
 
 They do not describe:
 - personal responsibility,
-- contractual risk,
+- contractual risks,
 - or who is ultimately liable.
 
 They describe **which services are included in the effort model**.
 
 ---
 
-## What “role” means in ValueApp
+## What “role” means in the ValueApp
 
-In ValueApp, a role represents:
-- the **planning position you are taking** in the project,
-- relative to other planners and the client.
+In the ValueApp, a role represents:
+- the **planning position** you hold in the project,
+- in relation to other planners and the client.
 
 It answers the question:
 
-> *“From which planning perspective is this effort being calculated?”*
+> *“From which planning perspective is this effort calculated?”*
 
 Not:
 - who signs the contract,
-- who carries insurance,
-- or how the team is staffed internally.
+- who is insured,
+- or how the team is internally structured.
 
 ---
 
 ## Typical roles
 
-Depending on the setup, common roles include:
+Depending on the setup, the following roles may apply:
 
 - **Architect**  
   Planning services within the architectural discipline.
 
 - **Architect as general planner**  
-  Architectural services plus coordination of other planners.
+  Architectural services plus coordination of other consultants.
 
-- **Discipline planner**  
-  Structural, building services, or specialist planning roles.
+- **Specialist planner**  
+  Structural, building services, or other specialized roles.
 
 - **Supporting role**  
-  Partial services within a larger planning organisation.
+  Partial services within a larger planning organization.
 
 Each role implies:
-- a different **service scope**,
-- a different **coordination load**,
+- a different **scope of services**,
+- a different **coordination effort**,
 - a different distribution of effort across phases.
 
-![Role-dependent service scope](\/wiki-assets/knowledge/roles-services-scope-overview.jpeg)
+![Role-dependent scope of services](\/wiki-assets/knowledge/roles-services-scope-overview.jpeg)
 
 ---
 
@@ -62,60 +62,60 @@ Each role implies:
 
 Services define:
 - **which planning phases are included**,
-- **which tasks are assumed**, at a high level.
+- **which tasks are assumed at a high level**.
 
 They are based on:
-- standard service models (e.g. SIA, HOAI, OAI),
-- adapted to a **generic, comparable structure**.
+- established service models (e.g. SIA, HOAI, OAI),
+- translated into a **generic, comparable structure**.
 
-ValueApp does not calculate:
-- bespoke task lists,
-- project-specific exclusions,
-- contractual special clauses.
+The ValueApp does not calculate:
+- project-specific task lists,
+- individual exclusions,
+- contractual special agreements.
 
-It calculates **100% of the selected basic services**.
+It calculates **100% of the selected base services**.
 
 ---
 
-## Why roles and services exist in the model
+## Why roles and services are part of the model
 
-Two projects with identical quantity and complexity can differ drastically if:
-- one planner coordinates all disciplines,
-- another only delivers partial services.
+Two projects with the same determinant and complexity can differ significantly if:
+- one role includes overall coordination,
+- another covers only partial services.
 
 Without roles and services:
-- effort comparisons would be meaningless,
-- leadership effort would be double-counted or missed,
-- results would appear inconsistent.
+- effort comparisons would not be meaningful,
+- coordination effort would be double-counted or overlooked,
+- results would be inconsistent.
 
-Roles and services exist to:
-- anchor responsibility assumptions,
+Roles and services serve to:
+- make responsibility assumptions explicit,
 - distribute effort correctly across phases,
-- avoid implicit scope creep.
+- avoid implicit scope expansion.
 
 ---
 
-## How they affect results
+## How they affect the results
 
 Roles and services influence:
 
 - **Total effort**  
-  Through included service scope.
+  Through the included scope of services.
 
 - **Phase distribution**  
-  Early vs late planning effort.
+  Early vs. late planning phases.
 
-- **Coordination load**  
-  Especially for general planners.
+- **Coordination effort**  
+  Especially in general planner roles.
 
-They do **not**:
-- change the baseline quantity,
-- replace complexity assessment,
-- account for exceptional services.
+They do **not** change:
+- the underlying determinant,
+- the complexity assessment,
+- extraordinary additional services.
 
-![Effect of role on phase distribution](\/wiki-assets/knowledge/roles-services-phase-distribution.jpeg)
+![Impact of role on phase distribution](\/wiki-assets/knowledge/roles-services-phase-distribution.jpeg)
 
-If your scope deviates significantly from standard services, document it externally.
+If your scope deviates significantly from standard services, document this outside the app.
 
 ---
 
@@ -123,40 +123,40 @@ If your scope deviates significantly from standard services, document it externa
 
 You define them in:
 
-- **Service selection step**  
-  Choosing role and service scope.
+- **Service selection**  
+  Choosing role and scope.
 
 - **Phase overview**  
-  Showing effort distribution per phase.
+  Display of effort per phase.
 
 - **Result summary**  
   Clarifying what the calculated hours actually cover.
 
-For a step-by-step walkthrough, see:  
-→ [Workflow: defining roles and services](workflows.html#roles-and-services)
+For guidance:
+→ [Workflow: define roles and services](workflows.html#roles-and-services)
 
 ---
 
 ## Using roles responsibly
 
 Good practice:
-- choose the role that matches your **actual planning position**,
-- use standard services as the baseline,
-- explain deviations outside the app.
+- choose the role that reflects your **actual planning position**,
+- use standard services as a baseline,
+- document deviations transparently.
 
 Avoid:
 - selecting broader roles to “cover uncertainty”,
-- narrowing services to force a target number,
-- mixing internal staffing logic with service scope.
+- artificially reducing scope to smooth numbers,
+- mixing internal organization with scope of services.
 
-If the role choice feels uncomfortable, that usually signals an unclear project setup, not a calculation problem.
+If choosing a role feels uncomfortable, the issue is usually an unclear project definition—not a wrong calculation.
 
 ---
 
 ## See also
 
-- [Quantity and baseline effort](quantity.html)
-- [Complexity dimensions](complexity.html)
-- [Adjustment (leadership) factor](adjustment-factor.html)
+- [Determinant and baseline effort](quantity.html)
+- [Adjustment factor methodology](complexity.html)
+- [Adjustment factor](adjustment-factor.html)
 - [Interpreting results](output-interpretation.html)
-- [What ValueApp is – and what it is not](why-valueapp.html)
+- [What ValueApp is—and what it is not](why-valueapp.html)

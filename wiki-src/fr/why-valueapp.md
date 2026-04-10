@@ -5,63 +5,63 @@ navKey: wiki.nav.whyValueApp
 
 # Pourquoi la ValueApp existe
 
-## Le problème dans la pratique
+## Le problème en pratique
 
-Dans les phases initiales, l’effort de planification est souvent discuté sur des bases peu solides :
+L’effort de planification est souvent discuté, en phase initiale, sur une base trop fragile :
 
-- Les coûts de construction sont encore incertains, mais un effort doit tout de même être « estimé ».
-- Des projets de référence existent, mais ils sont rarement bien documentés ou directement comparables.
-- La complexité est décrite de manière intuitive plutôt que structurée (et l’on s’étonne ensuite des écarts).
-- La communication entre maîtres d’ouvrage, équipes de planification et instances internes reste floue.
+- Les coûts de construction sont encore incertains, mais l’effort doit malgré tout être « déduit ».
+- Des projets de référence existent, mais sont rarement bien documentés ou directement comparables.
+- Les facteurs d’ajustement sont décrits de manière intuitive plutôt que structurée (et les écarts surprennent ensuite).
+- La communication entre maîtres d’ouvrage, équipes de planification et instances internes reste souvent floue.
 
-Il en résulte des hypothèses erronées, des frictions, une mauvaise gestion des attentes et des boucles d’itération inutiles.
+Les conséquences typiques sont des hypothèses erronées, des frictions, une mauvaise gestion des attentes et des itérations inutiles.
 
 ## Ce que la ValueApp fait différemment
 
-La ValueApp combine la ETH Value Method avec une interface guidée et claire. Elle repose sur :
+La ValueApp combine la ETH Value Method avec une application claire et guidée. Elle repose sur :
 
 1. **Des déterminants mesurables**  
-   Au lieu des « coûts », des grandeurs telles que la surface brute de plancher (m²) sont au centre.
+   Au lieu des « coûts », ce sont des grandeurs comme la surface de plancher brute (m²) qui sont centrales.
 
 2. **Des modèles de base fondés sur des références**  
-   Les plages d’effort sont dérivées de projets réalisés, avec des intervalles plutôt qu’une fausse précision.
+   Les plages d’effort sont dérivées de projets réalisés — avec des intervalles plutôt qu’une fausse précision.
 
 3. **Une description structurée de la complexité**  
-   La complexité est décrite selon des dimensions distinctes (conception, technique, spatial, organisation) et systématisée via le Leadership Framework.
+   La complexité est décrite selon des dimensions claires (conception, technique, spatial, organisation) et structurée via le Leadership Framework.
 
 4. **Une documentation transparente**  
-   Les saisies, hypothèses et résultats sont présentés de manière compréhensible, communicable et vérifiable.
+   Les entrées, hypothèses et résultats sont présentés de manière compréhensible, communicable et vérifiable.
 
-## Cas d’usage typiques
+## Cas d’utilisation typiques
 
-- **Phases initiales du projet :** Estimation de plages d’effort pour les décisions et les offres
-- **Plausibilisation :** Comparaison entre projets, variantes ou mix d’usages
-- **Communication :** Langage commun pour la complexité et la gestion des attentes
-- **Pilotage interne :** Planification grossière des capacités et des phases (selon l’organisation)
+- **Phases précoces :** estimation de plages d’effort pour décisions et offres  
+- **Plausibilisation :** comparaison entre projets, variantes ou combinaisons d’usages  
+- **Communication :** langage commun pour les exigences et les attentes  
+- **Pilotage interne :** planification approximative des capacités et des phases  
 
-## Délimitation par rapport aux outils de coûts ou d’honoraires
+## Différence avec les outils de coûts ou d’honoraires
 
-La ValueApp n’est ni un outil de coûts ni un calculateur d’honoraires.
+La ValueApp n’est ni un outil de coûts ni un outil d’honoraires.
 
-- **Outils de coûts/honoraires** : généralement « coûts → honoraires », fortement dépendants d’indicateurs de coûts et du niveau de définition du projet  
-- **ValueApp** : « déterminant + données de référence + complexité → effort (h) », avec un accent sur la transparence et la plausibilité
+- **Outils de coûts/honoraires :** généralement « coûts → honoraires », fortement dépendants des indicateurs et du niveau de détail  
+- **ValueApp :** « déterminant + données de référence + facteurs d’ajustement → effort (h) », avec un focus sur la transparence  
 
-Cela signifie que la ValueApp peut soutenir une négociation d’honoraires, mais ne remplace ni la définition des prestations, ni la logique contractuelle, ni les délimitations spécifiques au projet.
+Cela signifie : la ValueApp peut soutenir les discussions d’honoraires, mais ne remplace pas les définitions de prestations ni les cadres contractuels.
 
-## Pourquoi les plages sont importantes
+## Pourquoi les intervalles sont essentiels
 
-Dans les phases précoces, « un chiffre unique » est presque toujours trompeur.  
-Les plages rendent l’incertitude visible au lieu de la dissimuler.
+En phase initiale, « un chiffre unique » est presque toujours trompeur.  
+Les intervalles rendent l’incertitude visible au lieu de la masquer.
 
-L’application vise donc :
-- des intervalles compréhensibles
-- des valeurs de référence comparables
-- des hypothèses documentées
+L’objectif est donc :
+- des plages compréhensibles  
+- des indicateurs comparables  
+- des hypothèses documentées  
 
 ## Voir aussi
 
-- [Quantité et effort de base](quantity.html)
-- [Dimensions de la complexité](complexity.html)
-- [Anpassungsfaktor](adjustment-factor.html)
-- [Interpréter les résultats](output-interpretation.html)
+- [Grandeur déterminante et effort de base](quantity.html)
+- [Méthodologie des facteurs d’ajustement](complexity.html)
+- [Facteur d’ajustement](adjustment-factor.html)
+- [Interprétation des résultats](output-interpretation.html)
 - [Ce qu’est la ValueApp – et ce qu’elle n’est pas](what-valueapp-is-not.html)

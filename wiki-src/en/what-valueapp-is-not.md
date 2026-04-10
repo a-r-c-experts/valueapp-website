@@ -5,29 +5,29 @@ navKey: what-valueapp-is-not
 
 # What ValueApp is – and what it is not
 
-ValueApp is often misunderstood because it produces numbers that *look* precise.  
-This page clarifies **what ValueApp is designed to do** and, just as importantly, **what it is not meant for**.
+ValueApp is often misunderstood because the results *look precise*.  
+This page clarifies **what ValueApp was designed for** and – just as importantly – **what it was not designed for**.
 
-Understanding these limits is essential for using the app responsibly.
+This distinction is essential for responsible use.
 
 ---
 
 ## What ValueApp is
 
-ValueApp is a **decision-support tool** for early and mid-stage planning.
+ValueApp is a **decision support tool** for early planning phases.
 
 It helps to:
-- estimate planning effort ranges,
-- make assumptions explicit,
-- compare scenarios transparently,
+- estimate effort ranges,
+- make assumptions visible,
+- compare variants transparently,
 - support informed discussions between planners and clients.
 
-It is based on:
+ValueApp is based on:
 - empirical reference data,
-- structured assessment of quantity, complexity, roles, and leadership effort,
+- a structured evaluation of determinants, adjustment factors, roles, and leadership effort,
 - calibrated uncertainty ranges.
 
-ValueApp supports judgement.  
+ValueApp supports professional judgment.  
 It does not replace it.
 
 ---
@@ -36,12 +36,11 @@ It does not replace it.
 
 ### Not a fee calculator
 
-ValueApp does **not** calculate fees.
+ValueApp does **not calculate fees**.
 
-It produces:
+It provides:
 - effort ranges (hours),
-- not contractual prices,
-- not binding offers.
+- not prices.
 
 Fees depend on:
 - market conditions,
@@ -49,114 +48,110 @@ Fees depend on:
 - risk allocation,
 - negotiation.
 
-Using ValueApp outputs as “the fee” is a category error.
-
 ---
 
-### Not a proposal generator
+### Not a proposal tool
 
-ValueApp does **not**:
-- generate offers,
-- define scope wording,
-- replace service descriptions.
+ValueApp:
+- does not create proposals,
+- does not formulate service descriptions,
+- does not replace contractual texts.
 
-It cannot know:
+It does not account for:
 - project-specific exclusions,
-- contractual constraints,
-- political or strategic considerations.
+- contractual specifics,
+- political or strategic frameworks.
 
-Proposals still require professional formulation.
+Proposals remain a professional responsibility.
 
 ---
 
 ### Not a controlling or monitoring tool
 
-ValueApp is **not designed for**:
+ValueApp is **not intended for**:
 - time tracking,
 - performance monitoring,
-- benchmarking individual teams or people.
+- benchmarking individuals or teams.
 
-Using it for control:
+Such use:
 - undermines trust,
-- misreads uncertainty as deviation,
-- contradicts the model’s intent.
+- confuses uncertainty with deviation,
+- contradicts the logic of the model.
 
-ValueApp describes *expected effort*, not compliance.
+ValueApp describes **expected effort**, not planned vs. actual deviations.
 
 ---
 
-### Not a quality or ambition rating
+### Not a measure of quality or ambition
 
 Higher results do **not** mean:
 - better architecture,
 - higher design quality,
-- more ambitious projects.
+- greater ambition.
 
-The model does not reward:
-- design excellence,
+The model does not assess:
+- design quality,
 - innovation,
 - aesthetic value.
 
-It models **effort**, not merit.
+It models **effort**, not quality.
 
 ---
 
-### Not a risk transfer mechanism
+### Not a risk transfer instrument
 
-ValueApp does **not**:
-- remove project risk,
-- justify underfunded scopes,
-- turn uncertainty into certainty.
+ValueApp:
+- does not eliminate project risks,
+- does not justify underfunded services,
+- does not make uncertainty disappear.
 
-If uncertainty is high, the output will show it.
-Suppressing that signal defeats the purpose.
+If uncertainty is high, the result reflects exactly that.  
+Suppressing this signal defeats the purpose of the tool.
 
 ---
 
-## Why misunderstandings happen
+## Why misunderstandings occur
 
-Misuse often happens when:
-- results are treated as exact numbers,
-- ranges are collapsed into a single value,
-- assumptions are ignored or hidden,
-- outputs are detached from their context.
+Misuse often arises when:
+- results are read as exact numbers,
+- ranges are reduced to single values,
+- assumptions are hidden or ignored,
+- results are taken out of context.
 
 In most cases, the issue is not the model, but how it is presented.
 
 ---
 
-## How to use ValueApp correctly
+## How to use ValueApp properly
 
-Use ValueApp to:
-- discuss effort early and openly,
-- compare alternatives,
-- explain why projects differ,
-- document assumptions transparently.
+ValueApp is useful for:
+- discussing effort early and openly,
+- comparing variants,
+- explaining differences between projects,
+- documenting assumptions transparently.
 
-Do not use it to:
-- force numbers to fit expectations,
-- replace professional judgement,
-- justify decisions after the fact.
+ValueApp is unsuitable for:
+- forcing specific numbers,
+- replacing professional judgment,
+- retroactively justifying decisions.
 
-If the output feels uncomfortable, that discomfort is usually informative.
+If a result feels uncomfortable, it is often valuable information.
 
 ---
 
-## Where this fits in the bigger picture
+## Context
 
 - [Interpreting results](output-interpretation.html)
-- [Why the ValueApp exists](why-valueapp.html)
-- [Adjustment (leadership) factor](adjustment-factor.html)
-- [Complexity dimensions](complexity.html)
+- [Why ValueApp exists](why-valueapp.html)
+- [Adjustment / leadership factor](adjustment-factor.html)
+- [Adjustment factors](complexity.html)
 - [Roles and services](roles-and-services.html)
 - [Workflows](workflows.html)
 - [Reference](reference.html)
 
 ---
 
-## A final note
+## Final note
 
-ValueApp does not make planning easy.  
+ValueApp does not make planning easier.  
 It makes **assumptions visible**.
-
-That visibility is the point.

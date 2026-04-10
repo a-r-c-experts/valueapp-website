@@ -3,33 +3,33 @@ i18nTitle: wiki.gettingStarted.title
 navKey: getting-started
 ---
 
-# Bien démarrer avec la ValueApp
+# Prise en main de la ValueApp
 
-La ValueApp vous guide en quatre étapes : description du projet, définition du projet, prestations et synthèse.  
-Cette page offre une vue d’ensemble rapide avant de consulter le tutoriel complet.
+La ValueApp vous guide à travers le processus en quatre étapes : description du projet, définition du projet, prestations et résumé.  
+Cette page donne un aperçu rapide avant de passer au tutoriel détaillé.
 
 ## Les quatre étapes principales
 
 1. **Décrire le projet (Description)**  
    Saisissez le nom, l’adresse, le statut et une courte description du projet.  
-   Définissez l’organisation côté planification et réalisation (par ex. planificateur individuel, planificateur général, entreprise générale).
+   Définissez l’organisation du côté des planificateurs et des entreprises (par ex. planificateur individuel, planificateur général, entreprise générale).
 
-2. **Définir les quantités, les usages et la complexité (Projet)**  
-   Indiquez la grandeur déterminante (généralement la surface brute de plancher en m²), répartissez les usages et évaluez la complexité selon quatre dimensions : conception, technique, spatiale et organisationnelle.  
-   L’application relie cette évaluation au Leadership Framework afin de calculer un facteur d’ajustement.
+2. **Définir la grandeur déterminante, les usages et les facteurs d’ajustement (Projet)**  
+   Saisissez la grandeur déterminante (généralement la surface de plancher brute en m²), définissez la répartition des usages et évaluez les facteurs d’ajustement selon quatre dimensions : architecturale, technique, spatiale et organisationnelle.  
+   L’application associe cette évaluation au Leadership Framework et en déduit un facteur d’ajustement.
 
-3. **Définir votre rôle et les prestations (Prestations)**  
-   Sélectionnez votre rôle (par ex. architecte, architecte & planificateur général), indiquez les thèmes prioritaires et examinez les heures calculées pour 100 % des prestations de base, y compris leur répartition selon les phases SIA 1–6.
+3. **Définir le rôle et les prestations (Prestations)**  
+   Sélectionnez votre rôle (par ex. architecte, architecte & planificateur général), identifiez les thèmes prioritaires et vérifiez les heures calculées pour 100 % des prestations de base, y compris leur répartition dans les phases SIA 3–5.
 
-4. **Vérifier et exporter la synthèse (Synthèse)**  
-   Examinez la fiche récapitulative générée avec les données clés du projet, l’organisation, la répartition des usages, l’effort par m² et les heures par phase.  
-   Cette synthèse peut être exportée ou imprimée pour la documentation des honoraires ou des procédures d’appel d’offres.
+4. **Vérifier et exporter le résumé (Résumé)**  
+   Vérifiez le PDF généré contenant les données du projet, l’organisation, la répartition des usages, l’effort par m² et les heures par phase.  
+   Ce document peut être exporté ou imprimé, par exemple pour des offres d’honoraires ou des procédures d’attribution.
 
-## Étapes suivantes
+## Et ensuite ?
 
-Pour des explications détaillées des concepts et des champs, consultez la page Définitions.  
-Si vous préférez apprendre à partir d’exemples concrets, commencez par les projets exemples.
+Pour des explications plus détaillées des termes et des champs, consultez les définitions.  
+Si vous préférez apprendre à partir d’exemples concrets, commencez par les exemples de projets.
 
-- → [Définitions – concepts clés et champs](definitions.html)  
+- → [Définitions – concepts et champs clés](definitions.html)  
 - → [Exemples – projets simples et complexes](examples.html)  
-- → [Tutoriel – parcours détaillé avec captures d’écran](tutorial.html)
+- → [Tutoriel – guide détaillé étape par étape](tutorial.html)

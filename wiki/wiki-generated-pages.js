@@ -6,7 +6,8 @@
     "urlByLang": {
       "de": "/wiki/de/adjustment-factor.html",
       "en": "/wiki/en/adjustment-factor.html",
-      "fr": "/wiki/fr/adjustment-factor.html"
+      "fr": "/wiki/fr/adjustment-factor.html",
+      "it": "/wiki/it/adjustment-factor.html"
     },
     "titleKey": "wiki.adjustmentFactor.title",
     "navKey": "adjustment-factor",
@@ -18,7 +19,8 @@
     "urlByLang": {
       "de": "/wiki/de/bayes.html",
       "en": "/wiki/en/bayes.html",
-      "fr": "/wiki/fr/bayes.html"
+      "fr": "/wiki/fr/bayes.html",
+      "it": "/wiki/it/bayes.html"
     },
     "titleKey": "wiki.bayes.title",
     "navKey": "bayes",
@@ -30,11 +32,12 @@
     "urlByLang": {
       "de": "/wiki/de/best-practices.html",
       "en": "/wiki/en/best-practices.html",
-      "fr": "/wiki/fr/best-practices.html"
+      "fr": "/wiki/fr/best-practices.html",
+      "it": "/wiki/it/best-practices.html"
     },
     "titleKey": "wiki.bestPractices.title",
     "navKey": "best-practices",
-    "lastUpdated": "2026-01-05",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -42,7 +45,8 @@
     "urlByLang": {
       "de": "/wiki/de/complexity.html",
       "en": "/wiki/en/complexity.html",
-      "fr": "/wiki/fr/complexity.html"
+      "fr": "/wiki/fr/complexity.html",
+      "it": "/wiki/it/complexity.html"
     },
     "titleKey": "wiki.complexity.title",
     "navKey": "complexity",
@@ -54,7 +58,8 @@
     "urlByLang": {
       "de": "/wiki/de/definitions.html",
       "en": "/wiki/en/definitions.html",
-      "fr": "/wiki/fr/definitions.html"
+      "fr": "/wiki/fr/definitions.html",
+      "it": "/wiki/it/definitions.html"
     },
     "titleKey": "wiki.definitions.title",
     "navKey": "wiki.nav.definitions",
@@ -66,11 +71,12 @@
     "urlByLang": {
       "de": "/wiki/de/examples.html",
       "en": "/wiki/en/examples.html",
-      "fr": "/wiki/fr/examples.html"
+      "fr": "/wiki/fr/examples.html",
+      "it": "/wiki/it/examples.html"
     },
     "titleKey": "wiki.examples.title",
     "navKey": "examples",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -78,7 +84,8 @@
     "urlByLang": {
       "de": "/wiki/de/faq.html",
       "en": "/wiki/en/faq.html",
-      "fr": "/wiki/fr/faq.html"
+      "fr": "/wiki/fr/faq.html",
+      "it": "/wiki/it/faq.html"
     },
     "titleKey": "wiki.faq.title",
     "navKey": "faq",
@@ -90,7 +97,8 @@
     "urlByLang": {
       "de": "/wiki/de/getting-started.html",
       "en": "/wiki/en/getting-started.html",
-      "fr": "/wiki/fr/getting-started.html"
+      "fr": "/wiki/fr/getting-started.html",
+      "it": "/wiki/it/getting-started.html"
     },
     "titleKey": "wiki.gettingStarted.title",
     "navKey": "getting-started",
@@ -102,7 +110,8 @@
     "urlByLang": {
       "de": "/wiki/de/gf-intervals.html",
       "en": "/wiki/en/gf-intervals.html",
-      "fr": "/wiki/fr/gf-intervals.html"
+      "fr": "/wiki/fr/gf-intervals.html",
+      "it": "/wiki/it/gf-intervals.html"
     },
     "titleKey": "wiki.gfIntervals.title",
     "navKey": "gf-intervals",
@@ -114,11 +123,12 @@
     "urlByLang": {
       "de": "/wiki/de/help-and-contact.html",
       "en": "/wiki/en/help-and-contact.html",
-      "fr": "/wiki/fr/help-and-contact.html"
+      "fr": "/wiki/fr/help-and-contact.html",
+      "it": "/wiki/it/help-and-contact.html"
     },
     "titleKey": "wiki.helpAndContact.title",
     "navKey": "help-and-contact",
-    "lastUpdated": "2026-01-05",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -126,7 +136,8 @@
     "urlByLang": {
       "de": "/wiki/de/how-it-works.html",
       "en": "/wiki/en/how-it-works.html",
-      "fr": "/wiki/fr/how-it-works.html"
+      "fr": "/wiki/fr/how-it-works.html",
+      "it": "/wiki/it/how-it-works.html"
     },
     "titleKey": "wiki.howItWorks.title",
     "navKey": "wiki.nav.howItWorks",
@@ -138,11 +149,12 @@
     "urlByLang": {
       "de": "/wiki/de/introduction.html",
       "en": "/wiki/en/introduction.html",
-      "fr": "/wiki/fr/introduction.html"
+      "fr": "/wiki/fr/introduction.html",
+      "it": "/wiki/it/introduction.html"
     },
     "titleKey": "wiki.introduction.title",
     "navKey": "introduction",
-    "lastUpdated": "2025-12-22",
+    "lastUpdated": "2026-04-10",
     "searchable": true
   },
   {
@@ -150,7 +162,8 @@
     "urlByLang": {
       "de": "/wiki/de/knowledge-base.html",
       "en": "/wiki/en/knowledge-base.html",
-      "fr": "/wiki/fr/knowledge-base.html"
+      "fr": "/wiki/fr/knowledge-base.html",
+      "it": "/wiki/it/knowledge-base.html"
     },
     "titleKey": "wiki.knowledgeBase.title",
     "navKey": "knowledge-base",
@@ -162,7 +175,8 @@
     "urlByLang": {
       "de": "/wiki/de/output-interpretation.html",
       "en": "/wiki/en/output-interpretation.html",
-      "fr": "/wiki/fr/output-interpretation.html"
+      "fr": "/wiki/fr/output-interpretation.html",
+      "it": "/wiki/it/output-interpretation.html"
     },
     "titleKey": "wiki.outputInterpretation.title",
     "navKey": "output-interpretation",
@@ -174,7 +188,8 @@
     "urlByLang": {
       "de": "/wiki/de/project-section.html",
       "en": "/wiki/en/project-section.html",
-      "fr": "/wiki/fr/project-section.html"
+      "fr": "/wiki/fr/project-section.html",
+      "it": "/wiki/it/project-section.html"
     },
     "titleKey": "wiki.projectSection.title",
     "navKey": "wiki.nav.projectSection",
@@ -186,7 +201,8 @@
     "urlByLang": {
       "de": "/wiki/de/quantity.html",
       "en": "/wiki/en/quantity.html",
-      "fr": "/wiki/fr/quantity.html"
+      "fr": "/wiki/fr/quantity.html",
+      "it": "/wiki/it/quantity.html"
     },
     "titleKey": "wiki.quantity.title",
     "navKey": "quantity",
@@ -198,7 +214,8 @@
     "urlByLang": {
       "de": "/wiki/de/reference.html",
       "en": "/wiki/en/reference.html",
-      "fr": "/wiki/fr/reference.html"
+      "fr": "/wiki/fr/reference.html",
+      "it": "/wiki/it/reference.html"
     },
     "titleKey": "wiki.reference.title",
     "navKey": "reference",
@@ -210,7 +227,8 @@
     "urlByLang": {
       "de": "/wiki/de/roles-and-services.html",
       "en": "/wiki/en/roles-and-services.html",
-      "fr": "/wiki/fr/roles-and-services.html"
+      "fr": "/wiki/fr/roles-and-services.html",
+      "it": "/wiki/it/roles-and-services.html"
     },
     "titleKey": "wiki.rolesAndServices.title",
     "navKey": "roles-and-services",
@@ -222,7 +240,8 @@
     "urlByLang": {
       "de": "/wiki/de/support.html",
       "en": "/wiki/en/support.html",
-      "fr": "/wiki/fr/support.html"
+      "fr": "/wiki/fr/support.html",
+      "it": "/wiki/it/support.html"
     },
     "titleKey": "wiki.support.title",
     "navKey": "support",
@@ -247,7 +266,8 @@
     "urlByLang": {
       "de": "/wiki/de/use-categories.html",
       "en": "/wiki/en/use-categories.html",
-      "fr": "/wiki/fr/use-categories.html"
+      "fr": "/wiki/fr/use-categories.html",
+      "it": "/wiki/it/use-categories.html"
     },
     "titleKey": "wiki.useCategories.title",
     "navKey": "use-categories",
@@ -259,7 +279,8 @@
     "urlByLang": {
       "de": "/wiki/de/what-valueapp-is-not.html",
       "en": "/wiki/en/what-valueapp-is-not.html",
-      "fr": "/wiki/fr/what-valueapp-is-not.html"
+      "fr": "/wiki/fr/what-valueapp-is-not.html",
+      "it": "/wiki/it/what-valueapp-is-not.html"
     },
     "titleKey": "wiki.whatValueAppIsNot.title",
     "navKey": "what-valueapp-is-not",
@@ -271,7 +292,8 @@
     "urlByLang": {
       "de": "/wiki/de/why-valueapp.html",
       "en": "/wiki/en/why-valueapp.html",
-      "fr": "/wiki/fr/why-valueapp.html"
+      "fr": "/wiki/fr/why-valueapp.html",
+      "it": "/wiki/it/why-valueapp.html"
     },
     "titleKey": "wiki.whyValueApp.title",
     "navKey": "wiki.nav.whyValueApp",
@@ -283,7 +305,8 @@
     "urlByLang": {
       "de": "/wiki/de/workflows.html",
       "en": "/wiki/en/workflows.html",
-      "fr": "/wiki/fr/workflows.html"
+      "fr": "/wiki/fr/workflows.html",
+      "it": "/wiki/it/workflows.html"
     },
     "titleKey": "wiki.workflows.title",
     "navKey": "workflows",

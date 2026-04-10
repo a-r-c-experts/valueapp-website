@@ -4,205 +4,205 @@ i18nSubtitle: wiki.definitions.subtitle
 navKey: wiki.nav.definitions
 ---
 
-# Definitions and core concepts
+# Definitions and Core Concepts
 
-This page explains the main concepts behind the ValueApp and the ETH Value Method: **base models**, **determinants**, **adjustment factors**, the **Leadership Framework**, and how they combine into a transparent **effort range**.
+This page explains the core concepts behind the ValueApp and the ETH Value Method: **base models**, **determinants**, **adjustment factors**, the **Leadership Framework**, and their interaction in forming a transparent **effort corridor**.
 
-If you mainly want to learn by doing, you can jump directly to the [Tutorial](tutorial.html) or explore the [Examples](examples.html). For the conceptual pipeline, see [How the app works](how-it-works.html).
+If you prefer a practical approach, you can go directly to the [tutorial](tutorial.html) or view the [examples](examples.html).  
+For the conceptual overview, see [How the app works](how-it-works.html).
 
 ---
 
-## What the ValueApp does
+## What the ValueApp delivers
 
 The ValueApp estimates planning effort (hours) for different disciplines based on **transparent, documented determinants**.
 
-Instead of construction cost, it uses measurable quantities such as **gross floor area** and links them to statistical **base models** derived from realised projects.
+Instead of construction costs, it uses measurable quantities such as **gross floor area** and links them to statistical **base models** derived from realized projects.
 
-Project-specific complexity and context are incorporated through **adjustment factors** derived from the **Leadership Framework for Decision Making**.  
-The result is a **plausible, transparent effort range** that can be documented, discussed and communicated.
+Project-specific complexity and context are integrated via **adjustment factors**, derived from the **Leadership Framework for Decision Making**.  
+The result is a **plausible, transparent effort corridor** that can be documented, discussed, and communicated.
 
 ---
 
 ## Core formula (simplified)
 
-In simplified form, the method can be written as:
+In simplified form, the method can be expressed as:
 
-**Effort (h) = LI × Determinant × AF<sub>quality</sub> × AF<sub>project/process</sub>**
+**Effort (h) = LI × Determinant × AF<sub>Quality</sub> × AF<sub>Project/Process</sub>**
 
 Where:
 
-- **LI** is the base effort per unit (e.g. minutes per m² gross floor area) from the statistical base model.  
-- The **determinant** is a transparent, measurable scaling quantity, typically m² gross floor area (GF).  
-- **AF<sub>quality</sub>** is an adjustment factor derived from the Leadership Framework, based on design, technical, spatial and organisational challenges.  
-- **AF<sub>project/process</sub>** captures additional project- or process-specific adjustments where relevant.
+- **LI** is the base effort per unit (e.g. minutes per m² of gross floor area) from the statistical base model.  
+- The **determinant** is a transparent, measurable scaling variable, typically m² gross floor area (GFA).  
+- **AF<sub>Quality</sub>** is an adjustment factor derived from the Leadership Framework, based on design, technical, spatial, and organizational challenges.  
+- **AF<sub>Project/Process</sub>** represents additional project- or process-specific adjustments where appropriate.
 
-The practical place where most of these inputs are entered is the [Project section](project-section.html).
+Most of these inputs are defined in the [project section](project-section.html).
 
 ---
 
 ## Base models and determinants
 
-Base models are built from **realised reference projects**. For each use type, they link a determinant (typically m² GF) to **intervals of planning effort**.
+Base models are built from **realized reference projects**.  
+For each use type, they link a determinant (typically m² GFA) with **effort intervals**.
 
-These intervals usually cover around **80% of comparable projects** and are structured into **deciles**, making variability explicit rather than hiding it behind a single number.
+These intervals usually cover around **80% of comparable projects** and are divided into **deciles**, making variability visible instead of hiding it behind a single value.
 
-![Reference cloud for residential base model](/wiki-assets/base-model-housing-reference-cloud.jpeg)
+![Referenzwolke Wohnungsbau](/wiki-assets/base-model-housing-reference-cloud.jpeg)
 
 *Reference projects and prediction intervals for residential and related buildings.*
 
-![Example of a multi-family house in the prediction interval](/wiki-assets/base-model-mfh-example.jpeg)
+![Mehrfamilienhaus im Prognoseintervall](/wiki-assets/base-model-mfh-example.jpeg)
 
-*Example: multi-family house at a given gross floor area within the 80% prediction interval.*
+*Example: multi-family housing within the 80% prediction interval for a given gross floor area.*
 
-The ValueApp currently uses usage-based base models such as:
+Currently, the ValueApp uses use-based base models for:
 
-- Housing  
-- Working / Services  
-- Industry  
+- Residential and leisure  
+- Work  
+- Production  
 - Storage  
-- Learning / Research  
-- Healing / Care  
+- Education and research  
+- Healthcare  
 
-Each model assumes **100% basic services** for the corresponding discipline.
+All models assume **100% base services** for the respective discipline.
 
 ---
 
 ## Leadership Framework and complexity
 
-The **Leadership Framework for Decision Making** classifies situations according to the clarity of cause-and-effect relationships.  
-It distinguishes between **simple**, **complicated**, **complex** and **chaotic** contexts and suggests different ways of acting in each.
+The **Leadership Framework for Decision Making** classifies situations based on the clarity of cause-and-effect relationships.  
+It distinguishes between **simple**, **complicated**, **complex**, and **chaotic** contexts and suggests different approaches.
 
-![Leadership framework overview](/wiki-assets/leadership-framework-overview.jpeg)
+![Leadership Framework Übersicht](/wiki-assets/leadership-framework-overview.jpeg)
 
-*Leadership Framework: from simple through complicated and complex to chaotic decision contexts.*
+*Leadership Framework: from simple to complicated, complex, and chaotic decision contexts.*
 
-In the ValueApp, project challenges are described across four dimensions:
+In the ValueApp, project-specific challenges are described in four dimensions:
 
 - **design**,  
 - **technical**,  
 - **spatial**,  
-- **organisational**.
+- **organizational**.
 
-These challenges are positioned within the framework. Their combined “centre of gravity” results in an **AF<sub>quality</sub>** value.
+These are positioned within the framework. Their combined “center of gravity” determines the value of **AF<sub>Quality</sub>**.
 
-![Leadership framework with centre of gravity](/wiki-assets/leadership-framework-centre-of-gravity.jpeg)
+![Leadership Framework mit Schwerpunkt](/wiki-assets/leadership-framework-centre-of-gravity.jpeg)
 
-*Project-specific challenges positioned in the framework; the centre of gravity determines the adjustment factor.*
+*Project-specific challenges within the framework; the center of gravity defines the adjustment factor.*
 
-This logic is explicit and discussable. It is not hidden calibration.
+This logic is explicit and discussable – no hidden calibration.
 
 ---
 
 ## Adjustment factors
 
-Adjustment factors represent complexity and context that the determinant alone cannot capture.
+Adjustment factors represent complexity and context that cannot be captured by the determinant alone.
 
-### AF<sub>quality</sub>
+### AF<sub>Quality</sub>
 
-Derived from the Leadership Framework, AF<sub>quality</sub> reflects the combined effect of design, technical, spatial and organisational challenges.
+AF<sub>Quality</sub> is derived from the Leadership Framework and describes the combined effect of design, technical, spatial, and organizational challenges.
 
-### AF<sub>project/process</sub>
+### AF<sub>Project/Process</sub>
 
-Where applicable, additional factors reflect project and process setup, such as procurement model, collaboration structure, constraints, phasing or special contractual conditions.
+Additional factors account for project- and process-related conditions such as procurement model, collaboration structure, constraints, phasing, or specific contractual requirements.
 
 ---
 
 ## Prediction intervals
 
-A **prediction interval** is a range that covers the majority of comparable projects, typically around 80%.
+A **prediction interval** describes a range that covers the majority of comparable projects, typically around 80%.
 
-It is not a guarantee and not a target.  
-It is a structured way to express **uncertainty and variability** based on observed data.
+It is neither a guarantee nor a target value, but a structured representation of **uncertainty and variation** based on real data.
 
 ---
 
 ## Structure of the ValueApp
 
-The ValueApp is organised into four main tabs that mirror the logic of the method:
+The ValueApp is structured into four main tabs:
 
-- **Beschrieb (Description)** – project context, address, organisational setup and status.  
-- **Projekt (Project)** – determinant, use mix, complexity and risk.  
-- **Leistung (Services)** – role, focus topics and hours per phase.  
-- **Zusammenfassung (Summary)** – consolidated one-pager for communication and documentation.
+- **Description** – project context, address, organizational setup, and status  
+- **Project** – determinant, use mix, complexity, and risk  
+- **Services** – role, focus areas, and hours per phase  
+- **Summary** – consolidated one-pager for communication and documentation  
 
-![Diagram of the ValueApp architecture and data flows](/wiki-assets/valueapp-architecture-overview.jpeg)
+![Architekturübersicht der ValueApp](/wiki-assets/valueapp-architecture-overview.jpeg)
 
-*The ValueApp connects project description, determinants, adjustment factors and services into one consistent model.*
+*The ValueApp links project description, determinants, adjustment factors, and services into a consistent model.*
 
 ---
 
-## Fields in the app: recommended usage
+## Fields in the application – recommended use
 
-### Beschrieb
+### Description
 
-Use the project title and address to clearly identify the project in reports and internal systems.  
-The project description should briefly cover starting situation, task, key constraints and central themes that influence complexity.
+Use project title and address for clear identification in reports and internal systems.  
+The description should briefly summarize context, task, key conditions, and complexity-related aspects.
 
-### Projekt
+### Project
 
-Enter the determinant (typically m² gross floor area) and assign percentages to the relevant uses.  
-Assess complexity across the four dimensions and set the risk level (**no special**, **increased**, **high**).
+Define the determinant (typically m² GFA) and distribute it across the relevant uses.  
+Assess the adjustment factors across the four dimensions and define the requirement level (**low**, **standard**, **high**, **very high**).
 
-Further guidance is available in the [Project section](project-section.html).
+Further guidance can be found in the [project section](project-section.html).
 
-### Leistung
+### Services
 
-Choose your contractual role and highlight focus topics.  
-Review the calculated hours for 100% basic services and their distribution across phases.  
-Adjust phase percentages where justified.
+Select your contractual role and highlight focus areas.  
+Review the calculated hours for 100% base services and their distribution across phases.  
+Adjust phase shares if needed with justification.
 
-### Zusammenfassung
+### Summary
 
-The summary compiles all inputs and calculated results into a traceable overview.  
-It is intended to be attached to fee offers, internal controlling documents or procurement procedures.
+The summary consolidates all inputs and results into a coherent overview.  
+It is intended for fee proposals, controlling documents, or procurement processes.
 
 ---
 
 ## Glossary
 
-**Determinant (determinierende Grösse)**  
-Measurable quantity that drives the base model, usually the gross floor area GF relevant for the project scope.  
-See also the [Project section](project-section.html).
+**Determinant (determining variable)**  
+Measurable variable that drives the base model, typically gross floor area.
 
-**Base model (Grundmodell)**  
-Statistical model for a usage type that links determinants to effort ranges for 100% basic services.
+**Base model**  
+Statistical model linking determinants to effort corridors for 100% base services.
 
-**Prediction interval (Prognoseintervall)**  
-Range covering most comparable projects (around 80%), structured in deciles.
+**Prediction interval**  
+Range covering most comparable projects (~80%), divided into deciles.
 
-**AF Qualität**  
-Adjustment factor derived from the Leadership Framework based on design, technical, spatial and organisational challenges.
+**AF Quality**  
+Adjustment factor derived from the Leadership Framework.
 
-**Basic services (Grundleistungen)**  
-Scope of standard services defined in professional regulations (e.g. SIA), assumed at 100% in the base models.
+**Base services**  
+Standard services assumed at 100% in the models.
 
-**Additional services (Zusätzliche Leistungen)**  
-Project-specific services beyond basic services that can be documented separately.
+**Additional services**  
+Project-specific services beyond base scope.
 
 ---
 
 <div class="wiki-aside-card">
-  <h3>Method sources</h3>
+  <h3>Methodological foundations</h3>
   <p>
-    The Value Method and the ValueApp are based on research at ETH Zürich and are developed
-    together with practice partners and professional associations.
-    Reference models are continuously updated with realised project data.
+    The Value Method and the ValueApp are based on research at ETH Zurich
+    and are continuously developed together with industry partners and professional associations.
+    Reference models are regularly updated using realized projects.
   </p>
 </div>
 
 <div class="wiki-aside-card">
-  <h3>Tip for users</h3>
+  <h3>Note for users</h3>
   <p>
-    In everyday work, you do not need to master every statistical detail.
-    Focus on a clear project description, realistic quantities,
-    an honest complexity assessment and a transparent distribution of services across phases.
+    In practice, you do not need to understand every statistical detail.
+    What matters is a clear project description, realistic quantities,
+    an honest assessment of complexity, and a transparent allocation of services.
   </p>
 </div>
 
 ## See also
 
 - [How the app works](how-it-works.html)  
-- [Why ValueApp exists](why-valueapp.html)  
+- [Why the ValueApp exists](why-valueapp.html)  
 - [Project section](project-section.html)  
 - [Examples](examples.html)  
 - [Tutorial](tutorial.html)

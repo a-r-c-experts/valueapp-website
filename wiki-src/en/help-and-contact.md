@@ -3,40 +3,40 @@ i18nTitle: wiki.helpAndContact.title
 navKey: help-and-contact
 ---
 
-# Help and contact
+# Help and Contact
 
-This page explains **where to get help** if something is unclear or does not work as expected.
+This page explains **where to get help** if something is unclear or not working as expected.
 
 ## Help with using the app
 
-If you are unsure while using the ValueApp:
+If you are unsure how to use the ValueApp:
 
 - First check the **FAQ** for common questions.  
   → [Open FAQ](faq.html)
 
-- Use the **Workflows** for step-by-step instructions.  
+- Use the **workflows** for step-by-step guidance.  
   → [Workflows](workflows.html)
 
-- For conceptual questions, consult the **Knowledge base**.  
+- For conceptual questions, refer to the **knowledge base**.  
   → [Knowledge base](knowledge-base.html)
 
-## Feedback and requests
+## Feedback and responses
 
-Within the ValueApp, a **Feedback button** is available. You can use it to:
+A **feedback button** is available directly in the ValueApp. You can use it to:
 
-- Report errors or inconsistencies  
-- Submit improvement suggestions  
-- Ask questions about specific projects  
+- report errors or inconsistencies  
+- submit suggestions for improvement  
+- ask questions about specific projects  
 
 It is helpful if you briefly describe:
 
-- the context (project type, role)
-- what you expected
-- what actually happened
+- the context (project type, role)  
+- what you expected  
+- what actually happened  
 
 ## Contact by email
 
-If your request cannot be resolved directly via the app, you can also contact the ValueApp team by email:
+If your request cannot be resolved directly within the app, you can also contact the ValueApp team by email:
 
 - **info@core-value.ch**
 
@@ -52,5 +52,5 @@ For technical integrations or embedding the ValueApp:
 ## See also
 
 - [Support](support.html)
-- [Best practices](best-practices.html)
+- [Best Practices](best-practices.html)
 - [Reference](reference.html)

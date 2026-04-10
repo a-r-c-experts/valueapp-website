@@ -5,21 +5,21 @@ navKey: bayes
 
 # Apprentissage bayésien dans ValueApp
 
-L’apprentissage bayésien décrit **comment ValueApp combine les connaissances existantes avec les données réelles des projets**.
+L’apprentissage bayésien décrit **comment ValueApp combine les connaissances existantes avec des données réelles de projets**.
 
 Il permet au système de :
 
 - partir d’une référence structurée,
-- apprendre à partir des projets observés,
+- apprendre à partir de projets observés,
 - et mettre à jour les résultats de manière contrôlée et transparente.
 
 ---
 
-## Ce que signifie « bayésien » (en termes simples)
+## Que signifie « bayésien » (explication simple)
 
-Au fond, le raisonnement bayésien répond à une question :
+Au cœur, le raisonnement bayésien répond à une question :
 
-> *« Comment devons-nous mettre à jour ce que nous croyons lorsque nous voyons de nouvelles données ? »*
+> *« Comment devons-nous ajuster ce que nous pensons lorsque nous observons de nouvelles données ? »*
 
 Il combine toujours deux éléments :
 
@@ -29,7 +29,7 @@ Il combine toujours deux éléments :
 Dans ValueApp, cela signifie :
 
 - nous ne partons pas de zéro  
-- et nous ne faisons pas confiance aux données aveuglément  
+- et nous ne faisons pas confiance aveuglément aux données  
 - nous **combinons les deux**
 
 ---
@@ -40,15 +40,15 @@ Dans ValueApp, cela signifie :
 
 Le **prior** correspond à ce que nous savons avant d’observer les données actuelles.
 
-Dans ValueApp, cela provient de :
+Dans ValueApp, il provient de :
 
-- études (p. ex. travaux de l’ETH),
+- études (par ex. ETH),
 - expérience structurée,
-- courbes de référence établies.
+- courbes de référence existantes.
 
 Il définit :
 
-> *Ce que nous attendons du comportement d’un type de bâtiment selon les intervalles de GF.*
+> *Comment nous attendons qu’un type de bâtiment se comporte selon les intervalles de GF.*
 
 ---
 
@@ -68,65 +68,65 @@ Elles montrent :
 
 ## Le résultat : une estimation mise à jour
 
-L’apprentissage bayésien combine le prior et les données pour produire :
+L’apprentissage bayésien combine prior et données en un :
 
-> un **posterior (résultat mis à jour)**
+> **Posterior (résultat actualisé)**
 
-C’est ce que ValueApp affiche comme **courbe apprise**.
+C’est ce que ValueApp affiche sous forme de **courbe apprise**.
 
 Elle est :
 
 - ni purement prédéfinie,
-- ni purement issue des données,
+- ni purement basée sur les données,
 - mais une **combinaison des deux**.
 
 ---
 
-## Pourquoi c’est nécessaire
+## Pourquoi cela est nécessaire
 
-Si nous utilisions uniquement les priors :
+Si nous utilisions uniquement des priors :
 
 - les résultats seraient stables  
 - mais déconnectés de la réalité  
 
-Si nous utilisions uniquement les données :
+Si nous utilisions uniquement des données :
 
 - les résultats seraient instables  
 - surtout avec peu d’observations  
 
-L’approche bayésienne équilibre ces deux aspects.
+L’apprentissage bayésien équilibre ces deux aspects.
 
 ---
 
-## Comment l’équilibre fonctionne
+## Comment fonctionne la pondération
 
-Le système ajuste automatiquement le poids de chaque source.
+Le système ajuste automatiquement le niveau de confiance accordé à chaque source.
 
-### Lorsqu’il y a beaucoup de données
+### Lorsque de nombreuses données sont disponibles
 
 - le modèle s’appuie davantage sur les **projets réels**  
 - le résultat devient plus spécifique  
-- la courbe reflète le comportement observé  
+- la courbe suit le comportement observé  
 
-### Lorsqu’il y a peu de données
+### Lorsque peu de données sont disponibles
 
 - le modèle s’appuie davantage sur le **prior**  
 - le résultat reste stable  
 - les variations irréalistes sont évitées  
 
-Dans tous les cas :
+Dans les deux cas :
 
-> Le système reste cohérent tout en s’adaptant lorsque c’est possible.
+> Le système reste cohérent tout en s’adaptant lorsque cela est possible.
 
 ---
 
 ## Pourquoi c’est important pour les types de bâtiments
 
-Tous les types de bâtiments ne sont pas représentés de manière égale.
+Tous les types de bâtiments ne sont pas également bien représentés.
 
 Certains ont :
-- beaucoup de projets  
-- des signaux forts dans les données  
+- de nombreux projets  
+- des signaux de données forts  
 
 D’autres ont :
 - très peu d’observations  
@@ -134,24 +134,24 @@ D’autres ont :
 
 L’apprentissage bayésien permet à ValueApp de :
 
-- produire des résultats pour tous les types de bâtiments,  
-- refléter clairement la disponibilité des données,  
-- sans surajustement ni estimation arbitraire.
+- fournir des résultats pour tous les types de bâtiments,  
+- prendre en compte la disponibilité des données de manière transparente,  
+- sans surajustement ni « estimation arbitraire ».
 
 ---
 
-## Ce que cela signifie pour les intervalles de GF
+## Importance pour les intervalles GF
 
-Dans chaque intervalle de GF, le modèle :
+Dans chaque intervalle GF :
 
-1. commence avec la valeur de référence (prior),  
+1. le modèle part de la valeur de référence (prior),  
 2. la compare aux données réelles,  
 3. ajuste la valeur en conséquence.  
 
 Cela produit une courbe qui :
 
-- suit le comportement réel là où les données existent,  
-- et reste stable là où elles manquent.
+- suit le comportement réel là où des données existent,  
+- et reste stable là où ce n’est pas le cas.
 
 ---
 
@@ -160,56 +160,56 @@ Cela produit une courbe qui :
 Ce n’est pas :
 
 - une boîte noire qui invente des valeurs  
-- un remplacement du savoir métier  
+- un remplacement de l’expertise professionnelle  
 - un exercice purement statistique sans structure  
 
 Au contraire :
 
 - il formalise l’interaction entre expérience et données  
-- et la rend cohérente pour tous les types de bâtiments  
+- et rend cette interaction cohérente pour tous les types de bâtiments  
 
 ---
 
 ## En une phrase
 
-> L’apprentissage bayésien permet à ValueApp de partir de références établies et de les mettre à jour en continu à partir de données réelles de projets.
+> L’apprentissage bayésien permet à ValueApp de partir de valeurs de référence existantes et de les mettre à jour en continu à l’aide de données réelles.
 
 ---
 
 ## Pourquoi cela améliore ValueApp
 
-Avec l’apprentissage bayésien, le système devient :
+Grâce à l’apprentissage bayésien, le système devient :
 
-- plus réaliste → reflète les projets réels  
+- plus réaliste → reflète mieux les projets réels  
 - plus robuste → reste stable même avec peu de données  
-- plus scalable → fonctionne pour tous les types de bâtiments  
+- plus évolutif → fonctionne pour tous les types de bâtiments  
 
-Il garantit que :
+Il garantit :
 
-- les nouvelles données améliorent les résultats,  
-- sans jamais supprimer les connaissances existantes.
+- que les nouvelles données améliorent les résultats,  
+- sans abandonner les connaissances existantes.
 
 ---
 
-## Malentendus fréquents
+## Idées reçues fréquentes
 
-Ne pas supposer :
+Il ne faut pas supposer :
 
 - que les priors sont ignorés  
 - que les données remplacent tout  
-- que plus de données signifie forcément de grands changements  
+- que plus de données implique toujours de grands changements  
 
-Au contraire :
+En réalité :
 
 - les priors restent la base  
 - les données les affinent  
-- et le modèle contrôle l’ampleur des ajustements  
+- et le modèle contrôle le degré d’ajustement  
 
 ---
 
 ## Voir aussi
 
-- [Intervalles de GF et courbes apprises](gf-intervals.html)
-- [Dimensions de complexité](complexity.html)
-- [Quantité et effort de base](quantity.html)
+- [Intervalles GF et courbes apprises](gf-intervals.html)
+- [Méthodologie du facteur d’ajustement](complexity.html)
+- [Variables déterminantes et effort de base](quantity.html)
 - [Interprétation des résultats](output-interpretation.html)

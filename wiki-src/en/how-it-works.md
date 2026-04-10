@@ -1,62 +1,78 @@
 ---
 i18nTitle: wiki.howItWorks.title
-navKey: how-it-works
+navKey: wiki.nav.howItWorks
 ---
 
-# How the app works
+# How the App Works
 
-This page explains, at a conceptual level, what the ValueApp does between your inputs and the final one‑pager. If you want the “click here, type this” version, jump to the [Tutorial](tutorial.html).
+## Summary
 
-## The idea in one sentence
+The ValueApp estimates planning effort (hours) for disciplines and phases based on **measurable determinants** (e.g. floor area/gross floor area) and **project-specific adjustment factors**.  
+Instead of “construction cost → fee”, the app works with: **reference data → baseline effort → adjustment factors → hours per phase → summary**.
 
-The ValueApp estimates planning effort (hours) for basic services by combining a **base model** (from reference projects) with a **determinant** (usually gross floor area) and **adjustment factors** (complexity and context).
+## Data flow in four steps
 
-## What happens from left to right
+### 1. Description: context and organization
 
-### 1) You describe the project
+In the **Description** step, you enter:
+- project title, address, status (e.g. study, preliminary project, execution)
+- a short project description (conditions, special aspects)
+- the organizational setup (e.g. individual planner, general planner, general contractor)
 
-In **Description (Beschrieb)** you capture the identity of the project and the organisational setup. This matters because results are meant to be communicated and archived, not just stared at.
+**Why this matters:**  
+Context and organization influence how results are interpreted (e.g. responsibilities, interfaces, communication effort).
 
-### 2) You define quantity, uses and complexity
+### 2. Project: determinant, use mix and adjustment factors
 
-In **Project (Projekt)** you enter:
+In the **Project** step, you define the basis of the calculation:
+- **determinant** (typically m² gross floor area)
+- **use(s)** or use mix (e.g. residential, work, education/research)
+- **adjustment factor** across four dimensions: design, technical, spatial, organizational
 
-- the **determinant** (e.g. m² gross floor area),
-- the **mix of uses** (housing, work, learning, etc.),
-- and a structured **complexity assessment** (design, technical, spatial, organisational).
+The app links these inputs to a **base model** (reference data) and derives a baseline effort (LI).  
+The complexity assessment is positioned within the **Leadership Framework for Decision Making** and results in an **adjustment factor (AF)**.
 
-That complexity is mapped to the Leadership Framework and translated into an **adjustment factor**.
+### 3. Services: role, focus and phase distribution
 
-### 3) You select role and service setup
+In the **Services** step, you select:
+- your role (e.g. architecture, architecture & general planning)
+- focus topics (if applicable)
+- the distribution across phases (e.g. SIA 3–5)
 
-In **Services (Leistung)** you choose your role (architect, general planner, etc.), mark focus topics and review the calculated hours for 100% basic services, including the default distribution across phases.
+**Result:** hours per phase (and per discipline, if relevant), based on:
+- baseline effort (base model + determinant)
+- adjustment factor(s) from quality, project and process aspects
 
-### 4) You validate and export
+### 4. Summary: results, documentation, export
 
-In **Summary (Zusammenfassung)** the app consolidates the inputs and results into a one‑pager for communication (offer, internal controlling, procurement, documentation).
+The **Summary** is the “communicable” level:
+- key data (determinant, use mix, organization)
+- effort indicators (e.g. hours per m², ranges)
+- hours per phase and, if applicable, notes on interpretation
 
-## What is calculated
+This page is intended for **proposals, internal validation, procurement** (depending on context).
 
-At a simplified level, the method can be written as:
+## Calculation logic in one sentence
 
-**Effort (h) = Base effort × Determinant × AF_quality × AF_project/process**
+Simplified:
 
-- **Base effort** comes from a statistical base model for a given use.
-- **Determinant** scales effort (typically m²).
-- **AF_quality** reflects the complexity of design/technical/spatial/organisational challenges.
-- **AF_project/process** captures additional context or process effects, where applicable.
+**Effort (h) = Baseline effort LI (h) × Determinant × AF\_Quality × AF\_(Project/Process)**
 
-If those terms feel abstract, the [Definitions](definitions.html) page breaks them down.
+- **LI** comes from the base model (reference data) and represents “effort per unit”.
+- **AF** shifts the result depending on complexity and context.
 
-## What the result is (and is not)
+## What the results are and are not
 
-- The output is a **plausible effort range** anchored in comparable reference projects.
-- It is **not** a fee calculator and it does **not** replace professional judgement.
-- The value is transparency: assumptions are visible, discussable and documentable.
+**The results are:**
+- a transparent, traceable **estimate** based on references and clear inputs
+- well suited for validation, communication and early decisions
 
-## See also
-- [Why ValueApp exists](why-valueapp.html)
-- [Definitions and core concepts](definitions.html)
-- [Project section](project-section.html)
-- [Examples](examples.html)
-- [Tutorial](tutorial.html)
+**The results are not:**
+- a fee calculation based on cost models
+- a substitute for contracts, service definitions or project-specific clarifications
+
+## Further pages
+
+- **Getting started:** overview of the four steps: [getting-started.html](getting-started.html)  
+- **Concepts and definitions:** base models, determinants, AF: [definitions.html](definitions.html)  
+- **Tutorial:** step-by-step with screenshots: [tutorial.html](tutorial.html)

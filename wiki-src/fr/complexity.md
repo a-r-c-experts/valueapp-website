@@ -3,66 +3,66 @@ i18nTitle: wiki.complexity.title
 navKey: complexity
 ---
 
-# Dimensions de complexité
+# Méthodologie : facteur d’ajustement (complexité)
 
-La complexité décrit **à quel point la tâche de planification elle-même est difficile**, indépendamment de la taille et de l’organisation.
+La complexité décrit **à quel point la tâche de planification elle-même est exigeante**, indépendamment de la taille et de l’organisation.
 
-Elle capture **ce qui doit être conçu, coordonné et résolu dans l’objet**, et non la manière dont le projet est piloté.  
-Cette distinction est importante, car la complexité et l’effort de leadership sont **deux moteurs distincts de charge de travail** dans ValueApp.
+Elle reflète **ce qui doit être conçu, coordonné et résolu dans l’objet**, et non la manière dont le projet est piloté.  
+Cette distinction est importante, car la complexité et l’effort de pilotage sont **deux facteurs distincts du volume de travail** dans la ValueApp.
 
 ---
 
 ## Ce que signifie la complexité dans ValueApp
 
 Dans ValueApp, la complexité reflète :
-- la **nature de la tâche de conception**,
+- la **nature de la tâche de conception et de planification**,
 - les **interdépendances techniques et spatiales**,
-- le **degré d’incertitude dans la solution elle-même**.
+- le **degré d’incertitude dans la solution**.
 
 Elle répond à la question :
 
-> *« À quel point est-il difficile de concevoir et de résoudre ce projet ? »*
+> *« À quel point est-il difficile de concevoir et de résoudre ce projet du point de vue de la planification ? »*
 
-Pas :
+Et non :
 - combien de personnes sont impliquées,
-- à quel point le client est désorganisé,
-- à quel point le processus devient politique.
+- à quel point le maître d’ouvrage est chaotique,
+- à quel point le processus est politique.
 
-Cela relève du **facteur d’ajustement (leadership)**, pas d’ici.
+Cela relève du **facteur d’ajustement (pilotage)**.
 
 ---
 
-## Les quatre dimensions de complexité
+## Facteur d’ajustement qualité (AF<sub>Q</sub>)
 
 La complexité est évaluée selon **quatre dimensions indépendantes**.  
 Chaque dimension représente une source différente d’effort de conception et de coordination.
 
 ![Overview of complexity dimensions](\/wiki-assets/knowledge/complexity-dimensions-overview.jpeg)
 
-### 1. Design (Gestalterisch)
+### 1. Conception
 
 Cette dimension reflète :
 - l’ambition formelle,
-- l’articulation architecturale,
-- l’itération et le raffinement guidés par la conception.
+- l’expression architecturale,
+- l’itération et le raffinement du projet.
 
 Faible complexité :
 - plans standardisés,
 - structures répétitives,
-- variation limitée.
+- faible variation.
 
 Complexité plus élevée :
-- intention formelle forte,
-- nombreuses itérations de conception,
+- forte intention formelle,
+- nombreuses itérations,
 - exigences élevées de cohérence et de détail.
 
 ---
 
-### 2. Technique (Technisch)
+### 2. Technique
 
-Cette dimension couvre :
+Cette dimension prend en compte :
 - les systèmes techniques,
-- l’intégration des installations techniques du bâtiment,
+- l’intégration des équipements du bâtiment,
 - les dépendances d’ingénierie.
 
 Faible complexité :
@@ -72,64 +72,49 @@ Faible complexité :
 
 Complexité plus élevée :
 - infrastructure technique dense,
-- systèmes innovants ou peu courants,
-- tolérances serrées et boucles de coordination fréquentes.
+- systèmes innovants ou inhabituels,
+- tolérances strictes et coordination intensive.
 
 ---
 
-### 3. Spatial (Räumlich)
+### 3. Espace
 
 La complexité spatiale concerne :
 - l’organisation tridimensionnelle,
-- la circulation et les accès,
-- les imbrications spatiales et contraintes.
+- les circulations et accès,
+- les interdépendances spatiales et contraintes.
 
 Faible complexité :
 - volumes simples,
 - zonage clair,
-- interdépendances minimales.
+- dépendances minimales.
 
 Complexité plus élevée :
-- espaces empilés ou imbriqués,
-- circulation complexe,
+- espaces imbriqués ou superposés,
+- circulations complexes,
 - sites contraints ou transformations exigeantes.
 
 ---
 
-### 4. Organisationnel (Organisatorisch)
+### 4. Organisation
 
-Cette dimension décrit une **difficulté organisationnelle liée à l’objet**, et non la gestion de projet.
+Cette dimension décrit la **complexité organisationnelle liée à l’objet**, et non la gestion de projet.
 
 Elle inclut :
-- le phasage à l’intérieur du bâtiment,
+- le phasage dans le bâtiment,
 - les interfaces entre usages,
-- la coexistence opérationnelle (p.ex. construire en site occupé).
+- les conflits d’exploitation (par ex. travaux en site occupé).
 
 Faible complexité :
-- un seul usage,
+- usage unique,
 - logique d’exploitation claire.
 
 Complexité plus élevée :
-- environnements mixtes,
-- exigences opérationnelles qui se superposent,
+- usages mixtes,
+- exigences d’exploitation superposées,
 - exploitation continue pendant les travaux.
 
 ![Example of organisational complexity](\/wiki-assets/knowledge/complexity-organisational-example.jpeg)
-
----
-
-## Comment la complexité est évaluée
-
-Chaque dimension est positionnée sur un spectre :
-**simple → complicated → complex**
-
-L’évaluation est **qualitative mais structurée**.  
-Elle ne demande pas une mesure exacte, mais elle demande de l’honnêteté.
-
-![Complexity assessment scale](\/wiki-assets/knowledge/complexity-assessment-scale.jpeg)
-
-Vous ne notez pas « bien » ou « mal ».  
-Vous exprimez **à quel point la tâche de conception risque d’être exigeante**.
 
 ---
 
@@ -137,58 +122,20 @@ Vous exprimez **à quel point la tâche de conception risque d’être exigeante
 
 La complexité :
 - augmente l’effort de base,
-- affecte toutes les phases de planification,
-- influence à la fois la moyenne et la plage d’incertitude.
+- agit sur toutes les phases,
+- influence les valeurs moyennes et les plages d’incertitude.
 
-Une complexité plus élevée implique généralement :
-- plus de coordination entre disciplines,
-- plus d’itérations,
-- plus de temps pour résoudre les conflits.
-
-Elle ne :
-- augmente pas le périmètre de services,
-- remplace pas les définitions contractuelles,
-- justifie pas un effort « tout seul » sans quantité.
-
-La complexité fonctionne toujours **avec la quantité**, pas à sa place.
-
----
-
-## Où la complexité apparaît dans l’application
-
-Vous rencontrez la complexité dans :
-
-- **Project definition**  
-  Lors de l’évaluation des quatre dimensions pendant la configuration.
-
-- **Baseline calculation**  
-  Là où elle modifie l’effort dérivé de la quantité et de l’usage.
-
-- **Result interpretation**  
-  Là où une complexité plus élevée explique davantage d’heures, même à taille comparable.
-
-Pour un guide pas à pas, voir :  
-→ [Workflow: defining complexity](workflows.html#complexity)
-
----
-
-## Erreurs fréquentes à éviter
-
-Ne :
-- basez pas la complexité sur l’orgueil personnel,
-- utilisez pas la complexité pour compenser un périmètre flou,
-- supposez pas qu’un « projet intéressant » est forcément « complexe ».
-
-Si la complexité est difficile à justifier, c’est souvent un signal que :
-- la définition du projet est encore vague, ou
-- des problèmes organisationnels sont mélangés à la mauvaise catégorie.
+Elle n’implique pas :
+- une augmentation du périmètre des prestations,
+- un remplacement des définitions contractuelles,
+- une justification d’effort sans variables déterminantes.
 
 ---
 
 ## Voir aussi
 
-- [Quantity and baseline effort](quantity.html)
-- [Adjustment (leadership) factor](adjustment-factor.html)
-- [Roles and services](roles-and-services.html)
-- [Interpreting results](output-interpretation.html)
-- [What ValueApp is – and what it is not](why-valueapp.html)
+- [Quantité et effort de base](quantity.html)
+- [Facteur d’ajustement (pilotage)](adjustment-factor.html)
+- [Rôles et prestations](roles-and-services.html)
+- [Interprétation des résultats](output-interpretation.html)
+- [Ce qu’est la ValueApp – et ce qu’elle n’est pas](why-valueapp.html)

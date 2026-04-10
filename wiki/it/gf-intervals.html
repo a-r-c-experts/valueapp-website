@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8" />
   <title>ValueApp Wiki – gf-intervals</title>
@@ -43,6 +43,7 @@
         <button class="lang-option" data-lang="en">EN</button>
         <button class="lang-option" data-lang="de">DE</button>
         <button class="lang-option" data-lang="fr">FR</button>
+        <button class="lang-option" data-lang="it">IT</button>
       </div>
     </div>
 
@@ -57,161 +58,161 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>GF intervals and learned curves</h1>
-<p>GF intervals describe <strong>how values change across building size</strong>.</p>
-<p>Instead of assigning one value to an entire building type, ValueApp evaluates projects <strong>across ranges of gross floor area (GF)</strong> and builds a curve over these ranges.</p>
-<p>This allows the system to reflect a simple reality:</p>
+<h1>Intervalli GF e curve apprese</h1>
+<p>Gli intervalli GF descrivono <strong>come i valori cambiano in funzione della dimensione degli edifici</strong>.</p>
+<p>Invece di assegnare un unico valore a un’intera tipologia edilizia, la ValueApp valuta i progetti <strong>per intervalli di superficie di piano (SP)</strong> e costruisce una curva su questi intervalli.</p>
+<p>Questo permette al sistema di rappresentare una realtà semplice:</p>
 <blockquote>
-<p><em>Small buildings behave differently from large ones.</em></p>
+<p><em>Gli edifici piccoli si comportano diversamente da quelli grandi.</em></p>
 </blockquote>
 <hr>
-<h2>What GF intervals mean in ValueApp</h2>
-<p>In ValueApp, GF intervals are:</p>
+<h2>Cosa significano gli intervalli GF nella ValueApp</h2>
+<p>Nella ValueApp, gli intervalli GF sono:</p>
 <ul>
-<li><strong>size ranges of buildings</strong> (e.g. small, medium, large),</li>
-<li>used to group comparable projects,</li>
-<li>and to calculate values within <strong>similar scale conditions</strong>.</li>
+<li><strong>intervalli di dimensione degli edifici</strong> (ad es. piccolo, medio, grande),</li>
+<li>utilizzati per raggruppare progetti comparabili,</li>
+<li>e per calcolare valori in <strong>condizioni dimensionali simili</strong>.</li>
 </ul>
-<p>They answer the question:</p>
+<p>Rispondono alla domanda:</p>
 <blockquote>
-<p><em>“How does this building type behave at different sizes?”</em></p>
+<p><em>«Come si comporta questa tipologia edilizia a diverse dimensioni?»</em></p>
 </blockquote>
-<p>Not:</p>
+<p>Non:</p>
 <ul>
-<li>what is the exact value of one single project,</li>
-<li>or what is the average across all sizes.</li>
+<li>qual è il valore esatto di un singolo progetto,</li>
+<li>né qual è la media su tutte le dimensioni.</li>
 </ul>
 <hr>
-<h2>The previous approach (reference values)</h2>
-<p>Previously, ValueApp worked mainly with <strong>reference curves</strong>.</p>
+<h2>L’approccio precedente (valori di riferimento)</h2>
+<p>In precedenza, la ValueApp lavorava principalmente con <strong>intervalli di riferimento</strong>.</p>
 <ul>
-<li>These were based on <strong>priors</strong>  </li>
-<li>Derived from studies, experience, and structured assumptions  </li>
-<li>Shown in the app as the <strong>black line</strong></li>
+<li>Questi erano basati su <strong>priors</strong>  </li>
+<li>Derivati da studi, esperienza e ipotesi strutturate  </li>
+<li>Rappresentati nell’app come una <strong>linea nera</strong></li>
 </ul>
-<p>These reference values were:</p>
+<p>Questi valori di riferimento erano:</p>
 <ul>
-<li>stable,</li>
-<li>consistent,</li>
-<li>but not directly learned from project data.</li>
+<li>stabili,</li>
+<li>coerenti,</li>
+<li>ma non direttamente appresi da dati di progetto.</li>
 </ul>
-<p>They defined the expected behaviour across GF intervals.</p>
+<p>Definivano il comportamento atteso sugli intervalli GF.</p>
 <hr>
-<h2>The new approach (learning from data)</h2>
-<p>With the new update, ValueApp introduces a fundamental change:</p>
+<h2>Il nuovo approccio (apprendimento dai dati)</h2>
+<p>Con il nuovo aggiornamento, la ValueApp introduce un cambiamento fondamentale:</p>
 <blockquote>
-<p>Values are no longer only defined — they are <strong>learned</strong>.</p>
+<p>I valori non sono più solo definiti — vengono <strong>appresi</strong>.</p>
 </blockquote>
-<p>The system now:</p>
+<p>Il sistema:</p>
 <ol>
-<li>starts from the existing reference curve (priors),</li>
-<li>looks at <strong>real project data</strong>,</li>
-<li>and learns how each building type behaves across GF intervals.</li>
+<li>parte dagli intervalli di riferimento esistenti (priors),</li>
+<li>considera <strong>dati di progetti reali</strong>,</li>
+<li>e apprende come ogni tipologia edilizia si comporta sugli intervalli GF.</li>
 </ol>
-<p>The result:</p>
+<p>Il risultato:</p>
 <ul>
-<li>a <strong>data-informed curve</strong> instead of a purely predefined one,</li>
-<li>adjusted per building type,</li>
-<li>while still grounded in the original reference logic.</li>
+<li>una <strong>curva informata dai dati</strong> invece di una puramente predefinita,</li>
+<li>adattata per ogni tipologia edilizia,</li>
+<li>e comunque ancorata alla logica di riferimento originale.</li>
 </ul>
 <hr>
-<h2>What you see in the graph</h2>
-<p>A typical result contains three elements:</p>
+<h2>Cosa si vede nella visualizzazione</h2>
+<p>Un risultato tipico contiene tre elementi:</p>
 <ul>
-<li><p><strong>Black line</strong><br>→ previous reference (priors)</p>
+<li><p><strong>Linea nera</strong><br>→ riferimento precedente (priors)</p>
 </li>
-<li><p><strong>Points</strong><br>→ real projects</p>
+<li><p><strong>Punti</strong><br>→ progetti reali</p>
 </li>
-<li><p><strong>Coloured dashed lines</strong><br>→ learned values per requirement level</p>
+<li><p><strong>Linee tratteggiate colorate</strong><br>→ valori appresi per livello di requisito</p>
 </li>
 </ul>
-<p>This shows clearly:</p>
+<p>Questo mostra chiaramente:</p>
 <ul>
-<li>where reality matches the reference,</li>
-<li>where it differs,</li>
-<li>and how the system adapts.</li>
+<li>dove la realtà corrisponde al riferimento,</li>
+<li>dove se ne discosta,</li>
+<li>e come il sistema si adatta.</li>
 </ul>
 <hr>
-<h2>Why GF intervals are essential</h2>
-<p>Without GF intervals, the system would assume:</p>
+<h2>Perché gli intervalli GF sono essenziali</h2>
+<p>Senza intervalli GF, il sistema assumerebbe:</p>
 <ul>
-<li>one value per building type,</li>
-<li>regardless of size.</li>
+<li>un unico valore per tipologia edilizia,</li>
+<li>indipendentemente dalla dimensione.</li>
 </ul>
-<p>That would ignore:</p>
+<p>Questo ignorerebbe:</p>
 <ul>
-<li>scaling effects,</li>
-<li>efficiency differences,</li>
-<li>structural and organisational changes with size.</li>
+<li>effetti di scala,</li>
+<li>differenze di efficienza,</li>
+<li>cambiamenti strutturali e organizzativi legati alla dimensione.</li>
 </ul>
-<p>GF intervals allow the model to:</p>
+<p>Gli intervalli GF permettono al modello:</p>
 <ul>
-<li>capture these effects,</li>
-<li>and describe a <strong>curve instead of a point</strong>.</li>
+<li>di rappresentare questi effetti,</li>
+<li>e di descrivere una <strong>curva invece di un punto</strong>.</li>
 </ul>
 <hr>
-<h2>How learning works across building types</h2>
-<p>Not all building types have the same amount of data.</p>
-<p>Some are well represented.<br>Others are rare.</p>
-<p>The system handles this by combining:</p>
+<h2>Come funziona l’apprendimento tra tipologie edilizie</h2>
+<p>Non tutte le tipologie edilizie hanno la stessa quantità di dati.</p>
+<p>Alcune sono ben rappresentate.<br>Altre sono rare.</p>
+<p>Il sistema gestisce questa situazione combinando:</p>
 <ul>
-<li>the <strong>reference curve (priors)</strong>,</li>
-<li><strong>real projects from the same building type</strong>,</li>
-<li>and <strong>related building types within the same group</strong>.</li>
+<li>la <strong>curva di riferimento (priors)</strong>,</li>
+<li><strong>progetti reali della stessa tipologia edilizia</strong>,</li>
+<li>e <strong>tipologie affini all’interno dello stesso gruppo</strong>.</li>
 </ul>
-<p>This means:</p>
+<p>Questo significa:</p>
 <ul>
-<li>With many data points → the curve becomes more specific  </li>
-<li>With few data points → the curve stays closer to the reference</li>
+<li>Con molti dati → la curva diventa più specifica  </li>
+<li>Con pochi dati → la curva resta più vicina al riferimento</li>
 </ul>
-<p>In both cases:</p>
+<p>In entrambi i casi:</p>
 <blockquote>
-<p>The result remains stable, but becomes more data-driven where possible.</p>
+<p>Il risultato rimane stabile, ma diventa più basato sui dati dove possibile.</p>
 </blockquote>
 <hr>
-<h2>What this means in practice</h2>
-<p>The key shift is:</p>
-<p>Before:</p>
+<h2>Cosa significa nella pratica</h2>
+<p>Il cambiamento principale è:</p>
+<p>Prima:</p>
 <ul>
-<li>the reference defined the result</li>
+<li>il riferimento definiva il risultato</li>
 </ul>
-<p>Now:</p>
+<p>Oggi:</p>
 <ul>
-<li>the reference is the starting point,</li>
-<li>and the system <strong>learns from real projects</strong></li>
+<li>il riferimento è il punto di partenza,</li>
+<li>e il sistema <strong>apprende da progetti reali</strong></li>
 </ul>
-<p>This allows ValueApp to:</p>
+<p>Questo permette alla ValueApp di:</p>
 <ul>
-<li>adapt to actual practice,</li>
-<li>reflect differences between building types,</li>
-<li>and continuously improve as more data becomes available.</li>
-</ul>
-<hr>
-<h2>Common misunderstandings</h2>
-<p>Do not assume:</p>
-<ul>
-<li>that the reference values are removed  </li>
-<li>that the system invents values freely  </li>
-<li>that more data always means completely different results</li>
-</ul>
-<p>Instead:</p>
-<ul>
-<li>the reference remains the foundation  </li>
-<li>the model adjusts it carefully  </li>
-<li>and learning happens <strong>within a controlled structure</strong></li>
+<li>adattarsi alla pratica reale,</li>
+<li>rappresentare le differenze tra tipologie edilizie,</li>
+<li>e migliorare continuamente con l’aumento dei dati.</li>
 </ul>
 <hr>
-<h2>In one sentence</h2>
+<h2>Malintesi frequenti</h2>
+<p>Non si deve assumere:</p>
+<ul>
+<li>che i valori di riferimento vengano rimossi  </li>
+<li>che il sistema inventi liberamente valori  </li>
+<li>che più dati portino sempre a risultati completamente diversi</li>
+</ul>
+<p>Al contrario:</p>
+<ul>
+<li>il riferimento resta la base  </li>
+<li>il modello lo adatta in modo controllato  </li>
+<li>e l’apprendimento avviene <strong>all’interno di una struttura chiara</strong></li>
+</ul>
+<hr>
+<h2>In una frase</h2>
 <blockquote>
-<p>ValueApp now learns how each building type behaves across GF intervals by combining reference knowledge with real project data.</p>
+<p>La ValueApp ora apprende come ogni tipologia edilizia si comporta sugli intervalli GF combinando conoscenza di riferimento e dati reali di progetto.</p>
 </blockquote>
 <hr>
-<h2>See also</h2>
+<h2>Vedi anche</h2>
 <ul>
-<li><a href="complexity.html">Complexity dimensions</a></li>
-<li><a href="quantity.html">Quantity and baseline effort</a></li>
-<li><a href="adjustment-factor.html">Adjustment (leadership) factor</a></li>
-<li><a href="output-interpretation.html">Interpreting results</a></li>
+<li><a href="complexity.html">Metodologia fattore di adeguamento</a></li>
+<li><a href="quantity.html">Grandezza determinante e sforzo di base</a></li>
+<li><a href="adjustment-factor.html">Fattore di adeguamento (leadership)</a></li>
+<li><a href="output-interpretation.html">Interpretazione dei risultati</a></li>
 </ul>
 
       </section>

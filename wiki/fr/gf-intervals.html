@@ -58,72 +58,72 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Intervalles de GF et courbes apprises</h1>
-<p>Les intervalles de GF décrivent <strong>comment les valeurs évoluent selon la taille des bâtiments</strong>.</p>
-<p>Au lieu d’attribuer une seule valeur à un type de bâtiment entier, ValueApp évalue les projets <strong>sur des plages de surface de plancher (GF)</strong> et construit une courbe sur ces plages.</p>
-<p>Cela permet au système de refléter une réalité simple :</p>
+<h1>Intervalles GF et courbes apprises</h1>
+<p>Les intervalles GF décrivent <strong>comment les valeurs évoluent en fonction de la taille des bâtiments</strong>.</p>
+<p>Au lieu d’attribuer une valeur unique à un type de bâtiment, la ValueApp évalue les projets <strong>par plages de surface de plancher (SP)</strong> et construit une courbe sur ces plages.</p>
+<p>Cela permet au système de représenter une réalité simple :</p>
 <blockquote>
 <p><em>Les petits bâtiments se comportent différemment des grands.</em></p>
 </blockquote>
 <hr>
-<h2>Ce que signifient les intervalles de GF dans ValueApp</h2>
-<p>Dans ValueApp, les intervalles de GF sont :</p>
+<h2>Ce que signifient les intervalles GF dans la ValueApp</h2>
+<p>Dans la ValueApp, les intervalles GF sont :</p>
 <ul>
-<li>des <strong>plages de taille de bâtiments</strong> (p. ex. petit, moyen, grand),</li>
+<li>des <strong>plages de taille de bâtiments</strong> (par ex. petit, moyen, grand),</li>
 <li>utilisées pour regrouper des projets comparables,</li>
-<li>et pour calculer des valeurs dans des <strong>conditions d’échelle similaires</strong>.</li>
+<li>et pour calculer des valeurs dans des <strong>conditions de taille similaires</strong>.</li>
 </ul>
 <p>Ils répondent à la question :</p>
 <blockquote>
-<p><em>« Comment ce type de bâtiment se comporte-t-il selon la taille ? »</em></p>
+<p><em>« Comment ce type de bâtiment se comporte-t-il à différentes tailles ? »</em></p>
 </blockquote>
-<p>Pas :</p>
+<p>Et non :</p>
 <ul>
 <li>quelle est la valeur exacte d’un projet individuel,</li>
 <li>ni quelle est la moyenne sur toutes les tailles.</li>
 </ul>
 <hr>
 <h2>L’approche précédente (valeurs de référence)</h2>
-<p>Auparavant, ValueApp fonctionnait principalement avec des <strong>courbes de référence</strong>.</p>
+<p>Jusqu’à présent, la ValueApp fonctionnait principalement avec des <strong>intervalles de référence</strong>.</p>
 <ul>
-<li>Basées sur des <strong>priors</strong>  </li>
-<li>Issues d’études, d’expérience et d’hypothèses structurées  </li>
-<li>Représentées dans l’application par la <strong>ligne noire</strong></li>
+<li>Ceux-ci étaient basés sur des <strong>priors</strong>  </li>
+<li>Dérivés d’études, d’expérience et d’hypothèses structurées  </li>
+<li>Représentés dans l’application par une <strong>ligne noire</strong></li>
 </ul>
-<p>Ces valeurs étaient :</p>
+<p>Ces valeurs de référence étaient :</p>
 <ul>
 <li>stables,</li>
 <li>cohérentes,</li>
-<li>mais pas directement apprises à partir des données.</li>
+<li>mais pas directement apprises à partir de données de projets.</li>
 </ul>
-<p>Elles définissaient le comportement attendu sur les intervalles de GF.</p>
+<p>Elles définissaient le comportement attendu sur les intervalles GF.</p>
 <hr>
 <h2>La nouvelle approche (apprentissage à partir des données)</h2>
-<p>Avec la nouvelle version, ValueApp introduit un changement fondamental :</p>
+<p>Avec la nouvelle mise à jour, la ValueApp introduit un changement fondamental :</p>
 <blockquote>
 <p>Les valeurs ne sont plus seulement définies — elles sont <strong>apprises</strong>.</p>
 </blockquote>
 <p>Le système :</p>
 <ol>
-<li>part de la courbe de référence (priors),</li>
-<li>analyse les <strong>données réelles des projets</strong>,</li>
-<li>et apprend le comportement de chaque type de bâtiment sur les intervalles de GF.</li>
+<li>commence avec les intervalles de référence existants (priors),</li>
+<li>prend en compte des <strong>données de projets réels</strong>,</li>
+<li>et apprend comment chaque type de bâtiment se comporte sur les intervalles GF.</li>
 </ol>
 <p>Le résultat :</p>
 <ul>
-<li>une <strong>courbe informée par les données</strong> au lieu d’une courbe purement définie,</li>
-<li>ajustée par type de bâtiment,</li>
+<li>une <strong>courbe informée par les données</strong> au lieu d’une courbe purement prédéfinie,</li>
+<li>adaptée à chaque type de bâtiment,</li>
 <li>tout en restant ancrée dans la logique de référence initiale.</li>
 </ul>
 <hr>
-<h2>Ce que montre le graphique</h2>
+<h2>Ce que montre la visualisation</h2>
 <p>Un résultat typique contient trois éléments :</p>
 <ul>
-<li><p><strong>Ligne noire</strong><br>→ référence (priors)</p>
+<li><p><strong>Ligne noire</strong><br>→ référence précédente (priors)</p>
 </li>
 <li><p><strong>Points</strong><br>→ projets réels</p>
 </li>
-<li><p><strong>Lignes pointillées colorées</strong><br>→ valeurs apprises selon le niveau d’exigence</p>
+<li><p><strong>Lignes colorées en pointillés</strong><br>→ valeurs apprises par niveau d’exigence</p>
 </li>
 </ul>
 <p>Cela montre clairement :</p>
@@ -133,11 +133,11 @@
 <li>et comment le système s’adapte.</li>
 </ul>
 <hr>
-<h2>Pourquoi les intervalles de GF sont essentiels</h2>
-<p>Sans intervalles de GF, le système supposerait :</p>
+<h2>Pourquoi les intervalles GF sont essentiels</h2>
+<p>Sans intervalles GF, le système supposerait :</p>
 <ul>
-<li>une valeur unique par type de bâtiment,</li>
-<li>indépendamment de la taille.</li>
+<li>une seule valeur par type de bâtiment,</li>
+<li>indépendante de la taille.</li>
 </ul>
 <p>Cela ignorerait :</p>
 <ul>
@@ -145,73 +145,73 @@
 <li>les différences d’efficacité,</li>
 <li>les changements structurels et organisationnels liés à la taille.</li>
 </ul>
-<p>Les intervalles de GF permettent au modèle :</p>
+<p>Les intervalles GF permettent au modèle :</p>
 <ul>
-<li>de capturer ces effets,</li>
+<li>de représenter ces effets,</li>
 <li>et de décrire une <strong>courbe plutôt qu’un point</strong>.</li>
 </ul>
 <hr>
 <h2>Comment l’apprentissage fonctionne entre types de bâtiments</h2>
 <p>Tous les types de bâtiments ne disposent pas de la même quantité de données.</p>
 <p>Certains sont bien représentés.<br>D’autres sont rares.</p>
-<p>Le système combine :</p>
+<p>Le système gère cela en combinant :</p>
 <ul>
 <li>la <strong>courbe de référence (priors)</strong>,</li>
-<li>les <strong>projets réels du même type</strong>,</li>
-<li>et des <strong>types de bâtiments similaires dans le même groupe</strong>.</li>
+<li>les <strong>projets réels du même type de bâtiment</strong>,</li>
+<li>et des <strong>types de bâtiments apparentés au sein du même groupe</strong>.</li>
 </ul>
 <p>Cela signifie :</p>
 <ul>
-<li>beaucoup de données → courbe plus spécifique  </li>
-<li>peu de données → courbe plus proche de la référence</li>
+<li>Avec beaucoup de données → la courbe devient plus spécifique  </li>
+<li>Avec peu de données → la courbe reste plus proche de la référence</li>
 </ul>
-<p>Dans tous les cas :</p>
+<p>Dans les deux cas :</p>
 <blockquote>
-<p>Le résultat reste stable, mais devient plus basé sur les données lorsque c’est possible.</p>
+<p>Le résultat reste stable, mais devient plus basé sur les données lorsque cela est possible.</p>
 </blockquote>
 <hr>
 <h2>Ce que cela signifie en pratique</h2>
-<p>Le changement clé est :</p>
+<p>Le changement principal est le suivant :</p>
 <p>Avant :</p>
 <ul>
 <li>la référence définissait le résultat</li>
 </ul>
-<p>Maintenant :</p>
+<p>Aujourd’hui :</p>
 <ul>
 <li>la référence est le point de départ,</li>
-<li>et le système <strong>apprend à partir des projets réels</strong></li>
+<li>et le système <strong>apprend à partir de projets réels</strong></li>
 </ul>
-<p>Cela permet à ValueApp :</p>
+<p>Cela permet à la ValueApp de :</p>
 <ul>
-<li>de s’adapter à la pratique réelle,</li>
-<li>de refléter les différences entre types de bâtiments,</li>
-<li>et de s’améliorer continuellement avec de nouvelles données.</li>
+<li>s’adapter à la pratique réelle,</li>
+<li>représenter les différences entre types de bâtiments,</li>
+<li>et s’améliorer en continu avec l’augmentation des données.</li>
 </ul>
 <hr>
 <h2>Malentendus fréquents</h2>
-<p>Ne pas supposer :</p>
+<p>Il ne faut pas supposer :</p>
 <ul>
 <li>que les valeurs de référence sont supprimées  </li>
-<li>que le système invente des valeurs librement  </li>
-<li>que plus de données signifie toujours des résultats complètement différents</li>
+<li>que le système invente librement des valeurs  </li>
+<li>que plus de données entraîne toujours des résultats totalement différents</li>
 </ul>
 <p>Au contraire :</p>
 <ul>
 <li>la référence reste la base  </li>
-<li>le modèle l’ajuste avec prudence  </li>
-<li>et l’apprentissage se fait <strong>dans une structure contrôlée</strong></li>
+<li>le modèle l’ajuste de manière contrôlée  </li>
+<li>et l’apprentissage se fait <strong>dans une structure claire</strong></li>
 </ul>
 <hr>
 <h2>En une phrase</h2>
 <blockquote>
-<p>ValueApp apprend désormais comment chaque type de bâtiment se comporte selon les intervalles de GF en combinant les connaissances de référence avec les données réelles.</p>
+<p>La ValueApp apprend désormais comment chaque type de bâtiment se comporte sur les intervalles GF en combinant des connaissances de référence avec des données de projets réels.</p>
 </blockquote>
 <hr>
 <h2>Voir aussi</h2>
 <ul>
-<li><a href="complexity.html">Dimensions de complexité</a></li>
-<li><a href="quantity.html">Quantité et effort de base</a></li>
-<li><a href="adjustment-factor.html">Facteur d’ajustement (pilotage)</a></li>
+<li><a href="complexity.html">Méthodologie facteur d’ajustement</a></li>
+<li><a href="quantity.html">Grandeur déterminante et effort de base</a></li>
+<li><a href="adjustment-factor.html">Facteur d’ajustement (leadership)</a></li>
 <li><a href="output-interpretation.html">Interprétation des résultats</a></li>
 </ul>
 

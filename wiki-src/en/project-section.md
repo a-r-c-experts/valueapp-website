@@ -4,126 +4,127 @@ i18nSubtitle: wiki.projectSection.subtitle
 navKey: wiki.nav.projectSection
 ---
 
-# Project section
+# Project Section
 
-The **Project** tab is where the ValueApp turns  
-**“what kind of project is this?”** into **“what effort range is plausible?”**
+The **Project** tab is where the ValueApp translates  
+**“what kind of project is this?”** into  
+**“which effort range is plausible?”**.
 
-It does this by combining:
+This is done by combining:
 
-- a measurable **quantity** (project size),
+- a measurable **determinant** (project size),
 - a defined **use mix** (reference context),
 - a structured **complexity assessment**,
-- and, depending on configuration, **risk / requirements** inputs.
+- and – depending on configuration – **risk / requirement inputs**.
 
 This page explains the fields conceptually.  
-For click-by-click instructions, see the [Tutorial](tutorial.html).
+For a step-by-step guide, see the [tutorial](tutorial.html).
 
 ---
 
-## What happens in the Project section
+## What happens in the project section
 
-In the **Project** section, the ValueApp generates the **baseline effort range** by:
+In the **project section**, the ValueApp generates the **baseline effort range** by:
 
-1. selecting relevant **base models** via the use mix,
-2. scaling them with the entered **quantity**,
+1. selecting appropriate **base models** based on use,
+2. scaling them using the entered **determinant**,
 3. adjusting the result through **complexity and leadership conditions**.
 
-The output is usually shown as:
+The result is typically shown as:
 - an effort range,
-- often normalised (e.g. min/m²),
-- before role and service scope are applied.
+- often normalized (e.g. min/m²),
+- still **before** applying roles and scope of services.
 
-For the full method logic, see:
+For the methodological background:
 → [How the app works](how-it-works.html)
 
 ---
 
 ## What you define here
 
-You typically define:
+Typically, you define:
 
-1. **Quantity / project size**  
-   → [Quantity](quantity.html)
+1. **Determinant / project size**  
+   → [Determinant](quantity.html)
 
 2. **Use mix**  
    → [Use categories](use-categories.html)
 
-3. **Complexity** across four dimensions  
-   → [Complexity dimensions](complexity.html)
+3. **Complexity** in four dimensions  
+   → [Adjustment factor methodology](complexity.html)
 
 4. **Leadership / adjustment factor** (derived)  
    → [Adjustment factor](adjustment-factor.html)
 
 5. **Risk / requirements** (if enabled)
 
-Together, these inputs determine the **baseline effort profile** before roles and services are applied.
+These inputs together determine the **baseline effort profile**, before roles and services are considered.
 
 ---
 
-## Quantity (determinant)
+## Determinant (project size)
 
-The quantity represents the **scale of the project**, most commonly:
+The determinant describes the **scale of the project**, typically as:
 
-- gross floor area (m² GF)
+- gross floor area (m² GFA)
 
-Key points:
-- always enter **total project quantity**,
-- include basements and shared areas where relevant,
-- small changes can significantly affect the result.
+Important points:
+- always enter the **total determinant of the project**,
+- include basements and shared areas,
+- small changes can have large effects.
 
-For details and common pitfalls:
-→ [Quantity](quantity.html)
+Details and common mistakes:
+→ [Determinant](quantity.html)
 
 ---
 
 ## Use mix
 
-The use mix tells the app **what reference world your project belongs to**.
+The use mix tells the app **which reference world the project belongs to**.
 
-- You can select one or multiple uses.
-- Percentages must sum to 100%.
+- One or multiple uses are possible.
+- Shares must sum to 100%.
 - Mixed-use projects are calculated as **weighted combinations**.
 
-The use mix selects the relevant base models.  
-Complexity explains deviations *within* those models.
+The use selects the base models.  
+Adjustment factors explain deviations *within* those models.
 
-For examples and category definitions:
+Examples and definitions:
 → [Use categories](use-categories.html)
 
 ---
 
-## Complexity assessment
+## Assessment of adjustment factors
 
-Complexity describes **how predictable and manageable the project is**, not how “good” or “ambitious” it is.
+Adjustment factors describe **how predictable and manageable the planning task is**, not its quality or ambition.
 
-The ValueApp assesses complexity across four dimensions:
+The ValueApp evaluates adjustment factors across four dimensions:
 - design
 - technical
 - spatial
-- organisational
+- organizational
 
-These inputs are mapped to a **leadership / adjustment factor** that modifies the baseline effort.
+These assessments are mapped to a **leadership / adjustment factor**, which modifies the baseline effort.
 
-For conceptual background:
-→ [Complexity dimensions](complexity.html)  
+Conceptual background:
+→ [Adjustment factor methodology](complexity.html)  
 → [Adjustment factor](adjustment-factor.html)
 
 ---
 
 ## Risk and requirements (optional)
 
-If enabled in your setup, risk inputs help document:
-- external uncertainty,
+If enabled in your configuration, risk inputs are used to capture:
+- external uncertainties,
 - approval risks,
 - process instability.
 
-Risk typically:
-- widens ranges,
+Risk:
+- usually widens the range,
 - does not change the underlying baseline logic.
 
 For interpretation:
-→ [Output interpretation](output-interpretation.html)
+→ [Interpreting results](output-interpretation.html)
 
 ---
 
@@ -131,18 +132,18 @@ For interpretation:
 
 - **Be explicit**: document assumptions in the project description.
 - **Use references**: compare with similar projects.
-- **Avoid tuning**: don’t “fix” results here that belong to role or service scope later.
+- **Do not tweak here**: do not “fix” results here if the issue actually relates to role or scope.
 
-The Project section is about **context and plausibility**, not negotiation.
+The project section is for **classification and plausibility checking**, not negotiation.
 
 ---
 
 ## See also
 
 - [Tutorial](tutorial.html)
-- [Quantity](quantity.html)
+- [Determinant](quantity.html)
 - [Use categories](use-categories.html)
-- [Complexity dimensions](complexity.html)
+- [Adjustment factor methodology](complexity.html)
 - [Adjustment factor](adjustment-factor.html)
 - [Interpreting results](output-interpretation.html)
 - [Why ValueApp exists](why-valueapp.html)

@@ -3,60 +3,60 @@ i18nTitle: wiki.knowledgeBase.title
 navKey: knowledge-base
 ---
 
-# Knowledge base
+# Knowledge Base
 
 This chapter explains **why the ValueApp behaves the way it does**.  
-It focuses on concepts and logic, not on click-by-click instructions.
+The focus is on concepts and logic, not on click-by-click instructions.
 
-If you are looking for practical steps, go to the [Workflows](workflows.html).
+If you are looking for practical steps, switch to the [workflows](workflows.html).
 
 ---
 
 ## Core concepts
 
-The following pages explain the key concepts that directly shape the results produced by the ValueApp.  
-Each concept is documented in plain language and linked to where it appears in the app.
+The following pages explain the core concepts that directly shape the results produced by the ValueApp.  
+Each concept is described in clear language and linked to its use in the app.
 
-- **Quantity / project size**  
-  What “size” means in the ValueApp, why it matters, and how it sets the baseline for effort estimation.  
-  → [Open quantity](quantity.html)
+- **Determinant**  
+  What “size” means in the ValueApp, why it matters, and how it forms the basis of effort estimation.  
+  → [Open determinant](quantity.html)
 
-- **Use categories (building programs)**  
-  How the ValueApp selects reference models based on project use and why mixed-use projects are handled as weighted combinations.  
+- **Use categories (building types)**  
+  How the ValueApp selects reference models based on use, and why mixed-use projects are treated as weighted combinations.  
   → [Open use categories](use-categories.html)
 
-- **Complexity dimensions**  
-  How design, technical, spatial, and organisational complexity are assessed and why similar-sized projects can behave very differently.  
-  → [Open complexity dimensions](complexity.html)
-
-- **Roles and services**  
-  How roles (e.g. architect, general planner) and service scope influence effort distribution and totals.  
-  → [Open roles and services](roles-and-services.html)
-
-- **Anpassungsfaktor**  
-  How organisational and process-related demands are reflected in the model and how they modify results.  
+- **Adjustment factor**  
+  How organizational and process-related requirements are represented in the model and how they affect the results.  
   → [Open adjustment factor](adjustment-factor.html)
 
+- **Adjustment factor methodology**  
+  How design, technical, spatial, and organizational complexity are assessed and why projects of similar size can differ significantly.  
+  → [Open adjustment factor methodology](complexity.html)
+
+- **Roles and services**  
+  How roles (e.g. architect, general planner) and scope of services influence the distribution of effort and total effort.  
+  → [Open roles and services](roles-and-services.html)
+
 - **Interpreting results**  
-  How to read hours, ranges, and distributions correctly, and what the results are suitable (and not suitable) for.  
+  How to correctly read hours, ranges, and distributions, and what the results are suitable for—and what they are not.  
   → [Open result interpretation](output-interpretation.html)
 
-- **What ValueApp is – and what it is not**  
-  A clarification of the app’s purpose, limits, and common misunderstandings.  
+- **What ValueApp is—and what it is not**  
+  Clarification of purpose, limits, and common misunderstandings.  
   → [Open purpose and limits](why-valueapp.html)
 
 ---
 
 ## How to use this chapter
 
-Use the Knowledge Base when you want to understand:
+Use the knowledge base if you want to understand:
 
 - why a change in input affects the result,
 - why the app shows ranges instead of fixed values,
-- how different project setups lead to different effort profiles,
-- where professional judgement is still required.
+- how different project configurations lead to different effort profiles,
+- where professional judgment is still required.
 
-For concrete workflows and examples, switch to:
+For concrete workflows and application examples, switch to:
 
 - [Workflows](workflows.html)
 - [Examples](examples.html)

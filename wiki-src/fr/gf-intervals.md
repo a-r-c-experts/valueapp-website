@@ -3,31 +3,31 @@ i18nTitle: wiki.gfIntervals.title
 navKey: gf-intervals
 ---
 
-# Intervalles de GF et courbes apprises
+# Intervalles GF et courbes apprises
 
-Les intervalles de GF décrivent **comment les valeurs évoluent selon la taille des bâtiments**.
+Les intervalles GF décrivent **comment les valeurs évoluent en fonction de la taille des bâtiments**.
 
-Au lieu d’attribuer une seule valeur à un type de bâtiment entier, ValueApp évalue les projets **sur des plages de surface de plancher (GF)** et construit une courbe sur ces plages.
+Au lieu d’attribuer une valeur unique à un type de bâtiment, la ValueApp évalue les projets **par plages de surface de plancher (SP)** et construit une courbe sur ces plages.
 
-Cela permet au système de refléter une réalité simple :
+Cela permet au système de représenter une réalité simple :
 
 > *Les petits bâtiments se comportent différemment des grands.*
 
 ---
 
-## Ce que signifient les intervalles de GF dans ValueApp
+## Ce que signifient les intervalles GF dans la ValueApp
 
-Dans ValueApp, les intervalles de GF sont :
+Dans la ValueApp, les intervalles GF sont :
 
-- des **plages de taille de bâtiments** (p. ex. petit, moyen, grand),
+- des **plages de taille de bâtiments** (par ex. petit, moyen, grand),
 - utilisées pour regrouper des projets comparables,
-- et pour calculer des valeurs dans des **conditions d’échelle similaires**.
+- et pour calculer des valeurs dans des **conditions de taille similaires**.
 
 Ils répondent à la question :
 
-> *« Comment ce type de bâtiment se comporte-t-il selon la taille ? »*
+> *« Comment ce type de bâtiment se comporte-t-il à différentes tailles ? »*
 
-Pas :
+Et non :
 - quelle est la valeur exacte d’un projet individuel,
 - ni quelle est la moyenne sur toutes les tailles.
 
@@ -35,54 +35,54 @@ Pas :
 
 ## L’approche précédente (valeurs de référence)
 
-Auparavant, ValueApp fonctionnait principalement avec des **courbes de référence**.
+Jusqu’à présent, la ValueApp fonctionnait principalement avec des **intervalles de référence**.
 
-- Basées sur des **priors**  
-- Issues d’études, d’expérience et d’hypothèses structurées  
-- Représentées dans l’application par la **ligne noire**
+- Ceux-ci étaient basés sur des **priors**  
+- Dérivés d’études, d’expérience et d’hypothèses structurées  
+- Représentés dans l’application par une **ligne noire**
 
-Ces valeurs étaient :
+Ces valeurs de référence étaient :
 
 - stables,
 - cohérentes,
-- mais pas directement apprises à partir des données.
+- mais pas directement apprises à partir de données de projets.
 
-Elles définissaient le comportement attendu sur les intervalles de GF.
+Elles définissaient le comportement attendu sur les intervalles GF.
 
 ---
 
 ## La nouvelle approche (apprentissage à partir des données)
 
-Avec la nouvelle version, ValueApp introduit un changement fondamental :
+Avec la nouvelle mise à jour, la ValueApp introduit un changement fondamental :
 
 > Les valeurs ne sont plus seulement définies — elles sont **apprises**.
 
 Le système :
 
-1. part de la courbe de référence (priors),
-2. analyse les **données réelles des projets**,
-3. et apprend le comportement de chaque type de bâtiment sur les intervalles de GF.
+1. commence avec les intervalles de référence existants (priors),
+2. prend en compte des **données de projets réels**,
+3. et apprend comment chaque type de bâtiment se comporte sur les intervalles GF.
 
 Le résultat :
 
-- une **courbe informée par les données** au lieu d’une courbe purement définie,
-- ajustée par type de bâtiment,
+- une **courbe informée par les données** au lieu d’une courbe purement prédéfinie,
+- adaptée à chaque type de bâtiment,
 - tout en restant ancrée dans la logique de référence initiale.
 
 ---
 
-## Ce que montre le graphique
+## Ce que montre la visualisation
 
 Un résultat typique contient trois éléments :
 
 - **Ligne noire**  
-  → référence (priors)
+  → référence précédente (priors)
 
 - **Points**  
   → projets réels
 
-- **Lignes pointillées colorées**  
-  → valeurs apprises selon le niveau d’exigence
+- **Lignes colorées en pointillés**  
+  → valeurs apprises par niveau d’exigence
 
 Cela montre clairement :
 
@@ -92,12 +92,12 @@ Cela montre clairement :
 
 ---
 
-## Pourquoi les intervalles de GF sont essentiels
+## Pourquoi les intervalles GF sont essentiels
 
-Sans intervalles de GF, le système supposerait :
+Sans intervalles GF, le système supposerait :
 
-- une valeur unique par type de bâtiment,
-- indépendamment de la taille.
+- une seule valeur par type de bâtiment,
+- indépendante de la taille.
 
 Cela ignorerait :
 
@@ -105,9 +105,9 @@ Cela ignorerait :
 - les différences d’efficacité,
 - les changements structurels et organisationnels liés à la taille.
 
-Les intervalles de GF permettent au modèle :
+Les intervalles GF permettent au modèle :
 
-- de capturer ces effets,
+- de représenter ces effets,
 - et de décrire une **courbe plutôt qu’un point**.
 
 ---
@@ -119,67 +119,67 @@ Tous les types de bâtiments ne disposent pas de la même quantité de données.
 Certains sont bien représentés.  
 D’autres sont rares.
 
-Le système combine :
+Le système gère cela en combinant :
 
 - la **courbe de référence (priors)**,
-- les **projets réels du même type**,
-- et des **types de bâtiments similaires dans le même groupe**.
+- les **projets réels du même type de bâtiment**,
+- et des **types de bâtiments apparentés au sein du même groupe**.
 
 Cela signifie :
 
-- beaucoup de données → courbe plus spécifique  
-- peu de données → courbe plus proche de la référence  
+- Avec beaucoup de données → la courbe devient plus spécifique  
+- Avec peu de données → la courbe reste plus proche de la référence  
 
-Dans tous les cas :
+Dans les deux cas :
 
-> Le résultat reste stable, mais devient plus basé sur les données lorsque c’est possible.
+> Le résultat reste stable, mais devient plus basé sur les données lorsque cela est possible.
 
 ---
 
 ## Ce que cela signifie en pratique
 
-Le changement clé est :
+Le changement principal est le suivant :
 
 Avant :
 - la référence définissait le résultat  
 
-Maintenant :
+Aujourd’hui :
 - la référence est le point de départ,
-- et le système **apprend à partir des projets réels**
+- et le système **apprend à partir de projets réels**
 
-Cela permet à ValueApp :
+Cela permet à la ValueApp de :
 
-- de s’adapter à la pratique réelle,
-- de refléter les différences entre types de bâtiments,
-- et de s’améliorer continuellement avec de nouvelles données.
+- s’adapter à la pratique réelle,
+- représenter les différences entre types de bâtiments,
+- et s’améliorer en continu avec l’augmentation des données.
 
 ---
 
 ## Malentendus fréquents
 
-Ne pas supposer :
+Il ne faut pas supposer :
 
 - que les valeurs de référence sont supprimées  
-- que le système invente des valeurs librement  
-- que plus de données signifie toujours des résultats complètement différents  
+- que le système invente librement des valeurs  
+- que plus de données entraîne toujours des résultats totalement différents  
 
 Au contraire :
 
 - la référence reste la base  
-- le modèle l’ajuste avec prudence  
-- et l’apprentissage se fait **dans une structure contrôlée**
+- le modèle l’ajuste de manière contrôlée  
+- et l’apprentissage se fait **dans une structure claire**
 
 ---
 
 ## En une phrase
 
-> ValueApp apprend désormais comment chaque type de bâtiment se comporte selon les intervalles de GF en combinant les connaissances de référence avec les données réelles.
+> La ValueApp apprend désormais comment chaque type de bâtiment se comporte sur les intervalles GF en combinant des connaissances de référence avec des données de projets réels.
 
 ---
 
 ## Voir aussi
 
-- [Dimensions de complexité](complexity.html)
-- [Quantité et effort de base](quantity.html)
-- [Facteur d’ajustement (pilotage)](adjustment-factor.html)
+- [Méthodologie facteur d’ajustement](complexity.html)
+- [Grandeur déterminante et effort de base](quantity.html)
+- [Facteur d’ajustement (leadership)](adjustment-factor.html)
 - [Interprétation des résultats](output-interpretation.html)

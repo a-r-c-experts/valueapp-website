@@ -3,148 +3,127 @@ i18nTitle: wiki.quantity.title
 navKey: quantity
 ---
 
-# Quantité et effort de base
+# Grandeur déterminante et effort de base
 
-La quantité définit **l’échelle du projet**.  
-C’est le principal moteur de l’effort de base dans ValueApp.
+La grandeur déterminante définit **l’échelle du projet**.  
+Elle est le principal facteur de l’effort de base dans la ValueApp.
 
-Tout le reste (complexité, facteur d’ajustement) **vient modifier** cette base.  
+Les facteurs d’ajustement **modifient** cette valeur de base.  
 Rien ne la remplace.
 
 ---
 
-## Ce que signifie la quantité dans ValueApp
+## Ce que signifie « grandeur déterminante » dans la ValueApp
 
-Dans ValueApp, la quantité représente :
+Dans la ValueApp, la grandeur déterminante représente :
 - la **taille de ce qui est planifié**,
-- exprimée par **une seule grandeur dominante**.
-
-Elle répond à la question :
-
-> *« Quelle est l’ampleur du projet ? »*
-
-Et non :
-- sa difficulté,
-- son niveau d’organisation,
-- son ambition architecturale.
-
-Ces aspects sont traités ailleurs.
+- exprimée par **une seule métrique dominante**.
 
 ---
 
-## Quantités couramment utilisées
+## Grandeurs déterminantes utilisées
 
-Selon le type de projet, la quantité est généralement exprimée en :
+La grandeur déterminante est indiquée comme :
 
-- **Surface brute de plancher (SBP / BGF)**  
-  Le cas le plus courant pour les bâtiments.
-
-- **Unités**  
-  Logements, chambres ou éléments répétitifs.
-
-- **Surface fonctionnelle**  
-  Lorsque seule une partie du bâtiment est pertinente.
-
-Règle essentielle :
-> **Utilisez la grandeur qui représente le mieux l’effort de planification**, pas le coût de construction.
+- **surface de plancher / surface de plancher brute**
 
 ---
 
-## Pourquoi la quantité est si déterminante
+## Pourquoi la grandeur déterminante est essentielle
 
-La quantité est le **seul facteur** qui permet de faire évoluer l’effort de manière prévisible.
+La grandeur déterminante est le **seul facteur** qui permet de mettre à l’échelle l’effort de manière fiable.
 
-Un doublement de la quantité ne double pas l’effort de façon linéaire, mais entraîne :
-- davantage de coordination,
+Un doublement de la grandeur déterminante ne double pas l’effort de manière linéaire, mais entraîne :
+- plus de coordination,
 - plus de documentation,
-- plus de répétition avec variations.
+- plus de répétition avec variation.
 
-Les courbes de base de ValueApp sont calibrées afin que :
+Les intervalles de la ValueApp sont calibrés de sorte que :
 - les petits projets ne soient pas surestimés,
-- les grands projets ne soient pas extrapolés naïvement.
+- les grands projets ne soient pas extrapolés de manière naïve.
 
 ---
 
-## Comment la quantité influence les résultats
+## Comment la grandeur déterminante influence les résultats
 
-La quantité :
+La grandeur déterminante :
 - définit la **plage d’effort de base**,
-- agit sur toutes les phases de planification,
-- fonctionne toujours en interaction avec la complexité.
+- s’applique à toutes les phases de planification,
+- agit toujours en combinaison avec les facteurs d’ajustement.
 
-Une quantité plus élevée implique généralement :
+Une grandeur déterminante plus élevée implique généralement :
 - plus de plans,
-- plus de cycles de coordination,
-- davantage d’interfaces à gérer.
+- plus de boucles de coordination,
+- plus d’interfaces.
 
-La quantité seule n’explique toutefois **pas** :
-- pourquoi des projets de taille identique diffèrent fortement,
-- pourquoi certains petits projets sont disproportionnellement exigeants.
+Cependant, elle n’explique **pas** :
+- pourquoi des projets de même taille ont des efforts très différents,
+- pourquoi de petits projets peuvent être disproportionnellement complexes.
 
-C’est le rôle de la complexité et des facteurs d’ajustement.
+C’est le rôle des facteurs d’ajustement.
 
 ---
 
-## Choisir la bonne quantité
+## Choisir la bonne grandeur déterminante
 
 En cas de doute :
 
-- Préférez une valeur **légèrement simplifiée** à une précision artificielle.
-- Utilisez **une seule grandeur dominante**.
-- Évitez les quantités « optimisées » pour influencer le résultat.
+- Préférer une **simplification légère** à une précision artificielle.
+- Utiliser **une seule métrique dominante**, pas plusieurs.
+- Ne pas « optimiser » la grandeur pour influencer le résultat.
 
-Si une valeur prête à discussion, documentez l’hypothèse au lieu de la raffiner sans fin.
+Si une valeur est discutable, documentez l’hypothèse plutôt que de la raffiner indéfiniment.
 
 La précision sans clarté n’est pas de l’exactitude.
 
 ---
 
-## Où la quantité apparaît dans l’application
+## Où apparaît la grandeur déterminante dans l’application
 
-La quantité est définie dans :
+Vous définissez la grandeur déterminante dans :
 
-- **La configuration du projet**  
-  Comme première saisie substantielle.
+- **Définition du projet**  
+  Comme première entrée principale.
 
-- **Le calcul de base**  
-  Où elle sert de référence à tous les ajustements.
+- **Calcul de base**  
+  Où elle ancre tous les ajustements.
 
-- **Le résumé des résultats**  
+- **Résumé des résultats**  
   Où elle explique les différences d’effort liées à l’échelle.
 
-Pour une procédure guidée :
-→ [Workflow : définir la quantité](workflows.html#quantity)
+Pour une explication guidée :
+→ [Workflow: définir la grandeur déterminante](workflows.html#quantity)
 
 ---
 
-## Erreurs fréquentes à éviter
+## Éviter les erreurs fréquentes
 
-Ne :
-- mélangez pas surfaces nettes et brutes,
-- excluez pas des parties « inconfortables » du projet,
-- modifiez pas la quantité tardivement pour corriger un résultat.
+Évitez :
+- de mélanger surfaces nettes et brutes,
+- d’exclure des parties du projet,
+- de modifier la grandeur après coup pour « corriger » un résultat.
 
-Si une modification de quantité change fortement le résultat, ce n’est pas une erreur.  
+Si une modification de la grandeur change fortement le résultat, ce n’est pas une erreur.  
 Cela signifie que le périmètre du projet a changé.
 
 ---
 
 ## Référence visuelle optionnelle
 
-La relation entre quantité et effort de base est **non linéaire** :
+La relation entre grandeur déterminante et effort de base n’est **pas linéaire** :
 
-![Quantité vs effort de base](\/wiki-assets/knowledge/quantity-baseline-curve.jpeg)
+![Grandeur déterminante vs effort de base](\/wiki-assets/knowledge/quantity-baseline-curve.jpeg)
 
-Cette courbe reflète :
+La courbe reflète :
 - les effets de répétition,
-- l’augmentation de la charge de coordination à grande échelle.
+- l’augmentation de l’effort de coordination avec la taille.
 
 ---
 
 ## Voir aussi
 
-- [Dimensions de complexité](complexity.html)
-- [Facteur d’ajustement / de pilotage](adjustment-factor.html)
+- [Méthodologie du facteur d’ajustement](complexity.html)
+- [Facteur d’ajustement](adjustment-factor.html)
 - [Rôles et prestations](roles-and-services.html)
 - [Interpréter les résultats](output-interpretation.html)
-- [Ce que ValueApp est – et n’est pas](why-valueapp.html)
+- [Ce qu’est la ValueApp — et ce qu’elle n’est pas](why-valueapp.html)

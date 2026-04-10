@@ -3,13 +3,13 @@ i18nTitle: wiki.gfIntervals.title
 navKey: gf-intervals
 ---
 
-# GF intervals and learned curves
+# GF Intervals and Learned Curves
 
 GF intervals describe **how values change across building size**.
 
-Instead of assigning one value to an entire building type, ValueApp evaluates projects **across ranges of gross floor area (GF)** and builds a curve over these ranges.
+Instead of assigning a single value to an entire building type, ValueApp evaluates projects **across ranges of gross floor area (GFA)** and forms a curve over these ranges.
 
-This allows the system to reflect a simple reality:
+This allows the system to represent a simple reality:
 
 > *Small buildings behave differently from large ones.*
 
@@ -21,25 +21,25 @@ In ValueApp, GF intervals are:
 
 - **size ranges of buildings** (e.g. small, medium, large),
 - used to group comparable projects,
-- and to calculate values within **similar scale conditions**.
+- and to calculate values under **similar size conditions**.
 
 They answer the question:
 
 > *“How does this building type behave at different sizes?”*
 
 Not:
-- what is the exact value of one single project,
-- or what is the average across all sizes.
+- what the exact value of a single project is,
+- or what the average across all sizes is.
 
 ---
 
 ## The previous approach (reference values)
 
-Previously, ValueApp worked mainly with **reference curves**.
+Previously, ValueApp mainly worked with **reference intervals**.
 
 - These were based on **priors**  
 - Derived from studies, experience, and structured assumptions  
-- Shown in the app as the **black line**
+- Shown in the app as a **black line**
 
 These reference values were:
 
@@ -47,7 +47,7 @@ These reference values were:
 - consistent,
 - but not directly learned from project data.
 
-They defined the expected behaviour across GF intervals.
+They defined the expected behavior across GF intervals.
 
 ---
 
@@ -57,21 +57,21 @@ With the new update, ValueApp introduces a fundamental change:
 
 > Values are no longer only defined — they are **learned**.
 
-The system now:
+The system:
 
-1. starts from the existing reference curve (priors),
-2. looks at **real project data**,
+1. starts with the existing reference intervals (priors),
+2. considers **real project data**,
 3. and learns how each building type behaves across GF intervals.
 
 The result:
 
 - a **data-informed curve** instead of a purely predefined one,
 - adjusted per building type,
-- while still grounded in the original reference logic.
+- and still anchored in the original reference logic.
 
 ---
 
-## What you see in the graph
+## What you see in the visualization
 
 A typical result contains three elements:
 
@@ -81,13 +81,13 @@ A typical result contains three elements:
 - **Points**  
   → real projects
 
-- **Coloured dashed lines**  
+- **Colored dashed lines**  
   → learned values per requirement level
 
-This shows clearly:
+This clearly shows:
 
 - where reality matches the reference,
-- where it differs,
+- where it deviates,
 - and how the system adapts.
 
 ---
@@ -97,18 +97,18 @@ This shows clearly:
 Without GF intervals, the system would assume:
 
 - one value per building type,
-- regardless of size.
+- independent of size.
 
-That would ignore:
+This would ignore:
 
 - scaling effects,
 - efficiency differences,
-- structural and organisational changes with size.
+- structural and organizational changes with size.
 
-GF intervals allow the model to:
+GF intervals allow the model:
 
-- capture these effects,
-- and describe a **curve instead of a point**.
+- to capture these effects,
+- and to describe a **curve instead of a point**.
 
 ---
 
@@ -122,7 +122,7 @@ Others are rare.
 The system handles this by combining:
 
 - the **reference curve (priors)**,
-- **real projects from the same building type**,
+- **real projects of the same building type**,
 - and **related building types within the same group**.
 
 This means:
@@ -132,18 +132,18 @@ This means:
 
 In both cases:
 
-> The result remains stable, but becomes more data-driven where possible.
+> The result remains stable but becomes more data-driven where possible.
 
 ---
 
 ## What this means in practice
 
-The key shift is:
+The key change is:
 
 Before:
-- the reference defined the result
+- the reference defined the result  
 
-Now:
+Today:
 - the reference is the starting point,
 - and the system **learns from real projects**
 
@@ -157,17 +157,17 @@ This allows ValueApp to:
 
 ## Common misunderstandings
 
-Do not assume:
+One should not assume:
 
-- that the reference values are removed  
-- that the system invents values freely  
-- that more data always means completely different results  
+- that reference values are removed  
+- that the system freely invents values  
+- that more data always leads to completely different results  
 
 Instead:
 
 - the reference remains the foundation  
-- the model adjusts it carefully  
-- and learning happens **within a controlled structure**
+- the model adjusts it in a controlled way  
+- and learning happens **within a clear structure**
 
 ---
 
@@ -179,7 +179,7 @@ Instead:
 
 ## See also
 
-- [Complexity dimensions](complexity.html)
-- [Quantity and baseline effort](quantity.html)
-- [Adjustment (leadership) factor](adjustment-factor.html)
-- [Interpreting results](output-interpretation.html)
+- [Adjustment factor methodology](complexity.html)
+- [Determinant and baseline effort](quantity.html)
+- [Adjustment (Leadership) Factor](adjustment-factor.html)
+- [Interpretation of results](output-interpretation.html)

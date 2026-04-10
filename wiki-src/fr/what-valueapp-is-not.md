@@ -3,160 +3,155 @@ i18nTitle: wiki.whatValueAppIsNot.title
 navKey: what-valueapp-is-not
 ---
 
-# Ce que ValueApp est – et ce qu’il n’est pas
+# Ce qu’est la ValueApp – et ce qu’elle n’est pas
 
-ValueApp est souvent mal compris parce que ses résultats *semblent précis*.  
-Cette page explique **à quoi ValueApp sert** et, tout aussi important, **à quoi il ne sert pas**.
+La ValueApp est souvent mal comprise parce que les résultats *semblent précis*.  
+Cette page clarifie **pour quoi la ValueApp a été conçue** et – tout aussi important – **pour quoi elle ne l’a pas été**.
 
-Comprendre ces limites est essentiel pour une utilisation responsable.
+Cette distinction est essentielle pour une utilisation responsable.
 
 ---
 
-## Ce que ValueApp est
+## Ce qu’est la ValueApp
 
-ValueApp est un **outil d’aide à la décision** pour les phases de planification précoces et intermédiaires.
+La ValueApp est un **outil d’aide à la décision** pour les phases précoces de planification.
 
-Il permet de:
+Elle permet de :
 - estimer des plages d’effort,
-- rendre explicites les hypothèses,
-- comparer des scénarios de manière transparente,
-- soutenir des échanges informés entre planificateurs et maîtres d’ouvrage.
+- rendre visibles les hypothèses,
+- comparer des variantes de manière transparente,
+- soutenir des discussions fondées entre planificateurs et maîtres d’ouvrage.
 
-ValueApp repose sur:
+La ValueApp repose sur :
 - des données empiriques de référence,
-- une évaluation structurée des quantités, de la complexité, des rôles et de l’effort de pilotage,
+- une évaluation structurée des grandeurs déterminantes, des facteurs d’ajustement, des rôles et de l’effort de pilotage,
 - des plages d’incertitude calibrées.
 
-ValueApp soutient le jugement professionnel.  
-Il ne le remplace pas.
+La ValueApp soutient le jugement professionnel.  
+Elle ne le remplace pas.
 
 ---
 
-## Ce que ValueApp n’est pas
+## Ce que la ValueApp n’est pas
 
 ### Pas un calculateur d’honoraires
 
-ValueApp ne calcule **pas** les honoraires.
+La ValueApp ne calcule **pas d’honoraires**.
 
-Il produit:
-- des plages d’effort (en heures),
-- pas des prix contractuels,
-- pas des offres engageantes.
+Elle fournit :
+- des plages d’effort (heures),
+- pas des prix.
 
-Les honoraires dépendent notamment:
-- du marché,
-- des conditions contractuelles,
-- de la répartition des risques,
-- de la négociation.
-
-Utiliser les résultats de ValueApp comme « honoraires » est une erreur de catégorie.
+Les honoraires dépendent de :
+- conditions de marché,
+- dispositions contractuelles,
+- répartition des risques,
+- négociation.
 
 ---
 
-### Pas un générateur d’offres
+### Pas un outil d’offre
 
-ValueApp:
-- ne génère pas d’offres,
-- ne rédige pas de descriptifs de prestations,
-- ne remplace pas les documents contractuels.
+La ValueApp :
+- ne crée pas d’offres,
+- ne rédige pas de descriptions de prestations,
+- ne remplace pas les textes contractuels.
 
-Il ne connaît pas:
+Elle ne prend pas en compte :
 - les exclusions spécifiques au projet,
-- les contraintes contractuelles,
-- les considérations politiques ou stratégiques.
+- les particularités contractuelles,
+- les cadres politiques ou stratégiques.
 
-La rédaction d’offres reste une tâche professionnelle.
+Les offres restent une tâche professionnelle.
 
 ---
 
 ### Pas un outil de contrôle ou de suivi
 
-ValueApp n’est **pas conçu pour**:
+La ValueApp n’est **pas conçue pour** :
 - le suivi du temps,
-- le contrôle de performance,
-- le benchmarking de personnes ou d’équipes.
+- le contrôle des performances,
+- le benchmarking d’individus ou d’équipes.
 
-Un tel usage:
-- nuit à la confiance,
+Un tel usage :
+- sape la confiance,
 - confond incertitude et écart,
-- contredit l’intention du modèle.
+- contredit la logique du modèle.
 
-ValueApp décrit un **effort attendu**, pas une conformité.
+La ValueApp décrit **un effort attendu**, pas des écarts réel/prévu.
 
 ---
 
-### Pas un indicateur de qualité ou d’ambition
+### Pas une mesure de qualité ou d’ambition
 
-Des résultats plus élevés ne signifient **pas**:
+Des résultats plus élevés ne signifient **pas** :
 - une meilleure architecture,
-- une qualité de conception supérieure,
-- un projet plus ambitieux.
+- une qualité de conception plus élevée,
+- une ambition accrue.
 
-Le modèle ne valorise pas:
-- l’excellence architecturale,
+Le modèle n’évalue pas :
+- la qualité du projet,
 - l’innovation,
 - la valeur esthétique.
 
-Il modélise l’**effort**, pas le mérite.
+Il modélise **l’effort**, pas la qualité.
 
 ---
 
-### Pas un mécanisme de transfert de risque
+### Pas un instrument de transfert de risque
 
-ValueApp:
-- n’élimine pas les risques du projet,
-- ne justifie pas des périmètres sous-financés,
-- ne transforme pas l’incertitude en certitude.
+La ValueApp :
+- n’élimine pas les risques de projet,
+- ne justifie pas des prestations sous-financées,
+- ne fait pas disparaître l’incertitude.
 
-Si l’incertitude est élevée, le résultat le montre.
+Si l’incertitude est élevée, le résultat le reflète.  
 Supprimer ce signal va à l’encontre de l’objectif de l’outil.
 
 ---
 
-## Pourquoi les malentendus apparaissent
+## Pourquoi des malentendus apparaissent
 
-Les usages inappropriés surviennent souvent lorsque:
-- les résultats sont traités comme des valeurs exactes,
-- les plages sont réduites à un seul chiffre,
-- les hypothèses sont ignorées ou dissimulées,
+Les erreurs d’utilisation surviennent souvent lorsque :
+- les résultats sont lus comme des valeurs exactes,
+- les plages sont réduites à des valeurs uniques,
+- les hypothèses sont ignorées ou cachées,
 - les résultats sont sortis de leur contexte.
 
 Dans la plupart des cas, le problème ne vient pas du modèle, mais de sa présentation.
 
 ---
 
-## Comment utiliser ValueApp correctement
+## Utilisation appropriée de la ValueApp
 
-ValueApp est pertinent pour:
-- discuter de l’effort de manière précoce et ouverte,
+La ValueApp est utile pour :
+- discuter de l’effort tôt et ouvertement,
 - comparer des variantes,
-- expliquer pourquoi des projets diffèrent,
-- documenter les hypothèses de façon transparente.
+- expliquer les différences entre projets,
+- documenter les hypothèses de manière transparente.
 
-ValueApp ne doit pas servir à:
-- forcer des chiffres,
+Elle n’est pas adaptée pour :
+- imposer des chiffres,
 - remplacer le jugement professionnel,
 - justifier des décisions a posteriori.
 
-Un résultat inconfortable est souvent instructif.
+Si un résultat semble inconfortable, il contient souvent une information importante.
 
 ---
 
-## Mise en perspective
+## Contexte
 
 - [Interpréter les résultats](output-interpretation.html)
 - [Pourquoi la ValueApp existe](why-valueapp.html)
-- [Facteur d’ajustement / de pilotage](adjustment-factor.html)
-- [Dimensions de complexité](complexity.html)
+- [Facteur d’ajustement / pilotage](adjustment-factor.html)
+- [Facteurs d’ajustement](complexity.html)
 - [Rôles et prestations](roles-and-services.html)
 - [Workflows](workflows.html)
 - [Référence](reference.html)
 
 ---
 
-## Pour conclure
+## Conclusion
 
-ValueApp ne rend pas la planification plus simple.  
-Il rend les **hypothèses visibles**.
-
-C’est précisément son objectif.
+La ValueApp ne rend pas la planification plus simple.  
+Elle rend **les hypothèses visibles**.

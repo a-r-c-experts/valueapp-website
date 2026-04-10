@@ -5,133 +5,139 @@ navKey: reference
 
 # Référence
 
-Ce chapitre constitue la **couche de consultation** : des pages concises et structurées que vous pouvez utiliser comme aide rapide pendant le travail dans l’application.
+Ce chapitre constitue le **niveau de consultation** : des pages courtes et structurées que vous pouvez consulter directement pendant votre travail dans l’application.
 
-- **Tutoriel** = guide pas à pas  
+- **Tutoriel** = guide étape par étape  
 - **Base de connaissances** = concepts et logique  
-- **Référence** = « que signifie ce champ ? » et « comment lire ce résultat ? »
+- **Référence** = « Que signifie ce champ ? » et « Comment lire ce résultat ? »
 
-Si vous cherchez une aide cliquable étape par étape, consultez le [Tutoriel](tutorial.html) ou les [Workflows](workflows.html).
+Si vous recherchez une instruction basée sur des clics, consultez le [tutorial](tutorial.html) ou les [workflows](workflows.html).
 
 ---
 
 ## Accès rapide
 
-Utilisez cette section lorsque vous avez simplement besoin de trouver rapidement la bonne page.
+Utilisez cette section pour trouver rapidement la page appropriée.
 
-### Projet (quantité, usages, complexité)
-- **Quantité / déterminant** (ce qui compte, unités, erreurs fréquentes)  
-  → [Quantité](quantity.html)
+### Projet (grandeur déterminante, usage, facteur d’ajustement)
+- **Grandeur déterminante** (ce qui compte, unités, erreurs typiques)  
+  → [Grandeur déterminante](quantity.html)
 
-- **Catégories d’usage** (comment rattacher des projets réels aux usages)  
+- **Catégories d’usage** (comment les projets réels sont mappés aux usages)  
   → [Catégories d’usage](use-categories.html)
 
-- **Vue d’ensemble des champs Projet** (fonctionnement conceptuel de l’onglet Projet)  
-  → [Section Projet](project-section.html)
+- **Vue d’ensemble des champs projet** (fonctionnement conceptuel de l’onglet projet)  
+  → [Section projet](project-section.html)
 
-- **Dimensions de complexité** (ce que signifient « conceptuel / technique / spatial / organisationnel »)  
+- **Facteur d’ajustement** (ce qu’il représente et ce qu’il ne représente pas)  
+  → [Facteur d’ajustement](adjustment-factor.html)
+
+- **Méthodologie du facteur d’ajustement** (signification de « conception / technique / spatial / organisationnel »)  
   → [Complexité](complexity.html)
 
-- **Facteur d’ajustement / de pilotage** (ce qu’il reflète et ce qu’il ne fait pas)  
-  → [Facteur d’ajustement](adjustment-factor.html)
+---
 
 ### Prestations (rôles, phases, prestations supplémentaires)
 - **Rôles et prestations** (impact du choix du rôle, signification des prestations de base)  
   → [Rôles et prestations](roles-and-services.html)
 
-### Résultats (heures, plages, répartition par phase)
-- **Lire les résultats** (heures, plages, répartitions, ce qu’il ne faut pas affirmer)  
-  → [Interprétation des résultats](output-interpretation.html)
+---
 
-### Finalité et limites
-- **Ce que ValueApp est (et n’est pas)** (éviter le malentendu du « calculateur d’honoraires »)  
-  → [Ce que ValueApp est – et ce qu’il n’est pas](why-valueapp.html)
+### Résultats (heures, plages, répartition par phase)
+- **Lecture des résultats** (heures, plages, distributions, ce qui ne doit pas être affirmé)  
+  → [Interprétation des résultats](output-interpretation.html)
 
 ---
 
-## Ce qui relève de la Référence (et ce qui n’en relève pas)
+### Objectif et limites
+- **Ce qu’est la ValueApp (et ce qu’elle n’est pas)** (éviter le malentendu du « calculateur d’honoraires »)  
+  → [Ce qu’est la ValueApp — et ce qu’elle n’est pas](why-valueapp.html)
 
-Les pages de référence doivent être :
+---
 
-- **précises** (un terme = une signification),
-- **structurées** (pour la recherche et les assistants futurs),
-- **dépourvues de langage marketing**,
-- **claires sur les limites** (ce qu’un champ *ne fait pas*).
+## Ce qui appartient à la référence (et ce qui n’y appartient pas)
+
+Les pages de référence doivent :
+
+- être **précises** (un terme = une signification),
+- être **structurées** (pour la recherche et les assistants futurs),
+- être **dépourvues de langage marketing**,
+- définir clairement les limites (ce qu’un champ *ne fait pas*).
 
 Les pages de référence ne doivent **pas** être :
-- un chapitre théorique complet (voir la [Base de connaissances](knowledge-base.html)),
-- un workflow (voir les [Workflows](workflows.html)),
-- un document de présentation ou de vente (voir [Pourquoi ValueApp existe](why-valueapp.html)).
+- un chapitre théorique (c’est le rôle de la [base de connaissances](knowledge-base.html)),
+- un workflow (c’est le rôle des [workflows](workflows.html)),
+- un support argumentatif (c’est le rôle de [pourquoi la ValueApp existe](why-valueapp.html)).
 
 ---
 
 ## Pages de référence prévues
 
-Ces pages devraient à terme être intégrées ici. Les titres sont formulés de manière à pouvoir devenir des fichiers Markdown distincts.
+Ces pages doivent être développées à long terme. Les titres sont formulés pour devenir des fichiers markdown autonomes.
 
 ### Référence des entrées et paramètres
-Objectif : expliquer chaque champ de saisie de l’interface selon une structure cohérente.
+Objectif : expliquer chaque champ de saisie de manière cohérente.
 
-Structure recommandée par champ :
-- **Définition**
-- **Emplacement** (onglet / section)
-- **Impact**
-- **Erreurs fréquentes**
-- **Concepts associés** (liens)
+Structure recommandée :
+- **Ce que c’est**
+- **Où cela apparaît**
+- **Ce que cela influence**
+- **Erreurs typiques**
+- **Concepts associés**
 
 Pages prévues :
-- **Onglet Description – champs et signification** (identité du projet, statut, tâche, organisation)
-- **Onglet Projet – champs et signification** (quantité, usages, complexité, risque)
-- **Onglet Prestations – champs et signification** (rôle, thèmes clés, répartition par phase, prestations supplémentaires)
+- **Onglet Description – champs et signification**
+- **Onglet Projet – champs et signification**
+- **Onglet Prestations – champs et signification**
 
-En attendant, utilisez :
-- [Section Projet](project-section.html)
+En attendant :
+- [Section projet](project-section.html)
 - [Rôles et prestations](roles-and-services.html)
-- [Tutoriel](tutorial.html)
+- [Tutorial](tutorial.html)
 
 ---
 
-### Référence d’interprétation des résultats
-Objectif : éviter les mauvaises utilisations et rendre les plages d’effort non négociables.
+### Référence pour l’interprétation des résultats
+Objectif : éviter les mauvaises utilisations.
 
 Pages prévues :
-- **Heures et plages** (signification et communication)
-- **Répartition par phase** (ce que signifient les variations, ce qui reste constant)
-- **min/m² et indicateurs dérivés** (interprétation et limites)
-- **Comparaison de projets** (ce qui est comparable et ce qui ne l’est pas)
+- **Heures et plages**
+- **Répartition par phases**
+- **Indicateurs dérivés**
+- **Comparaison de projets**
 
-En attendant, utilisez :
+En attendant :
 - [Interprétation des résultats](output-interpretation.html)
 
 ---
 
 ### Référence technique et intégration
-Objectif : fournir tout ce qui est nécessaire pour intégrer ValueApp comme widget.
+Objectif : intégration en tant que widget.
 
 Pages prévues :
-- **Intégration du widget** (emplacement, dimensions, responsive)
-- **Formats de données et callbacks** (métadonnées, événements, export)
-- **Authentification / accès** (le cas échéant)
-- **Résumé d’implémentation** (basé sur le dépôt d’intégration public)
+- intégration widget
+- formats de données
+- authentification
+- exemples
 
-Point d’entrée actuel :
-- Dépôt d’intégration public : https://github.com/a-r-c-experts/core-value-integration
+Point d’entrée :
+- https://github.com/a-r-c-experts/core-value-integration
 
 ---
 
-### Versions et notes de version
-Objectif : assurer la traçabilité des changements affectant les résultats, l’interface ou les hypothèses.
+### Versions et notes de mise à jour
+Objectif : traçabilité.
 
 Pages prévues :
-- **Notes de version** (chronologiques, concises, orientées utilisateur)
-- **Évolutions du modèle** (modifications des modèles de base ou de la calibration)
-- **Limitations connues** (éléments volontairement non couverts à ce stade)
+- release notes
+- changements de modèle
+- limitations connues
 
 ---
 
 ## Voir aussi
 
-- [Tutoriel](tutorial.html)
+- [Tutorial](tutorial.html)
 - [Workflows](workflows.html)
 - [Base de connaissances](knowledge-base.html)
 - [Support](support.html)

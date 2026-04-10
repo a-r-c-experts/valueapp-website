@@ -58,10 +58,10 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>GF intervals and learned curves</h1>
+<h1>GF Intervals and Learned Curves</h1>
 <p>GF intervals describe <strong>how values change across building size</strong>.</p>
-<p>Instead of assigning one value to an entire building type, ValueApp evaluates projects <strong>across ranges of gross floor area (GF)</strong> and builds a curve over these ranges.</p>
-<p>This allows the system to reflect a simple reality:</p>
+<p>Instead of assigning a single value to an entire building type, ValueApp evaluates projects <strong>across ranges of gross floor area (GFA)</strong> and forms a curve over these ranges.</p>
+<p>This allows the system to represent a simple reality:</p>
 <blockquote>
 <p><em>Small buildings behave differently from large ones.</em></p>
 </blockquote>
@@ -71,7 +71,7 @@
 <ul>
 <li><strong>size ranges of buildings</strong> (e.g. small, medium, large),</li>
 <li>used to group comparable projects,</li>
-<li>and to calculate values within <strong>similar scale conditions</strong>.</li>
+<li>and to calculate values under <strong>similar size conditions</strong>.</li>
 </ul>
 <p>They answer the question:</p>
 <blockquote>
@@ -79,16 +79,16 @@
 </blockquote>
 <p>Not:</p>
 <ul>
-<li>what is the exact value of one single project,</li>
-<li>or what is the average across all sizes.</li>
+<li>what the exact value of a single project is,</li>
+<li>or what the average across all sizes is.</li>
 </ul>
 <hr>
 <h2>The previous approach (reference values)</h2>
-<p>Previously, ValueApp worked mainly with <strong>reference curves</strong>.</p>
+<p>Previously, ValueApp mainly worked with <strong>reference intervals</strong>.</p>
 <ul>
 <li>These were based on <strong>priors</strong>  </li>
 <li>Derived from studies, experience, and structured assumptions  </li>
-<li>Shown in the app as the <strong>black line</strong></li>
+<li>Shown in the app as a <strong>black line</strong></li>
 </ul>
 <p>These reference values were:</p>
 <ul>
@@ -96,40 +96,40 @@
 <li>consistent,</li>
 <li>but not directly learned from project data.</li>
 </ul>
-<p>They defined the expected behaviour across GF intervals.</p>
+<p>They defined the expected behavior across GF intervals.</p>
 <hr>
 <h2>The new approach (learning from data)</h2>
 <p>With the new update, ValueApp introduces a fundamental change:</p>
 <blockquote>
 <p>Values are no longer only defined — they are <strong>learned</strong>.</p>
 </blockquote>
-<p>The system now:</p>
+<p>The system:</p>
 <ol>
-<li>starts from the existing reference curve (priors),</li>
-<li>looks at <strong>real project data</strong>,</li>
+<li>starts with the existing reference intervals (priors),</li>
+<li>considers <strong>real project data</strong>,</li>
 <li>and learns how each building type behaves across GF intervals.</li>
 </ol>
 <p>The result:</p>
 <ul>
 <li>a <strong>data-informed curve</strong> instead of a purely predefined one,</li>
 <li>adjusted per building type,</li>
-<li>while still grounded in the original reference logic.</li>
+<li>and still anchored in the original reference logic.</li>
 </ul>
 <hr>
-<h2>What you see in the graph</h2>
+<h2>What you see in the visualization</h2>
 <p>A typical result contains three elements:</p>
 <ul>
 <li><p><strong>Black line</strong><br>→ previous reference (priors)</p>
 </li>
 <li><p><strong>Points</strong><br>→ real projects</p>
 </li>
-<li><p><strong>Coloured dashed lines</strong><br>→ learned values per requirement level</p>
+<li><p><strong>Colored dashed lines</strong><br>→ learned values per requirement level</p>
 </li>
 </ul>
-<p>This shows clearly:</p>
+<p>This clearly shows:</p>
 <ul>
 <li>where reality matches the reference,</li>
-<li>where it differs,</li>
+<li>where it deviates,</li>
 <li>and how the system adapts.</li>
 </ul>
 <hr>
@@ -137,18 +137,18 @@
 <p>Without GF intervals, the system would assume:</p>
 <ul>
 <li>one value per building type,</li>
-<li>regardless of size.</li>
+<li>independent of size.</li>
 </ul>
-<p>That would ignore:</p>
+<p>This would ignore:</p>
 <ul>
 <li>scaling effects,</li>
 <li>efficiency differences,</li>
-<li>structural and organisational changes with size.</li>
+<li>structural and organizational changes with size.</li>
 </ul>
-<p>GF intervals allow the model to:</p>
+<p>GF intervals allow the model:</p>
 <ul>
-<li>capture these effects,</li>
-<li>and describe a <strong>curve instead of a point</strong>.</li>
+<li>to capture these effects,</li>
+<li>and to describe a <strong>curve instead of a point</strong>.</li>
 </ul>
 <hr>
 <h2>How learning works across building types</h2>
@@ -157,7 +157,7 @@
 <p>The system handles this by combining:</p>
 <ul>
 <li>the <strong>reference curve (priors)</strong>,</li>
-<li><strong>real projects from the same building type</strong>,</li>
+<li><strong>real projects of the same building type</strong>,</li>
 <li>and <strong>related building types within the same group</strong>.</li>
 </ul>
 <p>This means:</p>
@@ -167,16 +167,16 @@
 </ul>
 <p>In both cases:</p>
 <blockquote>
-<p>The result remains stable, but becomes more data-driven where possible.</p>
+<p>The result remains stable but becomes more data-driven where possible.</p>
 </blockquote>
 <hr>
 <h2>What this means in practice</h2>
-<p>The key shift is:</p>
+<p>The key change is:</p>
 <p>Before:</p>
 <ul>
 <li>the reference defined the result</li>
 </ul>
-<p>Now:</p>
+<p>Today:</p>
 <ul>
 <li>the reference is the starting point,</li>
 <li>and the system <strong>learns from real projects</strong></li>
@@ -189,17 +189,17 @@
 </ul>
 <hr>
 <h2>Common misunderstandings</h2>
-<p>Do not assume:</p>
+<p>One should not assume:</p>
 <ul>
-<li>that the reference values are removed  </li>
-<li>that the system invents values freely  </li>
-<li>that more data always means completely different results</li>
+<li>that reference values are removed  </li>
+<li>that the system freely invents values  </li>
+<li>that more data always leads to completely different results</li>
 </ul>
 <p>Instead:</p>
 <ul>
 <li>the reference remains the foundation  </li>
-<li>the model adjusts it carefully  </li>
-<li>and learning happens <strong>within a controlled structure</strong></li>
+<li>the model adjusts it in a controlled way  </li>
+<li>and learning happens <strong>within a clear structure</strong></li>
 </ul>
 <hr>
 <h2>In one sentence</h2>
@@ -209,10 +209,10 @@
 <hr>
 <h2>See also</h2>
 <ul>
-<li><a href="complexity.html">Complexity dimensions</a></li>
-<li><a href="quantity.html">Quantity and baseline effort</a></li>
-<li><a href="adjustment-factor.html">Adjustment (leadership) factor</a></li>
-<li><a href="output-interpretation.html">Interpreting results</a></li>
+<li><a href="complexity.html">Adjustment factor methodology</a></li>
+<li><a href="quantity.html">Determinant and baseline effort</a></li>
+<li><a href="adjustment-factor.html">Adjustment (Leadership) Factor</a></li>
+<li><a href="output-interpretation.html">Interpretation of results</a></li>
 </ul>
 
       </section>

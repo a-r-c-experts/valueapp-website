@@ -5,9 +5,9 @@ navKey: examples
 
 # Exemples
 
-Ce chapitre présente des **scénarios d’utilisation réalistes** afin de vous permettre de comparer votre projet à des références concrètes.
+Ce chapitre présente des **scénarios d’application réalistes**, afin que vous puissiez comparer votre projet avec des références concrètes.
 
-## Exemples (existants)
+## Exemples existants
 
 - **Exemples** : un projet simple et un projet complexe.  
   → [Ouvrir les exemples](examples.html)
@@ -16,17 +16,17 @@ Ce chapitre présente des **scénarios d’utilisation réalistes** afin de vous
 
 - **Projet simple**
 - **Projet complexe**
-- **Cas particuliers et situations limites**
-  - Données inhabituelles
-  - Projets impliquant plusieurs disciplines
+- **Cas particuliers et limites**
+  - Données inhabituelles  
+  - Projets impliquant plusieurs disciplines  
 
-## Où aller ensuite ?
+## Et ensuite ?
 
-- Vous cherchez un guide pas à pas ?  
+- Vous cherchez un guide étape par étape ?  
   → [Workflows](workflows.html)
 
-- Vous souhaitez comprendre les concepts derrière les saisies et les facteurs ?  
+- Vous souhaitez comprendre les bases conceptuelles des données et des facteurs ?  
   → [Base de connaissances](knowledge-base.html)
 
-- Vous cherchez une référence détaillée champ par champ et l’interprétation des résultats ?  
+- Vous cherchez une référence champ par champ et une interprétation des résultats ?  
   → [Référence](reference.html)

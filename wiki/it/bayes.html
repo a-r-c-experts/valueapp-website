@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8" />
   <title>ValueApp Wiki – bayes</title>
@@ -43,6 +43,7 @@
         <button class="lang-option" data-lang="en">EN</button>
         <button class="lang-option" data-lang="de">DE</button>
         <button class="lang-option" data-lang="fr">FR</button>
+        <button class="lang-option" data-lang="it">IT</button>
       </div>
     </div>
 
@@ -57,186 +58,186 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Bayesian learning in ValueApp</h1>
-<p>Bayesian learning describes <strong>how ValueApp combines existing knowledge with real project data</strong>.</p>
-<p>It allows the system to:</p>
+<h1>Apprendimento bayesiano in ValueApp</h1>
+<p>L’apprendimento bayesiano descrive <strong>come ValueApp combina conoscenze esistenti con dati reali di progetto</strong>.</p>
+<p>Permette al sistema di:</p>
 <ul>
-<li>start from a structured reference,</li>
-<li>learn from observed projects,</li>
-<li>and update results in a controlled and transparent way.</li>
+<li>partire da una base di riferimento strutturata,</li>
+<li>apprendere dai progetti osservati,</li>
+<li>aggiornare i risultati in modo controllato e trasparente.</li>
 </ul>
 <hr>
-<h2>What Bayesian means (in simple terms)</h2>
-<p>At its core, Bayesian thinking answers one question:</p>
+<h2>Cosa significa “bayesiano” (spiegato in modo semplice)</h2>
+<p>Alla base, il pensiero bayesiano risponde a una domanda:</p>
 <blockquote>
-<p><em>“How should we update what we believe, once we see new data?”</em></p>
+<p><em>«Come dovremmo adattare ciò che crediamo quando osserviamo nuovi dati?»</em></p>
 </blockquote>
-<p>It always combines two things:</p>
+<p>Combina sempre due elementi:</p>
 <ul>
-<li>what we <strong>already expect</strong>  </li>
-<li>what we <strong>actually observe</strong></li>
+<li>ciò che <strong>ci aspettiamo già</strong>  </li>
+<li>ciò che <strong>osserviamo realmente</strong></li>
 </ul>
-<p>In ValueApp, this means:</p>
+<p>In ValueApp questo significa:</p>
 <ul>
-<li>we do not start from zero  </li>
-<li>and we do not blindly trust data  </li>
-<li>we <strong>combine both</strong></li>
+<li>non partiamo da zero  </li>
+<li>non ci fidiamo ciecamente dei dati  </li>
+<li><strong>combiniamo entrambi</strong></li>
 </ul>
 <hr>
-<h2>The two ingredients</h2>
-<h3>1. Prior (existing knowledge)</h3>
-<p>The <strong>prior</strong> is what we know before looking at the current data.</p>
-<p>In ValueApp, this comes from:</p>
+<h2>I due componenti</h2>
+<h3>1. Prior (conoscenza esistente)</h3>
+<p>Il <strong>prior</strong> è ciò che sappiamo prima di considerare i dati attuali.</p>
+<p>In ValueApp deriva da:</p>
 <ul>
-<li>studies (e.g. ETH work),</li>
-<li>structured experience,</li>
-<li>established reference curves.</li>
+<li>studi (ad es. ETH),</li>
+<li>esperienza strutturata,</li>
+<li>curve di riferimento esistenti.</li>
 </ul>
-<p>It defines:</p>
+<p>Definisce:</p>
 <blockquote>
-<p><em>What we expect a building type to look like across GF intervals.</em></p>
-</blockquote>
-<hr>
-<h3>2. Data (real projects)</h3>
-<p>The data consists of:</p>
-<ul>
-<li>actual projects,</li>
-<li>observed values,</li>
-<li>real distributions across building sizes.</li>
-</ul>
-<p>It shows:</p>
-<blockquote>
-<p><em>What is actually happening in practice.</em></p>
+<p><em>Come ci aspettiamo che un tipo di edificio si comporti nei diversi intervalli GF.</em></p>
 </blockquote>
 <hr>
-<h2>The result: an updated estimate</h2>
-<p>Bayesian learning combines prior and data to produce:</p>
+<h3>2. Dati (progetti reali)</h3>
+<p>I dati comprendono:</p>
+<ul>
+<li>progetti reali,</li>
+<li>valori osservati,</li>
+<li>distribuzioni effettive in base alla dimensione degli edifici.</li>
+</ul>
+<p>Mostrano:</p>
 <blockquote>
-<p>a <strong>posterior</strong> (updated result)</p>
-</blockquote>
-<p>This is what ValueApp shows as the <strong>learned curve</strong>.</p>
-<p>It is:</p>
-<ul>
-<li>not purely predefined,</li>
-<li>not purely data-driven,</li>
-<li>but a <strong>combination of both</strong>.</li>
-</ul>
-<hr>
-<h2>Why this is necessary</h2>
-<p>If we used only priors:</p>
-<ul>
-<li>results would be stable  </li>
-<li>but disconnected from reality</li>
-</ul>
-<p>If we used only data:</p>
-<ul>
-<li>results would be unstable  </li>
-<li>especially with few observations</li>
-</ul>
-<p>Bayesian learning solves this by balancing both.</p>
-<hr>
-<h2>How the balance works</h2>
-<p>The system automatically adjusts how much it trusts each source.</p>
-<h3>When there is a lot of data</h3>
-<ul>
-<li>the model leans more on <strong>real projects</strong>  </li>
-<li>the result becomes more specific  </li>
-<li>the curve reflects observed behaviour</li>
-</ul>
-<h3>When there is little data</h3>
-<ul>
-<li>the model leans more on the <strong>prior</strong>  </li>
-<li>the result stays stable  </li>
-<li>unrealistic jumps are avoided</li>
-</ul>
-<p>In both cases:</p>
-<blockquote>
-<p>The system behaves consistently, but adapts where possible.</p>
+<p><em>Ciò che accade realmente nella pratica.</em></p>
 </blockquote>
 <hr>
-<h2>Why this matters for building types</h2>
-<p>Not all building types are equally represented.</p>
-<p>Some have:</p>
+<h2>Il risultato: una stima aggiornata</h2>
+<p>L’apprendimento bayesiano combina prior e dati in un:</p>
+<blockquote>
+<p><strong>Posterior (risultato aggiornato)</strong></p>
+</blockquote>
+<p>Questo è ciò che ValueApp mostra come <strong>curva appresa</strong>.</p>
+<p>È:</p>
 <ul>
-<li>many projects  </li>
-<li>strong data signals</li>
-</ul>
-<p>Others have:</p>
-<ul>
-<li>very few observations  </li>
-<li>incomplete information</li>
-</ul>
-<p>Bayesian learning allows ValueApp to:</p>
-<ul>
-<li>produce results for all building types,  </li>
-<li>while clearly reflecting data availability,  </li>
-<li>without overfitting or guessing.</li>
+<li>non puramente predefinita,</li>
+<li>non puramente guidata dai dati,</li>
+<li>ma una <strong>combinazione di entrambe</strong>.</li>
 </ul>
 <hr>
-<h2>What this means for GF intervals</h2>
-<p>Within each GF interval, the model:</p>
+<h2>Perché è necessario</h2>
+<p>Se usassimo solo i prior:</p>
+<ul>
+<li>i risultati sarebbero stabili  </li>
+<li>ma scollegati dalla realtà</li>
+</ul>
+<p>Se usassimo solo i dati:</p>
+<ul>
+<li>i risultati sarebbero instabili  </li>
+<li>soprattutto con poche osservazioni</li>
+</ul>
+<p>L’apprendimento bayesiano risolve questo problema bilanciando entrambi.</p>
+<hr>
+<h2>Come funziona la ponderazione</h2>
+<p>Il sistema regola automaticamente quanto fidarsi di ciascuna fonte.</p>
+<h3>Quando sono disponibili molti dati</h3>
+<ul>
+<li>il modello si basa maggiormente sui <strong>progetti reali</strong>  </li>
+<li>il risultato diventa più specifico  </li>
+<li>la curva segue il comportamento osservato</li>
+</ul>
+<h3>Quando sono disponibili pochi dati</h3>
+<ul>
+<li>il modello si basa maggiormente sul <strong>prior</strong>  </li>
+<li>il risultato rimane stabile  </li>
+<li>si evitano variazioni irrealistiche</li>
+</ul>
+<p>In entrambi i casi:</p>
+<blockquote>
+<p>Il sistema rimane coerente, adattandosi dove possibile.</p>
+</blockquote>
+<hr>
+<h2>Perché è importante per le tipologie edilizie</h2>
+<p>Non tutte le tipologie edilizie sono ugualmente rappresentate.</p>
+<p>Alcune hanno:</p>
+<ul>
+<li>molti progetti  </li>
+<li>segnali di dati forti</li>
+</ul>
+<p>Altre hanno:</p>
+<ul>
+<li>pochissime osservazioni  </li>
+<li>informazioni incomplete</li>
+</ul>
+<p>L’apprendimento bayesiano consente a ValueApp di:</p>
+<ul>
+<li>fornire risultati per tutte le tipologie,  </li>
+<li>considerare in modo trasparente la disponibilità dei dati,  </li>
+<li>senza sovradattamento o “stima arbitraria”.</li>
+</ul>
+<hr>
+<h2>Significato per gli intervalli GF</h2>
+<p>All’interno di ogni intervallo GF:</p>
 <ol>
-<li>starts from the reference value (prior),  </li>
-<li>compares it with real project data,  </li>
-<li>adjusts the value accordingly.</li>
+<li>il modello parte dal valore di riferimento (prior),  </li>
+<li>lo confronta con i dati reali,  </li>
+<li>adatta il valore di conseguenza.</li>
 </ol>
-<p>This creates a curve that:</p>
+<p>Si ottiene così una curva che:</p>
 <ul>
-<li>follows real behaviour where data exists,  </li>
-<li>and remains anchored where it does not.</li>
+<li>segue il comportamento reale dove sono presenti dati,  </li>
+<li>e rimane stabile dove non lo sono.</li>
 </ul>
 <hr>
-<h2>What Bayesian learning is not</h2>
-<p>It is not:</p>
+<h2>Cosa non è l’apprendimento bayesiano</h2>
+<p>Non è:</p>
 <ul>
-<li>a black box that invents values  </li>
-<li>a replacement for domain knowledge  </li>
-<li>a purely statistical exercise without structure</li>
+<li>una black box che inventa valori  </li>
+<li>un sostituto del giudizio professionale  </li>
+<li>un esercizio puramente statistico privo di struttura</li>
 </ul>
-<p>Instead:</p>
+<p>Al contrario:</p>
 <ul>
-<li>it formalises how experience and data interact  </li>
-<li>and makes that interaction consistent across all building types</li>
+<li>formalizza l’interazione tra esperienza e dati  </li>
+<li>e rende questa interazione coerente per tutte le tipologie edilizie</li>
 </ul>
 <hr>
-<h2>In one sentence</h2>
+<h2>In una frase</h2>
 <blockquote>
-<p>Bayesian learning allows ValueApp to start from established reference knowledge and continuously update it using real project data.</p>
+<p>L’apprendimento bayesiano consente a ValueApp di partire da valori di riferimento esistenti e aggiornarli continuamente con dati reali di progetto.</p>
 </blockquote>
 <hr>
-<h2>Why this improves ValueApp</h2>
-<p>With Bayesian learning, the system becomes:</p>
+<h2>Perché migliora ValueApp</h2>
+<p>Grazie all’apprendimento bayesiano, il sistema diventa:</p>
 <ul>
-<li>more realistic → reflects actual projects  </li>
-<li>more robust → stable even with limited data  </li>
-<li>more scalable → works across all building types</li>
+<li>più realistico → rappresenta meglio i progetti reali  </li>
+<li>più robusto → rimane stabile anche con pochi dati  </li>
+<li>più scalabile → funziona per tutte le tipologie edilizie</li>
 </ul>
-<p>It ensures that:</p>
+<p>Garantisce:</p>
 <ul>
-<li>new data improves results,  </li>
-<li>but existing knowledge is never discarded.</li>
-</ul>
-<hr>
-<h2>Common misunderstandings</h2>
-<p>Do not assume:</p>
-<ul>
-<li>that priors are ignored  </li>
-<li>that data fully overrides everything  </li>
-<li>that more data always means large changes</li>
-</ul>
-<p>Instead:</p>
-<ul>
-<li>priors remain the foundation  </li>
-<li>data refines them  </li>
-<li>and the model controls how much adjustment is appropriate</li>
+<li>che i nuovi dati migliorino i risultati,  </li>
+<li>senza scartare le conoscenze esistenti.</li>
 </ul>
 <hr>
-<h2>See also</h2>
+<h2>Malintesi frequenti</h2>
+<p>Non bisogna assumere:</p>
 <ul>
-<li><a href="gf-intervals.html">GF intervals and learned curves</a></li>
-<li><a href="complexity.html">Complexity dimensions</a></li>
-<li><a href="quantity.html">Quantity and baseline effort</a></li>
-<li><a href="output-interpretation.html">Interpreting results</a></li>
+<li>che i prior vengano ignorati  </li>
+<li>che i dati sovrascrivano tutto  </li>
+<li>che più dati portino sempre a grandi cambiamenti</li>
+</ul>
+<p>In realtà:</p>
+<ul>
+<li>i prior restano la base  </li>
+<li>i dati li affinano  </li>
+<li>e il modello controlla il grado di adattamento</li>
+</ul>
+<hr>
+<h2>Vedi anche</h2>
+<ul>
+<li><a href="gf-intervals.html">Intervalli GF e curve apprese</a></li>
+<li><a href="complexity.html">Metodologia del fattore di adeguamento</a></li>
+<li><a href="quantity.html">Variabili determinanti e sforzo di base</a></li>
+<li><a href="output-interpretation.html">Interpretazione dei risultati</a></li>
 </ul>
 
       </section>

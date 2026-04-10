@@ -5,39 +5,39 @@ navKey: introduction
 
 # Introduction
 
-Welcome to the ValueApp User Wiki. This section helps you get oriented fast: what the ValueApp is, where to start, and what to read next depending on your goal.
+Welcome to the ValueApp User Wiki. This section helps you quickly get oriented: what the ValueApp is, where to start, and which content is relevant depending on your goal.
 
-## Start here
+## Getting started
 
-- **Home**: the main wiki overview page.  
-  → [Open the Wiki Home](index.html)
+- **Homepage**: the central overview page of the wiki.  
+  → [Open wiki homepage](index.html)
 
-- **Getting started**: the quickest path from “what is this” to “I can use it”.  
-  → [Open Getting started](getting-started.html)
+- **Getting started**: the fastest path from “What is this?” to “I can work with it.”  
+  → [Open getting started](getting-started.html)
 
 ## Conceptual orientation
 
 If you want to understand *what happens between your inputs and the final result*, start with these pages:
 
 - **How the app works**  
-  A conceptual explanation of data flow, phases, calculation logic, and outputs.  
+  A conceptual explanation of data flow, phases, calculation logic, and results.  
   → [How the app works](how-it-works.html)
 
-- **Why ValueApp exists**  
-  The problem it addresses, typical use cases, and what it deliberately does *not* do  
+- **Why the ValueApp exists**  
+  Which problems it addresses, typical use cases, and what it explicitly *is not*  
   (not a fee calculator, not a cost tool).  
-  → [Why ValueApp exists](why-valueapp.html)
+  → [Why the ValueApp exists](why-valueapp.html)
 
-## Where to go next
+## What’s next?
 
-- Want to understand concepts and terminology in depth?  
+- Do you want to understand terms and concepts in more depth?  
   → [Knowledge base](knowledge-base.html)
 
-- Want practical step-by-step instructions?  
+- Do you want practical step-by-step instructions?  
   → [Workflows](workflows.html)
 
-- Want examples you can compare against?  
+- Do you want to see comparable application examples?  
   → [Examples](examples.html)
 
-- Need quick answers or help?  
+- Do you need quick help or answers?  
   → [Support](support.html)

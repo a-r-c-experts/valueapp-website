@@ -6,144 +6,144 @@ navKey: wiki.nav.projectSection
 
 # Section Projet
 
-L’onglet **Projet** est l’endroit où ValueApp transforme  
+L’onglet **Projet** est l’endroit où la ValueApp traduit  
 **« de quel type de projet s’agit-il ? »** en  
 **« quelle plage d’effort est plausible ? »**.
 
 Cela se fait en combinant :
 
-- une **quantité** mesurable (taille du projet),
-- une **répartition des usages** définie (contexte de référence),
+- une **grandeur déterminante** mesurable (taille du projet),
+- un **mix d’usages** défini (contexte de référence),
 - une **évaluation structurée de la complexité**,
-- et, selon la configuration, des **données de risque / exigences**.
+- ainsi que – selon la configuration – des **indications de risque / exigences**.
 
 Cette page explique les champs de manière conceptuelle.  
-Pour des instructions pas à pas, voir le [Tutoriel](tutorial.html).
+Pour une procédure étape par étape, voir le [tutorial](tutorial.html).
 
 ---
 
-## Ce qui se passe dans la section Projet
+## Ce qui se passe dans la section projet
 
-Dans la **section Projet**, ValueApp génère la **plage d’effort de base** en :
+Dans la **section projet**, la ValueApp génère la **plage d’effort de base** en :
 
-1. sélectionnant les **modèles de référence** via la répartition des usages,
-2. les mettant à l’échelle avec la **quantité** saisie,
-3. ajustant le résultat à l’aide de la **complexité et des conditions de pilotage**.
+1. sélectionnant des **modèles de base** appropriés selon l’usage,
+2. les mettant à l’échelle avec la **grandeur déterminante** saisie,
+3. ajustant le résultat via **la complexité et les conditions de pilotage**.
 
 Le résultat est généralement présenté comme :
 - une plage d’effort,
-- souvent normalisée (p. ex. min/m²),
-- avant l’application des rôles et du périmètre des prestations.
+- souvent normalisée (par ex. min/m²),
+- encore **avant** l’application des rôles et des prestations.
 
-Pour la logique complète de la méthode, voir :
-→ [Fonctionnement de l’application](how-it-works.html)
+Pour la logique méthodologique :
+→ [Comment fonctionne l’application](how-it-works.html)
 
 ---
 
 ## Ce que vous définissez ici
 
-En règle générale, vous définissez :
+Vous définissez généralement :
 
-1. **Quantité / taille du projet**  
-   → [Quantité](quantity.html)
+1. **Grandeur déterminante / taille du projet**  
+   → [Grandeur déterminante](quantity.html)
 
-2. **Répartition des usages**  
+2. **Mix d’usages**  
    → [Catégories d’usage](use-categories.html)
 
-3. **Complexité** selon quatre dimensions  
-   → [Dimensions de complexité](complexity.html)
+3. **Complexité** en quatre dimensions  
+   → [Méthodologie du facteur d’ajustement](complexity.html)
 
 4. **Facteur de pilotage / d’ajustement** (dérivé)  
    → [Facteur d’ajustement](adjustment-factor.html)
 
 5. **Risque / exigences** (si activé)
 
-Ces éléments déterminent ensemble le **profil d’effort de base**, avant l’application des rôles et des prestations.
+Ces éléments déterminent ensemble le **profil d’effort de base**, avant la prise en compte des rôles et des prestations.
 
 ---
 
-## Quantité (déterminant)
+## Grandeur déterminante
 
-La quantité représente l’**échelle du projet**, le plus souvent :
+La grandeur déterminante décrit **l’échelle du projet**, généralement sous forme de :
 
-- la surface brute de plancher (m² SBF)
+- surface de plancher brute (m²)
 
-Points clés :
-- toujours saisir la **quantité totale du projet**,
-- inclure les sous-sols et les surfaces communes lorsque pertinent,
-- de petites variations peuvent avoir un impact significatif.
+Points importants :
+- toujours saisir la **grandeur totale du projet**,
+- inclure les sous-sols et les surfaces communes,
+- de petites variations peuvent avoir de grands effets.
 
-Détails et pièges fréquents :
-→ [Quantité](quantity.html)
+Détails et erreurs fréquentes :
+→ [Grandeur déterminante](quantity.html)
 
 ---
 
-## Répartition des usages
+## Mix d’usages
 
-La répartition des usages indique à l’application **dans quel univers de référence se situe le projet**.
+Le mix d’usages indique à l’application **dans quel univers de référence se situe le projet**.
 
-- Une ou plusieurs catégories d’usage peuvent être sélectionnées.
-- Les pourcentages doivent totaliser 100 %.
+- Un ou plusieurs usages sont possibles.
+- Les parts doivent totaliser 100 %.
 - Les projets mixtes sont calculés comme des **combinaisons pondérées**.
 
-La répartition des usages sélectionne les modèles de base.  
-La complexité explique les écarts *au sein* de ces modèles.
+L’usage sélectionne les modèles de base.  
+Les facteurs d’ajustement expliquent les écarts *au sein* de ces modèles.
 
 Exemples et définitions :
 → [Catégories d’usage](use-categories.html)
 
 ---
 
-## Évaluation de la complexité
+## Évaluation des facteurs d’ajustement
 
-La complexité décrit **le degré de prévisibilité et de maîtrise de la tâche de conception**, et non sa qualité ou son ambition.
+Les facteurs d’ajustement décrivent **à quel point la tâche de planification est prévisible et maîtrisable**, et non sa qualité ou son ambition.
 
-ValueApp évalue la complexité selon quatre dimensions :
-- conceptuelle
+La ValueApp évalue ces facteurs selon quatre dimensions :
+- conception
 - technique
-- spatiale
-- organisationnelle
+- spatial
+- organisationnel
 
-Ces évaluations sont traduites en un **facteur de pilotage / d’ajustement** qui modifie l’effort de base.
+Ces évaluations sont traduites en un **facteur de pilotage / d’ajustement**, qui modifie l’effort de base.
 
 Contexte conceptuel :
-→ [Dimensions de complexité](complexity.html)  
+→ [Méthodologie du facteur d’ajustement](complexity.html)  
 → [Facteur d’ajustement](adjustment-factor.html)
 
 ---
 
-## Risque et exigences (optionnel)
+## Risques et exigences (optionnel)
 
-Si cette option est activée dans votre configuration, les données de risque servent à documenter :
+Si activé, les indications de risque permettent de documenter :
 - les incertitudes externes,
 - les risques d’autorisation,
 - l’instabilité des processus.
 
 Le risque :
-- élargit généralement les plages,
+- élargit généralement la plage,
 - ne modifie pas la logique de base.
 
 Pour l’interprétation :
-→ [Interprétation des résultats](output-interpretation.html)
+→ [Interpréter les résultats](output-interpretation.html)
 
 ---
 
 ## Conseils pratiques
 
-- **Être explicite** : consigner les hypothèses dans la description du projet.
-- **Utiliser des références** : comparer avec des projets similaires.
-- **Éviter les ajustements artificiels** : ne pas « corriger » ici ce qui relève du rôle ou du périmètre des prestations.
+- **Soyez explicite** : documentez les hypothèses dans la description du projet.
+- **Utilisez des références** : comparez avec des projets similaires.
+- **Ne corrigez pas ici** : ne « réparez » pas les résultats si le problème concerne en réalité le rôle ou les prestations.
 
-La section Projet sert à la **mise en contexte et à la plausibilité**, pas à la négociation.
+La section projet sert à la **classification et à la plausibilisation**, pas à la négociation.
 
 ---
 
 ## Voir aussi
 
-- [Tutoriel](tutorial.html)
-- [Quantité](quantity.html)
+- [Tutorial](tutorial.html)
+- [Grandeur déterminante](quantity.html)
 - [Catégories d’usage](use-categories.html)
-- [Dimensions de complexité](complexity.html)
+- [Méthodologie du facteur d’ajustement](complexity.html)
 - [Facteur d’ajustement](adjustment-factor.html)
-- [Interprétation des résultats](output-interpretation.html)
-- [Pourquoi ValueApp existe](why-valueapp.html)
+- [Interpréter les résultats](output-interpretation.html)
+- [Pourquoi la ValueApp existe](why-valueapp.html)

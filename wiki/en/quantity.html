@@ -58,125 +58,105 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Quantity and baseline effort</h1>
-<p>Quantity defines the <strong>scale of the project</strong>.<br>It is the primary driver of baseline effort in ValueApp.</p>
-<p>Everything else (complexity, adjustment factor) <strong>modifies</strong> this baseline.<br>Nothing replaces it.</p>
+<h1>Determinant and Baseline Effort</h1>
+<p>The determinant defines the <strong>scale of the project</strong>.<br>It is the primary driver of baseline effort in the ValueApp.</p>
+<p>Adjustment factors <strong>modify</strong> this baseline value.<br>Nothing replaces it.</p>
 <hr>
-<h2>What quantity means in ValueApp</h2>
-<p>In ValueApp, quantity represents:</p>
+<h2>What “determinant” means in the ValueApp</h2>
+<p>In the ValueApp, the determinant represents:</p>
 <ul>
 <li>the <strong>size of what is being planned</strong>,</li>
-<li>expressed through a <strong>single, dominant quantity</strong>.</li>
+<li>expressed through <strong>one dominant metric</strong>.</li>
 </ul>
-<p>It answers the question:</p>
-<blockquote>
-<p><em>“How much project is there?”</em></p>
-</blockquote>
-<p>Not:</p>
-<ul>
-<li>how difficult it is,</li>
-<li>how well organised it is,</li>
-<li>how ambitious the design is.</li>
-</ul>
-<p>Those are handled elsewhere.</p>
 <hr>
-<h2>Typical quantities used</h2>
-<p>Depending on project type, quantity is usually expressed as:</p>
+<h2>Determinants used</h2>
+<p>The determinant is specified as:</p>
 <ul>
-<li><p><strong>Gross floor area (GFA / BGF)</strong><br>Most common for buildings.</p>
-</li>
-<li><p><strong>Units</strong><br>For housing, rooms, or repetitive elements.</p>
-</li>
-<li><p><strong>Functional area</strong><br>When only part of a building is relevant.</p>
-</li>
+<li><strong>floor area / gross floor area</strong></li>
 </ul>
-<p>The key rule is:</p>
-<blockquote>
-<p><strong>Use the quantity that best represents planning effort</strong>, not construction cost.</p>
-</blockquote>
 <hr>
-<h2>Why quantity matters so much</h2>
-<p>Quantity is the <strong>only factor that scales effort predictably</strong>.</p>
-<p>Doubling the quantity does not double effort linearly, but:</p>
+<h2>Why the determinant is so critical</h2>
+<p>The determinant is the <strong>only factor</strong> that reliably scales effort.</p>
+<p>Doubling the determinant does not double effort linearly, but leads to:</p>
 <ul>
-<li>it increases coordination,</li>
-<li>increases documentation,</li>
-<li>increases repetition with variation.</li>
+<li>more coordination,</li>
+<li>more documentation,</li>
+<li>more repetition with variation.</li>
 </ul>
-<p>ValueApp’s baseline curves are calibrated so that:</p>
+<p>The ValueApp intervals are calibrated so that:</p>
 <ul>
 <li>small projects are not overestimated,</li>
-<li>large projects are not naïvely extrapolated.</li>
+<li>large projects are not naively extrapolated.</li>
 </ul>
 <hr>
-<h2>How quantity affects results</h2>
-<p>Quantity:</p>
+<h2>How the determinant affects results</h2>
+<p>The determinant:</p>
 <ul>
 <li>defines the <strong>baseline effort range</strong>,</li>
 <li>applies across all planning phases,</li>
-<li>interacts with complexity rather than replacing it.</li>
+<li>always interacts with adjustment factors.</li>
 </ul>
-<p>A larger quantity means:</p>
+<p>A larger determinant typically means:</p>
 <ul>
 <li>more drawings,</li>
-<li>more coordination cycles,</li>
-<li>more interfaces to manage.</li>
+<li>more coordination loops,</li>
+<li>more interfaces.</li>
 </ul>
-<p>But quantity alone does <strong>not</strong> explain:</p>
+<p>However, the determinant alone does <strong>not</strong> explain:</p>
 <ul>
-<li>why two projects of the same size differ significantly,</li>
-<li>why some small projects are disproportionately demanding.</li>
+<li>why projects of the same size can have very different effort,</li>
+<li>why small projects can sometimes be disproportionately complex.</li>
 </ul>
-<p>That is why complexity and adjustment factors exist.</p>
+<p>That is what adjustment factors are for.</p>
 <hr>
-<h2>Choosing the right quantity</h2>
-<p>When in doubt:</p>
+<h2>Choosing the right determinant</h2>
+<p>As a rule:</p>
 <ul>
-<li>Prefer <strong>slightly too simple</strong> over overly precise.</li>
-<li>Use <strong>one dominant quantity</strong>, not several.</li>
-<li>Avoid “optimised” quantities chosen to influence results.</li>
+<li>Prefer <strong>slight simplification</strong> over artificial precision.</li>
+<li>Use <strong>one dominant metric</strong>, not multiple.</li>
+<li>Do not “optimize” the determinant to influence results.</li>
 </ul>
-<p>If the number feels debatable, document the assumption rather than refining it endlessly.</p>
+<p>If a value is debatable, document the assumption rather than refining it endlessly.</p>
 <p>Precision without clarity is not accuracy.</p>
 <hr>
-<h2>Where quantity appears in the app</h2>
-<p>You define quantity in:</p>
+<h2>Where the determinant appears in the app</h2>
+<p>You define the determinant in:</p>
 <ul>
-<li><p><strong>Project setup</strong><br>As the first substantive input.</p>
+<li><p><strong>Project definition</strong><br>As the first key input.</p>
 </li>
 <li><p><strong>Baseline calculation</strong><br>Where it anchors all further adjustments.</p>
 </li>
-<li><p><strong>Result summary</strong><br>Where it explains scale-related effort differences.</p>
+<li><p><strong>Result summary</strong><br>Where it explains scale-related differences in effort.</p>
 </li>
 </ul>
-<p>For a guided walkthrough, see:
-→ <a href="workflows.html#quantity">Workflow: defining quantity</a></p>
+<p>For guided instructions:
+→ <a href="workflows.html#quantity">Workflow: define determinant</a></p>
 <hr>
-<h2>Common mistakes to avoid</h2>
-<p>Do not:</p>
+<h2>Avoid common mistakes</h2>
+<p>Avoid:</p>
 <ul>
-<li>mix net and gross areas inconsistently,</li>
-<li>exclude “uncomfortable” parts of the project,</li>
-<li>change quantity late to correct an outcome.</li>
+<li>mixing net and gross areas,</li>
+<li>excluding inconvenient parts of the project,</li>
+<li>changing the determinant afterward to “fix” a result.</li>
 </ul>
-<p>If changing quantity significantly alters the result, that is not a bug.<br>It means the project scope changed.</p>
+<p>If changing the determinant significantly alters the result, that is not an error.<br>It means the project scope has changed.</p>
 <hr>
 <h2>Optional visual reference</h2>
-<p>The relationship between quantity and baseline effort is <strong>non-linear</strong>:</p>
-<p><img src="/wiki-assets/knowledge/quantity-baseline-curve.jpeg" alt="Quantity vs baseline effort curve"></p>
+<p>The relationship between determinant and baseline effort is <strong>not linear</strong>:</p>
+<p><img src="/wiki-assets/knowledge/quantity-baseline-curve.jpeg" alt="Determinant vs. baseline effort"></p>
 <p>The curve reflects:</p>
 <ul>
-<li>economies of repetition,</li>
-<li>increasing coordination load at scale.</li>
+<li>repetition effects,</li>
+<li>increasing coordination effort with larger scale.</li>
 </ul>
 <hr>
 <h2>See also</h2>
 <ul>
-<li><a href="complexity.html">Complexity dimensions</a></li>
-<li><a href="adjustment-factor.html">Adjustment (leadership) factor</a></li>
+<li><a href="complexity.html">Adjustment factor methodology</a></li>
+<li><a href="adjustment-factor.html">Adjustment factor</a></li>
 <li><a href="roles-and-services.html">Roles and services</a></li>
 <li><a href="output-interpretation.html">Interpreting results</a></li>
-<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+<li><a href="why-valueapp.html">What ValueApp is—and what it is not</a></li>
 </ul>
 
       </section>

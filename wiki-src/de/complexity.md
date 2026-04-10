@@ -186,8 +186,8 @@ Wenn sich Komplexität schwer begründen lässt, ist das oft ein Hinweis darauf,
 
 ## Siehe auch
 
-- [Quantity and baseline effort](quantity.html)
-- [Adjustment (leadership) factor](adjustment-factor.html)
-- [Roles and services](roles-and-services.html)
-- [Interpreting results](output-interpretation.html)
-- [What ValueApp is – and what it is not](why-valueapp.html)
+- [Determinierende Grössen und Basisaufwand](quantity.html)
+- [Anpassungsfaktor](adjustment-factor.html)
+- [Rollen und Leistungen](roles-and-services.html)
+- [Ergebnisse interpretieren](output-interpretation.html)
+- [Was die ValueApp ist – und was sie nicht ist](why-valueapp.html)

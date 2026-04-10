@@ -1,62 +1,78 @@
 ---
 i18nTitle: wiki.howItWorks.title
-navKey: how-it-works
+navKey: wiki.nav.howItWorks
 ---
 
-# Comment l’application fonctionne
+# Comment fonctionne l’application
 
-Cette page explique, à un niveau conceptuel, ce que fait la ValueApp entre vos saisies et le one-pager final. Si vous cherchez plutôt la version « cliquez ici, saisissez cela », passez directement au [Tutoriel](tutorial.html).
+## Résumé
 
-## L’idée en une phrase
+La ValueApp estime l’effort de planification (heures) pour les disciplines et les phases sur la base de **déterminants mesurables** (par ex. surface de plancher brute) et de **facteurs d’ajustement spécifiques au projet**.  
+Au lieu de « coûts de construction → honoraires », l’application fonctionne avec : **données de référence → effort de base → facteurs d’ajustement → heures par phase → résumé**.
 
-La ValueApp estime l’effort de planification (en heures) pour les prestations de base en combinant un **modèle de base** (issu de projets de référence) avec un **déterminant** (généralement la surface de plancher brute) et des **facteurs d’ajustement** (complexité et contexte).
+## Flux de données en quatre étapes
 
-## Ce qui se passe de gauche à droite
+### 1. Description : contexte et organisation
 
-### 1) Vous décrivez le projet
+Dans l’étape **Description**, vous saisissez :
+- le titre du projet, l’adresse, le statut (par ex. étude, avant-projet, exécution)
+- une courte description du projet (conditions, particularités)
+- l’organisation (par ex. planificateur individuel, planificateur général, entreprise générale)
 
-Dans **Description (Beschrieb)**, vous saisissez l’identité du projet et l’organisation des acteurs. C’est important, car les résultats sont faits pour être communiqués et archivés, pas seulement consultés à l’écran.
+**Pourquoi c’est important :**  
+Le contexte et l’organisation influencent l’interprétation des résultats (par ex. responsabilités, interfaces, effort de communication).
 
-### 2) Vous définissez quantité, usages et complexité
+### 2. Projet : déterminant, mix d’usages et facteurs d’ajustement
 
-Dans **Projet (Projekt)**, vous renseignez :
+Dans l’étape **Projet**, vous définissez la base du calcul :
+- **déterminant** (généralement m² de surface de plancher brute)
+- **usage(s)** ou mix d’usages (par ex. logement, travail, formation/recherche)
+- **facteur d’ajustement** selon quatre dimensions : conception, technique, spatial, organisationnel
 
-- le **déterminant** (par exemple la surface de plancher brute en m²),
-- la **répartition des usages** (logement, travail, enseignement, etc.),
-- une **évaluation structurée de la complexité** (dimensions architecturale, technique, spatiale et organisationnelle).
+L’application relie ces entrées à un **modèle de base** (données de référence) et en déduit un effort de base (LI).  
+L’évaluation de la complexité est positionnée dans le **Leadership Framework for Decision Making** et conduit à un **facteur d’ajustement (AF)**.
 
-Cette complexité est positionnée dans le Leadership Framework et traduite en **facteur d’ajustement**.
+### 3. Prestations : rôle, priorités et répartition par phases
 
-### 3) Vous sélectionnez le rôle et le périmètre des prestations
+Dans l’étape **Prestations**, vous choisissez :
+- votre rôle (par ex. architecture, architecture & planification générale)
+- les thèmes prioritaires (si applicable)
+- la répartition par phases (par ex. SIA 3–5)
 
-Dans **Prestations (Leistung)**, vous choisissez votre rôle (architecte, planificateur général, etc.), indiquez les thèmes prioritaires et examinez les heures calculées pour 100 % des prestations de base, y compris leur répartition par phase.
+**Résultat :** heures par phase (et par discipline si pertinent), sur la base de :
+- l’effort de base (modèle de base + déterminant)
+- les facteurs d’ajustement liés à la qualité, au projet et au processus
 
-### 4) Vous validez et exportez
+### 4. Résumé : résultats, documentation, export
 
-Dans **Synthèse (Zusammenfassung)**, l’application consolide les données et les résultats dans un one-pager destiné à la communication (offre, contrôle interne, appels d’offres, documentation).
+Le **Résumé** est le niveau « communicable » :
+- données clés (déterminant, mix d’usages, organisation)
+- indicateurs d’effort (par ex. heures / m², plages)
+- heures par phase et, le cas échéant, indications d’interprétation
 
-## Ce qui est calculé
+Cette page est destinée aux **offres, à la validation interne et aux procédures d’attribution**.
 
-Sous une forme simplifiée, la méthode peut s’écrire ainsi :
+## Logique de calcul en une phrase
 
-**Effort (h) = Effort de base × Déterminant × AF_qualité × AF_projet/processus**
+Simplifiée :
 
-- **Effort de base** : issu d’un modèle statistique de référence pour un usage donné.
-- **Déterminant** : facteur d’échelle de l’effort (le plus souvent en m²).
-- **AF_qualité** : reflète la complexité des défis architecturaux, techniques, spatiaux et organisationnels.
-- **AF_projet/processus** : prend en compte des effets supplémentaires liés au contexte ou au processus, le cas échéant.
+**Effort (h) = Effort de base LI (h) × Déterminant × AF\_Qualité × AF\_(Projet/Processus)**
 
-Si ces notions vous semblent abstraites, la page [Définitions](definitions.html) les détaille.
+- **LI** provient du modèle de base et correspond à « l’effort par unité ».
+- **AF** ajuste le résultat en fonction de la complexité et du contexte.
 
-## Ce que le résultat est (et n’est pas)
+## Ce que sont les résultats — et ce qu’ils ne sont pas
 
-- Le résultat est une **fourchette d’effort plausible**, ancrée dans des projets de référence comparables.
-- Ce n’est **pas** un calculateur d’honoraires et cela ne **remplace pas** le jugement professionnel.
-- Sa valeur réside dans la transparence : les hypothèses sont visibles, discutables et documentables.
+**Les résultats sont :**
+- une **estimation** transparente et traçable basée sur des références et des données claires
+- adaptés à la validation, à la communication et aux décisions précoces
 
-## Voir aussi
-- [Pourquoi la ValueApp existe](why-valueapp.html)
-- [Définitions et concepts clés](definitions.html)
-- [Section Projet](project-section.html)
-- [Exemples](examples.html)
-- [Tutoriel](tutorial.html)
+**Les résultats ne sont pas :**
+- un calcul d’honoraires basé sur les coûts
+- un remplacement de contrat, de définition des prestations ou de clarifications spécifiques
+
+## Pages complémentaires
+
+- **Premiers pas :** aperçu des étapes : [getting-started.html](getting-started.html)  
+- **Concepts :** modèles de base, déterminants, AF : [definitions.html](definitions.html)  
+- **Tutoriel :** guide détaillé : [tutorial.html](tutorial.html)

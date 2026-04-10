@@ -5,30 +5,30 @@ navKey: workflows
 
 # Workflows
 
-This chapter is for real-world usage: **how to do things in the app**, step by step, without philosophical detours.
+This chapter focuses on practical use: **how to get things done in the app**, step by step, without philosophical detours.
 
 ## Tutorials (existing)
 
-- **Tutorial**: walkthrough with screenshots and practical guidance.  
-  → [Open Tutorial](tutorial.html)
+- **Tutorial**: guided walkthrough with screenshots and practical explanations.  
+  → [Open tutorial](tutorial.html)
 
 ## Planned workflow guides
 
-These pages will be added as the wiki grows:
+These pages will be added as the wiki evolves:
 
 - **Create a new project**
 - **Share or communicate results**
 - **Export results**
 - **Troubleshooting and common issues**  
-  Short help for frequent stumbling blocks.
+  Short guidance for typical pitfalls.
 
-## Where to go next
+## Where to go next?
 
-- Need definitions and conceptual grounding?  
+- Do you need definitions and conceptual background?  
   → [Knowledge base](knowledge-base.html)
 
-- Need field-by-field explanations and result interpretation?  
+- Do you need field-by-field explanations and result interpretation?  
   → [Reference](reference.html)
 
-- Prefer learning through examples?  
+- Do you prefer learning through examples?  
   → [Examples](examples.html)

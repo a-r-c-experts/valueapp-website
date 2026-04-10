@@ -5,30 +5,30 @@ navKey: workflows
 
 # Workflows
 
-Ce chapitre est dédié à l’usage concret : **comment effectuer des actions dans l’application**, étape par étape, sans détours théoriques.
+Ce chapitre est consacré à l’utilisation pratique : **comment réaliser des actions dans l’application**, étape par étape, sans détours philosophiques.
 
-## Tutoriels (existant)
+## Tutoriels (existants)
 
-- **Tutoriel** : parcours guidé avec captures d’écran et indications pratiques.  
+- **Tutoriel** : parcours guidé avec captures d’écran et explications pratiques.  
   → [Ouvrir le tutoriel](tutorial.html)
 
 ## Guides de workflow prévus
 
-Ces pages seront ajoutées au fur et à mesure de l’évolution du wiki :
+Ces pages seront ajoutées au fur et à mesure du développement du wiki :
 
 - **Créer un nouveau projet**
 - **Partager ou communiquer les résultats**
 - **Exporter les résultats**
 - **Dépannage et problèmes fréquents**  
-  Aide courte pour les blocages courants.
+  Aide concise pour les difficultés courantes.
 
-## Où aller ensuite
+## Où aller ensuite ?
 
-- Besoin de définitions et de bases conceptuelles ?  
+- Avez-vous besoin de définitions et de contexte conceptuel ?  
   → [Base de connaissances](knowledge-base.html)
 
-- Besoin d’explications champ par champ et d’interprétation des résultats ?  
+- Avez-vous besoin d’explications champ par champ et d’une interprétation des résultats ?  
   → [Référence](reference.html)
 
-- Préférez apprendre à partir d’exemples concrets ?  
+- Préférez-vous apprendre à partir d’exemples ?  
   → [Exemples](examples.html)

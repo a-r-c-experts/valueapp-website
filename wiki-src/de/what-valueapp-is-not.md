@@ -155,5 +155,3 @@ Wenn sich ein Ergebnis unbequem anfühlt, ist das oft eine wichtige Information.
 
 ValueApp macht Planung nicht einfacher.  
 Es macht **Annahmen sichtbar**.
-
-Genau darum geht es.

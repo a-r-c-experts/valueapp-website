@@ -3,148 +3,127 @@ i18nTitle: wiki.quantity.title
 navKey: quantity
 ---
 
-# Quantity and baseline effort
+# Determinant and Baseline Effort
 
-Quantity defines the **scale of the project**.  
-It is the primary driver of baseline effort in ValueApp.
+The determinant defines the **scale of the project**.  
+It is the primary driver of baseline effort in the ValueApp.
 
-Everything else (complexity, adjustment factor) **modifies** this baseline.  
+Adjustment factors **modify** this baseline value.  
 Nothing replaces it.
 
 ---
 
-## What quantity means in ValueApp
+## What “determinant” means in the ValueApp
 
-In ValueApp, quantity represents:
+In the ValueApp, the determinant represents:
 - the **size of what is being planned**,
-- expressed through a **single, dominant quantity**.
-
-It answers the question:
-
-> *“How much project is there?”*
-
-Not:
-- how difficult it is,
-- how well organised it is,
-- how ambitious the design is.
-
-Those are handled elsewhere.
+- expressed through **one dominant metric**.
 
 ---
 
-## Typical quantities used
+## Determinants used
 
-Depending on project type, quantity is usually expressed as:
+The determinant is specified as:
 
-- **Gross floor area (GFA / BGF)**  
-  Most common for buildings.
-
-- **Units**  
-  For housing, rooms, or repetitive elements.
-
-- **Functional area**  
-  When only part of a building is relevant.
-
-The key rule is:
-> **Use the quantity that best represents planning effort**, not construction cost.
+- **floor area / gross floor area**
 
 ---
 
-## Why quantity matters so much
+## Why the determinant is so critical
 
-Quantity is the **only factor that scales effort predictably**.
+The determinant is the **only factor** that reliably scales effort.
 
-Doubling the quantity does not double effort linearly, but:
-- it increases coordination,
-- increases documentation,
-- increases repetition with variation.
+Doubling the determinant does not double effort linearly, but leads to:
+- more coordination,
+- more documentation,
+- more repetition with variation.
 
-ValueApp’s baseline curves are calibrated so that:
+The ValueApp intervals are calibrated so that:
 - small projects are not overestimated,
-- large projects are not naïvely extrapolated.
+- large projects are not naively extrapolated.
 
 ---
 
-## How quantity affects results
+## How the determinant affects results
 
-Quantity:
+The determinant:
 - defines the **baseline effort range**,
 - applies across all planning phases,
-- interacts with complexity rather than replacing it.
+- always interacts with adjustment factors.
 
-A larger quantity means:
+A larger determinant typically means:
 - more drawings,
-- more coordination cycles,
-- more interfaces to manage.
+- more coordination loops,
+- more interfaces.
 
-But quantity alone does **not** explain:
-- why two projects of the same size differ significantly,
-- why some small projects are disproportionately demanding.
+However, the determinant alone does **not** explain:
+- why projects of the same size can have very different effort,
+- why small projects can sometimes be disproportionately complex.
 
-That is why complexity and adjustment factors exist.
+That is what adjustment factors are for.
 
 ---
 
-## Choosing the right quantity
+## Choosing the right determinant
 
-When in doubt:
+As a rule:
 
-- Prefer **slightly too simple** over overly precise.
-- Use **one dominant quantity**, not several.
-- Avoid “optimised” quantities chosen to influence results.
+- Prefer **slight simplification** over artificial precision.
+- Use **one dominant metric**, not multiple.
+- Do not “optimize” the determinant to influence results.
 
-If the number feels debatable, document the assumption rather than refining it endlessly.
+If a value is debatable, document the assumption rather than refining it endlessly.
 
 Precision without clarity is not accuracy.
 
 ---
 
-## Where quantity appears in the app
+## Where the determinant appears in the app
 
-You define quantity in:
+You define the determinant in:
 
-- **Project setup**  
-  As the first substantive input.
+- **Project definition**  
+  As the first key input.
 
 - **Baseline calculation**  
   Where it anchors all further adjustments.
 
 - **Result summary**  
-  Where it explains scale-related effort differences.
+  Where it explains scale-related differences in effort.
 
-For a guided walkthrough, see:
-→ [Workflow: defining quantity](workflows.html#quantity)
+For guided instructions:
+→ [Workflow: define determinant](workflows.html#quantity)
 
 ---
 
-## Common mistakes to avoid
+## Avoid common mistakes
 
-Do not:
-- mix net and gross areas inconsistently,
-- exclude “uncomfortable” parts of the project,
-- change quantity late to correct an outcome.
+Avoid:
+- mixing net and gross areas,
+- excluding inconvenient parts of the project,
+- changing the determinant afterward to “fix” a result.
 
-If changing quantity significantly alters the result, that is not a bug.  
-It means the project scope changed.
+If changing the determinant significantly alters the result, that is not an error.  
+It means the project scope has changed.
 
 ---
 
 ## Optional visual reference
 
-The relationship between quantity and baseline effort is **non-linear**:
+The relationship between determinant and baseline effort is **not linear**:
 
-![Quantity vs baseline effort curve](\/wiki-assets/knowledge/quantity-baseline-curve.jpeg)
+![Determinant vs. baseline effort](\/wiki-assets/knowledge/quantity-baseline-curve.jpeg)
 
 The curve reflects:
-- economies of repetition,
-- increasing coordination load at scale.
+- repetition effects,
+- increasing coordination effort with larger scale.
 
 ---
 
 ## See also
 
-- [Complexity dimensions](complexity.html)
-- [Adjustment (leadership) factor](adjustment-factor.html)
+- [Adjustment factor methodology](complexity.html)
+- [Adjustment factor](adjustment-factor.html)
 - [Roles and services](roles-and-services.html)
 - [Interpreting results](output-interpretation.html)
-- [What ValueApp is – and what it is not](why-valueapp.html)
+- [What ValueApp is—and what it is not](why-valueapp.html)

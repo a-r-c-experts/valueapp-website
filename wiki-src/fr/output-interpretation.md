@@ -5,131 +5,131 @@ navKey: output-interpretation
 
 # Interpréter les résultats
 
-Les résultats fournis par ValueApp sont une **aide à la décision**, et non des promesses, des garanties ou des vérités contractuelles.
+Les résultats générés par la ValueApp sont une **aide à la décision**, et non des promesses, garanties ou vérités contractuelles.
 
 Ils servent à :
-- soutenir les discussions en phase précoce,
-- créer des attentes partagées,
-- rendre les hypothèses explicites.
+- structurer les discussions en phase initiale,
+- créer des attentes communes,
+- rendre les hypothèses transparentes.
 
 Ils ne remplacent **pas** le jugement professionnel.
 
 ---
 
-## Ce que représentent les résultats
+## Ce que représente le résultat
 
-ValueApp fournit :
+La ValueApp fournit :
 - une **plage d’effort** (et non une valeur unique),
-- ventilée par **phase de planification** et **périmètre de prestations**.
+- répartie par **phases de planification** et **périmètre des prestations**.
 
-Cette plage reflète :
-- l’incertitude des phases initiales,
-- la variabilité de l’effort de coordination et de pilotage,
-- la stabilité plus ou moins grande des processus.
+Cette plage tient compte :
+- de l’incertitude dans les phases précoces,
+- des différences dans l’effort de pilotage et de coordination,
+- de la stabilité variable des processus.
 
-![Plage d’effort plutôt qu’une valeur unique](\/wiki-assets/knowledge/output-effort-range.jpeg)
+![Plage d’effort au lieu d’une valeur unique](\/wiki-assets/knowledge/output-effort-range.jpeg)
 
-Si vous cherchez de la précision, vous êtes probablement trop tôt dans le projet.
+Si vous attendez de la précision, vous êtes généralement trop tôt dans le projet.
 
 ---
 
 ## Pourquoi le résultat est une plage
 
-L’effort de planification ne peut pas être calculé de manière déterministe, car :
+L’effort de planification n’est pas déterministe car :
 - les exigences évoluent,
-- les décisions sont réexaminées,
+- les décisions sont révisées,
 - l’intensité de coordination varie.
 
-La plage exprime :
-- **la borne basse** : conditions stables et favorables,
-- **la borne haute** : charge accrue de coordination et d’itération.
+La plage représente :
+- **limite basse** : conditions stables et favorables,
+- **limite haute** : effort accru de coordination et d’itération.
 
-La largeur de la plage est aussi importante que sa valeur moyenne.
+La largeur de la plage est aussi importante que sa moyenne.
 
-Une plage étroite indique souvent :
-- un projet bien défini.
+Une plage étroite indique généralement :
+- une définition claire du projet.
 
-Une plage large signale généralement :
-- des questions organisationnelles ou procédurales non résolues.
+Une plage large indique souvent :
+- des questions organisationnelles ou de processus encore ouvertes.
 
 ---
 
-## Répartition de l’effort par phase
+## Répartition de l’effort par phases
 
-Les résultats montrent comment l’effort se répartit entre les phases de planification.
+Les résultats montrent comment l’effort se répartit entre les phases.
 
-Cela permet :
-- de comprendre **quand** le travail a lieu,
-- d’aligner ressources et flux financiers,
-- de comparer des projets de manière structurelle, pas émotionnelle.
+Cela permet de :
+- comprendre le **moment** des prestations,
+- aligner la planification des ressources et des flux financiers,
+- comparer les projets de manière structurelle plutôt qu’émotionnelle.
 
-![Répartition de l’effort par phase](\/wiki-assets/knowledge/output-phase-distribution.jpeg)
+![Effort réparti par phase](\/wiki-assets/knowledge/output-phase-distribution.jpeg)
 
 Important :
-- Les répartitions par phase sont **issues d’un modèle**, pas des plannings.
-- Elles supposent une progression continue, pas la réalité faite d’interruptions.
+- les répartitions par phase sont **basées sur un modèle**, pas sur un calendrier.
+- elles supposent une progression continue, et non des interruptions réelles.
 
 ---
 
-## Comparer des projets entre eux
+## Comparaison de projets
 
-Deux projets peuvent :
-- être de taille similaire,
-- sembler comparables en ambition,
-- produire des résultats différents.
+Deux projets peuvent être :
+- de taille similaire,
+- d’ambition comparable,
+- mais produire des résultats différents.
 
 Raisons typiques :
 - rôles ou périmètres de prestations différents,
 - organisations différentes,
-- facteurs de complexité ou de pilotage différents.
+- facteurs d’ajustement ou de pilotage différents.
 
 ![Projets similaires, résultats différents](\/wiki-assets/knowledge/output-comparison-scenarios.jpeg)
 
-Les comparaisons n’ont de sens que si :
-- les hypothèses sont alignées,
-- les rôles et prestations sont comparables,
-- la maturité des projets est similaire.
+Les comparaisons ne sont pertinentes que si :
+- les hypothèses sont comparables,
+- les rôles et prestations correspondent,
+- la phase du projet est similaire.
 
 ---
 
-## Ce que les résultats ne disent *pas*
+## Ce que le résultat ne dit *pas*
 
-Les résultats ne :
-- définissent pas d’honoraires,
-- garantissent pas la charge de travail,
-- remplacent pas des contrats,
-- attribuent pas de responsabilités.
+Les résultats :
+- ne définissent pas les honoraires,
+- ne garantissent pas l’effort,
+- ne remplacent pas les contrats,
+- n’attribuent pas de responsabilités.
 
-Ils ne :
-- justifient pas des projets sous-financés,
-- compensent pas un périmètre flou,
-- éliminent pas les risques de planification.
+Ils :
+- ne justifient pas un sous-financement,
+- ne compensent pas un périmètre flou,
+- n’éliminent pas les risques du projet.
 
-Si un chiffre semble « faux », examinez d’abord les hypothèses.
+Si une valeur semble « incorrecte », vérifiez d’abord les hypothèses.
 
 ---
 
-## Utiliser les résultats de manière responsable
+## Utilisation responsable des résultats
 
 Bonne pratique :
-- communiquer des plages, pas seulement des valeurs moyennes,
+- communiquer des plages, pas seulement des moyennes,
 - documenter les hypothèses clés,
-- réviser les calculs à mesure que le projet évolue.
+- mettre à jour les calculs au fur et à mesure du projet.
 
 À éviter :
-- figer les chiffres trop tôt,
-- présenter les résultats comme des engagements fermes,
-- masquer l’incertitude pour paraître précis.
+- figer les valeurs trop tôt,
+- présenter les résultats comme des engagements,
+- masquer l’incertitude derrière une précision apparente.
 
-La précision rassure. La transparence est utile.
+La précision rassure. La transparence aide.
 
 ---
 
 ## Pour aller plus loin
 
-- [Quantité et effort de base](quantity.html)
-- [Dimensions de complexité](complexity.html)
-- [Facteur d’ajustement / de pilotage](adjustment-factor.html)
+- [Grandeur déterminante et effort de base](quantity.html)
+- [Méthodologie du facteur d’ajustement](complexity.html)
+- [Facteur d’ajustement](adjustment-factor.html)
 - [Rôles et prestations](roles-and-services.html)
 - [Workflows](workflows.html)
-- [Ce que ValueApp est – et n’est pas](why-valueapp.html)
+- [Ce qu’est la ValueApp — et ce qu’elle n’est pas](why-valueapp.html)

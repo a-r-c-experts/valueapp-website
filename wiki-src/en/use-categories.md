@@ -3,15 +3,15 @@ i18nTitle: wiki.useCategories.title
 navKey: use-categories
 ---
 
-# Use categories (building programs)
+# Use Categories (Building Programs)
 
-Use categories define **what kind of project you are planning**.  
-They determine which **reference models** are used as the baseline for effort estimation.
+Use categories define **what type of project this is**.  
+They determine which **reference models** are used as the basis for effort estimation.
 
 The ValueApp does not treat “use” as a label.  
-It treats use as a **proxy for typical requirements, coordination effort, and planning intensity**.
+It uses use as a **proxy for typical requirements, coordination effort, and planning intensity**.
 
-This page explains how use categories work and provides practical examples for mapping real projects to the model structure.
+This page explains how use categories work and shows, through examples, how real projects are mapped to the model.
 
 ---
 
@@ -20,81 +20,81 @@ This page explains how use categories work and provides practical examples for m
 A use category:
 
 - selects one or more **base models**,
-- defines a typical **effort per unit** range,
-- influences how complexity and adjustment factors act on the result.
+- defines a typical **effort per unit**,
+- influences how complexity and adjustment factors affect the result.
 
-If a project combines multiple uses, the ValueApp creates a **weighted combination** of the corresponding models.
+For mixed-use projects, the ValueApp creates a **weighted combination** of the corresponding models.
 
 ---
 
 ## How to use this list
 
-Use the categories as **orientation**, not as a rigid taxonomy.
+Use the categories as **guidance**, not as a rigid typology.
 
 Good practice:
-- choose the category that best reflects **planning effort**, not marketing language,
-- prefer the **dominant functional requirement** over minor secondary uses,
-- split mixed-use projects into several uses and assign percentages.
+- choose the category that best reflects the **planning effort**, not the marketing logic,
+- orient yourself toward the **dominant functional requirement**,
+- split mixed-use projects and assign shares to each use.
 
-If in doubt, compare your case with:
+If in doubt, compare your project with:
 → [Examples](examples.html)
 
 ---
 
-## 1 Housing *(Residence, sports and leisure)*
+## 1 Residential *(Living, Sports and Leisure)*
 
 - Temporary housing  
-- Multi-family houses  
-- Terrace houses  
+- Multi-family housing  
+- Row houses  
 - Weekend houses  
 - Condominiums  
 - Single-family houses  
-- Vacation homes  
+- Holiday homes  
 - Senior housing  
-- Retirement communities  
-- Student dormitories  
-- Apprentice dormitories  
-- Mountain lodges  
-- Campsites  
-- Club huts  
+- Senior residences  
+- Student housing  
+- Apprentice housing  
+- Mountain huts  
+- Camping facilities  
+- Clubhouses  
 - Gymnasiums  
 - Sports halls  
-- Multipurpose halls  
-- Stadium facilities  
-- Sports fields  
-- Grandstand buildings  
-- Locker-room buildings  
-- Bowling alleys  
-- Open-air ice rinks  
+- Multi-purpose halls  
+- Stadium buildings  
+- Sports facilities  
+- Grandstands  
+- Changing room buildings  
+- Bowling facilities  
+- Outdoor ice rinks  
 - Outdoor swimming pools  
-- Indoor ice rinks  
+- Artificial ice rinks  
 - Indoor swimming pools  
 - Riding halls  
 - Boathouses  
 - Shooting ranges  
-- Recreation centers  
+- Leisure centers  
 - Youth centers  
 - Parks  
 - Playgrounds  
-- Zoological gardens  
+- Zoos  
 - Botanical gardens  
-- Animal houses  
+- Animal enclosures  
 - Greenhouses  
 
 ---
 
-## 2 Working *(Services and public functions)*
+## 2 Work *(Services and Public Functions)*
 
 - Nursing homes  
-- Care homes  
+- Care facilities  
 - Children’s homes  
 - Youth homes  
-- Central laundries  
+- Central warehouses  
 - Animal shelters  
-- Veterinary stations  
-- Animal hospitals  
-- Retail buildings without basic fit-out  
-- Retail buildings with basic fit-out  
+- Veterinary practices  
+- Veterinary clinics  
+- Retail buildings without base fit-out  
+- Retail buildings with base fit-out  
 - Department stores  
 - Shopping centers  
 - Market halls  
@@ -102,59 +102,59 @@ If in doubt, compare your case with:
 - Office buildings with higher requirements  
 - Administrative buildings  
 - Banks  
-- Municipal buildings  
+- Community centers  
 - Town halls  
-- Courthouses  
-- Police operational buildings  
-- Detention centers  
+- Court buildings  
+- Police buildings  
+- Detention facilities  
 - Correctional facilities  
-- Daycare homes  
+- Daycare centers  
 - Sheltered workshops  
 - Churches  
 - Chapels  
 - Funeral halls  
-- Parish community centers  
+- Parish centers  
 - Cemetery facilities  
-- Crematoriums  
+- Crematoria  
 - Monasteries  
-- Welfare houses  
+- Social facilities  
 - Clubhouses  
 - Cultural centers  
-- Festival halls  
+- Event halls  
 - Restaurants  
 - Hotels  
 - Motels  
 - Hotels (limited service)  
 - Motels (limited service)  
 - Canteens  
-- Independent large kitchens  
+- Large kitchens  
 - Inns  
 - Youth hostels  
-- Service stations  
+- Service areas  
 - Cafeterias  
 - Tea rooms  
-- Motorway customs stations  
+- Highway toll facilities  
 - Gas stations  
-- Waiting halls with service rooms  
-- Customs posts  
+- Waiting halls with ancillary rooms  
+- Customs facilities  
 - Bus terminals  
 - Train stations  
-- Railway operation buildings  
+- Railway operational buildings  
 - Cable car stations  
 - Airports  
-- Harbor facilities  
-- Post office buildings  
-- Telephone exchange buildings  
-- Postal operations buildings  
+- Port facilities  
+- Postal buildings  
+- Telephone exchanges  
+- Postal distribution centers  
 - Telecommunications buildings  
 - Data centers  
 - Barracks  
-- Armories  
-- Public civil defense facilities  
-- Command posts  
-- Staging facilities  
-- First aid posts  
-- Medical aid centers  
+- Weapons storage  
+- Civil defense facilities  
+- Command centers  
+- Deployment facilities  
+- Medical stations  
+- Medical supply centers  
 - Protected operating rooms  
 - Emergency hospitals  
 - Civil defense training centers  
@@ -162,23 +162,23 @@ If in doubt, compare your case with:
 
 ---
 
-### 3 Manufacturing
+## 3 Production
 
 - Industrial halls  
-- Production buildings for raw materials industry  
-- Production buildings for heavy industry  
-- Production buildings for mechanical industry  
-- Production buildings for precision engineering  
-- Production buildings for processing industry  
-- Production buildings for food industry  
+- Raw material industry buildings  
+- Heavy industry production buildings  
+- Mechanical engineering production buildings  
+- Precision industry production buildings  
+- Processing industry buildings  
+- Food production buildings  
 - Operational buildings  
 - Commercial buildings  
 - Workshops  
-- Stables  
+- Livestock facilities  
 - Agricultural production facilities  
 - Slaughterhouses  
 - Heating plants  
-- District heating systems  
+- District heating facilities  
 - Power plant buildings  
 - Water treatment plants  
 - Wastewater treatment plants  
@@ -187,24 +187,24 @@ If in doubt, compare your case with:
 
 ---
 
-## 4 Storing *(Storage and distribution, parking)*
+## 4 Storage *(Storage, Distribution, Parking)*
 
 - Storage halls  
-- Multi-story storage buildings  
-- Mechanized storage  
-- Cold storage  
-- Silo buildings  
+- Multi-storey storage buildings  
+- Automated storage  
+- Cold storage facilities  
+- Silo structures  
 - Distribution centers (food)  
 - Distribution centers (non-food)  
 - Sheds  
 - Huts  
-- Feed storage rooms  
+- Feed storage  
 - Greenhouses  
-- Single-story garages  
+- Single-storey garages  
 - Underground parking garages  
-- Above-ground parking structures  
-- Road traffic buildings  
-- Works yards  
+- Multi-storey parking garages  
+- Transport infrastructure buildings  
+- Maintenance yards  
 - Railway depots  
 - Tram depots  
 - Pedestrian zones  
@@ -212,27 +212,27 @@ If in doubt, compare your case with:
 
 ---
 
-## 5 Educating and Researching *(Education, teaching, culture, research)*
+## 5 Education and Research *(Education, Teaching, Culture, Research)*
 
 - Daycare centers  
 - Kindergartens  
 - Primary schools  
 - Secondary schools  
 - Vocational schools  
-- Advanced technical schools  
-- Middle schools  
+- Technical schools  
+- Upper secondary schools  
 - High schools  
 - Comprehensive schools  
+- Special schools  
 - Special education schools  
-- Remedial schools  
 - Universities  
 - Higher education institutions  
 - Libraries  
 - State archives  
 - Research institutes without laboratories  
 - Research institutes with laboratories  
-- Laboratory buildings for industry  
-- Laboratory buildings for trade  
+- Industrial laboratory buildings  
+- Commercial laboratory buildings  
 - Temporary exhibition halls  
 - Exhibition buildings  
 - Pavilions  
@@ -242,9 +242,9 @@ If in doubt, compare your case with:
 - Small theaters  
 - Concert halls  
 - Theater buildings  
-- Bandstands  
+- Music pavilions  
 - Cinemas  
-- Discotheques  
+- Nightclubs  
 - Assembly halls  
 - Convention centers  
 - Radio studios  
@@ -253,38 +253,38 @@ If in doubt, compare your case with:
 
 ---
 
-## 6 Healing and Nursing
+## 6 Healthcare
 
-- Doctor’s offices  
+- Medical practices  
 - Medical centers  
 - Hospitals  
-- Bed wings  
-- Treatment wings  
-- University clinics  
+- Inpatient buildings  
+- Treatment facilities  
+- University hospitals  
 - Nursing homes  
 - Rehabilitation centers  
-- Sanatoriums  
-- Spas  
+- Sanatoria  
+- Thermal baths  
 - Specialized institutes  
 
 ---
 
-## Typical mapping problems
+## Typical classification issues
 
-- **“It’s mixed-use, so we pick one category”**  
-  → Split uses and assign percentages.
+- **“It’s mixed-use, so we choose one category”**  
+  → Split and weight the uses.
 
-- **“It’s housing, but very special”**  
-  → Keep the use, reflect the difference in **complexity**, not by changing the category.
+- **“It’s residential, but very special”**  
+  → Keep the use, model the specifics through **complexity**.
 
 - **“It’s small, so it’s simple”**  
-  → Size and use are different drivers. Complexity is assessed separately.
+  → Size and use are separate drivers. Complexity is assessed independently.
 
 ---
 
 ## See also
 
 - [Project section](project-section.html)
-- [Quantity / project size](quantity.html)
-- [Complexity dimensions](complexity.html)
+- [Determinant / project size](quantity.html)
+- [Adjustment factor methodology](complexity.html)
 - [Examples](examples.html)

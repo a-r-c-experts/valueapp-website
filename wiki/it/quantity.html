@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8" />
   <title>ValueApp Wiki – quantity</title>
@@ -43,6 +43,7 @@
         <button class="lang-option" data-lang="en">EN</button>
         <button class="lang-option" data-lang="de">DE</button>
         <button class="lang-option" data-lang="fr">FR</button>
+        <button class="lang-option" data-lang="it">IT</button>
       </div>
     </div>
 
@@ -57,125 +58,105 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Quantity and baseline effort</h1>
-<p>Quantity defines the <strong>scale of the project</strong>.<br>It is the primary driver of baseline effort in ValueApp.</p>
-<p>Everything else (complexity, adjustment factor) <strong>modifies</strong> this baseline.<br>Nothing replaces it.</p>
+<h1>Grandezza determinante e sforzo base</h1>
+<p>La grandezza determinante definisce la <strong>scala del progetto</strong>.<br>È il principale fattore che determina lo sforzo base nella ValueApp.</p>
+<p>I fattori di adeguamento <strong>modificano</strong> questo valore base.<br>Nulla lo sostituisce.</p>
 <hr>
-<h2>What quantity means in ValueApp</h2>
-<p>In ValueApp, quantity represents:</p>
+<h2>Cosa significa “grandezza determinante” nella ValueApp</h2>
+<p>Nella ValueApp, la grandezza determinante rappresenta:</p>
 <ul>
-<li>the <strong>size of what is being planned</strong>,</li>
-<li>expressed through a <strong>single, dominant quantity</strong>.</li>
+<li>la <strong>dimensione di ciò che viene progettato</strong>,</li>
+<li>espressa attraverso <strong>una metrica dominante</strong>.</li>
 </ul>
-<p>It answers the question:</p>
-<blockquote>
-<p><em>“How much project is there?”</em></p>
-</blockquote>
-<p>Not:</p>
-<ul>
-<li>how difficult it is,</li>
-<li>how well organised it is,</li>
-<li>how ambitious the design is.</li>
-</ul>
-<p>Those are handled elsewhere.</p>
 <hr>
-<h2>Typical quantities used</h2>
-<p>Depending on project type, quantity is usually expressed as:</p>
+<h2>Grandezze determinanti utilizzate</h2>
+<p>La grandezza determinante è indicata come:</p>
 <ul>
-<li><p><strong>Gross floor area (GFA / BGF)</strong><br>Most common for buildings.</p>
+<li><strong>superficie di piano / superficie lorda di piano</strong></li>
+</ul>
+<hr>
+<h2>Perché la grandezza determinante è così importante</h2>
+<p>La grandezza determinante è l’<strong>unico fattore</strong> che scala lo sforzo in modo affidabile.</p>
+<p>Raddoppiare la grandezza determinante non raddoppia lo sforzo in modo lineare, ma comporta:</p>
+<ul>
+<li>più coordinamento,</li>
+<li>più documentazione,</li>
+<li>più ripetizione con variazione.</li>
+</ul>
+<p>Gli intervalli della ValueApp sono calibrati in modo che:</p>
+<ul>
+<li>i progetti piccoli non siano sovrastimati,</li>
+<li>i progetti grandi non siano estrapolati in modo ingenuo.</li>
+</ul>
+<hr>
+<h2>Come la grandezza determinante influenza i risultati</h2>
+<p>La grandezza determinante:</p>
+<ul>
+<li>definisce l’<strong>intervallo di sforzo base</strong>,</li>
+<li>agisce su tutte le fasi di pianificazione,</li>
+<li>interagisce sempre con i fattori di adeguamento.</li>
+</ul>
+<p>Una grandezza maggiore comporta tipicamente:</p>
+<ul>
+<li>più elaborati,</li>
+<li>più cicli di coordinamento,</li>
+<li>più interfacce.</li>
+</ul>
+<p>Tuttavia, non spiega <strong>da sola</strong>:</p>
+<ul>
+<li>perché progetti della stessa dimensione possono avere sforzi molto diversi,</li>
+<li>perché piccoli progetti possono risultare sproporzionatamente complessi.</li>
+</ul>
+<p>Per questo esistono i fattori di adeguamento.</p>
+<hr>
+<h2>Scegliere la giusta grandezza determinante</h2>
+<p>In caso di dubbio:</p>
+<ul>
+<li>Meglio una <strong>leggera semplificazione</strong> che una precisione artificiale.</li>
+<li>Utilizzare <strong>una sola metrica dominante</strong>, non più.</li>
+<li>Non “ottimizzare” la grandezza per influenzare i risultati.</li>
+</ul>
+<p>Se un valore è discutibile, documenta l’ipotesi invece di perfezionarlo all’infinito.</p>
+<p>La precisione senza chiarezza non è accuratezza.</p>
+<hr>
+<h2>Dove appare la grandezza determinante nell’app</h2>
+<p>Definisci la grandezza determinante in:</p>
+<ul>
+<li><p><strong>Definizione del progetto</strong><br>Come primo input principale.</p>
 </li>
-<li><p><strong>Units</strong><br>For housing, rooms, or repetitive elements.</p>
+<li><p><strong>Calcolo base</strong><br>Dove ancora tutte le successive modifiche.</p>
 </li>
-<li><p><strong>Functional area</strong><br>When only part of a building is relevant.</p>
-</li>
-</ul>
-<p>The key rule is:</p>
-<blockquote>
-<p><strong>Use the quantity that best represents planning effort</strong>, not construction cost.</p>
-</blockquote>
-<hr>
-<h2>Why quantity matters so much</h2>
-<p>Quantity is the <strong>only factor that scales effort predictably</strong>.</p>
-<p>Doubling the quantity does not double effort linearly, but:</p>
-<ul>
-<li>it increases coordination,</li>
-<li>increases documentation,</li>
-<li>increases repetition with variation.</li>
-</ul>
-<p>ValueApp’s baseline curves are calibrated so that:</p>
-<ul>
-<li>small projects are not overestimated,</li>
-<li>large projects are not naïvely extrapolated.</li>
-</ul>
-<hr>
-<h2>How quantity affects results</h2>
-<p>Quantity:</p>
-<ul>
-<li>defines the <strong>baseline effort range</strong>,</li>
-<li>applies across all planning phases,</li>
-<li>interacts with complexity rather than replacing it.</li>
-</ul>
-<p>A larger quantity means:</p>
-<ul>
-<li>more drawings,</li>
-<li>more coordination cycles,</li>
-<li>more interfaces to manage.</li>
-</ul>
-<p>But quantity alone does <strong>not</strong> explain:</p>
-<ul>
-<li>why two projects of the same size differ significantly,</li>
-<li>why some small projects are disproportionately demanding.</li>
-</ul>
-<p>That is why complexity and adjustment factors exist.</p>
-<hr>
-<h2>Choosing the right quantity</h2>
-<p>When in doubt:</p>
-<ul>
-<li>Prefer <strong>slightly too simple</strong> over overly precise.</li>
-<li>Use <strong>one dominant quantity</strong>, not several.</li>
-<li>Avoid “optimised” quantities chosen to influence results.</li>
-</ul>
-<p>If the number feels debatable, document the assumption rather than refining it endlessly.</p>
-<p>Precision without clarity is not accuracy.</p>
-<hr>
-<h2>Where quantity appears in the app</h2>
-<p>You define quantity in:</p>
-<ul>
-<li><p><strong>Project setup</strong><br>As the first substantive input.</p>
-</li>
-<li><p><strong>Baseline calculation</strong><br>Where it anchors all further adjustments.</p>
-</li>
-<li><p><strong>Result summary</strong><br>Where it explains scale-related effort differences.</p>
+<li><p><strong>Sintesi dei risultati</strong><br>Dove spiega le differenze di sforzo legate alla scala.</p>
 </li>
 </ul>
-<p>For a guided walkthrough, see:
-→ <a href="workflows.html#quantity">Workflow: defining quantity</a></p>
+<p>Per una guida:
+→ <a href="workflows.html#quantity">Workflow: definire la grandezza determinante</a></p>
 <hr>
-<h2>Common mistakes to avoid</h2>
-<p>Do not:</p>
+<h2>Evitare errori comuni</h2>
+<p>Evita di:</p>
 <ul>
-<li>mix net and gross areas inconsistently,</li>
-<li>exclude “uncomfortable” parts of the project,</li>
-<li>change quantity late to correct an outcome.</li>
+<li>mescolare superfici nette e lorde,</li>
+<li>escludere parti del progetto,</li>
+<li>modificare la grandezza a posteriori per “correggere” il risultato.</li>
 </ul>
-<p>If changing quantity significantly alters the result, that is not a bug.<br>It means the project scope changed.</p>
+<p>Se una modifica cambia molto il risultato, non è un errore.<br>Significa che è cambiato il perimetro del progetto.</p>
 <hr>
-<h2>Optional visual reference</h2>
-<p>The relationship between quantity and baseline effort is <strong>non-linear</strong>:</p>
-<p><img src="/wiki-assets/knowledge/quantity-baseline-curve.jpeg" alt="Quantity vs baseline effort curve"></p>
-<p>The curve reflects:</p>
+<h2>Riferimento visivo opzionale</h2>
+<p>La relazione tra grandezza determinante e sforzo base non è <strong>lineare</strong>:</p>
+<p><img src="/wiki-assets/knowledge/quantity-baseline-curve.jpeg" alt="Grandezza determinante vs sforzo base"></p>
+<p>La curva considera:</p>
 <ul>
-<li>economies of repetition,</li>
-<li>increasing coordination load at scale.</li>
+<li>effetti di ripetizione,</li>
+<li>aumento dello sforzo di coordinamento con la dimensione.</li>
 </ul>
 <hr>
-<h2>See also</h2>
+<h2>Vedi anche</h2>
 <ul>
-<li><a href="complexity.html">Complexity dimensions</a></li>
-<li><a href="adjustment-factor.html">Adjustment (leadership) factor</a></li>
-<li><a href="roles-and-services.html">Roles and services</a></li>
-<li><a href="output-interpretation.html">Interpreting results</a></li>
-<li><a href="why-valueapp.html">What ValueApp is – and what it is not</a></li>
+<li><a href="complexity.html">Metodologia fattore di adeguamento</a></li>
+<li><a href="adjustment-factor.html">Fattore di adeguamento</a></li>
+<li><a href="roles-and-services.html">Ruoli e prestazioni</a></li>
+<li><a href="output-interpretation.html">Interpretare i risultati</a></li>
+<li><a href="why-valueapp.html">Cosa è la ValueApp — e cosa non è</a></li>
 </ul>
 
       </section>

@@ -58,19 +58,19 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>Bayesian learning in ValueApp</h1>
+<h1>Bayesian Learning in ValueApp</h1>
 <p>Bayesian learning describes <strong>how ValueApp combines existing knowledge with real project data</strong>.</p>
-<p>It allows the system to:</p>
+<p>It enables the system to:</p>
 <ul>
 <li>start from a structured reference,</li>
 <li>learn from observed projects,</li>
 <li>and update results in a controlled and transparent way.</li>
 </ul>
 <hr>
-<h2>What Bayesian means (in simple terms)</h2>
+<h2>What “Bayesian” means (simply explained)</h2>
 <p>At its core, Bayesian thinking answers one question:</p>
 <blockquote>
-<p><em>“How should we update what we believe, once we see new data?”</em></p>
+<p><em>“How should we adjust what we believe once we see new data?”</em></p>
 </blockquote>
 <p>It always combines two things:</p>
 <ul>
@@ -80,40 +80,40 @@
 <p>In ValueApp, this means:</p>
 <ul>
 <li>we do not start from zero  </li>
-<li>and we do not blindly trust data  </li>
+<li>and we do not blindly trust the data  </li>
 <li>we <strong>combine both</strong></li>
 </ul>
 <hr>
-<h2>The two ingredients</h2>
+<h2>The two components</h2>
 <h3>1. Prior (existing knowledge)</h3>
 <p>The <strong>prior</strong> is what we know before looking at the current data.</p>
 <p>In ValueApp, this comes from:</p>
 <ul>
-<li>studies (e.g. ETH work),</li>
+<li>studies (e.g. ETH),</li>
 <li>structured experience,</li>
-<li>established reference curves.</li>
+<li>existing reference curves.</li>
 </ul>
 <p>It defines:</p>
 <blockquote>
-<p><em>What we expect a building type to look like across GF intervals.</em></p>
+<p><em>How we expect a building type to behave across GF intervals.</em></p>
 </blockquote>
 <hr>
 <h3>2. Data (real projects)</h3>
 <p>The data consists of:</p>
 <ul>
-<li>actual projects,</li>
+<li>real projects,</li>
 <li>observed values,</li>
-<li>real distributions across building sizes.</li>
+<li>actual distributions across building sizes.</li>
 </ul>
-<p>It shows:</p>
+<p>They show:</p>
 <blockquote>
-<p><em>What is actually happening in practice.</em></p>
+<p><em>What actually happens in practice.</em></p>
 </blockquote>
 <hr>
 <h2>The result: an updated estimate</h2>
-<p>Bayesian learning combines prior and data to produce:</p>
+<p>Bayesian learning combines prior and data into a:</p>
 <blockquote>
-<p>a <strong>posterior</strong> (updated result)</p>
+<p><strong>Posterior (updated result)</strong></p>
 </blockquote>
 <p>This is what ValueApp shows as the <strong>learned curve</strong>.</p>
 <p>It is:</p>
@@ -124,30 +124,30 @@
 </ul>
 <hr>
 <h2>Why this is necessary</h2>
-<p>If we used only priors:</p>
+<p>If we only used priors:</p>
 <ul>
 <li>results would be stable  </li>
 <li>but disconnected from reality</li>
 </ul>
-<p>If we used only data:</p>
+<p>If we only used data:</p>
 <ul>
 <li>results would be unstable  </li>
 <li>especially with few observations</li>
 </ul>
 <p>Bayesian learning solves this by balancing both.</p>
 <hr>
-<h2>How the balance works</h2>
+<h2>How the weighting works</h2>
 <p>The system automatically adjusts how much it trusts each source.</p>
-<h3>When there is a lot of data</h3>
+<h3>When many data points are available</h3>
 <ul>
-<li>the model leans more on <strong>real projects</strong>  </li>
+<li>the model relies more on <strong>real projects</strong>  </li>
 <li>the result becomes more specific  </li>
-<li>the curve reflects observed behaviour</li>
+<li>the curve follows observed behavior</li>
 </ul>
-<h3>When there is little data</h3>
+<h3>When few data points are available</h3>
 <ul>
-<li>the model leans more on the <strong>prior</strong>  </li>
-<li>the result stays stable  </li>
+<li>the model relies more on the <strong>prior</strong>  </li>
+<li>the result remains stable  </li>
 <li>unrealistic jumps are avoided</li>
 </ul>
 <p>In both cases:</p>
@@ -156,7 +156,7 @@
 </blockquote>
 <hr>
 <h2>Why this matters for building types</h2>
-<p>Not all building types are equally represented.</p>
+<p>Not all building types are equally well covered.</p>
 <p>Some have:</p>
 <ul>
 <li>many projects  </li>
@@ -169,74 +169,74 @@
 </ul>
 <p>Bayesian learning allows ValueApp to:</p>
 <ul>
-<li>produce results for all building types,  </li>
-<li>while clearly reflecting data availability,  </li>
-<li>without overfitting or guessing.</li>
+<li>deliver results for all building types,  </li>
+<li>account for data availability transparently,  </li>
+<li>without overfitting or “guessing”.</li>
 </ul>
 <hr>
-<h2>What this means for GF intervals</h2>
-<p>Within each GF interval, the model:</p>
+<h2>Relevance for GF intervals</h2>
+<p>Within each GF interval:</p>
 <ol>
-<li>starts from the reference value (prior),  </li>
+<li>the model starts with the reference value (prior),  </li>
 <li>compares it with real project data,  </li>
 <li>adjusts the value accordingly.</li>
 </ol>
 <p>This creates a curve that:</p>
 <ul>
-<li>follows real behaviour where data exists,  </li>
-<li>and remains anchored where it does not.</li>
+<li>follows real behavior where data exists,  </li>
+<li>and remains stable where it does not.</li>
 </ul>
 <hr>
 <h2>What Bayesian learning is not</h2>
 <p>It is not:</p>
 <ul>
 <li>a black box that invents values  </li>
-<li>a replacement for domain knowledge  </li>
+<li>a replacement for professional expertise  </li>
 <li>a purely statistical exercise without structure</li>
 </ul>
 <p>Instead:</p>
 <ul>
-<li>it formalises how experience and data interact  </li>
-<li>and makes that interaction consistent across all building types</li>
+<li>it formalizes the interaction between experience and data  </li>
+<li>and makes this interaction consistent across all building types</li>
 </ul>
 <hr>
 <h2>In one sentence</h2>
 <blockquote>
-<p>Bayesian learning allows ValueApp to start from established reference knowledge and continuously update it using real project data.</p>
+<p>Bayesian learning enables ValueApp to start from existing reference values and continuously update them using real project data.</p>
 </blockquote>
 <hr>
 <h2>Why this improves ValueApp</h2>
-<p>With Bayesian learning, the system becomes:</p>
+<p>Through Bayesian learning, the system becomes:</p>
 <ul>
-<li>more realistic → reflects actual projects  </li>
-<li>more robust → stable even with limited data  </li>
+<li>more realistic → better reflects real projects  </li>
+<li>more robust → remains stable even with limited data  </li>
 <li>more scalable → works across all building types</li>
 </ul>
-<p>It ensures that:</p>
+<p>It ensures:</p>
 <ul>
-<li>new data improves results,  </li>
-<li>but existing knowledge is never discarded.</li>
+<li>that new data improves results,  </li>
+<li>without discarding existing knowledge.</li>
 </ul>
 <hr>
-<h2>Common misunderstandings</h2>
-<p>Do not assume:</p>
+<h2>Common misconceptions</h2>
+<p>One should not assume:</p>
 <ul>
 <li>that priors are ignored  </li>
 <li>that data fully overrides everything  </li>
-<li>that more data always means large changes</li>
+<li>that more data always leads to large changes</li>
 </ul>
 <p>Instead:</p>
 <ul>
 <li>priors remain the foundation  </li>
 <li>data refines them  </li>
-<li>and the model controls how much adjustment is appropriate</li>
+<li>and the model controls the degree of adjustment</li>
 </ul>
 <hr>
 <h2>See also</h2>
 <ul>
 <li><a href="gf-intervals.html">GF intervals and learned curves</a></li>
-<li><a href="complexity.html">Complexity dimensions</a></li>
-<li><a href="quantity.html">Quantity and baseline effort</a></li>
+<li><a href="complexity.html">Adjustment factor methodology</a></li>
+<li><a href="quantity.html">Determining variables and base effort</a></li>
 <li><a href="output-interpretation.html">Interpreting results</a></li>
 </ul>
 

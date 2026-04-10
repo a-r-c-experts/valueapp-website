@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8" />
   <title>ValueApp Wiki – how-it-works</title>
@@ -43,6 +43,7 @@
         <button class="lang-option" data-lang="en">EN</button>
         <button class="lang-option" data-lang="de">DE</button>
         <button class="lang-option" data-lang="fr">FR</button>
+        <button class="lang-option" data-lang="it">IT</button>
       </div>
     </div>
 
@@ -57,48 +58,69 @@
     <div class="wiki-layout">
       <aside class="wiki-toc" id="wikiToc"></aside>
       <section class="wiki-section wiki-content">
-<h1>How the app works</h1>
-<p>This page explains, at a conceptual level, what the ValueApp does between your inputs and the final one‑pager. If you want the “click here, type this” version, jump to the <a href="tutorial.html">Tutorial</a>.</p>
-<h2>The idea in one sentence</h2>
-<p>The ValueApp estimates planning effort (hours) for basic services by combining a <strong>base model</strong> (from reference projects) with a <strong>determinant</strong> (usually gross floor area) and <strong>adjustment factors</strong> (complexity and context).</p>
-<h2>What happens from left to right</h2>
-<h3>1) You describe the project</h3>
-<p>In <strong>Description (Beschrieb)</strong> you capture the identity of the project and the organisational setup. This matters because results are meant to be communicated and archived, not just stared at.</p>
-<h3>2) You define quantity, uses and complexity</h3>
-<p>In <strong>Project (Projekt)</strong> you enter:</p>
+<h1>Come funziona l’app</h1>
+<h2>Sintesi</h2>
+<p>La ValueApp stima lo sforzo di pianificazione (ore) per discipline e fasi sulla base di <strong>determinanti misurabili</strong> (ad es. superficie lorda di piano) e di <strong>fattori di adeguamento specifici del progetto</strong>.<br>Invece di «costi di costruzione → onorario», l’app utilizza: <strong>dati di riferimento → sforzo base → fattori di adeguamento → ore per fase → sintesi</strong>.</p>
+<h2>Flusso dei dati in quattro fasi</h2>
+<h3>1. Descrizione: contesto e organizzazione</h3>
+<p>Nella fase <strong>Descrizione</strong>, inserisci:</p>
 <ul>
-<li>the <strong>determinant</strong> (e.g. m² gross floor area),</li>
-<li>the <strong>mix of uses</strong> (housing, work, learning, etc.),</li>
-<li>and a structured <strong>complexity assessment</strong> (design, technical, spatial, organisational).</li>
+<li>titolo del progetto, indirizzo, stato (ad es. studio, progetto preliminare, esecuzione)</li>
+<li>una breve descrizione del progetto (condizioni, particolarità)</li>
+<li>l’organizzazione (ad es. progettista singolo, progettista generale, impresa generale)</li>
 </ul>
-<p>That complexity is mapped to the Leadership Framework and translated into an <strong>adjustment factor</strong>.</p>
-<h3>3) You select role and service setup</h3>
-<p>In <strong>Services (Leistung)</strong> you choose your role (architect, general planner, etc.), mark focus topics and review the calculated hours for 100% basic services, including the default distribution across phases.</p>
-<h3>4) You validate and export</h3>
-<p>In <strong>Summary (Zusammenfassung)</strong> the app consolidates the inputs and results into a one‑pager for communication (offer, internal controlling, procurement, documentation).</p>
-<h2>What is calculated</h2>
-<p>At a simplified level, the method can be written as:</p>
-<p><strong>Effort (h) = Base effort × Determinant × AF_quality × AF_project/process</strong></p>
+<p><strong>Perché è importante:</strong><br>Contesto e organizzazione influenzano l’interpretazione dei risultati (ad es. responsabilità, interfacce, sforzo di comunicazione).</p>
+<h3>2. Progetto: determinante, mix di usi e fattori di adeguamento</h3>
+<p>Nella fase <strong>Progetto</strong>, definisci la base del calcolo:</p>
 <ul>
-<li><strong>Base effort</strong> comes from a statistical base model for a given use.</li>
-<li><strong>Determinant</strong> scales effort (typically m²).</li>
-<li><strong>AF_quality</strong> reflects the complexity of design/technical/spatial/organisational challenges.</li>
-<li><strong>AF_project/process</strong> captures additional context or process effects, where applicable.</li>
+<li><strong>determinante</strong> (tipicamente m² di superficie lorda di piano)</li>
+<li><strong>uso/i</strong> o mix di usi (ad es. abitare, lavorare, formazione/ricerca)</li>
+<li><strong>fattore di adeguamento</strong> in quattro dimensioni: progettuale, tecnica, spaziale, organizzativa</li>
 </ul>
-<p>If those terms feel abstract, the <a href="definitions.html">Definitions</a> page breaks them down.</p>
-<h2>What the result is (and is not)</h2>
+<p>L’app collega questi input a un <strong>modello di base</strong> (dati di riferimento) e ne deriva uno sforzo base (LI).<br>La valutazione della complessità viene posizionata nel <strong>Leadership Framework for Decision Making</strong> e produce un <strong>fattore di adeguamento (AF)</strong>.</p>
+<h3>3. Prestazioni: ruolo, priorità e distribuzione per fasi</h3>
+<p>Nella fase <strong>Prestazioni</strong>, selezioni:</p>
 <ul>
-<li>The output is a <strong>plausible effort range</strong> anchored in comparable reference projects.</li>
-<li>It is <strong>not</strong> a fee calculator and it does <strong>not</strong> replace professional judgement.</li>
-<li>The value is transparency: assumptions are visible, discussable and documentable.</li>
+<li>il tuo ruolo (ad es. architettura, architettura &amp; progettazione generale)</li>
+<li>i temi principali (se applicabile)</li>
+<li>la distribuzione per fasi (ad es. SIA 3–5)</li>
 </ul>
-<h2>See also</h2>
+<p><strong>Risultato:</strong> ore per fase (e per disciplina, se rilevante), sulla base di:</p>
 <ul>
-<li><a href="why-valueapp.html">Why ValueApp exists</a></li>
-<li><a href="definitions.html">Definitions and core concepts</a></li>
-<li><a href="project-section.html">Project section</a></li>
-<li><a href="examples.html">Examples</a></li>
-<li><a href="tutorial.html">Tutorial</a></li>
+<li>sforzo base (modello + determinante)</li>
+<li>fattori di adeguamento legati a qualità, progetto e processo</li>
+</ul>
+<h3>4. Sintesi: risultati, documentazione, export</h3>
+<p>La <strong>Sintesi</strong> è il livello “comunicabile”:</p>
+<ul>
+<li>dati chiave (determinante, mix di usi, organizzazione)</li>
+<li>indicatori di sforzo (ad es. ore / m², intervalli)</li>
+<li>ore per fase e, se necessario, note interpretative</li>
+</ul>
+<p>Questa pagina è pensata per <strong>offerte, verifiche interne e procedure di gara</strong>.</p>
+<h2>Logica di calcolo in una frase</h2>
+<p>Semplificata:</p>
+<p><strong>Sforzo (h) = Sforzo base LI (h) × Determinante × AF_Qualità × AF_(Progetto/Processo)</strong></p>
+<ul>
+<li><strong>LI</strong> deriva dal modello di base e rappresenta lo «sforzo per unità».</li>
+<li><strong>AF</strong> modifica il risultato in funzione di complessità e contesto.</li>
+</ul>
+<h2>Cosa sono i risultati — e cosa non sono</h2>
+<p><strong>I risultati sono:</strong></p>
+<ul>
+<li>una <strong>stima</strong> trasparente e tracciabile basata su dati e riferimenti</li>
+<li>utili per verifica, comunicazione e decisioni iniziali</li>
+</ul>
+<p><strong>I risultati non sono:</strong></p>
+<ul>
+<li>un calcolo di onorari basato sui costi</li>
+<li>un sostituto di contratti o definizioni di prestazioni</li>
+</ul>
+<h2>Pagine correlate</h2>
+<ul>
+<li><strong>Primi passi:</strong> panoramica: <a href="getting-started.html">getting-started.html</a>  </li>
+<li><strong>Concetti:</strong> modelli, determinanti, AF: <a href="definitions.html">definitions.html</a>  </li>
+<li><strong>Tutorial:</strong> guida dettagliata: <a href="tutorial.html">tutorial.html</a></li>
 </ul>
 
       </section>
